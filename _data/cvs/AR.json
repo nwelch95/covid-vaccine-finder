@@ -3,29 +3,30 @@
     "address": null,
     "appointments": [
     ],
-    "appointments_available": true,
-    "appointments_last_fetched": "2021-02-24T14:31:25.066+00:00",
+    "appointments_available": false,
+    "appointments_last_fetched": "2021-02-24T14:32:09.21+00:00",
     "appointments_raw": {
       "responseMetaData": {
-        "conversationId": "Id-2bf776dea6044a978af0aab67998bfb6",
+        "conversationId": "Id-66783e07e4c14f95bd765d1971ac48b5",
         "operation": "getInventorybyCity",
-        "refId": "Id-8f603660e08538ca5fce087c",
+        "refId": "Id-e362366047eb29001ace104e",
         "statusCode": "0000",
         "statusDesc": "Success"
       },
       "responsePayloadData": {
-        "currentTime": "2021-02-24T07:20:00.513",
+        "currentTime": "2021-02-24T07:29:56.390",
         "data": {
           "AR": [
             {
               "city": "RUSSELLVILLE",
               "pctAvailable": "0.00%",
               "state": "AR",
-              "status": "Available",
+              "status": "Fully Booked",
               "totalAvailable": "0"
             }
           ]
-        }
+        },
+        "isBookingCompleted": false
       }
     },
     "brand": "cvs",
@@ -41,29 +42,30 @@
     "address": null,
     "appointments": [
     ],
-    "appointments_available": true,
-    "appointments_last_fetched": "2021-02-24T14:31:25.066+00:00",
+    "appointments_available": false,
+    "appointments_last_fetched": "2021-02-24T14:32:09.21+00:00",
     "appointments_raw": {
       "responseMetaData": {
-        "conversationId": "Id-2bf776dea6044a978af0aab67998bfb6",
+        "conversationId": "Id-66783e07e4c14f95bd765d1971ac48b5",
         "operation": "getInventorybyCity",
-        "refId": "Id-8f603660e08538ca5fce087c",
+        "refId": "Id-e362366047eb29001ace104e",
         "statusCode": "0000",
         "statusDesc": "Success"
       },
       "responsePayloadData": {
-        "currentTime": "2021-02-24T07:20:00.513",
+        "currentTime": "2021-02-24T07:29:56.390",
         "data": {
           "AR": [
             {
               "city": "SPRINGDALE",
               "pctAvailable": "0.00%",
               "state": "AR",
-              "status": "Available",
+              "status": "Fully Booked",
               "totalAvailable": "0"
             }
           ]
-        }
+        },
+        "isBookingCompleted": false
       }
     },
     "brand": "cvs",
@@ -80,17 +82,17 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-24T14:31:25.066+00:00",
+    "appointments_last_fetched": "2021-02-24T14:32:09.21+00:00",
     "appointments_raw": {
       "responseMetaData": {
-        "conversationId": "Id-2bf776dea6044a978af0aab67998bfb6",
+        "conversationId": "Id-66783e07e4c14f95bd765d1971ac48b5",
         "operation": "getInventorybyCity",
-        "refId": "Id-8f603660e08538ca5fce087c",
+        "refId": "Id-e362366047eb29001ace104e",
         "statusCode": "0000",
         "statusDesc": "Success"
       },
       "responsePayloadData": {
-        "currentTime": "2021-02-24T07:20:00.513",
+        "currentTime": "2021-02-24T07:29:56.390",
         "data": {
           "AR": [
             {
@@ -101,7 +103,8 @@
               "totalAvailable": "0"
             }
           ]
-        }
+        },
+        "isBookingCompleted": false
       }
     },
     "brand": "cvs",
