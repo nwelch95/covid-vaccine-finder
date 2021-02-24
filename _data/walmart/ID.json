@@ -4,7 +4,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-24T17:53:56.256+00:00",
+    "appointments_last_fetched": "2021-02-24T17:57:31.666+00:00",
     "appointments_raw": {
       "data": {
         "accessPointId": "83a9ec7c-f760-4820-b8d2-3d009420903f",
@@ -666,12 +666,12 @@
   {
     "address": "7319 W State St",
     "appointments": [
-      "2021-03-01T08:40:00.000-07:00",
       "2021-03-02T08:00:00.000-07:00",
       "2021-03-02T08:20:00.000-07:00",
       "2021-03-02T08:40:00.000-07:00",
       "2021-03-02T09:20:00.000-07:00",
       "2021-03-02T09:40:00.000-07:00",
+      "2021-03-02T10:20:00.000-07:00",
       "2021-03-02T10:40:00.000-07:00",
       "2021-03-02T12:20:00.000-07:00",
       "2021-03-02T12:40:00.000-07:00",
@@ -682,7 +682,7 @@
       "2021-03-02T14:40:00.000-07:00"
     ],
     "appointments_available": true,
-    "appointments_last_fetched": "2021-02-24T17:53:26.155+00:00",
+    "appointments_last_fetched": "2021-02-24T17:57:01.008+00:00",
     "appointments_raw": {
       "data": {
         "accessPointId": "e8db73bc-989d-4f31-a0f3-3694b53c8590",
@@ -719,14 +719,9 @@
             ]
           },
           {
-            "message": null,
+            "message": "There are no appointments available for Mon, 1 Mar. Please select a different day.",
             "slotDate": "03012021",
             "slots": [
-              {
-                "endTime": "9:00",
-                "slotId": "39e7afb1-87d5-4647-9a62-24e514deff55-2021-03-01",
-                "startTime": "8:40"
-              }
             ]
           },
           {
@@ -757,6 +752,11 @@
                 "endTime": "10:00",
                 "slotId": "f7312bc3-ccb7-4e09-b994-0d76987cae3e-2021-03-02",
                 "startTime": "9:40"
+              },
+              {
+                "endTime": "10:40",
+                "slotId": "d1a17170-ce61-436e-beed-9cd1a59f46b5-2021-03-02",
+                "startTime": "10:20"
               },
               {
                 "endTime": "11:00",
