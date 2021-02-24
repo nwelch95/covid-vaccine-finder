@@ -1,0 +1,41 @@
+[
+  {
+    "address": null,
+    "appointments": [
+    ],
+    "appointments_available": false,
+    "appointments_last_fetched": "2021-02-24T06:05:43.227+00:00",
+    "appointments_raw": {
+      "responseMetaData": {
+        "conversationId": "Id-5369cd19536948dc95a99a7bfaf4187e",
+        "operation": "getInventorybyCity",
+        "refId": "Id-61ec356051e399cc5d17b7d9",
+        "statusCode": "0000",
+        "statusDesc": "Success"
+      },
+      "responsePayloadData": {
+        "currentTime": "2021-02-23T23:04:18.084",
+        "data": {
+          "PR": [
+            {
+              "city": "SAN JUAN",
+              "pctAvailable": "0.00%",
+              "state": "PR",
+              "status": "Fully Booked",
+              "totalAvailable": "0"
+            }
+          ]
+        },
+        "isBookingCompleted": false
+      }
+    },
+    "brand": "cvs",
+    "brand_id": "PR-SAN JUAN",
+    "carries_vaccine": true,
+    "city": "San Juan",
+    "id": 644,
+    "name": "San Juan, PR",
+    "postal_code": null,
+    "state": "PR"
+  }
+]
