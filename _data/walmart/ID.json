@@ -4,7 +4,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-24T16:32:12.708+00:00",
+    "appointments_last_fetched": "2021-02-24T16:35:41.845+00:00",
     "appointments_raw": {
       "data": {
         "accessPointId": "83a9ec7c-f760-4820-b8d2-3d009420903f",
@@ -666,6 +666,7 @@
   {
     "address": "7319 W State St",
     "appointments": [
+      "2021-03-01T14:40:00.000-07:00",
       "2021-03-02T08:00:00.000-07:00",
       "2021-03-02T08:20:00.000-07:00",
       "2021-03-02T08:40:00.000-07:00",
@@ -689,7 +690,7 @@
       "2021-03-02T14:40:00.000-07:00"
     ],
     "appointments_available": true,
-    "appointments_last_fetched": "2021-02-24T16:31:38.275+00:00",
+    "appointments_last_fetched": "2021-02-24T16:35:07.977+00:00",
     "appointments_raw": {
       "data": {
         "accessPointId": "e8db73bc-989d-4f31-a0f3-3694b53c8590",
@@ -726,9 +727,14 @@
             ]
           },
           {
-            "message": "There are no appointments available for Mon, 1 Mar. Please select a different day.",
+            "message": null,
             "slotDate": "03012021",
             "slots": [
+              {
+                "endTime": "15:00",
+                "slotId": "51719342-0237-466b-8345-425b9851088a-2021-03-01",
+                "startTime": "14:40"
+              }
             ]
           },
           {
