@@ -276,18 +276,12 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-26T05:58:23.701+00:00",
+    "appointments_last_fetched": "2021-02-26T06:01:58.245+00:00",
     "appointments_raw": {
       "data": {
         "accessPointId": "30cf8055-569c-42d6-8adc-771e6006e5f7",
-        "endDate": "03032021",
+        "endDate": "03042021",
         "slotDays": [
-          {
-            "message": "There are no appointments available for this store right now. Please try another store.",
-            "slotDate": "02252021",
-            "slots": [
-            ]
-          },
           {
             "message": "There are no appointments available for this store right now. Please try another store.",
             "slotDate": "02262021",
@@ -323,9 +317,15 @@
             "slotDate": "03032021",
             "slots": [
             ]
+          },
+          {
+            "message": "There are no appointments available for this store right now. Please try another store.",
+            "slotDate": "03042021",
+            "slots": [
+            ]
           }
         ],
-        "startDate": "02252021"
+        "startDate": "02262021"
       },
       "message": "OK",
       "status": "1"
@@ -342,58 +342,118 @@
   {
     "address": "205 Deadrick Rd",
     "appointments": [
+      "2021-03-04T09:40:00.000-06:00",
+      "2021-03-04T10:00:00.000-06:00",
+      "2021-03-04T10:20:00.000-06:00",
+      "2021-03-04T10:40:00.000-06:00",
+      "2021-03-04T11:00:00.000-06:00",
+      "2021-03-04T11:20:00.000-06:00",
+      "2021-03-04T11:40:00.000-06:00",
+      "2021-03-04T12:00:00.000-06:00",
+      "2021-03-04T12:20:00.000-06:00",
+      "2021-03-04T12:40:00.000-06:00"
     ],
-    "appointments_available": false,
-    "appointments_last_fetched": "2021-02-26T05:58:28.288+00:00",
+    "appointments_available": true,
+    "appointments_last_fetched": "2021-02-26T06:02:02.578+00:00",
     "appointments_raw": {
       "data": {
         "accessPointId": "17f70ee0-af0c-4c15-ade8-28d7eb2d6aef",
-        "endDate": "03032021",
+        "endDate": "03042021",
         "slotDays": [
           {
-            "message": "There are no appointments available for this store right now. Please try another store.",
-            "slotDate": "02252021",
-            "slots": [
-            ]
-          },
-          {
-            "message": "There are no appointments available for this store right now. Please try another store.",
+            "message": "There are no appointments available today. Please select a different day.",
             "slotDate": "02262021",
             "slots": [
             ]
           },
           {
-            "message": "There are no appointments available for this store right now. Please try another store.",
+            "message": "There are no appointments available for Sat, 27 Feb. Please select a different day.",
             "slotDate": "02272021",
             "slots": [
             ]
           },
           {
-            "message": "There are no appointments available for this store right now. Please try another store.",
+            "message": "There are no appointments available for Sun, 28 Feb. Please select a different day.",
             "slotDate": "02282021",
             "slots": [
             ]
           },
           {
-            "message": "There are no appointments available for this store right now. Please try another store.",
+            "message": "There are no appointments available for Mon, 1 Mar. Please select a different day.",
             "slotDate": "03012021",
             "slots": [
             ]
           },
           {
-            "message": "There are no appointments available for this store right now. Please try another store.",
+            "message": "There are no appointments available for Tue, 2 Mar. Please select a different day.",
             "slotDate": "03022021",
             "slots": [
             ]
           },
           {
-            "message": "There are no appointments available for this store right now. Please try another store.",
+            "message": "There are no appointments available for Wed, 3 Mar. Please select a different day.",
             "slotDate": "03032021",
             "slots": [
             ]
+          },
+          {
+            "message": null,
+            "slotDate": "03042021",
+            "slots": [
+              {
+                "endTime": "10:00",
+                "slotId": "6133205b-529f-414a-81ac-df8e77a62014-2021-03-04",
+                "startTime": "9:40"
+              },
+              {
+                "endTime": "10:20",
+                "slotId": "64a83bc8-3f58-48e0-b3dd-efb51bad8fca-2021-03-04",
+                "startTime": "10:00"
+              },
+              {
+                "endTime": "10:40",
+                "slotId": "7e47d496-c7a9-4192-9560-0a5c1b27e397-2021-03-04",
+                "startTime": "10:20"
+              },
+              {
+                "endTime": "11:00",
+                "slotId": "0bdc9595-7847-42a4-b015-8bfd71739a96-2021-03-04",
+                "startTime": "10:40"
+              },
+              {
+                "endTime": "11:20",
+                "slotId": "0b3b6a5f-9645-403e-9963-a472db4e9cd6-2021-03-04",
+                "startTime": "11:00"
+              },
+              {
+                "endTime": "11:40",
+                "slotId": "4a3a2d13-d4fd-411b-a6b5-2be8405f0079-2021-03-04",
+                "startTime": "11:20"
+              },
+              {
+                "endTime": "12:00",
+                "slotId": "b9aa27b7-0678-49a7-a4bd-a176663a1306-2021-03-04",
+                "startTime": "11:40"
+              },
+              {
+                "endTime": "12:20",
+                "slotId": "c7e03525-da2f-4f6b-8991-44ce0cb7388f-2021-03-04",
+                "startTime": "12:00"
+              },
+              {
+                "endTime": "12:40",
+                "slotId": "57f8b46d-e35e-4f11-993b-27c52e6eb92d-2021-03-04",
+                "startTime": "12:20"
+              },
+              {
+                "endTime": "13:00",
+                "slotId": "b6b23fa5-c362-46b8-81e3-84808816a24a-2021-03-04",
+                "startTime": "12:40"
+              }
+            ]
           }
         ],
-        "startDate": "02252021"
+        "startDate": "02262021"
       },
       "message": "OK",
       "status": "1"
@@ -548,18 +608,12 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-26T05:57:31.38+00:00",
+    "appointments_last_fetched": "2021-02-26T06:00:59.156+00:00",
     "appointments_raw": {
       "data": {
         "accessPointId": "e1a531ed-d685-403b-8c97-4c0bb7c37e69",
-        "endDate": "03032021",
+        "endDate": "03042021",
         "slotDays": [
-          {
-            "message": "There are no appointments available for this store right now. Please try another store.",
-            "slotDate": "02252021",
-            "slots": [
-            ]
-          },
           {
             "message": "There are no appointments available for this store right now. Please try another store.",
             "slotDate": "02262021",
@@ -595,9 +649,15 @@
             "slotDate": "03032021",
             "slots": [
             ]
+          },
+          {
+            "message": "There are no appointments available for this store right now. Please try another store.",
+            "slotDate": "03042021",
+            "slots": [
+            ]
           }
         ],
-        "startDate": "02252021"
+        "startDate": "02262021"
       },
       "message": "OK",
       "status": "1"
@@ -616,18 +676,12 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-26T05:58:02.16+00:00",
+    "appointments_last_fetched": "2021-02-26T06:01:31.407+00:00",
     "appointments_raw": {
       "data": {
         "accessPointId": "0dae5f4e-b82b-4e0f-a44a-0111ffa0740d",
-        "endDate": "03032021",
+        "endDate": "03042021",
         "slotDays": [
-          {
-            "message": "There are no appointments available for this store right now. Please try another store.",
-            "slotDate": "02252021",
-            "slots": [
-            ]
-          },
           {
             "message": "There are no appointments available for this store right now. Please try another store.",
             "slotDate": "02262021",
@@ -663,9 +717,15 @@
             "slotDate": "03032021",
             "slots": [
             ]
+          },
+          {
+            "message": "There are no appointments available for this store right now. Please try another store.",
+            "slotDate": "03042021",
+            "slots": [
+            ]
           }
         ],
-        "startDate": "02252021"
+        "startDate": "02262021"
       },
       "message": "OK",
       "status": "1"
@@ -684,18 +744,12 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-26T05:57:48.838+00:00",
+    "appointments_last_fetched": "2021-02-26T06:01:17.747+00:00",
     "appointments_raw": {
       "data": {
         "accessPointId": "27876879-3363-4bde-8de1-a197e53b088f",
-        "endDate": "03032021",
+        "endDate": "03042021",
         "slotDays": [
-          {
-            "message": "There are no appointments available for this store right now. Please try another store.",
-            "slotDate": "02252021",
-            "slots": [
-            ]
-          },
           {
             "message": "There are no appointments available for this store right now. Please try another store.",
             "slotDate": "02262021",
@@ -731,9 +785,15 @@
             "slotDate": "03032021",
             "slots": [
             ]
+          },
+          {
+            "message": "There are no appointments available for this store right now. Please try another store.",
+            "slotDate": "03042021",
+            "slots": [
+            ]
           }
         ],
-        "startDate": "02252021"
+        "startDate": "02262021"
       },
       "message": "OK",
       "status": "1"
@@ -752,18 +812,12 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-26T05:58:06.317+00:00",
+    "appointments_last_fetched": "2021-02-26T06:01:34.872+00:00",
     "appointments_raw": {
       "data": {
         "accessPointId": "5af1ecc3-1ea2-4f80-94d7-e0ff753816a1",
-        "endDate": "03032021",
+        "endDate": "03042021",
         "slotDays": [
-          {
-            "message": "There are no appointments available for this store right now. Please try another store.",
-            "slotDate": "02252021",
-            "slots": [
-            ]
-          },
           {
             "message": "There are no appointments available for this store right now. Please try another store.",
             "slotDate": "02262021",
@@ -799,9 +853,15 @@
             "slotDate": "03032021",
             "slots": [
             ]
+          },
+          {
+            "message": "There are no appointments available for this store right now. Please try another store.",
+            "slotDate": "03042021",
+            "slots": [
+            ]
           }
         ],
-        "startDate": "02252021"
+        "startDate": "02262021"
       },
       "message": "OK",
       "status": "1"
@@ -865,18 +925,12 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-26T05:58:41.573+00:00",
+    "appointments_last_fetched": "2021-02-26T06:02:10.011+00:00",
     "appointments_raw": {
       "data": {
         "accessPointId": "a5337461-f6d3-431a-bf04-956f6dbe0605",
-        "endDate": "03032021",
+        "endDate": "03042021",
         "slotDays": [
-          {
-            "message": "There are no appointments available for this store right now. Please try another store.",
-            "slotDate": "02252021",
-            "slots": [
-            ]
-          },
           {
             "message": "There are no appointments available for this store right now. Please try another store.",
             "slotDate": "02262021",
@@ -912,9 +966,15 @@
             "slotDate": "03032021",
             "slots": [
             ]
+          },
+          {
+            "message": "There are no appointments available for this store right now. Please try another store.",
+            "slotDate": "03042021",
+            "slots": [
+            ]
           }
         ],
-        "startDate": "02252021"
+        "startDate": "02262021"
       },
       "message": "OK",
       "status": "1"
@@ -1211,18 +1271,12 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-26T05:58:18.897+00:00",
+    "appointments_last_fetched": "2021-02-26T06:01:53.39+00:00",
     "appointments_raw": {
       "data": {
         "accessPointId": "5dfe4178-6c4d-4d5e-8ae7-9321e653c6cc",
-        "endDate": "03032021",
+        "endDate": "03042021",
         "slotDays": [
-          {
-            "message": "There are no appointments available for this store right now. Please try another store.",
-            "slotDate": "02252021",
-            "slots": [
-            ]
-          },
           {
             "message": "There are no appointments available for this store right now. Please try another store.",
             "slotDate": "02262021",
@@ -1258,9 +1312,15 @@
             "slotDate": "03032021",
             "slots": [
             ]
+          },
+          {
+            "message": "There are no appointments available for this store right now. Please try another store.",
+            "slotDate": "03042021",
+            "slots": [
+            ]
           }
         ],
-        "startDate": "02252021"
+        "startDate": "02262021"
       },
       "message": "OK",
       "status": "1"
@@ -1309,18 +1369,12 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-26T05:58:39.758+00:00",
+    "appointments_last_fetched": "2021-02-26T06:02:07.882+00:00",
     "appointments_raw": {
       "data": {
         "accessPointId": "bb78df4e-f6c4-46eb-bc46-66241ee52d6c",
-        "endDate": "03032021",
+        "endDate": "03042021",
         "slotDays": [
-          {
-            "message": "There are no appointments available for this store right now. Please try another store.",
-            "slotDate": "02252021",
-            "slots": [
-            ]
-          },
           {
             "message": "There are no appointments available for this store right now. Please try another store.",
             "slotDate": "02262021",
@@ -1356,9 +1410,15 @@
             "slotDate": "03032021",
             "slots": [
             ]
+          },
+          {
+            "message": "There are no appointments available for this store right now. Please try another store.",
+            "slotDate": "03042021",
+            "slots": [
+            ]
           }
         ],
-        "startDate": "02252021"
+        "startDate": "02262021"
       },
       "message": "OK",
       "status": "1"
@@ -1527,18 +1587,12 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-26T05:58:41.805+00:00",
+    "appointments_last_fetched": "2021-02-26T06:02:09.746+00:00",
     "appointments_raw": {
       "data": {
         "accessPointId": "72c75a8a-b57e-42fb-a20e-2c1c38f8d1d0",
-        "endDate": "03032021",
+        "endDate": "03042021",
         "slotDays": [
-          {
-            "message": "There are no appointments available for this store right now. Please try another store.",
-            "slotDate": "02252021",
-            "slots": [
-            ]
-          },
           {
             "message": "There are no appointments available for this store right now. Please try another store.",
             "slotDate": "02262021",
@@ -1574,9 +1628,15 @@
             "slotDate": "03032021",
             "slots": [
             ]
+          },
+          {
+            "message": "There are no appointments available for this store right now. Please try another store.",
+            "slotDate": "03042021",
+            "slots": [
+            ]
           }
         ],
-        "startDate": "02252021"
+        "startDate": "02262021"
       },
       "message": "OK",
       "status": "1"
@@ -1595,18 +1655,12 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-26T05:58:21.817+00:00",
+    "appointments_last_fetched": "2021-02-26T06:01:56.284+00:00",
     "appointments_raw": {
       "data": {
         "accessPointId": "046d59f0-73b0-466b-8acc-0796fb986924",
-        "endDate": "03032021",
+        "endDate": "03042021",
         "slotDays": [
-          {
-            "message": "There are no appointments available for this store right now. Please try another store.",
-            "slotDate": "02252021",
-            "slots": [
-            ]
-          },
           {
             "message": "There are no appointments available for this store right now. Please try another store.",
             "slotDate": "02262021",
@@ -1642,9 +1696,15 @@
             "slotDate": "03032021",
             "slots": [
             ]
+          },
+          {
+            "message": "There are no appointments available for this store right now. Please try another store.",
+            "slotDate": "03042021",
+            "slots": [
+            ]
           }
         ],
-        "startDate": "02252021"
+        "startDate": "02262021"
       },
       "message": "OK",
       "status": "1"
@@ -1678,18 +1738,12 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-26T05:58:27.835+00:00",
+    "appointments_last_fetched": "2021-02-26T06:02:02.747+00:00",
     "appointments_raw": {
       "data": {
         "accessPointId": "14dac9d8-7b0d-490d-8ad8-dda940de7c21",
-        "endDate": "03032021",
+        "endDate": "03042021",
         "slotDays": [
-          {
-            "message": "There are no appointments available for this store right now. Please try another store.",
-            "slotDate": "02252021",
-            "slots": [
-            ]
-          },
           {
             "message": "There are no appointments available for this store right now. Please try another store.",
             "slotDate": "02262021",
@@ -1725,9 +1779,15 @@
             "slotDate": "03032021",
             "slots": [
             ]
+          },
+          {
+            "message": "There are no appointments available for this store right now. Please try another store.",
+            "slotDate": "03042021",
+            "slots": [
+            ]
           }
         ],
-        "startDate": "02252021"
+        "startDate": "02262021"
       },
       "message": "OK",
       "status": "1"
@@ -1916,18 +1976,12 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-26T05:57:25.857+00:00",
+    "appointments_last_fetched": "2021-02-26T06:00:53.847+00:00",
     "appointments_raw": {
       "data": {
         "accessPointId": "6c71aa14-82b3-4edd-a229-d458d7d9a748",
-        "endDate": "03032021",
+        "endDate": "03042021",
         "slotDays": [
-          {
-            "message": "There are no appointments available for this store right now. Please try another store.",
-            "slotDate": "02252021",
-            "slots": [
-            ]
-          },
           {
             "message": "There are no appointments available for this store right now. Please try another store.",
             "slotDate": "02262021",
@@ -1963,9 +2017,15 @@
             "slotDate": "03032021",
             "slots": [
             ]
+          },
+          {
+            "message": "There are no appointments available for this store right now. Please try another store.",
+            "slotDate": "03042021",
+            "slots": [
+            ]
           }
         ],
-        "startDate": "02252021"
+        "startDate": "02262021"
       },
       "message": "OK",
       "status": "1"
@@ -2135,18 +2195,12 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-26T05:58:05.677+00:00",
+    "appointments_last_fetched": "2021-02-26T06:01:34.722+00:00",
     "appointments_raw": {
       "data": {
         "accessPointId": "82979511-ae8d-4eed-94b1-a98b52d152df",
-        "endDate": "03032021",
+        "endDate": "03042021",
         "slotDays": [
-          {
-            "message": "There are no appointments available for this store right now. Please try another store.",
-            "slotDate": "02252021",
-            "slots": [
-            ]
-          },
           {
             "message": "There are no appointments available for this store right now. Please try another store.",
             "slotDate": "02262021",
@@ -2182,9 +2236,15 @@
             "slotDate": "03032021",
             "slots": [
             ]
+          },
+          {
+            "message": "There are no appointments available for this store right now. Please try another store.",
+            "slotDate": "03042021",
+            "slots": [
+            ]
           }
         ],
-        "startDate": "02252021"
+        "startDate": "02262021"
       },
       "message": "OK",
       "status": "1"
@@ -2203,18 +2263,12 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-26T05:58:20.717+00:00",
+    "appointments_last_fetched": "2021-02-26T06:01:55.168+00:00",
     "appointments_raw": {
       "data": {
         "accessPointId": "8fbd932c-3c64-4d41-9373-6d7f50f3058b",
-        "endDate": "03032021",
+        "endDate": "03042021",
         "slotDays": [
-          {
-            "message": "There are no appointments available for this store right now. Please try another store.",
-            "slotDate": "02252021",
-            "slots": [
-            ]
-          },
           {
             "message": "There are no appointments available for this store right now. Please try another store.",
             "slotDate": "02262021",
@@ -2250,9 +2304,15 @@
             "slotDate": "03032021",
             "slots": [
             ]
+          },
+          {
+            "message": "There are no appointments available for this store right now. Please try another store.",
+            "slotDate": "03042021",
+            "slots": [
+            ]
           }
         ],
-        "startDate": "02252021"
+        "startDate": "02262021"
       },
       "message": "OK",
       "status": "1"
@@ -2271,18 +2331,12 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-26T05:58:15.224+00:00",
+    "appointments_last_fetched": "2021-02-26T06:01:50.418+00:00",
     "appointments_raw": {
       "data": {
         "accessPointId": "689f0698-efa8-4266-8de4-ea97cee030c1",
-        "endDate": "03032021",
+        "endDate": "03042021",
         "slotDays": [
-          {
-            "message": "There are no appointments available for this store right now. Please try another store.",
-            "slotDate": "02252021",
-            "slots": [
-            ]
-          },
           {
             "message": "There are no appointments available for this store right now. Please try another store.",
             "slotDate": "02262021",
@@ -2318,9 +2372,15 @@
             "slotDate": "03032021",
             "slots": [
             ]
+          },
+          {
+            "message": "There are no appointments available for this store right now. Please try another store.",
+            "slotDate": "03042021",
+            "slots": [
+            ]
           }
         ],
-        "startDate": "02252021"
+        "startDate": "02262021"
       },
       "message": "OK",
       "status": "1"
@@ -2337,58 +2397,166 @@
   {
     "address": "109 Wp Malone Dr",
     "appointments": [
+      "2021-03-04T09:40:00.000-06:00",
+      "2021-03-04T10:00:00.000-06:00",
+      "2021-03-04T10:20:00.000-06:00",
+      "2021-03-04T10:40:00.000-06:00",
+      "2021-03-04T11:00:00.000-06:00",
+      "2021-03-04T11:20:00.000-06:00",
+      "2021-03-04T11:40:00.000-06:00",
+      "2021-03-04T12:00:00.000-06:00",
+      "2021-03-04T12:20:00.000-06:00",
+      "2021-03-04T12:40:00.000-06:00",
+      "2021-03-04T14:00:00.000-06:00",
+      "2021-03-04T14:20:00.000-06:00",
+      "2021-03-04T14:40:00.000-06:00",
+      "2021-03-04T15:00:00.000-06:00",
+      "2021-03-04T15:20:00.000-06:00",
+      "2021-03-04T15:40:00.000-06:00",
+      "2021-03-04T16:00:00.000-06:00",
+      "2021-03-04T16:20:00.000-06:00"
     ],
-    "appointments_available": false,
-    "appointments_last_fetched": "2021-02-26T05:58:08.048+00:00",
+    "appointments_available": true,
+    "appointments_last_fetched": "2021-02-26T06:01:37.168+00:00",
     "appointments_raw": {
       "data": {
         "accessPointId": "edbef4fa-dad4-40b2-9893-e5974fa1f933",
-        "endDate": "03032021",
+        "endDate": "03042021",
         "slotDays": [
           {
-            "message": "There are no appointments available for this store right now. Please try another store.",
-            "slotDate": "02252021",
-            "slots": [
-            ]
-          },
-          {
-            "message": "There are no appointments available for this store right now. Please try another store.",
+            "message": "There are no appointments available today. Please select a different day.",
             "slotDate": "02262021",
             "slots": [
             ]
           },
           {
-            "message": "There are no appointments available for this store right now. Please try another store.",
+            "message": "There are no appointments available for Sat, 27 Feb. Please select a different day.",
             "slotDate": "02272021",
             "slots": [
             ]
           },
           {
-            "message": "There are no appointments available for this store right now. Please try another store.",
+            "message": "There are no appointments available for Sun, 28 Feb. Please select a different day.",
             "slotDate": "02282021",
             "slots": [
             ]
           },
           {
-            "message": "There are no appointments available for this store right now. Please try another store.",
+            "message": "There are no appointments available for Mon, 1 Mar. Please select a different day.",
             "slotDate": "03012021",
             "slots": [
             ]
           },
           {
-            "message": "There are no appointments available for this store right now. Please try another store.",
+            "message": "There are no appointments available for Tue, 2 Mar. Please select a different day.",
             "slotDate": "03022021",
             "slots": [
             ]
           },
           {
-            "message": "There are no appointments available for this store right now. Please try another store.",
+            "message": "There are no appointments available for Wed, 3 Mar. Please select a different day.",
             "slotDate": "03032021",
             "slots": [
             ]
+          },
+          {
+            "message": null,
+            "slotDate": "03042021",
+            "slots": [
+              {
+                "endTime": "10:00",
+                "slotId": "e971836b-e75e-44fe-98b4-c760de340fb4-2021-03-04",
+                "startTime": "9:40"
+              },
+              {
+                "endTime": "10:20",
+                "slotId": "0fd5e72a-c6a7-4e5d-97ce-b5120d64959e-2021-03-04",
+                "startTime": "10:00"
+              },
+              {
+                "endTime": "10:40",
+                "slotId": "37b2c73c-91cd-4f02-ba18-84a5a76084ce-2021-03-04",
+                "startTime": "10:20"
+              },
+              {
+                "endTime": "11:00",
+                "slotId": "2883ddda-d222-442a-93c8-1cb5fac881d1-2021-03-04",
+                "startTime": "10:40"
+              },
+              {
+                "endTime": "11:20",
+                "slotId": "0002f77c-0d97-41dc-ad6d-684509657d2f-2021-03-04",
+                "startTime": "11:00"
+              },
+              {
+                "endTime": "11:40",
+                "slotId": "b75ced17-f380-4ec6-be13-af54f50011e5-2021-03-04",
+                "startTime": "11:20"
+              },
+              {
+                "endTime": "12:00",
+                "slotId": "7a8f5aca-bc1e-4c7f-b436-62ad175f929a-2021-03-04",
+                "startTime": "11:40"
+              },
+              {
+                "endTime": "12:20",
+                "slotId": "8341cb64-52ea-461c-bdbf-88735685249f-2021-03-04",
+                "startTime": "12:00"
+              },
+              {
+                "endTime": "12:40",
+                "slotId": "9e724d60-7005-4352-9c18-25719a7dc0fb-2021-03-04",
+                "startTime": "12:20"
+              },
+              {
+                "endTime": "13:00",
+                "slotId": "d14d5ad3-cc3e-4d87-a02f-2529abb57c1b-2021-03-04",
+                "startTime": "12:40"
+              },
+              {
+                "endTime": "14:20",
+                "slotId": "cc0eba49-8260-4824-ad4e-f8675494abe5-2021-03-04",
+                "startTime": "14:00"
+              },
+              {
+                "endTime": "14:40",
+                "slotId": "3c3a9cea-efc6-42df-b1c6-6629ad83d8af-2021-03-04",
+                "startTime": "14:20"
+              },
+              {
+                "endTime": "15:00",
+                "slotId": "39b14756-8fb5-4ccc-b9a4-b86188003255-2021-03-04",
+                "startTime": "14:40"
+              },
+              {
+                "endTime": "15:20",
+                "slotId": "497a668c-128b-4fea-a2f4-c19552c5782f-2021-03-04",
+                "startTime": "15:00"
+              },
+              {
+                "endTime": "15:40",
+                "slotId": "ba26ce3e-40f9-4fdd-a575-8b040c3d85bb-2021-03-04",
+                "startTime": "15:20"
+              },
+              {
+                "endTime": "16:00",
+                "slotId": "ccb6ddc4-08c2-4410-84e3-9b64dc1b3d99-2021-03-04",
+                "startTime": "15:40"
+              },
+              {
+                "endTime": "16:20",
+                "slotId": "dbb0deb7-7bda-4551-9f32-46fd7745255b-2021-03-04",
+                "startTime": "16:00"
+              },
+              {
+                "endTime": "16:40",
+                "slotId": "0469ace0-3000-4ce8-8048-52c68ea78eb7-2021-03-04",
+                "startTime": "16:20"
+              }
+            ]
           }
         ],
-        "startDate": "02252021"
+        "startDate": "02262021"
       },
       "message": "OK",
       "status": "1"
@@ -2407,18 +2575,12 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-26T05:58:22.029+00:00",
+    "appointments_last_fetched": "2021-02-26T06:01:56.787+00:00",
     "appointments_raw": {
       "data": {
         "accessPointId": "7e2bd586-59e1-486b-9ac2-db49e5530656",
-        "endDate": "03032021",
+        "endDate": "03042021",
         "slotDays": [
-          {
-            "message": "There are no appointments available for this store right now. Please try another store.",
-            "slotDate": "02252021",
-            "slots": [
-            ]
-          },
           {
             "message": "There are no appointments available for this store right now. Please try another store.",
             "slotDate": "02262021",
@@ -2454,9 +2616,15 @@
             "slotDate": "03032021",
             "slots": [
             ]
+          },
+          {
+            "message": "There are no appointments available for this store right now. Please try another store.",
+            "slotDate": "03042021",
+            "slots": [
+            ]
           }
         ],
-        "startDate": "02252021"
+        "startDate": "02262021"
       },
       "message": "OK",
       "status": "1"
@@ -2490,18 +2658,12 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-26T05:58:21.063+00:00",
+    "appointments_last_fetched": "2021-02-26T06:01:55.744+00:00",
     "appointments_raw": {
       "data": {
         "accessPointId": "80b29117-08f7-471d-b271-1c78d1d33cd3",
-        "endDate": "03032021",
+        "endDate": "03042021",
         "slotDays": [
-          {
-            "message": "There are no appointments available for this store right now. Please try another store.",
-            "slotDate": "02252021",
-            "slots": [
-            ]
-          },
           {
             "message": "There are no appointments available for this store right now. Please try another store.",
             "slotDate": "02262021",
@@ -2537,9 +2699,15 @@
             "slotDate": "03032021",
             "slots": [
             ]
+          },
+          {
+            "message": "There are no appointments available for this store right now. Please try another store.",
+            "slotDate": "03042021",
+            "slots": [
+            ]
           }
         ],
-        "startDate": "02252021"
+        "startDate": "02262021"
       },
       "message": "OK",
       "status": "1"
@@ -2558,18 +2726,12 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-26T05:58:16.704+00:00",
+    "appointments_last_fetched": "2021-02-26T06:01:51.418+00:00",
     "appointments_raw": {
       "data": {
         "accessPointId": "6e3096c2-ed64-48fc-94eb-09f4d70c671e",
-        "endDate": "03032021",
+        "endDate": "03042021",
         "slotDays": [
-          {
-            "message": "There are no appointments available for this store right now. Please try another store.",
-            "slotDate": "02252021",
-            "slots": [
-            ]
-          },
           {
             "message": "There are no appointments available for this store right now. Please try another store.",
             "slotDate": "02262021",
@@ -2605,9 +2767,15 @@
             "slotDate": "03032021",
             "slots": [
             ]
+          },
+          {
+            "message": "There are no appointments available for this store right now. Please try another store.",
+            "slotDate": "03042021",
+            "slots": [
+            ]
           }
         ],
-        "startDate": "02252021"
+        "startDate": "02262021"
       },
       "message": "OK",
       "status": "1"
@@ -3271,18 +3439,12 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-26T05:58:36.915+00:00",
+    "appointments_last_fetched": "2021-02-26T06:02:05.722+00:00",
     "appointments_raw": {
       "data": {
         "accessPointId": "e9bacb94-1917-4ee1-ab37-c5f4855afb83",
-        "endDate": "03032021",
+        "endDate": "03042021",
         "slotDays": [
-          {
-            "message": "There are no appointments available for this store right now. Please try another store.",
-            "slotDate": "02252021",
-            "slots": [
-            ]
-          },
           {
             "message": "There are no appointments available for this store right now. Please try another store.",
             "slotDate": "02262021",
@@ -3318,9 +3480,15 @@
             "slotDate": "03032021",
             "slots": [
             ]
+          },
+          {
+            "message": "There are no appointments available for this store right now. Please try another store.",
+            "slotDate": "03042021",
+            "slots": [
+            ]
           }
         ],
-        "startDate": "02252021"
+        "startDate": "02262021"
       },
       "message": "OK",
       "status": "1"
@@ -3414,18 +3582,12 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-26T05:58:38.065+00:00",
+    "appointments_last_fetched": "2021-02-26T06:02:06.4+00:00",
     "appointments_raw": {
       "data": {
         "accessPointId": "327d28f1-9964-4450-ad9f-a2ba6e67f96c",
-        "endDate": "03032021",
+        "endDate": "03042021",
         "slotDays": [
-          {
-            "message": "There are no appointments available for this store right now. Please try another store.",
-            "slotDate": "02252021",
-            "slots": [
-            ]
-          },
           {
             "message": "There are no appointments available for this store right now. Please try another store.",
             "slotDate": "02262021",
@@ -3461,9 +3623,15 @@
             "slotDate": "03032021",
             "slots": [
             ]
+          },
+          {
+            "message": "There are no appointments available for this store right now. Please try another store.",
+            "slotDate": "03042021",
+            "slots": [
+            ]
           }
         ],
-        "startDate": "02252021"
+        "startDate": "02262021"
       },
       "message": "OK",
       "status": "1"
@@ -3806,18 +3974,12 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-26T05:58:43.955+00:00",
+    "appointments_last_fetched": "2021-02-26T06:02:12.716+00:00",
     "appointments_raw": {
       "data": {
         "accessPointId": "af995582-2d66-4d19-bc86-e7de34ab6017",
-        "endDate": "03032021",
+        "endDate": "03042021",
         "slotDays": [
-          {
-            "message": "There are no appointments available for this store right now. Please try another store.",
-            "slotDate": "02252021",
-            "slots": [
-            ]
-          },
           {
             "message": "There are no appointments available for this store right now. Please try another store.",
             "slotDate": "02262021",
@@ -3853,9 +4015,15 @@
             "slotDate": "03032021",
             "slots": [
             ]
+          },
+          {
+            "message": "There are no appointments available for this store right now. Please try another store.",
+            "slotDate": "03042021",
+            "slots": [
+            ]
           }
         ],
-        "startDate": "02252021"
+        "startDate": "02262021"
       },
       "message": "OK",
       "status": "1"
@@ -3874,18 +4042,12 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-26T05:58:36.892+00:00",
+    "appointments_last_fetched": "2021-02-26T06:02:05.19+00:00",
     "appointments_raw": {
       "data": {
         "accessPointId": "047a5ff3-7a01-40f4-9b1d-1036a0e2ff6b",
-        "endDate": "03032021",
+        "endDate": "03042021",
         "slotDays": [
-          {
-            "message": "There are no appointments available for this store right now. Please try another store.",
-            "slotDate": "02252021",
-            "slots": [
-            ]
-          },
           {
             "message": "There are no appointments available for this store right now. Please try another store.",
             "slotDate": "02262021",
@@ -3921,9 +4083,15 @@
             "slotDate": "03032021",
             "slots": [
             ]
+          },
+          {
+            "message": "There are no appointments available for this store right now. Please try another store.",
+            "slotDate": "03042021",
+            "slots": [
+            ]
           }
         ],
-        "startDate": "02252021"
+        "startDate": "02262021"
       },
       "message": "OK",
       "status": "1"
@@ -3942,18 +4110,12 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-26T05:58:41.535+00:00",
+    "appointments_last_fetched": "2021-02-26T06:02:09.71+00:00",
     "appointments_raw": {
       "data": {
         "accessPointId": "9c8a1377-286c-4520-8154-d6ceb1abac49",
-        "endDate": "03032021",
+        "endDate": "03042021",
         "slotDays": [
-          {
-            "message": "There are no appointments available for this store right now. Please try another store.",
-            "slotDate": "02252021",
-            "slots": [
-            ]
-          },
           {
             "message": "There are no appointments available for this store right now. Please try another store.",
             "slotDate": "02262021",
@@ -3989,9 +4151,15 @@
             "slotDate": "03032021",
             "slots": [
             ]
+          },
+          {
+            "message": "There are no appointments available for this store right now. Please try another store.",
+            "slotDate": "03042021",
+            "slots": [
+            ]
           }
         ],
-        "startDate": "02252021"
+        "startDate": "02262021"
       },
       "message": "OK",
       "status": "1"
@@ -4010,18 +4178,12 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-26T05:58:38.186+00:00",
+    "appointments_last_fetched": "2021-02-26T06:02:06.179+00:00",
     "appointments_raw": {
       "data": {
         "accessPointId": "838a0d4e-faf5-4032-950a-7087518fbfe7",
-        "endDate": "03032021",
+        "endDate": "03042021",
         "slotDays": [
-          {
-            "message": "There are no appointments available for this store right now. Please try another store.",
-            "slotDate": "02252021",
-            "slots": [
-            ]
-          },
           {
             "message": "There are no appointments available for this store right now. Please try another store.",
             "slotDate": "02262021",
@@ -4057,9 +4219,15 @@
             "slotDate": "03032021",
             "slots": [
             ]
+          },
+          {
+            "message": "There are no appointments available for this store right now. Please try another store.",
+            "slotDate": "03042021",
+            "slots": [
+            ]
           }
         ],
-        "startDate": "02252021"
+        "startDate": "02262021"
       },
       "message": "OK",
       "status": "1"
@@ -4123,18 +4291,12 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-26T05:58:23.12+00:00",
+    "appointments_last_fetched": "2021-02-26T06:01:57.598+00:00",
     "appointments_raw": {
       "data": {
         "accessPointId": "0bd3eee7-936a-4d6c-bb10-f2d9a0413317",
-        "endDate": "03032021",
+        "endDate": "03042021",
         "slotDays": [
-          {
-            "message": "There are no appointments available for this store right now. Please try another store.",
-            "slotDate": "02252021",
-            "slots": [
-            ]
-          },
           {
             "message": "There are no appointments available for this store right now. Please try another store.",
             "slotDate": "02262021",
@@ -4170,9 +4332,15 @@
             "slotDate": "03032021",
             "slots": [
             ]
+          },
+          {
+            "message": "There are no appointments available for this store right now. Please try another store.",
+            "slotDate": "03042021",
+            "slots": [
+            ]
           }
         ],
-        "startDate": "02252021"
+        "startDate": "02262021"
       },
       "message": "OK",
       "status": "1"
@@ -4191,18 +4359,12 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-26T05:58:20.866+00:00",
+    "appointments_last_fetched": "2021-02-26T06:01:55.44+00:00",
     "appointments_raw": {
       "data": {
         "accessPointId": "985e6c4d-2afb-4808-a865-114cf91fd05c",
-        "endDate": "03032021",
+        "endDate": "03042021",
         "slotDays": [
-          {
-            "message": "There are no appointments available for this store right now. Please try another store.",
-            "slotDate": "02252021",
-            "slots": [
-            ]
-          },
           {
             "message": "There are no appointments available for this store right now. Please try another store.",
             "slotDate": "02262021",
@@ -4238,9 +4400,15 @@
             "slotDate": "03032021",
             "slots": [
             ]
+          },
+          {
+            "message": "There are no appointments available for this store right now. Please try another store.",
+            "slotDate": "03042021",
+            "slots": [
+            ]
           }
         ],
-        "startDate": "02252021"
+        "startDate": "02262021"
       },
       "message": "OK",
       "status": "1"
@@ -4364,18 +4532,12 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-26T05:58:38.755+00:00",
+    "appointments_last_fetched": "2021-02-26T06:02:07.5+00:00",
     "appointments_raw": {
       "data": {
         "accessPointId": "890cd91f-f29d-443e-9003-f97d5b906a0c",
-        "endDate": "03032021",
+        "endDate": "03042021",
         "slotDays": [
-          {
-            "message": "There are no appointments available for this store right now. Please try another store.",
-            "slotDate": "02252021",
-            "slots": [
-            ]
-          },
           {
             "message": "There are no appointments available for this store right now. Please try another store.",
             "slotDate": "02262021",
@@ -4411,9 +4573,15 @@
             "slotDate": "03032021",
             "slots": [
             ]
+          },
+          {
+            "message": "There are no appointments available for this store right now. Please try another store.",
+            "slotDate": "03042021",
+            "slots": [
+            ]
           }
         ],
-        "startDate": "02252021"
+        "startDate": "02262021"
       },
       "message": "OK",
       "status": "1"
@@ -4432,18 +4600,12 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-26T05:58:23.067+00:00",
+    "appointments_last_fetched": "2021-02-26T06:01:57.48+00:00",
     "appointments_raw": {
       "data": {
         "accessPointId": "e5cac6fc-1b46-42ec-a2c3-447daa9bc22e",
-        "endDate": "03032021",
+        "endDate": "03042021",
         "slotDays": [
-          {
-            "message": "There are no appointments available for this store right now. Please try another store.",
-            "slotDate": "02252021",
-            "slots": [
-            ]
-          },
           {
             "message": "There are no appointments available for this store right now. Please try another store.",
             "slotDate": "02262021",
@@ -4479,9 +4641,15 @@
             "slotDate": "03032021",
             "slots": [
             ]
+          },
+          {
+            "message": "There are no appointments available for this store right now. Please try another store.",
+            "slotDate": "03042021",
+            "slots": [
+            ]
           }
         ],
-        "startDate": "02252021"
+        "startDate": "02262021"
       },
       "message": "OK",
       "status": "1"
@@ -4500,18 +4668,12 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-26T05:58:23.519+00:00",
+    "appointments_last_fetched": "2021-02-26T06:01:57.908+00:00",
     "appointments_raw": {
       "data": {
         "accessPointId": "eacbf8c4-dfc7-4491-829a-58ba691c96be",
-        "endDate": "03032021",
+        "endDate": "03042021",
         "slotDays": [
-          {
-            "message": "There are no appointments available for this store right now. Please try another store.",
-            "slotDate": "02252021",
-            "slots": [
-            ]
-          },
           {
             "message": "There are no appointments available for this store right now. Please try another store.",
             "slotDate": "02262021",
@@ -4547,9 +4709,15 @@
             "slotDate": "03032021",
             "slots": [
             ]
+          },
+          {
+            "message": "There are no appointments available for this store right now. Please try another store.",
+            "slotDate": "03042021",
+            "slots": [
+            ]
           }
         ],
-        "startDate": "02252021"
+        "startDate": "02262021"
       },
       "message": "OK",
       "status": "1"
@@ -4568,18 +4736,12 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-26T05:58:23.932+00:00",
+    "appointments_last_fetched": "2021-02-26T06:01:58.578+00:00",
     "appointments_raw": {
       "data": {
         "accessPointId": "cd28b449-8a33-44f3-b891-3a60b1598d55",
-        "endDate": "03032021",
+        "endDate": "03042021",
         "slotDays": [
-          {
-            "message": "There are no appointments available for this store right now. Please try another store.",
-            "slotDate": "02252021",
-            "slots": [
-            ]
-          },
           {
             "message": "There are no appointments available for this store right now. Please try another store.",
             "slotDate": "02262021",
@@ -4615,9 +4777,15 @@
             "slotDate": "03032021",
             "slots": [
             ]
+          },
+          {
+            "message": "There are no appointments available for this store right now. Please try another store.",
+            "slotDate": "03042021",
+            "slots": [
+            ]
           }
         ],
-        "startDate": "02252021"
+        "startDate": "02262021"
       },
       "message": "OK",
       "status": "1"
@@ -4636,18 +4804,12 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-26T05:58:28.826+00:00",
+    "appointments_last_fetched": "2021-02-26T06:02:03.293+00:00",
     "appointments_raw": {
       "data": {
         "accessPointId": "52eaa365-c7e6-43a2-9f75-3ca1c384aece",
-        "endDate": "03032021",
+        "endDate": "03042021",
         "slotDays": [
-          {
-            "message": "There are no appointments available for this store right now. Please try another store.",
-            "slotDate": "02252021",
-            "slots": [
-            ]
-          },
           {
             "message": "There are no appointments available for this store right now. Please try another store.",
             "slotDate": "02262021",
@@ -4683,9 +4845,15 @@
             "slotDate": "03032021",
             "slots": [
             ]
+          },
+          {
+            "message": "There are no appointments available for this store right now. Please try another store.",
+            "slotDate": "03042021",
+            "slots": [
+            ]
           }
         ],
-        "startDate": "02252021"
+        "startDate": "02262021"
       },
       "message": "OK",
       "status": "1"
@@ -4772,18 +4940,12 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-26T05:57:18.433+00:00",
+    "appointments_last_fetched": "2021-02-26T06:00:45.74+00:00",
     "appointments_raw": {
       "data": {
         "accessPointId": "589c7dd3-49b7-434a-8644-c43594e6ad4e",
-        "endDate": "03032021",
+        "endDate": "03042021",
         "slotDays": [
-          {
-            "message": "There are no appointments available for this store right now. Please try another store.",
-            "slotDate": "02252021",
-            "slots": [
-            ]
-          },
           {
             "message": "There are no appointments available for this store right now. Please try another store.",
             "slotDate": "02262021",
@@ -4819,9 +4981,15 @@
             "slotDate": "03032021",
             "slots": [
             ]
+          },
+          {
+            "message": "There are no appointments available for this store right now. Please try another store.",
+            "slotDate": "03042021",
+            "slots": [
+            ]
           }
         ],
-        "startDate": "02252021"
+        "startDate": "02262021"
       },
       "message": "OK",
       "status": "1"
@@ -4840,18 +5008,12 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-26T05:57:15.94+00:00",
+    "appointments_last_fetched": "2021-02-26T06:00:43.808+00:00",
     "appointments_raw": {
       "data": {
         "accessPointId": "1432cc97-fb41-4d09-b2ee-53375a4ebdad",
-        "endDate": "03032021",
+        "endDate": "03042021",
         "slotDays": [
-          {
-            "message": "There are no appointments available for this store right now. Please try another store.",
-            "slotDate": "02252021",
-            "slots": [
-            ]
-          },
           {
             "message": "There are no appointments available for this store right now. Please try another store.",
             "slotDate": "02262021",
@@ -4887,9 +5049,15 @@
             "slotDate": "03032021",
             "slots": [
             ]
+          },
+          {
+            "message": "There are no appointments available for this store right now. Please try another store.",
+            "slotDate": "03042021",
+            "slots": [
+            ]
           }
         ],
-        "startDate": "02252021"
+        "startDate": "02262021"
       },
       "message": "OK",
       "status": "1"
