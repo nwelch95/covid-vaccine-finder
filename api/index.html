@@ -1,0 +1,844 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta property="og:title" content="Very Beta API | COVID-19 Vaccine Finder" />
+    <meta property="og:description" content="The machine readable data behind the COIVD-19 Vaccine Finder tool. Very beta." />
+
+    <title>Very Beta API | COVID-19 Vaccine Finder</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.15.2/js/all.js" integrity="sha384-vuFJ2JiSdUpXLKGK+tDteQZBqNlMwAjhZ3TvPaDfN9QmbPb7Q8qUpbSNapQev3YF" crossorigin="anonymous"></script>
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-49484378-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-49484378-1');
+    </script>
+    <style>
+    .resp-sharing-button__link,
+    .resp-sharing-button__icon {
+      display: inline-block
+    }
+
+    .resp-sharing-button__link,
+    .resp-sharing-button__link:hover {
+      text-decoration: none;
+      color: #fff;
+      margin: 0.5em
+    }
+
+    .resp-sharing-button {
+      border-radius: 5px;
+      transition: 25ms ease-out;
+      padding: 0.5em 0.75em;
+      font-family: Helvetica Neue,Helvetica,Arial,sans-serif
+    }
+
+    .resp-sharing-button__icon svg {
+      width: 1em;
+      height: 1em;
+      margin-right: 0.4em;
+      vertical-align: top
+    }
+
+    .resp-sharing-button--small svg {
+      margin: 0;
+      vertical-align: middle
+    }
+
+    /* Non solid icons get a stroke */
+    .resp-sharing-button__icon {
+      stroke: #fff;
+      fill: none
+    }
+
+    /* Solid icons get a fill */
+    .resp-sharing-button__icon--solid,
+    .resp-sharing-button__icon--solidcircle {
+      fill: #fff;
+      stroke: none
+    }
+
+    .resp-sharing-button--twitter {
+      background-color: #55acee
+    }
+
+    .resp-sharing-button--twitter:hover {
+      background-color: #2795e9
+    }
+
+    .resp-sharing-button--pinterest {
+      background-color: #bd081c
+    }
+
+    .resp-sharing-button--pinterest:hover {
+      background-color: #8c0615
+    }
+
+    .resp-sharing-button--facebook {
+      background-color: #3b5998
+    }
+
+    .resp-sharing-button--facebook:hover {
+      background-color: #2d4373
+    }
+
+    .resp-sharing-button--tumblr {
+      background-color: #35465C
+    }
+
+    .resp-sharing-button--tumblr:hover {
+      background-color: #222d3c
+    }
+
+    .resp-sharing-button--reddit {
+      background-color: #5f99cf
+    }
+
+    .resp-sharing-button--reddit:hover {
+      background-color: #3a80c1
+    }
+
+    .resp-sharing-button--google {
+      background-color: #dd4b39
+    }
+
+    .resp-sharing-button--google:hover {
+      background-color: #c23321
+    }
+
+    .resp-sharing-button--linkedin {
+      background-color: #0077b5
+    }
+
+    .resp-sharing-button--linkedin:hover {
+      background-color: #046293
+    }
+
+    .resp-sharing-button--email {
+      background-color: #777
+    }
+
+    .resp-sharing-button--email:hover {
+      background-color: #5e5e5e
+    }
+
+    .resp-sharing-button--xing {
+      background-color: #1a7576
+    }
+
+    .resp-sharing-button--xing:hover {
+      background-color: #114c4c
+    }
+
+    .resp-sharing-button--whatsapp {
+      background-color: #25D366
+    }
+
+    .resp-sharing-button--whatsapp:hover {
+      background-color: #1da851
+    }
+
+    .resp-sharing-button--hackernews {
+    background-color: #FF6600
+    }
+    .resp-sharing-button--hackernews:hover, .resp-sharing-button--hackernews:focus {   background-color: #FB6200 }
+
+    .resp-sharing-button--vk {
+      background-color: #507299
+    }
+
+    .resp-sharing-button--vk:hover {
+      background-color: #43648c
+    }
+
+    .resp-sharing-button--facebook {
+      background-color: #3b5998;
+      border-color: #3b5998;
+    }
+
+    .resp-sharing-button--facebook:hover,
+    .resp-sharing-button--facebook:active {
+      background-color: #2d4373;
+      border-color: #2d4373;
+    }
+
+    .resp-sharing-button--twitter {
+      background-color: #55acee;
+      border-color: #55acee;
+    }
+
+    .resp-sharing-button--twitter:hover,
+    .resp-sharing-button--twitter:active {
+      background-color: #2795e9;
+      border-color: #2795e9;
+    }
+
+    .resp-sharing-button--tumblr {
+      background-color: #35465C;
+      border-color: #35465C;
+    }
+
+    .resp-sharing-button--tumblr:hover,
+    .resp-sharing-button--tumblr:active {
+      background-color: #222d3c;
+      border-color: #222d3c;
+    }
+
+    .resp-sharing-button--email {
+      background-color: #777777;
+      border-color: #777777;
+    }
+
+    .resp-sharing-button--email:hover,
+    .resp-sharing-button--email:active {
+      background-color: #5e5e5e;
+      border-color: #5e5e5e;
+    }
+
+    .resp-sharing-button--pinterest {
+      background-color: #bd081c;
+      border-color: #bd081c;
+    }
+
+    .resp-sharing-button--pinterest:hover,
+    .resp-sharing-button--pinterest:active {
+      background-color: #8c0615;
+      border-color: #8c0615;
+    }
+
+    .resp-sharing-button--linkedin {
+      background-color: #0077b5;
+      border-color: #0077b5;
+    }
+
+    .resp-sharing-button--linkedin:hover,
+    .resp-sharing-button--linkedin:active {
+      background-color: #046293;
+      border-color: #046293;
+    }
+
+    .resp-sharing-button--reddit {
+      background-color: #5f99cf;
+      border-color: #5f99cf;
+    }
+
+    .resp-sharing-button--reddit:hover,
+    .resp-sharing-button--reddit:active {
+      background-color: #3a80c1;
+      border-color: #3a80c1;
+    }
+
+    .resp-sharing-button--whatsapp {
+      background-color: #25D366;
+      border-color: #25D366;
+    }
+
+    .resp-sharing-button--whatsapp:hover,
+    .resp-sharing-button--whatsapp:active {
+      background-color: #1DA851;
+      border-color: #1DA851;
+    }
+
+    .resp-sharing-button--hackernews {
+      background-color: #FF6600;
+      border-color: #FF6600;
+    }
+
+    .resp-sharing-button--hackernews:hover
+    .resp-sharing-button--hackernews:active {
+      background-color: #FB6200;
+      border-color: #FB6200;
+    }
+
+    body {
+      padding-top: 70px;
+    }
+
+    h1.navbar-brand {
+      font-size: 1rem;
+    }
+
+    @media (min-width: 992px) {
+      body {
+        padding-top: 50px;
+      }
+    }
+
+    @media (min-width: 360px) {
+      h1.navbar-brand {
+        font-size: 1.25rem;
+      }
+    }
+
+    h2.brand {
+      margin-bottom: 0px;
+    }
+
+    .brand-link {
+      margin-bottom: 0.5rem;
+    }
+
+    .brand-link a svg {
+      margin-left: 4px;
+    }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="navbar fixed-top navbar-dark bg-primary shadow">
+        <div class="container">
+          <h1 class="navbar-brand mb-0 fw-bold"><a href="/" class="text-white" style="text-decoration: none;">Very Beta API | COVID-19 Vaccine Finder</a></h1>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="container">
+        <p class="lead text-center text-muted py-lg-4" style="padding-bottom: 0px !important;">The machine readable data behind the COIVD-19 Vaccine Finder tool. Very beta.</p>
+
+        <div class="alert alert-danger my-4" role="alert">
+          <p class="pb-0">Here's all of the underlying data in JSON format used for this tool. Things are moving fast, so this is very much subject to change. So if you're reliant on this, be careful, and please reach out to let me know you're using this: <a href="m&#97;ilto&#58;v%&#54;1&#99;&#99;&#105;ne&#64;nic&#107;%6D&#46;org">vacc&#105;ne&#64;ni&#99;k&#109;&#46;o&#114;&#103;</a>, <a href="https://twitter.com/nickblah">@nickblah</a>, or <a href="https://github.com/GUI/covid-vaccine-finder/issues">GitHub</a>.</p>
+        </div>
+
+        <ul>
+          
+            
+              
+                <li><code><a href="/api/v0/stores/AK/albertsons.json">/api/v0/stores/AK/albertsons.json</a></code></li>
+              
+                <li><code><a href="/api/v0/stores/AK/walmart.json">/api/v0/stores/AK/walmart.json</a></code></li>
+              
+            
+          
+            
+              
+                <li><code><a href="/api/v0/stores/AL/cvs.json">/api/v0/stores/AL/cvs.json</a></code></li>
+              
+                <li><code><a href="/api/v0/stores/AL/sams_club.json">/api/v0/stores/AL/sams_club.json</a></code></li>
+              
+                <li><code><a href="/api/v0/stores/AL/walmart.json">/api/v0/stores/AL/walmart.json</a></code></li>
+              
+            
+          
+            
+              
+                <li><code><a href="/api/v0/stores/AR/albertsons.json">/api/v0/stores/AR/albertsons.json</a></code></li>
+              
+                <li><code><a href="/api/v0/stores/AR/cvs.json">/api/v0/stores/AR/cvs.json</a></code></li>
+              
+                <li><code><a href="/api/v0/stores/AR/sams_club.json">/api/v0/stores/AR/sams_club.json</a></code></li>
+              
+                <li><code><a href="/api/v0/stores/AR/walmart.json">/api/v0/stores/AR/walmart.json</a></code></li>
+              
+            
+          
+            
+              
+                <li><code><a href="/api/v0/stores/AZ/albertsons.json">/api/v0/stores/AZ/albertsons.json</a></code></li>
+              
+                <li><code><a href="/api/v0/stores/AZ/cvs.json">/api/v0/stores/AZ/cvs.json</a></code></li>
+              
+                <li><code><a href="/api/v0/stores/AZ/sams_club.json">/api/v0/stores/AZ/sams_club.json</a></code></li>
+              
+                <li><code><a href="/api/v0/stores/AZ/walmart.json">/api/v0/stores/AZ/walmart.json</a></code></li>
+              
+            
+          
+            
+              
+                <li><code><a href="/api/v0/stores/CA/albertsons.json">/api/v0/stores/CA/albertsons.json</a></code></li>
+              
+                <li><code><a href="/api/v0/stores/CA/cvs.json">/api/v0/stores/CA/cvs.json</a></code></li>
+              
+                <li><code><a href="/api/v0/stores/CA/sams_club.json">/api/v0/stores/CA/sams_club.json</a></code></li>
+              
+                <li><code><a href="/api/v0/stores/CA/walmart.json">/api/v0/stores/CA/walmart.json</a></code></li>
+              
+            
+          
+            
+              
+                <li><code><a href="/api/v0/stores/CO/albertsons.json">/api/v0/stores/CO/albertsons.json</a></code></li>
+              
+                <li><code><a href="/api/v0/stores/CO/cvs.json">/api/v0/stores/CO/cvs.json</a></code></li>
+              
+                <li><code><a href="/api/v0/stores/CO/kroger.json">/api/v0/stores/CO/kroger.json</a></code></li>
+              
+                <li><code><a href="/api/v0/stores/CO/pharmaca.json">/api/v0/stores/CO/pharmaca.json</a></code></li>
+              
+                <li><code><a href="/api/v0/stores/CO/sams_club.json">/api/v0/stores/CO/sams_club.json</a></code></li>
+              
+                <li><code><a href="/api/v0/stores/CO/walgreens.json">/api/v0/stores/CO/walgreens.json</a></code></li>
+              
+                <li><code><a href="/api/v0/stores/CO/walmart.json">/api/v0/stores/CO/walmart.json</a></code></li>
+              
+            
+          
+            
+              
+                <li><code><a href="/api/v0/stores/CT/cvs.json">/api/v0/stores/CT/cvs.json</a></code></li>
+              
+                <li><code><a href="/api/v0/stores/CT/sams_club.json">/api/v0/stores/CT/sams_club.json</a></code></li>
+              
+                <li><code><a href="/api/v0/stores/CT/walmart.json">/api/v0/stores/CT/walmart.json</a></code></li>
+              
+            
+          
+            
+              
+                <li><code><a href="/api/v0/stores/DC/albertsons.json">/api/v0/stores/DC/albertsons.json</a></code></li>
+              
+                <li><code><a href="/api/v0/stores/DC/walmart.json">/api/v0/stores/DC/walmart.json</a></code></li>
+              
+            
+          
+            
+              
+                <li><code><a href="/api/v0/stores/DE/albertsons.json">/api/v0/stores/DE/albertsons.json</a></code></li>
+              
+                <li><code><a href="/api/v0/stores/DE/cvs.json">/api/v0/stores/DE/cvs.json</a></code></li>
+              
+                <li><code><a href="/api/v0/stores/DE/sams_club.json">/api/v0/stores/DE/sams_club.json</a></code></li>
+              
+                <li><code><a href="/api/v0/stores/DE/walmart.json">/api/v0/stores/DE/walmart.json</a></code></li>
+              
+            
+          
+            
+              
+                <li><code><a href="/api/v0/stores/FL/cvs.json">/api/v0/stores/FL/cvs.json</a></code></li>
+              
+                <li><code><a href="/api/v0/stores/FL/sams_club.json">/api/v0/stores/FL/sams_club.json</a></code></li>
+              
+                <li><code><a href="/api/v0/stores/FL/walmart.json">/api/v0/stores/FL/walmart.json</a></code></li>
+              
+            
+          
+            
+              
+                <li><code><a href="/api/v0/stores/GA/cvs.json">/api/v0/stores/GA/cvs.json</a></code></li>
+              
+                <li><code><a href="/api/v0/stores/GA/sams_club.json">/api/v0/stores/GA/sams_club.json</a></code></li>
+              
+                <li><code><a href="/api/v0/stores/GA/walmart.json">/api/v0/stores/GA/walmart.json</a></code></li>
+              
+            
+          
+            
+              
+                <li><code><a href="/api/v0/stores/HI/albertsons.json">/api/v0/stores/HI/albertsons.json</a></code></li>
+              
+                <li><code><a href="/api/v0/stores/HI/cvs.json">/api/v0/stores/HI/cvs.json</a></code></li>
+              
+                <li><code><a href="/api/v0/stores/HI/sams_club.json">/api/v0/stores/HI/sams_club.json</a></code></li>
+              
+                <li><code><a href="/api/v0/stores/HI/walmart.json">/api/v0/stores/HI/walmart.json</a></code></li>
+              
+            
+          
+            
+              
+                <li><code><a href="/api/v0/stores/IA/albertsons.json">/api/v0/stores/IA/albertsons.json</a></code></li>
+              
+                <li><code><a href="/api/v0/stores/IA/cvs.json">/api/v0/stores/IA/cvs.json</a></code></li>
+              
+                <li><code><a href="/api/v0/stores/IA/sams_club.json">/api/v0/stores/IA/sams_club.json</a></code></li>
+              
+                <li><code><a href="/api/v0/stores/IA/walmart.json">/api/v0/stores/IA/walmart.json</a></code></li>
+              
+            
+          
+            
+              
+                <li><code><a href="/api/v0/stores/ID/albertsons.json">/api/v0/stores/ID/albertsons.json</a></code></li>
+              
+                <li><code><a href="/api/v0/stores/ID/sams_club.json">/api/v0/stores/ID/sams_club.json</a></code></li>
+              
+                <li><code><a href="/api/v0/stores/ID/walmart.json">/api/v0/stores/ID/walmart.json</a></code></li>
+              
+            
+          
+            
+              
+                <li><code><a href="/api/v0/stores/IL/albertsons.json">/api/v0/stores/IL/albertsons.json</a></code></li>
+              
+                <li><code><a href="/api/v0/stores/IL/cvs.json">/api/v0/stores/IL/cvs.json</a></code></li>
+              
+                <li><code><a href="/api/v0/stores/IL/sams_club.json">/api/v0/stores/IL/sams_club.json</a></code></li>
+              
+                <li><code><a href="/api/v0/stores/IL/walmart.json">/api/v0/stores/IL/walmart.json</a></code></li>
+              
+            
+          
+            
+              
+                <li><code><a href="/api/v0/stores/IN/albertsons.json">/api/v0/stores/IN/albertsons.json</a></code></li>
+              
+                <li><code><a href="/api/v0/stores/IN/cvs.json">/api/v0/stores/IN/cvs.json</a></code></li>
+              
+                <li><code><a href="/api/v0/stores/IN/sams_club.json">/api/v0/stores/IN/sams_club.json</a></code></li>
+              
+                <li><code><a href="/api/v0/stores/IN/walmart.json">/api/v0/stores/IN/walmart.json</a></code></li>
+              
+            
+          
+            
+              
+                <li><code><a href="/api/v0/stores/KS/sams_club.json">/api/v0/stores/KS/sams_club.json</a></code></li>
+              
+                <li><code><a href="/api/v0/stores/KS/walmart.json">/api/v0/stores/KS/walmart.json</a></code></li>
+              
+            
+          
+            
+              
+                <li><code><a href="/api/v0/stores/KY/sams_club.json">/api/v0/stores/KY/sams_club.json</a></code></li>
+              
+                <li><code><a href="/api/v0/stores/KY/walmart.json">/api/v0/stores/KY/walmart.json</a></code></li>
+              
+            
+          
+            
+              
+                <li><code><a href="/api/v0/stores/LA/albertsons.json">/api/v0/stores/LA/albertsons.json</a></code></li>
+              
+                <li><code><a href="/api/v0/stores/LA/cvs.json">/api/v0/stores/LA/cvs.json</a></code></li>
+              
+                <li><code><a href="/api/v0/stores/LA/sams_club.json">/api/v0/stores/LA/sams_club.json</a></code></li>
+              
+                <li><code><a href="/api/v0/stores/LA/walmart.json">/api/v0/stores/LA/walmart.json</a></code></li>
+              
+            
+          
+            
+              
+                <li><code><a href="/api/v0/stores/MA/albertsons.json">/api/v0/stores/MA/albertsons.json</a></code></li>
+              
+                <li><code><a href="/api/v0/stores/MA/cvs.json">/api/v0/stores/MA/cvs.json</a></code></li>
+              
+                <li><code><a href="/api/v0/stores/MA/walmart.json">/api/v0/stores/MA/walmart.json</a></code></li>
+              
+            
+          
+            
+              
+                <li><code><a href="/api/v0/stores/MD/albertsons.json">/api/v0/stores/MD/albertsons.json</a></code></li>
+              
+                <li><code><a href="/api/v0/stores/MD/cvs.json">/api/v0/stores/MD/cvs.json</a></code></li>
+              
+                <li><code><a href="/api/v0/stores/MD/sams_club.json">/api/v0/stores/MD/sams_club.json</a></code></li>
+              
+                <li><code><a href="/api/v0/stores/MD/walmart.json">/api/v0/stores/MD/walmart.json</a></code></li>
+              
+            
+          
+            
+              
+                <li><code><a href="/api/v0/stores/ME/albertsons.json">/api/v0/stores/ME/albertsons.json</a></code></li>
+              
+                <li><code><a href="/api/v0/stores/ME/sams_club.json">/api/v0/stores/ME/sams_club.json</a></code></li>
+              
+                <li><code><a href="/api/v0/stores/ME/walmart.json">/api/v0/stores/ME/walmart.json</a></code></li>
+              
+            
+          
+            
+          
+            
+              
+                <li><code><a href="/api/v0/stores/MI/sams_club.json">/api/v0/stores/MI/sams_club.json</a></code></li>
+              
+                <li><code><a href="/api/v0/stores/MI/walmart.json">/api/v0/stores/MI/walmart.json</a></code></li>
+              
+            
+          
+            
+              
+                <li><code><a href="/api/v0/stores/MN/sams_club.json">/api/v0/stores/MN/sams_club.json</a></code></li>
+              
+                <li><code><a href="/api/v0/stores/MN/walmart.json">/api/v0/stores/MN/walmart.json</a></code></li>
+              
+            
+          
+            
+              
+                <li><code><a href="/api/v0/stores/MO/albertsons.json">/api/v0/stores/MO/albertsons.json</a></code></li>
+              
+                <li><code><a href="/api/v0/stores/MO/sams_club.json">/api/v0/stores/MO/sams_club.json</a></code></li>
+              
+                <li><code><a href="/api/v0/stores/MO/walmart.json">/api/v0/stores/MO/walmart.json</a></code></li>
+              
+            
+          
+            
+              
+                <li><code><a href="/api/v0/stores/MS/sams_club.json">/api/v0/stores/MS/sams_club.json</a></code></li>
+              
+                <li><code><a href="/api/v0/stores/MS/walmart.json">/api/v0/stores/MS/walmart.json</a></code></li>
+              
+            
+          
+            
+              
+                <li><code><a href="/api/v0/stores/MT/albertsons.json">/api/v0/stores/MT/albertsons.json</a></code></li>
+              
+                <li><code><a href="/api/v0/stores/MT/sams_club.json">/api/v0/stores/MT/sams_club.json</a></code></li>
+              
+                <li><code><a href="/api/v0/stores/MT/walmart.json">/api/v0/stores/MT/walmart.json</a></code></li>
+              
+            
+          
+            
+              
+                <li><code><a href="/api/v0/stores/NC/sams_club.json">/api/v0/stores/NC/sams_club.json</a></code></li>
+              
+                <li><code><a href="/api/v0/stores/NC/walmart.json">/api/v0/stores/NC/walmart.json</a></code></li>
+              
+            
+          
+            
+              
+                <li><code><a href="/api/v0/stores/ND/sams_club.json">/api/v0/stores/ND/sams_club.json</a></code></li>
+              
+                <li><code><a href="/api/v0/stores/ND/walmart.json">/api/v0/stores/ND/walmart.json</a></code></li>
+              
+            
+          
+            
+              
+                <li><code><a href="/api/v0/stores/NE/albertsons.json">/api/v0/stores/NE/albertsons.json</a></code></li>
+              
+                <li><code><a href="/api/v0/stores/NE/sams_club.json">/api/v0/stores/NE/sams_club.json</a></code></li>
+              
+                <li><code><a href="/api/v0/stores/NE/walmart.json">/api/v0/stores/NE/walmart.json</a></code></li>
+              
+            
+          
+            
+              
+                <li><code><a href="/api/v0/stores/NH/albertsons.json">/api/v0/stores/NH/albertsons.json</a></code></li>
+              
+                <li><code><a href="/api/v0/stores/NH/sams_club.json">/api/v0/stores/NH/sams_club.json</a></code></li>
+              
+                <li><code><a href="/api/v0/stores/NH/walmart.json">/api/v0/stores/NH/walmart.json</a></code></li>
+              
+            
+          
+            
+              
+                <li><code><a href="/api/v0/stores/NJ/albertsons.json">/api/v0/stores/NJ/albertsons.json</a></code></li>
+              
+                <li><code><a href="/api/v0/stores/NJ/cvs.json">/api/v0/stores/NJ/cvs.json</a></code></li>
+              
+                <li><code><a href="/api/v0/stores/NJ/sams_club.json">/api/v0/stores/NJ/sams_club.json</a></code></li>
+              
+                <li><code><a href="/api/v0/stores/NJ/walmart.json">/api/v0/stores/NJ/walmart.json</a></code></li>
+              
+            
+          
+            
+              
+                <li><code><a href="/api/v0/stores/NM/albertsons.json">/api/v0/stores/NM/albertsons.json</a></code></li>
+              
+                <li><code><a href="/api/v0/stores/NM/sams_club.json">/api/v0/stores/NM/sams_club.json</a></code></li>
+              
+                <li><code><a href="/api/v0/stores/NM/walmart.json">/api/v0/stores/NM/walmart.json</a></code></li>
+              
+            
+          
+            
+              
+                <li><code><a href="/api/v0/stores/NV/albertsons.json">/api/v0/stores/NV/albertsons.json</a></code></li>
+              
+                <li><code><a href="/api/v0/stores/NV/sams_club.json">/api/v0/stores/NV/sams_club.json</a></code></li>
+              
+                <li><code><a href="/api/v0/stores/NV/walmart.json">/api/v0/stores/NV/walmart.json</a></code></li>
+              
+            
+          
+            
+              
+                <li><code><a href="/api/v0/stores/NY/albertsons.json">/api/v0/stores/NY/albertsons.json</a></code></li>
+              
+                <li><code><a href="/api/v0/stores/NY/cvs.json">/api/v0/stores/NY/cvs.json</a></code></li>
+              
+                <li><code><a href="/api/v0/stores/NY/sams_club.json">/api/v0/stores/NY/sams_club.json</a></code></li>
+              
+                <li><code><a href="/api/v0/stores/NY/walmart.json">/api/v0/stores/NY/walmart.json</a></code></li>
+              
+            
+          
+            
+              
+                <li><code><a href="/api/v0/stores/OH/cvs.json">/api/v0/stores/OH/cvs.json</a></code></li>
+              
+                <li><code><a href="/api/v0/stores/OH/sams_club.json">/api/v0/stores/OH/sams_club.json</a></code></li>
+              
+                <li><code><a href="/api/v0/stores/OH/walmart.json">/api/v0/stores/OH/walmart.json</a></code></li>
+              
+            
+          
+            
+              
+                <li><code><a href="/api/v0/stores/OK/sams_club.json">/api/v0/stores/OK/sams_club.json</a></code></li>
+              
+                <li><code><a href="/api/v0/stores/OK/walmart.json">/api/v0/stores/OK/walmart.json</a></code></li>
+              
+            
+          
+            
+              
+                <li><code><a href="/api/v0/stores/OR/albertsons.json">/api/v0/stores/OR/albertsons.json</a></code></li>
+              
+                <li><code><a href="/api/v0/stores/OR/walmart.json">/api/v0/stores/OR/walmart.json</a></code></li>
+              
+            
+          
+            
+              
+                <li><code><a href="/api/v0/stores/PA/albertsons.json">/api/v0/stores/PA/albertsons.json</a></code></li>
+              
+                <li><code><a href="/api/v0/stores/PA/cvs.json">/api/v0/stores/PA/cvs.json</a></code></li>
+              
+                <li><code><a href="/api/v0/stores/PA/sams_club.json">/api/v0/stores/PA/sams_club.json</a></code></li>
+              
+                <li><code><a href="/api/v0/stores/PA/walmart.json">/api/v0/stores/PA/walmart.json</a></code></li>
+              
+            
+          
+            
+              
+                <li><code><a href="/api/v0/stores/PR/cvs.json">/api/v0/stores/PR/cvs.json</a></code></li>
+              
+                <li><code><a href="/api/v0/stores/PR/sams_club.json">/api/v0/stores/PR/sams_club.json</a></code></li>
+              
+                <li><code><a href="/api/v0/stores/PR/walmart.json">/api/v0/stores/PR/walmart.json</a></code></li>
+              
+            
+          
+            
+              
+                <li><code><a href="/api/v0/stores/RI/albertsons.json">/api/v0/stores/RI/albertsons.json</a></code></li>
+              
+                <li><code><a href="/api/v0/stores/RI/cvs.json">/api/v0/stores/RI/cvs.json</a></code></li>
+              
+                <li><code><a href="/api/v0/stores/RI/walmart.json">/api/v0/stores/RI/walmart.json</a></code></li>
+              
+            
+          
+            
+              
+                <li><code><a href="/api/v0/stores/SC/cvs.json">/api/v0/stores/SC/cvs.json</a></code></li>
+              
+                <li><code><a href="/api/v0/stores/SC/sams_club.json">/api/v0/stores/SC/sams_club.json</a></code></li>
+              
+                <li><code><a href="/api/v0/stores/SC/walmart.json">/api/v0/stores/SC/walmart.json</a></code></li>
+              
+            
+          
+            
+              
+                <li><code><a href="/api/v0/stores/SD/albertsons.json">/api/v0/stores/SD/albertsons.json</a></code></li>
+              
+                <li><code><a href="/api/v0/stores/SD/sams_club.json">/api/v0/stores/SD/sams_club.json</a></code></li>
+              
+                <li><code><a href="/api/v0/stores/SD/walmart.json">/api/v0/stores/SD/walmart.json</a></code></li>
+              
+            
+          
+            
+              
+                <li><code><a href="/api/v0/stores/TN/sams_club.json">/api/v0/stores/TN/sams_club.json</a></code></li>
+              
+                <li><code><a href="/api/v0/stores/TN/walmart.json">/api/v0/stores/TN/walmart.json</a></code></li>
+              
+            
+          
+            
+              
+                <li><code><a href="/api/v0/stores/TX/albertsons.json">/api/v0/stores/TX/albertsons.json</a></code></li>
+              
+                <li><code><a href="/api/v0/stores/TX/cvs.json">/api/v0/stores/TX/cvs.json</a></code></li>
+              
+                <li><code><a href="/api/v0/stores/TX/sams_club.json">/api/v0/stores/TX/sams_club.json</a></code></li>
+              
+                <li><code><a href="/api/v0/stores/TX/walmart.json">/api/v0/stores/TX/walmart.json</a></code></li>
+              
+            
+          
+            
+              
+                <li><code><a href="/api/v0/stores/UT/albertsons.json">/api/v0/stores/UT/albertsons.json</a></code></li>
+              
+                <li><code><a href="/api/v0/stores/UT/sams_club.json">/api/v0/stores/UT/sams_club.json</a></code></li>
+              
+                <li><code><a href="/api/v0/stores/UT/walmart.json">/api/v0/stores/UT/walmart.json</a></code></li>
+              
+            
+          
+            
+              
+                <li><code><a href="/api/v0/stores/VA/albertsons.json">/api/v0/stores/VA/albertsons.json</a></code></li>
+              
+                <li><code><a href="/api/v0/stores/VA/cvs.json">/api/v0/stores/VA/cvs.json</a></code></li>
+              
+                <li><code><a href="/api/v0/stores/VA/sams_club.json">/api/v0/stores/VA/sams_club.json</a></code></li>
+              
+                <li><code><a href="/api/v0/stores/VA/walmart.json">/api/v0/stores/VA/walmart.json</a></code></li>
+              
+            
+          
+            
+          
+            
+              
+                <li><code><a href="/api/v0/stores/VT/albertsons.json">/api/v0/stores/VT/albertsons.json</a></code></li>
+              
+                <li><code><a href="/api/v0/stores/VT/walmart.json">/api/v0/stores/VT/walmart.json</a></code></li>
+              
+            
+          
+            
+              
+                <li><code><a href="/api/v0/stores/WA/albertsons.json">/api/v0/stores/WA/albertsons.json</a></code></li>
+              
+                <li><code><a href="/api/v0/stores/WA/walmart.json">/api/v0/stores/WA/walmart.json</a></code></li>
+              
+            
+          
+            
+              
+                <li><code><a href="/api/v0/stores/WI/sams_club.json">/api/v0/stores/WI/sams_club.json</a></code></li>
+              
+                <li><code><a href="/api/v0/stores/WI/walmart.json">/api/v0/stores/WI/walmart.json</a></code></li>
+              
+            
+          
+            
+              
+                <li><code><a href="/api/v0/stores/WV/sams_club.json">/api/v0/stores/WV/sams_club.json</a></code></li>
+              
+                <li><code><a href="/api/v0/stores/WV/walmart.json">/api/v0/stores/WV/walmart.json</a></code></li>
+              
+            
+          
+            
+              
+                <li><code><a href="/api/v0/stores/WY/albertsons.json">/api/v0/stores/WY/albertsons.json</a></code></li>
+              
+                <li><code><a href="/api/v0/stores/WY/sams_club.json">/api/v0/stores/WY/sams_club.json</a></code></li>
+              
+                <li><code><a href="/api/v0/stores/WY/walmart.json">/api/v0/stores/WY/walmart.json</a></code></li>
+              
+            
+          
+        </ul>
+      </div>
+    </main>
+  </body>
+</html>
