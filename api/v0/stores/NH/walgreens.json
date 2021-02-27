@@ -4,7 +4,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T14:22:39.421+00:00",
+    "appointments_last_fetched": "2021-02-27T14:47:14.687+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -45,7 +45,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T14:22:39.421+00:00",
+    "appointments_last_fetched": "2021-02-27T14:47:14.687+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -988,7 +988,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T14:30:31.557+00:00",
+    "appointments_last_fetched": "2021-02-27T14:47:09.108+00:00",
     "appointments_raw": {
       "both_doses": {
         "locations": [
@@ -1006,7 +1006,6 @@
                 "date": "2021-03-02",
                 "day": "Tuesday",
                 "slots": [
-                  "10:45 am",
                   "11:00 am",
                   "11:15 am",
                   "11:30 am",
@@ -1097,7 +1096,6 @@
                 "date": "2021-03-02",
                 "day": "Tuesday",
                 "slots": [
-                  "10:45 am",
                   "11:00 am",
                   "11:15 am",
                   "11:30 am",
@@ -1135,7 +1133,7 @@
               }
             ],
             "description": "",
-            "distance": 17.5,
+            "distance": 22.1,
             "fhirLocationId": "216779e6-2d46-4c29-b2d8-fdf777b0453d",
             "locationId": "216779e6-2d46-4c29-b2d8-fdf777b0453d",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -1758,13 +1756,67 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T14:21:11.143+00:00",
+    "appointments_last_fetched": "2021-02-27T14:47:14.176+00:00",
     "appointments_raw": {
       "both_doses": {
-        "error": [
+        "locations": [
           {
-            "code": "FC_904_NoData",
-            "message": "Insufficient inventory."
+            "address": {
+              "city": "FRYEBURG",
+              "country": "US",
+              "line1": "119 BRIDGTON ROAD",
+              "line2": "",
+              "state": "ME",
+              "zip": "04037"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "11:45 am"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 7.43,
+            "fhirLocationId": "fd37b6d7-ac9f-421b-ab85-37ac7fedb8aa",
+            "locationId": "fd37b6d7-ac9f-421b-ab85-37ac7fedb8aa",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "18403",
+            "phone": [
+              {
+                "number": "207-935-2045",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "207-935-7826",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "207-935-2045",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 44.01961608,
+              "longitude": -70.96385356
+            },
+            "storenumber": "18403"
           }
         ]
       },
@@ -1777,10 +1829,64 @@
         ]
       },
       "second_dose_pfizer": {
-        "error": [
+        "locations": [
           {
-            "code": "FC_904_NoData",
-            "message": "Insufficient inventory."
+            "address": {
+              "city": "FRYEBURG",
+              "country": "US",
+              "line1": "119 BRIDGTON ROAD",
+              "line2": "",
+              "state": "ME",
+              "zip": "04037"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "11:45 am"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 22.26,
+            "fhirLocationId": "fd37b6d7-ac9f-421b-ab85-37ac7fedb8aa",
+            "locationId": "fd37b6d7-ac9f-421b-ab85-37ac7fedb8aa",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "18403",
+            "phone": [
+              {
+                "number": "207-935-2045",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "207-935-7826",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "207-935-2045",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 44.01961608,
+              "longitude": -70.96385356
+            },
+            "storenumber": "18403"
           }
         ]
       }
