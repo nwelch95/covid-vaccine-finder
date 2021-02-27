@@ -701,7 +701,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T03:12:49.905+00:00",
+    "appointments_last_fetched": "2021-02-27T03:24:19.238+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -906,7 +906,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T03:12:49.905+00:00",
+    "appointments_last_fetched": "2021-02-27T03:24:19.238+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -988,7 +988,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T03:12:49.905+00:00",
+    "appointments_last_fetched": "2021-02-27T03:24:19.238+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -1029,7 +1029,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T03:12:49.905+00:00",
+    "appointments_last_fetched": "2021-02-27T03:24:19.238+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -2065,13 +2065,67 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T03:12:46.031+00:00",
+    "appointments_last_fetched": "2021-02-27T03:24:46.942+00:00",
     "appointments_raw": {
       "both_doses": {
-        "error": [
+        "locations": [
           {
-            "code": "FC_904_NoData",
-            "message": "Insufficient inventory."
+            "address": {
+              "city": "BERMUDA DUNES",
+              "country": "US",
+              "line1": "42010 WASHINGTON ST",
+              "line2": "",
+              "state": "CA",
+              "zip": "92203"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-02-28",
+                "day": "Sunday",
+                "slots": [
+                  "12:30 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 1.17,
+            "fhirLocationId": "36c2eb83-a82c-4459-9e3d-a3204bb5fa0a",
+            "locationId": "36c2eb83-a82c-4459-9e3d-a3204bb5fa0a",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "4757",
+            "phone": [
+              {
+                "number": "760-772-9122",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "760-772-9122",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 33.7430467,
+              "longitude": -116.30313905
+            },
+            "storenumber": "4757"
           }
         ]
       },
@@ -2084,10 +2138,64 @@
         ]
       },
       "second_dose_pfizer": {
-        "error": [
+        "locations": [
           {
-            "code": "FC_904_NoData",
-            "message": "Insufficient inventory."
+            "address": {
+              "city": "BERMUDA DUNES",
+              "country": "US",
+              "line1": "42010 WASHINGTON ST",
+              "line2": "",
+              "state": "CA",
+              "zip": "92203"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-02-28",
+                "day": "Sunday",
+                "slots": [
+                  "12:30 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 2.6,
+            "fhirLocationId": "36c2eb83-a82c-4459-9e3d-a3204bb5fa0a",
+            "locationId": "36c2eb83-a82c-4459-9e3d-a3204bb5fa0a",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "4757",
+            "phone": [
+              {
+                "number": "760-772-9122",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "760-772-9122",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 33.7430467,
+              "longitude": -116.30313905
+            },
+            "storenumber": "4757"
           }
         ]
       }
@@ -2106,13 +2214,67 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T03:12:46.031+00:00",
+    "appointments_last_fetched": "2021-02-27T03:24:46.942+00:00",
     "appointments_raw": {
       "both_doses": {
-        "error": [
+        "locations": [
           {
-            "code": "FC_904_NoData",
-            "message": "Insufficient inventory."
+            "address": {
+              "city": "BERMUDA DUNES",
+              "country": "US",
+              "line1": "42010 WASHINGTON ST",
+              "line2": "",
+              "state": "CA",
+              "zip": "92203"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-02-28",
+                "day": "Sunday",
+                "slots": [
+                  "12:30 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 1.17,
+            "fhirLocationId": "36c2eb83-a82c-4459-9e3d-a3204bb5fa0a",
+            "locationId": "36c2eb83-a82c-4459-9e3d-a3204bb5fa0a",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "4757",
+            "phone": [
+              {
+                "number": "760-772-9122",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "760-772-9122",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 33.7430467,
+              "longitude": -116.30313905
+            },
+            "storenumber": "4757"
           }
         ]
       },
@@ -2125,10 +2287,64 @@
         ]
       },
       "second_dose_pfizer": {
-        "error": [
+        "locations": [
           {
-            "code": "FC_904_NoData",
-            "message": "Insufficient inventory."
+            "address": {
+              "city": "BERMUDA DUNES",
+              "country": "US",
+              "line1": "42010 WASHINGTON ST",
+              "line2": "",
+              "state": "CA",
+              "zip": "92203"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-02-28",
+                "day": "Sunday",
+                "slots": [
+                  "12:30 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 2.6,
+            "fhirLocationId": "36c2eb83-a82c-4459-9e3d-a3204bb5fa0a",
+            "locationId": "36c2eb83-a82c-4459-9e3d-a3204bb5fa0a",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "4757",
+            "phone": [
+              {
+                "number": "760-772-9122",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "760-772-9122",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 33.7430467,
+              "longitude": -116.30313905
+            },
+            "storenumber": "4757"
           }
         ]
       }
@@ -2147,13 +2363,67 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T03:12:46.031+00:00",
+    "appointments_last_fetched": "2021-02-27T03:24:46.942+00:00",
     "appointments_raw": {
       "both_doses": {
-        "error": [
+        "locations": [
           {
-            "code": "FC_904_NoData",
-            "message": "Insufficient inventory."
+            "address": {
+              "city": "BERMUDA DUNES",
+              "country": "US",
+              "line1": "42010 WASHINGTON ST",
+              "line2": "",
+              "state": "CA",
+              "zip": "92203"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-02-28",
+                "day": "Sunday",
+                "slots": [
+                  "12:30 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 1.17,
+            "fhirLocationId": "36c2eb83-a82c-4459-9e3d-a3204bb5fa0a",
+            "locationId": "36c2eb83-a82c-4459-9e3d-a3204bb5fa0a",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "4757",
+            "phone": [
+              {
+                "number": "760-772-9122",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "760-772-9122",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 33.7430467,
+              "longitude": -116.30313905
+            },
+            "storenumber": "4757"
           }
         ]
       },
@@ -2166,10 +2436,64 @@
         ]
       },
       "second_dose_pfizer": {
-        "error": [
+        "locations": [
           {
-            "code": "FC_904_NoData",
-            "message": "Insufficient inventory."
+            "address": {
+              "city": "BERMUDA DUNES",
+              "country": "US",
+              "line1": "42010 WASHINGTON ST",
+              "line2": "",
+              "state": "CA",
+              "zip": "92203"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-02-28",
+                "day": "Sunday",
+                "slots": [
+                  "12:30 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 2.6,
+            "fhirLocationId": "36c2eb83-a82c-4459-9e3d-a3204bb5fa0a",
+            "locationId": "36c2eb83-a82c-4459-9e3d-a3204bb5fa0a",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "4757",
+            "phone": [
+              {
+                "number": "760-772-9122",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "760-772-9122",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 33.7430467,
+              "longitude": -116.30313905
+            },
+            "storenumber": "4757"
           }
         ]
       }
@@ -2188,13 +2512,67 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T03:12:46.031+00:00",
+    "appointments_last_fetched": "2021-02-27T03:24:46.942+00:00",
     "appointments_raw": {
       "both_doses": {
-        "error": [
+        "locations": [
           {
-            "code": "FC_904_NoData",
-            "message": "Insufficient inventory."
+            "address": {
+              "city": "BERMUDA DUNES",
+              "country": "US",
+              "line1": "42010 WASHINGTON ST",
+              "line2": "",
+              "state": "CA",
+              "zip": "92203"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-02-28",
+                "day": "Sunday",
+                "slots": [
+                  "12:30 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 1.17,
+            "fhirLocationId": "36c2eb83-a82c-4459-9e3d-a3204bb5fa0a",
+            "locationId": "36c2eb83-a82c-4459-9e3d-a3204bb5fa0a",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "4757",
+            "phone": [
+              {
+                "number": "760-772-9122",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "760-772-9122",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 33.7430467,
+              "longitude": -116.30313905
+            },
+            "storenumber": "4757"
           }
         ]
       },
@@ -2207,10 +2585,64 @@
         ]
       },
       "second_dose_pfizer": {
-        "error": [
+        "locations": [
           {
-            "code": "FC_904_NoData",
-            "message": "Insufficient inventory."
+            "address": {
+              "city": "BERMUDA DUNES",
+              "country": "US",
+              "line1": "42010 WASHINGTON ST",
+              "line2": "",
+              "state": "CA",
+              "zip": "92203"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-02-28",
+                "day": "Sunday",
+                "slots": [
+                  "12:30 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 2.6,
+            "fhirLocationId": "36c2eb83-a82c-4459-9e3d-a3204bb5fa0a",
+            "locationId": "36c2eb83-a82c-4459-9e3d-a3204bb5fa0a",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "4757",
+            "phone": [
+              {
+                "number": "760-772-9122",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "760-772-9122",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 33.7430467,
+              "longitude": -116.30313905
+            },
+            "storenumber": "4757"
           }
         ]
       }
@@ -2378,13 +2810,67 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T03:12:46.031+00:00",
+    "appointments_last_fetched": "2021-02-27T03:24:46.942+00:00",
     "appointments_raw": {
       "both_doses": {
-        "error": [
+        "locations": [
           {
-            "code": "FC_904_NoData",
-            "message": "Insufficient inventory."
+            "address": {
+              "city": "BERMUDA DUNES",
+              "country": "US",
+              "line1": "42010 WASHINGTON ST",
+              "line2": "",
+              "state": "CA",
+              "zip": "92203"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-02-28",
+                "day": "Sunday",
+                "slots": [
+                  "12:30 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 1.17,
+            "fhirLocationId": "36c2eb83-a82c-4459-9e3d-a3204bb5fa0a",
+            "locationId": "36c2eb83-a82c-4459-9e3d-a3204bb5fa0a",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "4757",
+            "phone": [
+              {
+                "number": "760-772-9122",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "760-772-9122",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 33.7430467,
+              "longitude": -116.30313905
+            },
+            "storenumber": "4757"
           }
         ]
       },
@@ -2397,10 +2883,64 @@
         ]
       },
       "second_dose_pfizer": {
-        "error": [
+        "locations": [
           {
-            "code": "FC_904_NoData",
-            "message": "Insufficient inventory."
+            "address": {
+              "city": "BERMUDA DUNES",
+              "country": "US",
+              "line1": "42010 WASHINGTON ST",
+              "line2": "",
+              "state": "CA",
+              "zip": "92203"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-02-28",
+                "day": "Sunday",
+                "slots": [
+                  "12:30 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 2.6,
+            "fhirLocationId": "36c2eb83-a82c-4459-9e3d-a3204bb5fa0a",
+            "locationId": "36c2eb83-a82c-4459-9e3d-a3204bb5fa0a",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "4757",
+            "phone": [
+              {
+                "number": "760-772-9122",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "760-772-9122",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 33.7430467,
+              "longitude": -116.30313905
+            },
+            "storenumber": "4757"
           }
         ]
       }
@@ -2717,56 +3257,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T03:12:46.031+00:00",
-    "appointments_raw": {
-      "both_doses": {
-        "error": [
-          {
-            "code": "FC_904_NoData",
-            "message": "Insufficient inventory."
-          }
-        ]
-      },
-      "second_dose_moderna": {
-        "error": [
-          {
-            "code": "FC_904_NoData",
-            "message": "Insufficient inventory."
-          }
-        ]
-      },
-      "second_dose_pfizer": {
-        "error": [
-          {
-            "code": "FC_904_NoData",
-            "message": "Insufficient inventory."
-          }
-        ]
-      }
-    },
-    "brand": "walgreens",
-    "brand_id": "5037",
-    "carries_vaccine": null,
-    "city": "DESERT HOT SPRINGS",
-    "id": 2735858,
-    "name": "Walgreen Drug Store",
-    "postal_code": "92240",
-    "state": "CA"
-  },
-  {
-    "address": "42010 WASHINGTON ST",
-    "appointments": [
-      {
-        "time": "2021-02-28T12:30:00.000-08:00",
-        "type": "both_doses"
-      },
-      {
-        "time": "2021-02-28T12:30:00.000-08:00",
-        "type": "second_dose_pfizer"
-      }
-    ],
-    "appointments_available": true,
-    "appointments_last_fetched": "2021-02-27T03:23:15.867+00:00",
+    "appointments_last_fetched": "2021-02-27T03:24:46.942+00:00",
     "appointments_raw": {
       "both_doses": {
         "locations": [
@@ -2801,7 +3292,7 @@
               }
             ],
             "description": "",
-            "distance": 0.23,
+            "distance": 1.17,
             "fhirLocationId": "36c2eb83-a82c-4459-9e3d-a3204bb5fa0a",
             "locationId": "36c2eb83-a82c-4459-9e3d-a3204bb5fa0a",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -2871,7 +3362,164 @@
               }
             ],
             "description": "",
+            "distance": 2.6,
+            "fhirLocationId": "36c2eb83-a82c-4459-9e3d-a3204bb5fa0a",
+            "locationId": "36c2eb83-a82c-4459-9e3d-a3204bb5fa0a",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "4757",
+            "phone": [
+              {
+                "number": "760-772-9122",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "760-772-9122",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 33.7430467,
+              "longitude": -116.30313905
+            },
+            "storenumber": "4757"
+          }
+        ]
+      }
+    },
+    "brand": "walgreens",
+    "brand_id": "5037",
+    "carries_vaccine": null,
+    "city": "DESERT HOT SPRINGS",
+    "id": 2735858,
+    "name": "Walgreen Drug Store",
+    "postal_code": "92240",
+    "state": "CA"
+  },
+  {
+    "address": "42010 WASHINGTON ST",
+    "appointments": [
+      {
+        "time": "2021-02-28T12:30:00.000-08:00",
+        "type": "both_doses"
+      },
+      {
+        "time": "2021-02-28T12:30:00.000-08:00",
+        "type": "second_dose_pfizer"
+      }
+    ],
+    "appointments_available": true,
+    "appointments_last_fetched": "2021-02-27T03:24:46.942+00:00",
+    "appointments_raw": {
+      "both_doses": {
+        "locations": [
+          {
+            "address": {
+              "city": "BERMUDA DUNES",
+              "country": "US",
+              "line1": "42010 WASHINGTON ST",
+              "line2": "",
+              "state": "CA",
+              "zip": "92203"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-02-28",
+                "day": "Sunday",
+                "slots": [
+                  "12:30 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
             "distance": 1.17,
+            "fhirLocationId": "36c2eb83-a82c-4459-9e3d-a3204bb5fa0a",
+            "locationId": "36c2eb83-a82c-4459-9e3d-a3204bb5fa0a",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "4757",
+            "phone": [
+              {
+                "number": "760-772-9122",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "760-772-9122",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 33.7430467,
+              "longitude": -116.30313905
+            },
+            "storenumber": "4757"
+          }
+        ]
+      },
+      "second_dose_moderna": {
+        "error": [
+          {
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
+          }
+        ]
+      },
+      "second_dose_pfizer": {
+        "locations": [
+          {
+            "address": {
+              "city": "BERMUDA DUNES",
+              "country": "US",
+              "line1": "42010 WASHINGTON ST",
+              "line2": "",
+              "state": "CA",
+              "zip": "92203"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-02-28",
+                "day": "Sunday",
+                "slots": [
+                  "12:30 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 2.6,
             "fhirLocationId": "36c2eb83-a82c-4459-9e3d-a3204bb5fa0a",
             "locationId": "36c2eb83-a82c-4459-9e3d-a3204bb5fa0a",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -3988,13 +4636,67 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T03:12:46.031+00:00",
+    "appointments_last_fetched": "2021-02-27T03:24:46.942+00:00",
     "appointments_raw": {
       "both_doses": {
-        "error": [
+        "locations": [
           {
-            "code": "FC_904_NoData",
-            "message": "Insufficient inventory."
+            "address": {
+              "city": "BERMUDA DUNES",
+              "country": "US",
+              "line1": "42010 WASHINGTON ST",
+              "line2": "",
+              "state": "CA",
+              "zip": "92203"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-02-28",
+                "day": "Sunday",
+                "slots": [
+                  "12:30 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 1.17,
+            "fhirLocationId": "36c2eb83-a82c-4459-9e3d-a3204bb5fa0a",
+            "locationId": "36c2eb83-a82c-4459-9e3d-a3204bb5fa0a",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "4757",
+            "phone": [
+              {
+                "number": "760-772-9122",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "760-772-9122",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 33.7430467,
+              "longitude": -116.30313905
+            },
+            "storenumber": "4757"
           }
         ]
       },
@@ -4007,10 +4709,64 @@
         ]
       },
       "second_dose_pfizer": {
-        "error": [
+        "locations": [
           {
-            "code": "FC_904_NoData",
-            "message": "Insufficient inventory."
+            "address": {
+              "city": "BERMUDA DUNES",
+              "country": "US",
+              "line1": "42010 WASHINGTON ST",
+              "line2": "",
+              "state": "CA",
+              "zip": "92203"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-02-28",
+                "day": "Sunday",
+                "slots": [
+                  "12:30 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 2.6,
+            "fhirLocationId": "36c2eb83-a82c-4459-9e3d-a3204bb5fa0a",
+            "locationId": "36c2eb83-a82c-4459-9e3d-a3204bb5fa0a",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "4757",
+            "phone": [
+              {
+                "number": "760-772-9122",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "760-772-9122",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 33.7430467,
+              "longitude": -116.30313905
+            },
+            "storenumber": "4757"
           }
         ]
       }
@@ -4234,7 +4990,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T03:14:49.422+00:00",
+    "appointments_last_fetched": "2021-02-27T03:24:38.854+00:00",
     "appointments_raw": {
       "both_doses": {
         "locations": [
@@ -4252,15 +5008,12 @@
                 "date": "2021-03-01",
                 "day": "Monday",
                 "slots": [
-                  "10:00 am",
                   "10:45 am",
-                  "11:00 am",
                   "11:45 am",
                   "12:00 pm",
                   "12:45 pm",
                   "01:00 pm",
                   "02:15 pm",
-                  "02:30 pm",
                   "02:45 pm",
                   "03:15 pm",
                   "04:30 pm",
@@ -4281,7 +5034,7 @@
               }
             ],
             "description": "",
-            "distance": 17.37,
+            "distance": 18.76,
             "fhirLocationId": "97203fe2-e252-4982-a79a-cb30f4c4e63d",
             "locationId": "97203fe2-e252-4982-a79a-cb30f4c4e63d",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -4334,15 +5087,12 @@
                 "date": "2021-03-01",
                 "day": "Monday",
                 "slots": [
-                  "10:00 am",
                   "10:45 am",
-                  "11:00 am",
                   "11:45 am",
                   "12:00 pm",
                   "12:45 pm",
                   "01:00 pm",
                   "02:15 pm",
-                  "02:30 pm",
                   "02:45 pm",
                   "03:15 pm",
                   "04:30 pm",
@@ -4363,7 +5113,7 @@
               }
             ],
             "description": "",
-            "distance": 22.51,
+            "distance": 18.76,
             "fhirLocationId": "97203fe2-e252-4982-a79a-cb30f4c4e63d",
             "locationId": "97203fe2-e252-4982-a79a-cb30f4c4e63d",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -5308,27 +6058,11 @@
     "address": "21650 US HIGHWAY 18",
     "appointments": [
       {
-        "time": "2021-03-01T10:00:00.000-08:00",
-        "type": "both_doses"
-      },
-      {
-        "time": "2021-03-01T10:00:00.000-08:00",
-        "type": "second_dose_pfizer"
-      },
-      {
         "time": "2021-03-01T10:45:00.000-08:00",
         "type": "both_doses"
       },
       {
         "time": "2021-03-01T10:45:00.000-08:00",
-        "type": "second_dose_pfizer"
-      },
-      {
-        "time": "2021-03-01T11:00:00.000-08:00",
-        "type": "both_doses"
-      },
-      {
-        "time": "2021-03-01T11:00:00.000-08:00",
         "type": "second_dose_pfizer"
       },
       {
@@ -5369,14 +6103,6 @@
       },
       {
         "time": "2021-03-01T14:15:00.000-08:00",
-        "type": "second_dose_pfizer"
-      },
-      {
-        "time": "2021-03-01T14:30:00.000-08:00",
-        "type": "both_doses"
-      },
-      {
-        "time": "2021-03-01T14:30:00.000-08:00",
         "type": "second_dose_pfizer"
       },
       {
@@ -5413,7 +6139,7 @@
       }
     ],
     "appointments_available": true,
-    "appointments_last_fetched": "2021-02-27T03:14:49.422+00:00",
+    "appointments_last_fetched": "2021-02-27T03:24:38.854+00:00",
     "appointments_raw": {
       "both_doses": {
         "locations": [
@@ -5431,15 +6157,12 @@
                 "date": "2021-03-01",
                 "day": "Monday",
                 "slots": [
-                  "10:00 am",
                   "10:45 am",
-                  "11:00 am",
                   "11:45 am",
                   "12:00 pm",
                   "12:45 pm",
                   "01:00 pm",
                   "02:15 pm",
-                  "02:30 pm",
                   "02:45 pm",
                   "03:15 pm",
                   "04:30 pm",
@@ -5460,7 +6183,7 @@
               }
             ],
             "description": "",
-            "distance": 17.37,
+            "distance": 18.76,
             "fhirLocationId": "97203fe2-e252-4982-a79a-cb30f4c4e63d",
             "locationId": "97203fe2-e252-4982-a79a-cb30f4c4e63d",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -5513,15 +6236,12 @@
                 "date": "2021-03-01",
                 "day": "Monday",
                 "slots": [
-                  "10:00 am",
                   "10:45 am",
-                  "11:00 am",
                   "11:45 am",
                   "12:00 pm",
                   "12:45 pm",
                   "01:00 pm",
                   "02:15 pm",
-                  "02:30 pm",
                   "02:45 pm",
                   "03:15 pm",
                   "04:30 pm",
@@ -5542,7 +6262,7 @@
               }
             ],
             "description": "",
-            "distance": 22.51,
+            "distance": 18.76,
             "fhirLocationId": "97203fe2-e252-4982-a79a-cb30f4c4e63d",
             "locationId": "97203fe2-e252-4982-a79a-cb30f4c4e63d",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -5586,7 +6306,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T03:14:49.422+00:00",
+    "appointments_last_fetched": "2021-02-27T03:24:38.854+00:00",
     "appointments_raw": {
       "both_doses": {
         "locations": [
@@ -5604,15 +6324,12 @@
                 "date": "2021-03-01",
                 "day": "Monday",
                 "slots": [
-                  "10:00 am",
                   "10:45 am",
-                  "11:00 am",
                   "11:45 am",
                   "12:00 pm",
                   "12:45 pm",
                   "01:00 pm",
                   "02:15 pm",
-                  "02:30 pm",
                   "02:45 pm",
                   "03:15 pm",
                   "04:30 pm",
@@ -5633,7 +6350,7 @@
               }
             ],
             "description": "",
-            "distance": 17.37,
+            "distance": 18.76,
             "fhirLocationId": "97203fe2-e252-4982-a79a-cb30f4c4e63d",
             "locationId": "97203fe2-e252-4982-a79a-cb30f4c4e63d",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -5686,15 +6403,12 @@
                 "date": "2021-03-01",
                 "day": "Monday",
                 "slots": [
-                  "10:00 am",
                   "10:45 am",
-                  "11:00 am",
                   "11:45 am",
                   "12:00 pm",
                   "12:45 pm",
                   "01:00 pm",
                   "02:15 pm",
-                  "02:30 pm",
                   "02:45 pm",
                   "03:15 pm",
                   "04:30 pm",
@@ -5715,7 +6429,7 @@
               }
             ],
             "description": "",
-            "distance": 22.51,
+            "distance": 18.76,
             "fhirLocationId": "97203fe2-e252-4982-a79a-cb30f4c4e63d",
             "locationId": "97203fe2-e252-4982-a79a-cb30f4c4e63d",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -5759,7 +6473,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T03:14:49.422+00:00",
+    "appointments_last_fetched": "2021-02-27T03:24:38.854+00:00",
     "appointments_raw": {
       "both_doses": {
         "locations": [
@@ -5777,15 +6491,12 @@
                 "date": "2021-03-01",
                 "day": "Monday",
                 "slots": [
-                  "10:00 am",
                   "10:45 am",
-                  "11:00 am",
                   "11:45 am",
                   "12:00 pm",
                   "12:45 pm",
                   "01:00 pm",
                   "02:15 pm",
-                  "02:30 pm",
                   "02:45 pm",
                   "03:15 pm",
                   "04:30 pm",
@@ -5806,7 +6517,7 @@
               }
             ],
             "description": "",
-            "distance": 17.37,
+            "distance": 18.76,
             "fhirLocationId": "97203fe2-e252-4982-a79a-cb30f4c4e63d",
             "locationId": "97203fe2-e252-4982-a79a-cb30f4c4e63d",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -5859,15 +6570,12 @@
                 "date": "2021-03-01",
                 "day": "Monday",
                 "slots": [
-                  "10:00 am",
                   "10:45 am",
-                  "11:00 am",
                   "11:45 am",
                   "12:00 pm",
                   "12:45 pm",
                   "01:00 pm",
                   "02:15 pm",
-                  "02:30 pm",
                   "02:45 pm",
                   "03:15 pm",
                   "04:30 pm",
@@ -5888,7 +6596,7 @@
               }
             ],
             "description": "",
-            "distance": 22.51,
+            "distance": 18.76,
             "fhirLocationId": "97203fe2-e252-4982-a79a-cb30f4c4e63d",
             "locationId": "97203fe2-e252-4982-a79a-cb30f4c4e63d",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -5932,7 +6640,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T03:14:49.422+00:00",
+    "appointments_last_fetched": "2021-02-27T03:24:38.854+00:00",
     "appointments_raw": {
       "both_doses": {
         "locations": [
@@ -5950,15 +6658,12 @@
                 "date": "2021-03-01",
                 "day": "Monday",
                 "slots": [
-                  "10:00 am",
                   "10:45 am",
-                  "11:00 am",
                   "11:45 am",
                   "12:00 pm",
                   "12:45 pm",
                   "01:00 pm",
                   "02:15 pm",
-                  "02:30 pm",
                   "02:45 pm",
                   "03:15 pm",
                   "04:30 pm",
@@ -5979,7 +6684,7 @@
               }
             ],
             "description": "",
-            "distance": 17.37,
+            "distance": 18.76,
             "fhirLocationId": "97203fe2-e252-4982-a79a-cb30f4c4e63d",
             "locationId": "97203fe2-e252-4982-a79a-cb30f4c4e63d",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -6032,15 +6737,12 @@
                 "date": "2021-03-01",
                 "day": "Monday",
                 "slots": [
-                  "10:00 am",
                   "10:45 am",
-                  "11:00 am",
                   "11:45 am",
                   "12:00 pm",
                   "12:45 pm",
                   "01:00 pm",
                   "02:15 pm",
-                  "02:30 pm",
                   "02:45 pm",
                   "03:15 pm",
                   "04:30 pm",
@@ -6061,7 +6763,7 @@
               }
             ],
             "description": "",
-            "distance": 22.51,
+            "distance": 18.76,
             "fhirLocationId": "97203fe2-e252-4982-a79a-cb30f4c4e63d",
             "locationId": "97203fe2-e252-4982-a79a-cb30f4c4e63d",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -6105,7 +6807,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T03:14:49.422+00:00",
+    "appointments_last_fetched": "2021-02-27T03:24:38.854+00:00",
     "appointments_raw": {
       "both_doses": {
         "locations": [
@@ -6123,15 +6825,12 @@
                 "date": "2021-03-01",
                 "day": "Monday",
                 "slots": [
-                  "10:00 am",
                   "10:45 am",
-                  "11:00 am",
                   "11:45 am",
                   "12:00 pm",
                   "12:45 pm",
                   "01:00 pm",
                   "02:15 pm",
-                  "02:30 pm",
                   "02:45 pm",
                   "03:15 pm",
                   "04:30 pm",
@@ -6152,7 +6851,7 @@
               }
             ],
             "description": "",
-            "distance": 17.37,
+            "distance": 18.76,
             "fhirLocationId": "97203fe2-e252-4982-a79a-cb30f4c4e63d",
             "locationId": "97203fe2-e252-4982-a79a-cb30f4c4e63d",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -6205,15 +6904,12 @@
                 "date": "2021-03-01",
                 "day": "Monday",
                 "slots": [
-                  "10:00 am",
                   "10:45 am",
-                  "11:00 am",
                   "11:45 am",
                   "12:00 pm",
                   "12:45 pm",
                   "01:00 pm",
                   "02:15 pm",
-                  "02:30 pm",
                   "02:45 pm",
                   "03:15 pm",
                   "04:30 pm",
@@ -6234,7 +6930,7 @@
               }
             ],
             "description": "",
-            "distance": 22.51,
+            "distance": 18.76,
             "fhirLocationId": "97203fe2-e252-4982-a79a-cb30f4c4e63d",
             "locationId": "97203fe2-e252-4982-a79a-cb30f4c4e63d",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -6278,7 +6974,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T03:15:10.885+00:00",
+    "appointments_last_fetched": "2021-02-27T03:24:20.099+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -6319,7 +7015,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T03:15:10.885+00:00",
+    "appointments_last_fetched": "2021-02-27T03:24:20.099+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -6360,7 +7056,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T03:15:10.885+00:00",
+    "appointments_last_fetched": "2021-02-27T03:24:20.099+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -9394,7 +10090,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T03:15:10.885+00:00",
+    "appointments_last_fetched": "2021-02-27T03:24:20.099+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -9435,7 +10131,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T03:15:10.885+00:00",
+    "appointments_last_fetched": "2021-02-27T03:24:20.099+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -9476,7 +10172,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T03:15:10.885+00:00",
+    "appointments_last_fetched": "2021-02-27T03:24:20.099+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -9804,7 +10500,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T03:15:10.885+00:00",
+    "appointments_last_fetched": "2021-02-27T03:24:20.099+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -9927,7 +10623,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T03:15:10.885+00:00",
+    "appointments_last_fetched": "2021-02-27T03:24:20.099+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -12920,7 +13616,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T03:17:40.738+00:00",
+    "appointments_last_fetched": "2021-02-27T03:24:36.496+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -12961,7 +13657,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T03:11:01.794+00:00",
+    "appointments_last_fetched": "2021-02-27T03:25:09.518+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -13043,7 +13739,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T03:11:01.794+00:00",
+    "appointments_last_fetched": "2021-02-27T03:25:09.518+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -13125,7 +13821,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T03:11:01.794+00:00",
+    "appointments_last_fetched": "2021-02-27T03:25:09.518+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -13166,7 +13862,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T03:11:01.794+00:00",
+    "appointments_last_fetched": "2021-02-27T03:25:09.518+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -13248,7 +13944,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T03:11:01.794+00:00",
+    "appointments_last_fetched": "2021-02-27T03:25:09.518+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -13289,7 +13985,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T03:11:01.794+00:00",
+    "appointments_last_fetched": "2021-02-27T03:25:09.518+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -13330,7 +14026,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T03:11:01.794+00:00",
+    "appointments_last_fetched": "2021-02-27T03:25:09.518+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -13371,7 +14067,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T03:11:01.794+00:00",
+    "appointments_last_fetched": "2021-02-27T03:25:09.518+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -13412,7 +14108,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T03:11:01.794+00:00",
+    "appointments_last_fetched": "2021-02-27T03:25:09.518+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -13453,7 +14149,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T03:11:01.794+00:00",
+    "appointments_last_fetched": "2021-02-27T03:25:09.518+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -14683,7 +15379,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T03:17:40.738+00:00",
+    "appointments_last_fetched": "2021-02-27T03:24:36.496+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -14724,7 +15420,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T03:17:40.738+00:00",
+    "appointments_last_fetched": "2021-02-27T03:24:36.496+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -26319,7 +27015,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T03:00:46.913+00:00",
+    "appointments_last_fetched": "2021-02-27T03:25:28.737+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -26360,7 +27056,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T03:00:46.913+00:00",
+    "appointments_last_fetched": "2021-02-27T03:25:28.737+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -26401,7 +27097,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T03:00:46.913+00:00",
+    "appointments_last_fetched": "2021-02-27T03:25:28.737+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -27775,7 +28471,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T03:00:28.678+00:00",
+    "appointments_last_fetched": "2021-02-27T03:24:51.843+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -27857,7 +28553,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T03:00:28.678+00:00",
+    "appointments_last_fetched": "2021-02-27T03:24:51.843+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -28065,7 +28761,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T03:00:28.678+00:00",
+    "appointments_last_fetched": "2021-02-27T03:24:51.843+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -28106,7 +28802,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T03:00:28.678+00:00",
+    "appointments_last_fetched": "2021-02-27T03:24:51.843+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -28147,7 +28843,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T03:00:28.678+00:00",
+    "appointments_last_fetched": "2021-02-27T03:24:51.843+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
