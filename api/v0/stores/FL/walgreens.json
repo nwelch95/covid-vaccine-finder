@@ -4,193 +4,9 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T10:24:00.13+00:00",
+    "appointments_last_fetched": "2021-02-27T10:35:56.476+00:00",
     "appointments_raw": {
       "both_doses": {
-        "locations": [
-          {
-            "address": {
-              "city": "THOMASVILLE",
-              "country": "US",
-              "line1": "301 SOUTH BROAD STREET",
-              "line2": "",
-              "state": "GA",
-              "zip": "31792"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "09:30 am",
-                  "09:45 am",
-                  "10:00 am",
-                  "10:15 am",
-                  "10:30 am",
-                  "10:45 am",
-                  "11:00 am",
-                  "11:15 am",
-                  "11:30 am",
-                  "11:45 am",
-                  "12:00 pm",
-                  "12:15 pm",
-                  "12:30 pm",
-                  "12:45 pm",
-                  "01:00 pm",
-                  "02:15 pm",
-                  "02:30 pm",
-                  "02:45 pm",
-                  "03:00 pm",
-                  "03:15 pm",
-                  "03:30 pm",
-                  "03:45 pm",
-                  "04:00 pm",
-                  "04:15 pm",
-                  "04:30 pm",
-                  "04:45 pm",
-                  "05:00 pm",
-                  "05:15 pm",
-                  "05:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 24.09,
-            "fhirLocationId": "b7dd9189-2f7f-40da-9eba-8122cadd4f61",
-            "locationId": "b7dd9189-2f7f-40da-9eba-8122cadd4f61",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "19880",
-            "phone": [
-              {
-                "number": "229-228-7658",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "229-227-0190",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "229-228-7658",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 30.83516595,
-              "longitude": -83.97741175
-            },
-            "storenumber": "19880"
-          },
-          {
-            "address": {
-              "city": "THOMASVILLE",
-              "country": "US",
-              "line1": "11343 US HIGHWAY 319 N",
-              "line2": "",
-              "state": "GA",
-              "zip": "31757"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "09:15 am",
-                  "09:45 am",
-                  "10:00 am",
-                  "10:15 am",
-                  "10:30 am",
-                  "10:45 am",
-                  "11:00 am",
-                  "11:15 am",
-                  "11:30 am",
-                  "11:45 am",
-                  "12:00 pm",
-                  "12:15 pm",
-                  "12:30 pm",
-                  "12:45 pm",
-                  "01:00 pm",
-                  "02:15 pm",
-                  "02:30 pm",
-                  "02:45 pm",
-                  "03:00 pm",
-                  "03:15 pm",
-                  "03:30 pm",
-                  "03:45 pm",
-                  "04:00 pm",
-                  "04:15 pm",
-                  "04:30 pm",
-                  "04:45 pm",
-                  "05:00 pm",
-                  "05:15 pm",
-                  "05:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 21.6,
-            "fhirLocationId": "304e4ef7-5a71-471b-b9cb-1172ffb84771",
-            "locationId": "304e4ef7-5a71-471b-b9cb-1172ffb84771",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "11794",
-            "phone": [
-              {
-                "number": "229-226-5424",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "229-226-5095",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "229-226-5424",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 30.86070915,
-              "longitude": -83.94786168
-            },
-            "storenumber": "11794"
-          }
-        ]
-      },
-      "second_dose_moderna": {
-        "error": [
-          {
-            "code": "FC_904_NoData",
-            "message": "Insufficient inventory."
-          }
-        ]
-      },
-      "second_dose_pfizer": {
         "locations": [
           {
             "address": {
@@ -338,6 +154,190 @@
             ],
             "description": "",
             "distance": 9.14,
+            "fhirLocationId": "304e4ef7-5a71-471b-b9cb-1172ffb84771",
+            "locationId": "304e4ef7-5a71-471b-b9cb-1172ffb84771",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "11794",
+            "phone": [
+              {
+                "number": "229-226-5424",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "229-226-5095",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "229-226-5424",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 30.86070915,
+              "longitude": -83.94786168
+            },
+            "storenumber": "11794"
+          }
+        ]
+      },
+      "second_dose_moderna": {
+        "error": [
+          {
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
+          }
+        ]
+      },
+      "second_dose_pfizer": {
+        "locations": [
+          {
+            "address": {
+              "city": "THOMASVILLE",
+              "country": "US",
+              "line1": "301 SOUTH BROAD STREET",
+              "line2": "",
+              "state": "GA",
+              "zip": "31792"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "09:30 am",
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "11:00 am",
+                  "11:15 am",
+                  "11:30 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "02:15 pm",
+                  "02:30 pm",
+                  "02:45 pm",
+                  "03:00 pm",
+                  "03:15 pm",
+                  "03:30 pm",
+                  "03:45 pm",
+                  "04:00 pm",
+                  "04:15 pm",
+                  "04:30 pm",
+                  "04:45 pm",
+                  "05:00 pm",
+                  "05:15 pm",
+                  "05:30 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 21.95,
+            "fhirLocationId": "b7dd9189-2f7f-40da-9eba-8122cadd4f61",
+            "locationId": "b7dd9189-2f7f-40da-9eba-8122cadd4f61",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "19880",
+            "phone": [
+              {
+                "number": "229-228-7658",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "229-227-0190",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "229-228-7658",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 30.83516595,
+              "longitude": -83.97741175
+            },
+            "storenumber": "19880"
+          },
+          {
+            "address": {
+              "city": "THOMASVILLE",
+              "country": "US",
+              "line1": "11343 US HIGHWAY 319 N",
+              "line2": "",
+              "state": "GA",
+              "zip": "31757"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "09:15 am",
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "11:00 am",
+                  "11:15 am",
+                  "11:30 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "02:15 pm",
+                  "02:30 pm",
+                  "02:45 pm",
+                  "03:00 pm",
+                  "03:15 pm",
+                  "03:30 pm",
+                  "03:45 pm",
+                  "04:00 pm",
+                  "04:15 pm",
+                  "04:30 pm",
+                  "04:45 pm",
+                  "05:00 pm",
+                  "05:15 pm",
+                  "05:30 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 24.16,
             "fhirLocationId": "304e4ef7-5a71-471b-b9cb-1172ffb84771",
             "locationId": "304e4ef7-5a71-471b-b9cb-1172ffb84771",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -381,193 +381,9 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T10:24:00.13+00:00",
+    "appointments_last_fetched": "2021-02-27T10:35:56.476+00:00",
     "appointments_raw": {
       "both_doses": {
-        "locations": [
-          {
-            "address": {
-              "city": "THOMASVILLE",
-              "country": "US",
-              "line1": "301 SOUTH BROAD STREET",
-              "line2": "",
-              "state": "GA",
-              "zip": "31792"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "09:30 am",
-                  "09:45 am",
-                  "10:00 am",
-                  "10:15 am",
-                  "10:30 am",
-                  "10:45 am",
-                  "11:00 am",
-                  "11:15 am",
-                  "11:30 am",
-                  "11:45 am",
-                  "12:00 pm",
-                  "12:15 pm",
-                  "12:30 pm",
-                  "12:45 pm",
-                  "01:00 pm",
-                  "02:15 pm",
-                  "02:30 pm",
-                  "02:45 pm",
-                  "03:00 pm",
-                  "03:15 pm",
-                  "03:30 pm",
-                  "03:45 pm",
-                  "04:00 pm",
-                  "04:15 pm",
-                  "04:30 pm",
-                  "04:45 pm",
-                  "05:00 pm",
-                  "05:15 pm",
-                  "05:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 24.09,
-            "fhirLocationId": "b7dd9189-2f7f-40da-9eba-8122cadd4f61",
-            "locationId": "b7dd9189-2f7f-40da-9eba-8122cadd4f61",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "19880",
-            "phone": [
-              {
-                "number": "229-228-7658",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "229-227-0190",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "229-228-7658",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 30.83516595,
-              "longitude": -83.97741175
-            },
-            "storenumber": "19880"
-          },
-          {
-            "address": {
-              "city": "THOMASVILLE",
-              "country": "US",
-              "line1": "11343 US HIGHWAY 319 N",
-              "line2": "",
-              "state": "GA",
-              "zip": "31757"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "09:15 am",
-                  "09:45 am",
-                  "10:00 am",
-                  "10:15 am",
-                  "10:30 am",
-                  "10:45 am",
-                  "11:00 am",
-                  "11:15 am",
-                  "11:30 am",
-                  "11:45 am",
-                  "12:00 pm",
-                  "12:15 pm",
-                  "12:30 pm",
-                  "12:45 pm",
-                  "01:00 pm",
-                  "02:15 pm",
-                  "02:30 pm",
-                  "02:45 pm",
-                  "03:00 pm",
-                  "03:15 pm",
-                  "03:30 pm",
-                  "03:45 pm",
-                  "04:00 pm",
-                  "04:15 pm",
-                  "04:30 pm",
-                  "04:45 pm",
-                  "05:00 pm",
-                  "05:15 pm",
-                  "05:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 21.6,
-            "fhirLocationId": "304e4ef7-5a71-471b-b9cb-1172ffb84771",
-            "locationId": "304e4ef7-5a71-471b-b9cb-1172ffb84771",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "11794",
-            "phone": [
-              {
-                "number": "229-226-5424",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "229-226-5095",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "229-226-5424",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 30.86070915,
-              "longitude": -83.94786168
-            },
-            "storenumber": "11794"
-          }
-        ]
-      },
-      "second_dose_moderna": {
-        "error": [
-          {
-            "code": "FC_904_NoData",
-            "message": "Insufficient inventory."
-          }
-        ]
-      },
-      "second_dose_pfizer": {
         "locations": [
           {
             "address": {
@@ -715,6 +531,190 @@
             ],
             "description": "",
             "distance": 9.14,
+            "fhirLocationId": "304e4ef7-5a71-471b-b9cb-1172ffb84771",
+            "locationId": "304e4ef7-5a71-471b-b9cb-1172ffb84771",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "11794",
+            "phone": [
+              {
+                "number": "229-226-5424",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "229-226-5095",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "229-226-5424",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 30.86070915,
+              "longitude": -83.94786168
+            },
+            "storenumber": "11794"
+          }
+        ]
+      },
+      "second_dose_moderna": {
+        "error": [
+          {
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
+          }
+        ]
+      },
+      "second_dose_pfizer": {
+        "locations": [
+          {
+            "address": {
+              "city": "THOMASVILLE",
+              "country": "US",
+              "line1": "301 SOUTH BROAD STREET",
+              "line2": "",
+              "state": "GA",
+              "zip": "31792"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "09:30 am",
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "11:00 am",
+                  "11:15 am",
+                  "11:30 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "02:15 pm",
+                  "02:30 pm",
+                  "02:45 pm",
+                  "03:00 pm",
+                  "03:15 pm",
+                  "03:30 pm",
+                  "03:45 pm",
+                  "04:00 pm",
+                  "04:15 pm",
+                  "04:30 pm",
+                  "04:45 pm",
+                  "05:00 pm",
+                  "05:15 pm",
+                  "05:30 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 21.95,
+            "fhirLocationId": "b7dd9189-2f7f-40da-9eba-8122cadd4f61",
+            "locationId": "b7dd9189-2f7f-40da-9eba-8122cadd4f61",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "19880",
+            "phone": [
+              {
+                "number": "229-228-7658",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "229-227-0190",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "229-228-7658",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 30.83516595,
+              "longitude": -83.97741175
+            },
+            "storenumber": "19880"
+          },
+          {
+            "address": {
+              "city": "THOMASVILLE",
+              "country": "US",
+              "line1": "11343 US HIGHWAY 319 N",
+              "line2": "",
+              "state": "GA",
+              "zip": "31757"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "09:15 am",
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "11:00 am",
+                  "11:15 am",
+                  "11:30 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "02:15 pm",
+                  "02:30 pm",
+                  "02:45 pm",
+                  "03:00 pm",
+                  "03:15 pm",
+                  "03:30 pm",
+                  "03:45 pm",
+                  "04:00 pm",
+                  "04:15 pm",
+                  "04:30 pm",
+                  "04:45 pm",
+                  "05:00 pm",
+                  "05:15 pm",
+                  "05:30 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 24.16,
             "fhirLocationId": "304e4ef7-5a71-471b-b9cb-1172ffb84771",
             "locationId": "304e4ef7-5a71-471b-b9cb-1172ffb84771",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -758,193 +758,9 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T10:24:00.13+00:00",
+    "appointments_last_fetched": "2021-02-27T10:35:56.476+00:00",
     "appointments_raw": {
       "both_doses": {
-        "locations": [
-          {
-            "address": {
-              "city": "THOMASVILLE",
-              "country": "US",
-              "line1": "301 SOUTH BROAD STREET",
-              "line2": "",
-              "state": "GA",
-              "zip": "31792"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "09:30 am",
-                  "09:45 am",
-                  "10:00 am",
-                  "10:15 am",
-                  "10:30 am",
-                  "10:45 am",
-                  "11:00 am",
-                  "11:15 am",
-                  "11:30 am",
-                  "11:45 am",
-                  "12:00 pm",
-                  "12:15 pm",
-                  "12:30 pm",
-                  "12:45 pm",
-                  "01:00 pm",
-                  "02:15 pm",
-                  "02:30 pm",
-                  "02:45 pm",
-                  "03:00 pm",
-                  "03:15 pm",
-                  "03:30 pm",
-                  "03:45 pm",
-                  "04:00 pm",
-                  "04:15 pm",
-                  "04:30 pm",
-                  "04:45 pm",
-                  "05:00 pm",
-                  "05:15 pm",
-                  "05:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 24.09,
-            "fhirLocationId": "b7dd9189-2f7f-40da-9eba-8122cadd4f61",
-            "locationId": "b7dd9189-2f7f-40da-9eba-8122cadd4f61",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "19880",
-            "phone": [
-              {
-                "number": "229-228-7658",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "229-227-0190",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "229-228-7658",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 30.83516595,
-              "longitude": -83.97741175
-            },
-            "storenumber": "19880"
-          },
-          {
-            "address": {
-              "city": "THOMASVILLE",
-              "country": "US",
-              "line1": "11343 US HIGHWAY 319 N",
-              "line2": "",
-              "state": "GA",
-              "zip": "31757"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "09:15 am",
-                  "09:45 am",
-                  "10:00 am",
-                  "10:15 am",
-                  "10:30 am",
-                  "10:45 am",
-                  "11:00 am",
-                  "11:15 am",
-                  "11:30 am",
-                  "11:45 am",
-                  "12:00 pm",
-                  "12:15 pm",
-                  "12:30 pm",
-                  "12:45 pm",
-                  "01:00 pm",
-                  "02:15 pm",
-                  "02:30 pm",
-                  "02:45 pm",
-                  "03:00 pm",
-                  "03:15 pm",
-                  "03:30 pm",
-                  "03:45 pm",
-                  "04:00 pm",
-                  "04:15 pm",
-                  "04:30 pm",
-                  "04:45 pm",
-                  "05:00 pm",
-                  "05:15 pm",
-                  "05:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 21.6,
-            "fhirLocationId": "304e4ef7-5a71-471b-b9cb-1172ffb84771",
-            "locationId": "304e4ef7-5a71-471b-b9cb-1172ffb84771",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "11794",
-            "phone": [
-              {
-                "number": "229-226-5424",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "229-226-5095",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "229-226-5424",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 30.86070915,
-              "longitude": -83.94786168
-            },
-            "storenumber": "11794"
-          }
-        ]
-      },
-      "second_dose_moderna": {
-        "error": [
-          {
-            "code": "FC_904_NoData",
-            "message": "Insufficient inventory."
-          }
-        ]
-      },
-      "second_dose_pfizer": {
         "locations": [
           {
             "address": {
@@ -1092,6 +908,190 @@
             ],
             "description": "",
             "distance": 9.14,
+            "fhirLocationId": "304e4ef7-5a71-471b-b9cb-1172ffb84771",
+            "locationId": "304e4ef7-5a71-471b-b9cb-1172ffb84771",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "11794",
+            "phone": [
+              {
+                "number": "229-226-5424",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "229-226-5095",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "229-226-5424",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 30.86070915,
+              "longitude": -83.94786168
+            },
+            "storenumber": "11794"
+          }
+        ]
+      },
+      "second_dose_moderna": {
+        "error": [
+          {
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
+          }
+        ]
+      },
+      "second_dose_pfizer": {
+        "locations": [
+          {
+            "address": {
+              "city": "THOMASVILLE",
+              "country": "US",
+              "line1": "301 SOUTH BROAD STREET",
+              "line2": "",
+              "state": "GA",
+              "zip": "31792"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "09:30 am",
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "11:00 am",
+                  "11:15 am",
+                  "11:30 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "02:15 pm",
+                  "02:30 pm",
+                  "02:45 pm",
+                  "03:00 pm",
+                  "03:15 pm",
+                  "03:30 pm",
+                  "03:45 pm",
+                  "04:00 pm",
+                  "04:15 pm",
+                  "04:30 pm",
+                  "04:45 pm",
+                  "05:00 pm",
+                  "05:15 pm",
+                  "05:30 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 21.95,
+            "fhirLocationId": "b7dd9189-2f7f-40da-9eba-8122cadd4f61",
+            "locationId": "b7dd9189-2f7f-40da-9eba-8122cadd4f61",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "19880",
+            "phone": [
+              {
+                "number": "229-228-7658",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "229-227-0190",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "229-228-7658",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 30.83516595,
+              "longitude": -83.97741175
+            },
+            "storenumber": "19880"
+          },
+          {
+            "address": {
+              "city": "THOMASVILLE",
+              "country": "US",
+              "line1": "11343 US HIGHWAY 319 N",
+              "line2": "",
+              "state": "GA",
+              "zip": "31757"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "09:15 am",
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "11:00 am",
+                  "11:15 am",
+                  "11:30 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "02:15 pm",
+                  "02:30 pm",
+                  "02:45 pm",
+                  "03:00 pm",
+                  "03:15 pm",
+                  "03:30 pm",
+                  "03:45 pm",
+                  "04:00 pm",
+                  "04:15 pm",
+                  "04:30 pm",
+                  "04:45 pm",
+                  "05:00 pm",
+                  "05:15 pm",
+                  "05:30 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 24.16,
             "fhirLocationId": "304e4ef7-5a71-471b-b9cb-1172ffb84771",
             "locationId": "304e4ef7-5a71-471b-b9cb-1172ffb84771",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -1135,193 +1135,9 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T10:24:00.13+00:00",
+    "appointments_last_fetched": "2021-02-27T10:35:56.476+00:00",
     "appointments_raw": {
       "both_doses": {
-        "locations": [
-          {
-            "address": {
-              "city": "THOMASVILLE",
-              "country": "US",
-              "line1": "301 SOUTH BROAD STREET",
-              "line2": "",
-              "state": "GA",
-              "zip": "31792"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "09:30 am",
-                  "09:45 am",
-                  "10:00 am",
-                  "10:15 am",
-                  "10:30 am",
-                  "10:45 am",
-                  "11:00 am",
-                  "11:15 am",
-                  "11:30 am",
-                  "11:45 am",
-                  "12:00 pm",
-                  "12:15 pm",
-                  "12:30 pm",
-                  "12:45 pm",
-                  "01:00 pm",
-                  "02:15 pm",
-                  "02:30 pm",
-                  "02:45 pm",
-                  "03:00 pm",
-                  "03:15 pm",
-                  "03:30 pm",
-                  "03:45 pm",
-                  "04:00 pm",
-                  "04:15 pm",
-                  "04:30 pm",
-                  "04:45 pm",
-                  "05:00 pm",
-                  "05:15 pm",
-                  "05:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 24.09,
-            "fhirLocationId": "b7dd9189-2f7f-40da-9eba-8122cadd4f61",
-            "locationId": "b7dd9189-2f7f-40da-9eba-8122cadd4f61",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "19880",
-            "phone": [
-              {
-                "number": "229-228-7658",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "229-227-0190",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "229-228-7658",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 30.83516595,
-              "longitude": -83.97741175
-            },
-            "storenumber": "19880"
-          },
-          {
-            "address": {
-              "city": "THOMASVILLE",
-              "country": "US",
-              "line1": "11343 US HIGHWAY 319 N",
-              "line2": "",
-              "state": "GA",
-              "zip": "31757"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "09:15 am",
-                  "09:45 am",
-                  "10:00 am",
-                  "10:15 am",
-                  "10:30 am",
-                  "10:45 am",
-                  "11:00 am",
-                  "11:15 am",
-                  "11:30 am",
-                  "11:45 am",
-                  "12:00 pm",
-                  "12:15 pm",
-                  "12:30 pm",
-                  "12:45 pm",
-                  "01:00 pm",
-                  "02:15 pm",
-                  "02:30 pm",
-                  "02:45 pm",
-                  "03:00 pm",
-                  "03:15 pm",
-                  "03:30 pm",
-                  "03:45 pm",
-                  "04:00 pm",
-                  "04:15 pm",
-                  "04:30 pm",
-                  "04:45 pm",
-                  "05:00 pm",
-                  "05:15 pm",
-                  "05:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 21.6,
-            "fhirLocationId": "304e4ef7-5a71-471b-b9cb-1172ffb84771",
-            "locationId": "304e4ef7-5a71-471b-b9cb-1172ffb84771",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "11794",
-            "phone": [
-              {
-                "number": "229-226-5424",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "229-226-5095",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "229-226-5424",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 30.86070915,
-              "longitude": -83.94786168
-            },
-            "storenumber": "11794"
-          }
-        ]
-      },
-      "second_dose_moderna": {
-        "error": [
-          {
-            "code": "FC_904_NoData",
-            "message": "Insufficient inventory."
-          }
-        ]
-      },
-      "second_dose_pfizer": {
         "locations": [
           {
             "address": {
@@ -1469,6 +1285,190 @@
             ],
             "description": "",
             "distance": 9.14,
+            "fhirLocationId": "304e4ef7-5a71-471b-b9cb-1172ffb84771",
+            "locationId": "304e4ef7-5a71-471b-b9cb-1172ffb84771",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "11794",
+            "phone": [
+              {
+                "number": "229-226-5424",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "229-226-5095",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "229-226-5424",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 30.86070915,
+              "longitude": -83.94786168
+            },
+            "storenumber": "11794"
+          }
+        ]
+      },
+      "second_dose_moderna": {
+        "error": [
+          {
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
+          }
+        ]
+      },
+      "second_dose_pfizer": {
+        "locations": [
+          {
+            "address": {
+              "city": "THOMASVILLE",
+              "country": "US",
+              "line1": "301 SOUTH BROAD STREET",
+              "line2": "",
+              "state": "GA",
+              "zip": "31792"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "09:30 am",
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "11:00 am",
+                  "11:15 am",
+                  "11:30 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "02:15 pm",
+                  "02:30 pm",
+                  "02:45 pm",
+                  "03:00 pm",
+                  "03:15 pm",
+                  "03:30 pm",
+                  "03:45 pm",
+                  "04:00 pm",
+                  "04:15 pm",
+                  "04:30 pm",
+                  "04:45 pm",
+                  "05:00 pm",
+                  "05:15 pm",
+                  "05:30 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 21.95,
+            "fhirLocationId": "b7dd9189-2f7f-40da-9eba-8122cadd4f61",
+            "locationId": "b7dd9189-2f7f-40da-9eba-8122cadd4f61",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "19880",
+            "phone": [
+              {
+                "number": "229-228-7658",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "229-227-0190",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "229-228-7658",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 30.83516595,
+              "longitude": -83.97741175
+            },
+            "storenumber": "19880"
+          },
+          {
+            "address": {
+              "city": "THOMASVILLE",
+              "country": "US",
+              "line1": "11343 US HIGHWAY 319 N",
+              "line2": "",
+              "state": "GA",
+              "zip": "31757"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "09:15 am",
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "11:00 am",
+                  "11:15 am",
+                  "11:30 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "02:15 pm",
+                  "02:30 pm",
+                  "02:45 pm",
+                  "03:00 pm",
+                  "03:15 pm",
+                  "03:30 pm",
+                  "03:45 pm",
+                  "04:00 pm",
+                  "04:15 pm",
+                  "04:30 pm",
+                  "04:45 pm",
+                  "05:00 pm",
+                  "05:15 pm",
+                  "05:30 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 24.16,
             "fhirLocationId": "304e4ef7-5a71-471b-b9cb-1172ffb84771",
             "locationId": "304e4ef7-5a71-471b-b9cb-1172ffb84771",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -1512,193 +1512,9 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T10:24:00.13+00:00",
+    "appointments_last_fetched": "2021-02-27T10:35:56.476+00:00",
     "appointments_raw": {
       "both_doses": {
-        "locations": [
-          {
-            "address": {
-              "city": "THOMASVILLE",
-              "country": "US",
-              "line1": "301 SOUTH BROAD STREET",
-              "line2": "",
-              "state": "GA",
-              "zip": "31792"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "09:30 am",
-                  "09:45 am",
-                  "10:00 am",
-                  "10:15 am",
-                  "10:30 am",
-                  "10:45 am",
-                  "11:00 am",
-                  "11:15 am",
-                  "11:30 am",
-                  "11:45 am",
-                  "12:00 pm",
-                  "12:15 pm",
-                  "12:30 pm",
-                  "12:45 pm",
-                  "01:00 pm",
-                  "02:15 pm",
-                  "02:30 pm",
-                  "02:45 pm",
-                  "03:00 pm",
-                  "03:15 pm",
-                  "03:30 pm",
-                  "03:45 pm",
-                  "04:00 pm",
-                  "04:15 pm",
-                  "04:30 pm",
-                  "04:45 pm",
-                  "05:00 pm",
-                  "05:15 pm",
-                  "05:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 24.09,
-            "fhirLocationId": "b7dd9189-2f7f-40da-9eba-8122cadd4f61",
-            "locationId": "b7dd9189-2f7f-40da-9eba-8122cadd4f61",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "19880",
-            "phone": [
-              {
-                "number": "229-228-7658",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "229-227-0190",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "229-228-7658",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 30.83516595,
-              "longitude": -83.97741175
-            },
-            "storenumber": "19880"
-          },
-          {
-            "address": {
-              "city": "THOMASVILLE",
-              "country": "US",
-              "line1": "11343 US HIGHWAY 319 N",
-              "line2": "",
-              "state": "GA",
-              "zip": "31757"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "09:15 am",
-                  "09:45 am",
-                  "10:00 am",
-                  "10:15 am",
-                  "10:30 am",
-                  "10:45 am",
-                  "11:00 am",
-                  "11:15 am",
-                  "11:30 am",
-                  "11:45 am",
-                  "12:00 pm",
-                  "12:15 pm",
-                  "12:30 pm",
-                  "12:45 pm",
-                  "01:00 pm",
-                  "02:15 pm",
-                  "02:30 pm",
-                  "02:45 pm",
-                  "03:00 pm",
-                  "03:15 pm",
-                  "03:30 pm",
-                  "03:45 pm",
-                  "04:00 pm",
-                  "04:15 pm",
-                  "04:30 pm",
-                  "04:45 pm",
-                  "05:00 pm",
-                  "05:15 pm",
-                  "05:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 21.6,
-            "fhirLocationId": "304e4ef7-5a71-471b-b9cb-1172ffb84771",
-            "locationId": "304e4ef7-5a71-471b-b9cb-1172ffb84771",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "11794",
-            "phone": [
-              {
-                "number": "229-226-5424",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "229-226-5095",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "229-226-5424",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 30.86070915,
-              "longitude": -83.94786168
-            },
-            "storenumber": "11794"
-          }
-        ]
-      },
-      "second_dose_moderna": {
-        "error": [
-          {
-            "code": "FC_904_NoData",
-            "message": "Insufficient inventory."
-          }
-        ]
-      },
-      "second_dose_pfizer": {
         "locations": [
           {
             "address": {
@@ -1846,6 +1662,190 @@
             ],
             "description": "",
             "distance": 9.14,
+            "fhirLocationId": "304e4ef7-5a71-471b-b9cb-1172ffb84771",
+            "locationId": "304e4ef7-5a71-471b-b9cb-1172ffb84771",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "11794",
+            "phone": [
+              {
+                "number": "229-226-5424",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "229-226-5095",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "229-226-5424",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 30.86070915,
+              "longitude": -83.94786168
+            },
+            "storenumber": "11794"
+          }
+        ]
+      },
+      "second_dose_moderna": {
+        "error": [
+          {
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
+          }
+        ]
+      },
+      "second_dose_pfizer": {
+        "locations": [
+          {
+            "address": {
+              "city": "THOMASVILLE",
+              "country": "US",
+              "line1": "301 SOUTH BROAD STREET",
+              "line2": "",
+              "state": "GA",
+              "zip": "31792"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "09:30 am",
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "11:00 am",
+                  "11:15 am",
+                  "11:30 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "02:15 pm",
+                  "02:30 pm",
+                  "02:45 pm",
+                  "03:00 pm",
+                  "03:15 pm",
+                  "03:30 pm",
+                  "03:45 pm",
+                  "04:00 pm",
+                  "04:15 pm",
+                  "04:30 pm",
+                  "04:45 pm",
+                  "05:00 pm",
+                  "05:15 pm",
+                  "05:30 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 21.95,
+            "fhirLocationId": "b7dd9189-2f7f-40da-9eba-8122cadd4f61",
+            "locationId": "b7dd9189-2f7f-40da-9eba-8122cadd4f61",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "19880",
+            "phone": [
+              {
+                "number": "229-228-7658",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "229-227-0190",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "229-228-7658",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 30.83516595,
+              "longitude": -83.97741175
+            },
+            "storenumber": "19880"
+          },
+          {
+            "address": {
+              "city": "THOMASVILLE",
+              "country": "US",
+              "line1": "11343 US HIGHWAY 319 N",
+              "line2": "",
+              "state": "GA",
+              "zip": "31757"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "09:15 am",
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "11:00 am",
+                  "11:15 am",
+                  "11:30 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "02:15 pm",
+                  "02:30 pm",
+                  "02:45 pm",
+                  "03:00 pm",
+                  "03:15 pm",
+                  "03:30 pm",
+                  "03:45 pm",
+                  "04:00 pm",
+                  "04:15 pm",
+                  "04:30 pm",
+                  "04:45 pm",
+                  "05:00 pm",
+                  "05:15 pm",
+                  "05:30 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 24.16,
             "fhirLocationId": "304e4ef7-5a71-471b-b9cb-1172ffb84771",
             "locationId": "304e4ef7-5a71-471b-b9cb-1172ffb84771",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -1889,193 +1889,9 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T10:24:00.13+00:00",
+    "appointments_last_fetched": "2021-02-27T10:35:56.476+00:00",
     "appointments_raw": {
       "both_doses": {
-        "locations": [
-          {
-            "address": {
-              "city": "THOMASVILLE",
-              "country": "US",
-              "line1": "301 SOUTH BROAD STREET",
-              "line2": "",
-              "state": "GA",
-              "zip": "31792"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "09:30 am",
-                  "09:45 am",
-                  "10:00 am",
-                  "10:15 am",
-                  "10:30 am",
-                  "10:45 am",
-                  "11:00 am",
-                  "11:15 am",
-                  "11:30 am",
-                  "11:45 am",
-                  "12:00 pm",
-                  "12:15 pm",
-                  "12:30 pm",
-                  "12:45 pm",
-                  "01:00 pm",
-                  "02:15 pm",
-                  "02:30 pm",
-                  "02:45 pm",
-                  "03:00 pm",
-                  "03:15 pm",
-                  "03:30 pm",
-                  "03:45 pm",
-                  "04:00 pm",
-                  "04:15 pm",
-                  "04:30 pm",
-                  "04:45 pm",
-                  "05:00 pm",
-                  "05:15 pm",
-                  "05:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 24.09,
-            "fhirLocationId": "b7dd9189-2f7f-40da-9eba-8122cadd4f61",
-            "locationId": "b7dd9189-2f7f-40da-9eba-8122cadd4f61",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "19880",
-            "phone": [
-              {
-                "number": "229-228-7658",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "229-227-0190",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "229-228-7658",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 30.83516595,
-              "longitude": -83.97741175
-            },
-            "storenumber": "19880"
-          },
-          {
-            "address": {
-              "city": "THOMASVILLE",
-              "country": "US",
-              "line1": "11343 US HIGHWAY 319 N",
-              "line2": "",
-              "state": "GA",
-              "zip": "31757"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "09:15 am",
-                  "09:45 am",
-                  "10:00 am",
-                  "10:15 am",
-                  "10:30 am",
-                  "10:45 am",
-                  "11:00 am",
-                  "11:15 am",
-                  "11:30 am",
-                  "11:45 am",
-                  "12:00 pm",
-                  "12:15 pm",
-                  "12:30 pm",
-                  "12:45 pm",
-                  "01:00 pm",
-                  "02:15 pm",
-                  "02:30 pm",
-                  "02:45 pm",
-                  "03:00 pm",
-                  "03:15 pm",
-                  "03:30 pm",
-                  "03:45 pm",
-                  "04:00 pm",
-                  "04:15 pm",
-                  "04:30 pm",
-                  "04:45 pm",
-                  "05:00 pm",
-                  "05:15 pm",
-                  "05:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 21.6,
-            "fhirLocationId": "304e4ef7-5a71-471b-b9cb-1172ffb84771",
-            "locationId": "304e4ef7-5a71-471b-b9cb-1172ffb84771",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "11794",
-            "phone": [
-              {
-                "number": "229-226-5424",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "229-226-5095",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "229-226-5424",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 30.86070915,
-              "longitude": -83.94786168
-            },
-            "storenumber": "11794"
-          }
-        ]
-      },
-      "second_dose_moderna": {
-        "error": [
-          {
-            "code": "FC_904_NoData",
-            "message": "Insufficient inventory."
-          }
-        ]
-      },
-      "second_dose_pfizer": {
         "locations": [
           {
             "address": {
@@ -2223,6 +2039,190 @@
             ],
             "description": "",
             "distance": 9.14,
+            "fhirLocationId": "304e4ef7-5a71-471b-b9cb-1172ffb84771",
+            "locationId": "304e4ef7-5a71-471b-b9cb-1172ffb84771",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "11794",
+            "phone": [
+              {
+                "number": "229-226-5424",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "229-226-5095",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "229-226-5424",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 30.86070915,
+              "longitude": -83.94786168
+            },
+            "storenumber": "11794"
+          }
+        ]
+      },
+      "second_dose_moderna": {
+        "error": [
+          {
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
+          }
+        ]
+      },
+      "second_dose_pfizer": {
+        "locations": [
+          {
+            "address": {
+              "city": "THOMASVILLE",
+              "country": "US",
+              "line1": "301 SOUTH BROAD STREET",
+              "line2": "",
+              "state": "GA",
+              "zip": "31792"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "09:30 am",
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "11:00 am",
+                  "11:15 am",
+                  "11:30 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "02:15 pm",
+                  "02:30 pm",
+                  "02:45 pm",
+                  "03:00 pm",
+                  "03:15 pm",
+                  "03:30 pm",
+                  "03:45 pm",
+                  "04:00 pm",
+                  "04:15 pm",
+                  "04:30 pm",
+                  "04:45 pm",
+                  "05:00 pm",
+                  "05:15 pm",
+                  "05:30 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 21.95,
+            "fhirLocationId": "b7dd9189-2f7f-40da-9eba-8122cadd4f61",
+            "locationId": "b7dd9189-2f7f-40da-9eba-8122cadd4f61",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "19880",
+            "phone": [
+              {
+                "number": "229-228-7658",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "229-227-0190",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "229-228-7658",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 30.83516595,
+              "longitude": -83.97741175
+            },
+            "storenumber": "19880"
+          },
+          {
+            "address": {
+              "city": "THOMASVILLE",
+              "country": "US",
+              "line1": "11343 US HIGHWAY 319 N",
+              "line2": "",
+              "state": "GA",
+              "zip": "31757"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "09:15 am",
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "11:00 am",
+                  "11:15 am",
+                  "11:30 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "02:15 pm",
+                  "02:30 pm",
+                  "02:45 pm",
+                  "03:00 pm",
+                  "03:15 pm",
+                  "03:30 pm",
+                  "03:45 pm",
+                  "04:00 pm",
+                  "04:15 pm",
+                  "04:30 pm",
+                  "04:45 pm",
+                  "05:00 pm",
+                  "05:15 pm",
+                  "05:30 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 24.16,
             "fhirLocationId": "304e4ef7-5a71-471b-b9cb-1172ffb84771",
             "locationId": "304e4ef7-5a71-471b-b9cb-1172ffb84771",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -2266,193 +2266,9 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T10:24:00.13+00:00",
+    "appointments_last_fetched": "2021-02-27T10:35:56.476+00:00",
     "appointments_raw": {
       "both_doses": {
-        "locations": [
-          {
-            "address": {
-              "city": "THOMASVILLE",
-              "country": "US",
-              "line1": "301 SOUTH BROAD STREET",
-              "line2": "",
-              "state": "GA",
-              "zip": "31792"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "09:30 am",
-                  "09:45 am",
-                  "10:00 am",
-                  "10:15 am",
-                  "10:30 am",
-                  "10:45 am",
-                  "11:00 am",
-                  "11:15 am",
-                  "11:30 am",
-                  "11:45 am",
-                  "12:00 pm",
-                  "12:15 pm",
-                  "12:30 pm",
-                  "12:45 pm",
-                  "01:00 pm",
-                  "02:15 pm",
-                  "02:30 pm",
-                  "02:45 pm",
-                  "03:00 pm",
-                  "03:15 pm",
-                  "03:30 pm",
-                  "03:45 pm",
-                  "04:00 pm",
-                  "04:15 pm",
-                  "04:30 pm",
-                  "04:45 pm",
-                  "05:00 pm",
-                  "05:15 pm",
-                  "05:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 24.09,
-            "fhirLocationId": "b7dd9189-2f7f-40da-9eba-8122cadd4f61",
-            "locationId": "b7dd9189-2f7f-40da-9eba-8122cadd4f61",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "19880",
-            "phone": [
-              {
-                "number": "229-228-7658",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "229-227-0190",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "229-228-7658",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 30.83516595,
-              "longitude": -83.97741175
-            },
-            "storenumber": "19880"
-          },
-          {
-            "address": {
-              "city": "THOMASVILLE",
-              "country": "US",
-              "line1": "11343 US HIGHWAY 319 N",
-              "line2": "",
-              "state": "GA",
-              "zip": "31757"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "09:15 am",
-                  "09:45 am",
-                  "10:00 am",
-                  "10:15 am",
-                  "10:30 am",
-                  "10:45 am",
-                  "11:00 am",
-                  "11:15 am",
-                  "11:30 am",
-                  "11:45 am",
-                  "12:00 pm",
-                  "12:15 pm",
-                  "12:30 pm",
-                  "12:45 pm",
-                  "01:00 pm",
-                  "02:15 pm",
-                  "02:30 pm",
-                  "02:45 pm",
-                  "03:00 pm",
-                  "03:15 pm",
-                  "03:30 pm",
-                  "03:45 pm",
-                  "04:00 pm",
-                  "04:15 pm",
-                  "04:30 pm",
-                  "04:45 pm",
-                  "05:00 pm",
-                  "05:15 pm",
-                  "05:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 21.6,
-            "fhirLocationId": "304e4ef7-5a71-471b-b9cb-1172ffb84771",
-            "locationId": "304e4ef7-5a71-471b-b9cb-1172ffb84771",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "11794",
-            "phone": [
-              {
-                "number": "229-226-5424",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "229-226-5095",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "229-226-5424",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 30.86070915,
-              "longitude": -83.94786168
-            },
-            "storenumber": "11794"
-          }
-        ]
-      },
-      "second_dose_moderna": {
-        "error": [
-          {
-            "code": "FC_904_NoData",
-            "message": "Insufficient inventory."
-          }
-        ]
-      },
-      "second_dose_pfizer": {
         "locations": [
           {
             "address": {
@@ -2600,6 +2416,190 @@
             ],
             "description": "",
             "distance": 9.14,
+            "fhirLocationId": "304e4ef7-5a71-471b-b9cb-1172ffb84771",
+            "locationId": "304e4ef7-5a71-471b-b9cb-1172ffb84771",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "11794",
+            "phone": [
+              {
+                "number": "229-226-5424",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "229-226-5095",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "229-226-5424",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 30.86070915,
+              "longitude": -83.94786168
+            },
+            "storenumber": "11794"
+          }
+        ]
+      },
+      "second_dose_moderna": {
+        "error": [
+          {
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
+          }
+        ]
+      },
+      "second_dose_pfizer": {
+        "locations": [
+          {
+            "address": {
+              "city": "THOMASVILLE",
+              "country": "US",
+              "line1": "301 SOUTH BROAD STREET",
+              "line2": "",
+              "state": "GA",
+              "zip": "31792"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "09:30 am",
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "11:00 am",
+                  "11:15 am",
+                  "11:30 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "02:15 pm",
+                  "02:30 pm",
+                  "02:45 pm",
+                  "03:00 pm",
+                  "03:15 pm",
+                  "03:30 pm",
+                  "03:45 pm",
+                  "04:00 pm",
+                  "04:15 pm",
+                  "04:30 pm",
+                  "04:45 pm",
+                  "05:00 pm",
+                  "05:15 pm",
+                  "05:30 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 21.95,
+            "fhirLocationId": "b7dd9189-2f7f-40da-9eba-8122cadd4f61",
+            "locationId": "b7dd9189-2f7f-40da-9eba-8122cadd4f61",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "19880",
+            "phone": [
+              {
+                "number": "229-228-7658",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "229-227-0190",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "229-228-7658",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 30.83516595,
+              "longitude": -83.97741175
+            },
+            "storenumber": "19880"
+          },
+          {
+            "address": {
+              "city": "THOMASVILLE",
+              "country": "US",
+              "line1": "11343 US HIGHWAY 319 N",
+              "line2": "",
+              "state": "GA",
+              "zip": "31757"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "09:15 am",
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "11:00 am",
+                  "11:15 am",
+                  "11:30 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "02:15 pm",
+                  "02:30 pm",
+                  "02:45 pm",
+                  "03:00 pm",
+                  "03:15 pm",
+                  "03:30 pm",
+                  "03:45 pm",
+                  "04:00 pm",
+                  "04:15 pm",
+                  "04:30 pm",
+                  "04:45 pm",
+                  "05:00 pm",
+                  "05:15 pm",
+                  "05:30 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 24.16,
             "fhirLocationId": "304e4ef7-5a71-471b-b9cb-1172ffb84771",
             "locationId": "304e4ef7-5a71-471b-b9cb-1172ffb84771",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -2643,193 +2643,9 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T10:24:00.13+00:00",
+    "appointments_last_fetched": "2021-02-27T10:35:56.476+00:00",
     "appointments_raw": {
       "both_doses": {
-        "locations": [
-          {
-            "address": {
-              "city": "THOMASVILLE",
-              "country": "US",
-              "line1": "301 SOUTH BROAD STREET",
-              "line2": "",
-              "state": "GA",
-              "zip": "31792"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "09:30 am",
-                  "09:45 am",
-                  "10:00 am",
-                  "10:15 am",
-                  "10:30 am",
-                  "10:45 am",
-                  "11:00 am",
-                  "11:15 am",
-                  "11:30 am",
-                  "11:45 am",
-                  "12:00 pm",
-                  "12:15 pm",
-                  "12:30 pm",
-                  "12:45 pm",
-                  "01:00 pm",
-                  "02:15 pm",
-                  "02:30 pm",
-                  "02:45 pm",
-                  "03:00 pm",
-                  "03:15 pm",
-                  "03:30 pm",
-                  "03:45 pm",
-                  "04:00 pm",
-                  "04:15 pm",
-                  "04:30 pm",
-                  "04:45 pm",
-                  "05:00 pm",
-                  "05:15 pm",
-                  "05:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 24.09,
-            "fhirLocationId": "b7dd9189-2f7f-40da-9eba-8122cadd4f61",
-            "locationId": "b7dd9189-2f7f-40da-9eba-8122cadd4f61",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "19880",
-            "phone": [
-              {
-                "number": "229-228-7658",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "229-227-0190",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "229-228-7658",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 30.83516595,
-              "longitude": -83.97741175
-            },
-            "storenumber": "19880"
-          },
-          {
-            "address": {
-              "city": "THOMASVILLE",
-              "country": "US",
-              "line1": "11343 US HIGHWAY 319 N",
-              "line2": "",
-              "state": "GA",
-              "zip": "31757"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "09:15 am",
-                  "09:45 am",
-                  "10:00 am",
-                  "10:15 am",
-                  "10:30 am",
-                  "10:45 am",
-                  "11:00 am",
-                  "11:15 am",
-                  "11:30 am",
-                  "11:45 am",
-                  "12:00 pm",
-                  "12:15 pm",
-                  "12:30 pm",
-                  "12:45 pm",
-                  "01:00 pm",
-                  "02:15 pm",
-                  "02:30 pm",
-                  "02:45 pm",
-                  "03:00 pm",
-                  "03:15 pm",
-                  "03:30 pm",
-                  "03:45 pm",
-                  "04:00 pm",
-                  "04:15 pm",
-                  "04:30 pm",
-                  "04:45 pm",
-                  "05:00 pm",
-                  "05:15 pm",
-                  "05:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 21.6,
-            "fhirLocationId": "304e4ef7-5a71-471b-b9cb-1172ffb84771",
-            "locationId": "304e4ef7-5a71-471b-b9cb-1172ffb84771",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "11794",
-            "phone": [
-              {
-                "number": "229-226-5424",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "229-226-5095",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "229-226-5424",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 30.86070915,
-              "longitude": -83.94786168
-            },
-            "storenumber": "11794"
-          }
-        ]
-      },
-      "second_dose_moderna": {
-        "error": [
-          {
-            "code": "FC_904_NoData",
-            "message": "Insufficient inventory."
-          }
-        ]
-      },
-      "second_dose_pfizer": {
         "locations": [
           {
             "address": {
@@ -2977,6 +2793,190 @@
             ],
             "description": "",
             "distance": 9.14,
+            "fhirLocationId": "304e4ef7-5a71-471b-b9cb-1172ffb84771",
+            "locationId": "304e4ef7-5a71-471b-b9cb-1172ffb84771",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "11794",
+            "phone": [
+              {
+                "number": "229-226-5424",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "229-226-5095",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "229-226-5424",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 30.86070915,
+              "longitude": -83.94786168
+            },
+            "storenumber": "11794"
+          }
+        ]
+      },
+      "second_dose_moderna": {
+        "error": [
+          {
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
+          }
+        ]
+      },
+      "second_dose_pfizer": {
+        "locations": [
+          {
+            "address": {
+              "city": "THOMASVILLE",
+              "country": "US",
+              "line1": "301 SOUTH BROAD STREET",
+              "line2": "",
+              "state": "GA",
+              "zip": "31792"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "09:30 am",
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "11:00 am",
+                  "11:15 am",
+                  "11:30 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "02:15 pm",
+                  "02:30 pm",
+                  "02:45 pm",
+                  "03:00 pm",
+                  "03:15 pm",
+                  "03:30 pm",
+                  "03:45 pm",
+                  "04:00 pm",
+                  "04:15 pm",
+                  "04:30 pm",
+                  "04:45 pm",
+                  "05:00 pm",
+                  "05:15 pm",
+                  "05:30 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 21.95,
+            "fhirLocationId": "b7dd9189-2f7f-40da-9eba-8122cadd4f61",
+            "locationId": "b7dd9189-2f7f-40da-9eba-8122cadd4f61",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "19880",
+            "phone": [
+              {
+                "number": "229-228-7658",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "229-227-0190",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "229-228-7658",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 30.83516595,
+              "longitude": -83.97741175
+            },
+            "storenumber": "19880"
+          },
+          {
+            "address": {
+              "city": "THOMASVILLE",
+              "country": "US",
+              "line1": "11343 US HIGHWAY 319 N",
+              "line2": "",
+              "state": "GA",
+              "zip": "31757"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "09:15 am",
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "11:00 am",
+                  "11:15 am",
+                  "11:30 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "02:15 pm",
+                  "02:30 pm",
+                  "02:45 pm",
+                  "03:00 pm",
+                  "03:15 pm",
+                  "03:30 pm",
+                  "03:45 pm",
+                  "04:00 pm",
+                  "04:15 pm",
+                  "04:30 pm",
+                  "04:45 pm",
+                  "05:00 pm",
+                  "05:15 pm",
+                  "05:30 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 24.16,
             "fhirLocationId": "304e4ef7-5a71-471b-b9cb-1172ffb84771",
             "locationId": "304e4ef7-5a71-471b-b9cb-1172ffb84771",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -3020,193 +3020,9 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T10:24:00.13+00:00",
+    "appointments_last_fetched": "2021-02-27T10:35:56.476+00:00",
     "appointments_raw": {
       "both_doses": {
-        "locations": [
-          {
-            "address": {
-              "city": "THOMASVILLE",
-              "country": "US",
-              "line1": "301 SOUTH BROAD STREET",
-              "line2": "",
-              "state": "GA",
-              "zip": "31792"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "09:30 am",
-                  "09:45 am",
-                  "10:00 am",
-                  "10:15 am",
-                  "10:30 am",
-                  "10:45 am",
-                  "11:00 am",
-                  "11:15 am",
-                  "11:30 am",
-                  "11:45 am",
-                  "12:00 pm",
-                  "12:15 pm",
-                  "12:30 pm",
-                  "12:45 pm",
-                  "01:00 pm",
-                  "02:15 pm",
-                  "02:30 pm",
-                  "02:45 pm",
-                  "03:00 pm",
-                  "03:15 pm",
-                  "03:30 pm",
-                  "03:45 pm",
-                  "04:00 pm",
-                  "04:15 pm",
-                  "04:30 pm",
-                  "04:45 pm",
-                  "05:00 pm",
-                  "05:15 pm",
-                  "05:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 24.09,
-            "fhirLocationId": "b7dd9189-2f7f-40da-9eba-8122cadd4f61",
-            "locationId": "b7dd9189-2f7f-40da-9eba-8122cadd4f61",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "19880",
-            "phone": [
-              {
-                "number": "229-228-7658",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "229-227-0190",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "229-228-7658",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 30.83516595,
-              "longitude": -83.97741175
-            },
-            "storenumber": "19880"
-          },
-          {
-            "address": {
-              "city": "THOMASVILLE",
-              "country": "US",
-              "line1": "11343 US HIGHWAY 319 N",
-              "line2": "",
-              "state": "GA",
-              "zip": "31757"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "09:15 am",
-                  "09:45 am",
-                  "10:00 am",
-                  "10:15 am",
-                  "10:30 am",
-                  "10:45 am",
-                  "11:00 am",
-                  "11:15 am",
-                  "11:30 am",
-                  "11:45 am",
-                  "12:00 pm",
-                  "12:15 pm",
-                  "12:30 pm",
-                  "12:45 pm",
-                  "01:00 pm",
-                  "02:15 pm",
-                  "02:30 pm",
-                  "02:45 pm",
-                  "03:00 pm",
-                  "03:15 pm",
-                  "03:30 pm",
-                  "03:45 pm",
-                  "04:00 pm",
-                  "04:15 pm",
-                  "04:30 pm",
-                  "04:45 pm",
-                  "05:00 pm",
-                  "05:15 pm",
-                  "05:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 21.6,
-            "fhirLocationId": "304e4ef7-5a71-471b-b9cb-1172ffb84771",
-            "locationId": "304e4ef7-5a71-471b-b9cb-1172ffb84771",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "11794",
-            "phone": [
-              {
-                "number": "229-226-5424",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "229-226-5095",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "229-226-5424",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 30.86070915,
-              "longitude": -83.94786168
-            },
-            "storenumber": "11794"
-          }
-        ]
-      },
-      "second_dose_moderna": {
-        "error": [
-          {
-            "code": "FC_904_NoData",
-            "message": "Insufficient inventory."
-          }
-        ]
-      },
-      "second_dose_pfizer": {
         "locations": [
           {
             "address": {
@@ -3354,6 +3170,190 @@
             ],
             "description": "",
             "distance": 9.14,
+            "fhirLocationId": "304e4ef7-5a71-471b-b9cb-1172ffb84771",
+            "locationId": "304e4ef7-5a71-471b-b9cb-1172ffb84771",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "11794",
+            "phone": [
+              {
+                "number": "229-226-5424",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "229-226-5095",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "229-226-5424",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 30.86070915,
+              "longitude": -83.94786168
+            },
+            "storenumber": "11794"
+          }
+        ]
+      },
+      "second_dose_moderna": {
+        "error": [
+          {
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
+          }
+        ]
+      },
+      "second_dose_pfizer": {
+        "locations": [
+          {
+            "address": {
+              "city": "THOMASVILLE",
+              "country": "US",
+              "line1": "301 SOUTH BROAD STREET",
+              "line2": "",
+              "state": "GA",
+              "zip": "31792"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "09:30 am",
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "11:00 am",
+                  "11:15 am",
+                  "11:30 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "02:15 pm",
+                  "02:30 pm",
+                  "02:45 pm",
+                  "03:00 pm",
+                  "03:15 pm",
+                  "03:30 pm",
+                  "03:45 pm",
+                  "04:00 pm",
+                  "04:15 pm",
+                  "04:30 pm",
+                  "04:45 pm",
+                  "05:00 pm",
+                  "05:15 pm",
+                  "05:30 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 21.95,
+            "fhirLocationId": "b7dd9189-2f7f-40da-9eba-8122cadd4f61",
+            "locationId": "b7dd9189-2f7f-40da-9eba-8122cadd4f61",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "19880",
+            "phone": [
+              {
+                "number": "229-228-7658",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "229-227-0190",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "229-228-7658",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 30.83516595,
+              "longitude": -83.97741175
+            },
+            "storenumber": "19880"
+          },
+          {
+            "address": {
+              "city": "THOMASVILLE",
+              "country": "US",
+              "line1": "11343 US HIGHWAY 319 N",
+              "line2": "",
+              "state": "GA",
+              "zip": "31757"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "09:15 am",
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "11:00 am",
+                  "11:15 am",
+                  "11:30 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "02:15 pm",
+                  "02:30 pm",
+                  "02:45 pm",
+                  "03:00 pm",
+                  "03:15 pm",
+                  "03:30 pm",
+                  "03:45 pm",
+                  "04:00 pm",
+                  "04:15 pm",
+                  "04:30 pm",
+                  "04:45 pm",
+                  "05:00 pm",
+                  "05:15 pm",
+                  "05:30 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 24.16,
             "fhirLocationId": "304e4ef7-5a71-471b-b9cb-1172ffb84771",
             "locationId": "304e4ef7-5a71-471b-b9cb-1172ffb84771",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -5599,7 +5599,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T10:34:29.138+00:00",
+    "appointments_last_fetched": "2021-02-27T10:35:35.121+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -5886,7 +5886,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T10:34:29.138+00:00",
+    "appointments_last_fetched": "2021-02-27T10:35:35.121+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -6419,7 +6419,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T10:34:29.138+00:00",
+    "appointments_last_fetched": "2021-02-27T10:35:35.121+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -7678,7 +7678,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T10:34:29.138+00:00",
+    "appointments_last_fetched": "2021-02-27T10:35:35.121+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -7719,7 +7719,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T10:34:29.138+00:00",
+    "appointments_last_fetched": "2021-02-27T10:35:35.121+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -7760,7 +7760,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T10:34:29.138+00:00",
+    "appointments_last_fetched": "2021-02-27T10:35:35.121+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -7883,7 +7883,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T10:34:29.138+00:00",
+    "appointments_last_fetched": "2021-02-27T10:35:35.121+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -8158,7 +8158,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T10:34:29.138+00:00",
+    "appointments_last_fetched": "2021-02-27T10:35:35.121+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -8281,7 +8281,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T10:34:29.138+00:00",
+    "appointments_last_fetched": "2021-02-27T10:35:35.121+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -8486,7 +8486,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T10:34:29.138+00:00",
+    "appointments_last_fetched": "2021-02-27T10:35:35.121+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -8773,7 +8773,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T10:34:29.138+00:00",
+    "appointments_last_fetched": "2021-02-27T10:35:35.121+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -9212,7 +9212,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T10:34:29.138+00:00",
+    "appointments_last_fetched": "2021-02-27T10:35:35.121+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -12531,7 +12531,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T10:20:46.125+00:00",
+    "appointments_last_fetched": "2021-02-27T10:35:24.996+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -12613,7 +12613,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T10:20:46.125+00:00",
+    "appointments_last_fetched": "2021-02-27T10:35:24.996+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -12859,7 +12859,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T10:20:46.125+00:00",
+    "appointments_last_fetched": "2021-02-27T10:35:24.996+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -13064,7 +13064,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T10:20:46.125+00:00",
+    "appointments_last_fetched": "2021-02-27T10:35:24.996+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -13105,7 +13105,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T10:20:46.125+00:00",
+    "appointments_last_fetched": "2021-02-27T10:35:24.996+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -13187,7 +13187,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T10:20:46.125+00:00",
+    "appointments_last_fetched": "2021-02-27T10:35:24.996+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -13474,7 +13474,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T10:20:46.125+00:00",
+    "appointments_last_fetched": "2021-02-27T10:35:24.996+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -14007,7 +14007,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T10:20:46.125+00:00",
+    "appointments_last_fetched": "2021-02-27T10:35:24.996+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -14171,7 +14171,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T10:20:46.125+00:00",
+    "appointments_last_fetched": "2021-02-27T10:35:24.996+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -14253,7 +14253,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T10:20:46.125+00:00",
+    "appointments_last_fetched": "2021-02-27T10:35:24.996+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -14540,7 +14540,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T10:20:46.125+00:00",
+    "appointments_last_fetched": "2021-02-27T10:35:24.996+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -14622,7 +14622,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T10:20:46.125+00:00",
+    "appointments_last_fetched": "2021-02-27T10:35:24.996+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -14745,7 +14745,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T10:20:46.125+00:00",
+    "appointments_last_fetched": "2021-02-27T10:35:24.996+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -14909,7 +14909,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T10:20:46.125+00:00",
+    "appointments_last_fetched": "2021-02-27T10:35:24.996+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -15565,7 +15565,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T10:20:46.125+00:00",
+    "appointments_last_fetched": "2021-02-27T10:35:24.996+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -15688,7 +15688,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T10:23:15.328+00:00",
+    "appointments_last_fetched": "2021-02-27T10:35:55.93+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -19091,7 +19091,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T10:21:18.894+00:00",
+    "appointments_last_fetched": "2021-02-27T10:35:23.006+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -19173,7 +19173,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T10:21:18.894+00:00",
+    "appointments_last_fetched": "2021-02-27T10:35:23.006+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -19214,7 +19214,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T10:21:18.894+00:00",
+    "appointments_last_fetched": "2021-02-27T10:35:23.006+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -19255,7 +19255,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T10:21:18.894+00:00",
+    "appointments_last_fetched": "2021-02-27T10:35:23.006+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -19296,7 +19296,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T10:21:18.894+00:00",
+    "appointments_last_fetched": "2021-02-27T10:35:23.006+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -19378,7 +19378,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T10:21:18.894+00:00",
+    "appointments_last_fetched": "2021-02-27T10:35:23.006+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -19419,7 +19419,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T10:21:18.894+00:00",
+    "appointments_last_fetched": "2021-02-27T10:35:23.006+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -19460,7 +19460,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T10:21:18.894+00:00",
+    "appointments_last_fetched": "2021-02-27T10:35:23.006+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -19542,7 +19542,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T10:21:18.894+00:00",
+    "appointments_last_fetched": "2021-02-27T10:35:23.006+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -19583,7 +19583,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T10:21:18.894+00:00",
+    "appointments_last_fetched": "2021-02-27T10:35:23.006+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -19706,7 +19706,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T10:21:18.894+00:00",
+    "appointments_last_fetched": "2021-02-27T10:35:23.006+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -19747,7 +19747,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T10:21:18.894+00:00",
+    "appointments_last_fetched": "2021-02-27T10:35:23.006+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -19788,7 +19788,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T10:21:18.894+00:00",
+    "appointments_last_fetched": "2021-02-27T10:35:23.006+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -19829,7 +19829,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T10:21:18.894+00:00",
+    "appointments_last_fetched": "2021-02-27T10:35:23.006+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -19911,7 +19911,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T10:21:18.894+00:00",
+    "appointments_last_fetched": "2021-02-27T10:35:23.006+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -19952,7 +19952,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T10:21:18.894+00:00",
+    "appointments_last_fetched": "2021-02-27T10:35:23.006+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -19993,7 +19993,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T10:21:18.894+00:00",
+    "appointments_last_fetched": "2021-02-27T10:35:23.006+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -20116,7 +20116,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T10:21:18.894+00:00",
+    "appointments_last_fetched": "2021-02-27T10:35:23.006+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -20198,7 +20198,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T10:21:18.894+00:00",
+    "appointments_last_fetched": "2021-02-27T10:35:23.006+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -20321,7 +20321,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T10:21:18.894+00:00",
+    "appointments_last_fetched": "2021-02-27T10:35:23.006+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -20362,7 +20362,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T10:21:18.894+00:00",
+    "appointments_last_fetched": "2021-02-27T10:35:23.006+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -20485,7 +20485,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T10:21:18.894+00:00",
+    "appointments_last_fetched": "2021-02-27T10:35:23.006+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -20567,7 +20567,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T10:21:18.894+00:00",
+    "appointments_last_fetched": "2021-02-27T10:35:23.006+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -20690,7 +20690,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T10:21:18.894+00:00",
+    "appointments_last_fetched": "2021-02-27T10:35:23.006+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -20731,7 +20731,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T10:21:18.894+00:00",
+    "appointments_last_fetched": "2021-02-27T10:35:23.006+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -20813,7 +20813,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T10:21:18.894+00:00",
+    "appointments_last_fetched": "2021-02-27T10:35:23.006+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -21059,7 +21059,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T10:21:18.894+00:00",
+    "appointments_last_fetched": "2021-02-27T10:35:23.006+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -21100,7 +21100,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T10:21:18.894+00:00",
+    "appointments_last_fetched": "2021-02-27T10:35:23.006+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -21223,7 +21223,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T10:21:18.894+00:00",
+    "appointments_last_fetched": "2021-02-27T10:35:23.006+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -21264,7 +21264,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T10:21:18.894+00:00",
+    "appointments_last_fetched": "2021-02-27T10:35:23.006+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -21346,7 +21346,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T10:21:18.894+00:00",
+    "appointments_last_fetched": "2021-02-27T10:35:23.006+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -21387,7 +21387,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T10:21:18.894+00:00",
+    "appointments_last_fetched": "2021-02-27T10:35:23.006+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -21428,7 +21428,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T10:21:18.894+00:00",
+    "appointments_last_fetched": "2021-02-27T10:35:23.006+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -21592,7 +21592,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T10:21:18.894+00:00",
+    "appointments_last_fetched": "2021-02-27T10:35:23.006+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -21633,7 +21633,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T10:21:18.894+00:00",
+    "appointments_last_fetched": "2021-02-27T10:35:23.006+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -21756,7 +21756,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T10:21:18.894+00:00",
+    "appointments_last_fetched": "2021-02-27T10:35:23.006+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -21838,7 +21838,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T10:21:18.894+00:00",
+    "appointments_last_fetched": "2021-02-27T10:35:23.006+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -21879,7 +21879,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T10:21:18.894+00:00",
+    "appointments_last_fetched": "2021-02-27T10:35:23.006+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -21920,7 +21920,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T10:21:18.894+00:00",
+    "appointments_last_fetched": "2021-02-27T10:35:23.006+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -22002,7 +22002,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T10:21:18.894+00:00",
+    "appointments_last_fetched": "2021-02-27T10:35:23.006+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -22125,7 +22125,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T10:21:18.894+00:00",
+    "appointments_last_fetched": "2021-02-27T10:35:23.006+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -22207,7 +22207,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T10:21:18.894+00:00",
+    "appointments_last_fetched": "2021-02-27T10:35:23.006+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -22330,7 +22330,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T10:21:18.894+00:00",
+    "appointments_last_fetched": "2021-02-27T10:35:23.006+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -22371,7 +22371,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T10:21:18.894+00:00",
+    "appointments_last_fetched": "2021-02-27T10:35:23.006+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -22535,7 +22535,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T10:21:18.894+00:00",
+    "appointments_last_fetched": "2021-02-27T10:35:23.006+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -22617,7 +22617,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T10:21:18.894+00:00",
+    "appointments_last_fetched": "2021-02-27T10:35:23.006+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -22699,7 +22699,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T10:21:18.894+00:00",
+    "appointments_last_fetched": "2021-02-27T10:35:23.006+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -23150,7 +23150,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T10:21:18.894+00:00",
+    "appointments_last_fetched": "2021-02-27T10:35:23.006+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -23191,7 +23191,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T10:21:18.894+00:00",
+    "appointments_last_fetched": "2021-02-27T10:35:23.006+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -23232,7 +23232,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T10:21:18.894+00:00",
+    "appointments_last_fetched": "2021-02-27T10:35:23.006+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -23355,7 +23355,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T10:21:18.894+00:00",
+    "appointments_last_fetched": "2021-02-27T10:35:23.006+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -23437,7 +23437,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T10:21:18.894+00:00",
+    "appointments_last_fetched": "2021-02-27T10:35:23.006+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -23560,7 +23560,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T10:21:18.894+00:00",
+    "appointments_last_fetched": "2021-02-27T10:35:23.006+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -23724,7 +23724,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T10:21:18.894+00:00",
+    "appointments_last_fetched": "2021-02-27T10:35:23.006+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -23765,7 +23765,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T10:21:18.894+00:00",
+    "appointments_last_fetched": "2021-02-27T10:35:23.006+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -23806,7 +23806,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T10:21:18.894+00:00",
+    "appointments_last_fetched": "2021-02-27T10:35:23.006+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -23847,7 +23847,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T10:21:18.894+00:00",
+    "appointments_last_fetched": "2021-02-27T10:35:23.006+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -23888,7 +23888,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T10:21:18.894+00:00",
+    "appointments_last_fetched": "2021-02-27T10:35:23.006+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -23929,7 +23929,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T10:21:18.894+00:00",
+    "appointments_last_fetched": "2021-02-27T10:35:23.006+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -23970,7 +23970,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T10:21:18.894+00:00",
+    "appointments_last_fetched": "2021-02-27T10:35:23.006+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -24011,7 +24011,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T10:21:18.894+00:00",
+    "appointments_last_fetched": "2021-02-27T10:35:23.006+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -24052,7 +24052,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T10:21:18.894+00:00",
+    "appointments_last_fetched": "2021-02-27T10:35:23.006+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -24093,7 +24093,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T10:21:18.894+00:00",
+    "appointments_last_fetched": "2021-02-27T10:35:23.006+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -24134,7 +24134,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T10:21:18.894+00:00",
+    "appointments_last_fetched": "2021-02-27T10:35:23.006+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -24175,7 +24175,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T10:21:18.894+00:00",
+    "appointments_last_fetched": "2021-02-27T10:35:23.006+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -24216,7 +24216,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T10:21:18.894+00:00",
+    "appointments_last_fetched": "2021-02-27T10:35:23.006+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -24257,7 +24257,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T10:21:18.894+00:00",
+    "appointments_last_fetched": "2021-02-27T10:35:23.006+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -24298,7 +24298,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T10:21:18.894+00:00",
+    "appointments_last_fetched": "2021-02-27T10:35:23.006+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -24339,7 +24339,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T10:21:18.894+00:00",
+    "appointments_last_fetched": "2021-02-27T10:35:23.006+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -24380,7 +24380,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T10:21:18.894+00:00",
+    "appointments_last_fetched": "2021-02-27T10:35:23.006+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -24421,7 +24421,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T10:21:18.894+00:00",
+    "appointments_last_fetched": "2021-02-27T10:35:23.006+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -24462,7 +24462,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T10:21:18.894+00:00",
+    "appointments_last_fetched": "2021-02-27T10:35:23.006+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -24503,7 +24503,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T10:21:18.894+00:00",
+    "appointments_last_fetched": "2021-02-27T10:35:23.006+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -24626,7 +24626,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T10:21:18.894+00:00",
+    "appointments_last_fetched": "2021-02-27T10:35:23.006+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -32006,7 +32006,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T10:20:46.125+00:00",
+    "appointments_last_fetched": "2021-02-27T10:35:24.996+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -32539,7 +32539,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T10:20:46.125+00:00",
+    "appointments_last_fetched": "2021-02-27T10:35:24.996+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -32621,7 +32621,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T10:20:46.125+00:00",
+    "appointments_last_fetched": "2021-02-27T10:35:24.996+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -32662,7 +32662,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T10:20:46.125+00:00",
+    "appointments_last_fetched": "2021-02-27T10:35:24.996+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -32867,7 +32867,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T10:20:46.125+00:00",
+    "appointments_last_fetched": "2021-02-27T10:35:24.996+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -32908,7 +32908,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T10:20:46.125+00:00",
+    "appointments_last_fetched": "2021-02-27T10:35:24.996+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -33113,7 +33113,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T10:20:46.125+00:00",
+    "appointments_last_fetched": "2021-02-27T10:35:24.996+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -33154,7 +33154,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T10:20:46.125+00:00",
+    "appointments_last_fetched": "2021-02-27T10:35:24.996+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -33236,7 +33236,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T10:20:46.125+00:00",
+    "appointments_last_fetched": "2021-02-27T10:35:24.996+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -33359,7 +33359,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T10:20:46.125+00:00",
+    "appointments_last_fetched": "2021-02-27T10:35:24.996+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -36885,7 +36885,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T10:20:46.125+00:00",
+    "appointments_last_fetched": "2021-02-27T10:35:24.996+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -37008,7 +37008,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T10:20:46.125+00:00",
+    "appointments_last_fetched": "2021-02-27T10:35:24.996+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -37131,7 +37131,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T10:20:46.125+00:00",
+    "appointments_last_fetched": "2021-02-27T10:35:24.996+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -37172,7 +37172,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T10:20:46.125+00:00",
+    "appointments_last_fetched": "2021-02-27T10:35:24.996+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -37295,7 +37295,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T10:20:46.125+00:00",
+    "appointments_last_fetched": "2021-02-27T10:35:24.996+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -37459,7 +37459,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T10:20:46.125+00:00",
+    "appointments_last_fetched": "2021-02-27T10:35:24.996+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
