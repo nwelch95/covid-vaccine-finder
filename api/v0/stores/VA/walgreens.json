@@ -3325,7 +3325,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T10:21:08.632+00:00",
+    "appointments_last_fetched": "2021-02-27T10:50:49.987+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -3694,7 +3694,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T10:21:08.632+00:00",
+    "appointments_last_fetched": "2021-02-27T10:50:49.987+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -3776,7 +3776,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T10:21:08.632+00:00",
+    "appointments_last_fetched": "2021-02-27T10:50:49.987+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -6728,7 +6728,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T10:24:03.733+00:00",
+    "appointments_last_fetched": "2021-02-27T10:49:53.794+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -7823,74 +7823,10 @@
       }
     ],
     "appointments_available": true,
-    "appointments_last_fetched": "2021-02-27T10:49:22.859+00:00",
+    "appointments_last_fetched": "2021-02-27T10:49:57.865+00:00",
     "appointments_raw": {
       "both_doses": {
         "locations": [
-          {
-            "address": {
-              "city": "ABINGDON",
-              "country": "US",
-              "line1": "668 W MAIN ST",
-              "line2": "",
-              "state": "VA",
-              "zip": "24210"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "03:30 pm",
-                  "04:00 pm",
-                  "04:15 pm",
-                  "04:30 pm",
-                  "04:45 pm",
-                  "05:00 pm",
-                  "05:15 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 23.38,
-            "fhirLocationId": "c18d80a6-b5af-42de-b24e-4534043525df",
-            "locationId": "c18d80a6-b5af-42de-b24e-4534043525df",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "9948",
-            "phone": [
-              {
-                "number": "276-628-2300",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "276-628-2613",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "276-628-2300",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 36.705953,
-              "longitude": -81.995485
-            },
-            "storenumber": "9948"
-          },
           {
             "address": {
               "city": "BRISTOL",
@@ -7922,7 +7858,7 @@
               }
             ],
             "description": "",
-            "distance": 11.59,
+            "distance": 16.76,
             "fhirLocationId": "af9568fc-efa9-40f3-917e-a0c2f2a42024",
             "locationId": "af9568fc-efa9-40f3-917e-a0c2f2a42024",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -7948,19 +7884,81 @@
               "longitude": -82.19133304
             },
             "storenumber": "18318"
-          }
-        ]
-      },
-      "second_dose_moderna": {
-        "error": [
+          },
           {
-            "code": "FC_904_NoData",
-            "message": "Insufficient inventory."
-          }
-        ]
-      },
-      "second_dose_pfizer": {
-        "locations": [
+            "address": {
+              "city": "COEBURN",
+              "country": "US",
+              "line1": "101 LAUREL AVENUE",
+              "line2": "",
+              "state": "VA",
+              "zip": "24230"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "11:30 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "03:00 pm",
+                  "03:15 pm",
+                  "03:30 pm",
+                  "03:45 pm",
+                  "04:15 pm",
+                  "04:30 pm",
+                  "04:45 pm",
+                  "05:00 pm",
+                  "05:15 pm",
+                  "05:30 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 20.12,
+            "fhirLocationId": "9b00cc77-d566-4d47-998e-140df59c6113",
+            "locationId": "9b00cc77-d566-4d47-998e-140df59c6113",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "17546",
+            "phone": [
+              {
+                "number": "276-395-5396",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "276-395-3749",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "276-395-5396",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 36.94276821,
+              "longitude": -82.47065753
+            },
+            "storenumber": "17546"
+          },
           {
             "address": {
               "city": "ABINGDON",
@@ -8024,7 +8022,19 @@
               "longitude": -81.995485
             },
             "storenumber": "9948"
-          },
+          }
+        ]
+      },
+      "second_dose_moderna": {
+        "error": [
+          {
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
+          }
+        ]
+      },
+      "second_dose_pfizer": {
+        "locations": [
           {
             "address": {
               "city": "BRISTOL",
@@ -8056,7 +8066,7 @@
               }
             ],
             "description": "",
-            "distance": 16.76,
+            "distance": 11.59,
             "fhirLocationId": "af9568fc-efa9-40f3-917e-a0c2f2a42024",
             "locationId": "af9568fc-efa9-40f3-917e-a0c2f2a42024",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -8082,6 +8092,144 @@
               "longitude": -82.19133304
             },
             "storenumber": "18318"
+          },
+          {
+            "address": {
+              "city": "COEBURN",
+              "country": "US",
+              "line1": "101 LAUREL AVENUE",
+              "line2": "",
+              "state": "VA",
+              "zip": "24230"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "11:30 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "03:00 pm",
+                  "03:15 pm",
+                  "03:30 pm",
+                  "03:45 pm",
+                  "04:15 pm",
+                  "04:30 pm",
+                  "04:45 pm",
+                  "05:00 pm",
+                  "05:15 pm",
+                  "05:30 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 11.6,
+            "fhirLocationId": "9b00cc77-d566-4d47-998e-140df59c6113",
+            "locationId": "9b00cc77-d566-4d47-998e-140df59c6113",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "17546",
+            "phone": [
+              {
+                "number": "276-395-5396",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "276-395-3749",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "276-395-5396",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 36.94276821,
+              "longitude": -82.47065753
+            },
+            "storenumber": "17546"
+          },
+          {
+            "address": {
+              "city": "ABINGDON",
+              "country": "US",
+              "line1": "668 W MAIN ST",
+              "line2": "",
+              "state": "VA",
+              "zip": "24210"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "03:30 pm",
+                  "04:00 pm",
+                  "04:15 pm",
+                  "04:30 pm",
+                  "04:45 pm",
+                  "05:00 pm",
+                  "05:15 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 23.38,
+            "fhirLocationId": "c18d80a6-b5af-42de-b24e-4534043525df",
+            "locationId": "c18d80a6-b5af-42de-b24e-4534043525df",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "9948",
+            "phone": [
+              {
+                "number": "276-628-2300",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "276-628-2613",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "276-628-2300",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 36.705953,
+              "longitude": -81.995485
+            },
+            "storenumber": "9948"
           }
         ]
       }
@@ -9322,49 +9470,25 @@
       }
     ],
     "appointments_available": true,
-    "appointments_last_fetched": "2021-02-27T10:47:25.059+00:00",
+    "appointments_last_fetched": "2021-02-27T10:49:57.865+00:00",
     "appointments_raw": {
       "both_doses": {
         "locations": [
           {
             "address": {
-              "city": "JENKINS",
+              "city": "BRISTOL",
               "country": "US",
-              "line1": "9485 HIGHWAY 805",
+              "line1": "1200 EUCLID AVE",
               "line2": "",
-              "state": "KY",
-              "zip": "41537"
+              "state": "VA",
+              "zip": "24201"
             },
             "appointmentAvailability": [
               {
                 "date": "2021-03-01",
                 "day": "Monday",
                 "slots": [
-                  "09:15 am",
-                  "09:30 am",
-                  "09:45 am",
-                  "10:00 am",
-                  "10:15 am",
-                  "10:30 am",
-                  "10:45 am",
-                  "11:00 am",
-                  "11:15 am",
-                  "11:30 am",
-                  "11:45 am",
-                  "12:15 pm",
-                  "12:30 pm",
-                  "01:45 pm",
-                  "02:00 pm",
-                  "02:15 pm",
-                  "02:30 pm",
-                  "02:45 pm",
-                  "03:00 pm",
-                  "03:15 pm",
-                  "03:30 pm",
-                  "03:45 pm",
-                  "04:00 pm",
-                  "04:45 pm",
-                  "05:00 pm"
+                  "05:30 pm"
                 ]
               }
             ],
@@ -9381,103 +9505,32 @@
               }
             ],
             "description": "",
-            "distance": 10.78,
-            "fhirLocationId": "d2fb5caa-7857-4275-aa35-ae040c5e434c",
-            "locationId": "d2fb5caa-7857-4275-aa35-ae040c5e434c",
+            "distance": 16.76,
+            "fhirLocationId": "af9568fc-efa9-40f3-917e-a0c2f2a42024",
+            "locationId": "af9568fc-efa9-40f3-917e-a0c2f2a42024",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
             "name": "Walgreen Drug Store",
             "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "17328",
+            "partnerLocationId": "18318",
             "phone": [
               {
-                "number": "606-832-2084",
+                "number": "276-645-977",
                 "type": "StorePrimary"
               },
               {
-                "number": "606-832-0364",
+                "number": "276-645-975",
                 "type": "StoreSecondary"
               },
               {
-                "number": "606-832-2084",
+                "number": "276-645-977",
                 "type": "Pharmacy"
               }
             ],
             "position": {
-              "latitude": 37.17174334,
-              "longitude": -82.63445195
+              "latitude": 36.60253973,
+              "longitude": -82.19133304
             },
-            "storenumber": "17328"
-          },
-          {
-            "address": {
-              "city": "PIKEVILLE",
-              "country": "US",
-              "line1": "5571 COLLINS HWY",
-              "line2": "",
-              "state": "KY",
-              "zip": "41501"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "09:30 am",
-                  "09:45 am",
-                  "10:00 am",
-                  "10:15 am",
-                  "10:30 am",
-                  "11:00 am",
-                  "11:15 am",
-                  "11:30 am",
-                  "11:45 am",
-                  "12:15 pm",
-                  "12:30 pm",
-                  "02:00 pm",
-                  "03:15 pm",
-                  "04:15 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 14.79,
-            "fhirLocationId": "cfcf505f-94dc-4827-8112-280494bba4fc",
-            "locationId": "cfcf505f-94dc-4827-8112-280494bba4fc",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "17936",
-            "phone": [
-              {
-                "number": "606-639-4588",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "606-639-449",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "606-639-4588",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 37.38769439,
-              "longitude": -82.54339958
-            },
-            "storenumber": "17936"
+            "storenumber": "18318"
           },
           {
             "address": {
@@ -9526,7 +9579,7 @@
               }
             ],
             "description": "",
-            "distance": 17.17,
+            "distance": 20.12,
             "fhirLocationId": "9b00cc77-d566-4d47-998e-140df59c6113",
             "locationId": "9b00cc77-d566-4d47-998e-140df59c6113",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -9555,31 +9608,25 @@
           },
           {
             "address": {
-              "city": "PIKEVILLE",
+              "city": "ABINGDON",
               "country": "US",
-              "line1": "4209 N MAYO TRL",
+              "line1": "668 W MAIN ST",
               "line2": "",
-              "state": "KY",
-              "zip": "41501"
+              "state": "VA",
+              "zip": "24210"
             },
             "appointmentAvailability": [
               {
                 "date": "2021-03-01",
                 "day": "Monday",
                 "slots": [
-                  "02:30 pm",
-                  "02:45 pm",
-                  "03:00 pm",
-                  "03:15 pm",
                   "03:30 pm",
-                  "03:45 pm",
                   "04:00 pm",
                   "04:15 pm",
                   "04:30 pm",
                   "04:45 pm",
                   "05:00 pm",
-                  "05:15 pm",
-                  "05:30 pm"
+                  "05:15 pm"
                 ]
               }
             ],
@@ -9596,32 +9643,32 @@
               }
             ],
             "description": "",
-            "distance": 24.18,
-            "fhirLocationId": "53c5a85b-0d99-475f-9f6c-3ce20ec6cf9d",
-            "locationId": "53c5a85b-0d99-475f-9f6c-3ce20ec6cf9d",
+            "distance": 11.88,
+            "fhirLocationId": "c18d80a6-b5af-42de-b24e-4534043525df",
+            "locationId": "c18d80a6-b5af-42de-b24e-4534043525df",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
             "name": "Walgreen Drug Store",
             "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "19657",
+            "partnerLocationId": "9948",
             "phone": [
               {
-                "number": "606-432-331",
+                "number": "276-628-2300",
                 "type": "StorePrimary"
               },
               {
-                "number": "606-432-4731",
+                "number": "276-628-2613",
                 "type": "StoreSecondary"
               },
               {
-                "number": "606-432-331",
+                "number": "276-628-2300",
                 "type": "Pharmacy"
               }
             ],
             "position": {
-              "latitude": 37.5234864,
-              "longitude": -82.57349591
+              "latitude": 36.705953,
+              "longitude": -81.995485
             },
-            "storenumber": "19657"
+            "storenumber": "9948"
           }
         ]
       },
@@ -9637,43 +9684,19 @@
         "locations": [
           {
             "address": {
-              "city": "JENKINS",
+              "city": "BRISTOL",
               "country": "US",
-              "line1": "9485 HIGHWAY 805",
+              "line1": "1200 EUCLID AVE",
               "line2": "",
-              "state": "KY",
-              "zip": "41537"
+              "state": "VA",
+              "zip": "24201"
             },
             "appointmentAvailability": [
               {
                 "date": "2021-03-01",
                 "day": "Monday",
                 "slots": [
-                  "09:15 am",
-                  "09:30 am",
-                  "09:45 am",
-                  "10:00 am",
-                  "10:15 am",
-                  "10:30 am",
-                  "10:45 am",
-                  "11:00 am",
-                  "11:15 am",
-                  "11:30 am",
-                  "11:45 am",
-                  "12:15 pm",
-                  "12:30 pm",
-                  "01:45 pm",
-                  "02:00 pm",
-                  "02:15 pm",
-                  "02:30 pm",
-                  "02:45 pm",
-                  "03:00 pm",
-                  "03:15 pm",
-                  "03:30 pm",
-                  "03:45 pm",
-                  "04:00 pm",
-                  "04:45 pm",
-                  "05:00 pm"
+                  "05:30 pm"
                 ]
               }
             ],
@@ -9690,103 +9713,32 @@
               }
             ],
             "description": "",
-            "distance": 16.06,
-            "fhirLocationId": "d2fb5caa-7857-4275-aa35-ae040c5e434c",
-            "locationId": "d2fb5caa-7857-4275-aa35-ae040c5e434c",
+            "distance": 11.59,
+            "fhirLocationId": "af9568fc-efa9-40f3-917e-a0c2f2a42024",
+            "locationId": "af9568fc-efa9-40f3-917e-a0c2f2a42024",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
             "name": "Walgreen Drug Store",
             "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "17328",
+            "partnerLocationId": "18318",
             "phone": [
               {
-                "number": "606-832-2084",
+                "number": "276-645-977",
                 "type": "StorePrimary"
               },
               {
-                "number": "606-832-0364",
+                "number": "276-645-975",
                 "type": "StoreSecondary"
               },
               {
-                "number": "606-832-2084",
+                "number": "276-645-977",
                 "type": "Pharmacy"
               }
             ],
             "position": {
-              "latitude": 37.17174334,
-              "longitude": -82.63445195
+              "latitude": 36.60253973,
+              "longitude": -82.19133304
             },
-            "storenumber": "17328"
-          },
-          {
-            "address": {
-              "city": "PIKEVILLE",
-              "country": "US",
-              "line1": "5571 COLLINS HWY",
-              "line2": "",
-              "state": "KY",
-              "zip": "41501"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "09:30 am",
-                  "09:45 am",
-                  "10:00 am",
-                  "10:15 am",
-                  "10:30 am",
-                  "11:00 am",
-                  "11:15 am",
-                  "11:30 am",
-                  "11:45 am",
-                  "12:15 pm",
-                  "12:30 pm",
-                  "02:00 pm",
-                  "03:15 pm",
-                  "04:15 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 15.78,
-            "fhirLocationId": "cfcf505f-94dc-4827-8112-280494bba4fc",
-            "locationId": "cfcf505f-94dc-4827-8112-280494bba4fc",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "17936",
-            "phone": [
-              {
-                "number": "606-639-4588",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "606-639-449",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "606-639-4588",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 37.38769439,
-              "longitude": -82.54339958
-            },
-            "storenumber": "17936"
+            "storenumber": "18318"
           },
           {
             "address": {
@@ -9835,7 +9787,7 @@
               }
             ],
             "description": "",
-            "distance": 23.32,
+            "distance": 11.6,
             "fhirLocationId": "9b00cc77-d566-4d47-998e-140df59c6113",
             "locationId": "9b00cc77-d566-4d47-998e-140df59c6113",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -9864,31 +9816,25 @@
           },
           {
             "address": {
-              "city": "PIKEVILLE",
+              "city": "ABINGDON",
               "country": "US",
-              "line1": "4209 N MAYO TRL",
+              "line1": "668 W MAIN ST",
               "line2": "",
-              "state": "KY",
-              "zip": "41501"
+              "state": "VA",
+              "zip": "24210"
             },
             "appointmentAvailability": [
               {
                 "date": "2021-03-01",
                 "day": "Monday",
                 "slots": [
-                  "02:30 pm",
-                  "02:45 pm",
-                  "03:00 pm",
-                  "03:15 pm",
                   "03:30 pm",
-                  "03:45 pm",
                   "04:00 pm",
                   "04:15 pm",
                   "04:30 pm",
                   "04:45 pm",
                   "05:00 pm",
-                  "05:15 pm",
-                  "05:30 pm"
+                  "05:15 pm"
                 ]
               }
             ],
@@ -9905,32 +9851,32 @@
               }
             ],
             "description": "",
-            "distance": 23.3,
-            "fhirLocationId": "53c5a85b-0d99-475f-9f6c-3ce20ec6cf9d",
-            "locationId": "53c5a85b-0d99-475f-9f6c-3ce20ec6cf9d",
+            "distance": 23.38,
+            "fhirLocationId": "c18d80a6-b5af-42de-b24e-4534043525df",
+            "locationId": "c18d80a6-b5af-42de-b24e-4534043525df",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
             "name": "Walgreen Drug Store",
             "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "19657",
+            "partnerLocationId": "9948",
             "phone": [
               {
-                "number": "606-432-331",
+                "number": "276-628-2300",
                 "type": "StorePrimary"
               },
               {
-                "number": "606-432-4731",
+                "number": "276-628-2613",
                 "type": "StoreSecondary"
               },
               {
-                "number": "606-432-331",
+                "number": "276-628-2300",
                 "type": "Pharmacy"
               }
             ],
             "position": {
-              "latitude": 37.5234864,
-              "longitude": -82.57349591
+              "latitude": 36.705953,
+              "longitude": -81.995485
             },
-            "storenumber": "19657"
+            "storenumber": "9948"
           }
         ]
       }
@@ -10005,74 +9951,10 @@
       }
     ],
     "appointments_available": true,
-    "appointments_last_fetched": "2021-02-27T10:49:22.859+00:00",
+    "appointments_last_fetched": "2021-02-27T10:49:57.865+00:00",
     "appointments_raw": {
       "both_doses": {
         "locations": [
-          {
-            "address": {
-              "city": "ABINGDON",
-              "country": "US",
-              "line1": "668 W MAIN ST",
-              "line2": "",
-              "state": "VA",
-              "zip": "24210"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "03:30 pm",
-                  "04:00 pm",
-                  "04:15 pm",
-                  "04:30 pm",
-                  "04:45 pm",
-                  "05:00 pm",
-                  "05:15 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 23.38,
-            "fhirLocationId": "c18d80a6-b5af-42de-b24e-4534043525df",
-            "locationId": "c18d80a6-b5af-42de-b24e-4534043525df",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "9948",
-            "phone": [
-              {
-                "number": "276-628-2300",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "276-628-2613",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "276-628-2300",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 36.705953,
-              "longitude": -81.995485
-            },
-            "storenumber": "9948"
-          },
           {
             "address": {
               "city": "BRISTOL",
@@ -10104,7 +9986,7 @@
               }
             ],
             "description": "",
-            "distance": 11.59,
+            "distance": 16.76,
             "fhirLocationId": "af9568fc-efa9-40f3-917e-a0c2f2a42024",
             "locationId": "af9568fc-efa9-40f3-917e-a0c2f2a42024",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -10130,19 +10012,81 @@
               "longitude": -82.19133304
             },
             "storenumber": "18318"
-          }
-        ]
-      },
-      "second_dose_moderna": {
-        "error": [
+          },
           {
-            "code": "FC_904_NoData",
-            "message": "Insufficient inventory."
-          }
-        ]
-      },
-      "second_dose_pfizer": {
-        "locations": [
+            "address": {
+              "city": "COEBURN",
+              "country": "US",
+              "line1": "101 LAUREL AVENUE",
+              "line2": "",
+              "state": "VA",
+              "zip": "24230"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "11:30 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "03:00 pm",
+                  "03:15 pm",
+                  "03:30 pm",
+                  "03:45 pm",
+                  "04:15 pm",
+                  "04:30 pm",
+                  "04:45 pm",
+                  "05:00 pm",
+                  "05:15 pm",
+                  "05:30 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 20.12,
+            "fhirLocationId": "9b00cc77-d566-4d47-998e-140df59c6113",
+            "locationId": "9b00cc77-d566-4d47-998e-140df59c6113",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "17546",
+            "phone": [
+              {
+                "number": "276-395-5396",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "276-395-3749",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "276-395-5396",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 36.94276821,
+              "longitude": -82.47065753
+            },
+            "storenumber": "17546"
+          },
           {
             "address": {
               "city": "ABINGDON",
@@ -10206,7 +10150,19 @@
               "longitude": -81.995485
             },
             "storenumber": "9948"
-          },
+          }
+        ]
+      },
+      "second_dose_moderna": {
+        "error": [
+          {
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
+          }
+        ]
+      },
+      "second_dose_pfizer": {
+        "locations": [
           {
             "address": {
               "city": "BRISTOL",
@@ -10238,7 +10194,7 @@
               }
             ],
             "description": "",
-            "distance": 16.76,
+            "distance": 11.59,
             "fhirLocationId": "af9568fc-efa9-40f3-917e-a0c2f2a42024",
             "locationId": "af9568fc-efa9-40f3-917e-a0c2f2a42024",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -10264,6 +10220,144 @@
               "longitude": -82.19133304
             },
             "storenumber": "18318"
+          },
+          {
+            "address": {
+              "city": "COEBURN",
+              "country": "US",
+              "line1": "101 LAUREL AVENUE",
+              "line2": "",
+              "state": "VA",
+              "zip": "24230"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "11:30 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "03:00 pm",
+                  "03:15 pm",
+                  "03:30 pm",
+                  "03:45 pm",
+                  "04:15 pm",
+                  "04:30 pm",
+                  "04:45 pm",
+                  "05:00 pm",
+                  "05:15 pm",
+                  "05:30 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 11.6,
+            "fhirLocationId": "9b00cc77-d566-4d47-998e-140df59c6113",
+            "locationId": "9b00cc77-d566-4d47-998e-140df59c6113",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "17546",
+            "phone": [
+              {
+                "number": "276-395-5396",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "276-395-3749",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "276-395-5396",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 36.94276821,
+              "longitude": -82.47065753
+            },
+            "storenumber": "17546"
+          },
+          {
+            "address": {
+              "city": "ABINGDON",
+              "country": "US",
+              "line1": "668 W MAIN ST",
+              "line2": "",
+              "state": "VA",
+              "zip": "24210"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "03:30 pm",
+                  "04:00 pm",
+                  "04:15 pm",
+                  "04:30 pm",
+                  "04:45 pm",
+                  "05:00 pm",
+                  "05:15 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 23.38,
+            "fhirLocationId": "c18d80a6-b5af-42de-b24e-4534043525df",
+            "locationId": "c18d80a6-b5af-42de-b24e-4534043525df",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "9948",
+            "phone": [
+              {
+                "number": "276-628-2300",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "276-628-2613",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "276-628-2300",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 36.705953,
+              "longitude": -81.995485
+            },
+            "storenumber": "9948"
           }
         ]
       }
@@ -11863,7 +11957,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T10:21:08.632+00:00",
+    "appointments_last_fetched": "2021-02-27T10:50:49.987+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -11904,7 +11998,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T10:21:08.632+00:00",
+    "appointments_last_fetched": "2021-02-27T10:50:49.987+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -12150,7 +12244,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T10:22:39.077+00:00",
+    "appointments_last_fetched": "2021-02-27T10:49:39.776+00:00",
     "appointments_raw": {
       "both_doses": {
         "locations": [
@@ -12208,7 +12302,7 @@
               }
             ],
             "description": "",
-            "distance": 11.8,
+            "distance": 18.78,
             "fhirLocationId": "e6c1090b-3c32-4224-97c4-edd0a27ead22",
             "locationId": "e6c1090b-3c32-4224-97c4-edd0a27ead22",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -12293,7 +12387,7 @@
               }
             ],
             "description": "",
-            "distance": 0,
+            "distance": 18.78,
             "fhirLocationId": "e6c1090b-3c32-4224-97c4-edd0a27ead22",
             "locationId": "e6c1090b-3c32-4224-97c4-edd0a27ead22",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
