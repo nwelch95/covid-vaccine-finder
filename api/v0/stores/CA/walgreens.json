@@ -16329,7 +16329,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T02:50:13.434+00:00",
+    "appointments_last_fetched": "2021-02-27T03:09:36.854+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -16370,7 +16370,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T02:50:13.434+00:00",
+    "appointments_last_fetched": "2021-02-27T03:09:36.854+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -16411,7 +16411,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T02:50:13.434+00:00",
+    "appointments_last_fetched": "2021-02-27T03:09:36.854+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -24898,13 +24898,76 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T02:58:17.589+00:00",
+    "appointments_last_fetched": "2021-02-27T03:09:43.533+00:00",
     "appointments_raw": {
       "both_doses": {
-        "error": [
+        "locations": [
           {
-            "code": "FC_904_NoData",
-            "message": "Insufficient inventory."
+            "address": {
+              "city": "SACRAMENTO",
+              "country": "US",
+              "line1": "250 FLORIN RD",
+              "line2": "",
+              "state": "CA",
+              "zip": "95831"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-02-28",
+                "day": "Sunday",
+                "slots": [
+                  "10:15 am",
+                  "12:15 pm",
+                  "01:00 pm"
+                ]
+              },
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "04:30 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 8.93,
+            "fhirLocationId": "3b21c9c1-025d-4da9-9922-c35255651f4c",
+            "locationId": "3b21c9c1-025d-4da9-9922-c35255651f4c",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "10716",
+            "phone": [
+              {
+                "number": "916-399-0650",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "916-399-0650",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 38.5092786,
+              "longitude": -121.54297301
+            },
+            "storenumber": "10716"
           }
         ]
       },
@@ -24917,10 +24980,73 @@
         ]
       },
       "second_dose_pfizer": {
-        "error": [
+        "locations": [
           {
-            "code": "FC_904_NoData",
-            "message": "Insufficient inventory."
+            "address": {
+              "city": "SACRAMENTO",
+              "country": "US",
+              "line1": "250 FLORIN RD",
+              "line2": "",
+              "state": "CA",
+              "zip": "95831"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-02-28",
+                "day": "Sunday",
+                "slots": [
+                  "10:15 am",
+                  "12:15 pm",
+                  "01:00 pm"
+                ]
+              },
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "04:30 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 5.66,
+            "fhirLocationId": "3b21c9c1-025d-4da9-9922-c35255651f4c",
+            "locationId": "3b21c9c1-025d-4da9-9922-c35255651f4c",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "10716",
+            "phone": [
+              {
+                "number": "916-399-0650",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "916-399-0650",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 38.5092786,
+              "longitude": -121.54297301
+            },
+            "storenumber": "10716"
           }
         ]
       }
@@ -24939,13 +25065,76 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T02:58:17.589+00:00",
+    "appointments_last_fetched": "2021-02-27T03:09:43.533+00:00",
     "appointments_raw": {
       "both_doses": {
-        "error": [
+        "locations": [
           {
-            "code": "FC_904_NoData",
-            "message": "Insufficient inventory."
+            "address": {
+              "city": "SACRAMENTO",
+              "country": "US",
+              "line1": "250 FLORIN RD",
+              "line2": "",
+              "state": "CA",
+              "zip": "95831"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-02-28",
+                "day": "Sunday",
+                "slots": [
+                  "10:15 am",
+                  "12:15 pm",
+                  "01:00 pm"
+                ]
+              },
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "04:30 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 8.93,
+            "fhirLocationId": "3b21c9c1-025d-4da9-9922-c35255651f4c",
+            "locationId": "3b21c9c1-025d-4da9-9922-c35255651f4c",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "10716",
+            "phone": [
+              {
+                "number": "916-399-0650",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "916-399-0650",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 38.5092786,
+              "longitude": -121.54297301
+            },
+            "storenumber": "10716"
           }
         ]
       },
@@ -24958,10 +25147,73 @@
         ]
       },
       "second_dose_pfizer": {
-        "error": [
+        "locations": [
           {
-            "code": "FC_904_NoData",
-            "message": "Insufficient inventory."
+            "address": {
+              "city": "SACRAMENTO",
+              "country": "US",
+              "line1": "250 FLORIN RD",
+              "line2": "",
+              "state": "CA",
+              "zip": "95831"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-02-28",
+                "day": "Sunday",
+                "slots": [
+                  "10:15 am",
+                  "12:15 pm",
+                  "01:00 pm"
+                ]
+              },
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "04:30 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 5.66,
+            "fhirLocationId": "3b21c9c1-025d-4da9-9922-c35255651f4c",
+            "locationId": "3b21c9c1-025d-4da9-9922-c35255651f4c",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "10716",
+            "phone": [
+              {
+                "number": "916-399-0650",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "916-399-0650",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 38.5092786,
+              "longitude": -121.54297301
+            },
+            "storenumber": "10716"
           }
         ]
       }
@@ -24980,13 +25232,76 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T02:58:17.589+00:00",
+    "appointments_last_fetched": "2021-02-27T03:09:43.533+00:00",
     "appointments_raw": {
       "both_doses": {
-        "error": [
+        "locations": [
           {
-            "code": "FC_904_NoData",
-            "message": "Insufficient inventory."
+            "address": {
+              "city": "SACRAMENTO",
+              "country": "US",
+              "line1": "250 FLORIN RD",
+              "line2": "",
+              "state": "CA",
+              "zip": "95831"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-02-28",
+                "day": "Sunday",
+                "slots": [
+                  "10:15 am",
+                  "12:15 pm",
+                  "01:00 pm"
+                ]
+              },
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "04:30 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 8.93,
+            "fhirLocationId": "3b21c9c1-025d-4da9-9922-c35255651f4c",
+            "locationId": "3b21c9c1-025d-4da9-9922-c35255651f4c",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "10716",
+            "phone": [
+              {
+                "number": "916-399-0650",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "916-399-0650",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 38.5092786,
+              "longitude": -121.54297301
+            },
+            "storenumber": "10716"
           }
         ]
       },
@@ -24999,10 +25314,73 @@
         ]
       },
       "second_dose_pfizer": {
-        "error": [
+        "locations": [
           {
-            "code": "FC_904_NoData",
-            "message": "Insufficient inventory."
+            "address": {
+              "city": "SACRAMENTO",
+              "country": "US",
+              "line1": "250 FLORIN RD",
+              "line2": "",
+              "state": "CA",
+              "zip": "95831"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-02-28",
+                "day": "Sunday",
+                "slots": [
+                  "10:15 am",
+                  "12:15 pm",
+                  "01:00 pm"
+                ]
+              },
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "04:30 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 5.66,
+            "fhirLocationId": "3b21c9c1-025d-4da9-9922-c35255651f4c",
+            "locationId": "3b21c9c1-025d-4da9-9922-c35255651f4c",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "10716",
+            "phone": [
+              {
+                "number": "916-399-0650",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "916-399-0650",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 38.5092786,
+              "longitude": -121.54297301
+            },
+            "storenumber": "10716"
           }
         ]
       }
@@ -25019,15 +25397,110 @@
   {
     "address": "250 FLORIN RD",
     "appointments": [
+      {
+        "time": "2021-02-28T10:15:00.000-08:00",
+        "type": "both_doses"
+      },
+      {
+        "time": "2021-02-28T10:15:00.000-08:00",
+        "type": "second_dose_pfizer"
+      },
+      {
+        "time": "2021-02-28T12:15:00.000-08:00",
+        "type": "both_doses"
+      },
+      {
+        "time": "2021-02-28T12:15:00.000-08:00",
+        "type": "second_dose_pfizer"
+      },
+      {
+        "time": "2021-02-28T13:00:00.000-08:00",
+        "type": "both_doses"
+      },
+      {
+        "time": "2021-02-28T13:00:00.000-08:00",
+        "type": "second_dose_pfizer"
+      },
+      {
+        "time": "2021-03-01T16:30:00.000-08:00",
+        "type": "both_doses"
+      },
+      {
+        "time": "2021-03-01T16:30:00.000-08:00",
+        "type": "second_dose_pfizer"
+      }
     ],
-    "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T02:58:17.589+00:00",
+    "appointments_available": true,
+    "appointments_last_fetched": "2021-02-27T03:09:43.533+00:00",
     "appointments_raw": {
       "both_doses": {
-        "error": [
+        "locations": [
           {
-            "code": "FC_904_NoData",
-            "message": "Insufficient inventory."
+            "address": {
+              "city": "SACRAMENTO",
+              "country": "US",
+              "line1": "250 FLORIN RD",
+              "line2": "",
+              "state": "CA",
+              "zip": "95831"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-02-28",
+                "day": "Sunday",
+                "slots": [
+                  "10:15 am",
+                  "12:15 pm",
+                  "01:00 pm"
+                ]
+              },
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "04:30 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 8.93,
+            "fhirLocationId": "3b21c9c1-025d-4da9-9922-c35255651f4c",
+            "locationId": "3b21c9c1-025d-4da9-9922-c35255651f4c",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "10716",
+            "phone": [
+              {
+                "number": "916-399-0650",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "916-399-0650",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 38.5092786,
+              "longitude": -121.54297301
+            },
+            "storenumber": "10716"
           }
         ]
       },
@@ -25040,10 +25513,73 @@
         ]
       },
       "second_dose_pfizer": {
-        "error": [
+        "locations": [
           {
-            "code": "FC_904_NoData",
-            "message": "Insufficient inventory."
+            "address": {
+              "city": "SACRAMENTO",
+              "country": "US",
+              "line1": "250 FLORIN RD",
+              "line2": "",
+              "state": "CA",
+              "zip": "95831"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-02-28",
+                "day": "Sunday",
+                "slots": [
+                  "10:15 am",
+                  "12:15 pm",
+                  "01:00 pm"
+                ]
+              },
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "04:30 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 5.66,
+            "fhirLocationId": "3b21c9c1-025d-4da9-9922-c35255651f4c",
+            "locationId": "3b21c9c1-025d-4da9-9922-c35255651f4c",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "10716",
+            "phone": [
+              {
+                "number": "916-399-0650",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "916-399-0650",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 38.5092786,
+              "longitude": -121.54297301
+            },
+            "storenumber": "10716"
           }
         ]
       }
@@ -25185,13 +25721,76 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T02:58:17.589+00:00",
+    "appointments_last_fetched": "2021-02-27T03:09:43.533+00:00",
     "appointments_raw": {
       "both_doses": {
-        "error": [
+        "locations": [
           {
-            "code": "FC_904_NoData",
-            "message": "Insufficient inventory."
+            "address": {
+              "city": "SACRAMENTO",
+              "country": "US",
+              "line1": "250 FLORIN RD",
+              "line2": "",
+              "state": "CA",
+              "zip": "95831"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-02-28",
+                "day": "Sunday",
+                "slots": [
+                  "10:15 am",
+                  "12:15 pm",
+                  "01:00 pm"
+                ]
+              },
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "04:30 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 8.93,
+            "fhirLocationId": "3b21c9c1-025d-4da9-9922-c35255651f4c",
+            "locationId": "3b21c9c1-025d-4da9-9922-c35255651f4c",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "10716",
+            "phone": [
+              {
+                "number": "916-399-0650",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "916-399-0650",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 38.5092786,
+              "longitude": -121.54297301
+            },
+            "storenumber": "10716"
           }
         ]
       },
@@ -25204,10 +25803,73 @@
         ]
       },
       "second_dose_pfizer": {
-        "error": [
+        "locations": [
           {
-            "code": "FC_904_NoData",
-            "message": "Insufficient inventory."
+            "address": {
+              "city": "SACRAMENTO",
+              "country": "US",
+              "line1": "250 FLORIN RD",
+              "line2": "",
+              "state": "CA",
+              "zip": "95831"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-02-28",
+                "day": "Sunday",
+                "slots": [
+                  "10:15 am",
+                  "12:15 pm",
+                  "01:00 pm"
+                ]
+              },
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "04:30 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 5.66,
+            "fhirLocationId": "3b21c9c1-025d-4da9-9922-c35255651f4c",
+            "locationId": "3b21c9c1-025d-4da9-9922-c35255651f4c",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "10716",
+            "phone": [
+              {
+                "number": "916-399-0650",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "916-399-0650",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 38.5092786,
+              "longitude": -121.54297301
+            },
+            "storenumber": "10716"
           }
         ]
       }
@@ -25226,13 +25888,76 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T02:58:17.589+00:00",
+    "appointments_last_fetched": "2021-02-27T03:09:43.533+00:00",
     "appointments_raw": {
       "both_doses": {
-        "error": [
+        "locations": [
           {
-            "code": "FC_904_NoData",
-            "message": "Insufficient inventory."
+            "address": {
+              "city": "SACRAMENTO",
+              "country": "US",
+              "line1": "250 FLORIN RD",
+              "line2": "",
+              "state": "CA",
+              "zip": "95831"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-02-28",
+                "day": "Sunday",
+                "slots": [
+                  "10:15 am",
+                  "12:15 pm",
+                  "01:00 pm"
+                ]
+              },
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "04:30 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 8.93,
+            "fhirLocationId": "3b21c9c1-025d-4da9-9922-c35255651f4c",
+            "locationId": "3b21c9c1-025d-4da9-9922-c35255651f4c",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "10716",
+            "phone": [
+              {
+                "number": "916-399-0650",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "916-399-0650",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 38.5092786,
+              "longitude": -121.54297301
+            },
+            "storenumber": "10716"
           }
         ]
       },
@@ -25245,10 +25970,73 @@
         ]
       },
       "second_dose_pfizer": {
-        "error": [
+        "locations": [
           {
-            "code": "FC_904_NoData",
-            "message": "Insufficient inventory."
+            "address": {
+              "city": "SACRAMENTO",
+              "country": "US",
+              "line1": "250 FLORIN RD",
+              "line2": "",
+              "state": "CA",
+              "zip": "95831"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-02-28",
+                "day": "Sunday",
+                "slots": [
+                  "10:15 am",
+                  "12:15 pm",
+                  "01:00 pm"
+                ]
+              },
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "04:30 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 5.66,
+            "fhirLocationId": "3b21c9c1-025d-4da9-9922-c35255651f4c",
+            "locationId": "3b21c9c1-025d-4da9-9922-c35255651f4c",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "10716",
+            "phone": [
+              {
+                "number": "916-399-0650",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "916-399-0650",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 38.5092786,
+              "longitude": -121.54297301
+            },
+            "storenumber": "10716"
           }
         ]
       }
@@ -25267,13 +26055,76 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T02:58:17.589+00:00",
+    "appointments_last_fetched": "2021-02-27T03:09:43.533+00:00",
     "appointments_raw": {
       "both_doses": {
-        "error": [
+        "locations": [
           {
-            "code": "FC_904_NoData",
-            "message": "Insufficient inventory."
+            "address": {
+              "city": "SACRAMENTO",
+              "country": "US",
+              "line1": "250 FLORIN RD",
+              "line2": "",
+              "state": "CA",
+              "zip": "95831"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-02-28",
+                "day": "Sunday",
+                "slots": [
+                  "10:15 am",
+                  "12:15 pm",
+                  "01:00 pm"
+                ]
+              },
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "04:30 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 8.93,
+            "fhirLocationId": "3b21c9c1-025d-4da9-9922-c35255651f4c",
+            "locationId": "3b21c9c1-025d-4da9-9922-c35255651f4c",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "10716",
+            "phone": [
+              {
+                "number": "916-399-0650",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "916-399-0650",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 38.5092786,
+              "longitude": -121.54297301
+            },
+            "storenumber": "10716"
           }
         ]
       },
@@ -25286,10 +26137,73 @@
         ]
       },
       "second_dose_pfizer": {
-        "error": [
+        "locations": [
           {
-            "code": "FC_904_NoData",
-            "message": "Insufficient inventory."
+            "address": {
+              "city": "SACRAMENTO",
+              "country": "US",
+              "line1": "250 FLORIN RD",
+              "line2": "",
+              "state": "CA",
+              "zip": "95831"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-02-28",
+                "day": "Sunday",
+                "slots": [
+                  "10:15 am",
+                  "12:15 pm",
+                  "01:00 pm"
+                ]
+              },
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "04:30 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 5.66,
+            "fhirLocationId": "3b21c9c1-025d-4da9-9922-c35255651f4c",
+            "locationId": "3b21c9c1-025d-4da9-9922-c35255651f4c",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "10716",
+            "phone": [
+              {
+                "number": "916-399-0650",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "916-399-0650",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 38.5092786,
+              "longitude": -121.54297301
+            },
+            "storenumber": "10716"
           }
         ]
       }
@@ -25308,13 +26222,76 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T02:58:17.589+00:00",
+    "appointments_last_fetched": "2021-02-27T03:09:43.533+00:00",
     "appointments_raw": {
       "both_doses": {
-        "error": [
+        "locations": [
           {
-            "code": "FC_904_NoData",
-            "message": "Insufficient inventory."
+            "address": {
+              "city": "SACRAMENTO",
+              "country": "US",
+              "line1": "250 FLORIN RD",
+              "line2": "",
+              "state": "CA",
+              "zip": "95831"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-02-28",
+                "day": "Sunday",
+                "slots": [
+                  "10:15 am",
+                  "12:15 pm",
+                  "01:00 pm"
+                ]
+              },
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "04:30 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 8.93,
+            "fhirLocationId": "3b21c9c1-025d-4da9-9922-c35255651f4c",
+            "locationId": "3b21c9c1-025d-4da9-9922-c35255651f4c",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "10716",
+            "phone": [
+              {
+                "number": "916-399-0650",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "916-399-0650",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 38.5092786,
+              "longitude": -121.54297301
+            },
+            "storenumber": "10716"
           }
         ]
       },
@@ -25327,10 +26304,73 @@
         ]
       },
       "second_dose_pfizer": {
-        "error": [
+        "locations": [
           {
-            "code": "FC_904_NoData",
-            "message": "Insufficient inventory."
+            "address": {
+              "city": "SACRAMENTO",
+              "country": "US",
+              "line1": "250 FLORIN RD",
+              "line2": "",
+              "state": "CA",
+              "zip": "95831"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-02-28",
+                "day": "Sunday",
+                "slots": [
+                  "10:15 am",
+                  "12:15 pm",
+                  "01:00 pm"
+                ]
+              },
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "04:30 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 5.66,
+            "fhirLocationId": "3b21c9c1-025d-4da9-9922-c35255651f4c",
+            "locationId": "3b21c9c1-025d-4da9-9922-c35255651f4c",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "10716",
+            "phone": [
+              {
+                "number": "916-399-0650",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "916-399-0650",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 38.5092786,
+              "longitude": -121.54297301
+            },
+            "storenumber": "10716"
           }
         ]
       }
@@ -25349,13 +26389,76 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T02:58:17.589+00:00",
+    "appointments_last_fetched": "2021-02-27T03:09:43.533+00:00",
     "appointments_raw": {
       "both_doses": {
-        "error": [
+        "locations": [
           {
-            "code": "FC_904_NoData",
-            "message": "Insufficient inventory."
+            "address": {
+              "city": "SACRAMENTO",
+              "country": "US",
+              "line1": "250 FLORIN RD",
+              "line2": "",
+              "state": "CA",
+              "zip": "95831"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-02-28",
+                "day": "Sunday",
+                "slots": [
+                  "10:15 am",
+                  "12:15 pm",
+                  "01:00 pm"
+                ]
+              },
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "04:30 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 8.93,
+            "fhirLocationId": "3b21c9c1-025d-4da9-9922-c35255651f4c",
+            "locationId": "3b21c9c1-025d-4da9-9922-c35255651f4c",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "10716",
+            "phone": [
+              {
+                "number": "916-399-0650",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "916-399-0650",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 38.5092786,
+              "longitude": -121.54297301
+            },
+            "storenumber": "10716"
           }
         ]
       },
@@ -25368,10 +26471,73 @@
         ]
       },
       "second_dose_pfizer": {
-        "error": [
+        "locations": [
           {
-            "code": "FC_904_NoData",
-            "message": "Insufficient inventory."
+            "address": {
+              "city": "SACRAMENTO",
+              "country": "US",
+              "line1": "250 FLORIN RD",
+              "line2": "",
+              "state": "CA",
+              "zip": "95831"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-02-28",
+                "day": "Sunday",
+                "slots": [
+                  "10:15 am",
+                  "12:15 pm",
+                  "01:00 pm"
+                ]
+              },
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "04:30 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 5.66,
+            "fhirLocationId": "3b21c9c1-025d-4da9-9922-c35255651f4c",
+            "locationId": "3b21c9c1-025d-4da9-9922-c35255651f4c",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "10716",
+            "phone": [
+              {
+                "number": "916-399-0650",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "916-399-0650",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 38.5092786,
+              "longitude": -121.54297301
+            },
+            "storenumber": "10716"
           }
         ]
       }
@@ -25390,13 +26556,76 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T02:58:17.589+00:00",
+    "appointments_last_fetched": "2021-02-27T03:09:43.533+00:00",
     "appointments_raw": {
       "both_doses": {
-        "error": [
+        "locations": [
           {
-            "code": "FC_904_NoData",
-            "message": "Insufficient inventory."
+            "address": {
+              "city": "SACRAMENTO",
+              "country": "US",
+              "line1": "250 FLORIN RD",
+              "line2": "",
+              "state": "CA",
+              "zip": "95831"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-02-28",
+                "day": "Sunday",
+                "slots": [
+                  "10:15 am",
+                  "12:15 pm",
+                  "01:00 pm"
+                ]
+              },
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "04:30 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 8.93,
+            "fhirLocationId": "3b21c9c1-025d-4da9-9922-c35255651f4c",
+            "locationId": "3b21c9c1-025d-4da9-9922-c35255651f4c",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "10716",
+            "phone": [
+              {
+                "number": "916-399-0650",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "916-399-0650",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 38.5092786,
+              "longitude": -121.54297301
+            },
+            "storenumber": "10716"
           }
         ]
       },
@@ -25409,10 +26638,73 @@
         ]
       },
       "second_dose_pfizer": {
-        "error": [
+        "locations": [
           {
-            "code": "FC_904_NoData",
-            "message": "Insufficient inventory."
+            "address": {
+              "city": "SACRAMENTO",
+              "country": "US",
+              "line1": "250 FLORIN RD",
+              "line2": "",
+              "state": "CA",
+              "zip": "95831"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-02-28",
+                "day": "Sunday",
+                "slots": [
+                  "10:15 am",
+                  "12:15 pm",
+                  "01:00 pm"
+                ]
+              },
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "04:30 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 5.66,
+            "fhirLocationId": "3b21c9c1-025d-4da9-9922-c35255651f4c",
+            "locationId": "3b21c9c1-025d-4da9-9922-c35255651f4c",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "10716",
+            "phone": [
+              {
+                "number": "916-399-0650",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "916-399-0650",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 38.5092786,
+              "longitude": -121.54297301
+            },
+            "storenumber": "10716"
           }
         ]
       }
@@ -25431,7 +26723,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T02:48:43.866+00:00",
+    "appointments_last_fetched": "2021-02-27T03:09:21.059+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -25472,13 +26764,76 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T02:58:17.589+00:00",
+    "appointments_last_fetched": "2021-02-27T03:09:43.533+00:00",
     "appointments_raw": {
       "both_doses": {
-        "error": [
+        "locations": [
           {
-            "code": "FC_904_NoData",
-            "message": "Insufficient inventory."
+            "address": {
+              "city": "SACRAMENTO",
+              "country": "US",
+              "line1": "250 FLORIN RD",
+              "line2": "",
+              "state": "CA",
+              "zip": "95831"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-02-28",
+                "day": "Sunday",
+                "slots": [
+                  "10:15 am",
+                  "12:15 pm",
+                  "01:00 pm"
+                ]
+              },
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "04:30 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 8.93,
+            "fhirLocationId": "3b21c9c1-025d-4da9-9922-c35255651f4c",
+            "locationId": "3b21c9c1-025d-4da9-9922-c35255651f4c",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "10716",
+            "phone": [
+              {
+                "number": "916-399-0650",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "916-399-0650",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 38.5092786,
+              "longitude": -121.54297301
+            },
+            "storenumber": "10716"
           }
         ]
       },
@@ -25491,10 +26846,73 @@
         ]
       },
       "second_dose_pfizer": {
-        "error": [
+        "locations": [
           {
-            "code": "FC_904_NoData",
-            "message": "Insufficient inventory."
+            "address": {
+              "city": "SACRAMENTO",
+              "country": "US",
+              "line1": "250 FLORIN RD",
+              "line2": "",
+              "state": "CA",
+              "zip": "95831"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-02-28",
+                "day": "Sunday",
+                "slots": [
+                  "10:15 am",
+                  "12:15 pm",
+                  "01:00 pm"
+                ]
+              },
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "04:30 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 5.66,
+            "fhirLocationId": "3b21c9c1-025d-4da9-9922-c35255651f4c",
+            "locationId": "3b21c9c1-025d-4da9-9922-c35255651f4c",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "10716",
+            "phone": [
+              {
+                "number": "916-399-0650",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "916-399-0650",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 38.5092786,
+              "longitude": -121.54297301
+            },
+            "storenumber": "10716"
           }
         ]
       }
@@ -25513,13 +26931,76 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T02:58:17.589+00:00",
+    "appointments_last_fetched": "2021-02-27T03:09:43.533+00:00",
     "appointments_raw": {
       "both_doses": {
-        "error": [
+        "locations": [
           {
-            "code": "FC_904_NoData",
-            "message": "Insufficient inventory."
+            "address": {
+              "city": "SACRAMENTO",
+              "country": "US",
+              "line1": "250 FLORIN RD",
+              "line2": "",
+              "state": "CA",
+              "zip": "95831"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-02-28",
+                "day": "Sunday",
+                "slots": [
+                  "10:15 am",
+                  "12:15 pm",
+                  "01:00 pm"
+                ]
+              },
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "04:30 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 8.93,
+            "fhirLocationId": "3b21c9c1-025d-4da9-9922-c35255651f4c",
+            "locationId": "3b21c9c1-025d-4da9-9922-c35255651f4c",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "10716",
+            "phone": [
+              {
+                "number": "916-399-0650",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "916-399-0650",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 38.5092786,
+              "longitude": -121.54297301
+            },
+            "storenumber": "10716"
           }
         ]
       },
@@ -25532,10 +27013,73 @@
         ]
       },
       "second_dose_pfizer": {
-        "error": [
+        "locations": [
           {
-            "code": "FC_904_NoData",
-            "message": "Insufficient inventory."
+            "address": {
+              "city": "SACRAMENTO",
+              "country": "US",
+              "line1": "250 FLORIN RD",
+              "line2": "",
+              "state": "CA",
+              "zip": "95831"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-02-28",
+                "day": "Sunday",
+                "slots": [
+                  "10:15 am",
+                  "12:15 pm",
+                  "01:00 pm"
+                ]
+              },
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "04:30 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 5.66,
+            "fhirLocationId": "3b21c9c1-025d-4da9-9922-c35255651f4c",
+            "locationId": "3b21c9c1-025d-4da9-9922-c35255651f4c",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "10716",
+            "phone": [
+              {
+                "number": "916-399-0650",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "916-399-0650",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 38.5092786,
+              "longitude": -121.54297301
+            },
+            "storenumber": "10716"
           }
         ]
       }
@@ -25554,13 +27098,76 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T02:58:17.589+00:00",
+    "appointments_last_fetched": "2021-02-27T03:09:43.533+00:00",
     "appointments_raw": {
       "both_doses": {
-        "error": [
+        "locations": [
           {
-            "code": "FC_904_NoData",
-            "message": "Insufficient inventory."
+            "address": {
+              "city": "SACRAMENTO",
+              "country": "US",
+              "line1": "250 FLORIN RD",
+              "line2": "",
+              "state": "CA",
+              "zip": "95831"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-02-28",
+                "day": "Sunday",
+                "slots": [
+                  "10:15 am",
+                  "12:15 pm",
+                  "01:00 pm"
+                ]
+              },
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "04:30 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 8.93,
+            "fhirLocationId": "3b21c9c1-025d-4da9-9922-c35255651f4c",
+            "locationId": "3b21c9c1-025d-4da9-9922-c35255651f4c",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "10716",
+            "phone": [
+              {
+                "number": "916-399-0650",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "916-399-0650",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 38.5092786,
+              "longitude": -121.54297301
+            },
+            "storenumber": "10716"
           }
         ]
       },
@@ -25573,10 +27180,73 @@
         ]
       },
       "second_dose_pfizer": {
-        "error": [
+        "locations": [
           {
-            "code": "FC_904_NoData",
-            "message": "Insufficient inventory."
+            "address": {
+              "city": "SACRAMENTO",
+              "country": "US",
+              "line1": "250 FLORIN RD",
+              "line2": "",
+              "state": "CA",
+              "zip": "95831"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-02-28",
+                "day": "Sunday",
+                "slots": [
+                  "10:15 am",
+                  "12:15 pm",
+                  "01:00 pm"
+                ]
+              },
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "04:30 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 5.66,
+            "fhirLocationId": "3b21c9c1-025d-4da9-9922-c35255651f4c",
+            "locationId": "3b21c9c1-025d-4da9-9922-c35255651f4c",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "10716",
+            "phone": [
+              {
+                "number": "916-399-0650",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "916-399-0650",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 38.5092786,
+              "longitude": -121.54297301
+            },
+            "storenumber": "10716"
           }
         ]
       }
@@ -25595,13 +27265,76 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T02:58:17.589+00:00",
+    "appointments_last_fetched": "2021-02-27T03:09:43.533+00:00",
     "appointments_raw": {
       "both_doses": {
-        "error": [
+        "locations": [
           {
-            "code": "FC_904_NoData",
-            "message": "Insufficient inventory."
+            "address": {
+              "city": "SACRAMENTO",
+              "country": "US",
+              "line1": "250 FLORIN RD",
+              "line2": "",
+              "state": "CA",
+              "zip": "95831"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-02-28",
+                "day": "Sunday",
+                "slots": [
+                  "10:15 am",
+                  "12:15 pm",
+                  "01:00 pm"
+                ]
+              },
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "04:30 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 8.93,
+            "fhirLocationId": "3b21c9c1-025d-4da9-9922-c35255651f4c",
+            "locationId": "3b21c9c1-025d-4da9-9922-c35255651f4c",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "10716",
+            "phone": [
+              {
+                "number": "916-399-0650",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "916-399-0650",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 38.5092786,
+              "longitude": -121.54297301
+            },
+            "storenumber": "10716"
           }
         ]
       },
@@ -25614,10 +27347,73 @@
         ]
       },
       "second_dose_pfizer": {
-        "error": [
+        "locations": [
           {
-            "code": "FC_904_NoData",
-            "message": "Insufficient inventory."
+            "address": {
+              "city": "SACRAMENTO",
+              "country": "US",
+              "line1": "250 FLORIN RD",
+              "line2": "",
+              "state": "CA",
+              "zip": "95831"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-02-28",
+                "day": "Sunday",
+                "slots": [
+                  "10:15 am",
+                  "12:15 pm",
+                  "01:00 pm"
+                ]
+              },
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "04:30 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 5.66,
+            "fhirLocationId": "3b21c9c1-025d-4da9-9922-c35255651f4c",
+            "locationId": "3b21c9c1-025d-4da9-9922-c35255651f4c",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "10716",
+            "phone": [
+              {
+                "number": "916-399-0650",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "916-399-0650",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 38.5092786,
+              "longitude": -121.54297301
+            },
+            "storenumber": "10716"
           }
         ]
       }
@@ -26005,13 +27801,76 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T02:58:17.589+00:00",
+    "appointments_last_fetched": "2021-02-27T03:09:43.533+00:00",
     "appointments_raw": {
       "both_doses": {
-        "error": [
+        "locations": [
           {
-            "code": "FC_904_NoData",
-            "message": "Insufficient inventory."
+            "address": {
+              "city": "SACRAMENTO",
+              "country": "US",
+              "line1": "250 FLORIN RD",
+              "line2": "",
+              "state": "CA",
+              "zip": "95831"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-02-28",
+                "day": "Sunday",
+                "slots": [
+                  "10:15 am",
+                  "12:15 pm",
+                  "01:00 pm"
+                ]
+              },
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "04:30 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 8.93,
+            "fhirLocationId": "3b21c9c1-025d-4da9-9922-c35255651f4c",
+            "locationId": "3b21c9c1-025d-4da9-9922-c35255651f4c",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "10716",
+            "phone": [
+              {
+                "number": "916-399-0650",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "916-399-0650",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 38.5092786,
+              "longitude": -121.54297301
+            },
+            "storenumber": "10716"
           }
         ]
       },
@@ -26024,10 +27883,73 @@
         ]
       },
       "second_dose_pfizer": {
-        "error": [
+        "locations": [
           {
-            "code": "FC_904_NoData",
-            "message": "Insufficient inventory."
+            "address": {
+              "city": "SACRAMENTO",
+              "country": "US",
+              "line1": "250 FLORIN RD",
+              "line2": "",
+              "state": "CA",
+              "zip": "95831"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-02-28",
+                "day": "Sunday",
+                "slots": [
+                  "10:15 am",
+                  "12:15 pm",
+                  "01:00 pm"
+                ]
+              },
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "04:30 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 5.66,
+            "fhirLocationId": "3b21c9c1-025d-4da9-9922-c35255651f4c",
+            "locationId": "3b21c9c1-025d-4da9-9922-c35255651f4c",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "10716",
+            "phone": [
+              {
+                "number": "916-399-0650",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "916-399-0650",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 38.5092786,
+              "longitude": -121.54297301
+            },
+            "storenumber": "10716"
           }
         ]
       }
@@ -26087,13 +28009,76 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T02:58:17.589+00:00",
+    "appointments_last_fetched": "2021-02-27T03:09:43.533+00:00",
     "appointments_raw": {
       "both_doses": {
-        "error": [
+        "locations": [
           {
-            "code": "FC_904_NoData",
-            "message": "Insufficient inventory."
+            "address": {
+              "city": "SACRAMENTO",
+              "country": "US",
+              "line1": "250 FLORIN RD",
+              "line2": "",
+              "state": "CA",
+              "zip": "95831"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-02-28",
+                "day": "Sunday",
+                "slots": [
+                  "10:15 am",
+                  "12:15 pm",
+                  "01:00 pm"
+                ]
+              },
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "04:30 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 8.93,
+            "fhirLocationId": "3b21c9c1-025d-4da9-9922-c35255651f4c",
+            "locationId": "3b21c9c1-025d-4da9-9922-c35255651f4c",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "10716",
+            "phone": [
+              {
+                "number": "916-399-0650",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "916-399-0650",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 38.5092786,
+              "longitude": -121.54297301
+            },
+            "storenumber": "10716"
           }
         ]
       },
@@ -26106,10 +28091,73 @@
         ]
       },
       "second_dose_pfizer": {
-        "error": [
+        "locations": [
           {
-            "code": "FC_904_NoData",
-            "message": "Insufficient inventory."
+            "address": {
+              "city": "SACRAMENTO",
+              "country": "US",
+              "line1": "250 FLORIN RD",
+              "line2": "",
+              "state": "CA",
+              "zip": "95831"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-02-28",
+                "day": "Sunday",
+                "slots": [
+                  "10:15 am",
+                  "12:15 pm",
+                  "01:00 pm"
+                ]
+              },
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "04:30 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 5.66,
+            "fhirLocationId": "3b21c9c1-025d-4da9-9922-c35255651f4c",
+            "locationId": "3b21c9c1-025d-4da9-9922-c35255651f4c",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "10716",
+            "phone": [
+              {
+                "number": "916-399-0650",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "916-399-0650",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 38.5092786,
+              "longitude": -121.54297301
+            },
+            "storenumber": "10716"
           }
         ]
       }
@@ -26128,13 +28176,76 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T02:58:17.589+00:00",
+    "appointments_last_fetched": "2021-02-27T03:09:43.533+00:00",
     "appointments_raw": {
       "both_doses": {
-        "error": [
+        "locations": [
           {
-            "code": "FC_904_NoData",
-            "message": "Insufficient inventory."
+            "address": {
+              "city": "SACRAMENTO",
+              "country": "US",
+              "line1": "250 FLORIN RD",
+              "line2": "",
+              "state": "CA",
+              "zip": "95831"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-02-28",
+                "day": "Sunday",
+                "slots": [
+                  "10:15 am",
+                  "12:15 pm",
+                  "01:00 pm"
+                ]
+              },
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "04:30 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 8.93,
+            "fhirLocationId": "3b21c9c1-025d-4da9-9922-c35255651f4c",
+            "locationId": "3b21c9c1-025d-4da9-9922-c35255651f4c",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "10716",
+            "phone": [
+              {
+                "number": "916-399-0650",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "916-399-0650",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 38.5092786,
+              "longitude": -121.54297301
+            },
+            "storenumber": "10716"
           }
         ]
       },
@@ -26147,10 +28258,73 @@
         ]
       },
       "second_dose_pfizer": {
-        "error": [
+        "locations": [
           {
-            "code": "FC_904_NoData",
-            "message": "Insufficient inventory."
+            "address": {
+              "city": "SACRAMENTO",
+              "country": "US",
+              "line1": "250 FLORIN RD",
+              "line2": "",
+              "state": "CA",
+              "zip": "95831"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-02-28",
+                "day": "Sunday",
+                "slots": [
+                  "10:15 am",
+                  "12:15 pm",
+                  "01:00 pm"
+                ]
+              },
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "04:30 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 5.66,
+            "fhirLocationId": "3b21c9c1-025d-4da9-9922-c35255651f4c",
+            "locationId": "3b21c9c1-025d-4da9-9922-c35255651f4c",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "10716",
+            "phone": [
+              {
+                "number": "916-399-0650",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "916-399-0650",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 38.5092786,
+              "longitude": -121.54297301
+            },
+            "storenumber": "10716"
           }
         ]
       }
@@ -26169,13 +28343,76 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T02:58:17.589+00:00",
+    "appointments_last_fetched": "2021-02-27T03:09:43.533+00:00",
     "appointments_raw": {
       "both_doses": {
-        "error": [
+        "locations": [
           {
-            "code": "FC_904_NoData",
-            "message": "Insufficient inventory."
+            "address": {
+              "city": "SACRAMENTO",
+              "country": "US",
+              "line1": "250 FLORIN RD",
+              "line2": "",
+              "state": "CA",
+              "zip": "95831"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-02-28",
+                "day": "Sunday",
+                "slots": [
+                  "10:15 am",
+                  "12:15 pm",
+                  "01:00 pm"
+                ]
+              },
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "04:30 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 8.93,
+            "fhirLocationId": "3b21c9c1-025d-4da9-9922-c35255651f4c",
+            "locationId": "3b21c9c1-025d-4da9-9922-c35255651f4c",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "10716",
+            "phone": [
+              {
+                "number": "916-399-0650",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "916-399-0650",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 38.5092786,
+              "longitude": -121.54297301
+            },
+            "storenumber": "10716"
           }
         ]
       },
@@ -26188,10 +28425,73 @@
         ]
       },
       "second_dose_pfizer": {
-        "error": [
+        "locations": [
           {
-            "code": "FC_904_NoData",
-            "message": "Insufficient inventory."
+            "address": {
+              "city": "SACRAMENTO",
+              "country": "US",
+              "line1": "250 FLORIN RD",
+              "line2": "",
+              "state": "CA",
+              "zip": "95831"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-02-28",
+                "day": "Sunday",
+                "slots": [
+                  "10:15 am",
+                  "12:15 pm",
+                  "01:00 pm"
+                ]
+              },
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "04:30 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 5.66,
+            "fhirLocationId": "3b21c9c1-025d-4da9-9922-c35255651f4c",
+            "locationId": "3b21c9c1-025d-4da9-9922-c35255651f4c",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "10716",
+            "phone": [
+              {
+                "number": "916-399-0650",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "916-399-0650",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 38.5092786,
+              "longitude": -121.54297301
+            },
+            "storenumber": "10716"
           }
         ]
       }
@@ -26210,13 +28510,76 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T02:58:17.589+00:00",
+    "appointments_last_fetched": "2021-02-27T03:09:43.533+00:00",
     "appointments_raw": {
       "both_doses": {
-        "error": [
+        "locations": [
           {
-            "code": "FC_904_NoData",
-            "message": "Insufficient inventory."
+            "address": {
+              "city": "SACRAMENTO",
+              "country": "US",
+              "line1": "250 FLORIN RD",
+              "line2": "",
+              "state": "CA",
+              "zip": "95831"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-02-28",
+                "day": "Sunday",
+                "slots": [
+                  "10:15 am",
+                  "12:15 pm",
+                  "01:00 pm"
+                ]
+              },
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "04:30 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 8.93,
+            "fhirLocationId": "3b21c9c1-025d-4da9-9922-c35255651f4c",
+            "locationId": "3b21c9c1-025d-4da9-9922-c35255651f4c",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "10716",
+            "phone": [
+              {
+                "number": "916-399-0650",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "916-399-0650",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 38.5092786,
+              "longitude": -121.54297301
+            },
+            "storenumber": "10716"
           }
         ]
       },
@@ -26229,10 +28592,73 @@
         ]
       },
       "second_dose_pfizer": {
-        "error": [
+        "locations": [
           {
-            "code": "FC_904_NoData",
-            "message": "Insufficient inventory."
+            "address": {
+              "city": "SACRAMENTO",
+              "country": "US",
+              "line1": "250 FLORIN RD",
+              "line2": "",
+              "state": "CA",
+              "zip": "95831"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-02-28",
+                "day": "Sunday",
+                "slots": [
+                  "10:15 am",
+                  "12:15 pm",
+                  "01:00 pm"
+                ]
+              },
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "04:30 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 5.66,
+            "fhirLocationId": "3b21c9c1-025d-4da9-9922-c35255651f4c",
+            "locationId": "3b21c9c1-025d-4da9-9922-c35255651f4c",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "10716",
+            "phone": [
+              {
+                "number": "916-399-0650",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "916-399-0650",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 38.5092786,
+              "longitude": -121.54297301
+            },
+            "storenumber": "10716"
           }
         ]
       }
@@ -26251,13 +28677,76 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T02:58:17.589+00:00",
+    "appointments_last_fetched": "2021-02-27T03:09:43.533+00:00",
     "appointments_raw": {
       "both_doses": {
-        "error": [
+        "locations": [
           {
-            "code": "FC_904_NoData",
-            "message": "Insufficient inventory."
+            "address": {
+              "city": "SACRAMENTO",
+              "country": "US",
+              "line1": "250 FLORIN RD",
+              "line2": "",
+              "state": "CA",
+              "zip": "95831"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-02-28",
+                "day": "Sunday",
+                "slots": [
+                  "10:15 am",
+                  "12:15 pm",
+                  "01:00 pm"
+                ]
+              },
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "04:30 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 8.93,
+            "fhirLocationId": "3b21c9c1-025d-4da9-9922-c35255651f4c",
+            "locationId": "3b21c9c1-025d-4da9-9922-c35255651f4c",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "10716",
+            "phone": [
+              {
+                "number": "916-399-0650",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "916-399-0650",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 38.5092786,
+              "longitude": -121.54297301
+            },
+            "storenumber": "10716"
           }
         ]
       },
@@ -26270,10 +28759,73 @@
         ]
       },
       "second_dose_pfizer": {
-        "error": [
+        "locations": [
           {
-            "code": "FC_904_NoData",
-            "message": "Insufficient inventory."
+            "address": {
+              "city": "SACRAMENTO",
+              "country": "US",
+              "line1": "250 FLORIN RD",
+              "line2": "",
+              "state": "CA",
+              "zip": "95831"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-02-28",
+                "day": "Sunday",
+                "slots": [
+                  "10:15 am",
+                  "12:15 pm",
+                  "01:00 pm"
+                ]
+              },
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "04:30 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 5.66,
+            "fhirLocationId": "3b21c9c1-025d-4da9-9922-c35255651f4c",
+            "locationId": "3b21c9c1-025d-4da9-9922-c35255651f4c",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "10716",
+            "phone": [
+              {
+                "number": "916-399-0650",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "916-399-0650",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 38.5092786,
+              "longitude": -121.54297301
+            },
+            "storenumber": "10716"
           }
         ]
       }
@@ -26292,13 +28844,76 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T02:58:17.589+00:00",
+    "appointments_last_fetched": "2021-02-27T03:09:43.533+00:00",
     "appointments_raw": {
       "both_doses": {
-        "error": [
+        "locations": [
           {
-            "code": "FC_904_NoData",
-            "message": "Insufficient inventory."
+            "address": {
+              "city": "SACRAMENTO",
+              "country": "US",
+              "line1": "250 FLORIN RD",
+              "line2": "",
+              "state": "CA",
+              "zip": "95831"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-02-28",
+                "day": "Sunday",
+                "slots": [
+                  "10:15 am",
+                  "12:15 pm",
+                  "01:00 pm"
+                ]
+              },
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "04:30 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 8.93,
+            "fhirLocationId": "3b21c9c1-025d-4da9-9922-c35255651f4c",
+            "locationId": "3b21c9c1-025d-4da9-9922-c35255651f4c",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "10716",
+            "phone": [
+              {
+                "number": "916-399-0650",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "916-399-0650",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 38.5092786,
+              "longitude": -121.54297301
+            },
+            "storenumber": "10716"
           }
         ]
       },
@@ -26311,10 +28926,73 @@
         ]
       },
       "second_dose_pfizer": {
-        "error": [
+        "locations": [
           {
-            "code": "FC_904_NoData",
-            "message": "Insufficient inventory."
+            "address": {
+              "city": "SACRAMENTO",
+              "country": "US",
+              "line1": "250 FLORIN RD",
+              "line2": "",
+              "state": "CA",
+              "zip": "95831"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-02-28",
+                "day": "Sunday",
+                "slots": [
+                  "10:15 am",
+                  "12:15 pm",
+                  "01:00 pm"
+                ]
+              },
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "04:30 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 5.66,
+            "fhirLocationId": "3b21c9c1-025d-4da9-9922-c35255651f4c",
+            "locationId": "3b21c9c1-025d-4da9-9922-c35255651f4c",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "10716",
+            "phone": [
+              {
+                "number": "916-399-0650",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "916-399-0650",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 38.5092786,
+              "longitude": -121.54297301
+            },
+            "storenumber": "10716"
           }
         ]
       }
@@ -26456,13 +29134,76 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T02:58:17.589+00:00",
+    "appointments_last_fetched": "2021-02-27T03:09:43.533+00:00",
     "appointments_raw": {
       "both_doses": {
-        "error": [
+        "locations": [
           {
-            "code": "FC_904_NoData",
-            "message": "Insufficient inventory."
+            "address": {
+              "city": "SACRAMENTO",
+              "country": "US",
+              "line1": "250 FLORIN RD",
+              "line2": "",
+              "state": "CA",
+              "zip": "95831"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-02-28",
+                "day": "Sunday",
+                "slots": [
+                  "10:15 am",
+                  "12:15 pm",
+                  "01:00 pm"
+                ]
+              },
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "04:30 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 8.93,
+            "fhirLocationId": "3b21c9c1-025d-4da9-9922-c35255651f4c",
+            "locationId": "3b21c9c1-025d-4da9-9922-c35255651f4c",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "10716",
+            "phone": [
+              {
+                "number": "916-399-0650",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "916-399-0650",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 38.5092786,
+              "longitude": -121.54297301
+            },
+            "storenumber": "10716"
           }
         ]
       },
@@ -26475,10 +29216,73 @@
         ]
       },
       "second_dose_pfizer": {
-        "error": [
+        "locations": [
           {
-            "code": "FC_904_NoData",
-            "message": "Insufficient inventory."
+            "address": {
+              "city": "SACRAMENTO",
+              "country": "US",
+              "line1": "250 FLORIN RD",
+              "line2": "",
+              "state": "CA",
+              "zip": "95831"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-02-28",
+                "day": "Sunday",
+                "slots": [
+                  "10:15 am",
+                  "12:15 pm",
+                  "01:00 pm"
+                ]
+              },
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "04:30 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 5.66,
+            "fhirLocationId": "3b21c9c1-025d-4da9-9922-c35255651f4c",
+            "locationId": "3b21c9c1-025d-4da9-9922-c35255651f4c",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "10716",
+            "phone": [
+              {
+                "number": "916-399-0650",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "916-399-0650",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 38.5092786,
+              "longitude": -121.54297301
+            },
+            "storenumber": "10716"
           }
         ]
       }
@@ -26620,13 +29424,76 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T02:58:17.589+00:00",
+    "appointments_last_fetched": "2021-02-27T03:09:43.533+00:00",
     "appointments_raw": {
       "both_doses": {
-        "error": [
+        "locations": [
           {
-            "code": "FC_904_NoData",
-            "message": "Insufficient inventory."
+            "address": {
+              "city": "SACRAMENTO",
+              "country": "US",
+              "line1": "250 FLORIN RD",
+              "line2": "",
+              "state": "CA",
+              "zip": "95831"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-02-28",
+                "day": "Sunday",
+                "slots": [
+                  "10:15 am",
+                  "12:15 pm",
+                  "01:00 pm"
+                ]
+              },
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "04:30 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 8.93,
+            "fhirLocationId": "3b21c9c1-025d-4da9-9922-c35255651f4c",
+            "locationId": "3b21c9c1-025d-4da9-9922-c35255651f4c",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "10716",
+            "phone": [
+              {
+                "number": "916-399-0650",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "916-399-0650",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 38.5092786,
+              "longitude": -121.54297301
+            },
+            "storenumber": "10716"
           }
         ]
       },
@@ -26639,10 +29506,73 @@
         ]
       },
       "second_dose_pfizer": {
-        "error": [
+        "locations": [
           {
-            "code": "FC_904_NoData",
-            "message": "Insufficient inventory."
+            "address": {
+              "city": "SACRAMENTO",
+              "country": "US",
+              "line1": "250 FLORIN RD",
+              "line2": "",
+              "state": "CA",
+              "zip": "95831"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-02-28",
+                "day": "Sunday",
+                "slots": [
+                  "10:15 am",
+                  "12:15 pm",
+                  "01:00 pm"
+                ]
+              },
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "04:30 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 5.66,
+            "fhirLocationId": "3b21c9c1-025d-4da9-9922-c35255651f4c",
+            "locationId": "3b21c9c1-025d-4da9-9922-c35255651f4c",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "10716",
+            "phone": [
+              {
+                "number": "916-399-0650",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "916-399-0650",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 38.5092786,
+              "longitude": -121.54297301
+            },
+            "storenumber": "10716"
           }
         ]
       }
@@ -26661,13 +29591,76 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T02:58:17.589+00:00",
+    "appointments_last_fetched": "2021-02-27T03:09:43.533+00:00",
     "appointments_raw": {
       "both_doses": {
-        "error": [
+        "locations": [
           {
-            "code": "FC_904_NoData",
-            "message": "Insufficient inventory."
+            "address": {
+              "city": "SACRAMENTO",
+              "country": "US",
+              "line1": "250 FLORIN RD",
+              "line2": "",
+              "state": "CA",
+              "zip": "95831"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-02-28",
+                "day": "Sunday",
+                "slots": [
+                  "10:15 am",
+                  "12:15 pm",
+                  "01:00 pm"
+                ]
+              },
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "04:30 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 8.93,
+            "fhirLocationId": "3b21c9c1-025d-4da9-9922-c35255651f4c",
+            "locationId": "3b21c9c1-025d-4da9-9922-c35255651f4c",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "10716",
+            "phone": [
+              {
+                "number": "916-399-0650",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "916-399-0650",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 38.5092786,
+              "longitude": -121.54297301
+            },
+            "storenumber": "10716"
           }
         ]
       },
@@ -26680,10 +29673,73 @@
         ]
       },
       "second_dose_pfizer": {
-        "error": [
+        "locations": [
           {
-            "code": "FC_904_NoData",
-            "message": "Insufficient inventory."
+            "address": {
+              "city": "SACRAMENTO",
+              "country": "US",
+              "line1": "250 FLORIN RD",
+              "line2": "",
+              "state": "CA",
+              "zip": "95831"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-02-28",
+                "day": "Sunday",
+                "slots": [
+                  "10:15 am",
+                  "12:15 pm",
+                  "01:00 pm"
+                ]
+              },
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "04:30 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 5.66,
+            "fhirLocationId": "3b21c9c1-025d-4da9-9922-c35255651f4c",
+            "locationId": "3b21c9c1-025d-4da9-9922-c35255651f4c",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "10716",
+            "phone": [
+              {
+                "number": "916-399-0650",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "916-399-0650",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 38.5092786,
+              "longitude": -121.54297301
+            },
+            "storenumber": "10716"
           }
         ]
       }
@@ -26702,13 +29758,76 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T02:58:17.589+00:00",
+    "appointments_last_fetched": "2021-02-27T03:09:43.533+00:00",
     "appointments_raw": {
       "both_doses": {
-        "error": [
+        "locations": [
           {
-            "code": "FC_904_NoData",
-            "message": "Insufficient inventory."
+            "address": {
+              "city": "SACRAMENTO",
+              "country": "US",
+              "line1": "250 FLORIN RD",
+              "line2": "",
+              "state": "CA",
+              "zip": "95831"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-02-28",
+                "day": "Sunday",
+                "slots": [
+                  "10:15 am",
+                  "12:15 pm",
+                  "01:00 pm"
+                ]
+              },
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "04:30 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 8.93,
+            "fhirLocationId": "3b21c9c1-025d-4da9-9922-c35255651f4c",
+            "locationId": "3b21c9c1-025d-4da9-9922-c35255651f4c",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "10716",
+            "phone": [
+              {
+                "number": "916-399-0650",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "916-399-0650",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 38.5092786,
+              "longitude": -121.54297301
+            },
+            "storenumber": "10716"
           }
         ]
       },
@@ -26721,10 +29840,73 @@
         ]
       },
       "second_dose_pfizer": {
-        "error": [
+        "locations": [
           {
-            "code": "FC_904_NoData",
-            "message": "Insufficient inventory."
+            "address": {
+              "city": "SACRAMENTO",
+              "country": "US",
+              "line1": "250 FLORIN RD",
+              "line2": "",
+              "state": "CA",
+              "zip": "95831"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-02-28",
+                "day": "Sunday",
+                "slots": [
+                  "10:15 am",
+                  "12:15 pm",
+                  "01:00 pm"
+                ]
+              },
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "04:30 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 5.66,
+            "fhirLocationId": "3b21c9c1-025d-4da9-9922-c35255651f4c",
+            "locationId": "3b21c9c1-025d-4da9-9922-c35255651f4c",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "10716",
+            "phone": [
+              {
+                "number": "916-399-0650",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "916-399-0650",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 38.5092786,
+              "longitude": -121.54297301
+            },
+            "storenumber": "10716"
           }
         ]
       }
@@ -26743,13 +29925,76 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T02:58:17.589+00:00",
+    "appointments_last_fetched": "2021-02-27T03:09:43.533+00:00",
     "appointments_raw": {
       "both_doses": {
-        "error": [
+        "locations": [
           {
-            "code": "FC_904_NoData",
-            "message": "Insufficient inventory."
+            "address": {
+              "city": "SACRAMENTO",
+              "country": "US",
+              "line1": "250 FLORIN RD",
+              "line2": "",
+              "state": "CA",
+              "zip": "95831"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-02-28",
+                "day": "Sunday",
+                "slots": [
+                  "10:15 am",
+                  "12:15 pm",
+                  "01:00 pm"
+                ]
+              },
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "04:30 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 8.93,
+            "fhirLocationId": "3b21c9c1-025d-4da9-9922-c35255651f4c",
+            "locationId": "3b21c9c1-025d-4da9-9922-c35255651f4c",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "10716",
+            "phone": [
+              {
+                "number": "916-399-0650",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "916-399-0650",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 38.5092786,
+              "longitude": -121.54297301
+            },
+            "storenumber": "10716"
           }
         ]
       },
@@ -26762,10 +30007,73 @@
         ]
       },
       "second_dose_pfizer": {
-        "error": [
+        "locations": [
           {
-            "code": "FC_904_NoData",
-            "message": "Insufficient inventory."
+            "address": {
+              "city": "SACRAMENTO",
+              "country": "US",
+              "line1": "250 FLORIN RD",
+              "line2": "",
+              "state": "CA",
+              "zip": "95831"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-02-28",
+                "day": "Sunday",
+                "slots": [
+                  "10:15 am",
+                  "12:15 pm",
+                  "01:00 pm"
+                ]
+              },
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "04:30 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 5.66,
+            "fhirLocationId": "3b21c9c1-025d-4da9-9922-c35255651f4c",
+            "locationId": "3b21c9c1-025d-4da9-9922-c35255651f4c",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "10716",
+            "phone": [
+              {
+                "number": "916-399-0650",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "916-399-0650",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 38.5092786,
+              "longitude": -121.54297301
+            },
+            "storenumber": "10716"
           }
         ]
       }
@@ -26784,13 +30092,76 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T02:58:17.589+00:00",
+    "appointments_last_fetched": "2021-02-27T03:09:43.533+00:00",
     "appointments_raw": {
       "both_doses": {
-        "error": [
+        "locations": [
           {
-            "code": "FC_904_NoData",
-            "message": "Insufficient inventory."
+            "address": {
+              "city": "SACRAMENTO",
+              "country": "US",
+              "line1": "250 FLORIN RD",
+              "line2": "",
+              "state": "CA",
+              "zip": "95831"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-02-28",
+                "day": "Sunday",
+                "slots": [
+                  "10:15 am",
+                  "12:15 pm",
+                  "01:00 pm"
+                ]
+              },
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "04:30 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 8.93,
+            "fhirLocationId": "3b21c9c1-025d-4da9-9922-c35255651f4c",
+            "locationId": "3b21c9c1-025d-4da9-9922-c35255651f4c",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "10716",
+            "phone": [
+              {
+                "number": "916-399-0650",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "916-399-0650",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 38.5092786,
+              "longitude": -121.54297301
+            },
+            "storenumber": "10716"
           }
         ]
       },
@@ -26803,10 +30174,73 @@
         ]
       },
       "second_dose_pfizer": {
-        "error": [
+        "locations": [
           {
-            "code": "FC_904_NoData",
-            "message": "Insufficient inventory."
+            "address": {
+              "city": "SACRAMENTO",
+              "country": "US",
+              "line1": "250 FLORIN RD",
+              "line2": "",
+              "state": "CA",
+              "zip": "95831"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-02-28",
+                "day": "Sunday",
+                "slots": [
+                  "10:15 am",
+                  "12:15 pm",
+                  "01:00 pm"
+                ]
+              },
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "04:30 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 5.66,
+            "fhirLocationId": "3b21c9c1-025d-4da9-9922-c35255651f4c",
+            "locationId": "3b21c9c1-025d-4da9-9922-c35255651f4c",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "10716",
+            "phone": [
+              {
+                "number": "916-399-0650",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "916-399-0650",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 38.5092786,
+              "longitude": -121.54297301
+            },
+            "storenumber": "10716"
           }
         ]
       }
@@ -26825,13 +30259,76 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T02:58:17.589+00:00",
+    "appointments_last_fetched": "2021-02-27T03:09:43.533+00:00",
     "appointments_raw": {
       "both_doses": {
-        "error": [
+        "locations": [
           {
-            "code": "FC_904_NoData",
-            "message": "Insufficient inventory."
+            "address": {
+              "city": "SACRAMENTO",
+              "country": "US",
+              "line1": "250 FLORIN RD",
+              "line2": "",
+              "state": "CA",
+              "zip": "95831"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-02-28",
+                "day": "Sunday",
+                "slots": [
+                  "10:15 am",
+                  "12:15 pm",
+                  "01:00 pm"
+                ]
+              },
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "04:30 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 8.93,
+            "fhirLocationId": "3b21c9c1-025d-4da9-9922-c35255651f4c",
+            "locationId": "3b21c9c1-025d-4da9-9922-c35255651f4c",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "10716",
+            "phone": [
+              {
+                "number": "916-399-0650",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "916-399-0650",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 38.5092786,
+              "longitude": -121.54297301
+            },
+            "storenumber": "10716"
           }
         ]
       },
@@ -26844,10 +30341,73 @@
         ]
       },
       "second_dose_pfizer": {
-        "error": [
+        "locations": [
           {
-            "code": "FC_904_NoData",
-            "message": "Insufficient inventory."
+            "address": {
+              "city": "SACRAMENTO",
+              "country": "US",
+              "line1": "250 FLORIN RD",
+              "line2": "",
+              "state": "CA",
+              "zip": "95831"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-02-28",
+                "day": "Sunday",
+                "slots": [
+                  "10:15 am",
+                  "12:15 pm",
+                  "01:00 pm"
+                ]
+              },
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "04:30 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 5.66,
+            "fhirLocationId": "3b21c9c1-025d-4da9-9922-c35255651f4c",
+            "locationId": "3b21c9c1-025d-4da9-9922-c35255651f4c",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "10716",
+            "phone": [
+              {
+                "number": "916-399-0650",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "916-399-0650",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 38.5092786,
+              "longitude": -121.54297301
+            },
+            "storenumber": "10716"
           }
         ]
       }
@@ -26866,13 +30426,76 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T02:58:17.589+00:00",
+    "appointments_last_fetched": "2021-02-27T03:09:43.533+00:00",
     "appointments_raw": {
       "both_doses": {
-        "error": [
+        "locations": [
           {
-            "code": "FC_904_NoData",
-            "message": "Insufficient inventory."
+            "address": {
+              "city": "SACRAMENTO",
+              "country": "US",
+              "line1": "250 FLORIN RD",
+              "line2": "",
+              "state": "CA",
+              "zip": "95831"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-02-28",
+                "day": "Sunday",
+                "slots": [
+                  "10:15 am",
+                  "12:15 pm",
+                  "01:00 pm"
+                ]
+              },
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "04:30 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 8.93,
+            "fhirLocationId": "3b21c9c1-025d-4da9-9922-c35255651f4c",
+            "locationId": "3b21c9c1-025d-4da9-9922-c35255651f4c",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "10716",
+            "phone": [
+              {
+                "number": "916-399-0650",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "916-399-0650",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 38.5092786,
+              "longitude": -121.54297301
+            },
+            "storenumber": "10716"
           }
         ]
       },
@@ -26885,10 +30508,73 @@
         ]
       },
       "second_dose_pfizer": {
-        "error": [
+        "locations": [
           {
-            "code": "FC_904_NoData",
-            "message": "Insufficient inventory."
+            "address": {
+              "city": "SACRAMENTO",
+              "country": "US",
+              "line1": "250 FLORIN RD",
+              "line2": "",
+              "state": "CA",
+              "zip": "95831"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-02-28",
+                "day": "Sunday",
+                "slots": [
+                  "10:15 am",
+                  "12:15 pm",
+                  "01:00 pm"
+                ]
+              },
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "04:30 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 5.66,
+            "fhirLocationId": "3b21c9c1-025d-4da9-9922-c35255651f4c",
+            "locationId": "3b21c9c1-025d-4da9-9922-c35255651f4c",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "10716",
+            "phone": [
+              {
+                "number": "916-399-0650",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "916-399-0650",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 38.5092786,
+              "longitude": -121.54297301
+            },
+            "storenumber": "10716"
           }
         ]
       }
