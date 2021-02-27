@@ -3,14 +3,6 @@
     "address": "2307 E MAIN ST",
     "appointments": [
       {
-        "time": "2021-03-01T14:00:00.000-05:00",
-        "type": "both_doses"
-      },
-      {
-        "time": "2021-03-01T14:00:00.000-05:00",
-        "type": "second_dose_moderna"
-      },
-      {
         "time": "2021-03-01T14:15:00.000-05:00",
         "type": "both_doses"
       },
@@ -188,38 +180,20 @@
       }
     ],
     "appointments_available": true,
-    "appointments_last_fetched": "2021-02-27T14:43:30.123+00:00",
+    "appointments_last_fetched": "2021-02-27T16:38:45.396+00:00",
     "appointments_raw": {
       "both_doses": {
         "locations": [
           {
             "address": {
-              "city": "COEBURN",
+              "city": "PENNINGTON GAP",
               "country": "US",
-              "line1": "101 LAUREL AVENUE",
+              "line1": "5261 US HIGHWAY 421",
               "line2": "",
               "state": "VA",
-              "zip": "24230"
+              "zip": "24277"
             },
             "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "12:45 pm",
-                  "01:00 pm",
-                  "03:00 pm",
-                  "03:15 pm",
-                  "03:30 pm",
-                  "03:45 pm",
-                  "04:15 pm",
-                  "04:30 pm",
-                  "04:45 pm",
-                  "05:00 pm",
-                  "05:15 pm",
-                  "05:30 pm"
-                ]
-              },
               {
                 "date": "2021-03-02",
                 "day": "Tuesday",
@@ -239,7 +213,6 @@
                   "12:15 pm",
                   "12:30 pm",
                   "12:45 pm",
-                  "01:00 pm",
                   "02:15 pm",
                   "02:30 pm",
                   "02:45 pm",
@@ -270,32 +243,32 @@
               }
             ],
             "description": "",
-            "distance": 20.12,
-            "fhirLocationId": "9b00cc77-d566-4d47-998e-140df59c6113",
-            "locationId": "9b00cc77-d566-4d47-998e-140df59c6113",
+            "distance": 11.93,
+            "fhirLocationId": "91807989-b052-4313-8171-67042f0ac279",
+            "locationId": "91807989-b052-4313-8171-67042f0ac279",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
             "name": "Walgreen Drug Store",
             "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "17546",
+            "partnerLocationId": "19095",
             "phone": [
               {
-                "number": "276-395-5396",
+                "number": "276-546-4613",
                 "type": "StorePrimary"
               },
               {
-                "number": "276-395-3749",
+                "number": "276-546-4630",
                 "type": "StoreSecondary"
               },
               {
-                "number": "276-395-5396",
+                "number": "276-546-4613",
                 "type": "Pharmacy"
               }
             ],
             "position": {
-              "latitude": 36.94276821,
-              "longitude": -82.47065753
+              "latitude": 36.76082573,
+              "longitude": -83.01520818
             },
-            "storenumber": "17546"
+            "storenumber": "19095"
           },
           {
             "address": {
@@ -311,7 +284,6 @@
                 "date": "2021-03-01",
                 "day": "Monday",
                 "slots": [
-                  "02:00 pm",
                   "02:15 pm",
                   "02:30 pm"
                 ]
@@ -382,219 +354,6 @@
               "longitude": -82.97450916
             },
             "storenumber": "19885"
-          },
-          {
-            "address": {
-              "city": "JENKINS",
-              "country": "US",
-              "line1": "9485 HIGHWAY 805",
-              "line2": "",
-              "state": "KY",
-              "zip": "41537"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "09:15 am",
-                  "09:30 am",
-                  "09:45 am",
-                  "10:00 am",
-                  "10:15 am",
-                  "10:30 am",
-                  "10:45 am",
-                  "11:00 am",
-                  "11:15 am",
-                  "11:30 am",
-                  "11:45 am",
-                  "12:15 pm",
-                  "12:30 pm",
-                  "01:45 pm",
-                  "02:00 pm",
-                  "02:15 pm",
-                  "02:30 pm",
-                  "02:45 pm",
-                  "03:00 pm",
-                  "03:15 pm",
-                  "03:30 pm",
-                  "03:45 pm",
-                  "04:00 pm",
-                  "04:45 pm",
-                  "05:00 pm"
-                ]
-              },
-              {
-                "date": "2021-03-02",
-                "day": "Tuesday",
-                "slots": [
-                  "09:15 am",
-                  "09:30 am",
-                  "09:45 am",
-                  "10:00 am",
-                  "10:15 am",
-                  "10:30 am",
-                  "10:45 am",
-                  "11:00 am",
-                  "11:15 am",
-                  "11:30 am",
-                  "11:45 am",
-                  "12:00 pm",
-                  "12:15 pm",
-                  "12:30 pm",
-                  "01:45 pm",
-                  "02:00 pm",
-                  "02:15 pm",
-                  "02:30 pm",
-                  "02:45 pm",
-                  "03:00 pm",
-                  "03:15 pm",
-                  "03:30 pm",
-                  "03:45 pm",
-                  "04:00 pm",
-                  "04:15 pm",
-                  "04:30 pm",
-                  "04:45 pm",
-                  "05:00 pm",
-                  "05:15 pm",
-                  "05:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 18.55,
-            "fhirLocationId": "d2fb5caa-7857-4275-aa35-ae040c5e434c",
-            "locationId": "d2fb5caa-7857-4275-aa35-ae040c5e434c",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "17328",
-            "phone": [
-              {
-                "number": "606-832-2084",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "606-832-0364",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "606-832-2084",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 37.17174334,
-              "longitude": -82.63445195
-            },
-            "storenumber": "17328"
-          },
-          {
-            "address": {
-              "city": "PENNINGTON GAP",
-              "country": "US",
-              "line1": "5261 US HIGHWAY 421",
-              "line2": "",
-              "state": "VA",
-              "zip": "24277"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "03:45 pm",
-                  "04:30 pm"
-                ]
-              },
-              {
-                "date": "2021-03-02",
-                "day": "Tuesday",
-                "slots": [
-                  "09:15 am",
-                  "09:30 am",
-                  "09:45 am",
-                  "10:00 am",
-                  "10:15 am",
-                  "10:30 am",
-                  "10:45 am",
-                  "11:00 am",
-                  "11:15 am",
-                  "11:30 am",
-                  "11:45 am",
-                  "12:00 pm",
-                  "12:15 pm",
-                  "12:30 pm",
-                  "12:45 pm",
-                  "01:00 pm",
-                  "02:15 pm",
-                  "02:30 pm",
-                  "02:45 pm",
-                  "03:00 pm",
-                  "03:15 pm",
-                  "03:30 pm",
-                  "03:45 pm",
-                  "04:00 pm",
-                  "04:15 pm",
-                  "04:30 pm",
-                  "04:45 pm",
-                  "05:00 pm",
-                  "05:15 pm",
-                  "05:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 11.93,
-            "fhirLocationId": "91807989-b052-4313-8171-67042f0ac279",
-            "locationId": "91807989-b052-4313-8171-67042f0ac279",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "19095",
-            "phone": [
-              {
-                "number": "276-546-4613",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "276-546-4630",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "276-546-4613",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 36.76082573,
-              "longitude": -83.01520818
-            },
-            "storenumber": "19095"
           }
         ]
       },
@@ -614,7 +373,6 @@
                 "date": "2021-03-01",
                 "day": "Monday",
                 "slots": [
-                  "02:00 pm",
                   "02:15 pm",
                   "02:30 pm"
                 ]
@@ -692,229 +450,6 @@
         "locations": [
           {
             "address": {
-              "city": "COEBURN",
-              "country": "US",
-              "line1": "101 LAUREL AVENUE",
-              "line2": "",
-              "state": "VA",
-              "zip": "24230"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "12:45 pm",
-                  "01:00 pm",
-                  "03:00 pm",
-                  "03:15 pm",
-                  "03:30 pm",
-                  "03:45 pm",
-                  "04:15 pm",
-                  "04:30 pm",
-                  "04:45 pm",
-                  "05:00 pm",
-                  "05:15 pm",
-                  "05:30 pm"
-                ]
-              },
-              {
-                "date": "2021-03-02",
-                "day": "Tuesday",
-                "slots": [
-                  "09:15 am",
-                  "09:30 am",
-                  "09:45 am",
-                  "10:00 am",
-                  "10:15 am",
-                  "10:30 am",
-                  "10:45 am",
-                  "11:00 am",
-                  "11:15 am",
-                  "11:30 am",
-                  "11:45 am",
-                  "12:00 pm",
-                  "12:15 pm",
-                  "12:30 pm",
-                  "12:45 pm",
-                  "01:00 pm",
-                  "02:15 pm",
-                  "02:30 pm",
-                  "02:45 pm",
-                  "03:00 pm",
-                  "03:15 pm",
-                  "03:30 pm",
-                  "03:45 pm",
-                  "04:00 pm",
-                  "04:15 pm",
-                  "04:30 pm",
-                  "04:45 pm",
-                  "05:00 pm",
-                  "05:15 pm",
-                  "05:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 23.32,
-            "fhirLocationId": "9b00cc77-d566-4d47-998e-140df59c6113",
-            "locationId": "9b00cc77-d566-4d47-998e-140df59c6113",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "17546",
-            "phone": [
-              {
-                "number": "276-395-5396",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "276-395-3749",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "276-395-5396",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 36.94276821,
-              "longitude": -82.47065753
-            },
-            "storenumber": "17546"
-          },
-          {
-            "address": {
-              "city": "JENKINS",
-              "country": "US",
-              "line1": "9485 HIGHWAY 805",
-              "line2": "",
-              "state": "KY",
-              "zip": "41537"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "09:15 am",
-                  "09:30 am",
-                  "09:45 am",
-                  "10:00 am",
-                  "10:15 am",
-                  "10:30 am",
-                  "10:45 am",
-                  "11:00 am",
-                  "11:15 am",
-                  "11:30 am",
-                  "11:45 am",
-                  "12:15 pm",
-                  "12:30 pm",
-                  "01:45 pm",
-                  "02:00 pm",
-                  "02:15 pm",
-                  "02:30 pm",
-                  "02:45 pm",
-                  "03:00 pm",
-                  "03:15 pm",
-                  "03:30 pm",
-                  "03:45 pm",
-                  "04:00 pm",
-                  "04:45 pm",
-                  "05:00 pm"
-                ]
-              },
-              {
-                "date": "2021-03-02",
-                "day": "Tuesday",
-                "slots": [
-                  "09:15 am",
-                  "09:30 am",
-                  "09:45 am",
-                  "10:00 am",
-                  "10:15 am",
-                  "10:30 am",
-                  "10:45 am",
-                  "11:00 am",
-                  "11:15 am",
-                  "11:30 am",
-                  "11:45 am",
-                  "12:00 pm",
-                  "12:15 pm",
-                  "12:30 pm",
-                  "01:45 pm",
-                  "02:00 pm",
-                  "02:15 pm",
-                  "02:30 pm",
-                  "02:45 pm",
-                  "03:00 pm",
-                  "03:15 pm",
-                  "03:30 pm",
-                  "03:45 pm",
-                  "04:00 pm",
-                  "04:15 pm",
-                  "04:30 pm",
-                  "04:45 pm",
-                  "05:00 pm",
-                  "05:15 pm",
-                  "05:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 19.57,
-            "fhirLocationId": "d2fb5caa-7857-4275-aa35-ae040c5e434c",
-            "locationId": "d2fb5caa-7857-4275-aa35-ae040c5e434c",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "17328",
-            "phone": [
-              {
-                "number": "606-832-2084",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "606-832-0364",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "606-832-2084",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 37.17174334,
-              "longitude": -82.63445195
-            },
-            "storenumber": "17328"
-          },
-          {
-            "address": {
               "city": "PENNINGTON GAP",
               "country": "US",
               "line1": "5261 US HIGHWAY 421",
@@ -924,14 +459,6 @@
             },
             "appointmentAvailability": [
               {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "03:45 pm",
-                  "04:30 pm"
-                ]
-              },
-              {
                 "date": "2021-03-02",
                 "day": "Tuesday",
                 "slots": [
@@ -950,7 +477,6 @@
                   "12:15 pm",
                   "12:30 pm",
                   "12:45 pm",
-                  "01:00 pm",
                   "02:15 pm",
                   "02:30 pm",
                   "02:45 pm",
@@ -35471,14 +34997,6 @@
     "address": "500 N HIGHWAY 27",
     "appointments": [
       {
-        "time": "2021-03-02T09:15:00.000-05:00",
-        "type": "both_doses"
-      },
-      {
-        "time": "2021-03-02T09:15:00.000-05:00",
-        "type": "second_dose_pfizer"
-      },
-      {
         "time": "2021-03-02T09:30:00.000-05:00",
         "type": "both_doses"
       },
@@ -35492,14 +35010,6 @@
       },
       {
         "time": "2021-03-02T09:45:00.000-05:00",
-        "type": "second_dose_pfizer"
-      },
-      {
-        "time": "2021-03-02T10:00:00.000-05:00",
-        "type": "both_doses"
-      },
-      {
-        "time": "2021-03-02T10:00:00.000-05:00",
         "type": "second_dose_pfizer"
       },
       {
@@ -35575,27 +35085,11 @@
         "type": "second_dose_pfizer"
       },
       {
-        "time": "2021-03-02T12:30:00.000-05:00",
-        "type": "both_doses"
-      },
-      {
-        "time": "2021-03-02T12:30:00.000-05:00",
-        "type": "second_dose_pfizer"
-      },
-      {
         "time": "2021-03-02T13:45:00.000-05:00",
         "type": "both_doses"
       },
       {
         "time": "2021-03-02T13:45:00.000-05:00",
-        "type": "second_dose_pfizer"
-      },
-      {
-        "time": "2021-03-02T14:00:00.000-05:00",
-        "type": "both_doses"
-      },
-      {
-        "time": "2021-03-02T14:00:00.000-05:00",
         "type": "second_dose_pfizer"
       },
       {
@@ -35692,80 +35186,14 @@
       },
       {
         "time": "2021-03-02T17:15:00.000-05:00",
-        "type": "second_dose_pfizer"
-      },
-      {
-        "time": "2021-03-02T17:30:00.000-05:00",
-        "type": "both_doses"
-      },
-      {
-        "time": "2021-03-02T17:30:00.000-05:00",
         "type": "second_dose_pfizer"
       }
     ],
     "appointments_available": true,
-    "appointments_last_fetched": "2021-02-27T14:41:40.801+00:00",
+    "appointments_last_fetched": "2021-02-27T16:38:19.867+00:00",
     "appointments_raw": {
       "both_doses": {
         "locations": [
-          {
-            "address": {
-              "city": "MONTICELLO",
-              "country": "US",
-              "line1": "978 NORTH MAIN STREET",
-              "line2": "",
-              "state": "KY",
-              "zip": "42633"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-02",
-                "day": "Tuesday",
-                "slots": [
-                  "02:45 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 10.52,
-            "fhirLocationId": "027a13ec-8e02-48e5-a3c9-3000230b93bb",
-            "locationId": "027a13ec-8e02-48e5-a3c9-3000230b93bb",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "17172",
-            "phone": [
-              {
-                "number": "606-348-8478",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "606-348-8479",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "606-348-8478",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 36.8411009,
-              "longitude": -84.83914282
-            },
-            "storenumber": "17172"
-          },
           {
             "address": {
               "city": "WHITLEY CITY",
@@ -35780,10 +35208,8 @@
                 "date": "2021-03-02",
                 "day": "Tuesday",
                 "slots": [
-                  "09:15 am",
                   "09:30 am",
                   "09:45 am",
-                  "10:00 am",
                   "10:15 am",
                   "10:30 am",
                   "10:45 am",
@@ -35793,9 +35219,7 @@
                   "11:45 am",
                   "12:00 pm",
                   "12:15 pm",
-                  "12:30 pm",
                   "01:45 pm",
-                  "02:00 pm",
                   "02:15 pm",
                   "02:30 pm",
                   "02:45 pm",
@@ -35807,8 +35231,7 @@
                   "04:15 pm",
                   "04:30 pm",
                   "04:45 pm",
-                  "05:15 pm",
-                  "05:30 pm"
+                  "05:15 pm"
                 ]
               }
             ],
@@ -35825,7 +35248,7 @@
               }
             ],
             "description": "",
-            "distance": 11.37,
+            "distance": 23.19,
             "fhirLocationId": "ee075a20-d7d7-4d5c-b9a5-6b17ea091e4c",
             "locationId": "ee075a20-d7d7-4d5c-b9a5-6b17ea091e4c",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -35851,132 +35274,14 @@
               "longitude": -84.46868771
             },
             "storenumber": "17176"
-          },
-          {
-            "address": {
-              "city": "SOMERSET",
-              "country": "US",
-              "line1": "600 S HIGHWAY 27",
-              "line2": "",
-              "state": "KY",
-              "zip": "42501"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-02",
-                "day": "Tuesday",
-                "slots": [
-                  "02:30 pm",
-                  "02:45 pm",
-                  "03:00 pm",
-                  "03:15 pm",
-                  "03:30 pm",
-                  "03:45 pm",
-                  "04:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 20.56,
-            "fhirLocationId": "19ba5207-cd69-4d51-97c5-2a2dc2fb6193",
-            "locationId": "19ba5207-cd69-4d51-97c5-2a2dc2fb6193",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "7664",
-            "phone": [
-              {
-                "number": "606-677-0596",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "606-677-0758",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "606-677-0596",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 37.08551438,
-              "longitude": -84.61599152
-            },
-            "storenumber": "7664"
           }
         ]
       },
       "second_dose_moderna": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "MONTICELLO",
-              "country": "US",
-              "line1": "978 NORTH MAIN STREET",
-              "line2": "",
-              "state": "KY",
-              "zip": "42633"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-02",
-                "day": "Tuesday",
-                "slots": [
-                  "02:45 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 22.19,
-            "fhirLocationId": "027a13ec-8e02-48e5-a3c9-3000230b93bb",
-            "locationId": "027a13ec-8e02-48e5-a3c9-3000230b93bb",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "17172",
-            "phone": [
-              {
-                "number": "606-348-8478",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "606-348-8479",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "606-348-8478",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 36.8411009,
-              "longitude": -84.83914282
-            },
-            "storenumber": "17172"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       },
@@ -35996,10 +35301,8 @@
                 "date": "2021-03-02",
                 "day": "Tuesday",
                 "slots": [
-                  "09:15 am",
                   "09:30 am",
                   "09:45 am",
-                  "10:00 am",
                   "10:15 am",
                   "10:30 am",
                   "10:45 am",
@@ -36009,9 +35312,7 @@
                   "11:45 am",
                   "12:00 pm",
                   "12:15 pm",
-                  "12:30 pm",
                   "01:45 pm",
-                  "02:00 pm",
                   "02:15 pm",
                   "02:30 pm",
                   "02:45 pm",
@@ -36023,8 +35324,7 @@
                   "04:15 pm",
                   "04:30 pm",
                   "04:45 pm",
-                  "05:15 pm",
-                  "05:30 pm"
+                  "05:15 pm"
                 ]
               }
             ],
@@ -36041,7 +35341,7 @@
               }
             ],
             "description": "",
-            "distance": 11.37,
+            "distance": 23.27,
             "fhirLocationId": "ee075a20-d7d7-4d5c-b9a5-6b17ea091e4c",
             "locationId": "ee075a20-d7d7-4d5c-b9a5-6b17ea091e4c",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -36067,70 +35367,6 @@
               "longitude": -84.46868771
             },
             "storenumber": "17176"
-          },
-          {
-            "address": {
-              "city": "SOMERSET",
-              "country": "US",
-              "line1": "600 S HIGHWAY 27",
-              "line2": "",
-              "state": "KY",
-              "zip": "42501"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-02",
-                "day": "Tuesday",
-                "slots": [
-                  "02:30 pm",
-                  "02:45 pm",
-                  "03:00 pm",
-                  "03:15 pm",
-                  "03:30 pm",
-                  "03:45 pm",
-                  "04:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 20.56,
-            "fhirLocationId": "19ba5207-cd69-4d51-97c5-2a2dc2fb6193",
-            "locationId": "19ba5207-cd69-4d51-97c5-2a2dc2fb6193",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "7664",
-            "phone": [
-              {
-                "number": "606-677-0596",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "606-677-0758",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "606-677-0596",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 37.08551438,
-              "longitude": -84.61599152
-            },
-            "storenumber": "7664"
           }
         ]
       }
@@ -42143,341 +41379,23 @@
   {
     "address": "380 W MAIN ST",
     "appointments": [
-      {
-        "time": "2021-03-02T10:45:00.000-05:00",
-        "type": "both_doses"
-      },
-      {
-        "time": "2021-03-02T10:45:00.000-05:00",
-        "type": "second_dose_moderna"
-      },
-      {
-        "time": "2021-03-02T11:00:00.000-05:00",
-        "type": "both_doses"
-      },
-      {
-        "time": "2021-03-02T11:00:00.000-05:00",
-        "type": "second_dose_moderna"
-      },
-      {
-        "time": "2021-03-02T11:30:00.000-05:00",
-        "type": "both_doses"
-      },
-      {
-        "time": "2021-03-02T11:30:00.000-05:00",
-        "type": "second_dose_moderna"
-      },
-      {
-        "time": "2021-03-02T11:45:00.000-05:00",
-        "type": "both_doses"
-      },
-      {
-        "time": "2021-03-02T11:45:00.000-05:00",
-        "type": "second_dose_moderna"
-      },
-      {
-        "time": "2021-03-02T12:00:00.000-05:00",
-        "type": "both_doses"
-      },
-      {
-        "time": "2021-03-02T12:00:00.000-05:00",
-        "type": "second_dose_moderna"
-      },
-      {
-        "time": "2021-03-02T12:15:00.000-05:00",
-        "type": "both_doses"
-      },
-      {
-        "time": "2021-03-02T12:15:00.000-05:00",
-        "type": "second_dose_moderna"
-      },
-      {
-        "time": "2021-03-02T12:30:00.000-05:00",
-        "type": "both_doses"
-      },
-      {
-        "time": "2021-03-02T12:30:00.000-05:00",
-        "type": "second_dose_moderna"
-      }
     ],
-    "appointments_available": true,
-    "appointments_last_fetched": "2021-02-27T14:41:35.859+00:00",
+    "appointments_available": false,
+    "appointments_last_fetched": "2021-02-27T16:38:35.987+00:00",
     "appointments_raw": {
       "both_doses": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "MOREHEAD",
-              "country": "US",
-              "line1": "380 W MAIN ST",
-              "line2": "",
-              "state": "KY",
-              "zip": "40351"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-02",
-                "day": "Tuesday",
-                "slots": [
-                  "10:45 am",
-                  "11:00 am",
-                  "11:30 am",
-                  "11:45 am",
-                  "12:00 pm",
-                  "12:15 pm",
-                  "12:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 16.8,
-            "fhirLocationId": "bf226c3c-44e4-474f-bea9-9d4eb4746623",
-            "locationId": "bf226c3c-44e4-474f-bea9-9d4eb4746623",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "18010",
-            "phone": [
-              {
-                "number": "606-783-1581",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "606-783-1582",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "606-783-1581",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 38.17833808,
-              "longitude": -83.43728203
-            },
-            "storenumber": "18010"
-          },
-          {
-            "address": {
-              "city": "STANTON",
-              "country": "US",
-              "line1": "125 N MAIN ST",
-              "line2": "",
-              "state": "KY",
-              "zip": "40380"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-02",
-                "day": "Tuesday",
-                "slots": [
-                  "09:15 am",
-                  "09:30 am",
-                  "09:45 am",
-                  "10:00 am",
-                  "10:15 am",
-                  "10:30 am",
-                  "10:45 am",
-                  "11:45 am",
-                  "12:00 pm",
-                  "12:15 pm",
-                  "12:30 pm",
-                  "01:45 pm",
-                  "02:00 pm",
-                  "02:15 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 18.81,
-            "fhirLocationId": "d6ee0bae-5abb-4d8d-93c4-09ce00db6dc5",
-            "locationId": "d6ee0bae-5abb-4d8d-93c4-09ce00db6dc5",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "18171",
-            "phone": [
-              {
-                "number": "606-663-2521",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "606-663-2522",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "606-663-2521",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 37.84731955,
-              "longitude": -83.85877628
-            },
-            "storenumber": "18171"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       },
       "second_dose_moderna": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "MOREHEAD",
-              "country": "US",
-              "line1": "380 W MAIN ST",
-              "line2": "",
-              "state": "KY",
-              "zip": "40351"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-02",
-                "day": "Tuesday",
-                "slots": [
-                  "10:45 am",
-                  "11:00 am",
-                  "11:30 am",
-                  "11:45 am",
-                  "12:00 pm",
-                  "12:15 pm",
-                  "12:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 6.44,
-            "fhirLocationId": "bf226c3c-44e4-474f-bea9-9d4eb4746623",
-            "locationId": "bf226c3c-44e4-474f-bea9-9d4eb4746623",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "18010",
-            "phone": [
-              {
-                "number": "606-783-1581",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "606-783-1582",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "606-783-1581",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 38.17833808,
-              "longitude": -83.43728203
-            },
-            "storenumber": "18010"
-          },
-          {
-            "address": {
-              "city": "STANTON",
-              "country": "US",
-              "line1": "125 N MAIN ST",
-              "line2": "",
-              "state": "KY",
-              "zip": "40380"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-02",
-                "day": "Tuesday",
-                "slots": [
-                  "09:15 am",
-                  "09:30 am",
-                  "09:45 am",
-                  "10:00 am",
-                  "10:15 am",
-                  "10:30 am",
-                  "10:45 am",
-                  "11:45 am",
-                  "12:00 pm",
-                  "12:15 pm",
-                  "12:30 pm",
-                  "01:45 pm",
-                  "02:00 pm",
-                  "02:15 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 22.44,
-            "fhirLocationId": "d6ee0bae-5abb-4d8d-93c4-09ce00db6dc5",
-            "locationId": "d6ee0bae-5abb-4d8d-93c4-09ce00db6dc5",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "18171",
-            "phone": [
-              {
-                "number": "606-663-2521",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "606-663-2522",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "606-663-2521",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 37.84731955,
-              "longitude": -83.85877628
-            },
-            "storenumber": "18171"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       },

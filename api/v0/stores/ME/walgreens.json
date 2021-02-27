@@ -950,7 +950,7 @@
       }
     ],
     "appointments_available": true,
-    "appointments_last_fetched": "2021-02-27T14:45:03.088+00:00",
+    "appointments_last_fetched": "2021-02-27T16:38:07.785+00:00",
     "appointments_raw": {
       "both_doses": {
         "locations": [
@@ -969,8 +969,6 @@
                 "day": "Tuesday",
                 "slots": [
                   "09:15 am",
-                  "09:30 am",
-                  "09:45 am",
                   "10:00 am",
                   "10:15 am",
                   "10:30 am",
@@ -1104,7 +1102,6 @@
                 "date": "2021-03-02",
                 "day": "Tuesday",
                 "slots": [
-                  "09:30 am",
                   "09:45 am",
                   "10:00 am",
                   "10:15 am",
@@ -1156,6 +1153,64 @@
           },
           {
             "address": {
+              "city": "AUBURN",
+              "country": "US",
+              "line1": "61 UNION ST",
+              "line2": "",
+              "state": "ME",
+              "zip": "04210"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "10:30 am"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 20.18,
+            "fhirLocationId": "3eeafdf5-1f00-4a1b-aca5-3358c5da39f9",
+            "locationId": "3eeafdf5-1f00-4a1b-aca5-3358c5da39f9",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "19397",
+            "phone": [
+              {
+                "number": "207-753-0506",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "207-753-0102",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "207-753-0506",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 44.10021175,
+              "longitude": -70.22903918
+            },
+            "storenumber": "19397"
+          },
+          {
+            "address": {
               "city": "LEWISTON",
               "country": "US",
               "line1": "430 SABATTUS ST",
@@ -1168,10 +1223,6 @@
                 "date": "2021-03-02",
                 "day": "Tuesday",
                 "slots": [
-                  "09:15 am",
-                  "09:30 am",
-                  "09:45 am",
-                  "10:00 am",
                   "10:15 am",
                   "10:30 am",
                   "10:45 am",
@@ -1236,13 +1287,11 @@
                 "date": "2021-03-02",
                 "day": "Tuesday",
                 "slots": [
-                  "09:15 am",
                   "09:30 am",
                   "09:45 am",
                   "10:15 am",
                   "10:30 am",
                   "10:45 am",
-                  "11:00 am",
                   "11:15 am",
                   "11:30 am",
                   "11:45 am",
@@ -1251,13 +1300,10 @@
                   "12:30 pm",
                   "12:45 pm",
                   "01:00 pm",
-                  "02:15 pm",
                   "02:30 pm",
                   "02:45 pm",
                   "03:00 pm",
-                  "03:15 pm",
                   "03:30 pm",
-                  "03:45 pm",
                   "04:00 pm",
                   "04:15 pm",
                   "04:30 pm",
@@ -1335,8 +1381,6 @@
                 "day": "Tuesday",
                 "slots": [
                   "09:15 am",
-                  "09:30 am",
-                  "09:45 am",
                   "10:00 am",
                   "10:15 am",
                   "10:30 am",
@@ -1361,7 +1405,7 @@
               }
             ],
             "description": "",
-            "distance": 19.63,
+            "distance": 18.13,
             "fhirLocationId": "b827162b-17c4-4125-b51e-4fd2d2e7e165",
             "locationId": "b827162b-17c4-4125-b51e-4fd2d2e7e165",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -1429,7 +1473,7 @@
               }
             ],
             "description": "",
-            "distance": 15.58,
+            "distance": 18.1,
             "fhirLocationId": "7107728e-ad0f-450d-947f-9c9e5ac9b00e",
             "locationId": "7107728e-ad0f-450d-947f-9c9e5ac9b00e",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -1470,7 +1514,6 @@
                 "date": "2021-03-02",
                 "day": "Tuesday",
                 "slots": [
-                  "09:30 am",
                   "09:45 am",
                   "10:00 am",
                   "10:15 am",
@@ -1493,7 +1536,7 @@
               }
             ],
             "description": "",
-            "distance": 14.33,
+            "distance": 19.89,
             "fhirLocationId": "64cf7d9d-ee0b-4c30-8d95-fdeb683d0f89",
             "locationId": "64cf7d9d-ee0b-4c30-8d95-fdeb683d0f89",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -1522,6 +1565,64 @@
           },
           {
             "address": {
+              "city": "AUBURN",
+              "country": "US",
+              "line1": "61 UNION ST",
+              "line2": "",
+              "state": "ME",
+              "zip": "04210"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "10:30 am"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 22.08,
+            "fhirLocationId": "3eeafdf5-1f00-4a1b-aca5-3358c5da39f9",
+            "locationId": "3eeafdf5-1f00-4a1b-aca5-3358c5da39f9",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "19397",
+            "phone": [
+              {
+                "number": "207-753-0506",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "207-753-0102",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "207-753-0506",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 44.10021175,
+              "longitude": -70.22903918
+            },
+            "storenumber": "19397"
+          },
+          {
+            "address": {
               "city": "LEWISTON",
               "country": "US",
               "line1": "430 SABATTUS ST",
@@ -1534,10 +1635,6 @@
                 "date": "2021-03-02",
                 "day": "Tuesday",
                 "slots": [
-                  "09:15 am",
-                  "09:30 am",
-                  "09:45 am",
-                  "10:00 am",
                   "10:15 am",
                   "10:30 am",
                   "10:45 am",
@@ -1561,7 +1658,7 @@
               }
             ],
             "description": "",
-            "distance": 20.21,
+            "distance": 22.94,
             "fhirLocationId": "1367177c-eac2-43e2-a5c8-6738bd789fbf",
             "locationId": "1367177c-eac2-43e2-a5c8-6738bd789fbf",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -1602,13 +1699,11 @@
                 "date": "2021-03-02",
                 "day": "Tuesday",
                 "slots": [
-                  "09:15 am",
                   "09:30 am",
                   "09:45 am",
                   "10:15 am",
                   "10:30 am",
                   "10:45 am",
-                  "11:00 am",
                   "11:15 am",
                   "11:30 am",
                   "11:45 am",
@@ -1617,13 +1712,10 @@
                   "12:30 pm",
                   "12:45 pm",
                   "01:00 pm",
-                  "02:15 pm",
                   "02:30 pm",
                   "02:45 pm",
                   "03:00 pm",
-                  "03:15 pm",
                   "03:30 pm",
-                  "03:45 pm",
                   "04:00 pm",
                   "04:15 pm",
                   "04:30 pm",
@@ -1647,7 +1739,7 @@
               }
             ],
             "description": "",
-            "distance": 20.62,
+            "distance": 20.36,
             "fhirLocationId": "50844541-fa80-482e-9b48-44a356ea1af5",
             "locationId": "50844541-fa80-482e-9b48-44a356ea1af5",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -3105,14 +3197,6 @@
     "address": "53 PARIS ST",
     "appointments": [
       {
-        "time": "2021-03-02T09:30:00.000-05:00",
-        "type": "both_doses"
-      },
-      {
-        "time": "2021-03-02T09:30:00.000-05:00",
-        "type": "second_dose_pfizer"
-      },
-      {
         "time": "2021-03-02T09:45:00.000-05:00",
         "type": "both_doses"
       },
@@ -3162,267 +3246,18 @@
       }
     ],
     "appointments_available": true,
-    "appointments_last_fetched": "2021-02-27T14:46:26.625+00:00",
+    "appointments_last_fetched": "2021-02-27T16:38:07.785+00:00",
     "appointments_raw": {
       "both_doses": {
         "locations": [
           {
             "address": {
-              "city": "FRYEBURG",
+              "city": "WINTHROP",
               "country": "US",
-              "line1": "119 BRIDGTON ROAD",
+              "line1": "16 PECK FARM ROAD",
               "line2": "",
               "state": "ME",
-              "zip": "04037"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "11:45 am"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 15.97,
-            "fhirLocationId": "fd37b6d7-ac9f-421b-ab85-37ac7fedb8aa",
-            "locationId": "fd37b6d7-ac9f-421b-ab85-37ac7fedb8aa",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "18403",
-            "phone": [
-              {
-                "number": "207-935-2045",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "207-935-7826",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "207-935-2045",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 44.01961608,
-              "longitude": -70.96385356
-            },
-            "storenumber": "18403"
-          },
-          {
-            "address": {
-              "city": "NAPLES",
-              "country": "US",
-              "line1": "665 ROOSEVELT TRL",
-              "line2": "",
-              "state": "ME",
-              "zip": "04055"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-02",
-                "day": "Tuesday",
-                "slots": [
-                  "09:30 am",
-                  "09:45 am",
-                  "10:00 am",
-                  "10:15 am",
-                  "10:30 am",
-                  "10:45 am",
-                  "11:00 am",
-                  "11:15 am",
-                  "11:30 am"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 15.17,
-            "fhirLocationId": "99b69103-794a-4f91-becb-9a21b5aed7d6",
-            "locationId": "99b69103-794a-4f91-becb-9a21b5aed7d6",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "19902",
-            "phone": [
-              {
-                "number": "207-693-3937",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "207-693-4701",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "207-693-3937",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 43.97006399,
-              "longitude": -70.59362442
-            },
-            "storenumber": "19902"
-          },
-          {
-            "address": {
-              "city": "NORWAY",
-              "country": "US",
-              "line1": "53 PARIS ST",
-              "line2": "",
-              "state": "ME",
-              "zip": "04268"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-02",
-                "day": "Tuesday",
-                "slots": [
-                  "09:30 am",
-                  "09:45 am",
-                  "10:00 am",
-                  "10:15 am",
-                  "10:30 am",
-                  "10:45 am",
-                  "11:45 am"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 11.9,
-            "fhirLocationId": "64cf7d9d-ee0b-4c30-8d95-fdeb683d0f89",
-            "locationId": "64cf7d9d-ee0b-4c30-8d95-fdeb683d0f89",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "11416",
-            "phone": [
-              {
-                "number": "207-744-0712",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "207-744-0715",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "207-744-0712",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 44.21199943,
-              "longitude": -70.52966783
-            },
-            "storenumber": "11416"
-          },
-          {
-            "address": {
-              "city": "BETHEL",
-              "country": "US",
-              "line1": "28 MAYVILLE ROAD",
-              "line2": "",
-              "state": "ME",
-              "zip": "04217"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "12:00 pm",
-                  "12:15 pm",
-                  "02:15 pm",
-                  "02:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 21.35,
-            "fhirLocationId": "89822d5e-2298-430c-909d-951a80149f6b",
-            "locationId": "89822d5e-2298-430c-909d-951a80149f6b",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "19575",
-            "phone": [
-              {
-                "number": "207-824-8085",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "207-824-8086",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "207-824-8085",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 44.41232916,
-              "longitude": -70.79609161
-            },
-            "storenumber": "19575"
-          },
-          {
-            "address": {
-              "city": "CORNISH",
-              "country": "US",
-              "line1": "151 MAPLE STREET",
-              "line2": "",
-              "state": "ME",
-              "zip": "04020"
+              "zip": "04364"
             },
             "appointmentAvailability": [
               {
@@ -3430,6 +3265,71 @@
                 "day": "Tuesday",
                 "slots": [
                   "09:15 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "11:00 am",
+                  "11:15 am",
+                  "11:45 am",
+                  "12:00 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 16.8,
+            "fhirLocationId": "b827162b-17c4-4125-b51e-4fd2d2e7e165",
+            "locationId": "b827162b-17c4-4125-b51e-4fd2d2e7e165",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "17745",
+            "phone": [
+              {
+                "number": "207-377-2279",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "207-377-3403",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "207-377-2279",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 44.30804254,
+              "longitude": -69.9598983
+            },
+            "storenumber": "17745"
+          },
+          {
+            "address": {
+              "city": "RUMFORD",
+              "country": "US",
+              "line1": "7 PORTLAND STREET",
+              "line2": "",
+              "state": "ME",
+              "zip": "04276"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
                   "09:30 am",
                   "09:45 am",
                   "10:00 am",
@@ -3457,168 +3357,32 @@
               }
             ],
             "description": "",
-            "distance": 21.76,
-            "fhirLocationId": "6a2e970c-cc50-4fd3-82aa-04e83a41c0ba",
-            "locationId": "6a2e970c-cc50-4fd3-82aa-04e83a41c0ba",
+            "distance": 17.06,
+            "fhirLocationId": "7107728e-ad0f-450d-947f-9c9e5ac9b00e",
+            "locationId": "7107728e-ad0f-450d-947f-9c9e5ac9b00e",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
             "name": "Walgreen Drug Store",
             "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "19251",
+            "partnerLocationId": "17159",
             "phone": [
               {
-                "number": "207-625-8494",
+                "number": "207-364-2969",
                 "type": "StorePrimary"
               },
               {
-                "number": "207-625-3599",
+                "number": "207-364-9095",
                 "type": "StoreSecondary"
               },
               {
-                "number": "207-625-8494",
+                "number": "207-364-2969",
                 "type": "Pharmacy"
               }
             ],
             "position": {
-              "latitude": 43.80503371,
-              "longitude": -70.81863617
+              "latitude": 44.54772696,
+              "longitude": -70.54616918
             },
-            "storenumber": "19251"
-          }
-        ]
-      },
-      "second_dose_moderna": {
-        "error": [
-          {
-            "code": "FC_904_NoData",
-            "message": "Insufficient inventory."
-          }
-        ]
-      },
-      "second_dose_pfizer": {
-        "locations": [
-          {
-            "address": {
-              "city": "FRYEBURG",
-              "country": "US",
-              "line1": "119 BRIDGTON ROAD",
-              "line2": "",
-              "state": "ME",
-              "zip": "04037"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "11:45 am"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 7.43,
-            "fhirLocationId": "fd37b6d7-ac9f-421b-ab85-37ac7fedb8aa",
-            "locationId": "fd37b6d7-ac9f-421b-ab85-37ac7fedb8aa",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "18403",
-            "phone": [
-              {
-                "number": "207-935-2045",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "207-935-7826",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "207-935-2045",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 44.01961608,
-              "longitude": -70.96385356
-            },
-            "storenumber": "18403"
-          },
-          {
-            "address": {
-              "city": "NAPLES",
-              "country": "US",
-              "line1": "665 ROOSEVELT TRL",
-              "line2": "",
-              "state": "ME",
-              "zip": "04055"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-02",
-                "day": "Tuesday",
-                "slots": [
-                  "09:30 am",
-                  "09:45 am",
-                  "10:00 am",
-                  "10:15 am",
-                  "10:30 am",
-                  "10:45 am",
-                  "11:00 am",
-                  "11:15 am",
-                  "11:30 am"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 18.82,
-            "fhirLocationId": "99b69103-794a-4f91-becb-9a21b5aed7d6",
-            "locationId": "99b69103-794a-4f91-becb-9a21b5aed7d6",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "19902",
-            "phone": [
-              {
-                "number": "207-693-3937",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "207-693-4701",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "207-693-3937",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 43.97006399,
-              "longitude": -70.59362442
-            },
-            "storenumber": "19902"
+            "storenumber": "17159"
           },
           {
             "address": {
@@ -3634,7 +3398,6 @@
                 "date": "2021-03-02",
                 "day": "Tuesday",
                 "slots": [
-                  "09:30 am",
                   "09:45 am",
                   "10:00 am",
                   "10:15 am",
@@ -3686,22 +3449,19 @@
           },
           {
             "address": {
-              "city": "BETHEL",
+              "city": "AUBURN",
               "country": "US",
-              "line1": "28 MAYVILLE ROAD",
+              "line1": "61 UNION ST",
               "line2": "",
               "state": "ME",
-              "zip": "04217"
+              "zip": "04210"
             },
             "appointmentAvailability": [
               {
                 "date": "2021-03-01",
                 "day": "Monday",
                 "slots": [
-                  "12:00 pm",
-                  "12:15 pm",
-                  "02:15 pm",
-                  "02:30 pm"
+                  "10:30 am"
                 ]
               }
             ],
@@ -3718,41 +3478,198 @@
               }
             ],
             "description": "",
-            "distance": 20.97,
-            "fhirLocationId": "89822d5e-2298-430c-909d-951a80149f6b",
-            "locationId": "89822d5e-2298-430c-909d-951a80149f6b",
+            "distance": 20.18,
+            "fhirLocationId": "3eeafdf5-1f00-4a1b-aca5-3358c5da39f9",
+            "locationId": "3eeafdf5-1f00-4a1b-aca5-3358c5da39f9",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
             "name": "Walgreen Drug Store",
             "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "19575",
+            "partnerLocationId": "19397",
             "phone": [
               {
-                "number": "207-824-8085",
+                "number": "207-753-0506",
                 "type": "StorePrimary"
               },
               {
-                "number": "207-824-8086",
+                "number": "207-753-0102",
                 "type": "StoreSecondary"
               },
               {
-                "number": "207-824-8085",
+                "number": "207-753-0506",
                 "type": "Pharmacy"
               }
             ],
             "position": {
-              "latitude": 44.41232916,
-              "longitude": -70.79609161
+              "latitude": 44.10021175,
+              "longitude": -70.22903918
             },
-            "storenumber": "19575"
+            "storenumber": "19397"
           },
           {
             "address": {
-              "city": "CORNISH",
+              "city": "LEWISTON",
               "country": "US",
-              "line1": "151 MAPLE STREET",
+              "line1": "430 SABATTUS ST",
               "line2": "",
               "state": "ME",
-              "zip": "04020"
+              "zip": "04240"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "10:15 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "11:15 am",
+                  "11:30 am",
+                  "11:45 am",
+                  "12:00 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 20.38,
+            "fhirLocationId": "1367177c-eac2-43e2-a5c8-6738bd789fbf",
+            "locationId": "1367177c-eac2-43e2-a5c8-6738bd789fbf",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "19802",
+            "phone": [
+              {
+                "number": "207-783-2013",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "207-782-2911",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "207-783-2013",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 44.10151821,
+              "longitude": -70.19434053
+            },
+            "storenumber": "19802"
+          },
+          {
+            "address": {
+              "city": "AUBURN",
+              "country": "US",
+              "line1": "698 MINOT AVE",
+              "line2": "",
+              "state": "ME",
+              "zip": "04210"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "09:30 am",
+                  "09:45 am",
+                  "10:15 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "11:15 am",
+                  "11:30 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "02:30 pm",
+                  "02:45 pm",
+                  "03:00 pm",
+                  "03:30 pm",
+                  "04:00 pm",
+                  "04:15 pm",
+                  "04:30 pm",
+                  "04:45 pm",
+                  "05:00 pm",
+                  "05:15 pm",
+                  "05:30 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 21.34,
+            "fhirLocationId": "50844541-fa80-482e-9b48-44a356ea1af5",
+            "locationId": "50844541-fa80-482e-9b48-44a356ea1af5",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "19162",
+            "phone": [
+              {
+                "number": "207-786-5330",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "207-786-5216",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "207-786-5330",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 44.08161587,
+              "longitude": -70.25584961
+            },
+            "storenumber": "19162"
+          }
+        ]
+      },
+      "second_dose_moderna": {
+        "error": [
+          {
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
+          }
+        ]
+      },
+      "second_dose_pfizer": {
+        "locations": [
+          {
+            "address": {
+              "city": "WINTHROP",
+              "country": "US",
+              "line1": "16 PECK FARM ROAD",
+              "line2": "",
+              "state": "ME",
+              "zip": "04364"
             },
             "appointmentAvailability": [
               {
@@ -3760,6 +3677,71 @@
                 "day": "Tuesday",
                 "slots": [
                   "09:15 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "11:00 am",
+                  "11:15 am",
+                  "11:45 am",
+                  "12:00 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 18.13,
+            "fhirLocationId": "b827162b-17c4-4125-b51e-4fd2d2e7e165",
+            "locationId": "b827162b-17c4-4125-b51e-4fd2d2e7e165",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "17745",
+            "phone": [
+              {
+                "number": "207-377-2279",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "207-377-3403",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "207-377-2279",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 44.30804254,
+              "longitude": -69.9598983
+            },
+            "storenumber": "17745"
+          },
+          {
+            "address": {
+              "city": "RUMFORD",
+              "country": "US",
+              "line1": "7 PORTLAND STREET",
+              "line2": "",
+              "state": "ME",
+              "zip": "04276"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
                   "09:30 am",
                   "09:45 am",
                   "10:00 am",
@@ -3787,32 +3769,298 @@
               }
             ],
             "description": "",
-            "distance": 22.23,
-            "fhirLocationId": "6a2e970c-cc50-4fd3-82aa-04e83a41c0ba",
-            "locationId": "6a2e970c-cc50-4fd3-82aa-04e83a41c0ba",
+            "distance": 18.1,
+            "fhirLocationId": "7107728e-ad0f-450d-947f-9c9e5ac9b00e",
+            "locationId": "7107728e-ad0f-450d-947f-9c9e5ac9b00e",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
             "name": "Walgreen Drug Store",
             "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "19251",
+            "partnerLocationId": "17159",
             "phone": [
               {
-                "number": "207-625-8494",
+                "number": "207-364-2969",
                 "type": "StorePrimary"
               },
               {
-                "number": "207-625-3599",
+                "number": "207-364-9095",
                 "type": "StoreSecondary"
               },
               {
-                "number": "207-625-8494",
+                "number": "207-364-2969",
                 "type": "Pharmacy"
               }
             ],
             "position": {
-              "latitude": 43.80503371,
-              "longitude": -70.81863617
+              "latitude": 44.54772696,
+              "longitude": -70.54616918
             },
-            "storenumber": "19251"
+            "storenumber": "17159"
+          },
+          {
+            "address": {
+              "city": "NORWAY",
+              "country": "US",
+              "line1": "53 PARIS ST",
+              "line2": "",
+              "state": "ME",
+              "zip": "04268"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "11:45 am"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 19.89,
+            "fhirLocationId": "64cf7d9d-ee0b-4c30-8d95-fdeb683d0f89",
+            "locationId": "64cf7d9d-ee0b-4c30-8d95-fdeb683d0f89",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "11416",
+            "phone": [
+              {
+                "number": "207-744-0712",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "207-744-0715",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "207-744-0712",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 44.21199943,
+              "longitude": -70.52966783
+            },
+            "storenumber": "11416"
+          },
+          {
+            "address": {
+              "city": "AUBURN",
+              "country": "US",
+              "line1": "61 UNION ST",
+              "line2": "",
+              "state": "ME",
+              "zip": "04210"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "10:30 am"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 22.08,
+            "fhirLocationId": "3eeafdf5-1f00-4a1b-aca5-3358c5da39f9",
+            "locationId": "3eeafdf5-1f00-4a1b-aca5-3358c5da39f9",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "19397",
+            "phone": [
+              {
+                "number": "207-753-0506",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "207-753-0102",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "207-753-0506",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 44.10021175,
+              "longitude": -70.22903918
+            },
+            "storenumber": "19397"
+          },
+          {
+            "address": {
+              "city": "LEWISTON",
+              "country": "US",
+              "line1": "430 SABATTUS ST",
+              "line2": "",
+              "state": "ME",
+              "zip": "04240"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "10:15 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "11:15 am",
+                  "11:30 am",
+                  "11:45 am",
+                  "12:00 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 22.94,
+            "fhirLocationId": "1367177c-eac2-43e2-a5c8-6738bd789fbf",
+            "locationId": "1367177c-eac2-43e2-a5c8-6738bd789fbf",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "19802",
+            "phone": [
+              {
+                "number": "207-783-2013",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "207-782-2911",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "207-783-2013",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 44.10151821,
+              "longitude": -70.19434053
+            },
+            "storenumber": "19802"
+          },
+          {
+            "address": {
+              "city": "AUBURN",
+              "country": "US",
+              "line1": "698 MINOT AVE",
+              "line2": "",
+              "state": "ME",
+              "zip": "04210"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "09:30 am",
+                  "09:45 am",
+                  "10:15 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "11:15 am",
+                  "11:30 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "02:30 pm",
+                  "02:45 pm",
+                  "03:00 pm",
+                  "03:30 pm",
+                  "04:00 pm",
+                  "04:15 pm",
+                  "04:30 pm",
+                  "04:45 pm",
+                  "05:00 pm",
+                  "05:15 pm",
+                  "05:30 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 20.36,
+            "fhirLocationId": "50844541-fa80-482e-9b48-44a356ea1af5",
+            "locationId": "50844541-fa80-482e-9b48-44a356ea1af5",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "19162",
+            "phone": [
+              {
+                "number": "207-786-5330",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "207-786-5216",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "207-786-5330",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 44.08161587,
+              "longitude": -70.25584961
+            },
+            "storenumber": "19162"
           }
         ]
       }
@@ -7047,7 +7295,7 @@
       }
     ],
     "appointments_available": true,
-    "appointments_last_fetched": "2021-02-27T14:47:09.108+00:00",
+    "appointments_last_fetched": "2021-02-27T16:39:02.336+00:00",
     "appointments_raw": {
       "both_doses": {
         "locations": [
@@ -7102,7 +7350,7 @@
               }
             ],
             "description": "",
-            "distance": 12.22,
+            "distance": 4.93,
             "fhirLocationId": "216779e6-2d46-4c29-b2d8-fdf777b0453d",
             "locationId": "216779e6-2d46-4c29-b2d8-fdf777b0453d",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -7192,7 +7440,7 @@
               }
             ],
             "description": "",
-            "distance": 22.1,
+            "distance": 12.22,
             "fhirLocationId": "216779e6-2d46-4c29-b2d8-fdf777b0453d",
             "locationId": "216779e6-2d46-4c29-b2d8-fdf777b0453d",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -23604,38 +23852,6 @@
     "address": "430 SABATTUS ST",
     "appointments": [
       {
-        "time": "2021-03-02T09:15:00.000-05:00",
-        "type": "both_doses"
-      },
-      {
-        "time": "2021-03-02T09:15:00.000-05:00",
-        "type": "second_dose_pfizer"
-      },
-      {
-        "time": "2021-03-02T09:30:00.000-05:00",
-        "type": "both_doses"
-      },
-      {
-        "time": "2021-03-02T09:30:00.000-05:00",
-        "type": "second_dose_pfizer"
-      },
-      {
-        "time": "2021-03-02T09:45:00.000-05:00",
-        "type": "both_doses"
-      },
-      {
-        "time": "2021-03-02T09:45:00.000-05:00",
-        "type": "second_dose_pfizer"
-      },
-      {
-        "time": "2021-03-02T10:00:00.000-05:00",
-        "type": "both_doses"
-      },
-      {
-        "time": "2021-03-02T10:00:00.000-05:00",
-        "type": "second_dose_pfizer"
-      },
-      {
         "time": "2021-03-02T10:15:00.000-05:00",
         "type": "both_doses"
       },
@@ -23693,24 +23909,93 @@
       }
     ],
     "appointments_available": true,
-    "appointments_last_fetched": "2021-02-27T14:47:16.084+00:00",
+    "appointments_last_fetched": "2021-02-27T16:38:07.785+00:00",
     "appointments_raw": {
       "both_doses": {
         "locations": [
           {
             "address": {
-              "city": "LISBON FALLS",
+              "city": "WINTHROP",
               "country": "US",
-              "line1": "575 LISBON ST",
+              "line1": "16 PECK FARM ROAD",
               "line2": "",
               "state": "ME",
-              "zip": "04252"
+              "zip": "04364"
             },
             "appointmentAvailability": [
               {
                 "date": "2021-03-02",
                 "day": "Tuesday",
                 "slots": [
+                  "09:15 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "11:00 am",
+                  "11:15 am",
+                  "11:45 am",
+                  "12:00 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 16.8,
+            "fhirLocationId": "b827162b-17c4-4125-b51e-4fd2d2e7e165",
+            "locationId": "b827162b-17c4-4125-b51e-4fd2d2e7e165",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "17745",
+            "phone": [
+              {
+                "number": "207-377-2279",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "207-377-3403",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "207-377-2279",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 44.30804254,
+              "longitude": -69.9598983
+            },
+            "storenumber": "17745"
+          },
+          {
+            "address": {
+              "city": "RUMFORD",
+              "country": "US",
+              "line1": "7 PORTLAND STREET",
+              "line2": "",
+              "state": "ME",
+              "zip": "04276"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "09:30 am",
+                  "09:45 am",
+                  "10:00 am",
                   "10:15 am",
                   "10:30 am",
                   "10:45 am",
@@ -23735,53 +24020,53 @@
               }
             ],
             "description": "",
-            "distance": 12.04,
-            "fhirLocationId": "e3b0598f-2ca5-4ebb-8650-d5a92bd4e40c",
-            "locationId": "e3b0598f-2ca5-4ebb-8650-d5a92bd4e40c",
+            "distance": 17.06,
+            "fhirLocationId": "7107728e-ad0f-450d-947f-9c9e5ac9b00e",
+            "locationId": "7107728e-ad0f-450d-947f-9c9e5ac9b00e",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
             "name": "Walgreen Drug Store",
             "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "19908",
+            "partnerLocationId": "17159",
             "phone": [
               {
-                "number": "207-353-4843",
+                "number": "207-364-2969",
                 "type": "StorePrimary"
               },
               {
-                "number": "207-353-6675",
+                "number": "207-364-9095",
                 "type": "StoreSecondary"
               },
               {
-                "number": "207-353-4843",
+                "number": "207-364-2969",
                 "type": "Pharmacy"
               }
             ],
             "position": {
-              "latitude": 44.00466632,
-              "longitude": -70.07484533
+              "latitude": 44.54772696,
+              "longitude": -70.54616918
             },
-            "storenumber": "19908"
+            "storenumber": "17159"
           },
           {
             "address": {
-              "city": "GRAY",
+              "city": "NORWAY",
               "country": "US",
-              "line1": "62 WEST GRAY ROAD",
+              "line1": "53 PARIS ST",
               "line2": "",
               "state": "ME",
-              "zip": "04039"
+              "zip": "04268"
             },
             "appointmentAvailability": [
               {
                 "date": "2021-03-02",
                 "day": "Tuesday",
                 "slots": [
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am",
                   "10:45 am",
-                  "11:00 am",
-                  "11:15 am",
-                  "11:30 am",
-                  "11:45 am",
-                  "12:00 pm"
+                  "11:45 am"
                 ]
               }
             ],
@@ -23798,32 +24083,90 @@
               }
             ],
             "description": "",
-            "distance": 20.06,
-            "fhirLocationId": "4d04b860-93f5-4744-a317-1afb5f4672c2",
-            "locationId": "4d04b860-93f5-4744-a317-1afb5f4672c2",
+            "distance": 17.43,
+            "fhirLocationId": "64cf7d9d-ee0b-4c30-8d95-fdeb683d0f89",
+            "locationId": "64cf7d9d-ee0b-4c30-8d95-fdeb683d0f89",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
             "name": "Walgreen Drug Store",
             "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "19789",
+            "partnerLocationId": "11416",
             "phone": [
               {
-                "number": "207-657-2333",
+                "number": "207-744-0712",
                 "type": "StorePrimary"
               },
               {
-                "number": "207-657-5934",
+                "number": "207-744-0715",
                 "type": "StoreSecondary"
               },
               {
-                "number": "207-657-2333",
+                "number": "207-744-0712",
                 "type": "Pharmacy"
               }
             ],
             "position": {
-              "latitude": 43.88297329,
-              "longitude": -70.34149474
+              "latitude": 44.21199943,
+              "longitude": -70.52966783
             },
-            "storenumber": "19789"
+            "storenumber": "11416"
+          },
+          {
+            "address": {
+              "city": "AUBURN",
+              "country": "US",
+              "line1": "61 UNION ST",
+              "line2": "",
+              "state": "ME",
+              "zip": "04210"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "10:30 am"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 20.18,
+            "fhirLocationId": "3eeafdf5-1f00-4a1b-aca5-3358c5da39f9",
+            "locationId": "3eeafdf5-1f00-4a1b-aca5-3358c5da39f9",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "19397",
+            "phone": [
+              {
+                "number": "207-753-0506",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "207-753-0102",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "207-753-0506",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 44.10021175,
+              "longitude": -70.22903918
+            },
+            "storenumber": "19397"
           },
           {
             "address": {
@@ -23839,10 +24182,6 @@
                 "date": "2021-03-02",
                 "day": "Tuesday",
                 "slots": [
-                  "09:15 am",
-                  "09:30 am",
-                  "09:45 am",
-                  "10:00 am",
                   "10:15 am",
                   "10:30 am",
                   "10:45 am",
@@ -23866,7 +24205,7 @@
               }
             ],
             "description": "",
-            "distance": 20.94,
+            "distance": 20.38,
             "fhirLocationId": "1367177c-eac2-43e2-a5c8-6738bd789fbf",
             "locationId": "1367177c-eac2-43e2-a5c8-6738bd789fbf",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -23907,13 +24246,11 @@
                 "date": "2021-03-02",
                 "day": "Tuesday",
                 "slots": [
-                  "09:15 am",
                   "09:30 am",
                   "09:45 am",
                   "10:15 am",
                   "10:30 am",
                   "10:45 am",
-                  "11:00 am",
                   "11:15 am",
                   "11:30 am",
                   "11:45 am",
@@ -23922,13 +24259,10 @@
                   "12:30 pm",
                   "12:45 pm",
                   "01:00 pm",
-                  "02:15 pm",
                   "02:30 pm",
                   "02:45 pm",
                   "03:00 pm",
-                  "03:15 pm",
                   "03:30 pm",
-                  "03:45 pm",
                   "04:00 pm",
                   "04:15 pm",
                   "04:30 pm",
@@ -23952,7 +24286,7 @@
               }
             ],
             "description": "",
-            "distance": 21.94,
+            "distance": 21.34,
             "fhirLocationId": "50844541-fa80-482e-9b48-44a356ea1af5",
             "locationId": "50844541-fa80-482e-9b48-44a356ea1af5",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -23978,110 +24312,40 @@
               "longitude": -70.25584961
             },
             "storenumber": "19162"
-          },
+          }
+        ]
+      },
+      "second_dose_moderna": {
+        "error": [
+          {
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
+          }
+        ]
+      },
+      "second_dose_pfizer": {
+        "locations": [
           {
             "address": {
-              "city": "SOUTH PORTLAND",
+              "city": "WINTHROP",
               "country": "US",
-              "line1": "279 MAIN ST",
+              "line1": "16 PECK FARM ROAD",
               "line2": "",
               "state": "ME",
-              "zip": "04106"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "11:00 am"
-                ]
-              },
-              {
-                "date": "2021-03-02",
-                "day": "Tuesday",
-                "slots": [
-                  "10:45 am",
-                  "11:15 am",
-                  "11:45 am",
-                  "12:00 pm",
-                  "12:30 pm",
-                  "12:45 pm",
-                  "01:00 pm",
-                  "02:15 pm",
-                  "02:30 pm",
-                  "02:45 pm",
-                  "03:00 pm",
-                  "03:15 pm",
-                  "03:30 pm",
-                  "03:45 pm",
-                  "04:00 pm",
-                  "04:15 pm",
-                  "04:45 pm",
-                  "05:00 pm",
-                  "05:15 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 23.66,
-            "fhirLocationId": "ed34db31-aff5-4ba5-ac85-93099f24949b",
-            "locationId": "ed34db31-aff5-4ba5-ac85-93099f24949b",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "19678",
-            "phone": [
-              {
-                "number": "207-741-2260",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "207-741-2261",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "207-741-2260",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 43.63089528,
-              "longitude": -70.29228018
-            },
-            "storenumber": "19678"
-          },
-          {
-            "address": {
-              "city": "DAMARISCOTTA",
-              "country": "US",
-              "line1": "365 MAIN STREET",
-              "line2": "",
-              "state": "ME",
-              "zip": "04543"
+              "zip": "04364"
             },
             "appointmentAvailability": [
               {
                 "date": "2021-03-02",
                 "day": "Tuesday",
                 "slots": [
+                  "09:15 am",
                   "10:00 am",
                   "10:15 am",
                   "10:30 am",
                   "10:45 am",
+                  "11:00 am",
                   "11:15 am",
-                  "11:30 am",
                   "11:45 am",
                   "12:00 pm"
                 ]
@@ -24100,48 +24364,48 @@
               }
             ],
             "description": "",
-            "distance": 23.89,
-            "fhirLocationId": "6ad777d6-3174-4226-8eb0-1210a460878e",
-            "locationId": "6ad777d6-3174-4226-8eb0-1210a460878e",
+            "distance": 18.13,
+            "fhirLocationId": "b827162b-17c4-4125-b51e-4fd2d2e7e165",
+            "locationId": "b827162b-17c4-4125-b51e-4fd2d2e7e165",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
             "name": "Walgreen Drug Store",
             "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "17964",
+            "partnerLocationId": "17745",
             "phone": [
               {
-                "number": "207-563-3506",
+                "number": "207-377-2279",
                 "type": "StorePrimary"
               },
               {
-                "number": "207-563-2729",
+                "number": "207-377-3403",
                 "type": "StoreSecondary"
               },
               {
-                "number": "207-563-3506",
+                "number": "207-377-2279",
                 "type": "Pharmacy"
               }
             ],
             "position": {
-              "latitude": 44.03136673,
-              "longitude": -69.52287634
+              "latitude": 44.30804254,
+              "longitude": -69.9598983
             },
-            "storenumber": "17964"
+            "storenumber": "17745"
           },
           {
             "address": {
-              "city": "WINDHAM",
+              "city": "RUMFORD",
               "country": "US",
-              "line1": "741 ROOSEVELT TRL",
+              "line1": "7 PORTLAND STREET",
               "line2": "",
               "state": "ME",
-              "zip": "04062"
+              "zip": "04276"
             },
             "appointmentAvailability": [
               {
                 "date": "2021-03-02",
                 "day": "Tuesday",
                 "slots": [
-                  "09:15 am",
+                  "09:30 am",
                   "09:45 am",
                   "10:00 am",
                   "10:15 am",
@@ -24168,67 +24432,53 @@
               }
             ],
             "description": "",
-            "distance": 24.84,
-            "fhirLocationId": "199e3ae8-5ec1-4149-9e78-049410b6807c",
-            "locationId": "199e3ae8-5ec1-4149-9e78-049410b6807c",
+            "distance": 18.1,
+            "fhirLocationId": "7107728e-ad0f-450d-947f-9c9e5ac9b00e",
+            "locationId": "7107728e-ad0f-450d-947f-9c9e5ac9b00e",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
             "name": "Walgreen Drug Store",
             "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "10428",
+            "partnerLocationId": "17159",
             "phone": [
               {
-                "number": "207-893-2562",
+                "number": "207-364-2969",
                 "type": "StorePrimary"
               },
               {
-                "number": "207-893-2566",
+                "number": "207-364-9095",
                 "type": "StoreSecondary"
               },
               {
-                "number": "207-893-2562",
+                "number": "207-364-2969",
                 "type": "Pharmacy"
               }
             ],
             "position": {
-              "latitude": 43.833828,
-              "longitude": -70.43718
+              "latitude": 44.54772696,
+              "longitude": -70.54616918
             },
-            "storenumber": "10428"
-          }
-        ]
-      },
-      "second_dose_moderna": {
-        "error": [
-          {
-            "code": "FC_904_NoData",
-            "message": "Insufficient inventory."
-          }
-        ]
-      },
-      "second_dose_pfizer": {
-        "locations": [
+            "storenumber": "17159"
+          },
           {
             "address": {
-              "city": "LISBON FALLS",
+              "city": "NORWAY",
               "country": "US",
-              "line1": "575 LISBON ST",
+              "line1": "53 PARIS ST",
               "line2": "",
               "state": "ME",
-              "zip": "04252"
+              "zip": "04268"
             },
             "appointmentAvailability": [
               {
                 "date": "2021-03-02",
                 "day": "Tuesday",
                 "slots": [
+                  "09:45 am",
+                  "10:00 am",
                   "10:15 am",
                   "10:30 am",
                   "10:45 am",
-                  "11:00 am",
-                  "11:15 am",
-                  "11:30 am",
-                  "11:45 am",
-                  "12:00 pm"
+                  "11:45 am"
                 ]
               }
             ],
@@ -24246,52 +24496,47 @@
             ],
             "description": "",
             "distance": 19.89,
-            "fhirLocationId": "e3b0598f-2ca5-4ebb-8650-d5a92bd4e40c",
-            "locationId": "e3b0598f-2ca5-4ebb-8650-d5a92bd4e40c",
+            "fhirLocationId": "64cf7d9d-ee0b-4c30-8d95-fdeb683d0f89",
+            "locationId": "64cf7d9d-ee0b-4c30-8d95-fdeb683d0f89",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
             "name": "Walgreen Drug Store",
             "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "19908",
+            "partnerLocationId": "11416",
             "phone": [
               {
-                "number": "207-353-4843",
+                "number": "207-744-0712",
                 "type": "StorePrimary"
               },
               {
-                "number": "207-353-6675",
+                "number": "207-744-0715",
                 "type": "StoreSecondary"
               },
               {
-                "number": "207-353-4843",
+                "number": "207-744-0712",
                 "type": "Pharmacy"
               }
             ],
             "position": {
-              "latitude": 44.00466632,
-              "longitude": -70.07484533
+              "latitude": 44.21199943,
+              "longitude": -70.52966783
             },
-            "storenumber": "19908"
+            "storenumber": "11416"
           },
           {
             "address": {
-              "city": "GRAY",
+              "city": "AUBURN",
               "country": "US",
-              "line1": "62 WEST GRAY ROAD",
+              "line1": "61 UNION ST",
               "line2": "",
               "state": "ME",
-              "zip": "04039"
+              "zip": "04210"
             },
             "appointmentAvailability": [
               {
-                "date": "2021-03-02",
-                "day": "Tuesday",
+                "date": "2021-03-01",
+                "day": "Monday",
                 "slots": [
-                  "10:45 am",
-                  "11:00 am",
-                  "11:15 am",
-                  "11:30 am",
-                  "11:45 am",
-                  "12:00 pm"
+                  "10:30 am"
                 ]
               }
             ],
@@ -24308,32 +24553,32 @@
               }
             ],
             "description": "",
-            "distance": 20.96,
-            "fhirLocationId": "4d04b860-93f5-4744-a317-1afb5f4672c2",
-            "locationId": "4d04b860-93f5-4744-a317-1afb5f4672c2",
+            "distance": 22.08,
+            "fhirLocationId": "3eeafdf5-1f00-4a1b-aca5-3358c5da39f9",
+            "locationId": "3eeafdf5-1f00-4a1b-aca5-3358c5da39f9",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
             "name": "Walgreen Drug Store",
             "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "19789",
+            "partnerLocationId": "19397",
             "phone": [
               {
-                "number": "207-657-2333",
+                "number": "207-753-0506",
                 "type": "StorePrimary"
               },
               {
-                "number": "207-657-5934",
+                "number": "207-753-0102",
                 "type": "StoreSecondary"
               },
               {
-                "number": "207-657-2333",
+                "number": "207-753-0506",
                 "type": "Pharmacy"
               }
             ],
             "position": {
-              "latitude": 43.88297329,
-              "longitude": -70.34149474
+              "latitude": 44.10021175,
+              "longitude": -70.22903918
             },
-            "storenumber": "19789"
+            "storenumber": "19397"
           },
           {
             "address": {
@@ -24349,10 +24594,6 @@
                 "date": "2021-03-02",
                 "day": "Tuesday",
                 "slots": [
-                  "09:15 am",
-                  "09:30 am",
-                  "09:45 am",
-                  "10:00 am",
                   "10:15 am",
                   "10:30 am",
                   "10:45 am",
@@ -24376,7 +24617,7 @@
               }
             ],
             "description": "",
-            "distance": 11.42,
+            "distance": 22.94,
             "fhirLocationId": "1367177c-eac2-43e2-a5c8-6738bd789fbf",
             "locationId": "1367177c-eac2-43e2-a5c8-6738bd789fbf",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -24417,13 +24658,11 @@
                 "date": "2021-03-02",
                 "day": "Tuesday",
                 "slots": [
-                  "09:15 am",
                   "09:30 am",
                   "09:45 am",
                   "10:15 am",
                   "10:30 am",
                   "10:45 am",
-                  "11:00 am",
                   "11:15 am",
                   "11:30 am",
                   "11:45 am",
@@ -24432,13 +24671,10 @@
                   "12:30 pm",
                   "12:45 pm",
                   "01:00 pm",
-                  "02:15 pm",
                   "02:30 pm",
                   "02:45 pm",
                   "03:00 pm",
-                  "03:15 pm",
                   "03:30 pm",
-                  "03:45 pm",
                   "04:00 pm",
                   "04:15 pm",
                   "04:30 pm",
@@ -24462,7 +24698,7 @@
               }
             ],
             "description": "",
-            "distance": 12.33,
+            "distance": 20.36,
             "fhirLocationId": "50844541-fa80-482e-9b48-44a356ea1af5",
             "locationId": "50844541-fa80-482e-9b48-44a356ea1af5",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -24488,222 +24724,6 @@
               "longitude": -70.25584961
             },
             "storenumber": "19162"
-          },
-          {
-            "address": {
-              "city": "SOUTH PORTLAND",
-              "country": "US",
-              "line1": "279 MAIN ST",
-              "line2": "",
-              "state": "ME",
-              "zip": "04106"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "11:00 am"
-                ]
-              },
-              {
-                "date": "2021-03-02",
-                "day": "Tuesday",
-                "slots": [
-                  "10:45 am",
-                  "11:15 am",
-                  "11:45 am",
-                  "12:00 pm",
-                  "12:30 pm",
-                  "12:45 pm",
-                  "01:00 pm",
-                  "02:15 pm",
-                  "02:30 pm",
-                  "02:45 pm",
-                  "03:00 pm",
-                  "03:15 pm",
-                  "03:30 pm",
-                  "03:45 pm",
-                  "04:00 pm",
-                  "04:15 pm",
-                  "04:45 pm",
-                  "05:00 pm",
-                  "05:15 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 22.78,
-            "fhirLocationId": "ed34db31-aff5-4ba5-ac85-93099f24949b",
-            "locationId": "ed34db31-aff5-4ba5-ac85-93099f24949b",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "19678",
-            "phone": [
-              {
-                "number": "207-741-2260",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "207-741-2261",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "207-741-2260",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 43.63089528,
-              "longitude": -70.29228018
-            },
-            "storenumber": "19678"
-          },
-          {
-            "address": {
-              "city": "DAMARISCOTTA",
-              "country": "US",
-              "line1": "365 MAIN STREET",
-              "line2": "",
-              "state": "ME",
-              "zip": "04543"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-02",
-                "day": "Tuesday",
-                "slots": [
-                  "10:00 am",
-                  "10:15 am",
-                  "10:30 am",
-                  "10:45 am",
-                  "11:15 am",
-                  "11:30 am",
-                  "11:45 am",
-                  "12:00 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 23.52,
-            "fhirLocationId": "6ad777d6-3174-4226-8eb0-1210a460878e",
-            "locationId": "6ad777d6-3174-4226-8eb0-1210a460878e",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "17964",
-            "phone": [
-              {
-                "number": "207-563-3506",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "207-563-2729",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "207-563-3506",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 44.03136673,
-              "longitude": -69.52287634
-            },
-            "storenumber": "17964"
-          },
-          {
-            "address": {
-              "city": "WINDHAM",
-              "country": "US",
-              "line1": "741 ROOSEVELT TRL",
-              "line2": "",
-              "state": "ME",
-              "zip": "04062"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-02",
-                "day": "Tuesday",
-                "slots": [
-                  "09:15 am",
-                  "09:45 am",
-                  "10:00 am",
-                  "10:15 am",
-                  "10:30 am",
-                  "10:45 am",
-                  "11:00 am",
-                  "11:15 am",
-                  "11:30 am",
-                  "11:45 am",
-                  "12:00 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 18.49,
-            "fhirLocationId": "199e3ae8-5ec1-4149-9e78-049410b6807c",
-            "locationId": "199e3ae8-5ec1-4149-9e78-049410b6807c",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "10428",
-            "phone": [
-              {
-                "number": "207-893-2562",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "207-893-2566",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "207-893-2562",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 43.833828,
-              "longitude": -70.43718
-            },
-            "storenumber": "10428"
           }
         ]
       }
@@ -26135,86 +26155,28 @@
   {
     "address": "61 UNION ST",
     "appointments": [
+      {
+        "time": "2021-03-01T10:30:00.000-05:00",
+        "type": "both_doses"
+      },
+      {
+        "time": "2021-03-01T10:30:00.000-05:00",
+        "type": "second_dose_pfizer"
+      }
     ],
-    "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T14:41:49.657+00:00",
+    "appointments_available": true,
+    "appointments_last_fetched": "2021-02-27T16:38:07.785+00:00",
     "appointments_raw": {
       "both_doses": {
         "locations": [
           {
             "address": {
-              "city": "NAPLES",
+              "city": "WINTHROP",
               "country": "US",
-              "line1": "665 ROOSEVELT TRL",
+              "line1": "16 PECK FARM ROAD",
               "line2": "",
               "state": "ME",
-              "zip": "04055"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-02",
-                "day": "Tuesday",
-                "slots": [
-                  "09:30 am",
-                  "09:45 am",
-                  "10:00 am",
-                  "10:15 am",
-                  "10:30 am",
-                  "10:45 am",
-                  "11:00 am",
-                  "11:15 am",
-                  "11:30 am"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 23,
-            "fhirLocationId": "99b69103-794a-4f91-becb-9a21b5aed7d6",
-            "locationId": "99b69103-794a-4f91-becb-9a21b5aed7d6",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "19902",
-            "phone": [
-              {
-                "number": "207-693-3937",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "207-693-4701",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "207-693-3937",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 43.97006399,
-              "longitude": -70.59362442
-            },
-            "storenumber": "19902"
-          },
-          {
-            "address": {
-              "city": "WINDHAM",
-              "country": "US",
-              "line1": "741 ROOSEVELT TRL",
-              "line2": "",
-              "state": "ME",
-              "zip": "04062"
+              "zip": "04364"
             },
             "appointmentAvailability": [
               {
@@ -26222,14 +26184,12 @@
                 "day": "Tuesday",
                 "slots": [
                   "09:15 am",
-                  "09:45 am",
                   "10:00 am",
                   "10:15 am",
                   "10:30 am",
                   "10:45 am",
                   "11:00 am",
                   "11:15 am",
-                  "11:30 am",
                   "11:45 am",
                   "12:00 pm"
                 ]
@@ -26248,197 +26208,47 @@
               }
             ],
             "description": "",
-            "distance": 10.96,
-            "fhirLocationId": "199e3ae8-5ec1-4149-9e78-049410b6807c",
-            "locationId": "199e3ae8-5ec1-4149-9e78-049410b6807c",
+            "distance": 16.8,
+            "fhirLocationId": "b827162b-17c4-4125-b51e-4fd2d2e7e165",
+            "locationId": "b827162b-17c4-4125-b51e-4fd2d2e7e165",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
             "name": "Walgreen Drug Store",
             "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "10428",
+            "partnerLocationId": "17745",
             "phone": [
               {
-                "number": "207-893-2562",
+                "number": "207-377-2279",
                 "type": "StorePrimary"
               },
               {
-                "number": "207-893-2566",
+                "number": "207-377-3403",
                 "type": "StoreSecondary"
               },
               {
-                "number": "207-893-2562",
+                "number": "207-377-2279",
                 "type": "Pharmacy"
               }
             ],
             "position": {
-              "latitude": 43.833828,
-              "longitude": -70.43718
+              "latitude": 44.30804254,
+              "longitude": -69.9598983
             },
-            "storenumber": "10428"
+            "storenumber": "17745"
           },
           {
             "address": {
-              "city": "GRAY",
+              "city": "RUMFORD",
               "country": "US",
-              "line1": "62 WEST GRAY ROAD",
+              "line1": "7 PORTLAND STREET",
               "line2": "",
               "state": "ME",
-              "zip": "04039"
+              "zip": "04276"
             },
             "appointmentAvailability": [
               {
                 "date": "2021-03-02",
                 "day": "Tuesday",
                 "slots": [
-                  "10:45 am",
-                  "11:00 am",
-                  "11:15 am",
-                  "11:30 am",
-                  "11:45 am",
-                  "12:00 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 10.68,
-            "fhirLocationId": "4d04b860-93f5-4744-a317-1afb5f4672c2",
-            "locationId": "4d04b860-93f5-4744-a317-1afb5f4672c2",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "19789",
-            "phone": [
-              {
-                "number": "207-657-2333",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "207-657-5934",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "207-657-2333",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 43.88297329,
-              "longitude": -70.34149474
-            },
-            "storenumber": "19789"
-          },
-          {
-            "address": {
-              "city": "AUBURN",
-              "country": "US",
-              "line1": "698 MINOT AVE",
-              "line2": "",
-              "state": "ME",
-              "zip": "04210"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-02",
-                "day": "Tuesday",
-                "slots": [
-                  "09:15 am",
-                  "09:30 am",
-                  "09:45 am",
-                  "10:15 am",
-                  "10:30 am",
-                  "10:45 am",
-                  "11:00 am",
-                  "11:15 am",
-                  "11:30 am",
-                  "11:45 am",
-                  "12:00 pm",
-                  "12:15 pm",
-                  "12:30 pm",
-                  "12:45 pm",
-                  "01:00 pm",
-                  "02:15 pm",
-                  "02:30 pm",
-                  "02:45 pm",
-                  "03:00 pm",
-                  "03:15 pm",
-                  "03:30 pm",
-                  "03:45 pm",
-                  "04:00 pm",
-                  "04:15 pm",
-                  "04:30 pm",
-                  "04:45 pm",
-                  "05:00 pm",
-                  "05:15 pm",
-                  "05:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 16.81,
-            "fhirLocationId": "50844541-fa80-482e-9b48-44a356ea1af5",
-            "locationId": "50844541-fa80-482e-9b48-44a356ea1af5",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "19162",
-            "phone": [
-              {
-                "number": "207-786-5330",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "207-786-5216",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "207-786-5330",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 44.08161587,
-              "longitude": -70.25584961
-            },
-            "storenumber": "19162"
-          },
-          {
-            "address": {
-              "city": "CORNISH",
-              "country": "US",
-              "line1": "151 MAPLE STREET",
-              "line2": "",
-              "state": "ME",
-              "zip": "04020"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-02",
-                "day": "Tuesday",
-                "slots": [
-                  "09:15 am",
                   "09:30 am",
                   "09:45 am",
                   "10:00 am",
@@ -26466,32 +26276,32 @@
               }
             ],
             "description": "",
-            "distance": 21.76,
-            "fhirLocationId": "6a2e970c-cc50-4fd3-82aa-04e83a41c0ba",
-            "locationId": "6a2e970c-cc50-4fd3-82aa-04e83a41c0ba",
+            "distance": 17.06,
+            "fhirLocationId": "7107728e-ad0f-450d-947f-9c9e5ac9b00e",
+            "locationId": "7107728e-ad0f-450d-947f-9c9e5ac9b00e",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
             "name": "Walgreen Drug Store",
             "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "19251",
+            "partnerLocationId": "17159",
             "phone": [
               {
-                "number": "207-625-8494",
+                "number": "207-364-2969",
                 "type": "StorePrimary"
               },
               {
-                "number": "207-625-3599",
+                "number": "207-364-9095",
                 "type": "StoreSecondary"
               },
               {
-                "number": "207-625-8494",
+                "number": "207-364-2969",
                 "type": "Pharmacy"
               }
             ],
             "position": {
-              "latitude": 43.80503371,
-              "longitude": -70.81863617
+              "latitude": 44.54772696,
+              "longitude": -70.54616918
             },
-            "storenumber": "19251"
+            "storenumber": "17159"
           },
           {
             "address": {
@@ -26507,7 +26317,6 @@
                 "date": "2021-03-02",
                 "day": "Tuesday",
                 "slots": [
-                  "09:30 am",
                   "09:45 am",
                   "10:00 am",
                   "10:15 am",
@@ -26530,7 +26339,7 @@
               }
             ],
             "description": "",
-            "distance": 0.53,
+            "distance": 17.43,
             "fhirLocationId": "64cf7d9d-ee0b-4c30-8d95-fdeb683d0f89",
             "locationId": "64cf7d9d-ee0b-4c30-8d95-fdeb683d0f89",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -26559,6 +26368,64 @@
           },
           {
             "address": {
+              "city": "AUBURN",
+              "country": "US",
+              "line1": "61 UNION ST",
+              "line2": "",
+              "state": "ME",
+              "zip": "04210"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "10:30 am"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 20.18,
+            "fhirLocationId": "3eeafdf5-1f00-4a1b-aca5-3358c5da39f9",
+            "locationId": "3eeafdf5-1f00-4a1b-aca5-3358c5da39f9",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "19397",
+            "phone": [
+              {
+                "number": "207-753-0506",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "207-753-0102",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "207-753-0506",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 44.10021175,
+              "longitude": -70.22903918
+            },
+            "storenumber": "19397"
+          },
+          {
+            "address": {
               "city": "LEWISTON",
               "country": "US",
               "line1": "430 SABATTUS ST",
@@ -26571,10 +26438,6 @@
                 "date": "2021-03-02",
                 "day": "Tuesday",
                 "slots": [
-                  "09:15 am",
-                  "09:30 am",
-                  "09:45 am",
-                  "10:00 am",
                   "10:15 am",
                   "10:30 am",
                   "10:45 am",
@@ -26598,7 +26461,7 @@
               }
             ],
             "description": "",
-            "distance": 13.47,
+            "distance": 20.38,
             "fhirLocationId": "1367177c-eac2-43e2-a5c8-6738bd789fbf",
             "locationId": "1367177c-eac2-43e2-a5c8-6738bd789fbf",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -26627,422 +26490,6 @@
           },
           {
             "address": {
-              "city": "FRYEBURG",
-              "country": "US",
-              "line1": "119 BRIDGTON ROAD",
-              "line2": "",
-              "state": "ME",
-              "zip": "04037"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "11:45 am"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 24.8,
-            "fhirLocationId": "fd37b6d7-ac9f-421b-ab85-37ac7fedb8aa",
-            "locationId": "fd37b6d7-ac9f-421b-ab85-37ac7fedb8aa",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "18403",
-            "phone": [
-              {
-                "number": "207-935-2045",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "207-935-7826",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "207-935-2045",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 44.01961608,
-              "longitude": -70.96385356
-            },
-            "storenumber": "18403"
-          },
-          {
-            "address": {
-              "city": "LISBON FALLS",
-              "country": "US",
-              "line1": "575 LISBON ST",
-              "line2": "",
-              "state": "ME",
-              "zip": "04252"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-02",
-                "day": "Tuesday",
-                "slots": [
-                  "09:45 am",
-                  "10:15 am",
-                  "10:30 am",
-                  "10:45 am",
-                  "11:00 am",
-                  "11:15 am",
-                  "11:30 am",
-                  "11:45 am",
-                  "12:00 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 13.24,
-            "fhirLocationId": "e3b0598f-2ca5-4ebb-8650-d5a92bd4e40c",
-            "locationId": "e3b0598f-2ca5-4ebb-8650-d5a92bd4e40c",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "19908",
-            "phone": [
-              {
-                "number": "207-353-4843",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "207-353-6675",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "207-353-4843",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 44.00466632,
-              "longitude": -70.07484533
-            },
-            "storenumber": "19908"
-          },
-          {
-            "address": {
-              "city": "SOUTH PORTLAND",
-              "country": "US",
-              "line1": "279 MAIN ST",
-              "line2": "",
-              "state": "ME",
-              "zip": "04106"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "11:00 am"
-                ]
-              },
-              {
-                "date": "2021-03-02",
-                "day": "Tuesday",
-                "slots": [
-                  "10:45 am",
-                  "11:15 am",
-                  "11:45 am",
-                  "12:00 pm",
-                  "12:30 pm",
-                  "12:45 pm",
-                  "01:00 pm",
-                  "02:15 pm",
-                  "02:30 pm",
-                  "02:45 pm",
-                  "03:00 pm",
-                  "03:15 pm",
-                  "03:30 pm",
-                  "03:45 pm",
-                  "04:00 pm",
-                  "04:15 pm",
-                  "04:45 pm",
-                  "05:00 pm",
-                  "05:15 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 22.78,
-            "fhirLocationId": "ed34db31-aff5-4ba5-ac85-93099f24949b",
-            "locationId": "ed34db31-aff5-4ba5-ac85-93099f24949b",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "19678",
-            "phone": [
-              {
-                "number": "207-741-2260",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "207-741-2261",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "207-741-2260",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 43.63089528,
-              "longitude": -70.29228018
-            },
-            "storenumber": "19678"
-          }
-        ]
-      },
-      "second_dose_moderna": {
-        "error": [
-          {
-            "code": "FC_904_NoData",
-            "message": "Insufficient inventory."
-          }
-        ]
-      },
-      "second_dose_pfizer": {
-        "locations": [
-          {
-            "address": {
-              "city": "NAPLES",
-              "country": "US",
-              "line1": "665 ROOSEVELT TRL",
-              "line2": "",
-              "state": "ME",
-              "zip": "04055"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-02",
-                "day": "Tuesday",
-                "slots": [
-                  "09:30 am",
-                  "09:45 am",
-                  "10:00 am",
-                  "10:15 am",
-                  "10:30 am",
-                  "10:45 am",
-                  "11:00 am",
-                  "11:15 am",
-                  "11:30 am"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 18.82,
-            "fhirLocationId": "99b69103-794a-4f91-becb-9a21b5aed7d6",
-            "locationId": "99b69103-794a-4f91-becb-9a21b5aed7d6",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "19902",
-            "phone": [
-              {
-                "number": "207-693-3937",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "207-693-4701",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "207-693-3937",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 43.97006399,
-              "longitude": -70.59362442
-            },
-            "storenumber": "19902"
-          },
-          {
-            "address": {
-              "city": "WINDHAM",
-              "country": "US",
-              "line1": "741 ROOSEVELT TRL",
-              "line2": "",
-              "state": "ME",
-              "zip": "04062"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-02",
-                "day": "Tuesday",
-                "slots": [
-                  "09:15 am",
-                  "09:45 am",
-                  "10:00 am",
-                  "10:15 am",
-                  "10:30 am",
-                  "10:45 am",
-                  "11:00 am",
-                  "11:15 am",
-                  "11:30 am",
-                  "11:45 am",
-                  "12:00 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 5.43,
-            "fhirLocationId": "199e3ae8-5ec1-4149-9e78-049410b6807c",
-            "locationId": "199e3ae8-5ec1-4149-9e78-049410b6807c",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "10428",
-            "phone": [
-              {
-                "number": "207-893-2562",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "207-893-2566",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "207-893-2562",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 43.833828,
-              "longitude": -70.43718
-            },
-            "storenumber": "10428"
-          },
-          {
-            "address": {
-              "city": "GRAY",
-              "country": "US",
-              "line1": "62 WEST GRAY ROAD",
-              "line2": "",
-              "state": "ME",
-              "zip": "04039"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-02",
-                "day": "Tuesday",
-                "slots": [
-                  "10:45 am",
-                  "11:00 am",
-                  "11:15 am",
-                  "11:30 am",
-                  "11:45 am",
-                  "12:00 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 8.98,
-            "fhirLocationId": "4d04b860-93f5-4744-a317-1afb5f4672c2",
-            "locationId": "4d04b860-93f5-4744-a317-1afb5f4672c2",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "19789",
-            "phone": [
-              {
-                "number": "207-657-2333",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "207-657-5934",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "207-657-2333",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 43.88297329,
-              "longitude": -70.34149474
-            },
-            "storenumber": "19789"
-          },
-          {
-            "address": {
               "city": "AUBURN",
               "country": "US",
               "line1": "698 MINOT AVE",
@@ -27055,13 +26502,11 @@
                 "date": "2021-03-02",
                 "day": "Tuesday",
                 "slots": [
-                  "09:15 am",
                   "09:30 am",
                   "09:45 am",
                   "10:15 am",
                   "10:30 am",
                   "10:45 am",
-                  "11:00 am",
                   "11:15 am",
                   "11:30 am",
                   "11:45 am",
@@ -27070,13 +26515,10 @@
                   "12:30 pm",
                   "12:45 pm",
                   "01:00 pm",
-                  "02:15 pm",
                   "02:30 pm",
                   "02:45 pm",
                   "03:00 pm",
-                  "03:15 pm",
                   "03:30 pm",
-                  "03:45 pm",
                   "04:00 pm",
                   "04:15 pm",
                   "04:30 pm",
@@ -27100,7 +26542,7 @@
               }
             ],
             "description": "",
-            "distance": 23.35,
+            "distance": 21.34,
             "fhirLocationId": "50844541-fa80-482e-9b48-44a356ea1af5",
             "locationId": "50844541-fa80-482e-9b48-44a356ea1af5",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -27126,15 +26568,27 @@
               "longitude": -70.25584961
             },
             "storenumber": "19162"
-          },
+          }
+        ]
+      },
+      "second_dose_moderna": {
+        "error": [
+          {
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
+          }
+        ]
+      },
+      "second_dose_pfizer": {
+        "locations": [
           {
             "address": {
-              "city": "CORNISH",
+              "city": "WINTHROP",
               "country": "US",
-              "line1": "151 MAPLE STREET",
+              "line1": "16 PECK FARM ROAD",
               "line2": "",
               "state": "ME",
-              "zip": "04020"
+              "zip": "04364"
             },
             "appointmentAvailability": [
               {
@@ -27142,6 +26596,71 @@
                 "day": "Tuesday",
                 "slots": [
                   "09:15 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "11:00 am",
+                  "11:15 am",
+                  "11:45 am",
+                  "12:00 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 18.13,
+            "fhirLocationId": "b827162b-17c4-4125-b51e-4fd2d2e7e165",
+            "locationId": "b827162b-17c4-4125-b51e-4fd2d2e7e165",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "17745",
+            "phone": [
+              {
+                "number": "207-377-2279",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "207-377-3403",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "207-377-2279",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 44.30804254,
+              "longitude": -69.9598983
+            },
+            "storenumber": "17745"
+          },
+          {
+            "address": {
+              "city": "RUMFORD",
+              "country": "US",
+              "line1": "7 PORTLAND STREET",
+              "line2": "",
+              "state": "ME",
+              "zip": "04276"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
                   "09:30 am",
                   "09:45 am",
                   "10:00 am",
@@ -27169,32 +26688,32 @@
               }
             ],
             "description": "",
-            "distance": 22.23,
-            "fhirLocationId": "6a2e970c-cc50-4fd3-82aa-04e83a41c0ba",
-            "locationId": "6a2e970c-cc50-4fd3-82aa-04e83a41c0ba",
+            "distance": 18.1,
+            "fhirLocationId": "7107728e-ad0f-450d-947f-9c9e5ac9b00e",
+            "locationId": "7107728e-ad0f-450d-947f-9c9e5ac9b00e",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
             "name": "Walgreen Drug Store",
             "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "19251",
+            "partnerLocationId": "17159",
             "phone": [
               {
-                "number": "207-625-8494",
+                "number": "207-364-2969",
                 "type": "StorePrimary"
               },
               {
-                "number": "207-625-3599",
+                "number": "207-364-9095",
                 "type": "StoreSecondary"
               },
               {
-                "number": "207-625-8494",
+                "number": "207-364-2969",
                 "type": "Pharmacy"
               }
             ],
             "position": {
-              "latitude": 43.80503371,
-              "longitude": -70.81863617
+              "latitude": 44.54772696,
+              "longitude": -70.54616918
             },
-            "storenumber": "19251"
+            "storenumber": "17159"
           },
           {
             "address": {
@@ -27210,7 +26729,6 @@
                 "date": "2021-03-02",
                 "day": "Tuesday",
                 "slots": [
-                  "09:30 am",
                   "09:45 am",
                   "10:00 am",
                   "10:15 am",
@@ -27262,6 +26780,64 @@
           },
           {
             "address": {
+              "city": "AUBURN",
+              "country": "US",
+              "line1": "61 UNION ST",
+              "line2": "",
+              "state": "ME",
+              "zip": "04210"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "10:30 am"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 22.08,
+            "fhirLocationId": "3eeafdf5-1f00-4a1b-aca5-3358c5da39f9",
+            "locationId": "3eeafdf5-1f00-4a1b-aca5-3358c5da39f9",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "19397",
+            "phone": [
+              {
+                "number": "207-753-0506",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "207-753-0102",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "207-753-0506",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 44.10021175,
+              "longitude": -70.22903918
+            },
+            "storenumber": "19397"
+          },
+          {
+            "address": {
               "city": "LEWISTON",
               "country": "US",
               "line1": "430 SABATTUS ST",
@@ -27274,10 +26850,6 @@
                 "date": "2021-03-02",
                 "day": "Tuesday",
                 "slots": [
-                  "09:15 am",
-                  "09:30 am",
-                  "09:45 am",
-                  "10:00 am",
                   "10:15 am",
                   "10:30 am",
                   "10:45 am",
@@ -27301,7 +26873,7 @@
               }
             ],
             "description": "",
-            "distance": 10.72,
+            "distance": 22.94,
             "fhirLocationId": "1367177c-eac2-43e2-a5c8-6738bd789fbf",
             "locationId": "1367177c-eac2-43e2-a5c8-6738bd789fbf",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -27330,168 +26902,42 @@
           },
           {
             "address": {
-              "city": "FRYEBURG",
+              "city": "AUBURN",
               "country": "US",
-              "line1": "119 BRIDGTON ROAD",
+              "line1": "698 MINOT AVE",
               "line2": "",
               "state": "ME",
-              "zip": "04037"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "11:45 am"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 7.43,
-            "fhirLocationId": "fd37b6d7-ac9f-421b-ab85-37ac7fedb8aa",
-            "locationId": "fd37b6d7-ac9f-421b-ab85-37ac7fedb8aa",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "18403",
-            "phone": [
-              {
-                "number": "207-935-2045",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "207-935-7826",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "207-935-2045",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 44.01961608,
-              "longitude": -70.96385356
-            },
-            "storenumber": "18403"
-          },
-          {
-            "address": {
-              "city": "LISBON FALLS",
-              "country": "US",
-              "line1": "575 LISBON ST",
-              "line2": "",
-              "state": "ME",
-              "zip": "04252"
+              "zip": "04210"
             },
             "appointmentAvailability": [
               {
                 "date": "2021-03-02",
                 "day": "Tuesday",
                 "slots": [
+                  "09:30 am",
                   "09:45 am",
                   "10:15 am",
                   "10:30 am",
                   "10:45 am",
-                  "11:00 am",
                   "11:15 am",
                   "11:30 am",
                   "11:45 am",
-                  "12:00 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 23.41,
-            "fhirLocationId": "e3b0598f-2ca5-4ebb-8650-d5a92bd4e40c",
-            "locationId": "e3b0598f-2ca5-4ebb-8650-d5a92bd4e40c",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "19908",
-            "phone": [
-              {
-                "number": "207-353-4843",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "207-353-6675",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "207-353-4843",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 44.00466632,
-              "longitude": -70.07484533
-            },
-            "storenumber": "19908"
-          },
-          {
-            "address": {
-              "city": "SOUTH PORTLAND",
-              "country": "US",
-              "line1": "279 MAIN ST",
-              "line2": "",
-              "state": "ME",
-              "zip": "04106"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "11:00 am"
-                ]
-              },
-              {
-                "date": "2021-03-02",
-                "day": "Tuesday",
-                "slots": [
-                  "10:45 am",
-                  "11:15 am",
-                  "11:45 am",
                   "12:00 pm",
+                  "12:15 pm",
                   "12:30 pm",
                   "12:45 pm",
                   "01:00 pm",
-                  "02:15 pm",
                   "02:30 pm",
                   "02:45 pm",
                   "03:00 pm",
-                  "03:15 pm",
                   "03:30 pm",
-                  "03:45 pm",
                   "04:00 pm",
                   "04:15 pm",
+                  "04:30 pm",
                   "04:45 pm",
                   "05:00 pm",
-                  "05:15 pm"
+                  "05:15 pm",
+                  "05:30 pm"
                 ]
               }
             ],
@@ -27508,32 +26954,32 @@
               }
             ],
             "description": "",
-            "distance": 23.76,
-            "fhirLocationId": "ed34db31-aff5-4ba5-ac85-93099f24949b",
-            "locationId": "ed34db31-aff5-4ba5-ac85-93099f24949b",
+            "distance": 20.36,
+            "fhirLocationId": "50844541-fa80-482e-9b48-44a356ea1af5",
+            "locationId": "50844541-fa80-482e-9b48-44a356ea1af5",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
             "name": "Walgreen Drug Store",
             "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "19678",
+            "partnerLocationId": "19162",
             "phone": [
               {
-                "number": "207-741-2260",
+                "number": "207-786-5330",
                 "type": "StorePrimary"
               },
               {
-                "number": "207-741-2261",
+                "number": "207-786-5216",
                 "type": "StoreSecondary"
               },
               {
-                "number": "207-741-2260",
+                "number": "207-786-5330",
                 "type": "Pharmacy"
               }
             ],
             "position": {
-              "latitude": 43.63089528,
-              "longitude": -70.29228018
+              "latitude": 44.08161587,
+              "longitude": -70.25584961
             },
-            "storenumber": "19678"
+            "storenumber": "19162"
           }
         ]
       }
@@ -27551,14 +26997,6 @@
     "address": "698 MINOT AVE",
     "appointments": [
       {
-        "time": "2021-03-02T09:15:00.000-05:00",
-        "type": "both_doses"
-      },
-      {
-        "time": "2021-03-02T09:15:00.000-05:00",
-        "type": "second_dose_pfizer"
-      },
-      {
         "time": "2021-03-02T09:30:00.000-05:00",
         "type": "both_doses"
       },
@@ -27596,14 +27034,6 @@
       },
       {
         "time": "2021-03-02T10:45:00.000-05:00",
-        "type": "second_dose_pfizer"
-      },
-      {
-        "time": "2021-03-02T11:00:00.000-05:00",
-        "type": "both_doses"
-      },
-      {
-        "time": "2021-03-02T11:00:00.000-05:00",
         "type": "second_dose_pfizer"
       },
       {
@@ -27671,14 +27101,6 @@
         "type": "second_dose_pfizer"
       },
       {
-        "time": "2021-03-02T14:15:00.000-05:00",
-        "type": "both_doses"
-      },
-      {
-        "time": "2021-03-02T14:15:00.000-05:00",
-        "type": "second_dose_pfizer"
-      },
-      {
         "time": "2021-03-02T14:30:00.000-05:00",
         "type": "both_doses"
       },
@@ -27703,27 +27125,11 @@
         "type": "second_dose_pfizer"
       },
       {
-        "time": "2021-03-02T15:15:00.000-05:00",
-        "type": "both_doses"
-      },
-      {
-        "time": "2021-03-02T15:15:00.000-05:00",
-        "type": "second_dose_pfizer"
-      },
-      {
         "time": "2021-03-02T15:30:00.000-05:00",
         "type": "both_doses"
       },
       {
         "time": "2021-03-02T15:30:00.000-05:00",
-        "type": "second_dose_pfizer"
-      },
-      {
-        "time": "2021-03-02T15:45:00.000-05:00",
-        "type": "both_doses"
-      },
-      {
-        "time": "2021-03-02T15:45:00.000-05:00",
         "type": "second_dose_pfizer"
       },
       {
@@ -27784,24 +27190,93 @@
       }
     ],
     "appointments_available": true,
-    "appointments_last_fetched": "2021-02-27T14:47:16.084+00:00",
+    "appointments_last_fetched": "2021-02-27T16:38:07.785+00:00",
     "appointments_raw": {
       "both_doses": {
         "locations": [
           {
             "address": {
-              "city": "LISBON FALLS",
+              "city": "WINTHROP",
               "country": "US",
-              "line1": "575 LISBON ST",
+              "line1": "16 PECK FARM ROAD",
               "line2": "",
               "state": "ME",
-              "zip": "04252"
+              "zip": "04364"
             },
             "appointmentAvailability": [
               {
                 "date": "2021-03-02",
                 "day": "Tuesday",
                 "slots": [
+                  "09:15 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "11:00 am",
+                  "11:15 am",
+                  "11:45 am",
+                  "12:00 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 16.8,
+            "fhirLocationId": "b827162b-17c4-4125-b51e-4fd2d2e7e165",
+            "locationId": "b827162b-17c4-4125-b51e-4fd2d2e7e165",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "17745",
+            "phone": [
+              {
+                "number": "207-377-2279",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "207-377-3403",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "207-377-2279",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 44.30804254,
+              "longitude": -69.9598983
+            },
+            "storenumber": "17745"
+          },
+          {
+            "address": {
+              "city": "RUMFORD",
+              "country": "US",
+              "line1": "7 PORTLAND STREET",
+              "line2": "",
+              "state": "ME",
+              "zip": "04276"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "09:30 am",
+                  "09:45 am",
+                  "10:00 am",
                   "10:15 am",
                   "10:30 am",
                   "10:45 am",
@@ -27826,53 +27301,53 @@
               }
             ],
             "description": "",
-            "distance": 12.04,
-            "fhirLocationId": "e3b0598f-2ca5-4ebb-8650-d5a92bd4e40c",
-            "locationId": "e3b0598f-2ca5-4ebb-8650-d5a92bd4e40c",
+            "distance": 17.06,
+            "fhirLocationId": "7107728e-ad0f-450d-947f-9c9e5ac9b00e",
+            "locationId": "7107728e-ad0f-450d-947f-9c9e5ac9b00e",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
             "name": "Walgreen Drug Store",
             "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "19908",
+            "partnerLocationId": "17159",
             "phone": [
               {
-                "number": "207-353-4843",
+                "number": "207-364-2969",
                 "type": "StorePrimary"
               },
               {
-                "number": "207-353-6675",
+                "number": "207-364-9095",
                 "type": "StoreSecondary"
               },
               {
-                "number": "207-353-4843",
+                "number": "207-364-2969",
                 "type": "Pharmacy"
               }
             ],
             "position": {
-              "latitude": 44.00466632,
-              "longitude": -70.07484533
+              "latitude": 44.54772696,
+              "longitude": -70.54616918
             },
-            "storenumber": "19908"
+            "storenumber": "17159"
           },
           {
             "address": {
-              "city": "GRAY",
+              "city": "NORWAY",
               "country": "US",
-              "line1": "62 WEST GRAY ROAD",
+              "line1": "53 PARIS ST",
               "line2": "",
               "state": "ME",
-              "zip": "04039"
+              "zip": "04268"
             },
             "appointmentAvailability": [
               {
                 "date": "2021-03-02",
                 "day": "Tuesday",
                 "slots": [
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am",
                   "10:45 am",
-                  "11:00 am",
-                  "11:15 am",
-                  "11:30 am",
-                  "11:45 am",
-                  "12:00 pm"
+                  "11:45 am"
                 ]
               }
             ],
@@ -27889,32 +27364,90 @@
               }
             ],
             "description": "",
-            "distance": 20.06,
-            "fhirLocationId": "4d04b860-93f5-4744-a317-1afb5f4672c2",
-            "locationId": "4d04b860-93f5-4744-a317-1afb5f4672c2",
+            "distance": 17.43,
+            "fhirLocationId": "64cf7d9d-ee0b-4c30-8d95-fdeb683d0f89",
+            "locationId": "64cf7d9d-ee0b-4c30-8d95-fdeb683d0f89",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
             "name": "Walgreen Drug Store",
             "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "19789",
+            "partnerLocationId": "11416",
             "phone": [
               {
-                "number": "207-657-2333",
+                "number": "207-744-0712",
                 "type": "StorePrimary"
               },
               {
-                "number": "207-657-5934",
+                "number": "207-744-0715",
                 "type": "StoreSecondary"
               },
               {
-                "number": "207-657-2333",
+                "number": "207-744-0712",
                 "type": "Pharmacy"
               }
             ],
             "position": {
-              "latitude": 43.88297329,
-              "longitude": -70.34149474
+              "latitude": 44.21199943,
+              "longitude": -70.52966783
             },
-            "storenumber": "19789"
+            "storenumber": "11416"
+          },
+          {
+            "address": {
+              "city": "AUBURN",
+              "country": "US",
+              "line1": "61 UNION ST",
+              "line2": "",
+              "state": "ME",
+              "zip": "04210"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "10:30 am"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 20.18,
+            "fhirLocationId": "3eeafdf5-1f00-4a1b-aca5-3358c5da39f9",
+            "locationId": "3eeafdf5-1f00-4a1b-aca5-3358c5da39f9",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "19397",
+            "phone": [
+              {
+                "number": "207-753-0506",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "207-753-0102",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "207-753-0506",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 44.10021175,
+              "longitude": -70.22903918
+            },
+            "storenumber": "19397"
           },
           {
             "address": {
@@ -27930,10 +27463,6 @@
                 "date": "2021-03-02",
                 "day": "Tuesday",
                 "slots": [
-                  "09:15 am",
-                  "09:30 am",
-                  "09:45 am",
-                  "10:00 am",
                   "10:15 am",
                   "10:30 am",
                   "10:45 am",
@@ -27957,7 +27486,7 @@
               }
             ],
             "description": "",
-            "distance": 20.94,
+            "distance": 20.38,
             "fhirLocationId": "1367177c-eac2-43e2-a5c8-6738bd789fbf",
             "locationId": "1367177c-eac2-43e2-a5c8-6738bd789fbf",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -27998,13 +27527,11 @@
                 "date": "2021-03-02",
                 "day": "Tuesday",
                 "slots": [
-                  "09:15 am",
                   "09:30 am",
                   "09:45 am",
                   "10:15 am",
                   "10:30 am",
                   "10:45 am",
-                  "11:00 am",
                   "11:15 am",
                   "11:30 am",
                   "11:45 am",
@@ -28013,13 +27540,10 @@
                   "12:30 pm",
                   "12:45 pm",
                   "01:00 pm",
-                  "02:15 pm",
                   "02:30 pm",
                   "02:45 pm",
                   "03:00 pm",
-                  "03:15 pm",
                   "03:30 pm",
-                  "03:45 pm",
                   "04:00 pm",
                   "04:15 pm",
                   "04:30 pm",
@@ -28043,7 +27567,7 @@
               }
             ],
             "description": "",
-            "distance": 21.94,
+            "distance": 21.34,
             "fhirLocationId": "50844541-fa80-482e-9b48-44a356ea1af5",
             "locationId": "50844541-fa80-482e-9b48-44a356ea1af5",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -28069,110 +27593,40 @@
               "longitude": -70.25584961
             },
             "storenumber": "19162"
-          },
+          }
+        ]
+      },
+      "second_dose_moderna": {
+        "error": [
+          {
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
+          }
+        ]
+      },
+      "second_dose_pfizer": {
+        "locations": [
           {
             "address": {
-              "city": "SOUTH PORTLAND",
+              "city": "WINTHROP",
               "country": "US",
-              "line1": "279 MAIN ST",
+              "line1": "16 PECK FARM ROAD",
               "line2": "",
               "state": "ME",
-              "zip": "04106"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "11:00 am"
-                ]
-              },
-              {
-                "date": "2021-03-02",
-                "day": "Tuesday",
-                "slots": [
-                  "10:45 am",
-                  "11:15 am",
-                  "11:45 am",
-                  "12:00 pm",
-                  "12:30 pm",
-                  "12:45 pm",
-                  "01:00 pm",
-                  "02:15 pm",
-                  "02:30 pm",
-                  "02:45 pm",
-                  "03:00 pm",
-                  "03:15 pm",
-                  "03:30 pm",
-                  "03:45 pm",
-                  "04:00 pm",
-                  "04:15 pm",
-                  "04:45 pm",
-                  "05:00 pm",
-                  "05:15 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 23.66,
-            "fhirLocationId": "ed34db31-aff5-4ba5-ac85-93099f24949b",
-            "locationId": "ed34db31-aff5-4ba5-ac85-93099f24949b",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "19678",
-            "phone": [
-              {
-                "number": "207-741-2260",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "207-741-2261",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "207-741-2260",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 43.63089528,
-              "longitude": -70.29228018
-            },
-            "storenumber": "19678"
-          },
-          {
-            "address": {
-              "city": "DAMARISCOTTA",
-              "country": "US",
-              "line1": "365 MAIN STREET",
-              "line2": "",
-              "state": "ME",
-              "zip": "04543"
+              "zip": "04364"
             },
             "appointmentAvailability": [
               {
                 "date": "2021-03-02",
                 "day": "Tuesday",
                 "slots": [
+                  "09:15 am",
                   "10:00 am",
                   "10:15 am",
                   "10:30 am",
                   "10:45 am",
+                  "11:00 am",
                   "11:15 am",
-                  "11:30 am",
                   "11:45 am",
                   "12:00 pm"
                 ]
@@ -28191,48 +27645,48 @@
               }
             ],
             "description": "",
-            "distance": 23.89,
-            "fhirLocationId": "6ad777d6-3174-4226-8eb0-1210a460878e",
-            "locationId": "6ad777d6-3174-4226-8eb0-1210a460878e",
+            "distance": 18.13,
+            "fhirLocationId": "b827162b-17c4-4125-b51e-4fd2d2e7e165",
+            "locationId": "b827162b-17c4-4125-b51e-4fd2d2e7e165",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
             "name": "Walgreen Drug Store",
             "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "17964",
+            "partnerLocationId": "17745",
             "phone": [
               {
-                "number": "207-563-3506",
+                "number": "207-377-2279",
                 "type": "StorePrimary"
               },
               {
-                "number": "207-563-2729",
+                "number": "207-377-3403",
                 "type": "StoreSecondary"
               },
               {
-                "number": "207-563-3506",
+                "number": "207-377-2279",
                 "type": "Pharmacy"
               }
             ],
             "position": {
-              "latitude": 44.03136673,
-              "longitude": -69.52287634
+              "latitude": 44.30804254,
+              "longitude": -69.9598983
             },
-            "storenumber": "17964"
+            "storenumber": "17745"
           },
           {
             "address": {
-              "city": "WINDHAM",
+              "city": "RUMFORD",
               "country": "US",
-              "line1": "741 ROOSEVELT TRL",
+              "line1": "7 PORTLAND STREET",
               "line2": "",
               "state": "ME",
-              "zip": "04062"
+              "zip": "04276"
             },
             "appointmentAvailability": [
               {
                 "date": "2021-03-02",
                 "day": "Tuesday",
                 "slots": [
-                  "09:15 am",
+                  "09:30 am",
                   "09:45 am",
                   "10:00 am",
                   "10:15 am",
@@ -28259,67 +27713,53 @@
               }
             ],
             "description": "",
-            "distance": 24.84,
-            "fhirLocationId": "199e3ae8-5ec1-4149-9e78-049410b6807c",
-            "locationId": "199e3ae8-5ec1-4149-9e78-049410b6807c",
+            "distance": 18.1,
+            "fhirLocationId": "7107728e-ad0f-450d-947f-9c9e5ac9b00e",
+            "locationId": "7107728e-ad0f-450d-947f-9c9e5ac9b00e",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
             "name": "Walgreen Drug Store",
             "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "10428",
+            "partnerLocationId": "17159",
             "phone": [
               {
-                "number": "207-893-2562",
+                "number": "207-364-2969",
                 "type": "StorePrimary"
               },
               {
-                "number": "207-893-2566",
+                "number": "207-364-9095",
                 "type": "StoreSecondary"
               },
               {
-                "number": "207-893-2562",
+                "number": "207-364-2969",
                 "type": "Pharmacy"
               }
             ],
             "position": {
-              "latitude": 43.833828,
-              "longitude": -70.43718
+              "latitude": 44.54772696,
+              "longitude": -70.54616918
             },
-            "storenumber": "10428"
-          }
-        ]
-      },
-      "second_dose_moderna": {
-        "error": [
-          {
-            "code": "FC_904_NoData",
-            "message": "Insufficient inventory."
-          }
-        ]
-      },
-      "second_dose_pfizer": {
-        "locations": [
+            "storenumber": "17159"
+          },
           {
             "address": {
-              "city": "LISBON FALLS",
+              "city": "NORWAY",
               "country": "US",
-              "line1": "575 LISBON ST",
+              "line1": "53 PARIS ST",
               "line2": "",
               "state": "ME",
-              "zip": "04252"
+              "zip": "04268"
             },
             "appointmentAvailability": [
               {
                 "date": "2021-03-02",
                 "day": "Tuesday",
                 "slots": [
+                  "09:45 am",
+                  "10:00 am",
                   "10:15 am",
                   "10:30 am",
                   "10:45 am",
-                  "11:00 am",
-                  "11:15 am",
-                  "11:30 am",
-                  "11:45 am",
-                  "12:00 pm"
+                  "11:45 am"
                 ]
               }
             ],
@@ -28337,52 +27777,47 @@
             ],
             "description": "",
             "distance": 19.89,
-            "fhirLocationId": "e3b0598f-2ca5-4ebb-8650-d5a92bd4e40c",
-            "locationId": "e3b0598f-2ca5-4ebb-8650-d5a92bd4e40c",
+            "fhirLocationId": "64cf7d9d-ee0b-4c30-8d95-fdeb683d0f89",
+            "locationId": "64cf7d9d-ee0b-4c30-8d95-fdeb683d0f89",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
             "name": "Walgreen Drug Store",
             "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "19908",
+            "partnerLocationId": "11416",
             "phone": [
               {
-                "number": "207-353-4843",
+                "number": "207-744-0712",
                 "type": "StorePrimary"
               },
               {
-                "number": "207-353-6675",
+                "number": "207-744-0715",
                 "type": "StoreSecondary"
               },
               {
-                "number": "207-353-4843",
+                "number": "207-744-0712",
                 "type": "Pharmacy"
               }
             ],
             "position": {
-              "latitude": 44.00466632,
-              "longitude": -70.07484533
+              "latitude": 44.21199943,
+              "longitude": -70.52966783
             },
-            "storenumber": "19908"
+            "storenumber": "11416"
           },
           {
             "address": {
-              "city": "GRAY",
+              "city": "AUBURN",
               "country": "US",
-              "line1": "62 WEST GRAY ROAD",
+              "line1": "61 UNION ST",
               "line2": "",
               "state": "ME",
-              "zip": "04039"
+              "zip": "04210"
             },
             "appointmentAvailability": [
               {
-                "date": "2021-03-02",
-                "day": "Tuesday",
+                "date": "2021-03-01",
+                "day": "Monday",
                 "slots": [
-                  "10:45 am",
-                  "11:00 am",
-                  "11:15 am",
-                  "11:30 am",
-                  "11:45 am",
-                  "12:00 pm"
+                  "10:30 am"
                 ]
               }
             ],
@@ -28399,32 +27834,32 @@
               }
             ],
             "description": "",
-            "distance": 20.96,
-            "fhirLocationId": "4d04b860-93f5-4744-a317-1afb5f4672c2",
-            "locationId": "4d04b860-93f5-4744-a317-1afb5f4672c2",
+            "distance": 22.08,
+            "fhirLocationId": "3eeafdf5-1f00-4a1b-aca5-3358c5da39f9",
+            "locationId": "3eeafdf5-1f00-4a1b-aca5-3358c5da39f9",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
             "name": "Walgreen Drug Store",
             "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "19789",
+            "partnerLocationId": "19397",
             "phone": [
               {
-                "number": "207-657-2333",
+                "number": "207-753-0506",
                 "type": "StorePrimary"
               },
               {
-                "number": "207-657-5934",
+                "number": "207-753-0102",
                 "type": "StoreSecondary"
               },
               {
-                "number": "207-657-2333",
+                "number": "207-753-0506",
                 "type": "Pharmacy"
               }
             ],
             "position": {
-              "latitude": 43.88297329,
-              "longitude": -70.34149474
+              "latitude": 44.10021175,
+              "longitude": -70.22903918
             },
-            "storenumber": "19789"
+            "storenumber": "19397"
           },
           {
             "address": {
@@ -28440,10 +27875,6 @@
                 "date": "2021-03-02",
                 "day": "Tuesday",
                 "slots": [
-                  "09:15 am",
-                  "09:30 am",
-                  "09:45 am",
-                  "10:00 am",
                   "10:15 am",
                   "10:30 am",
                   "10:45 am",
@@ -28467,7 +27898,7 @@
               }
             ],
             "description": "",
-            "distance": 11.42,
+            "distance": 22.94,
             "fhirLocationId": "1367177c-eac2-43e2-a5c8-6738bd789fbf",
             "locationId": "1367177c-eac2-43e2-a5c8-6738bd789fbf",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -28508,13 +27939,11 @@
                 "date": "2021-03-02",
                 "day": "Tuesday",
                 "slots": [
-                  "09:15 am",
                   "09:30 am",
                   "09:45 am",
                   "10:15 am",
                   "10:30 am",
                   "10:45 am",
-                  "11:00 am",
                   "11:15 am",
                   "11:30 am",
                   "11:45 am",
@@ -28523,13 +27952,10 @@
                   "12:30 pm",
                   "12:45 pm",
                   "01:00 pm",
-                  "02:15 pm",
                   "02:30 pm",
                   "02:45 pm",
                   "03:00 pm",
-                  "03:15 pm",
                   "03:30 pm",
-                  "03:45 pm",
                   "04:00 pm",
                   "04:15 pm",
                   "04:30 pm",
@@ -28553,7 +27979,7 @@
               }
             ],
             "description": "",
-            "distance": 12.33,
+            "distance": 20.36,
             "fhirLocationId": "50844541-fa80-482e-9b48-44a356ea1af5",
             "locationId": "50844541-fa80-482e-9b48-44a356ea1af5",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -28579,222 +28005,6 @@
               "longitude": -70.25584961
             },
             "storenumber": "19162"
-          },
-          {
-            "address": {
-              "city": "SOUTH PORTLAND",
-              "country": "US",
-              "line1": "279 MAIN ST",
-              "line2": "",
-              "state": "ME",
-              "zip": "04106"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "11:00 am"
-                ]
-              },
-              {
-                "date": "2021-03-02",
-                "day": "Tuesday",
-                "slots": [
-                  "10:45 am",
-                  "11:15 am",
-                  "11:45 am",
-                  "12:00 pm",
-                  "12:30 pm",
-                  "12:45 pm",
-                  "01:00 pm",
-                  "02:15 pm",
-                  "02:30 pm",
-                  "02:45 pm",
-                  "03:00 pm",
-                  "03:15 pm",
-                  "03:30 pm",
-                  "03:45 pm",
-                  "04:00 pm",
-                  "04:15 pm",
-                  "04:45 pm",
-                  "05:00 pm",
-                  "05:15 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 22.78,
-            "fhirLocationId": "ed34db31-aff5-4ba5-ac85-93099f24949b",
-            "locationId": "ed34db31-aff5-4ba5-ac85-93099f24949b",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "19678",
-            "phone": [
-              {
-                "number": "207-741-2260",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "207-741-2261",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "207-741-2260",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 43.63089528,
-              "longitude": -70.29228018
-            },
-            "storenumber": "19678"
-          },
-          {
-            "address": {
-              "city": "DAMARISCOTTA",
-              "country": "US",
-              "line1": "365 MAIN STREET",
-              "line2": "",
-              "state": "ME",
-              "zip": "04543"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-02",
-                "day": "Tuesday",
-                "slots": [
-                  "10:00 am",
-                  "10:15 am",
-                  "10:30 am",
-                  "10:45 am",
-                  "11:15 am",
-                  "11:30 am",
-                  "11:45 am",
-                  "12:00 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 23.52,
-            "fhirLocationId": "6ad777d6-3174-4226-8eb0-1210a460878e",
-            "locationId": "6ad777d6-3174-4226-8eb0-1210a460878e",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "17964",
-            "phone": [
-              {
-                "number": "207-563-3506",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "207-563-2729",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "207-563-3506",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 44.03136673,
-              "longitude": -69.52287634
-            },
-            "storenumber": "17964"
-          },
-          {
-            "address": {
-              "city": "WINDHAM",
-              "country": "US",
-              "line1": "741 ROOSEVELT TRL",
-              "line2": "",
-              "state": "ME",
-              "zip": "04062"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-02",
-                "day": "Tuesday",
-                "slots": [
-                  "09:15 am",
-                  "09:45 am",
-                  "10:00 am",
-                  "10:15 am",
-                  "10:30 am",
-                  "10:45 am",
-                  "11:00 am",
-                  "11:15 am",
-                  "11:30 am",
-                  "11:45 am",
-                  "12:00 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 18.49,
-            "fhirLocationId": "199e3ae8-5ec1-4149-9e78-049410b6807c",
-            "locationId": "199e3ae8-5ec1-4149-9e78-049410b6807c",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "10428",
-            "phone": [
-              {
-                "number": "207-893-2562",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "207-893-2566",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "207-893-2562",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 43.833828,
-              "longitude": -70.43718
-            },
-            "storenumber": "10428"
           }
         ]
       }
@@ -31907,22 +31117,6 @@
         "type": "second_dose_pfizer"
       },
       {
-        "time": "2021-03-02T09:30:00.000-05:00",
-        "type": "both_doses"
-      },
-      {
-        "time": "2021-03-02T09:30:00.000-05:00",
-        "type": "second_dose_pfizer"
-      },
-      {
-        "time": "2021-03-02T09:45:00.000-05:00",
-        "type": "both_doses"
-      },
-      {
-        "time": "2021-03-02T09:45:00.000-05:00",
-        "type": "second_dose_pfizer"
-      },
-      {
         "time": "2021-03-02T10:00:00.000-05:00",
         "type": "both_doses"
       },
@@ -31988,7 +31182,7 @@
       }
     ],
     "appointments_available": true,
-    "appointments_last_fetched": "2021-02-27T14:45:03.088+00:00",
+    "appointments_last_fetched": "2021-02-27T16:38:07.785+00:00",
     "appointments_raw": {
       "both_doses": {
         "locations": [
@@ -32007,8 +31201,6 @@
                 "day": "Tuesday",
                 "slots": [
                   "09:15 am",
-                  "09:30 am",
-                  "09:45 am",
                   "10:00 am",
                   "10:15 am",
                   "10:30 am",
@@ -32142,7 +31334,6 @@
                 "date": "2021-03-02",
                 "day": "Tuesday",
                 "slots": [
-                  "09:30 am",
                   "09:45 am",
                   "10:00 am",
                   "10:15 am",
@@ -32194,6 +31385,64 @@
           },
           {
             "address": {
+              "city": "AUBURN",
+              "country": "US",
+              "line1": "61 UNION ST",
+              "line2": "",
+              "state": "ME",
+              "zip": "04210"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "10:30 am"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 20.18,
+            "fhirLocationId": "3eeafdf5-1f00-4a1b-aca5-3358c5da39f9",
+            "locationId": "3eeafdf5-1f00-4a1b-aca5-3358c5da39f9",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "19397",
+            "phone": [
+              {
+                "number": "207-753-0506",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "207-753-0102",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "207-753-0506",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 44.10021175,
+              "longitude": -70.22903918
+            },
+            "storenumber": "19397"
+          },
+          {
+            "address": {
               "city": "LEWISTON",
               "country": "US",
               "line1": "430 SABATTUS ST",
@@ -32206,10 +31455,6 @@
                 "date": "2021-03-02",
                 "day": "Tuesday",
                 "slots": [
-                  "09:15 am",
-                  "09:30 am",
-                  "09:45 am",
-                  "10:00 am",
                   "10:15 am",
                   "10:30 am",
                   "10:45 am",
@@ -32274,13 +31519,11 @@
                 "date": "2021-03-02",
                 "day": "Tuesday",
                 "slots": [
-                  "09:15 am",
                   "09:30 am",
                   "09:45 am",
                   "10:15 am",
                   "10:30 am",
                   "10:45 am",
-                  "11:00 am",
                   "11:15 am",
                   "11:30 am",
                   "11:45 am",
@@ -32289,13 +31532,10 @@
                   "12:30 pm",
                   "12:45 pm",
                   "01:00 pm",
-                  "02:15 pm",
                   "02:30 pm",
                   "02:45 pm",
                   "03:00 pm",
-                  "03:15 pm",
                   "03:30 pm",
-                  "03:45 pm",
                   "04:00 pm",
                   "04:15 pm",
                   "04:30 pm",
@@ -32373,8 +31613,6 @@
                 "day": "Tuesday",
                 "slots": [
                   "09:15 am",
-                  "09:30 am",
-                  "09:45 am",
                   "10:00 am",
                   "10:15 am",
                   "10:30 am",
@@ -32399,7 +31637,7 @@
               }
             ],
             "description": "",
-            "distance": 19.63,
+            "distance": 18.13,
             "fhirLocationId": "b827162b-17c4-4125-b51e-4fd2d2e7e165",
             "locationId": "b827162b-17c4-4125-b51e-4fd2d2e7e165",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -32467,7 +31705,7 @@
               }
             ],
             "description": "",
-            "distance": 15.58,
+            "distance": 18.1,
             "fhirLocationId": "7107728e-ad0f-450d-947f-9c9e5ac9b00e",
             "locationId": "7107728e-ad0f-450d-947f-9c9e5ac9b00e",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -32508,7 +31746,6 @@
                 "date": "2021-03-02",
                 "day": "Tuesday",
                 "slots": [
-                  "09:30 am",
                   "09:45 am",
                   "10:00 am",
                   "10:15 am",
@@ -32531,7 +31768,7 @@
               }
             ],
             "description": "",
-            "distance": 14.33,
+            "distance": 19.89,
             "fhirLocationId": "64cf7d9d-ee0b-4c30-8d95-fdeb683d0f89",
             "locationId": "64cf7d9d-ee0b-4c30-8d95-fdeb683d0f89",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -32560,6 +31797,64 @@
           },
           {
             "address": {
+              "city": "AUBURN",
+              "country": "US",
+              "line1": "61 UNION ST",
+              "line2": "",
+              "state": "ME",
+              "zip": "04210"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "10:30 am"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 22.08,
+            "fhirLocationId": "3eeafdf5-1f00-4a1b-aca5-3358c5da39f9",
+            "locationId": "3eeafdf5-1f00-4a1b-aca5-3358c5da39f9",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "19397",
+            "phone": [
+              {
+                "number": "207-753-0506",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "207-753-0102",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "207-753-0506",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 44.10021175,
+              "longitude": -70.22903918
+            },
+            "storenumber": "19397"
+          },
+          {
+            "address": {
               "city": "LEWISTON",
               "country": "US",
               "line1": "430 SABATTUS ST",
@@ -32572,10 +31867,6 @@
                 "date": "2021-03-02",
                 "day": "Tuesday",
                 "slots": [
-                  "09:15 am",
-                  "09:30 am",
-                  "09:45 am",
-                  "10:00 am",
                   "10:15 am",
                   "10:30 am",
                   "10:45 am",
@@ -32599,7 +31890,7 @@
               }
             ],
             "description": "",
-            "distance": 20.21,
+            "distance": 22.94,
             "fhirLocationId": "1367177c-eac2-43e2-a5c8-6738bd789fbf",
             "locationId": "1367177c-eac2-43e2-a5c8-6738bd789fbf",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -32640,13 +31931,11 @@
                 "date": "2021-03-02",
                 "day": "Tuesday",
                 "slots": [
-                  "09:15 am",
                   "09:30 am",
                   "09:45 am",
                   "10:15 am",
                   "10:30 am",
                   "10:45 am",
-                  "11:00 am",
                   "11:15 am",
                   "11:30 am",
                   "11:45 am",
@@ -32655,13 +31944,10 @@
                   "12:30 pm",
                   "12:45 pm",
                   "01:00 pm",
-                  "02:15 pm",
                   "02:30 pm",
                   "02:45 pm",
                   "03:00 pm",
-                  "03:15 pm",
                   "03:30 pm",
-                  "03:45 pm",
                   "04:00 pm",
                   "04:15 pm",
                   "04:30 pm",
@@ -32685,7 +31971,7 @@
               }
             ],
             "description": "",
-            "distance": 20.62,
+            "distance": 20.36,
             "fhirLocationId": "50844541-fa80-482e-9b48-44a356ea1af5",
             "locationId": "50844541-fa80-482e-9b48-44a356ea1af5",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -39529,7 +38815,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T14:45:03.088+00:00",
+    "appointments_last_fetched": "2021-02-27T16:38:07.785+00:00",
     "appointments_raw": {
       "both_doses": {
         "locations": [
@@ -39548,8 +38834,6 @@
                 "day": "Tuesday",
                 "slots": [
                   "09:15 am",
-                  "09:30 am",
-                  "09:45 am",
                   "10:00 am",
                   "10:15 am",
                   "10:30 am",
@@ -39683,7 +38967,6 @@
                 "date": "2021-03-02",
                 "day": "Tuesday",
                 "slots": [
-                  "09:30 am",
                   "09:45 am",
                   "10:00 am",
                   "10:15 am",
@@ -39735,6 +39018,64 @@
           },
           {
             "address": {
+              "city": "AUBURN",
+              "country": "US",
+              "line1": "61 UNION ST",
+              "line2": "",
+              "state": "ME",
+              "zip": "04210"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "10:30 am"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 20.18,
+            "fhirLocationId": "3eeafdf5-1f00-4a1b-aca5-3358c5da39f9",
+            "locationId": "3eeafdf5-1f00-4a1b-aca5-3358c5da39f9",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "19397",
+            "phone": [
+              {
+                "number": "207-753-0506",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "207-753-0102",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "207-753-0506",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 44.10021175,
+              "longitude": -70.22903918
+            },
+            "storenumber": "19397"
+          },
+          {
+            "address": {
               "city": "LEWISTON",
               "country": "US",
               "line1": "430 SABATTUS ST",
@@ -39747,10 +39088,6 @@
                 "date": "2021-03-02",
                 "day": "Tuesday",
                 "slots": [
-                  "09:15 am",
-                  "09:30 am",
-                  "09:45 am",
-                  "10:00 am",
                   "10:15 am",
                   "10:30 am",
                   "10:45 am",
@@ -39815,13 +39152,11 @@
                 "date": "2021-03-02",
                 "day": "Tuesday",
                 "slots": [
-                  "09:15 am",
                   "09:30 am",
                   "09:45 am",
                   "10:15 am",
                   "10:30 am",
                   "10:45 am",
-                  "11:00 am",
                   "11:15 am",
                   "11:30 am",
                   "11:45 am",
@@ -39830,13 +39165,10 @@
                   "12:30 pm",
                   "12:45 pm",
                   "01:00 pm",
-                  "02:15 pm",
                   "02:30 pm",
                   "02:45 pm",
                   "03:00 pm",
-                  "03:15 pm",
                   "03:30 pm",
-                  "03:45 pm",
                   "04:00 pm",
                   "04:15 pm",
                   "04:30 pm",
@@ -39914,8 +39246,6 @@
                 "day": "Tuesday",
                 "slots": [
                   "09:15 am",
-                  "09:30 am",
-                  "09:45 am",
                   "10:00 am",
                   "10:15 am",
                   "10:30 am",
@@ -39940,7 +39270,7 @@
               }
             ],
             "description": "",
-            "distance": 19.63,
+            "distance": 18.13,
             "fhirLocationId": "b827162b-17c4-4125-b51e-4fd2d2e7e165",
             "locationId": "b827162b-17c4-4125-b51e-4fd2d2e7e165",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -40008,7 +39338,7 @@
               }
             ],
             "description": "",
-            "distance": 15.58,
+            "distance": 18.1,
             "fhirLocationId": "7107728e-ad0f-450d-947f-9c9e5ac9b00e",
             "locationId": "7107728e-ad0f-450d-947f-9c9e5ac9b00e",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -40049,7 +39379,6 @@
                 "date": "2021-03-02",
                 "day": "Tuesday",
                 "slots": [
-                  "09:30 am",
                   "09:45 am",
                   "10:00 am",
                   "10:15 am",
@@ -40072,7 +39401,7 @@
               }
             ],
             "description": "",
-            "distance": 14.33,
+            "distance": 19.89,
             "fhirLocationId": "64cf7d9d-ee0b-4c30-8d95-fdeb683d0f89",
             "locationId": "64cf7d9d-ee0b-4c30-8d95-fdeb683d0f89",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -40101,6 +39430,64 @@
           },
           {
             "address": {
+              "city": "AUBURN",
+              "country": "US",
+              "line1": "61 UNION ST",
+              "line2": "",
+              "state": "ME",
+              "zip": "04210"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "10:30 am"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 22.08,
+            "fhirLocationId": "3eeafdf5-1f00-4a1b-aca5-3358c5da39f9",
+            "locationId": "3eeafdf5-1f00-4a1b-aca5-3358c5da39f9",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "19397",
+            "phone": [
+              {
+                "number": "207-753-0506",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "207-753-0102",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "207-753-0506",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 44.10021175,
+              "longitude": -70.22903918
+            },
+            "storenumber": "19397"
+          },
+          {
+            "address": {
               "city": "LEWISTON",
               "country": "US",
               "line1": "430 SABATTUS ST",
@@ -40113,10 +39500,6 @@
                 "date": "2021-03-02",
                 "day": "Tuesday",
                 "slots": [
-                  "09:15 am",
-                  "09:30 am",
-                  "09:45 am",
-                  "10:00 am",
                   "10:15 am",
                   "10:30 am",
                   "10:45 am",
@@ -40140,7 +39523,7 @@
               }
             ],
             "description": "",
-            "distance": 20.21,
+            "distance": 22.94,
             "fhirLocationId": "1367177c-eac2-43e2-a5c8-6738bd789fbf",
             "locationId": "1367177c-eac2-43e2-a5c8-6738bd789fbf",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -40181,13 +39564,11 @@
                 "date": "2021-03-02",
                 "day": "Tuesday",
                 "slots": [
-                  "09:15 am",
                   "09:30 am",
                   "09:45 am",
                   "10:15 am",
                   "10:30 am",
                   "10:45 am",
-                  "11:00 am",
                   "11:15 am",
                   "11:30 am",
                   "11:45 am",
@@ -40196,13 +39577,10 @@
                   "12:30 pm",
                   "12:45 pm",
                   "01:00 pm",
-                  "02:15 pm",
                   "02:30 pm",
                   "02:45 pm",
                   "03:00 pm",
-                  "03:15 pm",
                   "03:30 pm",
-                  "03:45 pm",
                   "04:00 pm",
                   "04:15 pm",
                   "04:30 pm",
@@ -40226,7 +39604,7 @@
               }
             ],
             "description": "",
-            "distance": 20.62,
+            "distance": 20.36,
             "fhirLocationId": "50844541-fa80-482e-9b48-44a356ea1af5",
             "locationId": "50844541-fa80-482e-9b48-44a356ea1af5",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
