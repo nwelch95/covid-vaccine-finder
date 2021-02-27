@@ -12,50 +12,25 @@
       }
     ],
     "appointments_available": true,
-    "appointments_last_fetched": "2021-02-27T18:28:33.666+00:00",
+    "appointments_last_fetched": "2021-02-27T18:33:18.65+00:00",
     "appointments_raw": {
       "both_doses": {
         "locations": [
           {
             "address": {
-              "city": "ANNA",
+              "city": "PADUCAH",
               "country": "US",
-              "line1": "745 E VIENNA ST",
+              "line1": "521 LONE OAK RD",
               "line2": "",
-              "state": "IL",
-              "zip": "62906"
+              "state": "KY",
+              "zip": "42003"
             },
             "appointmentAvailability": [
               {
-                "date": "2021-03-02",
-                "day": "Tuesday",
+                "date": "2021-03-01",
+                "day": "Monday",
                 "slots": [
-                  "10:00 am",
-                  "10:15 am",
-                  "10:30 am",
-                  "11:45 am",
-                  "12:15 pm",
-                  "12:30 pm",
-                  "12:45 pm",
-                  "01:00 pm",
-                  "01:15 pm",
-                  "01:30 pm",
-                  "01:45 pm",
-                  "02:00 pm",
-                  "02:15 pm",
-                  "02:30 pm",
-                  "02:45 pm",
-                  "03:00 pm",
-                  "03:15 pm",
-                  "03:30 pm",
-                  "03:45 pm",
-                  "04:00 pm",
-                  "04:15 pm",
-                  "04:30 pm",
-                  "04:45 pm",
-                  "05:00 pm",
-                  "05:15 pm",
-                  "05:30 pm"
+                  "06:00 pm"
                 ]
               }
             ],
@@ -72,32 +47,32 @@
               }
             ],
             "description": "",
-            "distance": 21.53,
-            "fhirLocationId": "8b5b6b29-efaf-4e28-805d-fd75e3c74825",
-            "locationId": "8b5b6b29-efaf-4e28-805d-fd75e3c74825",
+            "distance": 21.63,
+            "fhirLocationId": "4f8c18d7-4588-4fa5-8a0c-b55e07e78d63",
+            "locationId": "4f8c18d7-4588-4fa5-8a0c-b55e07e78d63",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
             "name": "Walgreen Drug Store",
             "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "12581",
+            "partnerLocationId": "6429",
             "phone": [
               {
-                "number": "618-833-7236",
+                "number": "270-442-6659",
                 "type": "StorePrimary"
               },
               {
-                "number": "618-833-7262",
+                "number": "270-442-2389",
                 "type": "StoreSecondary"
               },
               {
-                "number": "618-833-7236",
+                "number": "270-442-6659",
                 "type": "Pharmacy"
               }
             ],
             "position": {
-              "latitude": 37.46187722,
-              "longitude": -89.23162963
+              "latitude": 37.06359573,
+              "longitude": -88.63920354
             },
-            "storenumber": "12581"
+            "storenumber": "6429"
           },
           {
             "address": {
@@ -163,6 +138,64 @@
         "locations": [
           {
             "address": {
+              "city": "PADUCAH",
+              "country": "US",
+              "line1": "521 LONE OAK RD",
+              "line2": "",
+              "state": "KY",
+              "zip": "42003"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "06:00 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 21.63,
+            "fhirLocationId": "4f8c18d7-4588-4fa5-8a0c-b55e07e78d63",
+            "locationId": "4f8c18d7-4588-4fa5-8a0c-b55e07e78d63",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "6429",
+            "phone": [
+              {
+                "number": "270-442-6659",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "270-442-2389",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "270-442-6659",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 37.06359573,
+              "longitude": -88.63920354
+            },
+            "storenumber": "6429"
+          },
+          {
+            "address": {
               "city": "METROPOLIS",
               "country": "US",
               "line1": "110 W 10TH ST",
@@ -192,7 +225,7 @@
               }
             ],
             "description": "",
-            "distance": 18.77,
+            "distance": 24.84,
             "fhirLocationId": "f7872293-9f46-4ccf-a9bf-22d2d618ae08",
             "locationId": "f7872293-9f46-4ccf-a9bf-22d2d618ae08",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -222,89 +255,10 @@
         ]
       },
       "second_dose_pfizer": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "ANNA",
-              "country": "US",
-              "line1": "745 E VIENNA ST",
-              "line2": "",
-              "state": "IL",
-              "zip": "62906"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-02",
-                "day": "Tuesday",
-                "slots": [
-                  "10:00 am",
-                  "10:15 am",
-                  "10:30 am",
-                  "11:45 am",
-                  "12:15 pm",
-                  "12:30 pm",
-                  "12:45 pm",
-                  "01:00 pm",
-                  "01:15 pm",
-                  "01:30 pm",
-                  "01:45 pm",
-                  "02:00 pm",
-                  "02:15 pm",
-                  "02:30 pm",
-                  "02:45 pm",
-                  "03:00 pm",
-                  "03:15 pm",
-                  "03:30 pm",
-                  "03:45 pm",
-                  "04:00 pm",
-                  "04:15 pm",
-                  "04:30 pm",
-                  "04:45 pm",
-                  "05:00 pm",
-                  "05:15 pm",
-                  "05:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 16.18,
-            "fhirLocationId": "8b5b6b29-efaf-4e28-805d-fd75e3c74825",
-            "locationId": "8b5b6b29-efaf-4e28-805d-fd75e3c74825",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "12581",
-            "phone": [
-              {
-                "number": "618-833-7236",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "618-833-7262",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "618-833-7236",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 37.46187722,
-              "longitude": -89.23162963
-            },
-            "storenumber": "12581"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       }
@@ -321,14 +275,6 @@
   {
     "address": "842 E MAIN ST",
     "appointments": [
-      {
-        "time": "2021-03-02T15:45:00.000-06:00",
-        "type": "both_doses"
-      },
-      {
-        "time": "2021-03-02T15:45:00.000-06:00",
-        "type": "second_dose_pfizer"
-      },
       {
         "time": "2021-03-02T16:00:00.000-06:00",
         "type": "both_doses"
@@ -355,7 +301,7 @@
       }
     ],
     "appointments_available": true,
-    "appointments_last_fetched": "2021-02-27T18:18:38.573+00:00",
+    "appointments_last_fetched": "2021-02-27T18:34:00.883+00:00",
     "appointments_raw": {
       "both_doses": {
         "locations": [
@@ -373,7 +319,6 @@
                 "date": "2021-03-02",
                 "day": "Tuesday",
                 "slots": [
-                  "03:45 pm",
                   "04:00 pm",
                   "04:15 pm",
                   "05:15 pm"
@@ -393,7 +338,7 @@
               }
             ],
             "description": "",
-            "distance": 22.63,
+            "distance": 22.53,
             "fhirLocationId": "c89b3341-1f84-4fd0-b48f-763cb66fbf4c",
             "locationId": "c89b3341-1f84-4fd0-b48f-763cb66fbf4c",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -446,7 +391,6 @@
                 "date": "2021-03-02",
                 "day": "Tuesday",
                 "slots": [
-                  "03:45 pm",
                   "04:00 pm",
                   "04:15 pm",
                   "05:15 pm"
@@ -466,7 +410,7 @@
               }
             ],
             "description": "",
-            "distance": 23.83,
+            "distance": 1.02,
             "fhirLocationId": "c89b3341-1f84-4fd0-b48f-763cb66fbf4c",
             "locationId": "c89b3341-1f84-4fd0-b48f-763cb66fbf4c",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -510,7 +454,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:18:38.573+00:00",
+    "appointments_last_fetched": "2021-02-27T18:32:59.016+00:00",
     "appointments_raw": {
       "both_doses": {
         "locations": [
@@ -528,7 +472,6 @@
                 "date": "2021-03-02",
                 "day": "Tuesday",
                 "slots": [
-                  "03:45 pm",
                   "04:00 pm",
                   "04:15 pm",
                   "05:15 pm"
@@ -548,7 +491,7 @@
               }
             ],
             "description": "",
-            "distance": 22.63,
+            "distance": 19.6,
             "fhirLocationId": "c89b3341-1f84-4fd0-b48f-763cb66fbf4c",
             "locationId": "c89b3341-1f84-4fd0-b48f-763cb66fbf4c",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -601,7 +544,6 @@
                 "date": "2021-03-02",
                 "day": "Tuesday",
                 "slots": [
-                  "03:45 pm",
                   "04:00 pm",
                   "04:15 pm",
                   "05:15 pm"
@@ -621,7 +563,7 @@
               }
             ],
             "description": "",
-            "distance": 23.83,
+            "distance": 15.29,
             "fhirLocationId": "c89b3341-1f84-4fd0-b48f-763cb66fbf4c",
             "locationId": "c89b3341-1f84-4fd0-b48f-763cb66fbf4c",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -665,7 +607,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:11:22.755+00:00",
+    "appointments_last_fetched": "2021-02-27T18:32:27.823+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -706,7 +648,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:11:22.755+00:00",
+    "appointments_last_fetched": "2021-02-27T18:32:27.823+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -747,7 +689,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:11:22.755+00:00",
+    "appointments_last_fetched": "2021-02-27T18:32:27.823+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -788,7 +730,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:11:22.755+00:00",
+    "appointments_last_fetched": "2021-02-27T18:32:27.823+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -829,7 +771,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:21:45.53+00:00",
+    "appointments_last_fetched": "2021-02-27T18:33:24.403+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -870,7 +812,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:11:22.755+00:00",
+    "appointments_last_fetched": "2021-02-27T18:32:27.823+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -911,7 +853,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:11:22.755+00:00",
+    "appointments_last_fetched": "2021-02-27T18:32:27.823+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -952,7 +894,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:11:22.755+00:00",
+    "appointments_last_fetched": "2021-02-27T18:32:27.823+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -993,7 +935,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:11:22.755+00:00",
+    "appointments_last_fetched": "2021-02-27T18:32:27.823+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -2100,7 +2042,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:16:35.773+00:00",
+    "appointments_last_fetched": "2021-02-27T18:33:38.225+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -2182,7 +2124,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:16:35.773+00:00",
+    "appointments_last_fetched": "2021-02-27T18:33:38.225+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -2264,7 +2206,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:16:35.773+00:00",
+    "appointments_last_fetched": "2021-02-27T18:33:38.225+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -2305,7 +2247,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:16:35.773+00:00",
+    "appointments_last_fetched": "2021-02-27T18:33:38.225+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -2346,7 +2288,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:16:35.773+00:00",
+    "appointments_last_fetched": "2021-02-27T18:33:38.225+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -2387,7 +2329,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:16:35.773+00:00",
+    "appointments_last_fetched": "2021-02-27T18:33:38.225+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -2469,7 +2411,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:16:35.773+00:00",
+    "appointments_last_fetched": "2021-02-27T18:33:38.225+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -2510,7 +2452,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:16:35.773+00:00",
+    "appointments_last_fetched": "2021-02-27T18:33:38.225+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -2551,7 +2493,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:16:35.773+00:00",
+    "appointments_last_fetched": "2021-02-27T18:33:38.225+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -2592,7 +2534,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:16:35.773+00:00",
+    "appointments_last_fetched": "2021-02-27T18:33:38.225+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -2633,7 +2575,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:16:35.773+00:00",
+    "appointments_last_fetched": "2021-02-27T18:33:38.225+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -2674,7 +2616,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:16:35.773+00:00",
+    "appointments_last_fetched": "2021-02-27T18:33:38.225+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -2715,7 +2657,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:16:35.773+00:00",
+    "appointments_last_fetched": "2021-02-27T18:33:38.225+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -2756,7 +2698,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:16:35.773+00:00",
+    "appointments_last_fetched": "2021-02-27T18:33:38.225+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -2797,7 +2739,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:16:35.773+00:00",
+    "appointments_last_fetched": "2021-02-27T18:33:38.225+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -2838,7 +2780,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:16:35.773+00:00",
+    "appointments_last_fetched": "2021-02-27T18:33:38.225+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -4322,7 +4264,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:16:35.773+00:00",
+    "appointments_last_fetched": "2021-02-27T18:33:38.225+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -4363,7 +4305,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:16:35.773+00:00",
+    "appointments_last_fetched": "2021-02-27T18:33:38.225+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -4404,7 +4346,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:16:35.773+00:00",
+    "appointments_last_fetched": "2021-02-27T18:33:38.225+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -4445,7 +4387,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:16:35.773+00:00",
+    "appointments_last_fetched": "2021-02-27T18:33:38.225+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -5929,7 +5871,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:16:35.773+00:00",
+    "appointments_last_fetched": "2021-02-27T18:33:38.225+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -5970,7 +5912,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:16:35.773+00:00",
+    "appointments_last_fetched": "2021-02-27T18:33:38.225+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -7454,7 +7396,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:16:35.773+00:00",
+    "appointments_last_fetched": "2021-02-27T18:33:38.225+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -7495,7 +7437,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:16:35.773+00:00",
+    "appointments_last_fetched": "2021-02-27T18:33:38.225+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -7536,7 +7478,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:16:35.773+00:00",
+    "appointments_last_fetched": "2021-02-27T18:33:38.225+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -7577,7 +7519,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:16:35.773+00:00",
+    "appointments_last_fetched": "2021-02-27T18:33:38.225+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -7618,7 +7560,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:16:35.773+00:00",
+    "appointments_last_fetched": "2021-02-27T18:33:38.225+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -7659,7 +7601,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:16:35.773+00:00",
+    "appointments_last_fetched": "2021-02-27T18:33:38.225+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -7700,7 +7642,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:16:35.773+00:00",
+    "appointments_last_fetched": "2021-02-27T18:33:38.225+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -7741,7 +7683,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:16:35.773+00:00",
+    "appointments_last_fetched": "2021-02-27T18:33:38.225+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -7782,7 +7724,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:16:35.773+00:00",
+    "appointments_last_fetched": "2021-02-27T18:33:38.225+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -7823,7 +7765,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:16:35.773+00:00",
+    "appointments_last_fetched": "2021-02-27T18:33:38.225+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -7864,7 +7806,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:16:35.773+00:00",
+    "appointments_last_fetched": "2021-02-27T18:33:38.225+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -7905,7 +7847,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:16:35.773+00:00",
+    "appointments_last_fetched": "2021-02-27T18:33:38.225+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -7946,7 +7888,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:16:35.773+00:00",
+    "appointments_last_fetched": "2021-02-27T18:33:38.225+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -7987,7 +7929,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:16:35.773+00:00",
+    "appointments_last_fetched": "2021-02-27T18:33:38.225+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -8028,7 +7970,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:16:35.773+00:00",
+    "appointments_last_fetched": "2021-02-27T18:33:38.225+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -8069,7 +8011,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:16:35.773+00:00",
+    "appointments_last_fetched": "2021-02-27T18:33:38.225+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -8110,7 +8052,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:16:35.773+00:00",
+    "appointments_last_fetched": "2021-02-27T18:33:38.225+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -8151,7 +8093,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:16:35.773+00:00",
+    "appointments_last_fetched": "2021-02-27T18:33:38.225+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -8192,7 +8134,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:16:35.773+00:00",
+    "appointments_last_fetched": "2021-02-27T18:33:38.225+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -8233,7 +8175,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:16:35.773+00:00",
+    "appointments_last_fetched": "2021-02-27T18:33:38.225+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -8423,7 +8365,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:16:35.773+00:00",
+    "appointments_last_fetched": "2021-02-27T18:33:38.225+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -8464,7 +8406,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:16:35.773+00:00",
+    "appointments_last_fetched": "2021-02-27T18:33:38.225+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -8505,7 +8447,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:16:35.773+00:00",
+    "appointments_last_fetched": "2021-02-27T18:33:38.225+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -8546,7 +8488,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:16:35.773+00:00",
+    "appointments_last_fetched": "2021-02-27T18:33:38.225+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -8587,7 +8529,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:16:35.773+00:00",
+    "appointments_last_fetched": "2021-02-27T18:33:38.225+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -8777,7 +8719,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:16:35.773+00:00",
+    "appointments_last_fetched": "2021-02-27T18:33:38.225+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -8967,7 +8909,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:16:35.773+00:00",
+    "appointments_last_fetched": "2021-02-27T18:33:38.225+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -9008,7 +8950,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:16:35.773+00:00",
+    "appointments_last_fetched": "2021-02-27T18:33:38.225+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -9049,7 +8991,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:16:35.773+00:00",
+    "appointments_last_fetched": "2021-02-27T18:33:38.225+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -9388,7 +9330,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:16:35.773+00:00",
+    "appointments_last_fetched": "2021-02-27T18:33:38.225+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -9429,7 +9371,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:16:35.773+00:00",
+    "appointments_last_fetched": "2021-02-27T18:33:38.225+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -9470,7 +9412,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:16:35.773+00:00",
+    "appointments_last_fetched": "2021-02-27T18:33:38.225+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -9660,7 +9602,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:16:35.773+00:00",
+    "appointments_last_fetched": "2021-02-27T18:33:38.225+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -9701,7 +9643,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:16:35.773+00:00",
+    "appointments_last_fetched": "2021-02-27T18:33:38.225+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -9742,7 +9684,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:16:35.773+00:00",
+    "appointments_last_fetched": "2021-02-27T18:33:38.225+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -9932,7 +9874,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:16:35.773+00:00",
+    "appointments_last_fetched": "2021-02-27T18:33:38.225+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -9973,7 +9915,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:16:35.773+00:00",
+    "appointments_last_fetched": "2021-02-27T18:33:38.225+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -10014,7 +9956,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:16:35.773+00:00",
+    "appointments_last_fetched": "2021-02-27T18:33:38.225+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -10055,7 +9997,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:16:35.773+00:00",
+    "appointments_last_fetched": "2021-02-27T18:33:38.225+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -10096,7 +10038,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:16:35.773+00:00",
+    "appointments_last_fetched": "2021-02-27T18:33:38.225+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -10733,7 +10675,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:16:35.773+00:00",
+    "appointments_last_fetched": "2021-02-27T18:33:38.225+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -10774,7 +10716,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:16:35.773+00:00",
+    "appointments_last_fetched": "2021-02-27T18:33:38.225+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -10964,7 +10906,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:16:35.773+00:00",
+    "appointments_last_fetched": "2021-02-27T18:33:38.225+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -11005,7 +10947,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:16:35.773+00:00",
+    "appointments_last_fetched": "2021-02-27T18:33:38.225+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -11046,7 +10988,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:16:35.773+00:00",
+    "appointments_last_fetched": "2021-02-27T18:33:38.225+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -11236,7 +11178,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:16:35.773+00:00",
+    "appointments_last_fetched": "2021-02-27T18:33:38.225+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -11426,7 +11368,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:16:35.773+00:00",
+    "appointments_last_fetched": "2021-02-27T18:33:38.225+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -11465,139 +11407,23 @@
   {
     "address": "8001 N MILWAUKEE AVE",
     "appointments": [
-      {
-        "time": "2021-03-01T15:45:00.000-06:00",
-        "type": "both_doses"
-      },
-      {
-        "time": "2021-03-01T15:45:00.000-06:00",
-        "type": "second_dose_moderna"
-      }
     ],
-    "appointments_available": true,
-    "appointments_last_fetched": "2021-02-27T18:17:48.88+00:00",
+    "appointments_available": false,
+    "appointments_last_fetched": "2021-02-27T18:33:38.225+00:00",
     "appointments_raw": {
       "both_doses": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "NILES",
-              "country": "US",
-              "line1": "8001 N MILWAUKEE AVE",
-              "line2": "",
-              "state": "IL",
-              "zip": "60714"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "03:45 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 8.36,
-            "fhirLocationId": "2d691329-326b-41ca-8c7d-e7340deea719",
-            "locationId": "2d691329-326b-41ca-8c7d-e7340deea719",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "5542",
-            "phone": [
-              {
-                "number": "847-583-0409",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "847-583-0413",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "847-583-0409",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 42.02658129,
-              "longitude": -87.81379952
-            },
-            "storenumber": "5542"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       },
       "second_dose_moderna": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "NILES",
-              "country": "US",
-              "line1": "8001 N MILWAUKEE AVE",
-              "line2": "",
-              "state": "IL",
-              "zip": "60714"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "03:45 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 13.39,
-            "fhirLocationId": "2d691329-326b-41ca-8c7d-e7340deea719",
-            "locationId": "2d691329-326b-41ca-8c7d-e7340deea719",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "5542",
-            "phone": [
-              {
-                "number": "847-583-0409",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "847-583-0413",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "847-583-0409",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 42.02658129,
-              "longitude": -87.81379952
-            },
-            "storenumber": "5542"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       },
@@ -11624,7 +11450,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:16:35.773+00:00",
+    "appointments_last_fetched": "2021-02-27T18:33:38.225+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -11665,7 +11491,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:16:35.773+00:00",
+    "appointments_last_fetched": "2021-02-27T18:33:38.225+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -12004,7 +11830,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:16:35.773+00:00",
+    "appointments_last_fetched": "2021-02-27T18:33:38.225+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -12194,7 +12020,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:16:35.773+00:00",
+    "appointments_last_fetched": "2021-02-27T18:33:38.225+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -12235,7 +12061,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:16:35.773+00:00",
+    "appointments_last_fetched": "2021-02-27T18:33:38.225+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -12425,7 +12251,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:16:35.773+00:00",
+    "appointments_last_fetched": "2021-02-27T18:33:38.225+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -12466,7 +12292,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:16:35.773+00:00",
+    "appointments_last_fetched": "2021-02-27T18:33:38.225+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -12507,7 +12333,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:16:35.773+00:00",
+    "appointments_last_fetched": "2021-02-27T18:33:38.225+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -12995,7 +12821,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:16:35.773+00:00",
+    "appointments_last_fetched": "2021-02-27T18:33:38.225+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -13483,7 +13309,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:16:35.773+00:00",
+    "appointments_last_fetched": "2021-02-27T18:33:38.225+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -13673,7 +13499,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:16:35.773+00:00",
+    "appointments_last_fetched": "2021-02-27T18:33:38.225+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -14757,7 +14583,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:16:35.773+00:00",
+    "appointments_last_fetched": "2021-02-27T18:33:38.225+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -14947,7 +14773,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:16:35.773+00:00",
+    "appointments_last_fetched": "2021-02-27T18:33:38.225+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -15286,7 +15112,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:16:35.773+00:00",
+    "appointments_last_fetched": "2021-02-27T18:33:38.225+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -15625,7 +15451,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:16:35.773+00:00",
+    "appointments_last_fetched": "2021-02-27T18:33:38.225+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -16560,7 +16386,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:16:35.773+00:00",
+    "appointments_last_fetched": "2021-02-27T18:33:38.225+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -16750,7 +16576,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:16:35.773+00:00",
+    "appointments_last_fetched": "2021-02-27T18:33:38.225+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -18132,7 +17958,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:16:35.773+00:00",
+    "appointments_last_fetched": "2021-02-27T18:33:38.225+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -18471,7 +18297,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:16:35.773+00:00",
+    "appointments_last_fetched": "2021-02-27T18:33:38.225+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -18810,7 +18636,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:16:35.773+00:00",
+    "appointments_last_fetched": "2021-02-27T18:33:38.225+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -19149,7 +18975,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:16:35.773+00:00",
+    "appointments_last_fetched": "2021-02-27T18:33:38.225+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -19190,7 +19016,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:16:35.773+00:00",
+    "appointments_last_fetched": "2021-02-27T18:33:38.225+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -19678,7 +19504,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:16:35.773+00:00",
+    "appointments_last_fetched": "2021-02-27T18:33:38.225+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -20017,7 +19843,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:16:35.773+00:00",
+    "appointments_last_fetched": "2021-02-27T18:33:38.225+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -20654,7 +20480,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:16:35.773+00:00",
+    "appointments_last_fetched": "2021-02-27T18:33:38.225+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -21887,7 +21713,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:16:35.773+00:00",
+    "appointments_last_fetched": "2021-02-27T18:33:38.225+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -22077,7 +21903,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:16:35.773+00:00",
+    "appointments_last_fetched": "2021-02-27T18:33:38.225+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -22118,7 +21944,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:16:35.773+00:00",
+    "appointments_last_fetched": "2021-02-27T18:33:38.225+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -22457,7 +22283,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:16:35.773+00:00",
+    "appointments_last_fetched": "2021-02-27T18:33:38.225+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -22796,7 +22622,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:16:35.773+00:00",
+    "appointments_last_fetched": "2021-02-27T18:33:38.225+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -23309,7 +23135,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:16:35.773+00:00",
+    "appointments_last_fetched": "2021-02-27T18:33:38.225+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -23416,7 +23242,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:16:35.773+00:00",
+    "appointments_last_fetched": "2021-02-27T18:33:38.225+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -25599,7 +25425,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:16:35.773+00:00",
+    "appointments_last_fetched": "2021-02-27T18:33:38.225+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -25640,7 +25466,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:16:35.773+00:00",
+    "appointments_last_fetched": "2021-02-27T18:33:38.225+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -25681,7 +25507,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:16:35.773+00:00",
+    "appointments_last_fetched": "2021-02-27T18:33:38.225+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -26050,7 +25876,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:16:35.773+00:00",
+    "appointments_last_fetched": "2021-02-27T18:33:38.225+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -26337,7 +26163,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:16:35.773+00:00",
+    "appointments_last_fetched": "2021-02-27T18:33:38.225+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -26583,7 +26409,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:16:35.773+00:00",
+    "appointments_last_fetched": "2021-02-27T18:33:38.225+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -26665,7 +26491,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:16:35.773+00:00",
+    "appointments_last_fetched": "2021-02-27T18:33:38.225+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -27034,7 +26860,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:16:35.773+00:00",
+    "appointments_last_fetched": "2021-02-27T18:33:38.225+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -27526,7 +27352,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:16:35.773+00:00",
+    "appointments_last_fetched": "2021-02-27T18:33:38.225+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -28059,7 +27885,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:16:35.773+00:00",
+    "appointments_last_fetched": "2021-02-27T18:33:38.225+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -34250,7 +34076,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:16:03.197+00:00",
+    "appointments_last_fetched": "2021-02-27T18:32:22.793+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -34291,7 +34117,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:16:03.197+00:00",
+    "appointments_last_fetched": "2021-02-27T18:32:22.793+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -34332,7 +34158,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:16:03.197+00:00",
+    "appointments_last_fetched": "2021-02-27T18:32:22.793+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -34373,7 +34199,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:16:03.197+00:00",
+    "appointments_last_fetched": "2021-02-27T18:32:22.793+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -34414,7 +34240,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:16:03.197+00:00",
+    "appointments_last_fetched": "2021-02-27T18:32:22.793+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -34455,7 +34281,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:16:03.197+00:00",
+    "appointments_last_fetched": "2021-02-27T18:32:22.793+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -34496,7 +34322,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:16:03.197+00:00",
+    "appointments_last_fetched": "2021-02-27T18:32:22.793+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -34537,7 +34363,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:16:03.197+00:00",
+    "appointments_last_fetched": "2021-02-27T18:32:22.793+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -34578,7 +34404,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:16:03.197+00:00",
+    "appointments_last_fetched": "2021-02-27T18:32:22.793+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -34619,7 +34445,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:16:03.197+00:00",
+    "appointments_last_fetched": "2021-02-27T18:32:22.793+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -34660,7 +34486,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:16:03.197+00:00",
+    "appointments_last_fetched": "2021-02-27T18:32:22.793+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -34701,7 +34527,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:16:03.197+00:00",
+    "appointments_last_fetched": "2021-02-27T18:32:22.793+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -34742,7 +34568,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:16:03.197+00:00",
+    "appointments_last_fetched": "2021-02-27T18:32:22.793+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -34783,7 +34609,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:16:03.197+00:00",
+    "appointments_last_fetched": "2021-02-27T18:32:22.793+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -34824,7 +34650,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:16:03.197+00:00",
+    "appointments_last_fetched": "2021-02-27T18:32:22.793+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -34865,7 +34691,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:16:03.197+00:00",
+    "appointments_last_fetched": "2021-02-27T18:32:22.793+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -35847,7 +35673,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:17:59.589+00:00",
+    "appointments_last_fetched": "2021-02-27T18:33:16.911+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -35929,7 +35755,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:17:59.589+00:00",
+    "appointments_last_fetched": "2021-02-27T18:33:16.911+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -36011,7 +35837,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:17:59.589+00:00",
+    "appointments_last_fetched": "2021-02-27T18:33:16.911+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -36052,7 +35878,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:17:59.589+00:00",
+    "appointments_last_fetched": "2021-02-27T18:33:16.911+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -36093,7 +35919,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:17:59.589+00:00",
+    "appointments_last_fetched": "2021-02-27T18:33:16.911+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -36134,7 +35960,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:17:59.589+00:00",
+    "appointments_last_fetched": "2021-02-27T18:33:16.911+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -36175,7 +36001,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:17:59.589+00:00",
+    "appointments_last_fetched": "2021-02-27T18:33:16.911+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -36216,7 +36042,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:17:59.589+00:00",
+    "appointments_last_fetched": "2021-02-27T18:33:16.911+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -36257,7 +36083,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:17:59.589+00:00",
+    "appointments_last_fetched": "2021-02-27T18:33:16.911+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -36298,7 +36124,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:17:59.589+00:00",
+    "appointments_last_fetched": "2021-02-27T18:33:16.911+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -36339,7 +36165,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:17:59.589+00:00",
+    "appointments_last_fetched": "2021-02-27T18:33:16.911+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -36871,67 +36697,13 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:15:53.702+00:00",
+    "appointments_last_fetched": "2021-02-27T18:32:47.862+00:00",
     "appointments_raw": {
       "both_doses": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "COLUMBIA",
-              "country": "US",
-              "line1": "100 ADMIRAL WEINEL BLVD",
-              "line2": "",
-              "state": "IL",
-              "zip": "62236"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-02",
-                "day": "Tuesday",
-                "slots": [
-                  "04:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 5.87,
-            "fhirLocationId": "4fa17908-252c-4480-8ffb-2d03f7a9feda",
-            "locationId": "4fa17908-252c-4480-8ffb-2d03f7a9feda",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "5608",
-            "phone": [
-              {
-                "number": "618-281-2111",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "618-281-2002",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "618-281-2111",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 38.441099,
-              "longitude": -90.213599
-            },
-            "storenumber": "5608"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       },
@@ -36944,64 +36716,10 @@
         ]
       },
       "second_dose_pfizer": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "COLUMBIA",
-              "country": "US",
-              "line1": "100 ADMIRAL WEINEL BLVD",
-              "line2": "",
-              "state": "IL",
-              "zip": "62236"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-02",
-                "day": "Tuesday",
-                "slots": [
-                  "04:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 16.49,
-            "fhirLocationId": "4fa17908-252c-4480-8ffb-2d03f7a9feda",
-            "locationId": "4fa17908-252c-4480-8ffb-2d03f7a9feda",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "5608",
-            "phone": [
-              {
-                "number": "618-281-2111",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "618-281-2002",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "618-281-2111",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 38.441099,
-              "longitude": -90.213599
-            },
-            "storenumber": "5608"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       }
@@ -37020,67 +36738,13 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:15:53.702+00:00",
+    "appointments_last_fetched": "2021-02-27T18:32:47.862+00:00",
     "appointments_raw": {
       "both_doses": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "COLUMBIA",
-              "country": "US",
-              "line1": "100 ADMIRAL WEINEL BLVD",
-              "line2": "",
-              "state": "IL",
-              "zip": "62236"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-02",
-                "day": "Tuesday",
-                "slots": [
-                  "04:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 5.87,
-            "fhirLocationId": "4fa17908-252c-4480-8ffb-2d03f7a9feda",
-            "locationId": "4fa17908-252c-4480-8ffb-2d03f7a9feda",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "5608",
-            "phone": [
-              {
-                "number": "618-281-2111",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "618-281-2002",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "618-281-2111",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 38.441099,
-              "longitude": -90.213599
-            },
-            "storenumber": "5608"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       },
@@ -37093,64 +36757,10 @@
         ]
       },
       "second_dose_pfizer": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "COLUMBIA",
-              "country": "US",
-              "line1": "100 ADMIRAL WEINEL BLVD",
-              "line2": "",
-              "state": "IL",
-              "zip": "62236"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-02",
-                "day": "Tuesday",
-                "slots": [
-                  "04:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 16.49,
-            "fhirLocationId": "4fa17908-252c-4480-8ffb-2d03f7a9feda",
-            "locationId": "4fa17908-252c-4480-8ffb-2d03f7a9feda",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "5608",
-            "phone": [
-              {
-                "number": "618-281-2111",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "618-281-2002",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "618-281-2111",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 38.441099,
-              "longitude": -90.213599
-            },
-            "storenumber": "5608"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       }
@@ -37210,67 +36820,13 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:15:53.702+00:00",
+    "appointments_last_fetched": "2021-02-27T18:32:47.862+00:00",
     "appointments_raw": {
       "both_doses": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "COLUMBIA",
-              "country": "US",
-              "line1": "100 ADMIRAL WEINEL BLVD",
-              "line2": "",
-              "state": "IL",
-              "zip": "62236"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-02",
-                "day": "Tuesday",
-                "slots": [
-                  "04:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 5.87,
-            "fhirLocationId": "4fa17908-252c-4480-8ffb-2d03f7a9feda",
-            "locationId": "4fa17908-252c-4480-8ffb-2d03f7a9feda",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "5608",
-            "phone": [
-              {
-                "number": "618-281-2111",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "618-281-2002",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "618-281-2111",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 38.441099,
-              "longitude": -90.213599
-            },
-            "storenumber": "5608"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       },
@@ -37283,64 +36839,10 @@
         ]
       },
       "second_dose_pfizer": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "COLUMBIA",
-              "country": "US",
-              "line1": "100 ADMIRAL WEINEL BLVD",
-              "line2": "",
-              "state": "IL",
-              "zip": "62236"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-02",
-                "day": "Tuesday",
-                "slots": [
-                  "04:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 16.49,
-            "fhirLocationId": "4fa17908-252c-4480-8ffb-2d03f7a9feda",
-            "locationId": "4fa17908-252c-4480-8ffb-2d03f7a9feda",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "5608",
-            "phone": [
-              {
-                "number": "618-281-2111",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "618-281-2002",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "618-281-2111",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 38.441099,
-              "longitude": -90.213599
-            },
-            "storenumber": "5608"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       }
@@ -37359,67 +36861,13 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:15:53.702+00:00",
+    "appointments_last_fetched": "2021-02-27T18:32:47.862+00:00",
     "appointments_raw": {
       "both_doses": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "COLUMBIA",
-              "country": "US",
-              "line1": "100 ADMIRAL WEINEL BLVD",
-              "line2": "",
-              "state": "IL",
-              "zip": "62236"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-02",
-                "day": "Tuesday",
-                "slots": [
-                  "04:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 5.87,
-            "fhirLocationId": "4fa17908-252c-4480-8ffb-2d03f7a9feda",
-            "locationId": "4fa17908-252c-4480-8ffb-2d03f7a9feda",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "5608",
-            "phone": [
-              {
-                "number": "618-281-2111",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "618-281-2002",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "618-281-2111",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 38.441099,
-              "longitude": -90.213599
-            },
-            "storenumber": "5608"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       },
@@ -37432,64 +36880,10 @@
         ]
       },
       "second_dose_pfizer": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "COLUMBIA",
-              "country": "US",
-              "line1": "100 ADMIRAL WEINEL BLVD",
-              "line2": "",
-              "state": "IL",
-              "zip": "62236"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-02",
-                "day": "Tuesday",
-                "slots": [
-                  "04:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 16.49,
-            "fhirLocationId": "4fa17908-252c-4480-8ffb-2d03f7a9feda",
-            "locationId": "4fa17908-252c-4480-8ffb-2d03f7a9feda",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "5608",
-            "phone": [
-              {
-                "number": "618-281-2111",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "618-281-2002",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "618-281-2111",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 38.441099,
-              "longitude": -90.213599
-            },
-            "storenumber": "5608"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       }
@@ -37508,67 +36902,13 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:15:53.702+00:00",
+    "appointments_last_fetched": "2021-02-27T18:32:47.862+00:00",
     "appointments_raw": {
       "both_doses": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "COLUMBIA",
-              "country": "US",
-              "line1": "100 ADMIRAL WEINEL BLVD",
-              "line2": "",
-              "state": "IL",
-              "zip": "62236"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-02",
-                "day": "Tuesday",
-                "slots": [
-                  "04:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 5.87,
-            "fhirLocationId": "4fa17908-252c-4480-8ffb-2d03f7a9feda",
-            "locationId": "4fa17908-252c-4480-8ffb-2d03f7a9feda",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "5608",
-            "phone": [
-              {
-                "number": "618-281-2111",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "618-281-2002",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "618-281-2111",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 38.441099,
-              "longitude": -90.213599
-            },
-            "storenumber": "5608"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       },
@@ -37581,64 +36921,10 @@
         ]
       },
       "second_dose_pfizer": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "COLUMBIA",
-              "country": "US",
-              "line1": "100 ADMIRAL WEINEL BLVD",
-              "line2": "",
-              "state": "IL",
-              "zip": "62236"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-02",
-                "day": "Tuesday",
-                "slots": [
-                  "04:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 16.49,
-            "fhirLocationId": "4fa17908-252c-4480-8ffb-2d03f7a9feda",
-            "locationId": "4fa17908-252c-4480-8ffb-2d03f7a9feda",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "5608",
-            "phone": [
-              {
-                "number": "618-281-2111",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "618-281-2002",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "618-281-2111",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 38.441099,
-              "longitude": -90.213599
-            },
-            "storenumber": "5608"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       }
@@ -37819,77 +37105,15 @@
   {
     "address": "5890 N BELT W",
     "appointments": [
-      {
-        "time": "2021-03-02T17:15:00.000-06:00",
-        "type": "both_doses"
-      },
-      {
-        "time": "2021-03-02T17:15:00.000-06:00",
-        "type": "second_dose_pfizer"
-      }
     ],
-    "appointments_available": true,
-    "appointments_last_fetched": "2021-02-27T18:23:35.333+00:00",
+    "appointments_available": false,
+    "appointments_last_fetched": "2021-02-27T18:32:47.862+00:00",
     "appointments_raw": {
       "both_doses": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "BELLEVILLE",
-              "country": "US",
-              "line1": "5890 N BELT W",
-              "line2": "",
-              "state": "IL",
-              "zip": "62226"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-02",
-                "day": "Tuesday",
-                "slots": [
-                  "05:15 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 15.38,
-            "fhirLocationId": "65791171-246b-45ed-9f8d-b36dae040282",
-            "locationId": "65791171-246b-45ed-9f8d-b36dae040282",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "4024",
-            "phone": [
-              {
-                "number": "618-277-4440",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "618-277-4440",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 38.54094538,
-              "longitude": -90.03638105
-            },
-            "storenumber": "4024"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       },
@@ -37902,64 +37126,10 @@
         ]
       },
       "second_dose_pfizer": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "BELLEVILLE",
-              "country": "US",
-              "line1": "5890 N BELT W",
-              "line2": "",
-              "state": "IL",
-              "zip": "62226"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-02",
-                "day": "Tuesday",
-                "slots": [
-                  "05:15 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 24.29,
-            "fhirLocationId": "65791171-246b-45ed-9f8d-b36dae040282",
-            "locationId": "65791171-246b-45ed-9f8d-b36dae040282",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "4024",
-            "phone": [
-              {
-                "number": "618-277-4440",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "618-277-4440",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 38.54094538,
-              "longitude": -90.03638105
-            },
-            "storenumber": "4024"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       }
@@ -37978,67 +37148,13 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:15:53.702+00:00",
+    "appointments_last_fetched": "2021-02-27T18:32:47.862+00:00",
     "appointments_raw": {
       "both_doses": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "COLUMBIA",
-              "country": "US",
-              "line1": "100 ADMIRAL WEINEL BLVD",
-              "line2": "",
-              "state": "IL",
-              "zip": "62236"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-02",
-                "day": "Tuesday",
-                "slots": [
-                  "04:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 5.87,
-            "fhirLocationId": "4fa17908-252c-4480-8ffb-2d03f7a9feda",
-            "locationId": "4fa17908-252c-4480-8ffb-2d03f7a9feda",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "5608",
-            "phone": [
-              {
-                "number": "618-281-2111",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "618-281-2002",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "618-281-2111",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 38.441099,
-              "longitude": -90.213599
-            },
-            "storenumber": "5608"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       },
@@ -38051,64 +37167,10 @@
         ]
       },
       "second_dose_pfizer": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "COLUMBIA",
-              "country": "US",
-              "line1": "100 ADMIRAL WEINEL BLVD",
-              "line2": "",
-              "state": "IL",
-              "zip": "62236"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-02",
-                "day": "Tuesday",
-                "slots": [
-                  "04:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 16.49,
-            "fhirLocationId": "4fa17908-252c-4480-8ffb-2d03f7a9feda",
-            "locationId": "4fa17908-252c-4480-8ffb-2d03f7a9feda",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "5608",
-            "phone": [
-              {
-                "number": "618-281-2111",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "618-281-2002",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "618-281-2111",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 38.441099,
-              "longitude": -90.213599
-            },
-            "storenumber": "5608"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       }
@@ -38168,67 +37230,13 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:15:53.702+00:00",
+    "appointments_last_fetched": "2021-02-27T18:32:47.862+00:00",
     "appointments_raw": {
       "both_doses": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "COLUMBIA",
-              "country": "US",
-              "line1": "100 ADMIRAL WEINEL BLVD",
-              "line2": "",
-              "state": "IL",
-              "zip": "62236"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-02",
-                "day": "Tuesday",
-                "slots": [
-                  "04:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 5.87,
-            "fhirLocationId": "4fa17908-252c-4480-8ffb-2d03f7a9feda",
-            "locationId": "4fa17908-252c-4480-8ffb-2d03f7a9feda",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "5608",
-            "phone": [
-              {
-                "number": "618-281-2111",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "618-281-2002",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "618-281-2111",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 38.441099,
-              "longitude": -90.213599
-            },
-            "storenumber": "5608"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       },
@@ -38241,64 +37249,10 @@
         ]
       },
       "second_dose_pfizer": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "COLUMBIA",
-              "country": "US",
-              "line1": "100 ADMIRAL WEINEL BLVD",
-              "line2": "",
-              "state": "IL",
-              "zip": "62236"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-02",
-                "day": "Tuesday",
-                "slots": [
-                  "04:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 16.49,
-            "fhirLocationId": "4fa17908-252c-4480-8ffb-2d03f7a9feda",
-            "locationId": "4fa17908-252c-4480-8ffb-2d03f7a9feda",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "5608",
-            "phone": [
-              {
-                "number": "618-281-2111",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "618-281-2002",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "618-281-2111",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 38.441099,
-              "longitude": -90.213599
-            },
-            "storenumber": "5608"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       }
@@ -38399,67 +37353,13 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:15:53.702+00:00",
+    "appointments_last_fetched": "2021-02-27T18:32:47.862+00:00",
     "appointments_raw": {
       "both_doses": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "COLUMBIA",
-              "country": "US",
-              "line1": "100 ADMIRAL WEINEL BLVD",
-              "line2": "",
-              "state": "IL",
-              "zip": "62236"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-02",
-                "day": "Tuesday",
-                "slots": [
-                  "04:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 5.87,
-            "fhirLocationId": "4fa17908-252c-4480-8ffb-2d03f7a9feda",
-            "locationId": "4fa17908-252c-4480-8ffb-2d03f7a9feda",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "5608",
-            "phone": [
-              {
-                "number": "618-281-2111",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "618-281-2002",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "618-281-2111",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 38.441099,
-              "longitude": -90.213599
-            },
-            "storenumber": "5608"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       },
@@ -38472,64 +37372,10 @@
         ]
       },
       "second_dose_pfizer": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "COLUMBIA",
-              "country": "US",
-              "line1": "100 ADMIRAL WEINEL BLVD",
-              "line2": "",
-              "state": "IL",
-              "zip": "62236"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-02",
-                "day": "Tuesday",
-                "slots": [
-                  "04:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 16.49,
-            "fhirLocationId": "4fa17908-252c-4480-8ffb-2d03f7a9feda",
-            "locationId": "4fa17908-252c-4480-8ffb-2d03f7a9feda",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "5608",
-            "phone": [
-              {
-                "number": "618-281-2111",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "618-281-2002",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "618-281-2111",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 38.441099,
-              "longitude": -90.213599
-            },
-            "storenumber": "5608"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       }
@@ -38628,77 +37474,15 @@
   {
     "address": "100 ADMIRAL WEINEL BLVD",
     "appointments": [
-      {
-        "time": "2021-03-02T16:30:00.000-06:00",
-        "type": "both_doses"
-      },
-      {
-        "time": "2021-03-02T16:30:00.000-06:00",
-        "type": "second_dose_pfizer"
-      }
     ],
-    "appointments_available": true,
-    "appointments_last_fetched": "2021-02-27T18:15:53.702+00:00",
+    "appointments_available": false,
+    "appointments_last_fetched": "2021-02-27T18:32:47.862+00:00",
     "appointments_raw": {
       "both_doses": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "COLUMBIA",
-              "country": "US",
-              "line1": "100 ADMIRAL WEINEL BLVD",
-              "line2": "",
-              "state": "IL",
-              "zip": "62236"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-02",
-                "day": "Tuesday",
-                "slots": [
-                  "04:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 5.87,
-            "fhirLocationId": "4fa17908-252c-4480-8ffb-2d03f7a9feda",
-            "locationId": "4fa17908-252c-4480-8ffb-2d03f7a9feda",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "5608",
-            "phone": [
-              {
-                "number": "618-281-2111",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "618-281-2002",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "618-281-2111",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 38.441099,
-              "longitude": -90.213599
-            },
-            "storenumber": "5608"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       },
@@ -38711,64 +37495,10 @@
         ]
       },
       "second_dose_pfizer": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "COLUMBIA",
-              "country": "US",
-              "line1": "100 ADMIRAL WEINEL BLVD",
-              "line2": "",
-              "state": "IL",
-              "zip": "62236"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-02",
-                "day": "Tuesday",
-                "slots": [
-                  "04:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 16.49,
-            "fhirLocationId": "4fa17908-252c-4480-8ffb-2d03f7a9feda",
-            "locationId": "4fa17908-252c-4480-8ffb-2d03f7a9feda",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "5608",
-            "phone": [
-              {
-                "number": "618-281-2111",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "618-281-2002",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "618-281-2111",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 38.441099,
-              "longitude": -90.213599
-            },
-            "storenumber": "5608"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       }
@@ -38787,67 +37517,13 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:15:53.702+00:00",
+    "appointments_last_fetched": "2021-02-27T18:32:47.862+00:00",
     "appointments_raw": {
       "both_doses": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "COLUMBIA",
-              "country": "US",
-              "line1": "100 ADMIRAL WEINEL BLVD",
-              "line2": "",
-              "state": "IL",
-              "zip": "62236"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-02",
-                "day": "Tuesday",
-                "slots": [
-                  "04:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 5.87,
-            "fhirLocationId": "4fa17908-252c-4480-8ffb-2d03f7a9feda",
-            "locationId": "4fa17908-252c-4480-8ffb-2d03f7a9feda",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "5608",
-            "phone": [
-              {
-                "number": "618-281-2111",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "618-281-2002",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "618-281-2111",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 38.441099,
-              "longitude": -90.213599
-            },
-            "storenumber": "5608"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       },
@@ -38860,64 +37536,10 @@
         ]
       },
       "second_dose_pfizer": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "COLUMBIA",
-              "country": "US",
-              "line1": "100 ADMIRAL WEINEL BLVD",
-              "line2": "",
-              "state": "IL",
-              "zip": "62236"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-02",
-                "day": "Tuesday",
-                "slots": [
-                  "04:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 16.49,
-            "fhirLocationId": "4fa17908-252c-4480-8ffb-2d03f7a9feda",
-            "locationId": "4fa17908-252c-4480-8ffb-2d03f7a9feda",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "5608",
-            "phone": [
-              {
-                "number": "618-281-2111",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "618-281-2002",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "618-281-2111",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 38.441099,
-              "longitude": -90.213599
-            },
-            "storenumber": "5608"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       }
@@ -40855,7 +39477,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:11:17.484+00:00",
+    "appointments_last_fetched": "2021-02-27T18:33:37.59+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
