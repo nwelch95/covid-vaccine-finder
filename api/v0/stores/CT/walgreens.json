@@ -1073,142 +1073,9 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T06:54:15.423+00:00",
+    "appointments_last_fetched": "2021-02-27T07:11:49.828+00:00",
     "appointments_raw": {
       "both_doses": {
-        "locations": [
-          {
-            "address": {
-              "city": "ESSEX",
-              "country": "US",
-              "line1": "125 WESTBROOK ROAD",
-              "line2": "",
-              "state": "CT",
-              "zip": "06426"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "09:45 am",
-                  "10:00 am",
-                  "10:15 am",
-                  "10:45 am",
-                  "11:15 am",
-                  "11:45 am",
-                  "12:00 pm",
-                  "12:15 pm",
-                  "12:30 pm",
-                  "12:45 pm",
-                  "01:00 pm",
-                  "02:15 pm",
-                  "02:30 pm",
-                  "02:45 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 21.68,
-            "fhirLocationId": "5cc83df5-d6e1-41fa-bc89-48c1f855f122",
-            "locationId": "5cc83df5-d6e1-41fa-bc89-48c1f855f122",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "17767",
-            "phone": [
-              {
-                "number": "860-767-2181",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "860-767-2182",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "860-767-2181",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 41.33948799,
-              "longitude": -72.41418954
-            },
-            "storenumber": "17767"
-          },
-          {
-            "address": {
-              "city": "WALLINGFORD",
-              "country": "US",
-              "line1": "284 S COLONY RD",
-              "line2": "",
-              "state": "CT",
-              "zip": "06492"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-02-28",
-                "day": "Sunday",
-                "slots": [
-                  "12:45 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 18.08,
-            "fhirLocationId": "d0ad4492-4fca-4b8c-84d5-6e4b085665fc",
-            "locationId": "d0ad4492-4fca-4b8c-84d5-6e4b085665fc",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "10647",
-            "phone": [
-              {
-                "number": "203-265-6336",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "203-265-4772",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "203-265-6336",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 41.451162,
-              "longitude": -72.826945
-            },
-            "storenumber": "10647"
-          }
-        ]
-      },
-      "second_dose_moderna": {
         "locations": [
           {
             "address": {
@@ -1283,23 +1150,36 @@
           }
         ]
       },
-      "second_dose_pfizer": {
+      "second_dose_moderna": {
         "locations": [
           {
             "address": {
-              "city": "WALLINGFORD",
+              "city": "ESSEX",
               "country": "US",
-              "line1": "284 S COLONY RD",
+              "line1": "125 WESTBROOK ROAD",
               "line2": "",
               "state": "CT",
-              "zip": "06492"
+              "zip": "06426"
             },
             "appointmentAvailability": [
               {
-                "date": "2021-02-28",
-                "day": "Sunday",
+                "date": "2021-03-01",
+                "day": "Monday",
                 "slots": [
-                  "12:45 pm"
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:45 am",
+                  "11:15 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "02:15 pm",
+                  "02:30 pm",
+                  "02:45 pm"
                 ]
               }
             ],
@@ -1316,32 +1196,40 @@
               }
             ],
             "description": "",
-            "distance": 15.45,
-            "fhirLocationId": "d0ad4492-4fca-4b8c-84d5-6e4b085665fc",
-            "locationId": "d0ad4492-4fca-4b8c-84d5-6e4b085665fc",
+            "distance": 17.18,
+            "fhirLocationId": "5cc83df5-d6e1-41fa-bc89-48c1f855f122",
+            "locationId": "5cc83df5-d6e1-41fa-bc89-48c1f855f122",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
             "name": "Walgreen Drug Store",
             "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "10647",
+            "partnerLocationId": "17767",
             "phone": [
               {
-                "number": "203-265-6336",
+                "number": "860-767-2181",
                 "type": "StorePrimary"
               },
               {
-                "number": "203-265-4772",
+                "number": "860-767-2182",
                 "type": "StoreSecondary"
               },
               {
-                "number": "203-265-6336",
+                "number": "860-767-2181",
                 "type": "Pharmacy"
               }
             ],
             "position": {
-              "latitude": 41.451162,
-              "longitude": -72.826945
+              "latitude": 41.33948799,
+              "longitude": -72.41418954
             },
-            "storenumber": "10647"
+            "storenumber": "17767"
+          }
+        ]
+      },
+      "second_dose_pfizer": {
+        "error": [
+          {
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       }
@@ -1401,142 +1289,9 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T06:54:15.423+00:00",
+    "appointments_last_fetched": "2021-02-27T07:11:49.828+00:00",
     "appointments_raw": {
       "both_doses": {
-        "locations": [
-          {
-            "address": {
-              "city": "ESSEX",
-              "country": "US",
-              "line1": "125 WESTBROOK ROAD",
-              "line2": "",
-              "state": "CT",
-              "zip": "06426"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "09:45 am",
-                  "10:00 am",
-                  "10:15 am",
-                  "10:45 am",
-                  "11:15 am",
-                  "11:45 am",
-                  "12:00 pm",
-                  "12:15 pm",
-                  "12:30 pm",
-                  "12:45 pm",
-                  "01:00 pm",
-                  "02:15 pm",
-                  "02:30 pm",
-                  "02:45 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 21.68,
-            "fhirLocationId": "5cc83df5-d6e1-41fa-bc89-48c1f855f122",
-            "locationId": "5cc83df5-d6e1-41fa-bc89-48c1f855f122",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "17767",
-            "phone": [
-              {
-                "number": "860-767-2181",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "860-767-2182",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "860-767-2181",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 41.33948799,
-              "longitude": -72.41418954
-            },
-            "storenumber": "17767"
-          },
-          {
-            "address": {
-              "city": "WALLINGFORD",
-              "country": "US",
-              "line1": "284 S COLONY RD",
-              "line2": "",
-              "state": "CT",
-              "zip": "06492"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-02-28",
-                "day": "Sunday",
-                "slots": [
-                  "12:45 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 18.08,
-            "fhirLocationId": "d0ad4492-4fca-4b8c-84d5-6e4b085665fc",
-            "locationId": "d0ad4492-4fca-4b8c-84d5-6e4b085665fc",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "10647",
-            "phone": [
-              {
-                "number": "203-265-6336",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "203-265-4772",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "203-265-6336",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 41.451162,
-              "longitude": -72.826945
-            },
-            "storenumber": "10647"
-          }
-        ]
-      },
-      "second_dose_moderna": {
         "locations": [
           {
             "address": {
@@ -1611,23 +1366,36 @@
           }
         ]
       },
-      "second_dose_pfizer": {
+      "second_dose_moderna": {
         "locations": [
           {
             "address": {
-              "city": "WALLINGFORD",
+              "city": "ESSEX",
               "country": "US",
-              "line1": "284 S COLONY RD",
+              "line1": "125 WESTBROOK ROAD",
               "line2": "",
               "state": "CT",
-              "zip": "06492"
+              "zip": "06426"
             },
             "appointmentAvailability": [
               {
-                "date": "2021-02-28",
-                "day": "Sunday",
+                "date": "2021-03-01",
+                "day": "Monday",
                 "slots": [
-                  "12:45 pm"
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:45 am",
+                  "11:15 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "02:15 pm",
+                  "02:30 pm",
+                  "02:45 pm"
                 ]
               }
             ],
@@ -1644,32 +1412,40 @@
               }
             ],
             "description": "",
-            "distance": 15.45,
-            "fhirLocationId": "d0ad4492-4fca-4b8c-84d5-6e4b085665fc",
-            "locationId": "d0ad4492-4fca-4b8c-84d5-6e4b085665fc",
+            "distance": 17.18,
+            "fhirLocationId": "5cc83df5-d6e1-41fa-bc89-48c1f855f122",
+            "locationId": "5cc83df5-d6e1-41fa-bc89-48c1f855f122",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
             "name": "Walgreen Drug Store",
             "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "10647",
+            "partnerLocationId": "17767",
             "phone": [
               {
-                "number": "203-265-6336",
+                "number": "860-767-2181",
                 "type": "StorePrimary"
               },
               {
-                "number": "203-265-4772",
+                "number": "860-767-2182",
                 "type": "StoreSecondary"
               },
               {
-                "number": "203-265-6336",
+                "number": "860-767-2181",
                 "type": "Pharmacy"
               }
             ],
             "position": {
-              "latitude": 41.451162,
-              "longitude": -72.826945
+              "latitude": 41.33948799,
+              "longitude": -72.41418954
             },
-            "storenumber": "10647"
+            "storenumber": "17767"
+          }
+        ]
+      },
+      "second_dose_pfizer": {
+        "error": [
+          {
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       }
@@ -1923,142 +1699,9 @@
       }
     ],
     "appointments_available": true,
-    "appointments_last_fetched": "2021-02-27T06:54:15.423+00:00",
+    "appointments_last_fetched": "2021-02-27T07:11:49.828+00:00",
     "appointments_raw": {
       "both_doses": {
-        "locations": [
-          {
-            "address": {
-              "city": "ESSEX",
-              "country": "US",
-              "line1": "125 WESTBROOK ROAD",
-              "line2": "",
-              "state": "CT",
-              "zip": "06426"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "09:45 am",
-                  "10:00 am",
-                  "10:15 am",
-                  "10:45 am",
-                  "11:15 am",
-                  "11:45 am",
-                  "12:00 pm",
-                  "12:15 pm",
-                  "12:30 pm",
-                  "12:45 pm",
-                  "01:00 pm",
-                  "02:15 pm",
-                  "02:30 pm",
-                  "02:45 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 21.68,
-            "fhirLocationId": "5cc83df5-d6e1-41fa-bc89-48c1f855f122",
-            "locationId": "5cc83df5-d6e1-41fa-bc89-48c1f855f122",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "17767",
-            "phone": [
-              {
-                "number": "860-767-2181",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "860-767-2182",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "860-767-2181",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 41.33948799,
-              "longitude": -72.41418954
-            },
-            "storenumber": "17767"
-          },
-          {
-            "address": {
-              "city": "WALLINGFORD",
-              "country": "US",
-              "line1": "284 S COLONY RD",
-              "line2": "",
-              "state": "CT",
-              "zip": "06492"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-02-28",
-                "day": "Sunday",
-                "slots": [
-                  "12:45 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 18.08,
-            "fhirLocationId": "d0ad4492-4fca-4b8c-84d5-6e4b085665fc",
-            "locationId": "d0ad4492-4fca-4b8c-84d5-6e4b085665fc",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "10647",
-            "phone": [
-              {
-                "number": "203-265-6336",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "203-265-4772",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "203-265-6336",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 41.451162,
-              "longitude": -72.826945
-            },
-            "storenumber": "10647"
-          }
-        ]
-      },
-      "second_dose_moderna": {
         "locations": [
           {
             "address": {
@@ -2133,23 +1776,36 @@
           }
         ]
       },
-      "second_dose_pfizer": {
+      "second_dose_moderna": {
         "locations": [
           {
             "address": {
-              "city": "WALLINGFORD",
+              "city": "ESSEX",
               "country": "US",
-              "line1": "284 S COLONY RD",
+              "line1": "125 WESTBROOK ROAD",
               "line2": "",
               "state": "CT",
-              "zip": "06492"
+              "zip": "06426"
             },
             "appointmentAvailability": [
               {
-                "date": "2021-02-28",
-                "day": "Sunday",
+                "date": "2021-03-01",
+                "day": "Monday",
                 "slots": [
-                  "12:45 pm"
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:45 am",
+                  "11:15 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "02:15 pm",
+                  "02:30 pm",
+                  "02:45 pm"
                 ]
               }
             ],
@@ -2166,32 +1822,40 @@
               }
             ],
             "description": "",
-            "distance": 15.45,
-            "fhirLocationId": "d0ad4492-4fca-4b8c-84d5-6e4b085665fc",
-            "locationId": "d0ad4492-4fca-4b8c-84d5-6e4b085665fc",
+            "distance": 17.18,
+            "fhirLocationId": "5cc83df5-d6e1-41fa-bc89-48c1f855f122",
+            "locationId": "5cc83df5-d6e1-41fa-bc89-48c1f855f122",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
             "name": "Walgreen Drug Store",
             "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "10647",
+            "partnerLocationId": "17767",
             "phone": [
               {
-                "number": "203-265-6336",
+                "number": "860-767-2181",
                 "type": "StorePrimary"
               },
               {
-                "number": "203-265-4772",
+                "number": "860-767-2182",
                 "type": "StoreSecondary"
               },
               {
-                "number": "203-265-6336",
+                "number": "860-767-2181",
                 "type": "Pharmacy"
               }
             ],
             "position": {
-              "latitude": 41.451162,
-              "longitude": -72.826945
+              "latitude": 41.33948799,
+              "longitude": -72.41418954
             },
-            "storenumber": "10647"
+            "storenumber": "17767"
+          }
+        ]
+      },
+      "second_dose_pfizer": {
+        "error": [
+          {
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       }
@@ -2210,142 +1874,9 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T06:54:15.423+00:00",
+    "appointments_last_fetched": "2021-02-27T07:11:49.828+00:00",
     "appointments_raw": {
       "both_doses": {
-        "locations": [
-          {
-            "address": {
-              "city": "ESSEX",
-              "country": "US",
-              "line1": "125 WESTBROOK ROAD",
-              "line2": "",
-              "state": "CT",
-              "zip": "06426"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "09:45 am",
-                  "10:00 am",
-                  "10:15 am",
-                  "10:45 am",
-                  "11:15 am",
-                  "11:45 am",
-                  "12:00 pm",
-                  "12:15 pm",
-                  "12:30 pm",
-                  "12:45 pm",
-                  "01:00 pm",
-                  "02:15 pm",
-                  "02:30 pm",
-                  "02:45 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 21.68,
-            "fhirLocationId": "5cc83df5-d6e1-41fa-bc89-48c1f855f122",
-            "locationId": "5cc83df5-d6e1-41fa-bc89-48c1f855f122",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "17767",
-            "phone": [
-              {
-                "number": "860-767-2181",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "860-767-2182",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "860-767-2181",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 41.33948799,
-              "longitude": -72.41418954
-            },
-            "storenumber": "17767"
-          },
-          {
-            "address": {
-              "city": "WALLINGFORD",
-              "country": "US",
-              "line1": "284 S COLONY RD",
-              "line2": "",
-              "state": "CT",
-              "zip": "06492"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-02-28",
-                "day": "Sunday",
-                "slots": [
-                  "12:45 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 18.08,
-            "fhirLocationId": "d0ad4492-4fca-4b8c-84d5-6e4b085665fc",
-            "locationId": "d0ad4492-4fca-4b8c-84d5-6e4b085665fc",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "10647",
-            "phone": [
-              {
-                "number": "203-265-6336",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "203-265-4772",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "203-265-6336",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 41.451162,
-              "longitude": -72.826945
-            },
-            "storenumber": "10647"
-          }
-        ]
-      },
-      "second_dose_moderna": {
         "locations": [
           {
             "address": {
@@ -2420,23 +1951,36 @@
           }
         ]
       },
-      "second_dose_pfizer": {
+      "second_dose_moderna": {
         "locations": [
           {
             "address": {
-              "city": "WALLINGFORD",
+              "city": "ESSEX",
               "country": "US",
-              "line1": "284 S COLONY RD",
+              "line1": "125 WESTBROOK ROAD",
               "line2": "",
               "state": "CT",
-              "zip": "06492"
+              "zip": "06426"
             },
             "appointmentAvailability": [
               {
-                "date": "2021-02-28",
-                "day": "Sunday",
+                "date": "2021-03-01",
+                "day": "Monday",
                 "slots": [
-                  "12:45 pm"
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:45 am",
+                  "11:15 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "02:15 pm",
+                  "02:30 pm",
+                  "02:45 pm"
                 ]
               }
             ],
@@ -2453,32 +1997,40 @@
               }
             ],
             "description": "",
-            "distance": 15.45,
-            "fhirLocationId": "d0ad4492-4fca-4b8c-84d5-6e4b085665fc",
-            "locationId": "d0ad4492-4fca-4b8c-84d5-6e4b085665fc",
+            "distance": 17.18,
+            "fhirLocationId": "5cc83df5-d6e1-41fa-bc89-48c1f855f122",
+            "locationId": "5cc83df5-d6e1-41fa-bc89-48c1f855f122",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
             "name": "Walgreen Drug Store",
             "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "10647",
+            "partnerLocationId": "17767",
             "phone": [
               {
-                "number": "203-265-6336",
+                "number": "860-767-2181",
                 "type": "StorePrimary"
               },
               {
-                "number": "203-265-4772",
+                "number": "860-767-2182",
                 "type": "StoreSecondary"
               },
               {
-                "number": "203-265-6336",
+                "number": "860-767-2181",
                 "type": "Pharmacy"
               }
             ],
             "position": {
-              "latitude": 41.451162,
-              "longitude": -72.826945
+              "latitude": 41.33948799,
+              "longitude": -72.41418954
             },
-            "storenumber": "10647"
+            "storenumber": "17767"
+          }
+        ]
+      },
+      "second_dose_pfizer": {
+        "error": [
+          {
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       }
@@ -2497,142 +2049,9 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T06:54:15.423+00:00",
+    "appointments_last_fetched": "2021-02-27T07:11:49.828+00:00",
     "appointments_raw": {
       "both_doses": {
-        "locations": [
-          {
-            "address": {
-              "city": "ESSEX",
-              "country": "US",
-              "line1": "125 WESTBROOK ROAD",
-              "line2": "",
-              "state": "CT",
-              "zip": "06426"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "09:45 am",
-                  "10:00 am",
-                  "10:15 am",
-                  "10:45 am",
-                  "11:15 am",
-                  "11:45 am",
-                  "12:00 pm",
-                  "12:15 pm",
-                  "12:30 pm",
-                  "12:45 pm",
-                  "01:00 pm",
-                  "02:15 pm",
-                  "02:30 pm",
-                  "02:45 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 21.68,
-            "fhirLocationId": "5cc83df5-d6e1-41fa-bc89-48c1f855f122",
-            "locationId": "5cc83df5-d6e1-41fa-bc89-48c1f855f122",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "17767",
-            "phone": [
-              {
-                "number": "860-767-2181",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "860-767-2182",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "860-767-2181",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 41.33948799,
-              "longitude": -72.41418954
-            },
-            "storenumber": "17767"
-          },
-          {
-            "address": {
-              "city": "WALLINGFORD",
-              "country": "US",
-              "line1": "284 S COLONY RD",
-              "line2": "",
-              "state": "CT",
-              "zip": "06492"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-02-28",
-                "day": "Sunday",
-                "slots": [
-                  "12:45 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 18.08,
-            "fhirLocationId": "d0ad4492-4fca-4b8c-84d5-6e4b085665fc",
-            "locationId": "d0ad4492-4fca-4b8c-84d5-6e4b085665fc",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "10647",
-            "phone": [
-              {
-                "number": "203-265-6336",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "203-265-4772",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "203-265-6336",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 41.451162,
-              "longitude": -72.826945
-            },
-            "storenumber": "10647"
-          }
-        ]
-      },
-      "second_dose_moderna": {
         "locations": [
           {
             "address": {
@@ -2707,23 +2126,36 @@
           }
         ]
       },
-      "second_dose_pfizer": {
+      "second_dose_moderna": {
         "locations": [
           {
             "address": {
-              "city": "WALLINGFORD",
+              "city": "ESSEX",
               "country": "US",
-              "line1": "284 S COLONY RD",
+              "line1": "125 WESTBROOK ROAD",
               "line2": "",
               "state": "CT",
-              "zip": "06492"
+              "zip": "06426"
             },
             "appointmentAvailability": [
               {
-                "date": "2021-02-28",
-                "day": "Sunday",
+                "date": "2021-03-01",
+                "day": "Monday",
                 "slots": [
-                  "12:45 pm"
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:45 am",
+                  "11:15 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "02:15 pm",
+                  "02:30 pm",
+                  "02:45 pm"
                 ]
               }
             ],
@@ -2740,32 +2172,40 @@
               }
             ],
             "description": "",
-            "distance": 15.45,
-            "fhirLocationId": "d0ad4492-4fca-4b8c-84d5-6e4b085665fc",
-            "locationId": "d0ad4492-4fca-4b8c-84d5-6e4b085665fc",
+            "distance": 17.18,
+            "fhirLocationId": "5cc83df5-d6e1-41fa-bc89-48c1f855f122",
+            "locationId": "5cc83df5-d6e1-41fa-bc89-48c1f855f122",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
             "name": "Walgreen Drug Store",
             "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "10647",
+            "partnerLocationId": "17767",
             "phone": [
               {
-                "number": "203-265-6336",
+                "number": "860-767-2181",
                 "type": "StorePrimary"
               },
               {
-                "number": "203-265-4772",
+                "number": "860-767-2182",
                 "type": "StoreSecondary"
               },
               {
-                "number": "203-265-6336",
+                "number": "860-767-2181",
                 "type": "Pharmacy"
               }
             ],
             "position": {
-              "latitude": 41.451162,
-              "longitude": -72.826945
+              "latitude": 41.33948799,
+              "longitude": -72.41418954
             },
-            "storenumber": "10647"
+            "storenumber": "17767"
+          }
+        ]
+      },
+      "second_dose_pfizer": {
+        "error": [
+          {
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       }
@@ -3123,142 +2563,9 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T06:54:15.423+00:00",
+    "appointments_last_fetched": "2021-02-27T07:11:49.828+00:00",
     "appointments_raw": {
       "both_doses": {
-        "locations": [
-          {
-            "address": {
-              "city": "ESSEX",
-              "country": "US",
-              "line1": "125 WESTBROOK ROAD",
-              "line2": "",
-              "state": "CT",
-              "zip": "06426"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "09:45 am",
-                  "10:00 am",
-                  "10:15 am",
-                  "10:45 am",
-                  "11:15 am",
-                  "11:45 am",
-                  "12:00 pm",
-                  "12:15 pm",
-                  "12:30 pm",
-                  "12:45 pm",
-                  "01:00 pm",
-                  "02:15 pm",
-                  "02:30 pm",
-                  "02:45 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 21.68,
-            "fhirLocationId": "5cc83df5-d6e1-41fa-bc89-48c1f855f122",
-            "locationId": "5cc83df5-d6e1-41fa-bc89-48c1f855f122",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "17767",
-            "phone": [
-              {
-                "number": "860-767-2181",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "860-767-2182",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "860-767-2181",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 41.33948799,
-              "longitude": -72.41418954
-            },
-            "storenumber": "17767"
-          },
-          {
-            "address": {
-              "city": "WALLINGFORD",
-              "country": "US",
-              "line1": "284 S COLONY RD",
-              "line2": "",
-              "state": "CT",
-              "zip": "06492"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-02-28",
-                "day": "Sunday",
-                "slots": [
-                  "12:45 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 18.08,
-            "fhirLocationId": "d0ad4492-4fca-4b8c-84d5-6e4b085665fc",
-            "locationId": "d0ad4492-4fca-4b8c-84d5-6e4b085665fc",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "10647",
-            "phone": [
-              {
-                "number": "203-265-6336",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "203-265-4772",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "203-265-6336",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 41.451162,
-              "longitude": -72.826945
-            },
-            "storenumber": "10647"
-          }
-        ]
-      },
-      "second_dose_moderna": {
         "locations": [
           {
             "address": {
@@ -3333,23 +2640,36 @@
           }
         ]
       },
-      "second_dose_pfizer": {
+      "second_dose_moderna": {
         "locations": [
           {
             "address": {
-              "city": "WALLINGFORD",
+              "city": "ESSEX",
               "country": "US",
-              "line1": "284 S COLONY RD",
+              "line1": "125 WESTBROOK ROAD",
               "line2": "",
               "state": "CT",
-              "zip": "06492"
+              "zip": "06426"
             },
             "appointmentAvailability": [
               {
-                "date": "2021-02-28",
-                "day": "Sunday",
+                "date": "2021-03-01",
+                "day": "Monday",
                 "slots": [
-                  "12:45 pm"
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:45 am",
+                  "11:15 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "02:15 pm",
+                  "02:30 pm",
+                  "02:45 pm"
                 ]
               }
             ],
@@ -3366,32 +2686,40 @@
               }
             ],
             "description": "",
-            "distance": 15.45,
-            "fhirLocationId": "d0ad4492-4fca-4b8c-84d5-6e4b085665fc",
-            "locationId": "d0ad4492-4fca-4b8c-84d5-6e4b085665fc",
+            "distance": 17.18,
+            "fhirLocationId": "5cc83df5-d6e1-41fa-bc89-48c1f855f122",
+            "locationId": "5cc83df5-d6e1-41fa-bc89-48c1f855f122",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
             "name": "Walgreen Drug Store",
             "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "10647",
+            "partnerLocationId": "17767",
             "phone": [
               {
-                "number": "203-265-6336",
+                "number": "860-767-2181",
                 "type": "StorePrimary"
               },
               {
-                "number": "203-265-4772",
+                "number": "860-767-2182",
                 "type": "StoreSecondary"
               },
               {
-                "number": "203-265-6336",
+                "number": "860-767-2181",
                 "type": "Pharmacy"
               }
             ],
             "position": {
-              "latitude": 41.451162,
-              "longitude": -72.826945
+              "latitude": 41.33948799,
+              "longitude": -72.41418954
             },
-            "storenumber": "10647"
+            "storenumber": "17767"
+          }
+        ]
+      },
+      "second_dose_pfizer": {
+        "error": [
+          {
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       }
@@ -3492,142 +2820,9 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T06:54:15.423+00:00",
+    "appointments_last_fetched": "2021-02-27T07:11:49.828+00:00",
     "appointments_raw": {
       "both_doses": {
-        "locations": [
-          {
-            "address": {
-              "city": "ESSEX",
-              "country": "US",
-              "line1": "125 WESTBROOK ROAD",
-              "line2": "",
-              "state": "CT",
-              "zip": "06426"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "09:45 am",
-                  "10:00 am",
-                  "10:15 am",
-                  "10:45 am",
-                  "11:15 am",
-                  "11:45 am",
-                  "12:00 pm",
-                  "12:15 pm",
-                  "12:30 pm",
-                  "12:45 pm",
-                  "01:00 pm",
-                  "02:15 pm",
-                  "02:30 pm",
-                  "02:45 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 21.68,
-            "fhirLocationId": "5cc83df5-d6e1-41fa-bc89-48c1f855f122",
-            "locationId": "5cc83df5-d6e1-41fa-bc89-48c1f855f122",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "17767",
-            "phone": [
-              {
-                "number": "860-767-2181",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "860-767-2182",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "860-767-2181",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 41.33948799,
-              "longitude": -72.41418954
-            },
-            "storenumber": "17767"
-          },
-          {
-            "address": {
-              "city": "WALLINGFORD",
-              "country": "US",
-              "line1": "284 S COLONY RD",
-              "line2": "",
-              "state": "CT",
-              "zip": "06492"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-02-28",
-                "day": "Sunday",
-                "slots": [
-                  "12:45 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 18.08,
-            "fhirLocationId": "d0ad4492-4fca-4b8c-84d5-6e4b085665fc",
-            "locationId": "d0ad4492-4fca-4b8c-84d5-6e4b085665fc",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "10647",
-            "phone": [
-              {
-                "number": "203-265-6336",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "203-265-4772",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "203-265-6336",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 41.451162,
-              "longitude": -72.826945
-            },
-            "storenumber": "10647"
-          }
-        ]
-      },
-      "second_dose_moderna": {
         "locations": [
           {
             "address": {
@@ -3702,23 +2897,36 @@
           }
         ]
       },
-      "second_dose_pfizer": {
+      "second_dose_moderna": {
         "locations": [
           {
             "address": {
-              "city": "WALLINGFORD",
+              "city": "ESSEX",
               "country": "US",
-              "line1": "284 S COLONY RD",
+              "line1": "125 WESTBROOK ROAD",
               "line2": "",
               "state": "CT",
-              "zip": "06492"
+              "zip": "06426"
             },
             "appointmentAvailability": [
               {
-                "date": "2021-02-28",
-                "day": "Sunday",
+                "date": "2021-03-01",
+                "day": "Monday",
                 "slots": [
-                  "12:45 pm"
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:45 am",
+                  "11:15 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "02:15 pm",
+                  "02:30 pm",
+                  "02:45 pm"
                 ]
               }
             ],
@@ -3735,32 +2943,40 @@
               }
             ],
             "description": "",
-            "distance": 15.45,
-            "fhirLocationId": "d0ad4492-4fca-4b8c-84d5-6e4b085665fc",
-            "locationId": "d0ad4492-4fca-4b8c-84d5-6e4b085665fc",
+            "distance": 17.18,
+            "fhirLocationId": "5cc83df5-d6e1-41fa-bc89-48c1f855f122",
+            "locationId": "5cc83df5-d6e1-41fa-bc89-48c1f855f122",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
             "name": "Walgreen Drug Store",
             "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "10647",
+            "partnerLocationId": "17767",
             "phone": [
               {
-                "number": "203-265-6336",
+                "number": "860-767-2181",
                 "type": "StorePrimary"
               },
               {
-                "number": "203-265-4772",
+                "number": "860-767-2182",
                 "type": "StoreSecondary"
               },
               {
-                "number": "203-265-6336",
+                "number": "860-767-2181",
                 "type": "Pharmacy"
               }
             ],
             "position": {
-              "latitude": 41.451162,
-              "longitude": -72.826945
+              "latitude": 41.33948799,
+              "longitude": -72.41418954
             },
-            "storenumber": "10647"
+            "storenumber": "17767"
+          }
+        ]
+      },
+      "second_dose_pfizer": {
+        "error": [
+          {
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       }
@@ -4256,142 +3472,9 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T06:54:15.423+00:00",
+    "appointments_last_fetched": "2021-02-27T07:11:49.828+00:00",
     "appointments_raw": {
       "both_doses": {
-        "locations": [
-          {
-            "address": {
-              "city": "ESSEX",
-              "country": "US",
-              "line1": "125 WESTBROOK ROAD",
-              "line2": "",
-              "state": "CT",
-              "zip": "06426"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "09:45 am",
-                  "10:00 am",
-                  "10:15 am",
-                  "10:45 am",
-                  "11:15 am",
-                  "11:45 am",
-                  "12:00 pm",
-                  "12:15 pm",
-                  "12:30 pm",
-                  "12:45 pm",
-                  "01:00 pm",
-                  "02:15 pm",
-                  "02:30 pm",
-                  "02:45 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 21.68,
-            "fhirLocationId": "5cc83df5-d6e1-41fa-bc89-48c1f855f122",
-            "locationId": "5cc83df5-d6e1-41fa-bc89-48c1f855f122",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "17767",
-            "phone": [
-              {
-                "number": "860-767-2181",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "860-767-2182",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "860-767-2181",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 41.33948799,
-              "longitude": -72.41418954
-            },
-            "storenumber": "17767"
-          },
-          {
-            "address": {
-              "city": "WALLINGFORD",
-              "country": "US",
-              "line1": "284 S COLONY RD",
-              "line2": "",
-              "state": "CT",
-              "zip": "06492"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-02-28",
-                "day": "Sunday",
-                "slots": [
-                  "12:45 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 18.08,
-            "fhirLocationId": "d0ad4492-4fca-4b8c-84d5-6e4b085665fc",
-            "locationId": "d0ad4492-4fca-4b8c-84d5-6e4b085665fc",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "10647",
-            "phone": [
-              {
-                "number": "203-265-6336",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "203-265-4772",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "203-265-6336",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 41.451162,
-              "longitude": -72.826945
-            },
-            "storenumber": "10647"
-          }
-        ]
-      },
-      "second_dose_moderna": {
         "locations": [
           {
             "address": {
@@ -4466,23 +3549,36 @@
           }
         ]
       },
-      "second_dose_pfizer": {
+      "second_dose_moderna": {
         "locations": [
           {
             "address": {
-              "city": "WALLINGFORD",
+              "city": "ESSEX",
               "country": "US",
-              "line1": "284 S COLONY RD",
+              "line1": "125 WESTBROOK ROAD",
               "line2": "",
               "state": "CT",
-              "zip": "06492"
+              "zip": "06426"
             },
             "appointmentAvailability": [
               {
-                "date": "2021-02-28",
-                "day": "Sunday",
+                "date": "2021-03-01",
+                "day": "Monday",
                 "slots": [
-                  "12:45 pm"
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:45 am",
+                  "11:15 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "02:15 pm",
+                  "02:30 pm",
+                  "02:45 pm"
                 ]
               }
             ],
@@ -4499,32 +3595,40 @@
               }
             ],
             "description": "",
-            "distance": 15.45,
-            "fhirLocationId": "d0ad4492-4fca-4b8c-84d5-6e4b085665fc",
-            "locationId": "d0ad4492-4fca-4b8c-84d5-6e4b085665fc",
+            "distance": 17.18,
+            "fhirLocationId": "5cc83df5-d6e1-41fa-bc89-48c1f855f122",
+            "locationId": "5cc83df5-d6e1-41fa-bc89-48c1f855f122",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
             "name": "Walgreen Drug Store",
             "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "10647",
+            "partnerLocationId": "17767",
             "phone": [
               {
-                "number": "203-265-6336",
+                "number": "860-767-2181",
                 "type": "StorePrimary"
               },
               {
-                "number": "203-265-4772",
+                "number": "860-767-2182",
                 "type": "StoreSecondary"
               },
               {
-                "number": "203-265-6336",
+                "number": "860-767-2181",
                 "type": "Pharmacy"
               }
             ],
             "position": {
-              "latitude": 41.451162,
-              "longitude": -72.826945
+              "latitude": 41.33948799,
+              "longitude": -72.41418954
             },
-            "storenumber": "10647"
+            "storenumber": "17767"
+          }
+        ]
+      },
+      "second_dose_pfizer": {
+        "error": [
+          {
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       }
@@ -4692,142 +3796,9 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T06:54:15.423+00:00",
+    "appointments_last_fetched": "2021-02-27T07:11:49.828+00:00",
     "appointments_raw": {
       "both_doses": {
-        "locations": [
-          {
-            "address": {
-              "city": "ESSEX",
-              "country": "US",
-              "line1": "125 WESTBROOK ROAD",
-              "line2": "",
-              "state": "CT",
-              "zip": "06426"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "09:45 am",
-                  "10:00 am",
-                  "10:15 am",
-                  "10:45 am",
-                  "11:15 am",
-                  "11:45 am",
-                  "12:00 pm",
-                  "12:15 pm",
-                  "12:30 pm",
-                  "12:45 pm",
-                  "01:00 pm",
-                  "02:15 pm",
-                  "02:30 pm",
-                  "02:45 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 21.68,
-            "fhirLocationId": "5cc83df5-d6e1-41fa-bc89-48c1f855f122",
-            "locationId": "5cc83df5-d6e1-41fa-bc89-48c1f855f122",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "17767",
-            "phone": [
-              {
-                "number": "860-767-2181",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "860-767-2182",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "860-767-2181",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 41.33948799,
-              "longitude": -72.41418954
-            },
-            "storenumber": "17767"
-          },
-          {
-            "address": {
-              "city": "WALLINGFORD",
-              "country": "US",
-              "line1": "284 S COLONY RD",
-              "line2": "",
-              "state": "CT",
-              "zip": "06492"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-02-28",
-                "day": "Sunday",
-                "slots": [
-                  "12:45 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 18.08,
-            "fhirLocationId": "d0ad4492-4fca-4b8c-84d5-6e4b085665fc",
-            "locationId": "d0ad4492-4fca-4b8c-84d5-6e4b085665fc",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "10647",
-            "phone": [
-              {
-                "number": "203-265-6336",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "203-265-4772",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "203-265-6336",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 41.451162,
-              "longitude": -72.826945
-            },
-            "storenumber": "10647"
-          }
-        ]
-      },
-      "second_dose_moderna": {
         "locations": [
           {
             "address": {
@@ -4902,23 +3873,36 @@
           }
         ]
       },
-      "second_dose_pfizer": {
+      "second_dose_moderna": {
         "locations": [
           {
             "address": {
-              "city": "WALLINGFORD",
+              "city": "ESSEX",
               "country": "US",
-              "line1": "284 S COLONY RD",
+              "line1": "125 WESTBROOK ROAD",
               "line2": "",
               "state": "CT",
-              "zip": "06492"
+              "zip": "06426"
             },
             "appointmentAvailability": [
               {
-                "date": "2021-02-28",
-                "day": "Sunday",
+                "date": "2021-03-01",
+                "day": "Monday",
                 "slots": [
-                  "12:45 pm"
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:45 am",
+                  "11:15 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "02:15 pm",
+                  "02:30 pm",
+                  "02:45 pm"
                 ]
               }
             ],
@@ -4935,32 +3919,40 @@
               }
             ],
             "description": "",
-            "distance": 15.45,
-            "fhirLocationId": "d0ad4492-4fca-4b8c-84d5-6e4b085665fc",
-            "locationId": "d0ad4492-4fca-4b8c-84d5-6e4b085665fc",
+            "distance": 17.18,
+            "fhirLocationId": "5cc83df5-d6e1-41fa-bc89-48c1f855f122",
+            "locationId": "5cc83df5-d6e1-41fa-bc89-48c1f855f122",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
             "name": "Walgreen Drug Store",
             "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "10647",
+            "partnerLocationId": "17767",
             "phone": [
               {
-                "number": "203-265-6336",
+                "number": "860-767-2181",
                 "type": "StorePrimary"
               },
               {
-                "number": "203-265-4772",
+                "number": "860-767-2182",
                 "type": "StoreSecondary"
               },
               {
-                "number": "203-265-6336",
+                "number": "860-767-2181",
                 "type": "Pharmacy"
               }
             ],
             "position": {
-              "latitude": 41.451162,
-              "longitude": -72.826945
+              "latitude": 41.33948799,
+              "longitude": -72.41418954
             },
-            "storenumber": "10647"
+            "storenumber": "17767"
+          }
+        ]
+      },
+      "second_dose_pfizer": {
+        "error": [
+          {
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       }
@@ -5169,142 +4161,9 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T06:54:15.423+00:00",
+    "appointments_last_fetched": "2021-02-27T07:11:49.828+00:00",
     "appointments_raw": {
       "both_doses": {
-        "locations": [
-          {
-            "address": {
-              "city": "ESSEX",
-              "country": "US",
-              "line1": "125 WESTBROOK ROAD",
-              "line2": "",
-              "state": "CT",
-              "zip": "06426"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "09:45 am",
-                  "10:00 am",
-                  "10:15 am",
-                  "10:45 am",
-                  "11:15 am",
-                  "11:45 am",
-                  "12:00 pm",
-                  "12:15 pm",
-                  "12:30 pm",
-                  "12:45 pm",
-                  "01:00 pm",
-                  "02:15 pm",
-                  "02:30 pm",
-                  "02:45 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 21.68,
-            "fhirLocationId": "5cc83df5-d6e1-41fa-bc89-48c1f855f122",
-            "locationId": "5cc83df5-d6e1-41fa-bc89-48c1f855f122",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "17767",
-            "phone": [
-              {
-                "number": "860-767-2181",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "860-767-2182",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "860-767-2181",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 41.33948799,
-              "longitude": -72.41418954
-            },
-            "storenumber": "17767"
-          },
-          {
-            "address": {
-              "city": "WALLINGFORD",
-              "country": "US",
-              "line1": "284 S COLONY RD",
-              "line2": "",
-              "state": "CT",
-              "zip": "06492"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-02-28",
-                "day": "Sunday",
-                "slots": [
-                  "12:45 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 18.08,
-            "fhirLocationId": "d0ad4492-4fca-4b8c-84d5-6e4b085665fc",
-            "locationId": "d0ad4492-4fca-4b8c-84d5-6e4b085665fc",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "10647",
-            "phone": [
-              {
-                "number": "203-265-6336",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "203-265-4772",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "203-265-6336",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 41.451162,
-              "longitude": -72.826945
-            },
-            "storenumber": "10647"
-          }
-        ]
-      },
-      "second_dose_moderna": {
         "locations": [
           {
             "address": {
@@ -5379,23 +4238,36 @@
           }
         ]
       },
-      "second_dose_pfizer": {
+      "second_dose_moderna": {
         "locations": [
           {
             "address": {
-              "city": "WALLINGFORD",
+              "city": "ESSEX",
               "country": "US",
-              "line1": "284 S COLONY RD",
+              "line1": "125 WESTBROOK ROAD",
               "line2": "",
               "state": "CT",
-              "zip": "06492"
+              "zip": "06426"
             },
             "appointmentAvailability": [
               {
-                "date": "2021-02-28",
-                "day": "Sunday",
+                "date": "2021-03-01",
+                "day": "Monday",
                 "slots": [
-                  "12:45 pm"
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:45 am",
+                  "11:15 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "02:15 pm",
+                  "02:30 pm",
+                  "02:45 pm"
                 ]
               }
             ],
@@ -5412,32 +4284,40 @@
               }
             ],
             "description": "",
-            "distance": 15.45,
-            "fhirLocationId": "d0ad4492-4fca-4b8c-84d5-6e4b085665fc",
-            "locationId": "d0ad4492-4fca-4b8c-84d5-6e4b085665fc",
+            "distance": 17.18,
+            "fhirLocationId": "5cc83df5-d6e1-41fa-bc89-48c1f855f122",
+            "locationId": "5cc83df5-d6e1-41fa-bc89-48c1f855f122",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
             "name": "Walgreen Drug Store",
             "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "10647",
+            "partnerLocationId": "17767",
             "phone": [
               {
-                "number": "203-265-6336",
+                "number": "860-767-2181",
                 "type": "StorePrimary"
               },
               {
-                "number": "203-265-4772",
+                "number": "860-767-2182",
                 "type": "StoreSecondary"
               },
               {
-                "number": "203-265-6336",
+                "number": "860-767-2181",
                 "type": "Pharmacy"
               }
             ],
             "position": {
-              "latitude": 41.451162,
-              "longitude": -72.826945
+              "latitude": 41.33948799,
+              "longitude": -72.41418954
             },
-            "storenumber": "10647"
+            "storenumber": "17767"
+          }
+        ]
+      },
+      "second_dose_pfizer": {
+        "error": [
+          {
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       }
@@ -5605,142 +4485,9 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T06:54:15.423+00:00",
+    "appointments_last_fetched": "2021-02-27T07:11:49.828+00:00",
     "appointments_raw": {
       "both_doses": {
-        "locations": [
-          {
-            "address": {
-              "city": "ESSEX",
-              "country": "US",
-              "line1": "125 WESTBROOK ROAD",
-              "line2": "",
-              "state": "CT",
-              "zip": "06426"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "09:45 am",
-                  "10:00 am",
-                  "10:15 am",
-                  "10:45 am",
-                  "11:15 am",
-                  "11:45 am",
-                  "12:00 pm",
-                  "12:15 pm",
-                  "12:30 pm",
-                  "12:45 pm",
-                  "01:00 pm",
-                  "02:15 pm",
-                  "02:30 pm",
-                  "02:45 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 21.68,
-            "fhirLocationId": "5cc83df5-d6e1-41fa-bc89-48c1f855f122",
-            "locationId": "5cc83df5-d6e1-41fa-bc89-48c1f855f122",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "17767",
-            "phone": [
-              {
-                "number": "860-767-2181",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "860-767-2182",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "860-767-2181",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 41.33948799,
-              "longitude": -72.41418954
-            },
-            "storenumber": "17767"
-          },
-          {
-            "address": {
-              "city": "WALLINGFORD",
-              "country": "US",
-              "line1": "284 S COLONY RD",
-              "line2": "",
-              "state": "CT",
-              "zip": "06492"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-02-28",
-                "day": "Sunday",
-                "slots": [
-                  "12:45 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 18.08,
-            "fhirLocationId": "d0ad4492-4fca-4b8c-84d5-6e4b085665fc",
-            "locationId": "d0ad4492-4fca-4b8c-84d5-6e4b085665fc",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "10647",
-            "phone": [
-              {
-                "number": "203-265-6336",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "203-265-4772",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "203-265-6336",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 41.451162,
-              "longitude": -72.826945
-            },
-            "storenumber": "10647"
-          }
-        ]
-      },
-      "second_dose_moderna": {
         "locations": [
           {
             "address": {
@@ -5815,23 +4562,36 @@
           }
         ]
       },
-      "second_dose_pfizer": {
+      "second_dose_moderna": {
         "locations": [
           {
             "address": {
-              "city": "WALLINGFORD",
+              "city": "ESSEX",
               "country": "US",
-              "line1": "284 S COLONY RD",
+              "line1": "125 WESTBROOK ROAD",
               "line2": "",
               "state": "CT",
-              "zip": "06492"
+              "zip": "06426"
             },
             "appointmentAvailability": [
               {
-                "date": "2021-02-28",
-                "day": "Sunday",
+                "date": "2021-03-01",
+                "day": "Monday",
                 "slots": [
-                  "12:45 pm"
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:45 am",
+                  "11:15 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "02:15 pm",
+                  "02:30 pm",
+                  "02:45 pm"
                 ]
               }
             ],
@@ -5848,32 +4608,40 @@
               }
             ],
             "description": "",
-            "distance": 15.45,
-            "fhirLocationId": "d0ad4492-4fca-4b8c-84d5-6e4b085665fc",
-            "locationId": "d0ad4492-4fca-4b8c-84d5-6e4b085665fc",
+            "distance": 17.18,
+            "fhirLocationId": "5cc83df5-d6e1-41fa-bc89-48c1f855f122",
+            "locationId": "5cc83df5-d6e1-41fa-bc89-48c1f855f122",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
             "name": "Walgreen Drug Store",
             "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "10647",
+            "partnerLocationId": "17767",
             "phone": [
               {
-                "number": "203-265-6336",
+                "number": "860-767-2181",
                 "type": "StorePrimary"
               },
               {
-                "number": "203-265-4772",
+                "number": "860-767-2182",
                 "type": "StoreSecondary"
               },
               {
-                "number": "203-265-6336",
+                "number": "860-767-2181",
                 "type": "Pharmacy"
               }
             ],
             "position": {
-              "latitude": 41.451162,
-              "longitude": -72.826945
+              "latitude": 41.33948799,
+              "longitude": -72.41418954
             },
-            "storenumber": "10647"
+            "storenumber": "17767"
+          }
+        ]
+      },
+      "second_dose_pfizer": {
+        "error": [
+          {
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       }
@@ -5892,142 +4660,9 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T06:54:15.423+00:00",
+    "appointments_last_fetched": "2021-02-27T07:11:49.828+00:00",
     "appointments_raw": {
       "both_doses": {
-        "locations": [
-          {
-            "address": {
-              "city": "ESSEX",
-              "country": "US",
-              "line1": "125 WESTBROOK ROAD",
-              "line2": "",
-              "state": "CT",
-              "zip": "06426"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "09:45 am",
-                  "10:00 am",
-                  "10:15 am",
-                  "10:45 am",
-                  "11:15 am",
-                  "11:45 am",
-                  "12:00 pm",
-                  "12:15 pm",
-                  "12:30 pm",
-                  "12:45 pm",
-                  "01:00 pm",
-                  "02:15 pm",
-                  "02:30 pm",
-                  "02:45 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 21.68,
-            "fhirLocationId": "5cc83df5-d6e1-41fa-bc89-48c1f855f122",
-            "locationId": "5cc83df5-d6e1-41fa-bc89-48c1f855f122",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "17767",
-            "phone": [
-              {
-                "number": "860-767-2181",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "860-767-2182",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "860-767-2181",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 41.33948799,
-              "longitude": -72.41418954
-            },
-            "storenumber": "17767"
-          },
-          {
-            "address": {
-              "city": "WALLINGFORD",
-              "country": "US",
-              "line1": "284 S COLONY RD",
-              "line2": "",
-              "state": "CT",
-              "zip": "06492"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-02-28",
-                "day": "Sunday",
-                "slots": [
-                  "12:45 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 18.08,
-            "fhirLocationId": "d0ad4492-4fca-4b8c-84d5-6e4b085665fc",
-            "locationId": "d0ad4492-4fca-4b8c-84d5-6e4b085665fc",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "10647",
-            "phone": [
-              {
-                "number": "203-265-6336",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "203-265-4772",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "203-265-6336",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 41.451162,
-              "longitude": -72.826945
-            },
-            "storenumber": "10647"
-          }
-        ]
-      },
-      "second_dose_moderna": {
         "locations": [
           {
             "address": {
@@ -6102,23 +4737,36 @@
           }
         ]
       },
-      "second_dose_pfizer": {
+      "second_dose_moderna": {
         "locations": [
           {
             "address": {
-              "city": "WALLINGFORD",
+              "city": "ESSEX",
               "country": "US",
-              "line1": "284 S COLONY RD",
+              "line1": "125 WESTBROOK ROAD",
               "line2": "",
               "state": "CT",
-              "zip": "06492"
+              "zip": "06426"
             },
             "appointmentAvailability": [
               {
-                "date": "2021-02-28",
-                "day": "Sunday",
+                "date": "2021-03-01",
+                "day": "Monday",
                 "slots": [
-                  "12:45 pm"
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:45 am",
+                  "11:15 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "02:15 pm",
+                  "02:30 pm",
+                  "02:45 pm"
                 ]
               }
             ],
@@ -6135,32 +4783,40 @@
               }
             ],
             "description": "",
-            "distance": 15.45,
-            "fhirLocationId": "d0ad4492-4fca-4b8c-84d5-6e4b085665fc",
-            "locationId": "d0ad4492-4fca-4b8c-84d5-6e4b085665fc",
+            "distance": 17.18,
+            "fhirLocationId": "5cc83df5-d6e1-41fa-bc89-48c1f855f122",
+            "locationId": "5cc83df5-d6e1-41fa-bc89-48c1f855f122",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
             "name": "Walgreen Drug Store",
             "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "10647",
+            "partnerLocationId": "17767",
             "phone": [
               {
-                "number": "203-265-6336",
+                "number": "860-767-2181",
                 "type": "StorePrimary"
               },
               {
-                "number": "203-265-4772",
+                "number": "860-767-2182",
                 "type": "StoreSecondary"
               },
               {
-                "number": "203-265-6336",
+                "number": "860-767-2181",
                 "type": "Pharmacy"
               }
             ],
             "position": {
-              "latitude": 41.451162,
-              "longitude": -72.826945
+              "latitude": 41.33948799,
+              "longitude": -72.41418954
             },
-            "storenumber": "10647"
+            "storenumber": "17767"
+          }
+        ]
+      },
+      "second_dose_pfizer": {
+        "error": [
+          {
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       }
@@ -6533,142 +5189,9 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T06:54:15.423+00:00",
+    "appointments_last_fetched": "2021-02-27T07:11:49.828+00:00",
     "appointments_raw": {
       "both_doses": {
-        "locations": [
-          {
-            "address": {
-              "city": "ESSEX",
-              "country": "US",
-              "line1": "125 WESTBROOK ROAD",
-              "line2": "",
-              "state": "CT",
-              "zip": "06426"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "09:45 am",
-                  "10:00 am",
-                  "10:15 am",
-                  "10:45 am",
-                  "11:15 am",
-                  "11:45 am",
-                  "12:00 pm",
-                  "12:15 pm",
-                  "12:30 pm",
-                  "12:45 pm",
-                  "01:00 pm",
-                  "02:15 pm",
-                  "02:30 pm",
-                  "02:45 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 21.68,
-            "fhirLocationId": "5cc83df5-d6e1-41fa-bc89-48c1f855f122",
-            "locationId": "5cc83df5-d6e1-41fa-bc89-48c1f855f122",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "17767",
-            "phone": [
-              {
-                "number": "860-767-2181",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "860-767-2182",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "860-767-2181",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 41.33948799,
-              "longitude": -72.41418954
-            },
-            "storenumber": "17767"
-          },
-          {
-            "address": {
-              "city": "WALLINGFORD",
-              "country": "US",
-              "line1": "284 S COLONY RD",
-              "line2": "",
-              "state": "CT",
-              "zip": "06492"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-02-28",
-                "day": "Sunday",
-                "slots": [
-                  "12:45 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 18.08,
-            "fhirLocationId": "d0ad4492-4fca-4b8c-84d5-6e4b085665fc",
-            "locationId": "d0ad4492-4fca-4b8c-84d5-6e4b085665fc",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "10647",
-            "phone": [
-              {
-                "number": "203-265-6336",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "203-265-4772",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "203-265-6336",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 41.451162,
-              "longitude": -72.826945
-            },
-            "storenumber": "10647"
-          }
-        ]
-      },
-      "second_dose_moderna": {
         "locations": [
           {
             "address": {
@@ -6743,23 +5266,36 @@
           }
         ]
       },
-      "second_dose_pfizer": {
+      "second_dose_moderna": {
         "locations": [
           {
             "address": {
-              "city": "WALLINGFORD",
+              "city": "ESSEX",
               "country": "US",
-              "line1": "284 S COLONY RD",
+              "line1": "125 WESTBROOK ROAD",
               "line2": "",
               "state": "CT",
-              "zip": "06492"
+              "zip": "06426"
             },
             "appointmentAvailability": [
               {
-                "date": "2021-02-28",
-                "day": "Sunday",
+                "date": "2021-03-01",
+                "day": "Monday",
                 "slots": [
-                  "12:45 pm"
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:45 am",
+                  "11:15 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "02:15 pm",
+                  "02:30 pm",
+                  "02:45 pm"
                 ]
               }
             ],
@@ -6776,32 +5312,40 @@
               }
             ],
             "description": "",
-            "distance": 15.45,
-            "fhirLocationId": "d0ad4492-4fca-4b8c-84d5-6e4b085665fc",
-            "locationId": "d0ad4492-4fca-4b8c-84d5-6e4b085665fc",
+            "distance": 17.18,
+            "fhirLocationId": "5cc83df5-d6e1-41fa-bc89-48c1f855f122",
+            "locationId": "5cc83df5-d6e1-41fa-bc89-48c1f855f122",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
             "name": "Walgreen Drug Store",
             "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "10647",
+            "partnerLocationId": "17767",
             "phone": [
               {
-                "number": "203-265-6336",
+                "number": "860-767-2181",
                 "type": "StorePrimary"
               },
               {
-                "number": "203-265-4772",
+                "number": "860-767-2182",
                 "type": "StoreSecondary"
               },
               {
-                "number": "203-265-6336",
+                "number": "860-767-2181",
                 "type": "Pharmacy"
               }
             ],
             "position": {
-              "latitude": 41.451162,
-              "longitude": -72.826945
+              "latitude": 41.33948799,
+              "longitude": -72.41418954
             },
-            "storenumber": "10647"
+            "storenumber": "17767"
+          }
+        ]
+      },
+      "second_dose_pfizer": {
+        "error": [
+          {
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       }
@@ -7008,152 +5552,11 @@
   {
     "address": "284 S COLONY RD",
     "appointments": [
-      {
-        "time": "2021-02-28T12:45:00.000-05:00",
-        "type": "both_doses"
-      },
-      {
-        "time": "2021-02-28T12:45:00.000-05:00",
-        "type": "second_dose_pfizer"
-      }
     ],
-    "appointments_available": true,
-    "appointments_last_fetched": "2021-02-27T06:54:15.423+00:00",
+    "appointments_available": false,
+    "appointments_last_fetched": "2021-02-27T07:11:49.828+00:00",
     "appointments_raw": {
       "both_doses": {
-        "locations": [
-          {
-            "address": {
-              "city": "ESSEX",
-              "country": "US",
-              "line1": "125 WESTBROOK ROAD",
-              "line2": "",
-              "state": "CT",
-              "zip": "06426"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "09:45 am",
-                  "10:00 am",
-                  "10:15 am",
-                  "10:45 am",
-                  "11:15 am",
-                  "11:45 am",
-                  "12:00 pm",
-                  "12:15 pm",
-                  "12:30 pm",
-                  "12:45 pm",
-                  "01:00 pm",
-                  "02:15 pm",
-                  "02:30 pm",
-                  "02:45 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 21.68,
-            "fhirLocationId": "5cc83df5-d6e1-41fa-bc89-48c1f855f122",
-            "locationId": "5cc83df5-d6e1-41fa-bc89-48c1f855f122",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "17767",
-            "phone": [
-              {
-                "number": "860-767-2181",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "860-767-2182",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "860-767-2181",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 41.33948799,
-              "longitude": -72.41418954
-            },
-            "storenumber": "17767"
-          },
-          {
-            "address": {
-              "city": "WALLINGFORD",
-              "country": "US",
-              "line1": "284 S COLONY RD",
-              "line2": "",
-              "state": "CT",
-              "zip": "06492"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-02-28",
-                "day": "Sunday",
-                "slots": [
-                  "12:45 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 18.08,
-            "fhirLocationId": "d0ad4492-4fca-4b8c-84d5-6e4b085665fc",
-            "locationId": "d0ad4492-4fca-4b8c-84d5-6e4b085665fc",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "10647",
-            "phone": [
-              {
-                "number": "203-265-6336",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "203-265-4772",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "203-265-6336",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 41.451162,
-              "longitude": -72.826945
-            },
-            "storenumber": "10647"
-          }
-        ]
-      },
-      "second_dose_moderna": {
         "locations": [
           {
             "address": {
@@ -7228,23 +5631,36 @@
           }
         ]
       },
-      "second_dose_pfizer": {
+      "second_dose_moderna": {
         "locations": [
           {
             "address": {
-              "city": "WALLINGFORD",
+              "city": "ESSEX",
               "country": "US",
-              "line1": "284 S COLONY RD",
+              "line1": "125 WESTBROOK ROAD",
               "line2": "",
               "state": "CT",
-              "zip": "06492"
+              "zip": "06426"
             },
             "appointmentAvailability": [
               {
-                "date": "2021-02-28",
-                "day": "Sunday",
+                "date": "2021-03-01",
+                "day": "Monday",
                 "slots": [
-                  "12:45 pm"
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:45 am",
+                  "11:15 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "02:15 pm",
+                  "02:30 pm",
+                  "02:45 pm"
                 ]
               }
             ],
@@ -7261,32 +5677,40 @@
               }
             ],
             "description": "",
-            "distance": 15.45,
-            "fhirLocationId": "d0ad4492-4fca-4b8c-84d5-6e4b085665fc",
-            "locationId": "d0ad4492-4fca-4b8c-84d5-6e4b085665fc",
+            "distance": 17.18,
+            "fhirLocationId": "5cc83df5-d6e1-41fa-bc89-48c1f855f122",
+            "locationId": "5cc83df5-d6e1-41fa-bc89-48c1f855f122",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
             "name": "Walgreen Drug Store",
             "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "10647",
+            "partnerLocationId": "17767",
             "phone": [
               {
-                "number": "203-265-6336",
+                "number": "860-767-2181",
                 "type": "StorePrimary"
               },
               {
-                "number": "203-265-4772",
+                "number": "860-767-2182",
                 "type": "StoreSecondary"
               },
               {
-                "number": "203-265-6336",
+                "number": "860-767-2181",
                 "type": "Pharmacy"
               }
             ],
             "position": {
-              "latitude": 41.451162,
-              "longitude": -72.826945
+              "latitude": 41.33948799,
+              "longitude": -72.41418954
             },
-            "storenumber": "10647"
+            "storenumber": "17767"
+          }
+        ]
+      },
+      "second_dose_pfizer": {
+        "error": [
+          {
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       }
@@ -8322,142 +6746,9 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T06:54:15.423+00:00",
+    "appointments_last_fetched": "2021-02-27T07:11:49.828+00:00",
     "appointments_raw": {
       "both_doses": {
-        "locations": [
-          {
-            "address": {
-              "city": "ESSEX",
-              "country": "US",
-              "line1": "125 WESTBROOK ROAD",
-              "line2": "",
-              "state": "CT",
-              "zip": "06426"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "09:45 am",
-                  "10:00 am",
-                  "10:15 am",
-                  "10:45 am",
-                  "11:15 am",
-                  "11:45 am",
-                  "12:00 pm",
-                  "12:15 pm",
-                  "12:30 pm",
-                  "12:45 pm",
-                  "01:00 pm",
-                  "02:15 pm",
-                  "02:30 pm",
-                  "02:45 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 21.68,
-            "fhirLocationId": "5cc83df5-d6e1-41fa-bc89-48c1f855f122",
-            "locationId": "5cc83df5-d6e1-41fa-bc89-48c1f855f122",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "17767",
-            "phone": [
-              {
-                "number": "860-767-2181",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "860-767-2182",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "860-767-2181",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 41.33948799,
-              "longitude": -72.41418954
-            },
-            "storenumber": "17767"
-          },
-          {
-            "address": {
-              "city": "WALLINGFORD",
-              "country": "US",
-              "line1": "284 S COLONY RD",
-              "line2": "",
-              "state": "CT",
-              "zip": "06492"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-02-28",
-                "day": "Sunday",
-                "slots": [
-                  "12:45 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 18.08,
-            "fhirLocationId": "d0ad4492-4fca-4b8c-84d5-6e4b085665fc",
-            "locationId": "d0ad4492-4fca-4b8c-84d5-6e4b085665fc",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "10647",
-            "phone": [
-              {
-                "number": "203-265-6336",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "203-265-4772",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "203-265-6336",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 41.451162,
-              "longitude": -72.826945
-            },
-            "storenumber": "10647"
-          }
-        ]
-      },
-      "second_dose_moderna": {
         "locations": [
           {
             "address": {
@@ -8532,23 +6823,36 @@
           }
         ]
       },
-      "second_dose_pfizer": {
+      "second_dose_moderna": {
         "locations": [
           {
             "address": {
-              "city": "WALLINGFORD",
+              "city": "ESSEX",
               "country": "US",
-              "line1": "284 S COLONY RD",
+              "line1": "125 WESTBROOK ROAD",
               "line2": "",
               "state": "CT",
-              "zip": "06492"
+              "zip": "06426"
             },
             "appointmentAvailability": [
               {
-                "date": "2021-02-28",
-                "day": "Sunday",
+                "date": "2021-03-01",
+                "day": "Monday",
                 "slots": [
-                  "12:45 pm"
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:45 am",
+                  "11:15 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "02:15 pm",
+                  "02:30 pm",
+                  "02:45 pm"
                 ]
               }
             ],
@@ -8565,32 +6869,40 @@
               }
             ],
             "description": "",
-            "distance": 15.45,
-            "fhirLocationId": "d0ad4492-4fca-4b8c-84d5-6e4b085665fc",
-            "locationId": "d0ad4492-4fca-4b8c-84d5-6e4b085665fc",
+            "distance": 17.18,
+            "fhirLocationId": "5cc83df5-d6e1-41fa-bc89-48c1f855f122",
+            "locationId": "5cc83df5-d6e1-41fa-bc89-48c1f855f122",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
             "name": "Walgreen Drug Store",
             "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "10647",
+            "partnerLocationId": "17767",
             "phone": [
               {
-                "number": "203-265-6336",
+                "number": "860-767-2181",
                 "type": "StorePrimary"
               },
               {
-                "number": "203-265-4772",
+                "number": "860-767-2182",
                 "type": "StoreSecondary"
               },
               {
-                "number": "203-265-6336",
+                "number": "860-767-2181",
                 "type": "Pharmacy"
               }
             ],
             "position": {
-              "latitude": 41.451162,
-              "longitude": -72.826945
+              "latitude": 41.33948799,
+              "longitude": -72.41418954
             },
-            "storenumber": "10647"
+            "storenumber": "17767"
+          }
+        ]
+      },
+      "second_dose_pfizer": {
+        "error": [
+          {
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       }
@@ -9287,142 +7599,9 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T06:54:15.423+00:00",
+    "appointments_last_fetched": "2021-02-27T07:11:49.828+00:00",
     "appointments_raw": {
       "both_doses": {
-        "locations": [
-          {
-            "address": {
-              "city": "ESSEX",
-              "country": "US",
-              "line1": "125 WESTBROOK ROAD",
-              "line2": "",
-              "state": "CT",
-              "zip": "06426"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "09:45 am",
-                  "10:00 am",
-                  "10:15 am",
-                  "10:45 am",
-                  "11:15 am",
-                  "11:45 am",
-                  "12:00 pm",
-                  "12:15 pm",
-                  "12:30 pm",
-                  "12:45 pm",
-                  "01:00 pm",
-                  "02:15 pm",
-                  "02:30 pm",
-                  "02:45 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 21.68,
-            "fhirLocationId": "5cc83df5-d6e1-41fa-bc89-48c1f855f122",
-            "locationId": "5cc83df5-d6e1-41fa-bc89-48c1f855f122",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "17767",
-            "phone": [
-              {
-                "number": "860-767-2181",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "860-767-2182",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "860-767-2181",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 41.33948799,
-              "longitude": -72.41418954
-            },
-            "storenumber": "17767"
-          },
-          {
-            "address": {
-              "city": "WALLINGFORD",
-              "country": "US",
-              "line1": "284 S COLONY RD",
-              "line2": "",
-              "state": "CT",
-              "zip": "06492"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-02-28",
-                "day": "Sunday",
-                "slots": [
-                  "12:45 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 18.08,
-            "fhirLocationId": "d0ad4492-4fca-4b8c-84d5-6e4b085665fc",
-            "locationId": "d0ad4492-4fca-4b8c-84d5-6e4b085665fc",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "10647",
-            "phone": [
-              {
-                "number": "203-265-6336",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "203-265-4772",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "203-265-6336",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 41.451162,
-              "longitude": -72.826945
-            },
-            "storenumber": "10647"
-          }
-        ]
-      },
-      "second_dose_moderna": {
         "locations": [
           {
             "address": {
@@ -9497,23 +7676,36 @@
           }
         ]
       },
-      "second_dose_pfizer": {
+      "second_dose_moderna": {
         "locations": [
           {
             "address": {
-              "city": "WALLINGFORD",
+              "city": "ESSEX",
               "country": "US",
-              "line1": "284 S COLONY RD",
+              "line1": "125 WESTBROOK ROAD",
               "line2": "",
               "state": "CT",
-              "zip": "06492"
+              "zip": "06426"
             },
             "appointmentAvailability": [
               {
-                "date": "2021-02-28",
-                "day": "Sunday",
+                "date": "2021-03-01",
+                "day": "Monday",
                 "slots": [
-                  "12:45 pm"
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:45 am",
+                  "11:15 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "02:15 pm",
+                  "02:30 pm",
+                  "02:45 pm"
                 ]
               }
             ],
@@ -9530,32 +7722,40 @@
               }
             ],
             "description": "",
-            "distance": 15.45,
-            "fhirLocationId": "d0ad4492-4fca-4b8c-84d5-6e4b085665fc",
-            "locationId": "d0ad4492-4fca-4b8c-84d5-6e4b085665fc",
+            "distance": 17.18,
+            "fhirLocationId": "5cc83df5-d6e1-41fa-bc89-48c1f855f122",
+            "locationId": "5cc83df5-d6e1-41fa-bc89-48c1f855f122",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
             "name": "Walgreen Drug Store",
             "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "10647",
+            "partnerLocationId": "17767",
             "phone": [
               {
-                "number": "203-265-6336",
+                "number": "860-767-2181",
                 "type": "StorePrimary"
               },
               {
-                "number": "203-265-4772",
+                "number": "860-767-2182",
                 "type": "StoreSecondary"
               },
               {
-                "number": "203-265-6336",
+                "number": "860-767-2181",
                 "type": "Pharmacy"
               }
             ],
             "position": {
-              "latitude": 41.451162,
-              "longitude": -72.826945
+              "latitude": 41.33948799,
+              "longitude": -72.41418954
             },
-            "storenumber": "10647"
+            "storenumber": "17767"
+          }
+        ]
+      },
+      "second_dose_pfizer": {
+        "error": [
+          {
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       }
@@ -9872,142 +8072,9 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T06:54:15.423+00:00",
+    "appointments_last_fetched": "2021-02-27T07:11:49.828+00:00",
     "appointments_raw": {
       "both_doses": {
-        "locations": [
-          {
-            "address": {
-              "city": "ESSEX",
-              "country": "US",
-              "line1": "125 WESTBROOK ROAD",
-              "line2": "",
-              "state": "CT",
-              "zip": "06426"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "09:45 am",
-                  "10:00 am",
-                  "10:15 am",
-                  "10:45 am",
-                  "11:15 am",
-                  "11:45 am",
-                  "12:00 pm",
-                  "12:15 pm",
-                  "12:30 pm",
-                  "12:45 pm",
-                  "01:00 pm",
-                  "02:15 pm",
-                  "02:30 pm",
-                  "02:45 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 21.68,
-            "fhirLocationId": "5cc83df5-d6e1-41fa-bc89-48c1f855f122",
-            "locationId": "5cc83df5-d6e1-41fa-bc89-48c1f855f122",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "17767",
-            "phone": [
-              {
-                "number": "860-767-2181",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "860-767-2182",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "860-767-2181",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 41.33948799,
-              "longitude": -72.41418954
-            },
-            "storenumber": "17767"
-          },
-          {
-            "address": {
-              "city": "WALLINGFORD",
-              "country": "US",
-              "line1": "284 S COLONY RD",
-              "line2": "",
-              "state": "CT",
-              "zip": "06492"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-02-28",
-                "day": "Sunday",
-                "slots": [
-                  "12:45 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 18.08,
-            "fhirLocationId": "d0ad4492-4fca-4b8c-84d5-6e4b085665fc",
-            "locationId": "d0ad4492-4fca-4b8c-84d5-6e4b085665fc",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "10647",
-            "phone": [
-              {
-                "number": "203-265-6336",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "203-265-4772",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "203-265-6336",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 41.451162,
-              "longitude": -72.826945
-            },
-            "storenumber": "10647"
-          }
-        ]
-      },
-      "second_dose_moderna": {
         "locations": [
           {
             "address": {
@@ -10082,23 +8149,36 @@
           }
         ]
       },
-      "second_dose_pfizer": {
+      "second_dose_moderna": {
         "locations": [
           {
             "address": {
-              "city": "WALLINGFORD",
+              "city": "ESSEX",
               "country": "US",
-              "line1": "284 S COLONY RD",
+              "line1": "125 WESTBROOK ROAD",
               "line2": "",
               "state": "CT",
-              "zip": "06492"
+              "zip": "06426"
             },
             "appointmentAvailability": [
               {
-                "date": "2021-02-28",
-                "day": "Sunday",
+                "date": "2021-03-01",
+                "day": "Monday",
                 "slots": [
-                  "12:45 pm"
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:45 am",
+                  "11:15 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "02:15 pm",
+                  "02:30 pm",
+                  "02:45 pm"
                 ]
               }
             ],
@@ -10115,32 +8195,40 @@
               }
             ],
             "description": "",
-            "distance": 15.45,
-            "fhirLocationId": "d0ad4492-4fca-4b8c-84d5-6e4b085665fc",
-            "locationId": "d0ad4492-4fca-4b8c-84d5-6e4b085665fc",
+            "distance": 17.18,
+            "fhirLocationId": "5cc83df5-d6e1-41fa-bc89-48c1f855f122",
+            "locationId": "5cc83df5-d6e1-41fa-bc89-48c1f855f122",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
             "name": "Walgreen Drug Store",
             "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "10647",
+            "partnerLocationId": "17767",
             "phone": [
               {
-                "number": "203-265-6336",
+                "number": "860-767-2181",
                 "type": "StorePrimary"
               },
               {
-                "number": "203-265-4772",
+                "number": "860-767-2182",
                 "type": "StoreSecondary"
               },
               {
-                "number": "203-265-6336",
+                "number": "860-767-2181",
                 "type": "Pharmacy"
               }
             ],
             "position": {
-              "latitude": 41.451162,
-              "longitude": -72.826945
+              "latitude": 41.33948799,
+              "longitude": -72.41418954
             },
-            "storenumber": "10647"
+            "storenumber": "17767"
+          }
+        ]
+      },
+      "second_dose_pfizer": {
+        "error": [
+          {
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       }
@@ -10308,142 +8396,9 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T06:54:15.423+00:00",
+    "appointments_last_fetched": "2021-02-27T07:11:49.828+00:00",
     "appointments_raw": {
       "both_doses": {
-        "locations": [
-          {
-            "address": {
-              "city": "ESSEX",
-              "country": "US",
-              "line1": "125 WESTBROOK ROAD",
-              "line2": "",
-              "state": "CT",
-              "zip": "06426"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "09:45 am",
-                  "10:00 am",
-                  "10:15 am",
-                  "10:45 am",
-                  "11:15 am",
-                  "11:45 am",
-                  "12:00 pm",
-                  "12:15 pm",
-                  "12:30 pm",
-                  "12:45 pm",
-                  "01:00 pm",
-                  "02:15 pm",
-                  "02:30 pm",
-                  "02:45 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 21.68,
-            "fhirLocationId": "5cc83df5-d6e1-41fa-bc89-48c1f855f122",
-            "locationId": "5cc83df5-d6e1-41fa-bc89-48c1f855f122",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "17767",
-            "phone": [
-              {
-                "number": "860-767-2181",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "860-767-2182",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "860-767-2181",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 41.33948799,
-              "longitude": -72.41418954
-            },
-            "storenumber": "17767"
-          },
-          {
-            "address": {
-              "city": "WALLINGFORD",
-              "country": "US",
-              "line1": "284 S COLONY RD",
-              "line2": "",
-              "state": "CT",
-              "zip": "06492"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-02-28",
-                "day": "Sunday",
-                "slots": [
-                  "12:45 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 18.08,
-            "fhirLocationId": "d0ad4492-4fca-4b8c-84d5-6e4b085665fc",
-            "locationId": "d0ad4492-4fca-4b8c-84d5-6e4b085665fc",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "10647",
-            "phone": [
-              {
-                "number": "203-265-6336",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "203-265-4772",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "203-265-6336",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 41.451162,
-              "longitude": -72.826945
-            },
-            "storenumber": "10647"
-          }
-        ]
-      },
-      "second_dose_moderna": {
         "locations": [
           {
             "address": {
@@ -10518,23 +8473,36 @@
           }
         ]
       },
-      "second_dose_pfizer": {
+      "second_dose_moderna": {
         "locations": [
           {
             "address": {
-              "city": "WALLINGFORD",
+              "city": "ESSEX",
               "country": "US",
-              "line1": "284 S COLONY RD",
+              "line1": "125 WESTBROOK ROAD",
               "line2": "",
               "state": "CT",
-              "zip": "06492"
+              "zip": "06426"
             },
             "appointmentAvailability": [
               {
-                "date": "2021-02-28",
-                "day": "Sunday",
+                "date": "2021-03-01",
+                "day": "Monday",
                 "slots": [
-                  "12:45 pm"
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:45 am",
+                  "11:15 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "02:15 pm",
+                  "02:30 pm",
+                  "02:45 pm"
                 ]
               }
             ],
@@ -10551,32 +8519,40 @@
               }
             ],
             "description": "",
-            "distance": 15.45,
-            "fhirLocationId": "d0ad4492-4fca-4b8c-84d5-6e4b085665fc",
-            "locationId": "d0ad4492-4fca-4b8c-84d5-6e4b085665fc",
+            "distance": 17.18,
+            "fhirLocationId": "5cc83df5-d6e1-41fa-bc89-48c1f855f122",
+            "locationId": "5cc83df5-d6e1-41fa-bc89-48c1f855f122",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
             "name": "Walgreen Drug Store",
             "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "10647",
+            "partnerLocationId": "17767",
             "phone": [
               {
-                "number": "203-265-6336",
+                "number": "860-767-2181",
                 "type": "StorePrimary"
               },
               {
-                "number": "203-265-4772",
+                "number": "860-767-2182",
                 "type": "StoreSecondary"
               },
               {
-                "number": "203-265-6336",
+                "number": "860-767-2181",
                 "type": "Pharmacy"
               }
             ],
             "position": {
-              "latitude": 41.451162,
-              "longitude": -72.826945
+              "latitude": 41.33948799,
+              "longitude": -72.41418954
             },
-            "storenumber": "10647"
+            "storenumber": "17767"
+          }
+        ]
+      },
+      "second_dose_pfizer": {
+        "error": [
+          {
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       }
@@ -10893,142 +8869,9 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T06:54:15.423+00:00",
+    "appointments_last_fetched": "2021-02-27T07:11:49.828+00:00",
     "appointments_raw": {
       "both_doses": {
-        "locations": [
-          {
-            "address": {
-              "city": "ESSEX",
-              "country": "US",
-              "line1": "125 WESTBROOK ROAD",
-              "line2": "",
-              "state": "CT",
-              "zip": "06426"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "09:45 am",
-                  "10:00 am",
-                  "10:15 am",
-                  "10:45 am",
-                  "11:15 am",
-                  "11:45 am",
-                  "12:00 pm",
-                  "12:15 pm",
-                  "12:30 pm",
-                  "12:45 pm",
-                  "01:00 pm",
-                  "02:15 pm",
-                  "02:30 pm",
-                  "02:45 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 21.68,
-            "fhirLocationId": "5cc83df5-d6e1-41fa-bc89-48c1f855f122",
-            "locationId": "5cc83df5-d6e1-41fa-bc89-48c1f855f122",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "17767",
-            "phone": [
-              {
-                "number": "860-767-2181",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "860-767-2182",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "860-767-2181",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 41.33948799,
-              "longitude": -72.41418954
-            },
-            "storenumber": "17767"
-          },
-          {
-            "address": {
-              "city": "WALLINGFORD",
-              "country": "US",
-              "line1": "284 S COLONY RD",
-              "line2": "",
-              "state": "CT",
-              "zip": "06492"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-02-28",
-                "day": "Sunday",
-                "slots": [
-                  "12:45 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 18.08,
-            "fhirLocationId": "d0ad4492-4fca-4b8c-84d5-6e4b085665fc",
-            "locationId": "d0ad4492-4fca-4b8c-84d5-6e4b085665fc",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "10647",
-            "phone": [
-              {
-                "number": "203-265-6336",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "203-265-4772",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "203-265-6336",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 41.451162,
-              "longitude": -72.826945
-            },
-            "storenumber": "10647"
-          }
-        ]
-      },
-      "second_dose_moderna": {
         "locations": [
           {
             "address": {
@@ -11103,23 +8946,36 @@
           }
         ]
       },
-      "second_dose_pfizer": {
+      "second_dose_moderna": {
         "locations": [
           {
             "address": {
-              "city": "WALLINGFORD",
+              "city": "ESSEX",
               "country": "US",
-              "line1": "284 S COLONY RD",
+              "line1": "125 WESTBROOK ROAD",
               "line2": "",
               "state": "CT",
-              "zip": "06492"
+              "zip": "06426"
             },
             "appointmentAvailability": [
               {
-                "date": "2021-02-28",
-                "day": "Sunday",
+                "date": "2021-03-01",
+                "day": "Monday",
                 "slots": [
-                  "12:45 pm"
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:45 am",
+                  "11:15 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "02:15 pm",
+                  "02:30 pm",
+                  "02:45 pm"
                 ]
               }
             ],
@@ -11136,32 +8992,40 @@
               }
             ],
             "description": "",
-            "distance": 15.45,
-            "fhirLocationId": "d0ad4492-4fca-4b8c-84d5-6e4b085665fc",
-            "locationId": "d0ad4492-4fca-4b8c-84d5-6e4b085665fc",
+            "distance": 17.18,
+            "fhirLocationId": "5cc83df5-d6e1-41fa-bc89-48c1f855f122",
+            "locationId": "5cc83df5-d6e1-41fa-bc89-48c1f855f122",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
             "name": "Walgreen Drug Store",
             "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "10647",
+            "partnerLocationId": "17767",
             "phone": [
               {
-                "number": "203-265-6336",
+                "number": "860-767-2181",
                 "type": "StorePrimary"
               },
               {
-                "number": "203-265-4772",
+                "number": "860-767-2182",
                 "type": "StoreSecondary"
               },
               {
-                "number": "203-265-6336",
+                "number": "860-767-2181",
                 "type": "Pharmacy"
               }
             ],
             "position": {
-              "latitude": 41.451162,
-              "longitude": -72.826945
+              "latitude": 41.33948799,
+              "longitude": -72.41418954
             },
-            "storenumber": "10647"
+            "storenumber": "17767"
+          }
+        ]
+      },
+      "second_dose_pfizer": {
+        "error": [
+          {
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       }
@@ -11180,142 +9044,9 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T06:54:15.423+00:00",
+    "appointments_last_fetched": "2021-02-27T07:11:49.828+00:00",
     "appointments_raw": {
       "both_doses": {
-        "locations": [
-          {
-            "address": {
-              "city": "ESSEX",
-              "country": "US",
-              "line1": "125 WESTBROOK ROAD",
-              "line2": "",
-              "state": "CT",
-              "zip": "06426"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "09:45 am",
-                  "10:00 am",
-                  "10:15 am",
-                  "10:45 am",
-                  "11:15 am",
-                  "11:45 am",
-                  "12:00 pm",
-                  "12:15 pm",
-                  "12:30 pm",
-                  "12:45 pm",
-                  "01:00 pm",
-                  "02:15 pm",
-                  "02:30 pm",
-                  "02:45 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 21.68,
-            "fhirLocationId": "5cc83df5-d6e1-41fa-bc89-48c1f855f122",
-            "locationId": "5cc83df5-d6e1-41fa-bc89-48c1f855f122",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "17767",
-            "phone": [
-              {
-                "number": "860-767-2181",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "860-767-2182",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "860-767-2181",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 41.33948799,
-              "longitude": -72.41418954
-            },
-            "storenumber": "17767"
-          },
-          {
-            "address": {
-              "city": "WALLINGFORD",
-              "country": "US",
-              "line1": "284 S COLONY RD",
-              "line2": "",
-              "state": "CT",
-              "zip": "06492"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-02-28",
-                "day": "Sunday",
-                "slots": [
-                  "12:45 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 18.08,
-            "fhirLocationId": "d0ad4492-4fca-4b8c-84d5-6e4b085665fc",
-            "locationId": "d0ad4492-4fca-4b8c-84d5-6e4b085665fc",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "10647",
-            "phone": [
-              {
-                "number": "203-265-6336",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "203-265-4772",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "203-265-6336",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 41.451162,
-              "longitude": -72.826945
-            },
-            "storenumber": "10647"
-          }
-        ]
-      },
-      "second_dose_moderna": {
         "locations": [
           {
             "address": {
@@ -11390,23 +9121,36 @@
           }
         ]
       },
-      "second_dose_pfizer": {
+      "second_dose_moderna": {
         "locations": [
           {
             "address": {
-              "city": "WALLINGFORD",
+              "city": "ESSEX",
               "country": "US",
-              "line1": "284 S COLONY RD",
+              "line1": "125 WESTBROOK ROAD",
               "line2": "",
               "state": "CT",
-              "zip": "06492"
+              "zip": "06426"
             },
             "appointmentAvailability": [
               {
-                "date": "2021-02-28",
-                "day": "Sunday",
+                "date": "2021-03-01",
+                "day": "Monday",
                 "slots": [
-                  "12:45 pm"
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:45 am",
+                  "11:15 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "02:15 pm",
+                  "02:30 pm",
+                  "02:45 pm"
                 ]
               }
             ],
@@ -11423,32 +9167,40 @@
               }
             ],
             "description": "",
-            "distance": 15.45,
-            "fhirLocationId": "d0ad4492-4fca-4b8c-84d5-6e4b085665fc",
-            "locationId": "d0ad4492-4fca-4b8c-84d5-6e4b085665fc",
+            "distance": 17.18,
+            "fhirLocationId": "5cc83df5-d6e1-41fa-bc89-48c1f855f122",
+            "locationId": "5cc83df5-d6e1-41fa-bc89-48c1f855f122",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
             "name": "Walgreen Drug Store",
             "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "10647",
+            "partnerLocationId": "17767",
             "phone": [
               {
-                "number": "203-265-6336",
+                "number": "860-767-2181",
                 "type": "StorePrimary"
               },
               {
-                "number": "203-265-4772",
+                "number": "860-767-2182",
                 "type": "StoreSecondary"
               },
               {
-                "number": "203-265-6336",
+                "number": "860-767-2181",
                 "type": "Pharmacy"
               }
             ],
             "position": {
-              "latitude": 41.451162,
-              "longitude": -72.826945
+              "latitude": 41.33948799,
+              "longitude": -72.41418954
             },
-            "storenumber": "10647"
+            "storenumber": "17767"
+          }
+        ]
+      },
+      "second_dose_pfizer": {
+        "error": [
+          {
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       }
@@ -14198,142 +11950,9 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T06:54:15.423+00:00",
+    "appointments_last_fetched": "2021-02-27T07:11:49.828+00:00",
     "appointments_raw": {
       "both_doses": {
-        "locations": [
-          {
-            "address": {
-              "city": "ESSEX",
-              "country": "US",
-              "line1": "125 WESTBROOK ROAD",
-              "line2": "",
-              "state": "CT",
-              "zip": "06426"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "09:45 am",
-                  "10:00 am",
-                  "10:15 am",
-                  "10:45 am",
-                  "11:15 am",
-                  "11:45 am",
-                  "12:00 pm",
-                  "12:15 pm",
-                  "12:30 pm",
-                  "12:45 pm",
-                  "01:00 pm",
-                  "02:15 pm",
-                  "02:30 pm",
-                  "02:45 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 21.68,
-            "fhirLocationId": "5cc83df5-d6e1-41fa-bc89-48c1f855f122",
-            "locationId": "5cc83df5-d6e1-41fa-bc89-48c1f855f122",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "17767",
-            "phone": [
-              {
-                "number": "860-767-2181",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "860-767-2182",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "860-767-2181",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 41.33948799,
-              "longitude": -72.41418954
-            },
-            "storenumber": "17767"
-          },
-          {
-            "address": {
-              "city": "WALLINGFORD",
-              "country": "US",
-              "line1": "284 S COLONY RD",
-              "line2": "",
-              "state": "CT",
-              "zip": "06492"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-02-28",
-                "day": "Sunday",
-                "slots": [
-                  "12:45 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 18.08,
-            "fhirLocationId": "d0ad4492-4fca-4b8c-84d5-6e4b085665fc",
-            "locationId": "d0ad4492-4fca-4b8c-84d5-6e4b085665fc",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "10647",
-            "phone": [
-              {
-                "number": "203-265-6336",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "203-265-4772",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "203-265-6336",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 41.451162,
-              "longitude": -72.826945
-            },
-            "storenumber": "10647"
-          }
-        ]
-      },
-      "second_dose_moderna": {
         "locations": [
           {
             "address": {
@@ -14408,23 +12027,36 @@
           }
         ]
       },
-      "second_dose_pfizer": {
+      "second_dose_moderna": {
         "locations": [
           {
             "address": {
-              "city": "WALLINGFORD",
+              "city": "ESSEX",
               "country": "US",
-              "line1": "284 S COLONY RD",
+              "line1": "125 WESTBROOK ROAD",
               "line2": "",
               "state": "CT",
-              "zip": "06492"
+              "zip": "06426"
             },
             "appointmentAvailability": [
               {
-                "date": "2021-02-28",
-                "day": "Sunday",
+                "date": "2021-03-01",
+                "day": "Monday",
                 "slots": [
-                  "12:45 pm"
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:45 am",
+                  "11:15 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "02:15 pm",
+                  "02:30 pm",
+                  "02:45 pm"
                 ]
               }
             ],
@@ -14441,32 +12073,40 @@
               }
             ],
             "description": "",
-            "distance": 15.45,
-            "fhirLocationId": "d0ad4492-4fca-4b8c-84d5-6e4b085665fc",
-            "locationId": "d0ad4492-4fca-4b8c-84d5-6e4b085665fc",
+            "distance": 17.18,
+            "fhirLocationId": "5cc83df5-d6e1-41fa-bc89-48c1f855f122",
+            "locationId": "5cc83df5-d6e1-41fa-bc89-48c1f855f122",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
             "name": "Walgreen Drug Store",
             "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "10647",
+            "partnerLocationId": "17767",
             "phone": [
               {
-                "number": "203-265-6336",
+                "number": "860-767-2181",
                 "type": "StorePrimary"
               },
               {
-                "number": "203-265-4772",
+                "number": "860-767-2182",
                 "type": "StoreSecondary"
               },
               {
-                "number": "203-265-6336",
+                "number": "860-767-2181",
                 "type": "Pharmacy"
               }
             ],
             "position": {
-              "latitude": 41.451162,
-              "longitude": -72.826945
+              "latitude": 41.33948799,
+              "longitude": -72.41418954
             },
-            "storenumber": "10647"
+            "storenumber": "17767"
+          }
+        ]
+      },
+      "second_dose_pfizer": {
+        "error": [
+          {
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       }
@@ -14485,142 +12125,9 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T06:54:15.423+00:00",
+    "appointments_last_fetched": "2021-02-27T07:11:49.828+00:00",
     "appointments_raw": {
       "both_doses": {
-        "locations": [
-          {
-            "address": {
-              "city": "ESSEX",
-              "country": "US",
-              "line1": "125 WESTBROOK ROAD",
-              "line2": "",
-              "state": "CT",
-              "zip": "06426"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "09:45 am",
-                  "10:00 am",
-                  "10:15 am",
-                  "10:45 am",
-                  "11:15 am",
-                  "11:45 am",
-                  "12:00 pm",
-                  "12:15 pm",
-                  "12:30 pm",
-                  "12:45 pm",
-                  "01:00 pm",
-                  "02:15 pm",
-                  "02:30 pm",
-                  "02:45 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 21.68,
-            "fhirLocationId": "5cc83df5-d6e1-41fa-bc89-48c1f855f122",
-            "locationId": "5cc83df5-d6e1-41fa-bc89-48c1f855f122",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "17767",
-            "phone": [
-              {
-                "number": "860-767-2181",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "860-767-2182",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "860-767-2181",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 41.33948799,
-              "longitude": -72.41418954
-            },
-            "storenumber": "17767"
-          },
-          {
-            "address": {
-              "city": "WALLINGFORD",
-              "country": "US",
-              "line1": "284 S COLONY RD",
-              "line2": "",
-              "state": "CT",
-              "zip": "06492"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-02-28",
-                "day": "Sunday",
-                "slots": [
-                  "12:45 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 18.08,
-            "fhirLocationId": "d0ad4492-4fca-4b8c-84d5-6e4b085665fc",
-            "locationId": "d0ad4492-4fca-4b8c-84d5-6e4b085665fc",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "10647",
-            "phone": [
-              {
-                "number": "203-265-6336",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "203-265-4772",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "203-265-6336",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 41.451162,
-              "longitude": -72.826945
-            },
-            "storenumber": "10647"
-          }
-        ]
-      },
-      "second_dose_moderna": {
         "locations": [
           {
             "address": {
@@ -14695,23 +12202,36 @@
           }
         ]
       },
-      "second_dose_pfizer": {
+      "second_dose_moderna": {
         "locations": [
           {
             "address": {
-              "city": "WALLINGFORD",
+              "city": "ESSEX",
               "country": "US",
-              "line1": "284 S COLONY RD",
+              "line1": "125 WESTBROOK ROAD",
               "line2": "",
               "state": "CT",
-              "zip": "06492"
+              "zip": "06426"
             },
             "appointmentAvailability": [
               {
-                "date": "2021-02-28",
-                "day": "Sunday",
+                "date": "2021-03-01",
+                "day": "Monday",
                 "slots": [
-                  "12:45 pm"
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:45 am",
+                  "11:15 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "02:15 pm",
+                  "02:30 pm",
+                  "02:45 pm"
                 ]
               }
             ],
@@ -14728,32 +12248,40 @@
               }
             ],
             "description": "",
-            "distance": 15.45,
-            "fhirLocationId": "d0ad4492-4fca-4b8c-84d5-6e4b085665fc",
-            "locationId": "d0ad4492-4fca-4b8c-84d5-6e4b085665fc",
+            "distance": 17.18,
+            "fhirLocationId": "5cc83df5-d6e1-41fa-bc89-48c1f855f122",
+            "locationId": "5cc83df5-d6e1-41fa-bc89-48c1f855f122",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
             "name": "Walgreen Drug Store",
             "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "10647",
+            "partnerLocationId": "17767",
             "phone": [
               {
-                "number": "203-265-6336",
+                "number": "860-767-2181",
                 "type": "StorePrimary"
               },
               {
-                "number": "203-265-4772",
+                "number": "860-767-2182",
                 "type": "StoreSecondary"
               },
               {
-                "number": "203-265-6336",
+                "number": "860-767-2181",
                 "type": "Pharmacy"
               }
             ],
             "position": {
-              "latitude": 41.451162,
-              "longitude": -72.826945
+              "latitude": 41.33948799,
+              "longitude": -72.41418954
             },
-            "storenumber": "10647"
+            "storenumber": "17767"
+          }
+        ]
+      },
+      "second_dose_pfizer": {
+        "error": [
+          {
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       }
@@ -14921,7 +12449,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T07:04:21.656+00:00",
+    "appointments_last_fetched": "2021-02-27T07:12:03.426+00:00",
     "appointments_raw": {
       "both_doses": {
         "locations": [
@@ -14956,7 +12484,7 @@
               }
             ],
             "description": "",
-            "distance": 0.35,
+            "distance": 20.15,
             "fhirLocationId": "ddbd3ac4-10c3-4691-9a73-f931096cb6ab",
             "locationId": "ddbd3ac4-10c3-4691-9a73-f931096cb6ab",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -15026,7 +12554,7 @@
               }
             ],
             "description": "",
-            "distance": 21.19,
+            "distance": 13.79,
             "fhirLocationId": "ddbd3ac4-10c3-4691-9a73-f931096cb6ab",
             "locationId": "ddbd3ac4-10c3-4691-9a73-f931096cb6ab",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -15376,7 +12904,7 @@
       }
     ],
     "appointments_available": true,
-    "appointments_last_fetched": "2021-02-27T07:04:54.972+00:00",
+    "appointments_last_fetched": "2021-02-27T07:12:23.464+00:00",
     "appointments_raw": {
       "both_doses": {
         "locations": [
@@ -15411,7 +12939,7 @@
               }
             ],
             "description": "",
-            "distance": 23.45,
+            "distance": 23.12,
             "fhirLocationId": "211b08a1-3c10-49d0-8ddc-90a4b452476b",
             "locationId": "211b08a1-3c10-49d0-8ddc-90a4b452476b",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -15481,7 +13009,7 @@
               }
             ],
             "description": "",
-            "distance": 9.57,
+            "distance": 13.9,
             "fhirLocationId": "211b08a1-3c10-49d0-8ddc-90a4b452476b",
             "locationId": "211b08a1-3c10-49d0-8ddc-90a4b452476b",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -15525,7 +13053,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T07:04:21.656+00:00",
+    "appointments_last_fetched": "2021-02-27T07:12:03.426+00:00",
     "appointments_raw": {
       "both_doses": {
         "locations": [
@@ -15560,7 +13088,7 @@
               }
             ],
             "description": "",
-            "distance": 0.35,
+            "distance": 20.15,
             "fhirLocationId": "ddbd3ac4-10c3-4691-9a73-f931096cb6ab",
             "locationId": "ddbd3ac4-10c3-4691-9a73-f931096cb6ab",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -15630,7 +13158,7 @@
               }
             ],
             "description": "",
-            "distance": 21.19,
+            "distance": 13.79,
             "fhirLocationId": "ddbd3ac4-10c3-4691-9a73-f931096cb6ab",
             "locationId": "ddbd3ac4-10c3-4691-9a73-f931096cb6ab",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -15864,7 +13392,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T07:04:21.656+00:00",
+    "appointments_last_fetched": "2021-02-27T07:12:03.426+00:00",
     "appointments_raw": {
       "both_doses": {
         "locations": [
@@ -15899,7 +13427,7 @@
               }
             ],
             "description": "",
-            "distance": 0.35,
+            "distance": 20.15,
             "fhirLocationId": "ddbd3ac4-10c3-4691-9a73-f931096cb6ab",
             "locationId": "ddbd3ac4-10c3-4691-9a73-f931096cb6ab",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -15969,7 +13497,7 @@
               }
             ],
             "description": "",
-            "distance": 21.19,
+            "distance": 13.79,
             "fhirLocationId": "ddbd3ac4-10c3-4691-9a73-f931096cb6ab",
             "locationId": "ddbd3ac4-10c3-4691-9a73-f931096cb6ab",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -16013,7 +13541,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T07:04:21.656+00:00",
+    "appointments_last_fetched": "2021-02-27T07:12:03.426+00:00",
     "appointments_raw": {
       "both_doses": {
         "locations": [
@@ -16048,7 +13576,7 @@
               }
             ],
             "description": "",
-            "distance": 0.35,
+            "distance": 20.15,
             "fhirLocationId": "ddbd3ac4-10c3-4691-9a73-f931096cb6ab",
             "locationId": "ddbd3ac4-10c3-4691-9a73-f931096cb6ab",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -16118,7 +13646,7 @@
               }
             ],
             "description": "",
-            "distance": 21.19,
+            "distance": 13.79,
             "fhirLocationId": "ddbd3ac4-10c3-4691-9a73-f931096cb6ab",
             "locationId": "ddbd3ac4-10c3-4691-9a73-f931096cb6ab",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -16311,7 +13839,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T07:04:21.656+00:00",
+    "appointments_last_fetched": "2021-02-27T07:12:03.426+00:00",
     "appointments_raw": {
       "both_doses": {
         "locations": [
@@ -16346,7 +13874,7 @@
               }
             ],
             "description": "",
-            "distance": 0.35,
+            "distance": 20.15,
             "fhirLocationId": "ddbd3ac4-10c3-4691-9a73-f931096cb6ab",
             "locationId": "ddbd3ac4-10c3-4691-9a73-f931096cb6ab",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -16416,7 +13944,7 @@
               }
             ],
             "description": "",
-            "distance": 21.19,
+            "distance": 13.79,
             "fhirLocationId": "ddbd3ac4-10c3-4691-9a73-f931096cb6ab",
             "locationId": "ddbd3ac4-10c3-4691-9a73-f931096cb6ab",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -16609,7 +14137,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T07:04:21.656+00:00",
+    "appointments_last_fetched": "2021-02-27T07:12:03.426+00:00",
     "appointments_raw": {
       "both_doses": {
         "locations": [
@@ -16644,7 +14172,7 @@
               }
             ],
             "description": "",
-            "distance": 0.35,
+            "distance": 20.15,
             "fhirLocationId": "ddbd3ac4-10c3-4691-9a73-f931096cb6ab",
             "locationId": "ddbd3ac4-10c3-4691-9a73-f931096cb6ab",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -16714,7 +14242,7 @@
               }
             ],
             "description": "",
-            "distance": 21.19,
+            "distance": 13.79,
             "fhirLocationId": "ddbd3ac4-10c3-4691-9a73-f931096cb6ab",
             "locationId": "ddbd3ac4-10c3-4691-9a73-f931096cb6ab",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -16758,7 +14286,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T07:04:21.656+00:00",
+    "appointments_last_fetched": "2021-02-27T07:12:03.426+00:00",
     "appointments_raw": {
       "both_doses": {
         "locations": [
@@ -16793,7 +14321,7 @@
               }
             ],
             "description": "",
-            "distance": 0.35,
+            "distance": 20.15,
             "fhirLocationId": "ddbd3ac4-10c3-4691-9a73-f931096cb6ab",
             "locationId": "ddbd3ac4-10c3-4691-9a73-f931096cb6ab",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -16863,7 +14391,7 @@
               }
             ],
             "description": "",
-            "distance": 21.19,
+            "distance": 13.79,
             "fhirLocationId": "ddbd3ac4-10c3-4691-9a73-f931096cb6ab",
             "locationId": "ddbd3ac4-10c3-4691-9a73-f931096cb6ab",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -16907,7 +14435,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T07:04:21.656+00:00",
+    "appointments_last_fetched": "2021-02-27T07:12:03.426+00:00",
     "appointments_raw": {
       "both_doses": {
         "locations": [
@@ -16942,7 +14470,7 @@
               }
             ],
             "description": "",
-            "distance": 0.35,
+            "distance": 20.15,
             "fhirLocationId": "ddbd3ac4-10c3-4691-9a73-f931096cb6ab",
             "locationId": "ddbd3ac4-10c3-4691-9a73-f931096cb6ab",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -17012,7 +14540,7 @@
               }
             ],
             "description": "",
-            "distance": 21.19,
+            "distance": 13.79,
             "fhirLocationId": "ddbd3ac4-10c3-4691-9a73-f931096cb6ab",
             "locationId": "ddbd3ac4-10c3-4691-9a73-f931096cb6ab",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -17056,7 +14584,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T07:04:21.656+00:00",
+    "appointments_last_fetched": "2021-02-27T07:12:03.426+00:00",
     "appointments_raw": {
       "both_doses": {
         "locations": [
@@ -17091,7 +14619,7 @@
               }
             ],
             "description": "",
-            "distance": 0.35,
+            "distance": 20.15,
             "fhirLocationId": "ddbd3ac4-10c3-4691-9a73-f931096cb6ab",
             "locationId": "ddbd3ac4-10c3-4691-9a73-f931096cb6ab",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -17161,7 +14689,7 @@
               }
             ],
             "description": "",
-            "distance": 21.19,
+            "distance": 13.79,
             "fhirLocationId": "ddbd3ac4-10c3-4691-9a73-f931096cb6ab",
             "locationId": "ddbd3ac4-10c3-4691-9a73-f931096cb6ab",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -17205,7 +14733,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T07:04:21.656+00:00",
+    "appointments_last_fetched": "2021-02-27T07:12:03.426+00:00",
     "appointments_raw": {
       "both_doses": {
         "locations": [
@@ -17240,7 +14768,7 @@
               }
             ],
             "description": "",
-            "distance": 0.35,
+            "distance": 20.15,
             "fhirLocationId": "ddbd3ac4-10c3-4691-9a73-f931096cb6ab",
             "locationId": "ddbd3ac4-10c3-4691-9a73-f931096cb6ab",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -17310,7 +14838,7 @@
               }
             ],
             "description": "",
-            "distance": 21.19,
+            "distance": 13.79,
             "fhirLocationId": "ddbd3ac4-10c3-4691-9a73-f931096cb6ab",
             "locationId": "ddbd3ac4-10c3-4691-9a73-f931096cb6ab",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -17354,7 +14882,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T07:04:21.656+00:00",
+    "appointments_last_fetched": "2021-02-27T07:12:03.426+00:00",
     "appointments_raw": {
       "both_doses": {
         "locations": [
@@ -17389,7 +14917,7 @@
               }
             ],
             "description": "",
-            "distance": 0.35,
+            "distance": 20.15,
             "fhirLocationId": "ddbd3ac4-10c3-4691-9a73-f931096cb6ab",
             "locationId": "ddbd3ac4-10c3-4691-9a73-f931096cb6ab",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -17459,7 +14987,7 @@
               }
             ],
             "description": "",
-            "distance": 21.19,
+            "distance": 13.79,
             "fhirLocationId": "ddbd3ac4-10c3-4691-9a73-f931096cb6ab",
             "locationId": "ddbd3ac4-10c3-4691-9a73-f931096cb6ab",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -17503,7 +15031,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T07:04:21.656+00:00",
+    "appointments_last_fetched": "2021-02-27T07:12:03.426+00:00",
     "appointments_raw": {
       "both_doses": {
         "locations": [
@@ -17538,7 +15066,7 @@
               }
             ],
             "description": "",
-            "distance": 0.35,
+            "distance": 20.15,
             "fhirLocationId": "ddbd3ac4-10c3-4691-9a73-f931096cb6ab",
             "locationId": "ddbd3ac4-10c3-4691-9a73-f931096cb6ab",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -17608,7 +15136,7 @@
               }
             ],
             "description": "",
-            "distance": 21.19,
+            "distance": 13.79,
             "fhirLocationId": "ddbd3ac4-10c3-4691-9a73-f931096cb6ab",
             "locationId": "ddbd3ac4-10c3-4691-9a73-f931096cb6ab",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -17652,7 +15180,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T07:04:21.656+00:00",
+    "appointments_last_fetched": "2021-02-27T07:12:03.426+00:00",
     "appointments_raw": {
       "both_doses": {
         "locations": [
@@ -17687,7 +15215,7 @@
               }
             ],
             "description": "",
-            "distance": 0.35,
+            "distance": 20.15,
             "fhirLocationId": "ddbd3ac4-10c3-4691-9a73-f931096cb6ab",
             "locationId": "ddbd3ac4-10c3-4691-9a73-f931096cb6ab",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -17757,7 +15285,7 @@
               }
             ],
             "description": "",
-            "distance": 21.19,
+            "distance": 13.79,
             "fhirLocationId": "ddbd3ac4-10c3-4691-9a73-f931096cb6ab",
             "locationId": "ddbd3ac4-10c3-4691-9a73-f931096cb6ab",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -17801,7 +15329,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T07:04:21.656+00:00",
+    "appointments_last_fetched": "2021-02-27T07:12:03.426+00:00",
     "appointments_raw": {
       "both_doses": {
         "locations": [
@@ -17836,7 +15364,7 @@
               }
             ],
             "description": "",
-            "distance": 0.35,
+            "distance": 20.15,
             "fhirLocationId": "ddbd3ac4-10c3-4691-9a73-f931096cb6ab",
             "locationId": "ddbd3ac4-10c3-4691-9a73-f931096cb6ab",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -17906,7 +15434,7 @@
               }
             ],
             "description": "",
-            "distance": 21.19,
+            "distance": 13.79,
             "fhirLocationId": "ddbd3ac4-10c3-4691-9a73-f931096cb6ab",
             "locationId": "ddbd3ac4-10c3-4691-9a73-f931096cb6ab",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -17958,7 +15486,7 @@
       }
     ],
     "appointments_available": true,
-    "appointments_last_fetched": "2021-02-27T07:04:21.656+00:00",
+    "appointments_last_fetched": "2021-02-27T07:12:03.426+00:00",
     "appointments_raw": {
       "both_doses": {
         "locations": [
@@ -17993,7 +15521,7 @@
               }
             ],
             "description": "",
-            "distance": 0.35,
+            "distance": 20.15,
             "fhirLocationId": "ddbd3ac4-10c3-4691-9a73-f931096cb6ab",
             "locationId": "ddbd3ac4-10c3-4691-9a73-f931096cb6ab",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -18063,7 +15591,7 @@
               }
             ],
             "description": "",
-            "distance": 21.19,
+            "distance": 13.79,
             "fhirLocationId": "ddbd3ac4-10c3-4691-9a73-f931096cb6ab",
             "locationId": "ddbd3ac4-10c3-4691-9a73-f931096cb6ab",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -18107,7 +15635,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T07:04:21.656+00:00",
+    "appointments_last_fetched": "2021-02-27T07:12:03.426+00:00",
     "appointments_raw": {
       "both_doses": {
         "locations": [
@@ -18142,7 +15670,7 @@
               }
             ],
             "description": "",
-            "distance": 0.35,
+            "distance": 20.15,
             "fhirLocationId": "ddbd3ac4-10c3-4691-9a73-f931096cb6ab",
             "locationId": "ddbd3ac4-10c3-4691-9a73-f931096cb6ab",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -18212,7 +15740,7 @@
               }
             ],
             "description": "",
-            "distance": 21.19,
+            "distance": 13.79,
             "fhirLocationId": "ddbd3ac4-10c3-4691-9a73-f931096cb6ab",
             "locationId": "ddbd3ac4-10c3-4691-9a73-f931096cb6ab",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -18256,7 +15784,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T07:04:21.656+00:00",
+    "appointments_last_fetched": "2021-02-27T07:12:03.426+00:00",
     "appointments_raw": {
       "both_doses": {
         "locations": [
@@ -18291,7 +15819,7 @@
               }
             ],
             "description": "",
-            "distance": 0.35,
+            "distance": 20.15,
             "fhirLocationId": "ddbd3ac4-10c3-4691-9a73-f931096cb6ab",
             "locationId": "ddbd3ac4-10c3-4691-9a73-f931096cb6ab",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -18361,7 +15889,7 @@
               }
             ],
             "description": "",
-            "distance": 21.19,
+            "distance": 13.79,
             "fhirLocationId": "ddbd3ac4-10c3-4691-9a73-f931096cb6ab",
             "locationId": "ddbd3ac4-10c3-4691-9a73-f931096cb6ab",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -18405,7 +15933,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T07:04:21.656+00:00",
+    "appointments_last_fetched": "2021-02-27T07:12:03.426+00:00",
     "appointments_raw": {
       "both_doses": {
         "locations": [
@@ -18440,7 +15968,7 @@
               }
             ],
             "description": "",
-            "distance": 0.35,
+            "distance": 20.15,
             "fhirLocationId": "ddbd3ac4-10c3-4691-9a73-f931096cb6ab",
             "locationId": "ddbd3ac4-10c3-4691-9a73-f931096cb6ab",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -18510,7 +16038,7 @@
               }
             ],
             "description": "",
-            "distance": 21.19,
+            "distance": 13.79,
             "fhirLocationId": "ddbd3ac4-10c3-4691-9a73-f931096cb6ab",
             "locationId": "ddbd3ac4-10c3-4691-9a73-f931096cb6ab",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -18554,7 +16082,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T07:04:21.656+00:00",
+    "appointments_last_fetched": "2021-02-27T07:12:03.426+00:00",
     "appointments_raw": {
       "both_doses": {
         "locations": [
@@ -18589,7 +16117,7 @@
               }
             ],
             "description": "",
-            "distance": 0.35,
+            "distance": 20.15,
             "fhirLocationId": "ddbd3ac4-10c3-4691-9a73-f931096cb6ab",
             "locationId": "ddbd3ac4-10c3-4691-9a73-f931096cb6ab",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -18659,7 +16187,7 @@
               }
             ],
             "description": "",
-            "distance": 21.19,
+            "distance": 13.79,
             "fhirLocationId": "ddbd3ac4-10c3-4691-9a73-f931096cb6ab",
             "locationId": "ddbd3ac4-10c3-4691-9a73-f931096cb6ab",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
