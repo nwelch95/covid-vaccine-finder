@@ -4,7 +4,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T09:38:49.331+00:00",
+    "appointments_last_fetched": "2021-02-27T10:04:12.617+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -45,7 +45,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T09:38:49.331+00:00",
+    "appointments_last_fetched": "2021-02-27T10:04:12.617+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -655,9 +655,166 @@
       }
     ],
     "appointments_available": true,
-    "appointments_last_fetched": "2021-02-27T09:49:07.401+00:00",
+    "appointments_last_fetched": "2021-02-27T10:03:40.492+00:00",
     "appointments_raw": {
       "both_doses": {
+        "locations": [
+          {
+            "address": {
+              "city": "CASPER",
+              "country": "US",
+              "line1": "1071 CY AVE",
+              "line2": "",
+              "state": "WY",
+              "zip": "82604"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "11:45 am",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "02:15 pm",
+                  "02:30 pm",
+                  "02:45 pm",
+                  "03:45 pm",
+                  "04:45 pm",
+                  "05:15 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 15.01,
+            "fhirLocationId": "6a670e09-3435-4d79-8f84-0145518781bf",
+            "locationId": "6a670e09-3435-4d79-8f84-0145518781bf",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "7601",
+            "phone": [
+              {
+                "number": "307-234-9379",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "307-234-9389",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "307-234-9379",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 42.83404983,
+              "longitude": -106.33756848
+            },
+            "storenumber": "7601"
+          },
+          {
+            "address": {
+              "city": "CASPER",
+              "country": "US",
+              "line1": "190 SE WYOMING BLVD",
+              "line2": "",
+              "state": "WY",
+              "zip": "82609"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "10:15 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "11:00 am",
+                  "11:15 am",
+                  "11:30 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "02:45 pm",
+                  "03:00 pm",
+                  "03:15 pm",
+                  "03:30 pm",
+                  "03:45 pm",
+                  "04:00 pm",
+                  "04:15 pm",
+                  "04:30 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 18.49,
+            "fhirLocationId": "7000a935-2609-42da-9cd8-84ec892240e6",
+            "locationId": "7000a935-2609-42da-9cd8-84ec892240e6",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "7462",
+            "phone": [
+              {
+                "number": "307-234-9184",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "307-234-9185",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "307-234-9184",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 42.849422,
+              "longitude": -106.271457
+            },
+            "storenumber": "7462"
+          }
+        ]
+      },
+      "second_dose_moderna": {
+        "error": [
+          {
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
+          }
+        ]
+      },
+      "second_dose_pfizer": {
         "locations": [
           {
             "address": {
@@ -778,163 +935,6 @@
             ],
             "description": "",
             "distance": 14.56,
-            "fhirLocationId": "7000a935-2609-42da-9cd8-84ec892240e6",
-            "locationId": "7000a935-2609-42da-9cd8-84ec892240e6",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "7462",
-            "phone": [
-              {
-                "number": "307-234-9184",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "307-234-9185",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "307-234-9184",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 42.849422,
-              "longitude": -106.271457
-            },
-            "storenumber": "7462"
-          }
-        ]
-      },
-      "second_dose_moderna": {
-        "error": [
-          {
-            "code": "FC_904_NoData",
-            "message": "Insufficient inventory."
-          }
-        ]
-      },
-      "second_dose_pfizer": {
-        "locations": [
-          {
-            "address": {
-              "city": "CASPER",
-              "country": "US",
-              "line1": "1071 CY AVE",
-              "line2": "",
-              "state": "WY",
-              "zip": "82604"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "11:45 am",
-                  "12:15 pm",
-                  "12:30 pm",
-                  "12:45 pm",
-                  "01:00 pm",
-                  "02:15 pm",
-                  "02:30 pm",
-                  "02:45 pm",
-                  "03:45 pm",
-                  "04:45 pm",
-                  "05:15 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 5.5,
-            "fhirLocationId": "6a670e09-3435-4d79-8f84-0145518781bf",
-            "locationId": "6a670e09-3435-4d79-8f84-0145518781bf",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "7601",
-            "phone": [
-              {
-                "number": "307-234-9379",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "307-234-9389",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "307-234-9379",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 42.83404983,
-              "longitude": -106.33756848
-            },
-            "storenumber": "7601"
-          },
-          {
-            "address": {
-              "city": "CASPER",
-              "country": "US",
-              "line1": "190 SE WYOMING BLVD",
-              "line2": "",
-              "state": "WY",
-              "zip": "82609"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "10:15 am",
-                  "10:30 am",
-                  "10:45 am",
-                  "11:00 am",
-                  "11:15 am",
-                  "11:30 am",
-                  "11:45 am",
-                  "12:00 pm",
-                  "12:15 pm",
-                  "12:30 pm",
-                  "12:45 pm",
-                  "01:00 pm",
-                  "02:45 pm",
-                  "03:00 pm",
-                  "03:15 pm",
-                  "03:30 pm",
-                  "03:45 pm",
-                  "04:00 pm",
-                  "04:15 pm",
-                  "04:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 5.74,
             "fhirLocationId": "7000a935-2609-42da-9cd8-84ec892240e6",
             "locationId": "7000a935-2609-42da-9cd8-84ec892240e6",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -1138,9 +1138,166 @@
       }
     ],
     "appointments_available": true,
-    "appointments_last_fetched": "2021-02-27T09:49:07.401+00:00",
+    "appointments_last_fetched": "2021-02-27T10:03:40.492+00:00",
     "appointments_raw": {
       "both_doses": {
+        "locations": [
+          {
+            "address": {
+              "city": "CASPER",
+              "country": "US",
+              "line1": "1071 CY AVE",
+              "line2": "",
+              "state": "WY",
+              "zip": "82604"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "11:45 am",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "02:15 pm",
+                  "02:30 pm",
+                  "02:45 pm",
+                  "03:45 pm",
+                  "04:45 pm",
+                  "05:15 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 15.01,
+            "fhirLocationId": "6a670e09-3435-4d79-8f84-0145518781bf",
+            "locationId": "6a670e09-3435-4d79-8f84-0145518781bf",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "7601",
+            "phone": [
+              {
+                "number": "307-234-9379",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "307-234-9389",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "307-234-9379",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 42.83404983,
+              "longitude": -106.33756848
+            },
+            "storenumber": "7601"
+          },
+          {
+            "address": {
+              "city": "CASPER",
+              "country": "US",
+              "line1": "190 SE WYOMING BLVD",
+              "line2": "",
+              "state": "WY",
+              "zip": "82609"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "10:15 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "11:00 am",
+                  "11:15 am",
+                  "11:30 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "02:45 pm",
+                  "03:00 pm",
+                  "03:15 pm",
+                  "03:30 pm",
+                  "03:45 pm",
+                  "04:00 pm",
+                  "04:15 pm",
+                  "04:30 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 18.49,
+            "fhirLocationId": "7000a935-2609-42da-9cd8-84ec892240e6",
+            "locationId": "7000a935-2609-42da-9cd8-84ec892240e6",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "7462",
+            "phone": [
+              {
+                "number": "307-234-9184",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "307-234-9185",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "307-234-9184",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 42.849422,
+              "longitude": -106.271457
+            },
+            "storenumber": "7462"
+          }
+        ]
+      },
+      "second_dose_moderna": {
+        "error": [
+          {
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
+          }
+        ]
+      },
+      "second_dose_pfizer": {
         "locations": [
           {
             "address": {
@@ -1261,163 +1418,6 @@
             ],
             "description": "",
             "distance": 14.56,
-            "fhirLocationId": "7000a935-2609-42da-9cd8-84ec892240e6",
-            "locationId": "7000a935-2609-42da-9cd8-84ec892240e6",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "7462",
-            "phone": [
-              {
-                "number": "307-234-9184",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "307-234-9185",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "307-234-9184",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 42.849422,
-              "longitude": -106.271457
-            },
-            "storenumber": "7462"
-          }
-        ]
-      },
-      "second_dose_moderna": {
-        "error": [
-          {
-            "code": "FC_904_NoData",
-            "message": "Insufficient inventory."
-          }
-        ]
-      },
-      "second_dose_pfizer": {
-        "locations": [
-          {
-            "address": {
-              "city": "CASPER",
-              "country": "US",
-              "line1": "1071 CY AVE",
-              "line2": "",
-              "state": "WY",
-              "zip": "82604"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "11:45 am",
-                  "12:15 pm",
-                  "12:30 pm",
-                  "12:45 pm",
-                  "01:00 pm",
-                  "02:15 pm",
-                  "02:30 pm",
-                  "02:45 pm",
-                  "03:45 pm",
-                  "04:45 pm",
-                  "05:15 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 5.5,
-            "fhirLocationId": "6a670e09-3435-4d79-8f84-0145518781bf",
-            "locationId": "6a670e09-3435-4d79-8f84-0145518781bf",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "7601",
-            "phone": [
-              {
-                "number": "307-234-9379",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "307-234-9389",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "307-234-9379",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 42.83404983,
-              "longitude": -106.33756848
-            },
-            "storenumber": "7601"
-          },
-          {
-            "address": {
-              "city": "CASPER",
-              "country": "US",
-              "line1": "190 SE WYOMING BLVD",
-              "line2": "",
-              "state": "WY",
-              "zip": "82609"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "10:15 am",
-                  "10:30 am",
-                  "10:45 am",
-                  "11:00 am",
-                  "11:15 am",
-                  "11:30 am",
-                  "11:45 am",
-                  "12:00 pm",
-                  "12:15 pm",
-                  "12:30 pm",
-                  "12:45 pm",
-                  "01:00 pm",
-                  "02:45 pm",
-                  "03:00 pm",
-                  "03:15 pm",
-                  "03:30 pm",
-                  "03:45 pm",
-                  "04:00 pm",
-                  "04:15 pm",
-                  "04:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 5.74,
             "fhirLocationId": "7000a935-2609-42da-9cd8-84ec892240e6",
             "locationId": "7000a935-2609-42da-9cd8-84ec892240e6",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
