@@ -30139,26 +30139,377 @@
       }
     ],
     "appointments_available": true,
-    "appointments_last_fetched": "2021-02-27T18:22:31.506+00:00",
+    "appointments_last_fetched": "2021-02-27T18:31:03.205+00:00",
     "appointments_raw": {
       "both_doses": {
         "locations": [
           {
             "address": {
-              "city": "NORTH SMITHFIELD",
+              "city": "NORWICH",
               "country": "US",
-              "line1": "900 VICTORY HIGHWAY # 20",
+              "line1": "399 W MAIN ST",
               "line2": "",
-              "state": "RI",
-              "zip": "02896"
+              "state": "CT",
+              "zip": "06360"
             },
             "appointmentAvailability": [
               {
                 "date": "2021-03-02",
                 "day": "Tuesday",
                 "slots": [
+                  "11:15 am",
+                  "11:30 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
                   "12:30 pm",
                   "12:45 pm",
+                  "01:00 pm",
+                  "02:15 pm",
+                  "02:30 pm",
+                  "02:45 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 14.32,
+            "fhirLocationId": "ea694c6b-26ab-413e-8407-11578fd2278a",
+            "locationId": "ea694c6b-26ab-413e-8407-11578fd2278a",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "2976",
+            "phone": [
+              {
+                "number": "860-885-0389",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "860-885-0389",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 41.521099,
+              "longitude": -72.092799
+            },
+            "storenumber": "2976"
+          },
+          {
+            "address": {
+              "city": "WILLIMANTIC",
+              "country": "US",
+              "line1": "1475 MAIN ST",
+              "line2": "",
+              "state": "CT",
+              "zip": "06226"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "10:45 am",
+                  "11:15 am",
+                  "11:30 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 17.51,
+            "fhirLocationId": "bb9ba828-e48b-44b4-9584-49c935ebcf77",
+            "locationId": "bb9ba828-e48b-44b4-9584-49c935ebcf77",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "7333",
+            "phone": [
+              {
+                "number": "860-423-6304",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "860-423-6305",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "860-423-6304",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 41.717764,
+              "longitude": -72.23331
+            },
+            "storenumber": "7333"
+          },
+          {
+            "address": {
+              "city": "UNCASVILLE",
+              "country": "US",
+              "line1": "601 ROUTE 32",
+              "line2": "",
+              "state": "CT",
+              "zip": "06382"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "10:00 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "11:00 am",
+                  "11:15 am",
+                  "11:30 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "02:15 pm",
+                  "02:30 pm",
+                  "02:45 pm",
+                  "03:00 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 18.96,
+            "fhirLocationId": "0b20009d-5457-4b94-865f-725a8ce2b458",
+            "locationId": "0b20009d-5457-4b94-865f-725a8ce2b458",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "19888",
+            "phone": [
+              {
+                "number": "860-848-7979",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "860-848-2756",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "860-848-7979",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 41.44206551,
+              "longitude": -72.10418544
+            },
+            "storenumber": "19888"
+          },
+          {
+            "address": {
+              "city": "JOHNSTON",
+              "country": "US",
+              "line1": "1387 PLAINFIELD ST",
+              "line2": "",
+              "state": "RI",
+              "zip": "02919"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "02:30 pm",
+                  "02:45 pm",
+                  "03:15 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 23.24,
+            "fhirLocationId": "0c327111-fb91-417b-9953-01082a83b4ed",
+            "locationId": "0c327111-fb91-417b-9953-01082a83b4ed",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "3899",
+            "phone": [
+              {
+                "number": "401-942-6182",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "401-942-6182",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 41.7963938,
+              "longitude": -71.48230702
+            },
+            "storenumber": "3899"
+          },
+          {
+            "address": {
+              "city": "COLCHESTER",
+              "country": "US",
+              "line1": "27 BROADWAY",
+              "line2": "",
+              "state": "CT",
+              "zip": "06415"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "09:45 am",
+                  "12:30 pm"
+                ]
+              },
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "09:15 am",
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "11:00 am",
+                  "11:15 am",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "02:15 pm",
+                  "02:30 pm",
+                  "02:45 pm",
+                  "03:00 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 23.32,
+            "fhirLocationId": "2a71be0f-2457-405c-a899-49f7777370f4",
+            "locationId": "2a71be0f-2457-405c-a899-49f7777370f4",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "17216",
+            "phone": [
+              {
+                "number": "860-537-9034",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "860-537-9035",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "860-537-9034",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 41.57592629,
+              "longitude": -72.33356111
+            },
+            "storenumber": "17216"
+          },
+          {
+            "address": {
+              "city": "GROTON",
+              "country": "US",
+              "line1": "441 LONG HILL RD",
+              "line2": "",
+              "state": "CT",
+              "zip": "06340"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "11:15 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "02:15 pm",
                   "02:30 pm"
                 ]
               }
@@ -30176,32 +30527,683 @@
               }
             ],
             "description": "",
-            "distance": 12.53,
-            "fhirLocationId": "a892fcf2-c8b7-4590-aada-a364bfa392b9",
-            "locationId": "a892fcf2-c8b7-4590-aada-a364bfa392b9",
+            "distance": 23.35,
+            "fhirLocationId": "fd35cf33-0e03-4615-a03e-411d13fb5c10",
+            "locationId": "fd35cf33-0e03-4615-a03e-411d13fb5c10",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
             "name": "Walgreen Drug Store",
             "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "19165",
+            "partnerLocationId": "7759",
             "phone": [
               {
-                "number": "401-762-9811",
+                "number": "860-405-1919",
                 "type": "StorePrimary"
               },
               {
-                "number": "401-766-1006",
+                "number": "860-405-1920",
                 "type": "StoreSecondary"
               },
               {
-                "number": "401-762-9811",
+                "number": "860-405-1919",
                 "type": "Pharmacy"
               }
             ],
             "position": {
-              "latitude": 42.00511495,
-              "longitude": -71.58687368
+              "latitude": 41.35426965,
+              "longitude": -72.06086885
             },
-            "storenumber": "19165"
+            "storenumber": "7759"
+          },
+          {
+            "address": {
+              "city": "GREENVILLE",
+              "country": "US",
+              "line1": "452 PUTNAM PIKE",
+              "line2": "",
+              "state": "RI",
+              "zip": "02828"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "10:15 am",
+                  "10:45 am",
+                  "11:15 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm",
+                  "02:15 pm",
+                  "02:30 pm",
+                  "02:45 pm",
+                  "03:15 pm",
+                  "03:30 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 23.38,
+            "fhirLocationId": "1f2dea70-94b8-4ef0-b8bf-eac3807d6af8",
+            "locationId": "1f2dea70-94b8-4ef0-b8bf-eac3807d6af8",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "18259",
+            "phone": [
+              {
+                "number": "401-949-6212",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "401-949-6213",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "401-949-6212",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 41.86991402,
+              "longitude": -71.53399046
+            },
+            "storenumber": "18259"
+          },
+          {
+            "address": {
+              "city": "NEW LONDON",
+              "country": "US",
+              "line1": "698 BANK ST",
+              "line2": "",
+              "state": "CT",
+              "zip": "06320"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "11:15 am"
+                ]
+              },
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "09:30 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "11:00 am",
+                  "11:15 am",
+                  "11:30 am",
+                  "11:45 am",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "02:15 pm",
+                  "02:30 pm",
+                  "02:45 pm",
+                  "03:00 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 24.55,
+            "fhirLocationId": "694dcbba-b449-4cda-82ad-0d7c07ebb4fe",
+            "locationId": "694dcbba-b449-4cda-82ad-0d7c07ebb4fe",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "10483",
+            "phone": [
+              {
+                "number": "860-440-3566",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "860-440-2698",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "860-440-3566",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 41.349271,
+              "longitude": -72.104401
+            },
+            "storenumber": "10483"
+          }
+        ]
+      },
+      "second_dose_moderna": {
+        "locations": [
+          {
+            "address": {
+              "city": "NORWICH",
+              "country": "US",
+              "line1": "399 W MAIN ST",
+              "line2": "",
+              "state": "CT",
+              "zip": "06360"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "11:15 am",
+                  "11:30 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "02:15 pm",
+                  "02:30 pm",
+                  "02:45 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 14.32,
+            "fhirLocationId": "ea694c6b-26ab-413e-8407-11578fd2278a",
+            "locationId": "ea694c6b-26ab-413e-8407-11578fd2278a",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "2976",
+            "phone": [
+              {
+                "number": "860-885-0389",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "860-885-0389",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 41.521099,
+              "longitude": -72.092799
+            },
+            "storenumber": "2976"
+          },
+          {
+            "address": {
+              "city": "WILLIMANTIC",
+              "country": "US",
+              "line1": "1475 MAIN ST",
+              "line2": "",
+              "state": "CT",
+              "zip": "06226"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "10:45 am",
+                  "11:15 am",
+                  "11:30 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 17.51,
+            "fhirLocationId": "bb9ba828-e48b-44b4-9584-49c935ebcf77",
+            "locationId": "bb9ba828-e48b-44b4-9584-49c935ebcf77",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "7333",
+            "phone": [
+              {
+                "number": "860-423-6304",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "860-423-6305",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "860-423-6304",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 41.717764,
+              "longitude": -72.23331
+            },
+            "storenumber": "7333"
+          },
+          {
+            "address": {
+              "city": "UNCASVILLE",
+              "country": "US",
+              "line1": "601 ROUTE 32",
+              "line2": "",
+              "state": "CT",
+              "zip": "06382"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "10:00 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "11:00 am",
+                  "11:15 am",
+                  "11:30 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "02:15 pm",
+                  "02:30 pm",
+                  "02:45 pm",
+                  "03:00 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 18.96,
+            "fhirLocationId": "0b20009d-5457-4b94-865f-725a8ce2b458",
+            "locationId": "0b20009d-5457-4b94-865f-725a8ce2b458",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "19888",
+            "phone": [
+              {
+                "number": "860-848-7979",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "860-848-2756",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "860-848-7979",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 41.44206551,
+              "longitude": -72.10418544
+            },
+            "storenumber": "19888"
+          },
+          {
+            "address": {
+              "city": "COLCHESTER",
+              "country": "US",
+              "line1": "27 BROADWAY",
+              "line2": "",
+              "state": "CT",
+              "zip": "06415"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "09:45 am",
+                  "12:30 pm"
+                ]
+              },
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "09:15 am",
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "11:00 am",
+                  "11:15 am",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "02:15 pm",
+                  "02:30 pm",
+                  "02:45 pm",
+                  "03:00 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 23.32,
+            "fhirLocationId": "2a71be0f-2457-405c-a899-49f7777370f4",
+            "locationId": "2a71be0f-2457-405c-a899-49f7777370f4",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "17216",
+            "phone": [
+              {
+                "number": "860-537-9034",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "860-537-9035",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "860-537-9034",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 41.57592629,
+              "longitude": -72.33356111
+            },
+            "storenumber": "17216"
+          },
+          {
+            "address": {
+              "city": "GROTON",
+              "country": "US",
+              "line1": "441 LONG HILL RD",
+              "line2": "",
+              "state": "CT",
+              "zip": "06340"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "11:15 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "02:15 pm",
+                  "02:30 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 23.35,
+            "fhirLocationId": "fd35cf33-0e03-4615-a03e-411d13fb5c10",
+            "locationId": "fd35cf33-0e03-4615-a03e-411d13fb5c10",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "7759",
+            "phone": [
+              {
+                "number": "860-405-1919",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "860-405-1920",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "860-405-1919",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 41.35426965,
+              "longitude": -72.06086885
+            },
+            "storenumber": "7759"
+          },
+          {
+            "address": {
+              "city": "NEW LONDON",
+              "country": "US",
+              "line1": "698 BANK ST",
+              "line2": "",
+              "state": "CT",
+              "zip": "06320"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "11:15 am"
+                ]
+              },
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "09:30 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "11:00 am",
+                  "11:15 am",
+                  "11:30 am",
+                  "11:45 am",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "02:15 pm",
+                  "02:30 pm",
+                  "02:45 pm",
+                  "03:00 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 24.55,
+            "fhirLocationId": "694dcbba-b449-4cda-82ad-0d7c07ebb4fe",
+            "locationId": "694dcbba-b449-4cda-82ad-0d7c07ebb4fe",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "10483",
+            "phone": [
+              {
+                "number": "860-440-3566",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "860-440-2698",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "860-440-3566",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 41.349271,
+              "longitude": -72.104401
+            },
+            "storenumber": "10483"
+          }
+        ]
+      },
+      "second_dose_pfizer": {
+        "locations": [
+          {
+            "address": {
+              "city": "JOHNSTON",
+              "country": "US",
+              "line1": "1387 PLAINFIELD ST",
+              "line2": "",
+              "state": "RI",
+              "zip": "02919"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "02:30 pm",
+                  "02:45 pm",
+                  "03:15 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 6.31,
+            "fhirLocationId": "0c327111-fb91-417b-9953-01082a83b4ed",
+            "locationId": "0c327111-fb91-417b-9953-01082a83b4ed",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "3899",
+            "phone": [
+              {
+                "number": "401-942-6182",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "401-942-6182",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 41.7963938,
+              "longitude": -71.48230702
+            },
+            "storenumber": "3899"
           },
           {
             "address": {
@@ -30272,1332 +31274,6 @@
               "longitude": -71.53399046
             },
             "storenumber": "18259"
-          },
-          {
-            "address": {
-              "city": "WOONSOCKET",
-              "country": "US",
-              "line1": "45 CUMBERLAND ST",
-              "line2": "",
-              "state": "RI",
-              "zip": "02895"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-02",
-                "day": "Tuesday",
-                "slots": [
-                  "09:45 am",
-                  "10:00 am",
-                  "10:15 am",
-                  "10:30 am",
-                  "10:45 am",
-                  "11:00 am",
-                  "11:15 am",
-                  "11:30 am",
-                  "11:45 am",
-                  "12:00 pm",
-                  "12:15 pm",
-                  "12:30 pm",
-                  "12:45 pm",
-                  "01:00 pm",
-                  "02:15 pm",
-                  "02:30 pm",
-                  "02:45 pm",
-                  "03:00 pm",
-                  "03:15 pm",
-                  "03:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 10.33,
-            "fhirLocationId": "59326aa4-9013-4e0a-a7a8-9f8ecca1d48a",
-            "locationId": "59326aa4-9013-4e0a-a7a8-9f8ecca1d48a",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "3898",
-            "phone": [
-              {
-                "number": "401-765-5040",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "401-765-5040",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 42.00818723,
-              "longitude": -71.50374084
-            },
-            "storenumber": "3898"
-          },
-          {
-            "address": {
-              "city": "JOHNSTON",
-              "country": "US",
-              "line1": "25 PUTNAM PIKE",
-              "line2": "",
-              "state": "RI",
-              "zip": "02919"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-02",
-                "day": "Tuesday",
-                "slots": [
-                  "01:00 pm",
-                  "02:30 pm",
-                  "03:15 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 20.18,
-            "fhirLocationId": "dc871138-f0a0-4bb5-ae84-db6c40042917",
-            "locationId": "dc871138-f0a0-4bb5-ae84-db6c40042917",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "3719",
-            "phone": [
-              {
-                "number": "401-231-6561",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "401-231-6561",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 41.86013007,
-              "longitude": -71.48854539
-            },
-            "storenumber": "3719"
-          },
-          {
-            "address": {
-              "city": "NORTH PROVIDENCE",
-              "country": "US",
-              "line1": "1665 MINERAL SPRING AVENUE",
-              "line2": "",
-              "state": "RI",
-              "zip": "02904"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-02",
-                "day": "Tuesday",
-                "slots": [
-                  "11:15 am",
-                  "11:30 am",
-                  "11:45 am",
-                  "12:00 pm",
-                  "12:15 pm",
-                  "12:30 pm",
-                  "12:45 pm",
-                  "01:00 pm",
-                  "02:30 pm",
-                  "02:45 pm",
-                  "03:00 pm",
-                  "03:15 pm",
-                  "03:45 pm",
-                  "04:00 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 19.75,
-            "fhirLocationId": "f8fcb08b-a4ac-404f-839f-04f90b3fc930",
-            "locationId": "f8fcb08b-a4ac-404f-839f-04f90b3fc930",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "19985",
-            "phone": [
-              {
-                "number": "401-353-3113",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "401-353-3114",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "401-353-3113",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 41.86426676,
-              "longitude": -71.45197194
-            },
-            "storenumber": "19985"
-          },
-          {
-            "address": {
-              "city": "NORTH PROVIDENCE",
-              "country": "US",
-              "line1": "1510 SMITH STREET",
-              "line2": "",
-              "state": "RI",
-              "zip": "02911"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-02",
-                "day": "Tuesday",
-                "slots": [
-                  "10:30 am",
-                  "10:45 am",
-                  "11:00 am",
-                  "11:30 am",
-                  "11:45 am",
-                  "12:15 pm",
-                  "12:30 pm",
-                  "12:45 pm",
-                  "02:45 pm",
-                  "03:00 pm",
-                  "03:15 pm",
-                  "03:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 20.79,
-            "fhirLocationId": "640e8934-ccbc-4ae5-93c2-f09db323f3cd",
-            "locationId": "640e8934-ccbc-4ae5-93c2-f09db323f3cd",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "19761",
-            "phone": [
-              {
-                "number": "401-353-3500",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "401-353-3501",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "401-353-3500",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 41.84948233,
-              "longitude": -71.46079919
-            },
-            "storenumber": "19761"
-          },
-          {
-            "address": {
-              "city": "NORTH PROVIDENCE",
-              "country": "US",
-              "line1": "1074 MINERAL SPRING AVE",
-              "line2": "",
-              "state": "RI",
-              "zip": "02904"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-02",
-                "day": "Tuesday",
-                "slots": [
-                  "09:45 am",
-                  "10:30 am",
-                  "10:45 am",
-                  "11:00 am",
-                  "11:15 am",
-                  "11:30 am",
-                  "11:45 am",
-                  "12:00 pm",
-                  "12:15 pm",
-                  "12:30 pm",
-                  "12:45 pm",
-                  "01:00 pm",
-                  "02:15 pm",
-                  "02:30 pm",
-                  "02:45 pm",
-                  "03:00 pm",
-                  "03:15 pm",
-                  "03:30 pm",
-                  "03:45 pm",
-                  "04:00 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 19.49,
-            "fhirLocationId": "01081765-e77d-4cbc-93ac-5b9f394ff482",
-            "locationId": "01081765-e77d-4cbc-93ac-5b9f394ff482",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "3737",
-            "phone": [
-              {
-                "number": "401-725-6824",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "401-725-6824",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 41.86811075,
-              "longitude": -71.42548495
-            },
-            "storenumber": "3737"
-          },
-          {
-            "address": {
-              "city": "PROVIDENCE",
-              "country": "US",
-              "line1": "354 ADMIRAL ST",
-              "line2": "",
-              "state": "RI",
-              "zip": "02908"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-02",
-                "day": "Tuesday",
-                "slots": [
-                  "09:30 am",
-                  "09:45 am",
-                  "10:00 am",
-                  "10:15 am",
-                  "10:30 am",
-                  "10:45 am",
-                  "11:00 am",
-                  "11:15 am",
-                  "11:30 am",
-                  "11:45 am",
-                  "12:00 pm",
-                  "12:15 pm",
-                  "12:30 pm",
-                  "12:45 pm",
-                  "01:00 pm",
-                  "02:15 pm",
-                  "02:30 pm",
-                  "02:45 pm",
-                  "03:00 pm",
-                  "03:15 pm",
-                  "03:30 pm",
-                  "03:45 pm",
-                  "04:00 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 21.03,
-            "fhirLocationId": "e0349eca-decd-429d-a4e2-396f288d4763",
-            "locationId": "e0349eca-decd-429d-a4e2-396f288d4763",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "3703",
-            "phone": [
-              {
-                "number": "401-331-2636",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "401-331-2636",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 41.84569202,
-              "longitude": -71.4280559
-            },
-            "storenumber": "3703"
-          },
-          {
-            "address": {
-              "city": "PROVIDENCE",
-              "country": "US",
-              "line1": "456 BRANCH AVENUE",
-              "line2": "",
-              "state": "RI",
-              "zip": "02904"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-02",
-                "day": "Tuesday",
-                "slots": [
-                  "09:15 am",
-                  "09:30 am",
-                  "09:45 am",
-                  "10:00 am",
-                  "10:15 am",
-                  "10:30 am",
-                  "10:45 am",
-                  "11:00 am",
-                  "11:15 am",
-                  "11:30 am",
-                  "11:45 am",
-                  "12:00 pm",
-                  "12:15 pm",
-                  "12:30 pm",
-                  "02:15 pm",
-                  "02:30 pm",
-                  "02:45 pm",
-                  "03:00 pm",
-                  "03:15 pm",
-                  "03:30 pm",
-                  "03:45 pm",
-                  "04:00 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 20.73,
-            "fhirLocationId": "1d0d9df1-dd98-444e-9ed0-997a40a4a384",
-            "locationId": "1d0d9df1-dd98-444e-9ed0-997a40a4a384",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "18384",
-            "phone": [
-              {
-                "number": "401-331-3554",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "401-331-3774",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "401-331-3554",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 41.85035039,
-              "longitude": -71.4204132
-            },
-            "storenumber": "18384"
-          },
-          {
-            "address": {
-              "city": "PROVIDENCE",
-              "country": "US",
-              "line1": "295 ACADEMY AVE",
-              "line2": "",
-              "state": "RI",
-              "zip": "02908"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-02",
-                "day": "Tuesday",
-                "slots": [
-                  "09:45 am",
-                  "10:00 am",
-                  "10:15 am",
-                  "10:30 am",
-                  "10:45 am",
-                  "11:00 am",
-                  "11:15 am",
-                  "11:30 am",
-                  "11:45 am",
-                  "12:00 pm",
-                  "12:15 pm",
-                  "12:30 pm",
-                  "12:45 pm",
-                  "01:00 pm",
-                  "02:15 pm",
-                  "02:30 pm",
-                  "02:45 pm",
-                  "03:00 pm",
-                  "03:15 pm",
-                  "03:30 pm",
-                  "03:45 pm",
-                  "04:00 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 21.91,
-            "fhirLocationId": "85aa2d18-0991-47f6-bf63-30e4dec7e22a",
-            "locationId": "85aa2d18-0991-47f6-bf63-30e4dec7e22a",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "3204",
-            "phone": [
-              {
-                "number": "401-273-7675",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "401-273-7675",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 41.83291059,
-              "longitude": -71.44418879
-            },
-            "storenumber": "3204"
-          }
-        ]
-      },
-      "second_dose_moderna": {
-        "error": [
-          {
-            "code": "FC_904_NoData",
-            "message": "Insufficient inventory."
-          }
-        ]
-      },
-      "second_dose_pfizer": {
-        "locations": [
-          {
-            "address": {
-              "city": "NORTH SMITHFIELD",
-              "country": "US",
-              "line1": "900 VICTORY HIGHWAY # 20",
-              "line2": "",
-              "state": "RI",
-              "zip": "02896"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-02",
-                "day": "Tuesday",
-                "slots": [
-                  "12:30 pm",
-                  "12:45 pm",
-                  "02:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 13.68,
-            "fhirLocationId": "a892fcf2-c8b7-4590-aada-a364bfa392b9",
-            "locationId": "a892fcf2-c8b7-4590-aada-a364bfa392b9",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "19165",
-            "phone": [
-              {
-                "number": "401-762-9811",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "401-766-1006",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "401-762-9811",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 42.00511495,
-              "longitude": -71.58687368
-            },
-            "storenumber": "19165"
-          },
-          {
-            "address": {
-              "city": "GREENVILLE",
-              "country": "US",
-              "line1": "452 PUTNAM PIKE",
-              "line2": "",
-              "state": "RI",
-              "zip": "02828"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-02",
-                "day": "Tuesday",
-                "slots": [
-                  "10:15 am",
-                  "10:45 am",
-                  "11:15 am",
-                  "11:45 am",
-                  "12:00 pm",
-                  "12:15 pm",
-                  "12:30 pm",
-                  "12:45 pm",
-                  "02:15 pm",
-                  "02:30 pm",
-                  "02:45 pm",
-                  "03:15 pm",
-                  "03:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 5.26,
-            "fhirLocationId": "1f2dea70-94b8-4ef0-b8bf-eac3807d6af8",
-            "locationId": "1f2dea70-94b8-4ef0-b8bf-eac3807d6af8",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "18259",
-            "phone": [
-              {
-                "number": "401-949-6212",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "401-949-6213",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "401-949-6212",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 41.86991402,
-              "longitude": -71.53399046
-            },
-            "storenumber": "18259"
-          },
-          {
-            "address": {
-              "city": "WOONSOCKET",
-              "country": "US",
-              "line1": "45 CUMBERLAND ST",
-              "line2": "",
-              "state": "RI",
-              "zip": "02895"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-02",
-                "day": "Tuesday",
-                "slots": [
-                  "09:45 am",
-                  "10:00 am",
-                  "10:15 am",
-                  "10:30 am",
-                  "10:45 am",
-                  "11:00 am",
-                  "11:15 am",
-                  "11:30 am",
-                  "11:45 am",
-                  "12:00 pm",
-                  "12:15 pm",
-                  "12:30 pm",
-                  "12:45 pm",
-                  "01:00 pm",
-                  "02:15 pm",
-                  "02:30 pm",
-                  "02:45 pm",
-                  "03:00 pm",
-                  "03:15 pm",
-                  "03:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 12.07,
-            "fhirLocationId": "59326aa4-9013-4e0a-a7a8-9f8ecca1d48a",
-            "locationId": "59326aa4-9013-4e0a-a7a8-9f8ecca1d48a",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "3898",
-            "phone": [
-              {
-                "number": "401-765-5040",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "401-765-5040",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 42.00818723,
-              "longitude": -71.50374084
-            },
-            "storenumber": "3898"
-          },
-          {
-            "address": {
-              "city": "JOHNSTON",
-              "country": "US",
-              "line1": "25 PUTNAM PIKE",
-              "line2": "",
-              "state": "RI",
-              "zip": "02919"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-02",
-                "day": "Tuesday",
-                "slots": [
-                  "01:00 pm",
-                  "02:30 pm",
-                  "03:15 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 2.86,
-            "fhirLocationId": "dc871138-f0a0-4bb5-ae84-db6c40042917",
-            "locationId": "dc871138-f0a0-4bb5-ae84-db6c40042917",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "3719",
-            "phone": [
-              {
-                "number": "401-231-6561",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "401-231-6561",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 41.86013007,
-              "longitude": -71.48854539
-            },
-            "storenumber": "3719"
-          },
-          {
-            "address": {
-              "city": "NORTH PROVIDENCE",
-              "country": "US",
-              "line1": "1665 MINERAL SPRING AVENUE",
-              "line2": "",
-              "state": "RI",
-              "zip": "02904"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-02",
-                "day": "Tuesday",
-                "slots": [
-                  "11:15 am",
-                  "11:30 am",
-                  "11:45 am",
-                  "12:00 pm",
-                  "12:15 pm",
-                  "12:30 pm",
-                  "12:45 pm",
-                  "01:00 pm",
-                  "02:30 pm",
-                  "02:45 pm",
-                  "03:00 pm",
-                  "03:15 pm",
-                  "03:45 pm",
-                  "04:00 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 1.79,
-            "fhirLocationId": "f8fcb08b-a4ac-404f-839f-04f90b3fc930",
-            "locationId": "f8fcb08b-a4ac-404f-839f-04f90b3fc930",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "19985",
-            "phone": [
-              {
-                "number": "401-353-3113",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "401-353-3114",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "401-353-3113",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 41.86426676,
-              "longitude": -71.45197194
-            },
-            "storenumber": "19985"
-          },
-          {
-            "address": {
-              "city": "NORTH PROVIDENCE",
-              "country": "US",
-              "line1": "1510 SMITH STREET",
-              "line2": "",
-              "state": "RI",
-              "zip": "02911"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-02",
-                "day": "Tuesday",
-                "slots": [
-                  "10:30 am",
-                  "10:45 am",
-                  "11:00 am",
-                  "11:30 am",
-                  "11:45 am",
-                  "12:15 pm",
-                  "12:30 pm",
-                  "12:45 pm",
-                  "02:45 pm",
-                  "03:00 pm",
-                  "03:15 pm",
-                  "03:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 1.26,
-            "fhirLocationId": "640e8934-ccbc-4ae5-93c2-f09db323f3cd",
-            "locationId": "640e8934-ccbc-4ae5-93c2-f09db323f3cd",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "19761",
-            "phone": [
-              {
-                "number": "401-353-3500",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "401-353-3501",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "401-353-3500",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 41.84948233,
-              "longitude": -71.46079919
-            },
-            "storenumber": "19761"
-          },
-          {
-            "address": {
-              "city": "NORTH PROVIDENCE",
-              "country": "US",
-              "line1": "1074 MINERAL SPRING AVE",
-              "line2": "",
-              "state": "RI",
-              "zip": "02904"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-02",
-                "day": "Tuesday",
-                "slots": [
-                  "09:45 am",
-                  "10:30 am",
-                  "10:45 am",
-                  "11:00 am",
-                  "11:15 am",
-                  "11:30 am",
-                  "11:45 am",
-                  "12:00 pm",
-                  "12:15 pm",
-                  "12:30 pm",
-                  "12:45 pm",
-                  "01:00 pm",
-                  "02:15 pm",
-                  "02:30 pm",
-                  "02:45 pm",
-                  "03:00 pm",
-                  "03:15 pm",
-                  "03:30 pm",
-                  "03:45 pm",
-                  "04:00 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 2.08,
-            "fhirLocationId": "01081765-e77d-4cbc-93ac-5b9f394ff482",
-            "locationId": "01081765-e77d-4cbc-93ac-5b9f394ff482",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "3737",
-            "phone": [
-              {
-                "number": "401-725-6824",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "401-725-6824",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 41.86811075,
-              "longitude": -71.42548495
-            },
-            "storenumber": "3737"
-          },
-          {
-            "address": {
-              "city": "PROVIDENCE",
-              "country": "US",
-              "line1": "354 ADMIRAL ST",
-              "line2": "",
-              "state": "RI",
-              "zip": "02908"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-02",
-                "day": "Tuesday",
-                "slots": [
-                  "09:30 am",
-                  "09:45 am",
-                  "10:00 am",
-                  "10:15 am",
-                  "10:30 am",
-                  "10:45 am",
-                  "11:00 am",
-                  "11:15 am",
-                  "11:30 am",
-                  "11:45 am",
-                  "12:00 pm",
-                  "12:15 pm",
-                  "12:30 pm",
-                  "12:45 pm",
-                  "01:00 pm",
-                  "02:15 pm",
-                  "02:30 pm",
-                  "02:45 pm",
-                  "03:00 pm",
-                  "03:15 pm",
-                  "03:30 pm",
-                  "03:45 pm",
-                  "04:00 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 0.73,
-            "fhirLocationId": "e0349eca-decd-429d-a4e2-396f288d4763",
-            "locationId": "e0349eca-decd-429d-a4e2-396f288d4763",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "3703",
-            "phone": [
-              {
-                "number": "401-331-2636",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "401-331-2636",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 41.84569202,
-              "longitude": -71.4280559
-            },
-            "storenumber": "3703"
-          },
-          {
-            "address": {
-              "city": "PROVIDENCE",
-              "country": "US",
-              "line1": "456 BRANCH AVENUE",
-              "line2": "",
-              "state": "RI",
-              "zip": "02904"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-02",
-                "day": "Tuesday",
-                "slots": [
-                  "09:15 am",
-                  "09:30 am",
-                  "09:45 am",
-                  "10:00 am",
-                  "10:15 am",
-                  "10:30 am",
-                  "10:45 am",
-                  "11:00 am",
-                  "11:15 am",
-                  "11:30 am",
-                  "11:45 am",
-                  "12:00 pm",
-                  "12:15 pm",
-                  "12:30 pm",
-                  "02:15 pm",
-                  "02:30 pm",
-                  "02:45 pm",
-                  "03:00 pm",
-                  "03:15 pm",
-                  "03:30 pm",
-                  "03:45 pm",
-                  "04:00 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 1.24,
-            "fhirLocationId": "1d0d9df1-dd98-444e-9ed0-997a40a4a384",
-            "locationId": "1d0d9df1-dd98-444e-9ed0-997a40a4a384",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "18384",
-            "phone": [
-              {
-                "number": "401-331-3554",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "401-331-3774",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "401-331-3554",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 41.85035039,
-              "longitude": -71.4204132
-            },
-            "storenumber": "18384"
-          },
-          {
-            "address": {
-              "city": "PROVIDENCE",
-              "country": "US",
-              "line1": "295 ACADEMY AVE",
-              "line2": "",
-              "state": "RI",
-              "zip": "02908"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-02",
-                "day": "Tuesday",
-                "slots": [
-                  "09:45 am",
-                  "10:00 am",
-                  "10:15 am",
-                  "10:30 am",
-                  "10:45 am",
-                  "11:00 am",
-                  "11:15 am",
-                  "11:30 am",
-                  "11:45 am",
-                  "12:00 pm",
-                  "12:15 pm",
-                  "12:30 pm",
-                  "12:45 pm",
-                  "01:00 pm",
-                  "02:15 pm",
-                  "02:30 pm",
-                  "02:45 pm",
-                  "03:00 pm",
-                  "03:15 pm",
-                  "03:30 pm",
-                  "03:45 pm",
-                  "04:00 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 0.54,
-            "fhirLocationId": "85aa2d18-0991-47f6-bf63-30e4dec7e22a",
-            "locationId": "85aa2d18-0991-47f6-bf63-30e4dec7e22a",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "3204",
-            "phone": [
-              {
-                "number": "401-273-7675",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "401-273-7675",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 41.83291059,
-              "longitude": -71.44418879
-            },
-            "storenumber": "3204"
           }
         ]
       }
@@ -40562,24 +40238,34 @@
       }
     ],
     "appointments_available": true,
-    "appointments_last_fetched": "2021-02-27T18:29:42.142+00:00",
+    "appointments_last_fetched": "2021-02-27T18:31:03.205+00:00",
     "appointments_raw": {
       "both_doses": {
         "locations": [
           {
             "address": {
-              "city": "EAST PROVIDENCE",
+              "city": "NORWICH",
               "country": "US",
-              "line1": "655 WARREN AVE",
+              "line1": "399 W MAIN ST",
               "line2": "",
-              "state": "RI",
-              "zip": "02914"
+              "state": "CT",
+              "zip": "06360"
             },
             "appointmentAvailability": [
               {
                 "date": "2021-03-02",
                 "day": "Tuesday",
                 "slots": [
+                  "11:15 am",
+                  "11:30 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "02:15 pm",
+                  "02:30 pm",
                   "02:45 pm"
                 ]
               }
@@ -40597,66 +40283,55 @@
               }
             ],
             "description": "",
-            "distance": 11.78,
-            "fhirLocationId": "f28077f1-d3a3-4e28-9dd1-f142b2da816d",
-            "locationId": "f28077f1-d3a3-4e28-9dd1-f142b2da816d",
+            "distance": 14.32,
+            "fhirLocationId": "ea694c6b-26ab-413e-8407-11578fd2278a",
+            "locationId": "ea694c6b-26ab-413e-8407-11578fd2278a",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
             "name": "Walgreen Drug Store",
             "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "19849",
+            "partnerLocationId": "2976",
             "phone": [
               {
-                "number": "401-434-5700",
+                "number": "860-885-0389",
                 "type": "StorePrimary"
               },
               {
-                "number": "401-434-5798",
+                "number": "",
                 "type": "StoreSecondary"
               },
               {
-                "number": "401-434-5700",
+                "number": "860-885-0389",
                 "type": "Pharmacy"
               }
             ],
             "position": {
-              "latitude": 41.81070203,
-              "longitude": -71.35852376
+              "latitude": 41.521099,
+              "longitude": -72.092799
             },
-            "storenumber": "19849"
+            "storenumber": "2976"
           },
           {
             "address": {
-              "city": "PROVIDENCE",
+              "city": "WILLIMANTIC",
               "country": "US",
-              "line1": "135 PITMAN STREET",
+              "line1": "1475 MAIN ST",
               "line2": "",
-              "state": "RI",
-              "zip": "02906"
+              "state": "CT",
+              "zip": "06226"
             },
             "appointmentAvailability": [
               {
                 "date": "2021-03-02",
                 "day": "Tuesday",
                 "slots": [
-                  "09:30 am",
-                  "10:15 am",
-                  "10:30 am",
                   "10:45 am",
-                  "11:00 am",
                   "11:15 am",
                   "11:30 am",
+                  "11:45 am",
                   "12:00 pm",
                   "12:15 pm",
                   "12:30 pm",
-                  "12:45 pm",
-                  "02:15 pm",
-                  "02:30 pm",
-                  "02:45 pm",
-                  "03:00 pm",
-                  "03:15 pm",
-                  "03:30 pm",
-                  "03:45 pm",
-                  "04:00 pm"
+                  "12:45 pm"
                 ]
               }
             ],
@@ -40673,116 +40348,51 @@
               }
             ],
             "description": "",
-            "distance": 11.68,
-            "fhirLocationId": "b4bffb9d-9a01-49e0-8eb1-cdd46e2dad49",
-            "locationId": "b4bffb9d-9a01-49e0-8eb1-cdd46e2dad49",
+            "distance": 17.51,
+            "fhirLocationId": "bb9ba828-e48b-44b4-9584-49c935ebcf77",
+            "locationId": "bb9ba828-e48b-44b4-9584-49c935ebcf77",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
             "name": "Walgreen Drug Store",
             "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "19900",
+            "partnerLocationId": "7333",
             "phone": [
               {
-                "number": "401-861-4846",
+                "number": "860-423-6304",
                 "type": "StorePrimary"
               },
               {
-                "number": "401-861-4879",
+                "number": "860-423-6305",
                 "type": "StoreSecondary"
               },
               {
-                "number": "401-861-4846",
+                "number": "860-423-6304",
                 "type": "Pharmacy"
               }
             ],
             "position": {
-              "latitude": 41.82651681,
-              "longitude": -71.38642752
+              "latitude": 41.717764,
+              "longitude": -72.23331
             },
-            "storenumber": "19900"
+            "storenumber": "7333"
           },
           {
             "address": {
-              "city": "PROVIDENCE",
+              "city": "UNCASVILLE",
               "country": "US",
-              "line1": "1 POCASSET AVE",
+              "line1": "601 ROUTE 32",
               "line2": "",
-              "state": "RI",
-              "zip": "02909"
+              "state": "CT",
+              "zip": "06382"
             },
             "appointmentAvailability": [
               {
                 "date": "2021-03-02",
                 "day": "Tuesday",
                 "slots": [
-                  "11:00 am",
-                  "11:45 am",
-                  "12:15 pm",
-                  "12:30 pm",
-                  "02:15 pm",
-                  "02:30 pm",
-                  "02:45 pm",
-                  "03:30 pm",
-                  "03:45 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 9.28,
-            "fhirLocationId": "3255385d-bd9e-42c9-9838-81f7059b8999",
-            "locationId": "3255385d-bd9e-42c9-9838-81f7059b8999",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "11147",
-            "phone": [
-              {
-                "number": "401-464-6501",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "401-464-6504",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "401-464-6501",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 41.81337796,
-              "longitude": -71.44866986
-            },
-            "storenumber": "11147"
-          },
-          {
-            "address": {
-              "city": "PROVIDENCE",
-              "country": "US",
-              "line1": "333 ATWELLS AVE",
-              "line2": "",
-              "state": "RI",
-              "zip": "02903"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-02",
-                "day": "Tuesday",
-                "slots": [
-                  "10:15 am",
+                  "10:00 am",
                   "10:30 am",
                   "10:45 am",
+                  "11:00 am",
                   "11:15 am",
                   "11:30 am",
                   "11:45 am",
@@ -40794,11 +40404,7 @@
                   "02:15 pm",
                   "02:30 pm",
                   "02:45 pm",
-                  "03:00 pm",
-                  "03:15 pm",
-                  "03:30 pm",
-                  "03:45 pm",
-                  "04:00 pm"
+                  "03:00 pm"
                 ]
               }
             ],
@@ -40815,32 +40421,32 @@
               }
             ],
             "description": "",
-            "distance": 10.38,
-            "fhirLocationId": "1bf36170-1f6b-4459-8581-9f6a168995fa",
-            "locationId": "1bf36170-1f6b-4459-8581-9f6a168995fa",
+            "distance": 18.96,
+            "fhirLocationId": "0b20009d-5457-4b94-865f-725a8ce2b458",
+            "locationId": "0b20009d-5457-4b94-865f-725a8ce2b458",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
             "name": "Walgreen Drug Store",
             "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "10099",
+            "partnerLocationId": "19888",
             "phone": [
               {
-                "number": "401-276-8301",
+                "number": "860-848-7979",
                 "type": "StorePrimary"
               },
               {
-                "number": "",
+                "number": "860-848-2756",
                 "type": "StoreSecondary"
               },
               {
-                "number": "401-276-8301",
+                "number": "860-848-7979",
                 "type": "Pharmacy"
               }
             ],
             "position": {
-              "latitude": 41.82388149,
-              "longitude": -71.42881968
+              "latitude": 41.44206551,
+              "longitude": -72.10418544
             },
-            "storenumber": "10099"
+            "storenumber": "19888"
           },
           {
             "address": {
@@ -40875,7 +40481,7 @@
               }
             ],
             "description": "",
-            "distance": 7.6,
+            "distance": 23.24,
             "fhirLocationId": "0c327111-fb91-417b-9953-01082a83b4ed",
             "locationId": "0c327111-fb91-417b-9953-01082a83b4ed",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -40904,19 +40510,20 @@
           },
           {
             "address": {
-              "city": "RUMFORD",
+              "city": "COLCHESTER",
               "country": "US",
-              "line1": "220 NEWPORT AVE",
+              "line1": "27 BROADWAY",
               "line2": "",
-              "state": "RI",
-              "zip": "02916"
+              "state": "CT",
+              "zip": "06415"
             },
             "appointmentAvailability": [
               {
                 "date": "2021-03-01",
                 "day": "Monday",
                 "slots": [
-                  "01:00 pm"
+                  "09:45 am",
+                  "12:30 pm"
                 ]
               },
               {
@@ -40924,15 +40531,13 @@
                 "day": "Tuesday",
                 "slots": [
                   "09:15 am",
-                  "09:30 am",
                   "09:45 am",
                   "10:00 am",
+                  "10:15 am",
                   "10:30 am",
                   "10:45 am",
                   "11:00 am",
-                  "11:30 am",
-                  "11:45 am",
-                  "12:00 pm",
+                  "11:15 am",
                   "12:15 pm",
                   "12:30 pm",
                   "12:45 pm",
@@ -40940,10 +40545,7 @@
                   "02:15 pm",
                   "02:30 pm",
                   "02:45 pm",
-                  "03:00 pm",
-                  "03:15 pm",
-                  "03:30 pm",
-                  "04:00 pm"
+                  "03:00 pm"
                 ]
               }
             ],
@@ -40960,48 +40562,189 @@
               }
             ],
             "description": "",
-            "distance": 14.18,
-            "fhirLocationId": "f48e1da2-f2cf-495a-af6f-880622e38a06",
-            "locationId": "f48e1da2-f2cf-495a-af6f-880622e38a06",
+            "distance": 23.32,
+            "fhirLocationId": "2a71be0f-2457-405c-a899-49f7777370f4",
+            "locationId": "2a71be0f-2457-405c-a899-49f7777370f4",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
             "name": "Walgreen Drug Store",
             "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "17519",
+            "partnerLocationId": "17216",
             "phone": [
               {
-                "number": "401-434-1333",
+                "number": "860-537-9034",
                 "type": "StorePrimary"
               },
               {
-                "number": "401-434-1336",
+                "number": "860-537-9035",
                 "type": "StoreSecondary"
               },
               {
-                "number": "401-434-1333",
+                "number": "860-537-9034",
                 "type": "Pharmacy"
               }
             ],
             "position": {
-              "latitude": 41.85366907,
-              "longitude": -71.35404718
+              "latitude": 41.57592629,
+              "longitude": -72.33356111
             },
-            "storenumber": "17519"
+            "storenumber": "17216"
           },
           {
             "address": {
-              "city": "PROVIDENCE",
+              "city": "GROTON",
               "country": "US",
-              "line1": "295 ACADEMY AVE",
+              "line1": "441 LONG HILL RD",
               "line2": "",
-              "state": "RI",
-              "zip": "02908"
+              "state": "CT",
+              "zip": "06340"
             },
             "appointmentAvailability": [
               {
                 "date": "2021-03-02",
                 "day": "Tuesday",
                 "slots": [
-                  "09:45 am",
+                  "11:15 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "02:15 pm",
+                  "02:30 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 23.35,
+            "fhirLocationId": "fd35cf33-0e03-4615-a03e-411d13fb5c10",
+            "locationId": "fd35cf33-0e03-4615-a03e-411d13fb5c10",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "7759",
+            "phone": [
+              {
+                "number": "860-405-1919",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "860-405-1920",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "860-405-1919",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 41.35426965,
+              "longitude": -72.06086885
+            },
+            "storenumber": "7759"
+          },
+          {
+            "address": {
+              "city": "GREENVILLE",
+              "country": "US",
+              "line1": "452 PUTNAM PIKE",
+              "line2": "",
+              "state": "RI",
+              "zip": "02828"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "10:15 am",
+                  "10:45 am",
+                  "11:15 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm",
+                  "02:15 pm",
+                  "02:30 pm",
+                  "02:45 pm",
+                  "03:15 pm",
+                  "03:30 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 23.38,
+            "fhirLocationId": "1f2dea70-94b8-4ef0-b8bf-eac3807d6af8",
+            "locationId": "1f2dea70-94b8-4ef0-b8bf-eac3807d6af8",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "18259",
+            "phone": [
+              {
+                "number": "401-949-6212",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "401-949-6213",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "401-949-6212",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 41.86991402,
+              "longitude": -71.53399046
+            },
+            "storenumber": "18259"
+          },
+          {
+            "address": {
+              "city": "NEW LONDON",
+              "country": "US",
+              "line1": "698 BANK ST",
+              "line2": "",
+              "state": "CT",
+              "zip": "06320"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "11:15 am"
+                ]
+              },
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "09:30 am",
                   "10:00 am",
                   "10:15 am",
                   "10:30 am",
@@ -41010,7 +40753,6 @@
                   "11:15 am",
                   "11:30 am",
                   "11:45 am",
-                  "12:00 pm",
                   "12:15 pm",
                   "12:30 pm",
                   "12:45 pm",
@@ -41018,11 +40760,7 @@
                   "02:15 pm",
                   "02:30 pm",
                   "02:45 pm",
-                  "03:00 pm",
-                  "03:15 pm",
-                  "03:30 pm",
-                  "03:45 pm",
-                  "04:00 pm"
+                  "03:00 pm"
                 ]
               }
             ],
@@ -41039,276 +40777,468 @@
               }
             ],
             "description": "",
-            "distance": 10.62,
-            "fhirLocationId": "85aa2d18-0991-47f6-bf63-30e4dec7e22a",
-            "locationId": "85aa2d18-0991-47f6-bf63-30e4dec7e22a",
+            "distance": 24.55,
+            "fhirLocationId": "694dcbba-b449-4cda-82ad-0d7c07ebb4fe",
+            "locationId": "694dcbba-b449-4cda-82ad-0d7c07ebb4fe",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
             "name": "Walgreen Drug Store",
             "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "3204",
+            "partnerLocationId": "10483",
             "phone": [
               {
-                "number": "401-273-7675",
+                "number": "860-440-3566",
                 "type": "StorePrimary"
               },
               {
-                "number": "",
+                "number": "860-440-2698",
                 "type": "StoreSecondary"
               },
               {
-                "number": "401-273-7675",
+                "number": "860-440-3566",
                 "type": "Pharmacy"
               }
             ],
             "position": {
-              "latitude": 41.83291059,
-              "longitude": -71.44418879
+              "latitude": 41.349271,
+              "longitude": -72.104401
             },
-            "storenumber": "3204"
-          },
-          {
-            "address": {
-              "city": "PROVIDENCE",
-              "country": "US",
-              "line1": "1140 N MAIN ST",
-              "line2": "",
-              "state": "RI",
-              "zip": "02904"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-02",
-                "day": "Tuesday",
-                "slots": [
-                  "09:30 am",
-                  "10:00 am",
-                  "10:15 am",
-                  "10:45 am",
-                  "11:00 am",
-                  "11:15 am",
-                  "11:30 am",
-                  "11:45 am",
-                  "12:00 pm",
-                  "12:15 pm",
-                  "12:30 pm",
-                  "12:45 pm",
-                  "01:00 pm",
-                  "02:15 pm",
-                  "02:30 pm",
-                  "02:45 pm",
-                  "03:00 pm",
-                  "03:15 pm",
-                  "03:30 pm",
-                  "03:45 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 12.71,
-            "fhirLocationId": "8b52adb4-3fea-4019-b911-1b8189c1f767",
-            "locationId": "8b52adb4-3fea-4019-b911-1b8189c1f767",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "10256",
-            "phone": [
-              {
-                "number": "401-278-4901",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "401-278-4901",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 41.8516557,
-              "longitude": -71.40244694
-            },
-            "storenumber": "10256"
-          },
-          {
-            "address": {
-              "city": "PROVIDENCE",
-              "country": "US",
-              "line1": "354 ADMIRAL ST",
-              "line2": "",
-              "state": "RI",
-              "zip": "02908"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-02",
-                "day": "Tuesday",
-                "slots": [
-                  "09:30 am",
-                  "09:45 am",
-                  "10:00 am",
-                  "10:15 am",
-                  "10:30 am",
-                  "10:45 am",
-                  "11:00 am",
-                  "11:15 am",
-                  "11:30 am",
-                  "11:45 am",
-                  "12:00 pm",
-                  "12:15 pm",
-                  "12:30 pm",
-                  "12:45 pm",
-                  "01:00 pm",
-                  "02:15 pm",
-                  "02:30 pm",
-                  "02:45 pm",
-                  "03:00 pm",
-                  "03:15 pm",
-                  "03:30 pm",
-                  "03:45 pm",
-                  "04:00 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 11.75,
-            "fhirLocationId": "e0349eca-decd-429d-a4e2-396f288d4763",
-            "locationId": "e0349eca-decd-429d-a4e2-396f288d4763",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "3703",
-            "phone": [
-              {
-                "number": "401-331-2636",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "401-331-2636",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 41.84569202,
-              "longitude": -71.4280559
-            },
-            "storenumber": "3703"
-          },
-          {
-            "address": {
-              "city": "PROVIDENCE",
-              "country": "US",
-              "line1": "456 BRANCH AVENUE",
-              "line2": "",
-              "state": "RI",
-              "zip": "02904"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-02",
-                "day": "Tuesday",
-                "slots": [
-                  "09:15 am",
-                  "09:30 am",
-                  "09:45 am",
-                  "10:00 am",
-                  "10:15 am",
-                  "10:30 am",
-                  "10:45 am",
-                  "11:00 am",
-                  "11:15 am",
-                  "11:30 am",
-                  "11:45 am",
-                  "12:00 pm",
-                  "12:15 pm",
-                  "12:30 pm",
-                  "02:15 pm",
-                  "02:30 pm",
-                  "02:45 pm",
-                  "03:00 pm",
-                  "03:15 pm",
-                  "03:30 pm",
-                  "03:45 pm",
-                  "04:00 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 12.21,
-            "fhirLocationId": "1d0d9df1-dd98-444e-9ed0-997a40a4a384",
-            "locationId": "1d0d9df1-dd98-444e-9ed0-997a40a4a384",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "18384",
-            "phone": [
-              {
-                "number": "401-331-3554",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "401-331-3774",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "401-331-3554",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 41.85035039,
-              "longitude": -71.4204132
-            },
-            "storenumber": "18384"
+            "storenumber": "10483"
           }
         ]
       },
       "second_dose_moderna": {
-        "error": [
+        "locations": [
           {
-            "code": "FC_904_NoData",
-            "message": "Insufficient inventory."
+            "address": {
+              "city": "NORWICH",
+              "country": "US",
+              "line1": "399 W MAIN ST",
+              "line2": "",
+              "state": "CT",
+              "zip": "06360"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "11:15 am",
+                  "11:30 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "02:15 pm",
+                  "02:30 pm",
+                  "02:45 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 14.32,
+            "fhirLocationId": "ea694c6b-26ab-413e-8407-11578fd2278a",
+            "locationId": "ea694c6b-26ab-413e-8407-11578fd2278a",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "2976",
+            "phone": [
+              {
+                "number": "860-885-0389",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "860-885-0389",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 41.521099,
+              "longitude": -72.092799
+            },
+            "storenumber": "2976"
+          },
+          {
+            "address": {
+              "city": "WILLIMANTIC",
+              "country": "US",
+              "line1": "1475 MAIN ST",
+              "line2": "",
+              "state": "CT",
+              "zip": "06226"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "10:45 am",
+                  "11:15 am",
+                  "11:30 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 17.51,
+            "fhirLocationId": "bb9ba828-e48b-44b4-9584-49c935ebcf77",
+            "locationId": "bb9ba828-e48b-44b4-9584-49c935ebcf77",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "7333",
+            "phone": [
+              {
+                "number": "860-423-6304",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "860-423-6305",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "860-423-6304",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 41.717764,
+              "longitude": -72.23331
+            },
+            "storenumber": "7333"
+          },
+          {
+            "address": {
+              "city": "UNCASVILLE",
+              "country": "US",
+              "line1": "601 ROUTE 32",
+              "line2": "",
+              "state": "CT",
+              "zip": "06382"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "10:00 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "11:00 am",
+                  "11:15 am",
+                  "11:30 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "02:15 pm",
+                  "02:30 pm",
+                  "02:45 pm",
+                  "03:00 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 18.96,
+            "fhirLocationId": "0b20009d-5457-4b94-865f-725a8ce2b458",
+            "locationId": "0b20009d-5457-4b94-865f-725a8ce2b458",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "19888",
+            "phone": [
+              {
+                "number": "860-848-7979",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "860-848-2756",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "860-848-7979",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 41.44206551,
+              "longitude": -72.10418544
+            },
+            "storenumber": "19888"
+          },
+          {
+            "address": {
+              "city": "COLCHESTER",
+              "country": "US",
+              "line1": "27 BROADWAY",
+              "line2": "",
+              "state": "CT",
+              "zip": "06415"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "09:45 am",
+                  "12:30 pm"
+                ]
+              },
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "09:15 am",
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "11:00 am",
+                  "11:15 am",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "02:15 pm",
+                  "02:30 pm",
+                  "02:45 pm",
+                  "03:00 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 23.32,
+            "fhirLocationId": "2a71be0f-2457-405c-a899-49f7777370f4",
+            "locationId": "2a71be0f-2457-405c-a899-49f7777370f4",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "17216",
+            "phone": [
+              {
+                "number": "860-537-9034",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "860-537-9035",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "860-537-9034",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 41.57592629,
+              "longitude": -72.33356111
+            },
+            "storenumber": "17216"
+          },
+          {
+            "address": {
+              "city": "GROTON",
+              "country": "US",
+              "line1": "441 LONG HILL RD",
+              "line2": "",
+              "state": "CT",
+              "zip": "06340"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "11:15 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "02:15 pm",
+                  "02:30 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 23.35,
+            "fhirLocationId": "fd35cf33-0e03-4615-a03e-411d13fb5c10",
+            "locationId": "fd35cf33-0e03-4615-a03e-411d13fb5c10",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "7759",
+            "phone": [
+              {
+                "number": "860-405-1919",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "860-405-1920",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "860-405-1919",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 41.35426965,
+              "longitude": -72.06086885
+            },
+            "storenumber": "7759"
+          },
+          {
+            "address": {
+              "city": "NEW LONDON",
+              "country": "US",
+              "line1": "698 BANK ST",
+              "line2": "",
+              "state": "CT",
+              "zip": "06320"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "11:15 am"
+                ]
+              },
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "09:30 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "11:00 am",
+                  "11:15 am",
+                  "11:30 am",
+                  "11:45 am",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "02:15 pm",
+                  "02:30 pm",
+                  "02:45 pm",
+                  "03:00 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 24.55,
+            "fhirLocationId": "694dcbba-b449-4cda-82ad-0d7c07ebb4fe",
+            "locationId": "694dcbba-b449-4cda-82ad-0d7c07ebb4fe",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "10483",
+            "phone": [
+              {
+                "number": "860-440-3566",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "860-440-2698",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "860-440-3566",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 41.349271,
+              "longitude": -72.104401
+            },
+            "storenumber": "10483"
           }
         ]
       },
@@ -41316,282 +41246,6 @@
         "locations": [
           {
             "address": {
-              "city": "EAST PROVIDENCE",
-              "country": "US",
-              "line1": "655 WARREN AVE",
-              "line2": "",
-              "state": "RI",
-              "zip": "02914"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-02",
-                "day": "Tuesday",
-                "slots": [
-                  "02:45 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 4.2,
-            "fhirLocationId": "f28077f1-d3a3-4e28-9dd1-f142b2da816d",
-            "locationId": "f28077f1-d3a3-4e28-9dd1-f142b2da816d",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "19849",
-            "phone": [
-              {
-                "number": "401-434-5700",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "401-434-5798",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "401-434-5700",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 41.81070203,
-              "longitude": -71.35852376
-            },
-            "storenumber": "19849"
-          },
-          {
-            "address": {
-              "city": "PROVIDENCE",
-              "country": "US",
-              "line1": "135 PITMAN STREET",
-              "line2": "",
-              "state": "RI",
-              "zip": "02906"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-02",
-                "day": "Tuesday",
-                "slots": [
-                  "09:30 am",
-                  "10:15 am",
-                  "10:30 am",
-                  "10:45 am",
-                  "11:00 am",
-                  "11:15 am",
-                  "11:30 am",
-                  "12:00 pm",
-                  "12:15 pm",
-                  "12:30 pm",
-                  "12:45 pm",
-                  "02:15 pm",
-                  "02:30 pm",
-                  "02:45 pm",
-                  "03:00 pm",
-                  "03:15 pm",
-                  "03:30 pm",
-                  "03:45 pm",
-                  "04:00 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 2.43,
-            "fhirLocationId": "b4bffb9d-9a01-49e0-8eb1-cdd46e2dad49",
-            "locationId": "b4bffb9d-9a01-49e0-8eb1-cdd46e2dad49",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "19900",
-            "phone": [
-              {
-                "number": "401-861-4846",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "401-861-4879",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "401-861-4846",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 41.82651681,
-              "longitude": -71.38642752
-            },
-            "storenumber": "19900"
-          },
-          {
-            "address": {
-              "city": "PROVIDENCE",
-              "country": "US",
-              "line1": "1 POCASSET AVE",
-              "line2": "",
-              "state": "RI",
-              "zip": "02909"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-02",
-                "day": "Tuesday",
-                "slots": [
-                  "11:00 am",
-                  "11:45 am",
-                  "12:15 pm",
-                  "12:30 pm",
-                  "02:15 pm",
-                  "02:30 pm",
-                  "02:45 pm",
-                  "03:30 pm",
-                  "03:45 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 2.08,
-            "fhirLocationId": "3255385d-bd9e-42c9-9838-81f7059b8999",
-            "locationId": "3255385d-bd9e-42c9-9838-81f7059b8999",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "11147",
-            "phone": [
-              {
-                "number": "401-464-6501",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "401-464-6504",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "401-464-6501",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 41.81337796,
-              "longitude": -71.44866986
-            },
-            "storenumber": "11147"
-          },
-          {
-            "address": {
-              "city": "PROVIDENCE",
-              "country": "US",
-              "line1": "333 ATWELLS AVE",
-              "line2": "",
-              "state": "RI",
-              "zip": "02903"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-02",
-                "day": "Tuesday",
-                "slots": [
-                  "10:15 am",
-                  "10:30 am",
-                  "10:45 am",
-                  "11:15 am",
-                  "11:30 am",
-                  "11:45 am",
-                  "12:00 pm",
-                  "12:15 pm",
-                  "12:30 pm",
-                  "12:45 pm",
-                  "01:00 pm",
-                  "02:15 pm",
-                  "02:30 pm",
-                  "02:45 pm",
-                  "03:00 pm",
-                  "03:15 pm",
-                  "03:30 pm",
-                  "03:45 pm",
-                  "04:00 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 1.12,
-            "fhirLocationId": "1bf36170-1f6b-4459-8581-9f6a168995fa",
-            "locationId": "1bf36170-1f6b-4459-8581-9f6a168995fa",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "10099",
-            "phone": [
-              {
-                "number": "401-276-8301",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "401-276-8301",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 41.82388149,
-              "longitude": -71.42881968
-            },
-            "storenumber": "10099"
-          },
-          {
-            "address": {
               "city": "JOHNSTON",
               "country": "US",
               "line1": "1387 PLAINFIELD ST",
@@ -41623,7 +41277,7 @@
               }
             ],
             "description": "",
-            "distance": 4.04,
+            "distance": 6.31,
             "fhirLocationId": "0c327111-fb91-417b-9953-01082a83b4ed",
             "locationId": "0c327111-fb91-417b-9953-01082a83b4ed",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -41652,46 +41306,31 @@
           },
           {
             "address": {
-              "city": "RUMFORD",
+              "city": "GREENVILLE",
               "country": "US",
-              "line1": "220 NEWPORT AVE",
+              "line1": "452 PUTNAM PIKE",
               "line2": "",
               "state": "RI",
-              "zip": "02916"
+              "zip": "02828"
             },
             "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "01:00 pm"
-                ]
-              },
               {
                 "date": "2021-03-02",
                 "day": "Tuesday",
                 "slots": [
-                  "09:15 am",
-                  "09:30 am",
-                  "09:45 am",
-                  "10:00 am",
-                  "10:30 am",
+                  "10:15 am",
                   "10:45 am",
-                  "11:00 am",
-                  "11:30 am",
+                  "11:15 am",
                   "11:45 am",
                   "12:00 pm",
                   "12:15 pm",
                   "12:30 pm",
                   "12:45 pm",
-                  "01:00 pm",
                   "02:15 pm",
                   "02:30 pm",
                   "02:45 pm",
-                  "03:00 pm",
                   "03:15 pm",
-                  "03:30 pm",
-                  "04:00 pm"
+                  "03:30 pm"
                 ]
               }
             ],
@@ -41708,347 +41347,32 @@
               }
             ],
             "description": "",
-            "distance": 4.02,
-            "fhirLocationId": "f48e1da2-f2cf-495a-af6f-880622e38a06",
-            "locationId": "f48e1da2-f2cf-495a-af6f-880622e38a06",
+            "distance": 19.94,
+            "fhirLocationId": "1f2dea70-94b8-4ef0-b8bf-eac3807d6af8",
+            "locationId": "1f2dea70-94b8-4ef0-b8bf-eac3807d6af8",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
             "name": "Walgreen Drug Store",
             "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "17519",
+            "partnerLocationId": "18259",
             "phone": [
               {
-                "number": "401-434-1333",
+                "number": "401-949-6212",
                 "type": "StorePrimary"
               },
               {
-                "number": "401-434-1336",
+                "number": "401-949-6213",
                 "type": "StoreSecondary"
               },
               {
-                "number": "401-434-1333",
+                "number": "401-949-6212",
                 "type": "Pharmacy"
               }
             ],
             "position": {
-              "latitude": 41.85366907,
-              "longitude": -71.35404718
+              "latitude": 41.86991402,
+              "longitude": -71.53399046
             },
-            "storenumber": "17519"
-          },
-          {
-            "address": {
-              "city": "PROVIDENCE",
-              "country": "US",
-              "line1": "295 ACADEMY AVE",
-              "line2": "",
-              "state": "RI",
-              "zip": "02908"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-02",
-                "day": "Tuesday",
-                "slots": [
-                  "09:45 am",
-                  "10:00 am",
-                  "10:15 am",
-                  "10:30 am",
-                  "10:45 am",
-                  "11:00 am",
-                  "11:15 am",
-                  "11:30 am",
-                  "11:45 am",
-                  "12:00 pm",
-                  "12:15 pm",
-                  "12:30 pm",
-                  "12:45 pm",
-                  "01:00 pm",
-                  "02:15 pm",
-                  "02:30 pm",
-                  "02:45 pm",
-                  "03:00 pm",
-                  "03:15 pm",
-                  "03:30 pm",
-                  "03:45 pm",
-                  "04:00 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 0.88,
-            "fhirLocationId": "85aa2d18-0991-47f6-bf63-30e4dec7e22a",
-            "locationId": "85aa2d18-0991-47f6-bf63-30e4dec7e22a",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "3204",
-            "phone": [
-              {
-                "number": "401-273-7675",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "401-273-7675",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 41.83291059,
-              "longitude": -71.44418879
-            },
-            "storenumber": "3204"
-          },
-          {
-            "address": {
-              "city": "PROVIDENCE",
-              "country": "US",
-              "line1": "1140 N MAIN ST",
-              "line2": "",
-              "state": "RI",
-              "zip": "02904"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-02",
-                "day": "Tuesday",
-                "slots": [
-                  "09:30 am",
-                  "10:00 am",
-                  "10:15 am",
-                  "10:45 am",
-                  "11:00 am",
-                  "11:15 am",
-                  "11:30 am",
-                  "11:45 am",
-                  "12:00 pm",
-                  "12:15 pm",
-                  "12:30 pm",
-                  "12:45 pm",
-                  "01:00 pm",
-                  "02:15 pm",
-                  "02:30 pm",
-                  "02:45 pm",
-                  "03:00 pm",
-                  "03:15 pm",
-                  "03:30 pm",
-                  "03:45 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 1.63,
-            "fhirLocationId": "8b52adb4-3fea-4019-b911-1b8189c1f767",
-            "locationId": "8b52adb4-3fea-4019-b911-1b8189c1f767",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "10256",
-            "phone": [
-              {
-                "number": "401-278-4901",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "401-278-4901",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 41.8516557,
-              "longitude": -71.40244694
-            },
-            "storenumber": "10256"
-          },
-          {
-            "address": {
-              "city": "PROVIDENCE",
-              "country": "US",
-              "line1": "354 ADMIRAL ST",
-              "line2": "",
-              "state": "RI",
-              "zip": "02908"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-02",
-                "day": "Tuesday",
-                "slots": [
-                  "09:30 am",
-                  "09:45 am",
-                  "10:00 am",
-                  "10:15 am",
-                  "10:30 am",
-                  "10:45 am",
-                  "11:00 am",
-                  "11:15 am",
-                  "11:30 am",
-                  "11:45 am",
-                  "12:00 pm",
-                  "12:15 pm",
-                  "12:30 pm",
-                  "12:45 pm",
-                  "01:00 pm",
-                  "02:15 pm",
-                  "02:30 pm",
-                  "02:45 pm",
-                  "03:00 pm",
-                  "03:15 pm",
-                  "03:30 pm",
-                  "03:45 pm",
-                  "04:00 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 0.41,
-            "fhirLocationId": "e0349eca-decd-429d-a4e2-396f288d4763",
-            "locationId": "e0349eca-decd-429d-a4e2-396f288d4763",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "3703",
-            "phone": [
-              {
-                "number": "401-331-2636",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "401-331-2636",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 41.84569202,
-              "longitude": -71.4280559
-            },
-            "storenumber": "3703"
-          },
-          {
-            "address": {
-              "city": "PROVIDENCE",
-              "country": "US",
-              "line1": "456 BRANCH AVENUE",
-              "line2": "",
-              "state": "RI",
-              "zip": "02904"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-02",
-                "day": "Tuesday",
-                "slots": [
-                  "09:15 am",
-                  "09:30 am",
-                  "09:45 am",
-                  "10:00 am",
-                  "10:15 am",
-                  "10:30 am",
-                  "10:45 am",
-                  "11:00 am",
-                  "11:15 am",
-                  "11:30 am",
-                  "11:45 am",
-                  "12:00 pm",
-                  "12:15 pm",
-                  "12:30 pm",
-                  "02:15 pm",
-                  "02:30 pm",
-                  "02:45 pm",
-                  "03:00 pm",
-                  "03:15 pm",
-                  "03:30 pm",
-                  "03:45 pm",
-                  "04:00 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 0.87,
-            "fhirLocationId": "1d0d9df1-dd98-444e-9ed0-997a40a4a384",
-            "locationId": "1d0d9df1-dd98-444e-9ed0-997a40a4a384",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "18384",
-            "phone": [
-              {
-                "number": "401-331-3554",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "401-331-3774",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "401-331-3554",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 41.85035039,
-              "longitude": -71.4204132
-            },
-            "storenumber": "18384"
+            "storenumber": "18259"
           }
         ]
       }
