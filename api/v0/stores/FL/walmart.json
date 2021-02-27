@@ -1107,7 +1107,7 @@
       "2021-03-04T15:20:00.000-05:00"
     ],
     "appointments_available": true,
-    "appointments_last_fetched": "2021-02-27T16:56:52.311+00:00",
+    "appointments_last_fetched": "2021-02-27T17:04:19.51+00:00",
     "appointments_raw": {
       "data": {
         "accessPointId": "f2061fc3-547e-47c2-abf7-46824893ff12",
@@ -14904,6 +14904,7 @@
     "address": "5700 Nw 23rd St",
     "appointments": [
       "2021-03-01T11:20:00.000-05:00",
+      "2021-03-01T15:00:00.000-05:00",
       "2021-03-02T06:20:00.000-05:00",
       "2021-03-02T06:40:00.000-05:00",
       "2021-03-02T07:00:00.000-05:00",
@@ -14984,7 +14985,7 @@
       "2021-03-05T17:40:00.000-05:00"
     ],
     "appointments_available": true,
-    "appointments_last_fetched": "2021-02-27T16:57:05.553+00:00",
+    "appointments_last_fetched": "2021-02-27T17:04:30.35+00:00",
     "appointments_raw": {
       "data": {
         "accessPointId": "3b3e4454-1353-4bd5-8379-833ea85bb2c2",
@@ -15010,6 +15011,11 @@
                 "endTime": "11:40",
                 "slotId": "f7c9b3bb-92b5-4627-9594-71ae4c116788-2021-03-01",
                 "startTime": "11:20"
+              },
+              {
+                "endTime": "15:20",
+                "slotId": "d1b986c0-977d-4884-b3b5-f5bcc976ef52-2021-03-01",
+                "startTime": "15:00"
               }
             ]
           },
@@ -29622,7 +29628,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T16:57:14.138+00:00",
+    "appointments_last_fetched": "2021-02-27T17:04:40.215+00:00",
     "appointments_raw": {
       "data": {
         "accessPointId": "1acae7d1-3f78-4ddd-92e1-ad84f9757ee4",
@@ -34865,10 +34871,10 @@
   {
     "address": "1005 W Sugarland Hwy",
     "appointments": [
+      "2021-03-02T07:20:00.000-05:00",
       "2021-03-04T09:20:00.000-05:00",
       "2021-03-04T09:40:00.000-05:00",
       "2021-03-04T10:20:00.000-05:00",
-      "2021-03-04T10:40:00.000-05:00",
       "2021-03-04T11:40:00.000-05:00",
       "2021-03-04T12:20:00.000-05:00",
       "2021-03-04T12:40:00.000-05:00",
@@ -34882,7 +34888,6 @@
       "2021-03-05T09:40:00.000-05:00",
       "2021-03-05T10:20:00.000-05:00",
       "2021-03-05T10:40:00.000-05:00",
-      "2021-03-05T11:40:00.000-05:00",
       "2021-03-05T15:40:00.000-05:00",
       "2021-03-05T16:00:00.000-05:00",
       "2021-03-05T16:20:00.000-05:00",
@@ -34890,7 +34895,7 @@
       "2021-03-05T17:40:00.000-05:00"
     ],
     "appointments_available": true,
-    "appointments_last_fetched": "2021-02-27T16:58:30.46+00:00",
+    "appointments_last_fetched": "2021-02-27T17:05:36.395+00:00",
     "appointments_raw": {
       "data": {
         "accessPointId": "cdfbbb82-ce03-4a5e-833e-c355d1f914ca",
@@ -34915,9 +34920,14 @@
             ]
           },
           {
-            "message": "There are no appointments available for Tue, 2 Mar. Please select a different day.",
+            "message": null,
             "slotDate": "03022021",
             "slots": [
+              {
+                "endTime": "7:40",
+                "slotId": "180cd695-ee85-4537-ba34-e776252c9b83-2021-03-02",
+                "startTime": "7:20"
+              }
             ]
           },
           {
@@ -34944,11 +34954,6 @@
                 "endTime": "10:40",
                 "slotId": "1d2073ec-9cea-4523-be82-68e08517ca37-2021-03-04",
                 "startTime": "10:20"
-              },
-              {
-                "endTime": "11:00",
-                "slotId": "74810865-138b-41e7-b13e-bd53bc830597-2021-03-04",
-                "startTime": "10:40"
               },
               {
                 "endTime": "12:00",
@@ -35020,11 +35025,6 @@
                 "endTime": "11:00",
                 "slotId": "74810865-138b-41e7-b13e-bd53bc830597-2021-03-05",
                 "startTime": "10:40"
-              },
-              {
-                "endTime": "12:00",
-                "slotId": "847bb197-1591-4c2d-8c84-e2f16895315c-2021-03-05",
-                "startTime": "11:40"
               },
               {
                 "endTime": "16:00",
@@ -35897,15 +35897,12 @@
   {
     "address": "10855 So. Us Hwy #1",
     "appointments": [
-      "2021-03-03T09:20:00.000-05:00",
-      "2021-03-05T14:40:00.000-05:00",
       "2021-03-05T15:00:00.000-05:00",
-      "2021-03-05T15:20:00.000-05:00",
       "2021-03-05T15:40:00.000-05:00",
       "2021-03-05T16:00:00.000-05:00"
     ],
     "appointments_available": true,
-    "appointments_last_fetched": "2021-02-27T16:57:10.824+00:00",
+    "appointments_last_fetched": "2021-02-27T17:04:35.81+00:00",
     "appointments_raw": {
       "data": {
         "accessPointId": "47033e19-e920-43b6-986a-9e063b147b38",
@@ -35936,14 +35933,9 @@
             ]
           },
           {
-            "message": null,
+            "message": "There are no appointments available for Wed, 3 Mar. Please select a different day.",
             "slotDate": "03032021",
             "slots": [
-              {
-                "endTime": "9:40",
-                "slotId": "8c8dff77-0916-4222-865f-e6f01e7428fc-2021-03-03",
-                "startTime": "9:20"
-              }
             ]
           },
           {
@@ -35957,19 +35949,9 @@
             "slotDate": "03052021",
             "slots": [
               {
-                "endTime": "15:00",
-                "slotId": "5e37ce9b-a28d-4307-b7f1-13a0ee729f00-2021-03-05",
-                "startTime": "14:40"
-              },
-              {
                 "endTime": "15:20",
                 "slotId": "8741edbf-11e3-4a76-a43f-8c49d76eab9d-2021-03-05",
                 "startTime": "15:00"
-              },
-              {
-                "endTime": "15:40",
-                "slotId": "928b6e10-c28b-4997-a638-b1e85801ec76-2021-03-05",
-                "startTime": "15:20"
               },
               {
                 "endTime": "16:00",
