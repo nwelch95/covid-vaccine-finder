@@ -1387,14 +1387,6 @@
     "address": "194 NORTH STREET",
     "appointments": [
       {
-        "time": "2021-03-02T09:30:00.000-05:00",
-        "type": "both_doses"
-      },
-      {
-        "time": "2021-03-02T09:30:00.000-05:00",
-        "type": "second_dose_moderna"
-      },
-      {
         "time": "2021-03-02T09:45:00.000-05:00",
         "type": "both_doses"
       },
@@ -1532,10 +1524,413 @@
       }
     ],
     "appointments_available": true,
-    "appointments_last_fetched": "2021-02-27T12:14:11.339+00:00",
+    "appointments_last_fetched": "2021-02-27T12:18:58.912+00:00",
     "appointments_raw": {
       "both_doses": {
         "locations": [
+          {
+            "address": {
+              "city": "CAMBRIDGE",
+              "country": "US",
+              "line1": "2 NORTH PARK STREET",
+              "line2": "",
+              "state": "NY",
+              "zip": "12816"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:45 am",
+                  "11:00 am",
+                  "11:15 am",
+                  "11:30 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "02:15 pm",
+                  "02:30 pm",
+                  "02:45 pm",
+                  "03:00 pm",
+                  "03:15 pm",
+                  "03:30 pm",
+                  "03:45 pm",
+                  "04:00 pm",
+                  "04:15 pm",
+                  "04:30 pm",
+                  "04:45 pm",
+                  "05:00 pm",
+                  "05:15 pm",
+                  "05:30 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 4.35,
+            "fhirLocationId": "8ee6d527-7fa8-4b04-88e6-6911eb5fb1c4",
+            "locationId": "8ee6d527-7fa8-4b04-88e6-6911eb5fb1c4",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "18207",
+            "phone": [
+              {
+                "number": "518-677-3822",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "518-677-8610",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "518-677-3822",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 43.02791077,
+              "longitude": -73.37594596
+            },
+            "storenumber": "18207"
+          },
+          {
+            "address": {
+              "city": "HOOSICK FALLS",
+              "country": "US",
+              "line1": "22 MAIN ST",
+              "line2": "",
+              "state": "NY",
+              "zip": "12090"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "09:45 am",
+                  "10:15 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "11:00 am",
+                  "11:15 am",
+                  "11:30 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "02:15 pm",
+                  "02:30 pm",
+                  "02:45 pm",
+                  "03:00 pm",
+                  "03:15 pm",
+                  "03:30 pm",
+                  "03:45 pm",
+                  "04:15 pm",
+                  "04:30 pm",
+                  "04:45 pm",
+                  "05:00 pm",
+                  "05:15 pm",
+                  "05:30 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 13.2,
+            "fhirLocationId": "63a919f0-0393-47d1-9176-6df35e0a6072",
+            "locationId": "63a919f0-0393-47d1-9176-6df35e0a6072",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "19764",
+            "phone": [
+              {
+                "number": "518-686-5831",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "518-686-4718",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "518-686-5831",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 42.90114359,
+              "longitude": -73.35039042
+            },
+            "storenumber": "19764"
+          },
+          {
+            "address": {
+              "city": "SCHAGHTICOKE",
+              "country": "US",
+              "line1": "4 MAIN ST",
+              "line2": "",
+              "state": "NY",
+              "zip": "12154"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "03:45 pm"
+                ]
+              },
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "09:15 am",
+                  "09:30 am",
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "11:00 am",
+                  "11:15 am",
+                  "11:30 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "02:15 pm",
+                  "02:30 pm",
+                  "02:45 pm",
+                  "03:00 pm",
+                  "03:15 pm",
+                  "03:30 pm",
+                  "03:45 pm",
+                  "04:00 pm",
+                  "04:15 pm",
+                  "04:30 pm",
+                  "04:45 pm",
+                  "05:00 pm",
+                  "05:15 pm",
+                  "05:30 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 18.46,
+            "fhirLocationId": "74ac0ad7-8b3f-4067-ac30-1c18df62046a",
+            "locationId": "74ac0ad7-8b3f-4067-ac30-1c18df62046a",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "19732",
+            "phone": [
+              {
+                "number": "518-753-0149",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "518-753-6177",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "518-753-0149",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 42.90683191,
+              "longitude": -73.58423314
+            },
+            "storenumber": "19732"
+          },
+          {
+            "address": {
+              "city": "BENNINGTON",
+              "country": "US",
+              "line1": "194 NORTH STREET",
+              "line2": "",
+              "state": "VT",
+              "zip": "05201"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "09:45 am",
+                  "10:15 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "11:00 am",
+                  "11:15 am",
+                  "11:30 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "02:15 pm",
+                  "02:30 pm",
+                  "02:45 pm",
+                  "03:00 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 17.38,
+            "fhirLocationId": "2298034c-abd1-4f4b-ae2a-84dd6e343934",
+            "locationId": "2298034c-abd1-4f4b-ae2a-84dd6e343934",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "17631",
+            "phone": [
+              {
+                "number": "802-442-2240",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "802-447-3605",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "802-442-2240",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 42.88133297,
+              "longitude": -73.1979825
+            },
+            "storenumber": "17631"
+          },
+          {
+            "address": {
+              "city": "HUDSON FALLS",
+              "country": "US",
+              "line1": "92 MAIN ST",
+              "line2": "",
+              "state": "NY",
+              "zip": "12839"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "09:15 am",
+                  "09:30 am",
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "11:00 am",
+                  "11:15 am",
+                  "11:45 am",
+                  "12:00 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 17.43,
+            "fhirLocationId": "82c54fd8-1f7c-4610-8704-7f91511705a0",
+            "locationId": "82c54fd8-1f7c-4610-8704-7f91511705a0",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "19494",
+            "phone": [
+              {
+                "number": "518-747-9184",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "518-746-0843",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "518-747-9184",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 43.29856516,
+              "longitude": -73.58469961
+            },
+            "storenumber": "19494"
+          },
           {
             "address": {
               "city": "MANCHESTER CENTER",
@@ -1550,7 +1945,6 @@
                 "date": "2021-03-02",
                 "day": "Tuesday",
                 "slots": [
-                  "09:45 am",
                   "10:15 am",
                   "10:30 am",
                   "10:45 am",
@@ -1582,7 +1976,7 @@
               }
             ],
             "description": "",
-            "distance": 24.62,
+            "distance": 17.94,
             "fhirLocationId": "7f2f0fd9-638d-4647-af24-36fac634e656",
             "locationId": "7f2f0fd9-638d-4647-af24-36fac634e656",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -1611,6 +2005,316 @@
           },
           {
             "address": {
+              "city": "SARATOGA SPRINGS",
+              "country": "US",
+              "line1": "3020 ROUTE 50",
+              "line2": "",
+              "state": "NY",
+              "zip": "12866"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "09:15 am",
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "11:00 am",
+                  "11:15 am",
+                  "11:30 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "02:15 pm",
+                  "02:30 pm",
+                  "02:45 pm",
+                  "03:00 pm",
+                  "03:15 pm",
+                  "03:30 pm",
+                  "03:45 pm",
+                  "04:00 pm",
+                  "04:15 pm",
+                  "04:30 pm",
+                  "04:45 pm",
+                  "05:00 pm",
+                  "05:15 pm",
+                  "05:30 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 10.33,
+            "fhirLocationId": "5652cc80-d964-4230-aeea-5725717376ef",
+            "locationId": "5652cc80-d964-4230-aeea-5725717376ef",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "10384",
+            "phone": [
+              {
+                "number": "518-580-8850",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "518-580-8853",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "518-580-8850",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 43.10172511,
+              "longitude": -73.74676332
+            },
+            "storenumber": "10384"
+          },
+          {
+            "address": {
+              "city": "HUDSON FALLS",
+              "country": "US",
+              "line1": "1262 DIX AVE",
+              "line2": "",
+              "state": "NY",
+              "zip": "12839"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "11:00 am",
+                  "11:15 am",
+                  "11:30 am",
+                  "11:45 am",
+                  "12:00 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 18.39,
+            "fhirLocationId": "2ee94ddb-c852-4933-a814-a7e27d1400fb",
+            "locationId": "2ee94ddb-c852-4933-a814-a7e27d1400fb",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "17960",
+            "phone": [
+              {
+                "number": "518-747-0292",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "518-747-7332",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "518-747-0292",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 43.3200544,
+              "longitude": -73.57355736
+            },
+            "storenumber": "17960"
+          },
+          {
+            "address": {
+              "city": "SOUTH GLENS FALLS",
+              "country": "US",
+              "line1": "94 MAIN ST",
+              "line2": "",
+              "state": "NY",
+              "zip": "12803"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "09:15 am",
+                  "09:30 am",
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "11:15 am",
+                  "11:30 am",
+                  "11:45 am",
+                  "12:00 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 23.64,
+            "fhirLocationId": "97e101d1-7af8-4688-827f-73cf698e2fc6",
+            "locationId": "97e101d1-7af8-4688-827f-73cf698e2fc6",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "17860",
+            "phone": [
+              {
+                "number": "518-792-5575",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "518-792-4757",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "518-792-5575",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 43.30028326,
+              "longitude": -73.6365974
+            },
+            "storenumber": "17860"
+          },
+          {
+            "address": {
+              "city": "MECHANICVILLE",
+              "country": "US",
+              "line1": "41 PARK PLAZA",
+              "line2": "",
+              "state": "NY",
+              "zip": "12118"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "09:30 am",
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "11:00 am",
+                  "11:15 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "02:15 pm",
+                  "02:30 pm",
+                  "02:45 pm",
+                  "03:00 pm",
+                  "03:15 pm",
+                  "03:30 pm",
+                  "03:45 pm",
+                  "04:00 pm",
+                  "04:15 pm",
+                  "04:30 pm",
+                  "04:45 pm",
+                  "05:00 pm",
+                  "05:15 pm",
+                  "05:30 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 16.2,
+            "fhirLocationId": "bc07f8a8-2196-45e5-a14a-e3f9e7bbab22",
+            "locationId": "bc07f8a8-2196-45e5-a14a-e3f9e7bbab22",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "19462",
+            "phone": [
+              {
+                "number": "518-664-7320",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "518-664-8613",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "518-664-7320",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 42.90444556,
+              "longitude": -73.68914016
+            },
+            "storenumber": "19462"
+          }
+        ]
+      },
+      "second_dose_moderna": {
+        "locations": [
+          {
+            "address": {
               "city": "BENNINGTON",
               "country": "US",
               "line1": "194 NORTH STREET",
@@ -1623,7 +2327,6 @@
                 "date": "2021-03-02",
                 "day": "Tuesday",
                 "slots": [
-                  "09:30 am",
                   "09:45 am",
                   "10:15 am",
                   "10:30 am",
@@ -1686,253 +2389,6 @@
           },
           {
             "address": {
-              "city": "WILMINGTON",
-              "country": "US",
-              "line1": "107 E MAIN ST",
-              "line2": "",
-              "state": "VT",
-              "zip": "05363"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-02",
-                "day": "Tuesday",
-                "slots": [
-                  "09:30 am",
-                  "09:45 am",
-                  "10:15 am",
-                  "10:30 am",
-                  "10:45 am",
-                  "11:00 am",
-                  "11:15 am",
-                  "11:30 am",
-                  "11:45 am",
-                  "12:00 pm",
-                  "12:15 pm",
-                  "12:30 pm",
-                  "12:45 pm",
-                  "01:00 pm",
-                  "02:15 pm",
-                  "02:30 pm",
-                  "02:45 pm",
-                  "03:00 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 10.91,
-            "fhirLocationId": "dbed1a6e-256b-40bf-87c1-ed97c2fd79bc",
-            "locationId": "dbed1a6e-256b-40bf-87c1-ed97c2fd79bc",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "17379",
-            "phone": [
-              {
-                "number": "802-464-7575",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "802-464-2012",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "802-464-7575",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 42.86493559,
-              "longitude": -72.86156784
-            },
-            "storenumber": "17379"
-          },
-          {
-            "address": {
-              "city": "CAMBRIDGE",
-              "country": "US",
-              "line1": "2 NORTH PARK STREET",
-              "line2": "",
-              "state": "NY",
-              "zip": "12816"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-02",
-                "day": "Tuesday",
-                "slots": [
-                  "09:30 am",
-                  "09:45 am",
-                  "10:00 am",
-                  "10:15 am",
-                  "10:45 am",
-                  "11:00 am",
-                  "11:15 am",
-                  "11:30 am",
-                  "11:45 am",
-                  "12:00 pm",
-                  "12:15 pm",
-                  "12:30 pm",
-                  "12:45 pm",
-                  "01:00 pm",
-                  "02:15 pm",
-                  "02:30 pm",
-                  "02:45 pm",
-                  "03:00 pm",
-                  "03:15 pm",
-                  "03:30 pm",
-                  "03:45 pm",
-                  "04:00 pm",
-                  "04:15 pm",
-                  "04:30 pm",
-                  "04:45 pm",
-                  "05:00 pm",
-                  "05:15 pm",
-                  "05:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 22.67,
-            "fhirLocationId": "8ee6d527-7fa8-4b04-88e6-6911eb5fb1c4",
-            "locationId": "8ee6d527-7fa8-4b04-88e6-6911eb5fb1c4",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "18207",
-            "phone": [
-              {
-                "number": "518-677-3822",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "518-677-8610",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "518-677-3822",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 43.02791077,
-              "longitude": -73.37594596
-            },
-            "storenumber": "18207"
-          },
-          {
-            "address": {
-              "city": "HOOSICK FALLS",
-              "country": "US",
-              "line1": "22 MAIN ST",
-              "line2": "",
-              "state": "NY",
-              "zip": "12090"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-02",
-                "day": "Tuesday",
-                "slots": [
-                  "09:45 am",
-                  "10:15 am",
-                  "10:30 am",
-                  "10:45 am",
-                  "11:00 am",
-                  "11:15 am",
-                  "11:30 am",
-                  "11:45 am",
-                  "12:00 pm",
-                  "12:15 pm",
-                  "12:30 pm",
-                  "12:45 pm",
-                  "01:00 pm",
-                  "02:15 pm",
-                  "02:30 pm",
-                  "02:45 pm",
-                  "03:00 pm",
-                  "03:15 pm",
-                  "03:30 pm",
-                  "03:45 pm",
-                  "04:15 pm",
-                  "04:30 pm",
-                  "04:45 pm",
-                  "05:00 pm",
-                  "05:15 pm",
-                  "05:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 23.85,
-            "fhirLocationId": "63a919f0-0393-47d1-9176-6df35e0a6072",
-            "locationId": "63a919f0-0393-47d1-9176-6df35e0a6072",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "19764",
-            "phone": [
-              {
-                "number": "518-686-5831",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "518-686-4718",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "518-686-5831",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 42.90114359,
-              "longitude": -73.35039042
-            },
-            "storenumber": "19764"
-          }
-        ]
-      },
-      "second_dose_moderna": {
-        "locations": [
-          {
-            "address": {
               "city": "MANCHESTER CENTER",
               "country": "US",
               "line1": "4993 MAIN ST",
@@ -1945,7 +2401,6 @@
                 "date": "2021-03-02",
                 "day": "Tuesday",
                 "slots": [
-                  "09:45 am",
                   "10:15 am",
                   "10:30 am",
                   "10:45 am",
@@ -1977,7 +2432,7 @@
               }
             ],
             "description": "",
-            "distance": 22.48,
+            "distance": 24.13,
             "fhirLocationId": "7f2f0fd9-638d-4647-af24-36fac634e656",
             "locationId": "7f2f0fd9-638d-4647-af24-36fac634e656",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -2003,156 +2458,6 @@
               "longitude": -73.05507102
             },
             "storenumber": "18020"
-          },
-          {
-            "address": {
-              "city": "BENNINGTON",
-              "country": "US",
-              "line1": "194 NORTH STREET",
-              "line2": "",
-              "state": "VT",
-              "zip": "05201"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-02",
-                "day": "Tuesday",
-                "slots": [
-                  "09:30 am",
-                  "09:45 am",
-                  "10:15 am",
-                  "10:30 am",
-                  "10:45 am",
-                  "11:00 am",
-                  "11:15 am",
-                  "11:30 am",
-                  "11:45 am",
-                  "12:00 pm",
-                  "12:15 pm",
-                  "12:30 pm",
-                  "12:45 pm",
-                  "01:00 pm",
-                  "02:15 pm",
-                  "02:30 pm",
-                  "02:45 pm",
-                  "03:00 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 23.58,
-            "fhirLocationId": "2298034c-abd1-4f4b-ae2a-84dd6e343934",
-            "locationId": "2298034c-abd1-4f4b-ae2a-84dd6e343934",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "17631",
-            "phone": [
-              {
-                "number": "802-442-2240",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "802-447-3605",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "802-442-2240",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 42.88133297,
-              "longitude": -73.1979825
-            },
-            "storenumber": "17631"
-          },
-          {
-            "address": {
-              "city": "WILMINGTON",
-              "country": "US",
-              "line1": "107 E MAIN ST",
-              "line2": "",
-              "state": "VT",
-              "zip": "05363"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-02",
-                "day": "Tuesday",
-                "slots": [
-                  "09:30 am",
-                  "09:45 am",
-                  "10:15 am",
-                  "10:30 am",
-                  "10:45 am",
-                  "11:00 am",
-                  "11:15 am",
-                  "11:30 am",
-                  "11:45 am",
-                  "12:00 pm",
-                  "12:15 pm",
-                  "12:30 pm",
-                  "12:45 pm",
-                  "01:00 pm",
-                  "02:15 pm",
-                  "02:30 pm",
-                  "02:45 pm",
-                  "03:00 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 10.91,
-            "fhirLocationId": "dbed1a6e-256b-40bf-87c1-ed97c2fd79bc",
-            "locationId": "dbed1a6e-256b-40bf-87c1-ed97c2fd79bc",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "17379",
-            "phone": [
-              {
-                "number": "802-464-7575",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "802-464-2012",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "802-464-7575",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 42.86493559,
-              "longitude": -72.86156784
-            },
-            "storenumber": "17379"
           }
         ]
       },
@@ -2172,7 +2477,6 @@
                 "date": "2021-03-02",
                 "day": "Tuesday",
                 "slots": [
-                  "09:30 am",
                   "09:45 am",
                   "10:00 am",
                   "10:15 am",
@@ -2216,7 +2520,7 @@
               }
             ],
             "description": "",
-            "distance": 23.61,
+            "distance": 16.61,
             "fhirLocationId": "8ee6d527-7fa8-4b04-88e6-6911eb5fb1c4",
             "locationId": "8ee6d527-7fa8-4b04-88e6-6911eb5fb1c4",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -2299,7 +2603,7 @@
               }
             ],
             "description": "",
-            "distance": 19.99,
+            "distance": 18.74,
             "fhirLocationId": "63a919f0-0393-47d1-9176-6df35e0a6072",
             "locationId": "63a919f0-0393-47d1-9176-6df35e0a6072",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -2325,6 +2629,611 @@
               "longitude": -73.35039042
             },
             "storenumber": "19764"
+          },
+          {
+            "address": {
+              "city": "SCHAGHTICOKE",
+              "country": "US",
+              "line1": "4 MAIN ST",
+              "line2": "",
+              "state": "NY",
+              "zip": "12154"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "03:45 pm"
+                ]
+              },
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "09:15 am",
+                  "09:30 am",
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "11:00 am",
+                  "11:15 am",
+                  "11:30 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "02:15 pm",
+                  "02:30 pm",
+                  "02:45 pm",
+                  "03:00 pm",
+                  "03:15 pm",
+                  "03:30 pm",
+                  "03:45 pm",
+                  "04:00 pm",
+                  "04:15 pm",
+                  "04:30 pm",
+                  "04:45 pm",
+                  "05:00 pm",
+                  "05:15 pm",
+                  "05:30 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 12.14,
+            "fhirLocationId": "74ac0ad7-8b3f-4067-ac30-1c18df62046a",
+            "locationId": "74ac0ad7-8b3f-4067-ac30-1c18df62046a",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "19732",
+            "phone": [
+              {
+                "number": "518-753-0149",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "518-753-6177",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "518-753-0149",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 42.90683191,
+              "longitude": -73.58423314
+            },
+            "storenumber": "19732"
+          },
+          {
+            "address": {
+              "city": "HUDSON FALLS",
+              "country": "US",
+              "line1": "92 MAIN ST",
+              "line2": "",
+              "state": "NY",
+              "zip": "12839"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "09:15 am",
+                  "09:30 am",
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "11:00 am",
+                  "11:15 am",
+                  "11:45 am",
+                  "12:00 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 17.72,
+            "fhirLocationId": "82c54fd8-1f7c-4610-8704-7f91511705a0",
+            "locationId": "82c54fd8-1f7c-4610-8704-7f91511705a0",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "19494",
+            "phone": [
+              {
+                "number": "518-747-9184",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "518-746-0843",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "518-747-9184",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 43.29856516,
+              "longitude": -73.58469961
+            },
+            "storenumber": "19494"
+          },
+          {
+            "address": {
+              "city": "SARATOGA SPRINGS",
+              "country": "US",
+              "line1": "3020 ROUTE 50",
+              "line2": "",
+              "state": "NY",
+              "zip": "12866"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "09:15 am",
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "11:00 am",
+                  "11:15 am",
+                  "11:30 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "02:15 pm",
+                  "02:30 pm",
+                  "02:45 pm",
+                  "03:00 pm",
+                  "03:15 pm",
+                  "03:30 pm",
+                  "03:45 pm",
+                  "04:00 pm",
+                  "04:15 pm",
+                  "04:30 pm",
+                  "04:45 pm",
+                  "05:00 pm",
+                  "05:15 pm",
+                  "05:30 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 19.09,
+            "fhirLocationId": "5652cc80-d964-4230-aeea-5725717376ef",
+            "locationId": "5652cc80-d964-4230-aeea-5725717376ef",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "10384",
+            "phone": [
+              {
+                "number": "518-580-8850",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "518-580-8853",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "518-580-8850",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 43.10172511,
+              "longitude": -73.74676332
+            },
+            "storenumber": "10384"
+          },
+          {
+            "address": {
+              "city": "HUDSON FALLS",
+              "country": "US",
+              "line1": "1262 DIX AVE",
+              "line2": "",
+              "state": "NY",
+              "zip": "12839"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "11:00 am",
+                  "11:15 am",
+                  "11:30 am",
+                  "11:45 am",
+                  "12:00 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 16.41,
+            "fhirLocationId": "2ee94ddb-c852-4933-a814-a7e27d1400fb",
+            "locationId": "2ee94ddb-c852-4933-a814-a7e27d1400fb",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "17960",
+            "phone": [
+              {
+                "number": "518-747-0292",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "518-747-7332",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "518-747-0292",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 43.3200544,
+              "longitude": -73.57355736
+            },
+            "storenumber": "17960"
+          },
+          {
+            "address": {
+              "city": "SOUTH GLENS FALLS",
+              "country": "US",
+              "line1": "94 MAIN ST",
+              "line2": "",
+              "state": "NY",
+              "zip": "12803"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "09:15 am",
+                  "09:30 am",
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "11:15 am",
+                  "11:30 am",
+                  "11:45 am",
+                  "12:00 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 19.82,
+            "fhirLocationId": "97e101d1-7af8-4688-827f-73cf698e2fc6",
+            "locationId": "97e101d1-7af8-4688-827f-73cf698e2fc6",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "17860",
+            "phone": [
+              {
+                "number": "518-792-5575",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "518-792-4757",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "518-792-5575",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 43.30028326,
+              "longitude": -73.6365974
+            },
+            "storenumber": "17860"
+          },
+          {
+            "address": {
+              "city": "MECHANICVILLE",
+              "country": "US",
+              "line1": "41 PARK PLAZA",
+              "line2": "",
+              "state": "NY",
+              "zip": "12118"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "09:30 am",
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "11:00 am",
+                  "11:15 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "02:15 pm",
+                  "02:30 pm",
+                  "02:45 pm",
+                  "03:00 pm",
+                  "03:15 pm",
+                  "03:30 pm",
+                  "03:45 pm",
+                  "04:00 pm",
+                  "04:15 pm",
+                  "04:30 pm",
+                  "04:45 pm",
+                  "05:00 pm",
+                  "05:15 pm",
+                  "05:30 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 16.79,
+            "fhirLocationId": "bc07f8a8-2196-45e5-a14a-e3f9e7bbab22",
+            "locationId": "bc07f8a8-2196-45e5-a14a-e3f9e7bbab22",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "19462",
+            "phone": [
+              {
+                "number": "518-664-7320",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "518-664-8613",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "518-664-7320",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 42.90444556,
+              "longitude": -73.68914016
+            },
+            "storenumber": "19462"
+          },
+          {
+            "address": {
+              "city": "GLENS FALLS",
+              "country": "US",
+              "line1": "202 BROAD ST",
+              "line2": "",
+              "state": "NY",
+              "zip": "12801"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "09:15 am",
+                  "09:30 am",
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "11:00 am",
+                  "11:15 am",
+                  "11:30 am",
+                  "11:45 am",
+                  "12:00 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 20.83,
+            "fhirLocationId": "61add26b-f1d6-492a-aa0b-9e45f5d4cc1a",
+            "locationId": "61add26b-f1d6-492a-aa0b-9e45f5d4cc1a",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "12733",
+            "phone": [
+              {
+                "number": "518-793-3040",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "518-793-3697",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "518-793-3040",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 43.30240174,
+              "longitude": -73.66163569
+            },
+            "storenumber": "12733"
+          },
+          {
+            "address": {
+              "city": "SARATOGA SPRINGS",
+              "country": "US",
+              "line1": "90 WEST AVE",
+              "line2": "",
+              "state": "NY",
+              "zip": "12866"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "09:15 am",
+                  "09:30 am",
+                  "09:45 am",
+                  "10:15 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "11:00 am",
+                  "11:15 am",
+                  "11:30 am",
+                  "11:45 am",
+                  "12:00 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 21.78,
+            "fhirLocationId": "e0070b8f-6997-4314-b847-ede4951f0592",
+            "locationId": "e0070b8f-6997-4314-b847-ede4951f0592",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "17722",
+            "phone": [
+              {
+                "number": "518-587-0721",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "518-580-8502",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "518-587-0721",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 43.07924402,
+              "longitude": -73.80331917
+            },
+            "storenumber": "17722"
           }
         ]
       }
@@ -35504,8 +36413,8 @@
     "address": "4993 MAIN ST",
     "appointments": [
       {
-        "time": "2021-03-02T09:45:00.000-05:00",
-        "type": "second_dose_moderna"
+        "time": "2021-03-02T10:15:00.000-05:00",
+        "type": "both_doses"
       },
       {
         "time": "2021-03-02T10:15:00.000-05:00",
@@ -35513,7 +36422,15 @@
       },
       {
         "time": "2021-03-02T10:30:00.000-05:00",
+        "type": "both_doses"
+      },
+      {
+        "time": "2021-03-02T10:30:00.000-05:00",
         "type": "second_dose_moderna"
+      },
+      {
+        "time": "2021-03-02T10:45:00.000-05:00",
+        "type": "both_doses"
       },
       {
         "time": "2021-03-02T10:45:00.000-05:00",
@@ -35521,7 +36438,15 @@
       },
       {
         "time": "2021-03-02T11:15:00.000-05:00",
+        "type": "both_doses"
+      },
+      {
+        "time": "2021-03-02T11:15:00.000-05:00",
         "type": "second_dose_moderna"
+      },
+      {
+        "time": "2021-03-02T11:30:00.000-05:00",
+        "type": "both_doses"
       },
       {
         "time": "2021-03-02T11:30:00.000-05:00",
@@ -35529,7 +36454,15 @@
       },
       {
         "time": "2021-03-02T11:45:00.000-05:00",
+        "type": "both_doses"
+      },
+      {
+        "time": "2021-03-02T11:45:00.000-05:00",
         "type": "second_dose_moderna"
+      },
+      {
+        "time": "2021-03-02T12:00:00.000-05:00",
+        "type": "both_doses"
       },
       {
         "time": "2021-03-02T12:00:00.000-05:00",
@@ -35537,7 +36470,15 @@
       },
       {
         "time": "2021-03-02T12:15:00.000-05:00",
+        "type": "both_doses"
+      },
+      {
+        "time": "2021-03-02T12:15:00.000-05:00",
         "type": "second_dose_moderna"
+      },
+      {
+        "time": "2021-03-02T12:30:00.000-05:00",
+        "type": "both_doses"
       },
       {
         "time": "2021-03-02T12:30:00.000-05:00",
@@ -35545,7 +36486,15 @@
       },
       {
         "time": "2021-03-02T12:45:00.000-05:00",
+        "type": "both_doses"
+      },
+      {
+        "time": "2021-03-02T12:45:00.000-05:00",
         "type": "second_dose_moderna"
+      },
+      {
+        "time": "2021-03-02T13:00:00.000-05:00",
+        "type": "both_doses"
       },
       {
         "time": "2021-03-02T13:00:00.000-05:00",
@@ -35553,7 +36502,15 @@
       },
       {
         "time": "2021-03-02T14:15:00.000-05:00",
+        "type": "both_doses"
+      },
+      {
+        "time": "2021-03-02T14:15:00.000-05:00",
         "type": "second_dose_moderna"
+      },
+      {
+        "time": "2021-03-02T14:30:00.000-05:00",
+        "type": "both_doses"
       },
       {
         "time": "2021-03-02T14:30:00.000-05:00",
@@ -35561,7 +36518,15 @@
       },
       {
         "time": "2021-03-02T14:45:00.000-05:00",
+        "type": "both_doses"
+      },
+      {
+        "time": "2021-03-02T14:45:00.000-05:00",
         "type": "second_dose_moderna"
+      },
+      {
+        "time": "2021-03-02T15:00:00.000-05:00",
+        "type": "both_doses"
       },
       {
         "time": "2021-03-02T15:00:00.000-05:00",
@@ -35569,30 +36534,51 @@
       }
     ],
     "appointments_available": true,
-    "appointments_last_fetched": "2021-02-27T12:14:24.54+00:00",
+    "appointments_last_fetched": "2021-02-27T12:18:58.912+00:00",
     "appointments_raw": {
       "both_doses": {
         "locations": [
           {
             "address": {
-              "city": "GRANVILLE",
+              "city": "CAMBRIDGE",
               "country": "US",
-              "line1": "116 QUAKER ST",
+              "line1": "2 NORTH PARK STREET",
               "line2": "",
               "state": "NY",
-              "zip": "12832"
+              "zip": "12816"
             },
             "appointmentAvailability": [
               {
                 "date": "2021-03-02",
                 "day": "Tuesday",
                 "slots": [
-                  "09:15 am",
-                  "09:30 am",
                   "09:45 am",
                   "10:00 am",
                   "10:15 am",
-                  "10:30 am"
+                  "10:45 am",
+                  "11:00 am",
+                  "11:15 am",
+                  "11:30 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "02:15 pm",
+                  "02:30 pm",
+                  "02:45 pm",
+                  "03:00 pm",
+                  "03:15 pm",
+                  "03:30 pm",
+                  "03:45 pm",
+                  "04:00 pm",
+                  "04:15 pm",
+                  "04:30 pm",
+                  "04:45 pm",
+                  "05:00 pm",
+                  "05:15 pm",
+                  "05:30 pm"
                 ]
               }
             ],
@@ -35609,43 +36595,133 @@
               }
             ],
             "description": "",
-            "distance": 4.17,
-            "fhirLocationId": "40e20030-b460-49f4-bfd9-67134cadeb28",
-            "locationId": "40e20030-b460-49f4-bfd9-67134cadeb28",
+            "distance": 4.35,
+            "fhirLocationId": "8ee6d527-7fa8-4b04-88e6-6911eb5fb1c4",
+            "locationId": "8ee6d527-7fa8-4b04-88e6-6911eb5fb1c4",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
             "name": "Walgreen Drug Store",
             "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "17717",
+            "partnerLocationId": "18207",
             "phone": [
               {
-                "number": "518-642-2332",
+                "number": "518-677-3822",
                 "type": "StorePrimary"
               },
               {
-                "number": "518-642-4638",
+                "number": "518-677-8610",
                 "type": "StoreSecondary"
               },
               {
-                "number": "518-642-2332",
+                "number": "518-677-3822",
                 "type": "Pharmacy"
               }
             ],
             "position": {
-              "latitude": 43.39558053,
-              "longitude": -73.26415968
+              "latitude": 43.02791077,
+              "longitude": -73.37594596
             },
-            "storenumber": "17717"
+            "storenumber": "18207"
           },
           {
             "address": {
-              "city": "FAIR HAVEN",
+              "city": "HOOSICK FALLS",
               "country": "US",
-              "line1": "621 ROUTE 22A N",
+              "line1": "22 MAIN ST",
               "line2": "",
-              "state": "VT",
-              "zip": "05743"
+              "state": "NY",
+              "zip": "12090"
             },
             "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "09:45 am",
+                  "10:15 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "11:00 am",
+                  "11:15 am",
+                  "11:30 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "02:15 pm",
+                  "02:30 pm",
+                  "02:45 pm",
+                  "03:00 pm",
+                  "03:15 pm",
+                  "03:30 pm",
+                  "03:45 pm",
+                  "04:15 pm",
+                  "04:30 pm",
+                  "04:45 pm",
+                  "05:00 pm",
+                  "05:15 pm",
+                  "05:30 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 13.2,
+            "fhirLocationId": "63a919f0-0393-47d1-9176-6df35e0a6072",
+            "locationId": "63a919f0-0393-47d1-9176-6df35e0a6072",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "19764",
+            "phone": [
+              {
+                "number": "518-686-5831",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "518-686-4718",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "518-686-5831",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 42.90114359,
+              "longitude": -73.35039042
+            },
+            "storenumber": "19764"
+          },
+          {
+            "address": {
+              "city": "SCHAGHTICOKE",
+              "country": "US",
+              "line1": "4 MAIN ST",
+              "line2": "",
+              "state": "NY",
+              "zip": "12154"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "03:45 pm"
+                ]
+              },
               {
                 "date": "2021-03-02",
                 "day": "Tuesday",
@@ -35653,6 +36729,92 @@
                   "09:15 am",
                   "09:30 am",
                   "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "11:00 am",
+                  "11:15 am",
+                  "11:30 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "02:15 pm",
+                  "02:30 pm",
+                  "02:45 pm",
+                  "03:00 pm",
+                  "03:15 pm",
+                  "03:30 pm",
+                  "03:45 pm",
+                  "04:00 pm",
+                  "04:15 pm",
+                  "04:30 pm",
+                  "04:45 pm",
+                  "05:00 pm",
+                  "05:15 pm",
+                  "05:30 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 18.46,
+            "fhirLocationId": "74ac0ad7-8b3f-4067-ac30-1c18df62046a",
+            "locationId": "74ac0ad7-8b3f-4067-ac30-1c18df62046a",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "19732",
+            "phone": [
+              {
+                "number": "518-753-0149",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "518-753-6177",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "518-753-0149",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 42.90683191,
+              "longitude": -73.58423314
+            },
+            "storenumber": "19732"
+          },
+          {
+            "address": {
+              "city": "BENNINGTON",
+              "country": "US",
+              "line1": "194 NORTH STREET",
+              "line2": "",
+              "state": "VT",
+              "zip": "05201"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "09:45 am",
+                  "10:15 am",
                   "10:30 am",
                   "10:45 am",
                   "11:00 am",
@@ -35684,41 +36846,41 @@
               }
             ],
             "description": "",
-            "distance": 10.57,
-            "fhirLocationId": "f4fe21a0-75e0-4206-98ad-a6e662c326a3",
-            "locationId": "f4fe21a0-75e0-4206-98ad-a6e662c326a3",
+            "distance": 17.38,
+            "fhirLocationId": "2298034c-abd1-4f4b-ae2a-84dd6e343934",
+            "locationId": "2298034c-abd1-4f4b-ae2a-84dd6e343934",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
             "name": "Walgreen Drug Store",
             "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "18354",
+            "partnerLocationId": "17631",
             "phone": [
               {
-                "number": "802-265-3760",
+                "number": "802-442-2240",
                 "type": "StorePrimary"
               },
               {
-                "number": "802-265-4254",
+                "number": "802-447-3605",
                 "type": "StoreSecondary"
               },
               {
-                "number": "802-265-3760",
+                "number": "802-442-2240",
                 "type": "Pharmacy"
               }
             ],
             "position": {
-              "latitude": 43.60200219,
-              "longitude": -73.27613466
+              "latitude": 42.88133297,
+              "longitude": -73.1979825
             },
-            "storenumber": "18354"
+            "storenumber": "17631"
           },
           {
             "address": {
-              "city": "WEST RUTLAND",
+              "city": "HUDSON FALLS",
               "country": "US",
-              "line1": "294 MAIN ST",
+              "line1": "92 MAIN ST",
               "line2": "",
-              "state": "VT",
-              "zip": "05777"
+              "state": "NY",
+              "zip": "12839"
             },
             "appointmentAvailability": [
               {
@@ -35733,6 +36895,69 @@
                   "10:30 am",
                   "10:45 am",
                   "11:00 am",
+                  "11:15 am",
+                  "11:45 am",
+                  "12:00 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 17.43,
+            "fhirLocationId": "82c54fd8-1f7c-4610-8704-7f91511705a0",
+            "locationId": "82c54fd8-1f7c-4610-8704-7f91511705a0",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "19494",
+            "phone": [
+              {
+                "number": "518-747-9184",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "518-746-0843",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "518-747-9184",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 43.29856516,
+              "longitude": -73.58469961
+            },
+            "storenumber": "19494"
+          },
+          {
+            "address": {
+              "city": "MANCHESTER CENTER",
+              "country": "US",
+              "line1": "4993 MAIN ST",
+              "line2": "",
+              "state": "VT",
+              "zip": "05255"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "10:15 am",
+                  "10:30 am",
+                  "10:45 am",
                   "11:15 am",
                   "11:30 am",
                   "11:45 am",
@@ -35761,32 +36986,118 @@
               }
             ],
             "description": "",
-            "distance": 16.22,
-            "fhirLocationId": "e440d358-fe67-46af-a52f-8a27e9ae645c",
-            "locationId": "e440d358-fe67-46af-a52f-8a27e9ae645c",
+            "distance": 17.94,
+            "fhirLocationId": "7f2f0fd9-638d-4647-af24-36fac634e656",
+            "locationId": "7f2f0fd9-638d-4647-af24-36fac634e656",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
             "name": "Walgreen Drug Store",
             "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "18278",
+            "partnerLocationId": "18020",
             "phone": [
               {
-                "number": "802-438-6186",
+                "number": "802-362-2230",
                 "type": "StorePrimary"
               },
               {
-                "number": "802-438-6191",
+                "number": "802-362-3984",
                 "type": "StoreSecondary"
               },
               {
-                "number": "802-438-6186",
+                "number": "802-362-2230",
                 "type": "Pharmacy"
               }
             ],
             "position": {
-              "latitude": 43.59377149,
-              "longitude": -73.04398763
+              "latitude": 43.17781579,
+              "longitude": -73.05507102
             },
-            "storenumber": "18278"
+            "storenumber": "18020"
+          },
+          {
+            "address": {
+              "city": "SARATOGA SPRINGS",
+              "country": "US",
+              "line1": "3020 ROUTE 50",
+              "line2": "",
+              "state": "NY",
+              "zip": "12866"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "09:15 am",
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "11:00 am",
+                  "11:15 am",
+                  "11:30 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "02:15 pm",
+                  "02:30 pm",
+                  "02:45 pm",
+                  "03:00 pm",
+                  "03:15 pm",
+                  "03:30 pm",
+                  "03:45 pm",
+                  "04:00 pm",
+                  "04:15 pm",
+                  "04:30 pm",
+                  "04:45 pm",
+                  "05:00 pm",
+                  "05:15 pm",
+                  "05:30 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 10.33,
+            "fhirLocationId": "5652cc80-d964-4230-aeea-5725717376ef",
+            "locationId": "5652cc80-d964-4230-aeea-5725717376ef",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "10384",
+            "phone": [
+              {
+                "number": "518-580-8850",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "518-580-8853",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "518-580-8850",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 43.10172511,
+              "longitude": -73.74676332
+            },
+            "storenumber": "10384"
           },
           {
             "address": {
@@ -35828,7 +37139,7 @@
               }
             ],
             "description": "",
-            "distance": 16.41,
+            "distance": 18.39,
             "fhirLocationId": "2ee94ddb-c852-4933-a814-a7e27d1400fb",
             "locationId": "2ee94ddb-c852-4933-a814-a7e27d1400fb",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -35854,6 +37165,574 @@
               "longitude": -73.57355736
             },
             "storenumber": "17960"
+          },
+          {
+            "address": {
+              "city": "SOUTH GLENS FALLS",
+              "country": "US",
+              "line1": "94 MAIN ST",
+              "line2": "",
+              "state": "NY",
+              "zip": "12803"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "09:15 am",
+                  "09:30 am",
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "11:15 am",
+                  "11:30 am",
+                  "11:45 am",
+                  "12:00 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 23.64,
+            "fhirLocationId": "97e101d1-7af8-4688-827f-73cf698e2fc6",
+            "locationId": "97e101d1-7af8-4688-827f-73cf698e2fc6",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "17860",
+            "phone": [
+              {
+                "number": "518-792-5575",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "518-792-4757",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "518-792-5575",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 43.30028326,
+              "longitude": -73.6365974
+            },
+            "storenumber": "17860"
+          },
+          {
+            "address": {
+              "city": "MECHANICVILLE",
+              "country": "US",
+              "line1": "41 PARK PLAZA",
+              "line2": "",
+              "state": "NY",
+              "zip": "12118"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "09:30 am",
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "11:00 am",
+                  "11:15 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "02:15 pm",
+                  "02:30 pm",
+                  "02:45 pm",
+                  "03:00 pm",
+                  "03:15 pm",
+                  "03:30 pm",
+                  "03:45 pm",
+                  "04:00 pm",
+                  "04:15 pm",
+                  "04:30 pm",
+                  "04:45 pm",
+                  "05:00 pm",
+                  "05:15 pm",
+                  "05:30 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 16.2,
+            "fhirLocationId": "bc07f8a8-2196-45e5-a14a-e3f9e7bbab22",
+            "locationId": "bc07f8a8-2196-45e5-a14a-e3f9e7bbab22",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "19462",
+            "phone": [
+              {
+                "number": "518-664-7320",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "518-664-8613",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "518-664-7320",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 42.90444556,
+              "longitude": -73.68914016
+            },
+            "storenumber": "19462"
+          }
+        ]
+      },
+      "second_dose_moderna": {
+        "locations": [
+          {
+            "address": {
+              "city": "BENNINGTON",
+              "country": "US",
+              "line1": "194 NORTH STREET",
+              "line2": "",
+              "state": "VT",
+              "zip": "05201"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "09:45 am",
+                  "10:15 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "11:00 am",
+                  "11:15 am",
+                  "11:30 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "02:15 pm",
+                  "02:30 pm",
+                  "02:45 pm",
+                  "03:00 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 0.14,
+            "fhirLocationId": "2298034c-abd1-4f4b-ae2a-84dd6e343934",
+            "locationId": "2298034c-abd1-4f4b-ae2a-84dd6e343934",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "17631",
+            "phone": [
+              {
+                "number": "802-442-2240",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "802-447-3605",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "802-442-2240",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 42.88133297,
+              "longitude": -73.1979825
+            },
+            "storenumber": "17631"
+          },
+          {
+            "address": {
+              "city": "MANCHESTER CENTER",
+              "country": "US",
+              "line1": "4993 MAIN ST",
+              "line2": "",
+              "state": "VT",
+              "zip": "05255"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "10:15 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "11:15 am",
+                  "11:30 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "02:15 pm",
+                  "02:30 pm",
+                  "02:45 pm",
+                  "03:00 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 24.13,
+            "fhirLocationId": "7f2f0fd9-638d-4647-af24-36fac634e656",
+            "locationId": "7f2f0fd9-638d-4647-af24-36fac634e656",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "18020",
+            "phone": [
+              {
+                "number": "802-362-2230",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "802-362-3984",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "802-362-2230",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 43.17781579,
+              "longitude": -73.05507102
+            },
+            "storenumber": "18020"
+          }
+        ]
+      },
+      "second_dose_pfizer": {
+        "locations": [
+          {
+            "address": {
+              "city": "CAMBRIDGE",
+              "country": "US",
+              "line1": "2 NORTH PARK STREET",
+              "line2": "",
+              "state": "NY",
+              "zip": "12816"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:45 am",
+                  "11:00 am",
+                  "11:15 am",
+                  "11:30 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "02:15 pm",
+                  "02:30 pm",
+                  "02:45 pm",
+                  "03:00 pm",
+                  "03:15 pm",
+                  "03:30 pm",
+                  "03:45 pm",
+                  "04:00 pm",
+                  "04:15 pm",
+                  "04:30 pm",
+                  "04:45 pm",
+                  "05:00 pm",
+                  "05:15 pm",
+                  "05:30 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 16.61,
+            "fhirLocationId": "8ee6d527-7fa8-4b04-88e6-6911eb5fb1c4",
+            "locationId": "8ee6d527-7fa8-4b04-88e6-6911eb5fb1c4",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "18207",
+            "phone": [
+              {
+                "number": "518-677-3822",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "518-677-8610",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "518-677-3822",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 43.02791077,
+              "longitude": -73.37594596
+            },
+            "storenumber": "18207"
+          },
+          {
+            "address": {
+              "city": "HOOSICK FALLS",
+              "country": "US",
+              "line1": "22 MAIN ST",
+              "line2": "",
+              "state": "NY",
+              "zip": "12090"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "09:45 am",
+                  "10:15 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "11:00 am",
+                  "11:15 am",
+                  "11:30 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "02:15 pm",
+                  "02:30 pm",
+                  "02:45 pm",
+                  "03:00 pm",
+                  "03:15 pm",
+                  "03:30 pm",
+                  "03:45 pm",
+                  "04:15 pm",
+                  "04:30 pm",
+                  "04:45 pm",
+                  "05:00 pm",
+                  "05:15 pm",
+                  "05:30 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 18.74,
+            "fhirLocationId": "63a919f0-0393-47d1-9176-6df35e0a6072",
+            "locationId": "63a919f0-0393-47d1-9176-6df35e0a6072",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "19764",
+            "phone": [
+              {
+                "number": "518-686-5831",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "518-686-4718",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "518-686-5831",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 42.90114359,
+              "longitude": -73.35039042
+            },
+            "storenumber": "19764"
+          },
+          {
+            "address": {
+              "city": "SCHAGHTICOKE",
+              "country": "US",
+              "line1": "4 MAIN ST",
+              "line2": "",
+              "state": "NY",
+              "zip": "12154"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "03:45 pm"
+                ]
+              },
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "09:15 am",
+                  "09:30 am",
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "11:00 am",
+                  "11:15 am",
+                  "11:30 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "02:15 pm",
+                  "02:30 pm",
+                  "02:45 pm",
+                  "03:00 pm",
+                  "03:15 pm",
+                  "03:30 pm",
+                  "03:45 pm",
+                  "04:00 pm",
+                  "04:15 pm",
+                  "04:30 pm",
+                  "04:45 pm",
+                  "05:00 pm",
+                  "05:15 pm",
+                  "05:30 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 12.14,
+            "fhirLocationId": "74ac0ad7-8b3f-4067-ac30-1c18df62046a",
+            "locationId": "74ac0ad7-8b3f-4067-ac30-1c18df62046a",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "19732",
+            "phone": [
+              {
+                "number": "518-753-0149",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "518-753-6177",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "518-753-0149",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 42.90683191,
+              "longitude": -73.58423314
+            },
+            "storenumber": "19732"
           },
           {
             "address": {
@@ -35925,6 +37804,159 @@
           },
           {
             "address": {
+              "city": "SARATOGA SPRINGS",
+              "country": "US",
+              "line1": "3020 ROUTE 50",
+              "line2": "",
+              "state": "NY",
+              "zip": "12866"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "09:15 am",
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "11:00 am",
+                  "11:15 am",
+                  "11:30 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "02:15 pm",
+                  "02:30 pm",
+                  "02:45 pm",
+                  "03:00 pm",
+                  "03:15 pm",
+                  "03:30 pm",
+                  "03:45 pm",
+                  "04:00 pm",
+                  "04:15 pm",
+                  "04:30 pm",
+                  "04:45 pm",
+                  "05:00 pm",
+                  "05:15 pm",
+                  "05:30 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 19.09,
+            "fhirLocationId": "5652cc80-d964-4230-aeea-5725717376ef",
+            "locationId": "5652cc80-d964-4230-aeea-5725717376ef",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "10384",
+            "phone": [
+              {
+                "number": "518-580-8850",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "518-580-8853",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "518-580-8850",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 43.10172511,
+              "longitude": -73.74676332
+            },
+            "storenumber": "10384"
+          },
+          {
+            "address": {
+              "city": "HUDSON FALLS",
+              "country": "US",
+              "line1": "1262 DIX AVE",
+              "line2": "",
+              "state": "NY",
+              "zip": "12839"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "11:00 am",
+                  "11:15 am",
+                  "11:30 am",
+                  "11:45 am",
+                  "12:00 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 16.41,
+            "fhirLocationId": "2ee94ddb-c852-4933-a814-a7e27d1400fb",
+            "locationId": "2ee94ddb-c852-4933-a814-a7e27d1400fb",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "17960",
+            "phone": [
+              {
+                "number": "518-747-0292",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "518-747-7332",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "518-747-0292",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 43.3200544,
+              "longitude": -73.57355736
+            },
+            "storenumber": "17960"
+          },
+          {
+            "address": {
               "city": "SOUTH GLENS FALLS",
               "country": "US",
               "line1": "94 MAIN ST",
@@ -35944,7 +37976,6 @@
                   "10:15 am",
                   "10:30 am",
                   "10:45 am",
-                  "11:00 am",
                   "11:15 am",
                   "11:30 am",
                   "11:45 am",
@@ -35994,117 +38025,26 @@
           },
           {
             "address": {
-              "city": "RUTLAND",
+              "city": "MECHANICVILLE",
               "country": "US",
-              "line1": "10 WOODSTOCK AVE",
-              "line2": "",
-              "state": "VT",
-              "zip": "05701"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-02",
-                "day": "Tuesday",
-                "slots": [
-                  "10:15 am",
-                  "10:30 am",
-                  "11:00 am",
-                  "11:15 am",
-                  "11:45 am",
-                  "12:15 pm",
-                  "12:30 pm",
-                  "12:45 pm",
-                  "01:00 pm",
-                  "02:15 pm",
-                  "02:30 pm",
-                  "02:45 pm",
-                  "03:00 pm",
-                  "03:15 pm",
-                  "03:30 pm",
-                  "03:45 pm",
-                  "04:00 pm",
-                  "04:15 pm",
-                  "04:30 pm",
-                  "04:45 pm",
-                  "05:00 pm",
-                  "05:15 pm",
-                  "05:30 pm",
-                  "05:45 pm",
-                  "06:00 pm",
-                  "06:15 pm",
-                  "06:30 pm",
-                  "06:45 pm",
-                  "07:00 pm",
-                  "07:15 pm",
-                  "07:30 pm",
-                  "07:45 pm",
-                  "08:00 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 19.85,
-            "fhirLocationId": "b31e0fbb-9585-4c8d-b5f3-07229762940f",
-            "locationId": "b31e0fbb-9585-4c8d-b5f3-07229762940f",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "1756",
-            "phone": [
-              {
-                "number": "802-773-6980",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "802-773-7691",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "802-773-6980",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 43.61044324,
-              "longitude": -72.97131029
-            },
-            "storenumber": "1756"
-          },
-          {
-            "address": {
-              "city": "QUEENSBURY",
-              "country": "US",
-              "line1": "724 UPPER GLEN STREET",
+              "line1": "41 PARK PLAZA",
               "line2": "",
               "state": "NY",
-              "zip": "12804"
+              "zip": "12118"
             },
             "appointmentAvailability": [
               {
                 "date": "2021-03-02",
                 "day": "Tuesday",
                 "slots": [
-                  "09:15 am",
                   "09:30 am",
+                  "09:45 am",
                   "10:00 am",
                   "10:15 am",
                   "10:30 am",
                   "10:45 am",
                   "11:00 am",
                   "11:15 am",
-                  "11:30 am",
                   "11:45 am",
                   "12:00 pm",
                   "12:15 pm",
@@ -36114,6 +38054,7 @@
                   "02:15 pm",
                   "02:30 pm",
                   "02:45 pm",
+                  "03:00 pm",
                   "03:15 pm",
                   "03:30 pm",
                   "03:45 pm",
@@ -36140,107 +38081,32 @@
               }
             ],
             "description": "",
-            "distance": 20.3,
-            "fhirLocationId": "a31cfc21-f3c9-45c1-aa4c-c3ca8096678f",
-            "locationId": "a31cfc21-f3c9-45c1-aa4c-c3ca8096678f",
+            "distance": 16.79,
+            "fhirLocationId": "bc07f8a8-2196-45e5-a14a-e3f9e7bbab22",
+            "locationId": "bc07f8a8-2196-45e5-a14a-e3f9e7bbab22",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
             "name": "Walgreen Drug Store",
             "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "19426",
+            "partnerLocationId": "19462",
             "phone": [
               {
-                "number": "518-793-3132",
+                "number": "518-664-7320",
                 "type": "StorePrimary"
               },
               {
-                "number": "518-792-8381",
+                "number": "518-664-8613",
                 "type": "StoreSecondary"
               },
               {
-                "number": "518-793-3132",
+                "number": "518-664-7320",
                 "type": "Pharmacy"
               }
             ],
             "position": {
-              "latitude": 43.32819616,
-              "longitude": -73.6678428
+              "latitude": 42.90444556,
+              "longitude": -73.68914016
             },
-            "storenumber": "19426"
-          },
-          {
-            "address": {
-              "city": "LAKE GEORGE",
-              "country": "US",
-              "line1": "2160 STATE ROUTE 9",
-              "line2": "",
-              "state": "NY",
-              "zip": "12845"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-02",
-                "day": "Tuesday",
-                "slots": [
-                  "09:15 am",
-                  "09:30 am",
-                  "09:45 am",
-                  "10:00 am",
-                  "10:15 am",
-                  "10:30 am",
-                  "10:45 am",
-                  "11:00 am",
-                  "11:15 am",
-                  "11:30 am",
-                  "11:45 am",
-                  "12:00 pm",
-                  "12:15 pm",
-                  "12:30 pm",
-                  "12:45 pm",
-                  "01:00 pm",
-                  "02:15 pm",
-                  "02:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 20.78,
-            "fhirLocationId": "fa544e4a-bc02-4c7f-ab82-31d4ca9ff433",
-            "locationId": "fa544e4a-bc02-4c7f-ab82-31d4ca9ff433",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "19328",
-            "phone": [
-              {
-                "number": "518-668-0043",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "518-668-0047",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "518-668-0043",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 43.41054979,
-              "longitude": -73.710512
-            },
-            "storenumber": "19328"
+            "storenumber": "19462"
           },
           {
             "address": {
@@ -36310,338 +38176,15 @@
               "longitude": -73.66163569
             },
             "storenumber": "12733"
-          }
-        ]
-      },
-      "second_dose_moderna": {
-        "locations": [
-          {
-            "address": {
-              "city": "FAIR HAVEN",
-              "country": "US",
-              "line1": "621 ROUTE 22A N",
-              "line2": "",
-              "state": "VT",
-              "zip": "05743"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-02",
-                "day": "Tuesday",
-                "slots": [
-                  "09:15 am",
-                  "09:30 am",
-                  "09:45 am",
-                  "10:30 am",
-                  "10:45 am",
-                  "11:00 am",
-                  "11:15 am",
-                  "11:30 am",
-                  "11:45 am",
-                  "12:00 pm",
-                  "12:15 pm",
-                  "12:30 pm",
-                  "12:45 pm",
-                  "01:00 pm",
-                  "02:15 pm",
-                  "02:30 pm",
-                  "02:45 pm",
-                  "03:00 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 19.75,
-            "fhirLocationId": "f4fe21a0-75e0-4206-98ad-a6e662c326a3",
-            "locationId": "f4fe21a0-75e0-4206-98ad-a6e662c326a3",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "18354",
-            "phone": [
-              {
-                "number": "802-265-3760",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "802-265-4254",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "802-265-3760",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 43.60200219,
-              "longitude": -73.27613466
-            },
-            "storenumber": "18354"
           },
           {
             "address": {
-              "city": "WEST RUTLAND",
+              "city": "SARATOGA SPRINGS",
               "country": "US",
-              "line1": "294 MAIN ST",
-              "line2": "",
-              "state": "VT",
-              "zip": "05777"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-02",
-                "day": "Tuesday",
-                "slots": [
-                  "09:15 am",
-                  "09:30 am",
-                  "09:45 am",
-                  "10:00 am",
-                  "10:15 am",
-                  "10:30 am",
-                  "10:45 am",
-                  "11:00 am",
-                  "11:15 am",
-                  "11:30 am",
-                  "11:45 am",
-                  "12:00 pm",
-                  "12:15 pm",
-                  "12:30 pm",
-                  "12:45 pm",
-                  "01:00 pm",
-                  "02:15 pm",
-                  "02:30 pm",
-                  "02:45 pm",
-                  "03:00 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 22.16,
-            "fhirLocationId": "e440d358-fe67-46af-a52f-8a27e9ae645c",
-            "locationId": "e440d358-fe67-46af-a52f-8a27e9ae645c",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "18278",
-            "phone": [
-              {
-                "number": "802-438-6186",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "802-438-6191",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "802-438-6186",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 43.59377149,
-              "longitude": -73.04398763
-            },
-            "storenumber": "18278"
-          },
-          {
-            "address": {
-              "city": "RUTLAND",
-              "country": "US",
-              "line1": "10 WOODSTOCK AVE",
-              "line2": "",
-              "state": "VT",
-              "zip": "05701"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-02",
-                "day": "Tuesday",
-                "slots": [
-                  "10:15 am",
-                  "10:30 am",
-                  "11:00 am",
-                  "11:15 am",
-                  "11:45 am",
-                  "12:15 pm",
-                  "12:30 pm",
-                  "12:45 pm",
-                  "01:00 pm",
-                  "02:15 pm",
-                  "02:30 pm",
-                  "02:45 pm",
-                  "03:00 pm",
-                  "03:15 pm",
-                  "03:30 pm",
-                  "03:45 pm",
-                  "04:00 pm",
-                  "04:15 pm",
-                  "04:30 pm",
-                  "04:45 pm",
-                  "05:00 pm",
-                  "05:15 pm",
-                  "05:30 pm",
-                  "05:45 pm",
-                  "06:00 pm",
-                  "06:15 pm",
-                  "06:30 pm",
-                  "06:45 pm",
-                  "07:00 pm",
-                  "07:15 pm",
-                  "07:30 pm",
-                  "07:45 pm",
-                  "08:00 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 22.93,
-            "fhirLocationId": "b31e0fbb-9585-4c8d-b5f3-07229762940f",
-            "locationId": "b31e0fbb-9585-4c8d-b5f3-07229762940f",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "1756",
-            "phone": [
-              {
-                "number": "802-773-6980",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "802-773-7691",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "802-773-6980",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 43.61044324,
-              "longitude": -72.97131029
-            },
-            "storenumber": "1756"
-          },
-          {
-            "address": {
-              "city": "MANCHESTER CENTER",
-              "country": "US",
-              "line1": "4993 MAIN ST",
-              "line2": "",
-              "state": "VT",
-              "zip": "05255"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-02",
-                "day": "Tuesday",
-                "slots": [
-                  "09:45 am",
-                  "10:15 am",
-                  "10:30 am",
-                  "10:45 am",
-                  "11:15 am",
-                  "11:30 am",
-                  "11:45 am",
-                  "12:00 pm",
-                  "12:15 pm",
-                  "12:30 pm",
-                  "12:45 pm",
-                  "01:00 pm",
-                  "02:15 pm",
-                  "02:30 pm",
-                  "02:45 pm",
-                  "03:00 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 24.13,
-            "fhirLocationId": "7f2f0fd9-638d-4647-af24-36fac634e656",
-            "locationId": "7f2f0fd9-638d-4647-af24-36fac634e656",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "18020",
-            "phone": [
-              {
-                "number": "802-362-2230",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "802-362-3984",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "802-362-2230",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 43.17781579,
-              "longitude": -73.05507102
-            },
-            "storenumber": "18020"
-          }
-        ]
-      },
-      "second_dose_pfizer": {
-        "locations": [
-          {
-            "address": {
-              "city": "GRANVILLE",
-              "country": "US",
-              "line1": "116 QUAKER ST",
+              "line1": "90 WEST AVE",
               "line2": "",
               "state": "NY",
-              "zip": "12832"
+              "zip": "12866"
             },
             "appointmentAvailability": [
               {
@@ -36651,68 +38194,6 @@
                   "09:15 am",
                   "09:30 am",
                   "09:45 am",
-                  "10:00 am",
-                  "10:15 am",
-                  "10:30 am"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 20.07,
-            "fhirLocationId": "40e20030-b460-49f4-bfd9-67134cadeb28",
-            "locationId": "40e20030-b460-49f4-bfd9-67134cadeb28",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "17717",
-            "phone": [
-              {
-                "number": "518-642-2332",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "518-642-4638",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "518-642-2332",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 43.39558053,
-              "longitude": -73.26415968
-            },
-            "storenumber": "17717"
-          },
-          {
-            "address": {
-              "city": "HUDSON FALLS",
-              "country": "US",
-              "line1": "1262 DIX AVE",
-              "line2": "",
-              "state": "NY",
-              "zip": "12839"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-02",
-                "day": "Tuesday",
-                "slots": [
-                  "09:45 am",
-                  "10:00 am",
                   "10:15 am",
                   "10:30 am",
                   "10:45 am",
@@ -36737,459 +38218,32 @@
               }
             ],
             "description": "",
-            "distance": 3.84,
-            "fhirLocationId": "2ee94ddb-c852-4933-a814-a7e27d1400fb",
-            "locationId": "2ee94ddb-c852-4933-a814-a7e27d1400fb",
+            "distance": 21.78,
+            "fhirLocationId": "e0070b8f-6997-4314-b847-ede4951f0592",
+            "locationId": "e0070b8f-6997-4314-b847-ede4951f0592",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
             "name": "Walgreen Drug Store",
             "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "17960",
+            "partnerLocationId": "17722",
             "phone": [
               {
-                "number": "518-747-0292",
+                "number": "518-587-0721",
                 "type": "StorePrimary"
               },
               {
-                "number": "518-747-7332",
+                "number": "518-580-8502",
                 "type": "StoreSecondary"
               },
               {
-                "number": "518-747-0292",
+                "number": "518-587-0721",
                 "type": "Pharmacy"
               }
             ],
             "position": {
-              "latitude": 43.3200544,
-              "longitude": -73.57355736
+              "latitude": 43.07924402,
+              "longitude": -73.80331917
             },
-            "storenumber": "17960"
-          },
-          {
-            "address": {
-              "city": "HUDSON FALLS",
-              "country": "US",
-              "line1": "92 MAIN ST",
-              "line2": "",
-              "state": "NY",
-              "zip": "12839"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-02",
-                "day": "Tuesday",
-                "slots": [
-                  "09:15 am",
-                  "09:30 am",
-                  "09:45 am",
-                  "10:00 am",
-                  "10:15 am",
-                  "10:30 am",
-                  "10:45 am",
-                  "11:00 am",
-                  "11:15 am",
-                  "11:45 am",
-                  "12:00 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 3.6,
-            "fhirLocationId": "82c54fd8-1f7c-4610-8704-7f91511705a0",
-            "locationId": "82c54fd8-1f7c-4610-8704-7f91511705a0",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "19494",
-            "phone": [
-              {
-                "number": "518-747-9184",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "518-746-0843",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "518-747-9184",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 43.29856516,
-              "longitude": -73.58469961
-            },
-            "storenumber": "19494"
-          },
-          {
-            "address": {
-              "city": "SOUTH GLENS FALLS",
-              "country": "US",
-              "line1": "94 MAIN ST",
-              "line2": "",
-              "state": "NY",
-              "zip": "12803"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-02",
-                "day": "Tuesday",
-                "slots": [
-                  "09:15 am",
-                  "09:30 am",
-                  "09:45 am",
-                  "10:00 am",
-                  "10:15 am",
-                  "10:30 am",
-                  "10:45 am",
-                  "11:00 am",
-                  "11:15 am",
-                  "11:30 am",
-                  "11:45 am",
-                  "12:00 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 1.52,
-            "fhirLocationId": "97e101d1-7af8-4688-827f-73cf698e2fc6",
-            "locationId": "97e101d1-7af8-4688-827f-73cf698e2fc6",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "17860",
-            "phone": [
-              {
-                "number": "518-792-5575",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "518-792-4757",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "518-792-5575",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 43.30028326,
-              "longitude": -73.6365974
-            },
-            "storenumber": "17860"
-          },
-          {
-            "address": {
-              "city": "QUEENSBURY",
-              "country": "US",
-              "line1": "724 UPPER GLEN STREET",
-              "line2": "",
-              "state": "NY",
-              "zip": "12804"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-02",
-                "day": "Tuesday",
-                "slots": [
-                  "09:15 am",
-                  "09:30 am",
-                  "10:00 am",
-                  "10:15 am",
-                  "10:30 am",
-                  "10:45 am",
-                  "11:00 am",
-                  "11:15 am",
-                  "11:30 am",
-                  "11:45 am",
-                  "12:00 pm",
-                  "12:15 pm",
-                  "12:30 pm",
-                  "12:45 pm",
-                  "01:00 pm",
-                  "02:15 pm",
-                  "02:30 pm",
-                  "02:45 pm",
-                  "03:15 pm",
-                  "03:30 pm",
-                  "03:45 pm",
-                  "04:00 pm",
-                  "04:15 pm",
-                  "04:30 pm",
-                  "04:45 pm",
-                  "05:00 pm",
-                  "05:15 pm",
-                  "05:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 22.85,
-            "fhirLocationId": "a31cfc21-f3c9-45c1-aa4c-c3ca8096678f",
-            "locationId": "a31cfc21-f3c9-45c1-aa4c-c3ca8096678f",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "19426",
-            "phone": [
-              {
-                "number": "518-793-3132",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "518-792-8381",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "518-793-3132",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 43.32819616,
-              "longitude": -73.6678428
-            },
-            "storenumber": "19426"
-          },
-          {
-            "address": {
-              "city": "LAKE GEORGE",
-              "country": "US",
-              "line1": "2160 STATE ROUTE 9",
-              "line2": "",
-              "state": "NY",
-              "zip": "12845"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-02",
-                "day": "Tuesday",
-                "slots": [
-                  "09:15 am",
-                  "09:30 am",
-                  "09:45 am",
-                  "10:00 am",
-                  "10:15 am",
-                  "10:30 am",
-                  "10:45 am",
-                  "11:00 am",
-                  "11:15 am",
-                  "11:30 am",
-                  "11:45 am",
-                  "12:00 pm",
-                  "12:15 pm",
-                  "12:30 pm",
-                  "12:45 pm",
-                  "01:00 pm",
-                  "02:15 pm",
-                  "02:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 16.78,
-            "fhirLocationId": "fa544e4a-bc02-4c7f-ab82-31d4ca9ff433",
-            "locationId": "fa544e4a-bc02-4c7f-ab82-31d4ca9ff433",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "19328",
-            "phone": [
-              {
-                "number": "518-668-0043",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "518-668-0047",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "518-668-0043",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 43.41054979,
-              "longitude": -73.710512
-            },
-            "storenumber": "19328"
-          },
-          {
-            "address": {
-              "city": "GLENS FALLS",
-              "country": "US",
-              "line1": "202 BROAD ST",
-              "line2": "",
-              "state": "NY",
-              "zip": "12801"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-02",
-                "day": "Tuesday",
-                "slots": [
-                  "09:15 am",
-                  "09:30 am",
-                  "09:45 am",
-                  "10:00 am",
-                  "10:15 am",
-                  "10:30 am",
-                  "10:45 am",
-                  "11:00 am",
-                  "11:15 am",
-                  "11:30 am",
-                  "11:45 am",
-                  "12:00 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 24.64,
-            "fhirLocationId": "61add26b-f1d6-492a-aa0b-9e45f5d4cc1a",
-            "locationId": "61add26b-f1d6-492a-aa0b-9e45f5d4cc1a",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "12733",
-            "phone": [
-              {
-                "number": "518-793-3040",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "518-793-3697",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "518-793-3040",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 43.30240174,
-              "longitude": -73.66163569
-            },
-            "storenumber": "12733"
-          },
-          {
-            "address": {
-              "city": "WARRENSBURG",
-              "country": "US",
-              "line1": "3864 MAIN ST",
-              "line2": "",
-              "state": "NY",
-              "zip": "12885"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-02",
-                "day": "Tuesday",
-                "slots": [
-                  "09:45 am",
-                  "10:00 am",
-                  "10:15 am",
-                  "10:30 am"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 10.15,
-            "fhirLocationId": "bca3bcaa-6f4a-4047-a4a7-d394296459d0",
-            "locationId": "bca3bcaa-6f4a-4047-a4a7-d394296459d0",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "19689",
-            "phone": [
-              {
-                "number": "518-623-9251",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "518-623-9257",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "518-623-9251",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 43.49671299,
-              "longitude": -73.77528827
-            },
-            "storenumber": "19689"
+            "storenumber": "17722"
           }
         ]
       }

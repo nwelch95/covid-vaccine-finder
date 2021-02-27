@@ -414,7 +414,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T11:42:20.403+00:00",
+    "appointments_last_fetched": "2021-02-27T12:19:41.407+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -742,7 +742,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T11:42:20.403+00:00",
+    "appointments_last_fetched": "2021-02-27T12:19:41.407+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -1152,7 +1152,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T11:42:20.403+00:00",
+    "appointments_last_fetched": "2021-02-27T12:19:41.407+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -1193,7 +1193,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T11:42:20.403+00:00",
+    "appointments_last_fetched": "2021-02-27T12:19:41.407+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -1316,7 +1316,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T11:42:20.403+00:00",
+    "appointments_last_fetched": "2021-02-27T12:19:41.407+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -1603,21 +1603,503 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T11:47:22.003+00:00",
+    "appointments_last_fetched": "2021-02-27T12:18:30.797+00:00",
     "appointments_raw": {
       "both_doses": {
-        "error": [
+        "locations": [
           {
-            "code": "FC_904_NoData",
-            "message": "Insufficient inventory."
+            "address": {
+              "city": "KANKAKEE",
+              "country": "US",
+              "line1": "222 W COURT ST",
+              "line2": "",
+              "state": "IL",
+              "zip": "60901"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "01:00 pm"
+                ]
+              },
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "09:15 am",
+                  "09:30 am",
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "01:15 pm",
+                  "01:30 pm",
+                  "01:45 pm",
+                  "02:00 pm",
+                  "02:15 pm",
+                  "02:30 pm",
+                  "02:45 pm",
+                  "03:00 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 23.34,
+            "fhirLocationId": "300902ec-c735-4abc-9bd8-62b8d01bebfd",
+            "locationId": "300902ec-c735-4abc-9bd8-62b8d01bebfd",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "12468",
+            "phone": [
+              {
+                "number": "815-936-0817",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "815-936-0941",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "815-936-0817",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 41.12029658,
+              "longitude": -87.86837566
+            },
+            "storenumber": "12468"
+          },
+          {
+            "address": {
+              "city": "KANKAKEE",
+              "country": "US",
+              "line1": "1050 N KENNEDY DR",
+              "line2": "",
+              "state": "IL",
+              "zip": "60901"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "09:15 am",
+                  "09:30 am",
+                  "09:45 am",
+                  "10:30 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "01:15 pm",
+                  "01:30 pm",
+                  "01:45 pm",
+                  "02:00 pm",
+                  "02:15 pm",
+                  "02:30 pm",
+                  "02:45 pm",
+                  "03:00 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 23.81,
+            "fhirLocationId": "5a779676-c492-4eef-9000-365a6ce9adf0",
+            "locationId": "5a779676-c492-4eef-9000-365a6ce9adf0",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "4142",
+            "phone": [
+              {
+                "number": "815-932-9615",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "815-932-9615",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 41.132099,
+              "longitude": -87.877199
+            },
+            "storenumber": "4142"
+          },
+          {
+            "address": {
+              "city": "BOURBONNAIS",
+              "country": "US",
+              "line1": "501 N CONVENT ST",
+              "line2": "",
+              "state": "IL",
+              "zip": "60914"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "09:30 am",
+                  "09:45 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "01:15 pm",
+                  "01:30 pm",
+                  "01:45 pm",
+                  "02:30 pm",
+                  "02:45 pm",
+                  "03:00 pm",
+                  "03:15 pm",
+                  "04:45 pm",
+                  "05:00 pm",
+                  "05:15 pm",
+                  "05:30 pm",
+                  "05:45 pm",
+                  "06:00 pm",
+                  "06:15 pm",
+                  "06:30 pm",
+                  "06:45 pm",
+                  "07:00 pm",
+                  "07:15 pm",
+                  "07:30 pm",
+                  "07:45 pm",
+                  "08:00 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 23.91,
+            "fhirLocationId": "192f0773-3b69-496b-bddc-bc7be49ddf10",
+            "locationId": "192f0773-3b69-496b-bddc-bc7be49ddf10",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "10339",
+            "phone": [
+              {
+                "number": "815-937-0632",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "815-937-0675",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "815-937-0632",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 41.1630462,
+              "longitude": -87.87596333
+            },
+            "storenumber": "10339"
           }
         ]
       },
       "second_dose_moderna": {
-        "error": [
+        "locations": [
           {
-            "code": "FC_904_NoData",
-            "message": "Insufficient inventory."
+            "address": {
+              "city": "KANKAKEE",
+              "country": "US",
+              "line1": "222 W COURT ST",
+              "line2": "",
+              "state": "IL",
+              "zip": "60901"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "01:00 pm"
+                ]
+              },
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "09:15 am",
+                  "09:30 am",
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "01:15 pm",
+                  "01:30 pm",
+                  "01:45 pm",
+                  "02:00 pm",
+                  "02:15 pm",
+                  "02:30 pm",
+                  "02:45 pm",
+                  "03:00 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 11.37,
+            "fhirLocationId": "300902ec-c735-4abc-9bd8-62b8d01bebfd",
+            "locationId": "300902ec-c735-4abc-9bd8-62b8d01bebfd",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "12468",
+            "phone": [
+              {
+                "number": "815-936-0817",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "815-936-0941",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "815-936-0817",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 41.12029658,
+              "longitude": -87.86837566
+            },
+            "storenumber": "12468"
+          },
+          {
+            "address": {
+              "city": "KANKAKEE",
+              "country": "US",
+              "line1": "1050 N KENNEDY DR",
+              "line2": "",
+              "state": "IL",
+              "zip": "60901"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "09:15 am",
+                  "09:30 am",
+                  "09:45 am",
+                  "10:30 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "01:15 pm",
+                  "01:30 pm",
+                  "01:45 pm",
+                  "02:00 pm",
+                  "02:15 pm",
+                  "02:30 pm",
+                  "02:45 pm",
+                  "03:00 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 11.6,
+            "fhirLocationId": "5a779676-c492-4eef-9000-365a6ce9adf0",
+            "locationId": "5a779676-c492-4eef-9000-365a6ce9adf0",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "4142",
+            "phone": [
+              {
+                "number": "815-932-9615",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "815-932-9615",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 41.132099,
+              "longitude": -87.877199
+            },
+            "storenumber": "4142"
+          },
+          {
+            "address": {
+              "city": "BOURBONNAIS",
+              "country": "US",
+              "line1": "501 N CONVENT ST",
+              "line2": "",
+              "state": "IL",
+              "zip": "60914"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "09:30 am",
+                  "09:45 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "01:15 pm",
+                  "01:30 pm",
+                  "01:45 pm",
+                  "02:30 pm",
+                  "02:45 pm",
+                  "03:00 pm",
+                  "03:15 pm",
+                  "04:45 pm",
+                  "05:00 pm",
+                  "05:15 pm",
+                  "05:30 pm",
+                  "05:45 pm",
+                  "06:00 pm",
+                  "06:15 pm",
+                  "06:30 pm",
+                  "06:45 pm",
+                  "07:00 pm",
+                  "07:15 pm",
+                  "07:30 pm",
+                  "07:45 pm",
+                  "08:00 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 11.24,
+            "fhirLocationId": "192f0773-3b69-496b-bddc-bc7be49ddf10",
+            "locationId": "192f0773-3b69-496b-bddc-bc7be49ddf10",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "10339",
+            "phone": [
+              {
+                "number": "815-937-0632",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "815-937-0675",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "815-937-0632",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 41.1630462,
+              "longitude": -87.87596333
+            },
+            "storenumber": "10339"
           }
         ]
       },
@@ -1890,7 +2372,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T11:42:20.403+00:00",
+    "appointments_last_fetched": "2021-02-27T12:19:41.407+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -2587,7 +3069,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T11:45:29.64+00:00",
+    "appointments_last_fetched": "2021-02-27T12:19:23.808+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -2628,7 +3110,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T11:45:29.64+00:00",
+    "appointments_last_fetched": "2021-02-27T12:19:23.808+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -2669,7 +3151,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T11:45:29.64+00:00",
+    "appointments_last_fetched": "2021-02-27T12:19:23.808+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -2710,7 +3192,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T11:45:29.64+00:00",
+    "appointments_last_fetched": "2021-02-27T12:19:23.808+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -2751,7 +3233,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T11:45:29.64+00:00",
+    "appointments_last_fetched": "2021-02-27T12:19:23.808+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -2997,7 +3479,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T11:45:29.64+00:00",
+    "appointments_last_fetched": "2021-02-27T12:19:23.808+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -3325,7 +3807,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T11:45:29.64+00:00",
+    "appointments_last_fetched": "2021-02-27T12:19:23.808+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -28243,7 +28725,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T11:52:54.115+00:00",
+    "appointments_last_fetched": "2021-02-27T12:19:09.126+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -29227,7 +29709,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T11:47:17.704+00:00",
+    "appointments_last_fetched": "2021-02-27T12:18:22.278+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
