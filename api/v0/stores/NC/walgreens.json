@@ -8775,7 +8775,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T06:20:11.093+00:00",
+    "appointments_last_fetched": "2021-02-27T06:32:08.25+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -11850,7 +11850,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T06:20:11.093+00:00",
+    "appointments_last_fetched": "2021-02-27T06:32:08.25+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -11891,7 +11891,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T06:20:11.093+00:00",
+    "appointments_last_fetched": "2021-02-27T06:32:08.25+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -11932,7 +11932,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T06:20:11.093+00:00",
+    "appointments_last_fetched": "2021-02-27T06:32:08.25+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -12669,7 +12669,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T06:20:11.093+00:00",
+    "appointments_last_fetched": "2021-02-27T06:32:08.25+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -12710,7 +12710,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T06:20:11.093+00:00",
+    "appointments_last_fetched": "2021-02-27T06:32:08.25+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -16927,137 +16927,29 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T06:16:09.145+00:00",
+    "appointments_last_fetched": "2021-02-27T06:32:01.374+00:00",
     "appointments_raw": {
       "both_doses": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "CHARLOTTE",
-              "country": "US",
-              "line1": "8520 PARK ROAD",
-              "line2": "",
-              "state": "NC",
-              "zip": "28210"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "05:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 8.58,
-            "fhirLocationId": "70ed7205-ae58-4169-9cd0-a2de0e12f598",
-            "locationId": "70ed7205-ae58-4169-9cd0-a2de0e12f598",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "19702",
-            "phone": [
-              {
-                "number": "704-553-8039",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "704-553-2670",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "704-553-8039",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 35.11682396,
-              "longitude": -80.85768785
-            },
-            "storenumber": "19702"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       },
       "second_dose_moderna": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "CHARLOTTE",
-              "country": "US",
-              "line1": "8520 PARK ROAD",
-              "line2": "",
-              "state": "NC",
-              "zip": "28210"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "05:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 4.89,
-            "fhirLocationId": "70ed7205-ae58-4169-9cd0-a2de0e12f598",
-            "locationId": "70ed7205-ae58-4169-9cd0-a2de0e12f598",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "19702",
-            "phone": [
-              {
-                "number": "704-553-8039",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "704-553-2670",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "704-553-8039",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 35.11682396,
-              "longitude": -80.85768785
-            },
-            "storenumber": "19702"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       },
       "second_dose_pfizer": {
-        "errors": [
+        "error": [
           {
-            "code": "FC_907_NoData",
-            "message": "No participating store."
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       }
@@ -17199,137 +17091,29 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T06:16:09.145+00:00",
+    "appointments_last_fetched": "2021-02-27T06:32:01.374+00:00",
     "appointments_raw": {
       "both_doses": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "CHARLOTTE",
-              "country": "US",
-              "line1": "8520 PARK ROAD",
-              "line2": "",
-              "state": "NC",
-              "zip": "28210"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "05:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 8.58,
-            "fhirLocationId": "70ed7205-ae58-4169-9cd0-a2de0e12f598",
-            "locationId": "70ed7205-ae58-4169-9cd0-a2de0e12f598",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "19702",
-            "phone": [
-              {
-                "number": "704-553-8039",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "704-553-2670",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "704-553-8039",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 35.11682396,
-              "longitude": -80.85768785
-            },
-            "storenumber": "19702"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       },
       "second_dose_moderna": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "CHARLOTTE",
-              "country": "US",
-              "line1": "8520 PARK ROAD",
-              "line2": "",
-              "state": "NC",
-              "zip": "28210"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "05:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 4.89,
-            "fhirLocationId": "70ed7205-ae58-4169-9cd0-a2de0e12f598",
-            "locationId": "70ed7205-ae58-4169-9cd0-a2de0e12f598",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "19702",
-            "phone": [
-              {
-                "number": "704-553-8039",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "704-553-2670",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "704-553-8039",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 35.11682396,
-              "longitude": -80.85768785
-            },
-            "storenumber": "19702"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       },
       "second_dose_pfizer": {
-        "errors": [
+        "error": [
           {
-            "code": "FC_907_NoData",
-            "message": "No participating store."
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       }
@@ -17430,137 +17214,29 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T06:16:09.145+00:00",
+    "appointments_last_fetched": "2021-02-27T06:32:01.374+00:00",
     "appointments_raw": {
       "both_doses": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "CHARLOTTE",
-              "country": "US",
-              "line1": "8520 PARK ROAD",
-              "line2": "",
-              "state": "NC",
-              "zip": "28210"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "05:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 8.58,
-            "fhirLocationId": "70ed7205-ae58-4169-9cd0-a2de0e12f598",
-            "locationId": "70ed7205-ae58-4169-9cd0-a2de0e12f598",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "19702",
-            "phone": [
-              {
-                "number": "704-553-8039",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "704-553-2670",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "704-553-8039",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 35.11682396,
-              "longitude": -80.85768785
-            },
-            "storenumber": "19702"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       },
       "second_dose_moderna": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "CHARLOTTE",
-              "country": "US",
-              "line1": "8520 PARK ROAD",
-              "line2": "",
-              "state": "NC",
-              "zip": "28210"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "05:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 4.89,
-            "fhirLocationId": "70ed7205-ae58-4169-9cd0-a2de0e12f598",
-            "locationId": "70ed7205-ae58-4169-9cd0-a2de0e12f598",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "19702",
-            "phone": [
-              {
-                "number": "704-553-8039",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "704-553-2670",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "704-553-8039",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 35.11682396,
-              "longitude": -80.85768785
-            },
-            "storenumber": "19702"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       },
       "second_dose_pfizer": {
-        "errors": [
+        "error": [
           {
-            "code": "FC_907_NoData",
-            "message": "No participating store."
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       }
@@ -17620,137 +17296,29 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T06:16:09.145+00:00",
+    "appointments_last_fetched": "2021-02-27T06:32:01.374+00:00",
     "appointments_raw": {
       "both_doses": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "CHARLOTTE",
-              "country": "US",
-              "line1": "8520 PARK ROAD",
-              "line2": "",
-              "state": "NC",
-              "zip": "28210"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "05:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 8.58,
-            "fhirLocationId": "70ed7205-ae58-4169-9cd0-a2de0e12f598",
-            "locationId": "70ed7205-ae58-4169-9cd0-a2de0e12f598",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "19702",
-            "phone": [
-              {
-                "number": "704-553-8039",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "704-553-2670",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "704-553-8039",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 35.11682396,
-              "longitude": -80.85768785
-            },
-            "storenumber": "19702"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       },
       "second_dose_moderna": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "CHARLOTTE",
-              "country": "US",
-              "line1": "8520 PARK ROAD",
-              "line2": "",
-              "state": "NC",
-              "zip": "28210"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "05:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 4.89,
-            "fhirLocationId": "70ed7205-ae58-4169-9cd0-a2de0e12f598",
-            "locationId": "70ed7205-ae58-4169-9cd0-a2de0e12f598",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "19702",
-            "phone": [
-              {
-                "number": "704-553-8039",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "704-553-2670",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "704-553-8039",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 35.11682396,
-              "longitude": -80.85768785
-            },
-            "storenumber": "19702"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       },
       "second_dose_pfizer": {
-        "errors": [
+        "error": [
           {
-            "code": "FC_907_NoData",
-            "message": "No participating store."
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       }
@@ -17851,137 +17419,29 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T06:16:09.145+00:00",
+    "appointments_last_fetched": "2021-02-27T06:32:01.374+00:00",
     "appointments_raw": {
       "both_doses": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "CHARLOTTE",
-              "country": "US",
-              "line1": "8520 PARK ROAD",
-              "line2": "",
-              "state": "NC",
-              "zip": "28210"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "05:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 8.58,
-            "fhirLocationId": "70ed7205-ae58-4169-9cd0-a2de0e12f598",
-            "locationId": "70ed7205-ae58-4169-9cd0-a2de0e12f598",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "19702",
-            "phone": [
-              {
-                "number": "704-553-8039",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "704-553-2670",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "704-553-8039",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 35.11682396,
-              "longitude": -80.85768785
-            },
-            "storenumber": "19702"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       },
       "second_dose_moderna": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "CHARLOTTE",
-              "country": "US",
-              "line1": "8520 PARK ROAD",
-              "line2": "",
-              "state": "NC",
-              "zip": "28210"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "05:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 4.89,
-            "fhirLocationId": "70ed7205-ae58-4169-9cd0-a2de0e12f598",
-            "locationId": "70ed7205-ae58-4169-9cd0-a2de0e12f598",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "19702",
-            "phone": [
-              {
-                "number": "704-553-8039",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "704-553-2670",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "704-553-8039",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 35.11682396,
-              "longitude": -80.85768785
-            },
-            "storenumber": "19702"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       },
       "second_dose_pfizer": {
-        "errors": [
+        "error": [
           {
-            "code": "FC_907_NoData",
-            "message": "No participating store."
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       }
@@ -18000,137 +17460,29 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T06:16:09.145+00:00",
+    "appointments_last_fetched": "2021-02-27T06:32:01.374+00:00",
     "appointments_raw": {
       "both_doses": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "CHARLOTTE",
-              "country": "US",
-              "line1": "8520 PARK ROAD",
-              "line2": "",
-              "state": "NC",
-              "zip": "28210"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "05:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 8.58,
-            "fhirLocationId": "70ed7205-ae58-4169-9cd0-a2de0e12f598",
-            "locationId": "70ed7205-ae58-4169-9cd0-a2de0e12f598",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "19702",
-            "phone": [
-              {
-                "number": "704-553-8039",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "704-553-2670",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "704-553-8039",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 35.11682396,
-              "longitude": -80.85768785
-            },
-            "storenumber": "19702"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       },
       "second_dose_moderna": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "CHARLOTTE",
-              "country": "US",
-              "line1": "8520 PARK ROAD",
-              "line2": "",
-              "state": "NC",
-              "zip": "28210"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "05:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 4.89,
-            "fhirLocationId": "70ed7205-ae58-4169-9cd0-a2de0e12f598",
-            "locationId": "70ed7205-ae58-4169-9cd0-a2de0e12f598",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "19702",
-            "phone": [
-              {
-                "number": "704-553-8039",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "704-553-2670",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "704-553-8039",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 35.11682396,
-              "longitude": -80.85768785
-            },
-            "storenumber": "19702"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       },
       "second_dose_pfizer": {
-        "errors": [
+        "error": [
           {
-            "code": "FC_907_NoData",
-            "message": "No participating store."
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       }
@@ -18149,137 +17501,29 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T06:16:09.145+00:00",
+    "appointments_last_fetched": "2021-02-27T06:32:01.374+00:00",
     "appointments_raw": {
       "both_doses": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "CHARLOTTE",
-              "country": "US",
-              "line1": "8520 PARK ROAD",
-              "line2": "",
-              "state": "NC",
-              "zip": "28210"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "05:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 8.58,
-            "fhirLocationId": "70ed7205-ae58-4169-9cd0-a2de0e12f598",
-            "locationId": "70ed7205-ae58-4169-9cd0-a2de0e12f598",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "19702",
-            "phone": [
-              {
-                "number": "704-553-8039",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "704-553-2670",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "704-553-8039",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 35.11682396,
-              "longitude": -80.85768785
-            },
-            "storenumber": "19702"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       },
       "second_dose_moderna": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "CHARLOTTE",
-              "country": "US",
-              "line1": "8520 PARK ROAD",
-              "line2": "",
-              "state": "NC",
-              "zip": "28210"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "05:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 4.89,
-            "fhirLocationId": "70ed7205-ae58-4169-9cd0-a2de0e12f598",
-            "locationId": "70ed7205-ae58-4169-9cd0-a2de0e12f598",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "19702",
-            "phone": [
-              {
-                "number": "704-553-8039",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "704-553-2670",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "704-553-8039",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 35.11682396,
-              "longitude": -80.85768785
-            },
-            "storenumber": "19702"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       },
       "second_dose_pfizer": {
-        "errors": [
+        "error": [
           {
-            "code": "FC_907_NoData",
-            "message": "No participating store."
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       }
@@ -18298,137 +17542,29 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T06:16:09.145+00:00",
+    "appointments_last_fetched": "2021-02-27T06:32:01.374+00:00",
     "appointments_raw": {
       "both_doses": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "CHARLOTTE",
-              "country": "US",
-              "line1": "8520 PARK ROAD",
-              "line2": "",
-              "state": "NC",
-              "zip": "28210"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "05:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 8.58,
-            "fhirLocationId": "70ed7205-ae58-4169-9cd0-a2de0e12f598",
-            "locationId": "70ed7205-ae58-4169-9cd0-a2de0e12f598",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "19702",
-            "phone": [
-              {
-                "number": "704-553-8039",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "704-553-2670",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "704-553-8039",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 35.11682396,
-              "longitude": -80.85768785
-            },
-            "storenumber": "19702"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       },
       "second_dose_moderna": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "CHARLOTTE",
-              "country": "US",
-              "line1": "8520 PARK ROAD",
-              "line2": "",
-              "state": "NC",
-              "zip": "28210"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "05:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 4.89,
-            "fhirLocationId": "70ed7205-ae58-4169-9cd0-a2de0e12f598",
-            "locationId": "70ed7205-ae58-4169-9cd0-a2de0e12f598",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "19702",
-            "phone": [
-              {
-                "number": "704-553-8039",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "704-553-2670",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "704-553-8039",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 35.11682396,
-              "longitude": -80.85768785
-            },
-            "storenumber": "19702"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       },
       "second_dose_pfizer": {
-        "errors": [
+        "error": [
           {
-            "code": "FC_907_NoData",
-            "message": "No participating store."
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       }
@@ -18529,137 +17665,29 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T06:16:09.145+00:00",
+    "appointments_last_fetched": "2021-02-27T06:32:01.374+00:00",
     "appointments_raw": {
       "both_doses": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "CHARLOTTE",
-              "country": "US",
-              "line1": "8520 PARK ROAD",
-              "line2": "",
-              "state": "NC",
-              "zip": "28210"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "05:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 8.58,
-            "fhirLocationId": "70ed7205-ae58-4169-9cd0-a2de0e12f598",
-            "locationId": "70ed7205-ae58-4169-9cd0-a2de0e12f598",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "19702",
-            "phone": [
-              {
-                "number": "704-553-8039",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "704-553-2670",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "704-553-8039",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 35.11682396,
-              "longitude": -80.85768785
-            },
-            "storenumber": "19702"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       },
       "second_dose_moderna": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "CHARLOTTE",
-              "country": "US",
-              "line1": "8520 PARK ROAD",
-              "line2": "",
-              "state": "NC",
-              "zip": "28210"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "05:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 4.89,
-            "fhirLocationId": "70ed7205-ae58-4169-9cd0-a2de0e12f598",
-            "locationId": "70ed7205-ae58-4169-9cd0-a2de0e12f598",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "19702",
-            "phone": [
-              {
-                "number": "704-553-8039",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "704-553-2670",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "704-553-8039",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 35.11682396,
-              "longitude": -80.85768785
-            },
-            "storenumber": "19702"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       },
       "second_dose_pfizer": {
-        "errors": [
+        "error": [
           {
-            "code": "FC_907_NoData",
-            "message": "No participating store."
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       }
@@ -18678,137 +17706,29 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T06:16:09.145+00:00",
+    "appointments_last_fetched": "2021-02-27T06:32:01.374+00:00",
     "appointments_raw": {
       "both_doses": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "CHARLOTTE",
-              "country": "US",
-              "line1": "8520 PARK ROAD",
-              "line2": "",
-              "state": "NC",
-              "zip": "28210"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "05:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 8.58,
-            "fhirLocationId": "70ed7205-ae58-4169-9cd0-a2de0e12f598",
-            "locationId": "70ed7205-ae58-4169-9cd0-a2de0e12f598",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "19702",
-            "phone": [
-              {
-                "number": "704-553-8039",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "704-553-2670",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "704-553-8039",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 35.11682396,
-              "longitude": -80.85768785
-            },
-            "storenumber": "19702"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       },
       "second_dose_moderna": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "CHARLOTTE",
-              "country": "US",
-              "line1": "8520 PARK ROAD",
-              "line2": "",
-              "state": "NC",
-              "zip": "28210"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "05:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 4.89,
-            "fhirLocationId": "70ed7205-ae58-4169-9cd0-a2de0e12f598",
-            "locationId": "70ed7205-ae58-4169-9cd0-a2de0e12f598",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "19702",
-            "phone": [
-              {
-                "number": "704-553-8039",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "704-553-2670",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "704-553-8039",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 35.11682396,
-              "longitude": -80.85768785
-            },
-            "storenumber": "19702"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       },
       "second_dose_pfizer": {
-        "errors": [
+        "error": [
           {
-            "code": "FC_907_NoData",
-            "message": "No participating store."
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       }
@@ -18868,137 +17788,29 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T06:16:09.145+00:00",
+    "appointments_last_fetched": "2021-02-27T06:32:01.374+00:00",
     "appointments_raw": {
       "both_doses": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "CHARLOTTE",
-              "country": "US",
-              "line1": "8520 PARK ROAD",
-              "line2": "",
-              "state": "NC",
-              "zip": "28210"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "05:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 8.58,
-            "fhirLocationId": "70ed7205-ae58-4169-9cd0-a2de0e12f598",
-            "locationId": "70ed7205-ae58-4169-9cd0-a2de0e12f598",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "19702",
-            "phone": [
-              {
-                "number": "704-553-8039",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "704-553-2670",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "704-553-8039",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 35.11682396,
-              "longitude": -80.85768785
-            },
-            "storenumber": "19702"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       },
       "second_dose_moderna": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "CHARLOTTE",
-              "country": "US",
-              "line1": "8520 PARK ROAD",
-              "line2": "",
-              "state": "NC",
-              "zip": "28210"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "05:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 4.89,
-            "fhirLocationId": "70ed7205-ae58-4169-9cd0-a2de0e12f598",
-            "locationId": "70ed7205-ae58-4169-9cd0-a2de0e12f598",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "19702",
-            "phone": [
-              {
-                "number": "704-553-8039",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "704-553-2670",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "704-553-8039",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 35.11682396,
-              "longitude": -80.85768785
-            },
-            "storenumber": "19702"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       },
       "second_dose_pfizer": {
-        "errors": [
+        "error": [
           {
-            "code": "FC_907_NoData",
-            "message": "No participating store."
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       }
@@ -19017,137 +17829,29 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T06:16:09.145+00:00",
+    "appointments_last_fetched": "2021-02-27T06:32:01.374+00:00",
     "appointments_raw": {
       "both_doses": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "CHARLOTTE",
-              "country": "US",
-              "line1": "8520 PARK ROAD",
-              "line2": "",
-              "state": "NC",
-              "zip": "28210"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "05:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 8.58,
-            "fhirLocationId": "70ed7205-ae58-4169-9cd0-a2de0e12f598",
-            "locationId": "70ed7205-ae58-4169-9cd0-a2de0e12f598",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "19702",
-            "phone": [
-              {
-                "number": "704-553-8039",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "704-553-2670",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "704-553-8039",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 35.11682396,
-              "longitude": -80.85768785
-            },
-            "storenumber": "19702"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       },
       "second_dose_moderna": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "CHARLOTTE",
-              "country": "US",
-              "line1": "8520 PARK ROAD",
-              "line2": "",
-              "state": "NC",
-              "zip": "28210"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "05:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 4.89,
-            "fhirLocationId": "70ed7205-ae58-4169-9cd0-a2de0e12f598",
-            "locationId": "70ed7205-ae58-4169-9cd0-a2de0e12f598",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "19702",
-            "phone": [
-              {
-                "number": "704-553-8039",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "704-553-2670",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "704-553-8039",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 35.11682396,
-              "longitude": -80.85768785
-            },
-            "storenumber": "19702"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       },
       "second_dose_pfizer": {
-        "errors": [
+        "error": [
           {
-            "code": "FC_907_NoData",
-            "message": "No participating store."
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       }
@@ -19166,137 +17870,29 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T06:16:09.145+00:00",
+    "appointments_last_fetched": "2021-02-27T06:32:01.374+00:00",
     "appointments_raw": {
       "both_doses": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "CHARLOTTE",
-              "country": "US",
-              "line1": "8520 PARK ROAD",
-              "line2": "",
-              "state": "NC",
-              "zip": "28210"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "05:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 8.58,
-            "fhirLocationId": "70ed7205-ae58-4169-9cd0-a2de0e12f598",
-            "locationId": "70ed7205-ae58-4169-9cd0-a2de0e12f598",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "19702",
-            "phone": [
-              {
-                "number": "704-553-8039",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "704-553-2670",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "704-553-8039",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 35.11682396,
-              "longitude": -80.85768785
-            },
-            "storenumber": "19702"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       },
       "second_dose_moderna": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "CHARLOTTE",
-              "country": "US",
-              "line1": "8520 PARK ROAD",
-              "line2": "",
-              "state": "NC",
-              "zip": "28210"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "05:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 4.89,
-            "fhirLocationId": "70ed7205-ae58-4169-9cd0-a2de0e12f598",
-            "locationId": "70ed7205-ae58-4169-9cd0-a2de0e12f598",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "19702",
-            "phone": [
-              {
-                "number": "704-553-8039",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "704-553-2670",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "704-553-8039",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 35.11682396,
-              "longitude": -80.85768785
-            },
-            "storenumber": "19702"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       },
       "second_dose_pfizer": {
-        "errors": [
+        "error": [
           {
-            "code": "FC_907_NoData",
-            "message": "No participating store."
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       }
@@ -19397,137 +17993,29 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T06:16:09.145+00:00",
+    "appointments_last_fetched": "2021-02-27T06:32:01.374+00:00",
     "appointments_raw": {
       "both_doses": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "CHARLOTTE",
-              "country": "US",
-              "line1": "8520 PARK ROAD",
-              "line2": "",
-              "state": "NC",
-              "zip": "28210"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "05:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 8.58,
-            "fhirLocationId": "70ed7205-ae58-4169-9cd0-a2de0e12f598",
-            "locationId": "70ed7205-ae58-4169-9cd0-a2de0e12f598",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "19702",
-            "phone": [
-              {
-                "number": "704-553-8039",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "704-553-2670",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "704-553-8039",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 35.11682396,
-              "longitude": -80.85768785
-            },
-            "storenumber": "19702"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       },
       "second_dose_moderna": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "CHARLOTTE",
-              "country": "US",
-              "line1": "8520 PARK ROAD",
-              "line2": "",
-              "state": "NC",
-              "zip": "28210"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "05:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 4.89,
-            "fhirLocationId": "70ed7205-ae58-4169-9cd0-a2de0e12f598",
-            "locationId": "70ed7205-ae58-4169-9cd0-a2de0e12f598",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "19702",
-            "phone": [
-              {
-                "number": "704-553-8039",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "704-553-2670",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "704-553-8039",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 35.11682396,
-              "longitude": -80.85768785
-            },
-            "storenumber": "19702"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       },
       "second_dose_pfizer": {
-        "errors": [
+        "error": [
           {
-            "code": "FC_907_NoData",
-            "message": "No participating store."
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       }
@@ -19546,137 +18034,29 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T06:16:09.145+00:00",
+    "appointments_last_fetched": "2021-02-27T06:32:01.374+00:00",
     "appointments_raw": {
       "both_doses": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "CHARLOTTE",
-              "country": "US",
-              "line1": "8520 PARK ROAD",
-              "line2": "",
-              "state": "NC",
-              "zip": "28210"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "05:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 8.58,
-            "fhirLocationId": "70ed7205-ae58-4169-9cd0-a2de0e12f598",
-            "locationId": "70ed7205-ae58-4169-9cd0-a2de0e12f598",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "19702",
-            "phone": [
-              {
-                "number": "704-553-8039",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "704-553-2670",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "704-553-8039",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 35.11682396,
-              "longitude": -80.85768785
-            },
-            "storenumber": "19702"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       },
       "second_dose_moderna": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "CHARLOTTE",
-              "country": "US",
-              "line1": "8520 PARK ROAD",
-              "line2": "",
-              "state": "NC",
-              "zip": "28210"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "05:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 4.89,
-            "fhirLocationId": "70ed7205-ae58-4169-9cd0-a2de0e12f598",
-            "locationId": "70ed7205-ae58-4169-9cd0-a2de0e12f598",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "19702",
-            "phone": [
-              {
-                "number": "704-553-8039",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "704-553-2670",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "704-553-8039",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 35.11682396,
-              "longitude": -80.85768785
-            },
-            "storenumber": "19702"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       },
       "second_dose_pfizer": {
-        "errors": [
+        "error": [
           {
-            "code": "FC_907_NoData",
-            "message": "No participating store."
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       }
@@ -19693,139 +18073,23 @@
   {
     "address": "8520 PARK ROAD",
     "appointments": [
-      {
-        "time": "2021-03-01T17:30:00.000-05:00",
-        "type": "both_doses"
-      },
-      {
-        "time": "2021-03-01T17:30:00.000-05:00",
-        "type": "second_dose_moderna"
-      }
     ],
-    "appointments_available": true,
-    "appointments_last_fetched": "2021-02-27T06:25:02.204+00:00",
+    "appointments_available": false,
+    "appointments_last_fetched": "2021-02-27T06:32:01.374+00:00",
     "appointments_raw": {
       "both_doses": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "CHARLOTTE",
-              "country": "US",
-              "line1": "8520 PARK ROAD",
-              "line2": "",
-              "state": "NC",
-              "zip": "28210"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "05:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 19.65,
-            "fhirLocationId": "70ed7205-ae58-4169-9cd0-a2de0e12f598",
-            "locationId": "70ed7205-ae58-4169-9cd0-a2de0e12f598",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "19702",
-            "phone": [
-              {
-                "number": "704-553-8039",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "704-553-2670",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "704-553-8039",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 35.11682396,
-              "longitude": -80.85768785
-            },
-            "storenumber": "19702"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       },
       "second_dose_moderna": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "CHARLOTTE",
-              "country": "US",
-              "line1": "8520 PARK ROAD",
-              "line2": "",
-              "state": "NC",
-              "zip": "28210"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "05:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 3.01,
-            "fhirLocationId": "70ed7205-ae58-4169-9cd0-a2de0e12f598",
-            "locationId": "70ed7205-ae58-4169-9cd0-a2de0e12f598",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "19702",
-            "phone": [
-              {
-                "number": "704-553-8039",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "704-553-2670",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "704-553-8039",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 35.11682396,
-              "longitude": -80.85768785
-            },
-            "storenumber": "19702"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       },
@@ -19852,137 +18116,29 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T06:16:09.145+00:00",
+    "appointments_last_fetched": "2021-02-27T06:32:01.374+00:00",
     "appointments_raw": {
       "both_doses": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "CHARLOTTE",
-              "country": "US",
-              "line1": "8520 PARK ROAD",
-              "line2": "",
-              "state": "NC",
-              "zip": "28210"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "05:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 8.58,
-            "fhirLocationId": "70ed7205-ae58-4169-9cd0-a2de0e12f598",
-            "locationId": "70ed7205-ae58-4169-9cd0-a2de0e12f598",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "19702",
-            "phone": [
-              {
-                "number": "704-553-8039",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "704-553-2670",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "704-553-8039",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 35.11682396,
-              "longitude": -80.85768785
-            },
-            "storenumber": "19702"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       },
       "second_dose_moderna": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "CHARLOTTE",
-              "country": "US",
-              "line1": "8520 PARK ROAD",
-              "line2": "",
-              "state": "NC",
-              "zip": "28210"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "05:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 4.89,
-            "fhirLocationId": "70ed7205-ae58-4169-9cd0-a2de0e12f598",
-            "locationId": "70ed7205-ae58-4169-9cd0-a2de0e12f598",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "19702",
-            "phone": [
-              {
-                "number": "704-553-8039",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "704-553-2670",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "704-553-8039",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 35.11682396,
-              "longitude": -80.85768785
-            },
-            "storenumber": "19702"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       },
       "second_dose_pfizer": {
-        "errors": [
+        "error": [
           {
-            "code": "FC_907_NoData",
-            "message": "No participating store."
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       }
@@ -20001,137 +18157,29 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T06:16:09.145+00:00",
+    "appointments_last_fetched": "2021-02-27T06:32:01.374+00:00",
     "appointments_raw": {
       "both_doses": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "CHARLOTTE",
-              "country": "US",
-              "line1": "8520 PARK ROAD",
-              "line2": "",
-              "state": "NC",
-              "zip": "28210"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "05:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 8.58,
-            "fhirLocationId": "70ed7205-ae58-4169-9cd0-a2de0e12f598",
-            "locationId": "70ed7205-ae58-4169-9cd0-a2de0e12f598",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "19702",
-            "phone": [
-              {
-                "number": "704-553-8039",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "704-553-2670",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "704-553-8039",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 35.11682396,
-              "longitude": -80.85768785
-            },
-            "storenumber": "19702"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       },
       "second_dose_moderna": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "CHARLOTTE",
-              "country": "US",
-              "line1": "8520 PARK ROAD",
-              "line2": "",
-              "state": "NC",
-              "zip": "28210"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "05:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 4.89,
-            "fhirLocationId": "70ed7205-ae58-4169-9cd0-a2de0e12f598",
-            "locationId": "70ed7205-ae58-4169-9cd0-a2de0e12f598",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "19702",
-            "phone": [
-              {
-                "number": "704-553-8039",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "704-553-2670",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "704-553-8039",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 35.11682396,
-              "longitude": -80.85768785
-            },
-            "storenumber": "19702"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       },
       "second_dose_pfizer": {
-        "errors": [
+        "error": [
           {
-            "code": "FC_907_NoData",
-            "message": "No participating store."
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       }
@@ -20150,137 +18198,29 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T06:16:09.145+00:00",
+    "appointments_last_fetched": "2021-02-27T06:32:01.374+00:00",
     "appointments_raw": {
       "both_doses": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "CHARLOTTE",
-              "country": "US",
-              "line1": "8520 PARK ROAD",
-              "line2": "",
-              "state": "NC",
-              "zip": "28210"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "05:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 8.58,
-            "fhirLocationId": "70ed7205-ae58-4169-9cd0-a2de0e12f598",
-            "locationId": "70ed7205-ae58-4169-9cd0-a2de0e12f598",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "19702",
-            "phone": [
-              {
-                "number": "704-553-8039",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "704-553-2670",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "704-553-8039",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 35.11682396,
-              "longitude": -80.85768785
-            },
-            "storenumber": "19702"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       },
       "second_dose_moderna": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "CHARLOTTE",
-              "country": "US",
-              "line1": "8520 PARK ROAD",
-              "line2": "",
-              "state": "NC",
-              "zip": "28210"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "05:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 4.89,
-            "fhirLocationId": "70ed7205-ae58-4169-9cd0-a2de0e12f598",
-            "locationId": "70ed7205-ae58-4169-9cd0-a2de0e12f598",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "19702",
-            "phone": [
-              {
-                "number": "704-553-8039",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "704-553-2670",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "704-553-8039",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 35.11682396,
-              "longitude": -80.85768785
-            },
-            "storenumber": "19702"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       },
       "second_dose_pfizer": {
-        "errors": [
+        "error": [
           {
-            "code": "FC_907_NoData",
-            "message": "No participating store."
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       }
@@ -20299,137 +18239,29 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T06:16:09.145+00:00",
+    "appointments_last_fetched": "2021-02-27T06:32:01.374+00:00",
     "appointments_raw": {
       "both_doses": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "CHARLOTTE",
-              "country": "US",
-              "line1": "8520 PARK ROAD",
-              "line2": "",
-              "state": "NC",
-              "zip": "28210"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "05:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 8.58,
-            "fhirLocationId": "70ed7205-ae58-4169-9cd0-a2de0e12f598",
-            "locationId": "70ed7205-ae58-4169-9cd0-a2de0e12f598",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "19702",
-            "phone": [
-              {
-                "number": "704-553-8039",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "704-553-2670",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "704-553-8039",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 35.11682396,
-              "longitude": -80.85768785
-            },
-            "storenumber": "19702"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       },
       "second_dose_moderna": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "CHARLOTTE",
-              "country": "US",
-              "line1": "8520 PARK ROAD",
-              "line2": "",
-              "state": "NC",
-              "zip": "28210"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "05:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 4.89,
-            "fhirLocationId": "70ed7205-ae58-4169-9cd0-a2de0e12f598",
-            "locationId": "70ed7205-ae58-4169-9cd0-a2de0e12f598",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "19702",
-            "phone": [
-              {
-                "number": "704-553-8039",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "704-553-2670",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "704-553-8039",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 35.11682396,
-              "longitude": -80.85768785
-            },
-            "storenumber": "19702"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       },
       "second_dose_pfizer": {
-        "errors": [
+        "error": [
           {
-            "code": "FC_907_NoData",
-            "message": "No participating store."
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       }
@@ -20489,137 +18321,29 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T06:16:09.145+00:00",
+    "appointments_last_fetched": "2021-02-27T06:32:01.374+00:00",
     "appointments_raw": {
       "both_doses": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "CHARLOTTE",
-              "country": "US",
-              "line1": "8520 PARK ROAD",
-              "line2": "",
-              "state": "NC",
-              "zip": "28210"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "05:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 8.58,
-            "fhirLocationId": "70ed7205-ae58-4169-9cd0-a2de0e12f598",
-            "locationId": "70ed7205-ae58-4169-9cd0-a2de0e12f598",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "19702",
-            "phone": [
-              {
-                "number": "704-553-8039",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "704-553-2670",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "704-553-8039",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 35.11682396,
-              "longitude": -80.85768785
-            },
-            "storenumber": "19702"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       },
       "second_dose_moderna": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "CHARLOTTE",
-              "country": "US",
-              "line1": "8520 PARK ROAD",
-              "line2": "",
-              "state": "NC",
-              "zip": "28210"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "05:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 4.89,
-            "fhirLocationId": "70ed7205-ae58-4169-9cd0-a2de0e12f598",
-            "locationId": "70ed7205-ae58-4169-9cd0-a2de0e12f598",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "19702",
-            "phone": [
-              {
-                "number": "704-553-8039",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "704-553-2670",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "704-553-8039",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 35.11682396,
-              "longitude": -80.85768785
-            },
-            "storenumber": "19702"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       },
       "second_dose_pfizer": {
-        "errors": [
+        "error": [
           {
-            "code": "FC_907_NoData",
-            "message": "No participating store."
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       }
@@ -20638,137 +18362,29 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T06:16:09.145+00:00",
+    "appointments_last_fetched": "2021-02-27T06:32:01.374+00:00",
     "appointments_raw": {
       "both_doses": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "CHARLOTTE",
-              "country": "US",
-              "line1": "8520 PARK ROAD",
-              "line2": "",
-              "state": "NC",
-              "zip": "28210"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "05:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 8.58,
-            "fhirLocationId": "70ed7205-ae58-4169-9cd0-a2de0e12f598",
-            "locationId": "70ed7205-ae58-4169-9cd0-a2de0e12f598",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "19702",
-            "phone": [
-              {
-                "number": "704-553-8039",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "704-553-2670",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "704-553-8039",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 35.11682396,
-              "longitude": -80.85768785
-            },
-            "storenumber": "19702"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       },
       "second_dose_moderna": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "CHARLOTTE",
-              "country": "US",
-              "line1": "8520 PARK ROAD",
-              "line2": "",
-              "state": "NC",
-              "zip": "28210"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "05:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 4.89,
-            "fhirLocationId": "70ed7205-ae58-4169-9cd0-a2de0e12f598",
-            "locationId": "70ed7205-ae58-4169-9cd0-a2de0e12f598",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "19702",
-            "phone": [
-              {
-                "number": "704-553-8039",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "704-553-2670",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "704-553-8039",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 35.11682396,
-              "longitude": -80.85768785
-            },
-            "storenumber": "19702"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       },
       "second_dose_pfizer": {
-        "errors": [
+        "error": [
           {
-            "code": "FC_907_NoData",
-            "message": "No participating store."
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       }
@@ -20787,137 +18403,29 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T06:16:09.145+00:00",
+    "appointments_last_fetched": "2021-02-27T06:32:01.374+00:00",
     "appointments_raw": {
       "both_doses": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "CHARLOTTE",
-              "country": "US",
-              "line1": "8520 PARK ROAD",
-              "line2": "",
-              "state": "NC",
-              "zip": "28210"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "05:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 8.58,
-            "fhirLocationId": "70ed7205-ae58-4169-9cd0-a2de0e12f598",
-            "locationId": "70ed7205-ae58-4169-9cd0-a2de0e12f598",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "19702",
-            "phone": [
-              {
-                "number": "704-553-8039",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "704-553-2670",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "704-553-8039",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 35.11682396,
-              "longitude": -80.85768785
-            },
-            "storenumber": "19702"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       },
       "second_dose_moderna": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "CHARLOTTE",
-              "country": "US",
-              "line1": "8520 PARK ROAD",
-              "line2": "",
-              "state": "NC",
-              "zip": "28210"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "05:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 4.89,
-            "fhirLocationId": "70ed7205-ae58-4169-9cd0-a2de0e12f598",
-            "locationId": "70ed7205-ae58-4169-9cd0-a2de0e12f598",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "19702",
-            "phone": [
-              {
-                "number": "704-553-8039",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "704-553-2670",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "704-553-8039",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 35.11682396,
-              "longitude": -80.85768785
-            },
-            "storenumber": "19702"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       },
       "second_dose_pfizer": {
-        "errors": [
+        "error": [
           {
-            "code": "FC_907_NoData",
-            "message": "No participating store."
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       }
@@ -20936,137 +18444,29 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T06:16:09.145+00:00",
+    "appointments_last_fetched": "2021-02-27T06:32:01.374+00:00",
     "appointments_raw": {
       "both_doses": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "CHARLOTTE",
-              "country": "US",
-              "line1": "8520 PARK ROAD",
-              "line2": "",
-              "state": "NC",
-              "zip": "28210"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "05:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 8.58,
-            "fhirLocationId": "70ed7205-ae58-4169-9cd0-a2de0e12f598",
-            "locationId": "70ed7205-ae58-4169-9cd0-a2de0e12f598",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "19702",
-            "phone": [
-              {
-                "number": "704-553-8039",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "704-553-2670",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "704-553-8039",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 35.11682396,
-              "longitude": -80.85768785
-            },
-            "storenumber": "19702"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       },
       "second_dose_moderna": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "CHARLOTTE",
-              "country": "US",
-              "line1": "8520 PARK ROAD",
-              "line2": "",
-              "state": "NC",
-              "zip": "28210"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "05:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 4.89,
-            "fhirLocationId": "70ed7205-ae58-4169-9cd0-a2de0e12f598",
-            "locationId": "70ed7205-ae58-4169-9cd0-a2de0e12f598",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "19702",
-            "phone": [
-              {
-                "number": "704-553-8039",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "704-553-2670",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "704-553-8039",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 35.11682396,
-              "longitude": -80.85768785
-            },
-            "storenumber": "19702"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       },
       "second_dose_pfizer": {
-        "errors": [
+        "error": [
           {
-            "code": "FC_907_NoData",
-            "message": "No participating store."
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       }
@@ -21126,137 +18526,29 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T06:16:09.145+00:00",
+    "appointments_last_fetched": "2021-02-27T06:32:01.374+00:00",
     "appointments_raw": {
       "both_doses": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "CHARLOTTE",
-              "country": "US",
-              "line1": "8520 PARK ROAD",
-              "line2": "",
-              "state": "NC",
-              "zip": "28210"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "05:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 8.58,
-            "fhirLocationId": "70ed7205-ae58-4169-9cd0-a2de0e12f598",
-            "locationId": "70ed7205-ae58-4169-9cd0-a2de0e12f598",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "19702",
-            "phone": [
-              {
-                "number": "704-553-8039",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "704-553-2670",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "704-553-8039",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 35.11682396,
-              "longitude": -80.85768785
-            },
-            "storenumber": "19702"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       },
       "second_dose_moderna": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "CHARLOTTE",
-              "country": "US",
-              "line1": "8520 PARK ROAD",
-              "line2": "",
-              "state": "NC",
-              "zip": "28210"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "05:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 4.89,
-            "fhirLocationId": "70ed7205-ae58-4169-9cd0-a2de0e12f598",
-            "locationId": "70ed7205-ae58-4169-9cd0-a2de0e12f598",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "19702",
-            "phone": [
-              {
-                "number": "704-553-8039",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "704-553-2670",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "704-553-8039",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 35.11682396,
-              "longitude": -80.85768785
-            },
-            "storenumber": "19702"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       },
       "second_dose_pfizer": {
-        "errors": [
+        "error": [
           {
-            "code": "FC_907_NoData",
-            "message": "No participating store."
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       }
@@ -21357,137 +18649,29 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T06:16:09.145+00:00",
+    "appointments_last_fetched": "2021-02-27T06:32:01.374+00:00",
     "appointments_raw": {
       "both_doses": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "CHARLOTTE",
-              "country": "US",
-              "line1": "8520 PARK ROAD",
-              "line2": "",
-              "state": "NC",
-              "zip": "28210"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "05:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 8.58,
-            "fhirLocationId": "70ed7205-ae58-4169-9cd0-a2de0e12f598",
-            "locationId": "70ed7205-ae58-4169-9cd0-a2de0e12f598",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "19702",
-            "phone": [
-              {
-                "number": "704-553-8039",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "704-553-2670",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "704-553-8039",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 35.11682396,
-              "longitude": -80.85768785
-            },
-            "storenumber": "19702"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       },
       "second_dose_moderna": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "CHARLOTTE",
-              "country": "US",
-              "line1": "8520 PARK ROAD",
-              "line2": "",
-              "state": "NC",
-              "zip": "28210"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "05:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 4.89,
-            "fhirLocationId": "70ed7205-ae58-4169-9cd0-a2de0e12f598",
-            "locationId": "70ed7205-ae58-4169-9cd0-a2de0e12f598",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "19702",
-            "phone": [
-              {
-                "number": "704-553-8039",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "704-553-2670",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "704-553-8039",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 35.11682396,
-              "longitude": -80.85768785
-            },
-            "storenumber": "19702"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       },
       "second_dose_pfizer": {
-        "errors": [
+        "error": [
           {
-            "code": "FC_907_NoData",
-            "message": "No participating store."
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       }
@@ -21506,137 +18690,29 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T06:16:09.145+00:00",
+    "appointments_last_fetched": "2021-02-27T06:32:01.374+00:00",
     "appointments_raw": {
       "both_doses": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "CHARLOTTE",
-              "country": "US",
-              "line1": "8520 PARK ROAD",
-              "line2": "",
-              "state": "NC",
-              "zip": "28210"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "05:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 8.58,
-            "fhirLocationId": "70ed7205-ae58-4169-9cd0-a2de0e12f598",
-            "locationId": "70ed7205-ae58-4169-9cd0-a2de0e12f598",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "19702",
-            "phone": [
-              {
-                "number": "704-553-8039",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "704-553-2670",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "704-553-8039",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 35.11682396,
-              "longitude": -80.85768785
-            },
-            "storenumber": "19702"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       },
       "second_dose_moderna": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "CHARLOTTE",
-              "country": "US",
-              "line1": "8520 PARK ROAD",
-              "line2": "",
-              "state": "NC",
-              "zip": "28210"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "05:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 4.89,
-            "fhirLocationId": "70ed7205-ae58-4169-9cd0-a2de0e12f598",
-            "locationId": "70ed7205-ae58-4169-9cd0-a2de0e12f598",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "19702",
-            "phone": [
-              {
-                "number": "704-553-8039",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "704-553-2670",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "704-553-8039",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 35.11682396,
-              "longitude": -80.85768785
-            },
-            "storenumber": "19702"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       },
       "second_dose_pfizer": {
-        "errors": [
+        "error": [
           {
-            "code": "FC_907_NoData",
-            "message": "No participating store."
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       }
@@ -22631,137 +19707,29 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T06:16:09.145+00:00",
+    "appointments_last_fetched": "2021-02-27T06:32:01.374+00:00",
     "appointments_raw": {
       "both_doses": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "CHARLOTTE",
-              "country": "US",
-              "line1": "8520 PARK ROAD",
-              "line2": "",
-              "state": "NC",
-              "zip": "28210"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "05:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 8.58,
-            "fhirLocationId": "70ed7205-ae58-4169-9cd0-a2de0e12f598",
-            "locationId": "70ed7205-ae58-4169-9cd0-a2de0e12f598",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "19702",
-            "phone": [
-              {
-                "number": "704-553-8039",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "704-553-2670",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "704-553-8039",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 35.11682396,
-              "longitude": -80.85768785
-            },
-            "storenumber": "19702"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       },
       "second_dose_moderna": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "CHARLOTTE",
-              "country": "US",
-              "line1": "8520 PARK ROAD",
-              "line2": "",
-              "state": "NC",
-              "zip": "28210"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "05:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 4.89,
-            "fhirLocationId": "70ed7205-ae58-4169-9cd0-a2de0e12f598",
-            "locationId": "70ed7205-ae58-4169-9cd0-a2de0e12f598",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "19702",
-            "phone": [
-              {
-                "number": "704-553-8039",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "704-553-2670",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "704-553-8039",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 35.11682396,
-              "longitude": -80.85768785
-            },
-            "storenumber": "19702"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       },
       "second_dose_pfizer": {
-        "errors": [
+        "error": [
           {
-            "code": "FC_907_NoData",
-            "message": "No participating store."
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       }
@@ -22821,137 +19789,29 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T06:16:09.145+00:00",
+    "appointments_last_fetched": "2021-02-27T06:32:01.374+00:00",
     "appointments_raw": {
       "both_doses": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "CHARLOTTE",
-              "country": "US",
-              "line1": "8520 PARK ROAD",
-              "line2": "",
-              "state": "NC",
-              "zip": "28210"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "05:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 8.58,
-            "fhirLocationId": "70ed7205-ae58-4169-9cd0-a2de0e12f598",
-            "locationId": "70ed7205-ae58-4169-9cd0-a2de0e12f598",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "19702",
-            "phone": [
-              {
-                "number": "704-553-8039",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "704-553-2670",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "704-553-8039",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 35.11682396,
-              "longitude": -80.85768785
-            },
-            "storenumber": "19702"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       },
       "second_dose_moderna": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "CHARLOTTE",
-              "country": "US",
-              "line1": "8520 PARK ROAD",
-              "line2": "",
-              "state": "NC",
-              "zip": "28210"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "05:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 4.89,
-            "fhirLocationId": "70ed7205-ae58-4169-9cd0-a2de0e12f598",
-            "locationId": "70ed7205-ae58-4169-9cd0-a2de0e12f598",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "19702",
-            "phone": [
-              {
-                "number": "704-553-8039",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "704-553-2670",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "704-553-8039",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 35.11682396,
-              "longitude": -80.85768785
-            },
-            "storenumber": "19702"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       },
       "second_dose_pfizer": {
-        "errors": [
+        "error": [
           {
-            "code": "FC_907_NoData",
-            "message": "No participating store."
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       }
@@ -22970,137 +19830,29 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T06:16:09.145+00:00",
+    "appointments_last_fetched": "2021-02-27T06:32:01.374+00:00",
     "appointments_raw": {
       "both_doses": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "CHARLOTTE",
-              "country": "US",
-              "line1": "8520 PARK ROAD",
-              "line2": "",
-              "state": "NC",
-              "zip": "28210"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "05:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 8.58,
-            "fhirLocationId": "70ed7205-ae58-4169-9cd0-a2de0e12f598",
-            "locationId": "70ed7205-ae58-4169-9cd0-a2de0e12f598",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "19702",
-            "phone": [
-              {
-                "number": "704-553-8039",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "704-553-2670",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "704-553-8039",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 35.11682396,
-              "longitude": -80.85768785
-            },
-            "storenumber": "19702"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       },
       "second_dose_moderna": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "CHARLOTTE",
-              "country": "US",
-              "line1": "8520 PARK ROAD",
-              "line2": "",
-              "state": "NC",
-              "zip": "28210"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "05:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 4.89,
-            "fhirLocationId": "70ed7205-ae58-4169-9cd0-a2de0e12f598",
-            "locationId": "70ed7205-ae58-4169-9cd0-a2de0e12f598",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "19702",
-            "phone": [
-              {
-                "number": "704-553-8039",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "704-553-2670",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "704-553-8039",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 35.11682396,
-              "longitude": -80.85768785
-            },
-            "storenumber": "19702"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       },
       "second_dose_pfizer": {
-        "errors": [
+        "error": [
           {
-            "code": "FC_907_NoData",
-            "message": "No participating store."
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       }
@@ -23119,137 +19871,29 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T06:16:09.145+00:00",
+    "appointments_last_fetched": "2021-02-27T06:32:01.374+00:00",
     "appointments_raw": {
       "both_doses": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "CHARLOTTE",
-              "country": "US",
-              "line1": "8520 PARK ROAD",
-              "line2": "",
-              "state": "NC",
-              "zip": "28210"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "05:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 8.58,
-            "fhirLocationId": "70ed7205-ae58-4169-9cd0-a2de0e12f598",
-            "locationId": "70ed7205-ae58-4169-9cd0-a2de0e12f598",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "19702",
-            "phone": [
-              {
-                "number": "704-553-8039",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "704-553-2670",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "704-553-8039",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 35.11682396,
-              "longitude": -80.85768785
-            },
-            "storenumber": "19702"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       },
       "second_dose_moderna": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "CHARLOTTE",
-              "country": "US",
-              "line1": "8520 PARK ROAD",
-              "line2": "",
-              "state": "NC",
-              "zip": "28210"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "05:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 4.89,
-            "fhirLocationId": "70ed7205-ae58-4169-9cd0-a2de0e12f598",
-            "locationId": "70ed7205-ae58-4169-9cd0-a2de0e12f598",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "19702",
-            "phone": [
-              {
-                "number": "704-553-8039",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "704-553-2670",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "704-553-8039",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 35.11682396,
-              "longitude": -80.85768785
-            },
-            "storenumber": "19702"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       },
       "second_dose_pfizer": {
-        "errors": [
+        "error": [
           {
-            "code": "FC_907_NoData",
-            "message": "No participating store."
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       }
@@ -23268,137 +19912,29 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T06:16:09.145+00:00",
+    "appointments_last_fetched": "2021-02-27T06:32:01.374+00:00",
     "appointments_raw": {
       "both_doses": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "CHARLOTTE",
-              "country": "US",
-              "line1": "8520 PARK ROAD",
-              "line2": "",
-              "state": "NC",
-              "zip": "28210"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "05:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 8.58,
-            "fhirLocationId": "70ed7205-ae58-4169-9cd0-a2de0e12f598",
-            "locationId": "70ed7205-ae58-4169-9cd0-a2de0e12f598",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "19702",
-            "phone": [
-              {
-                "number": "704-553-8039",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "704-553-2670",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "704-553-8039",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 35.11682396,
-              "longitude": -80.85768785
-            },
-            "storenumber": "19702"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       },
       "second_dose_moderna": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "CHARLOTTE",
-              "country": "US",
-              "line1": "8520 PARK ROAD",
-              "line2": "",
-              "state": "NC",
-              "zip": "28210"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "05:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 4.89,
-            "fhirLocationId": "70ed7205-ae58-4169-9cd0-a2de0e12f598",
-            "locationId": "70ed7205-ae58-4169-9cd0-a2de0e12f598",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "19702",
-            "phone": [
-              {
-                "number": "704-553-8039",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "704-553-2670",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "704-553-8039",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 35.11682396,
-              "longitude": -80.85768785
-            },
-            "storenumber": "19702"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       },
       "second_dose_pfizer": {
-        "errors": [
+        "error": [
           {
-            "code": "FC_907_NoData",
-            "message": "No participating store."
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       }
@@ -23417,137 +19953,29 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T06:16:09.145+00:00",
+    "appointments_last_fetched": "2021-02-27T06:32:01.374+00:00",
     "appointments_raw": {
       "both_doses": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "CHARLOTTE",
-              "country": "US",
-              "line1": "8520 PARK ROAD",
-              "line2": "",
-              "state": "NC",
-              "zip": "28210"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "05:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 8.58,
-            "fhirLocationId": "70ed7205-ae58-4169-9cd0-a2de0e12f598",
-            "locationId": "70ed7205-ae58-4169-9cd0-a2de0e12f598",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "19702",
-            "phone": [
-              {
-                "number": "704-553-8039",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "704-553-2670",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "704-553-8039",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 35.11682396,
-              "longitude": -80.85768785
-            },
-            "storenumber": "19702"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       },
       "second_dose_moderna": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "CHARLOTTE",
-              "country": "US",
-              "line1": "8520 PARK ROAD",
-              "line2": "",
-              "state": "NC",
-              "zip": "28210"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "05:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 4.89,
-            "fhirLocationId": "70ed7205-ae58-4169-9cd0-a2de0e12f598",
-            "locationId": "70ed7205-ae58-4169-9cd0-a2de0e12f598",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "19702",
-            "phone": [
-              {
-                "number": "704-553-8039",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "704-553-2670",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "704-553-8039",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 35.11682396,
-              "longitude": -80.85768785
-            },
-            "storenumber": "19702"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       },
       "second_dose_pfizer": {
-        "errors": [
+        "error": [
           {
-            "code": "FC_907_NoData",
-            "message": "No participating store."
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       }
@@ -23607,137 +20035,29 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T06:16:09.145+00:00",
+    "appointments_last_fetched": "2021-02-27T06:32:01.374+00:00",
     "appointments_raw": {
       "both_doses": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "CHARLOTTE",
-              "country": "US",
-              "line1": "8520 PARK ROAD",
-              "line2": "",
-              "state": "NC",
-              "zip": "28210"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "05:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 8.58,
-            "fhirLocationId": "70ed7205-ae58-4169-9cd0-a2de0e12f598",
-            "locationId": "70ed7205-ae58-4169-9cd0-a2de0e12f598",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "19702",
-            "phone": [
-              {
-                "number": "704-553-8039",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "704-553-2670",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "704-553-8039",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 35.11682396,
-              "longitude": -80.85768785
-            },
-            "storenumber": "19702"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       },
       "second_dose_moderna": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "CHARLOTTE",
-              "country": "US",
-              "line1": "8520 PARK ROAD",
-              "line2": "",
-              "state": "NC",
-              "zip": "28210"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "05:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 4.89,
-            "fhirLocationId": "70ed7205-ae58-4169-9cd0-a2de0e12f598",
-            "locationId": "70ed7205-ae58-4169-9cd0-a2de0e12f598",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "19702",
-            "phone": [
-              {
-                "number": "704-553-8039",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "704-553-2670",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "704-553-8039",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 35.11682396,
-              "longitude": -80.85768785
-            },
-            "storenumber": "19702"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       },
       "second_dose_pfizer": {
-        "errors": [
+        "error": [
           {
-            "code": "FC_907_NoData",
-            "message": "No participating store."
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       }
@@ -23797,137 +20117,29 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T06:16:09.145+00:00",
+    "appointments_last_fetched": "2021-02-27T06:32:01.374+00:00",
     "appointments_raw": {
       "both_doses": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "CHARLOTTE",
-              "country": "US",
-              "line1": "8520 PARK ROAD",
-              "line2": "",
-              "state": "NC",
-              "zip": "28210"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "05:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 8.58,
-            "fhirLocationId": "70ed7205-ae58-4169-9cd0-a2de0e12f598",
-            "locationId": "70ed7205-ae58-4169-9cd0-a2de0e12f598",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "19702",
-            "phone": [
-              {
-                "number": "704-553-8039",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "704-553-2670",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "704-553-8039",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 35.11682396,
-              "longitude": -80.85768785
-            },
-            "storenumber": "19702"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       },
       "second_dose_moderna": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "CHARLOTTE",
-              "country": "US",
-              "line1": "8520 PARK ROAD",
-              "line2": "",
-              "state": "NC",
-              "zip": "28210"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "05:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 4.89,
-            "fhirLocationId": "70ed7205-ae58-4169-9cd0-a2de0e12f598",
-            "locationId": "70ed7205-ae58-4169-9cd0-a2de0e12f598",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "19702",
-            "phone": [
-              {
-                "number": "704-553-8039",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "704-553-2670",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "704-553-8039",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 35.11682396,
-              "longitude": -80.85768785
-            },
-            "storenumber": "19702"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       },
       "second_dose_pfizer": {
-        "errors": [
+        "error": [
           {
-            "code": "FC_907_NoData",
-            "message": "No participating store."
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       }
@@ -23987,137 +20199,29 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T06:16:09.145+00:00",
+    "appointments_last_fetched": "2021-02-27T06:32:01.374+00:00",
     "appointments_raw": {
       "both_doses": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "CHARLOTTE",
-              "country": "US",
-              "line1": "8520 PARK ROAD",
-              "line2": "",
-              "state": "NC",
-              "zip": "28210"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "05:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 8.58,
-            "fhirLocationId": "70ed7205-ae58-4169-9cd0-a2de0e12f598",
-            "locationId": "70ed7205-ae58-4169-9cd0-a2de0e12f598",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "19702",
-            "phone": [
-              {
-                "number": "704-553-8039",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "704-553-2670",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "704-553-8039",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 35.11682396,
-              "longitude": -80.85768785
-            },
-            "storenumber": "19702"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       },
       "second_dose_moderna": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "CHARLOTTE",
-              "country": "US",
-              "line1": "8520 PARK ROAD",
-              "line2": "",
-              "state": "NC",
-              "zip": "28210"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "05:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 4.89,
-            "fhirLocationId": "70ed7205-ae58-4169-9cd0-a2de0e12f598",
-            "locationId": "70ed7205-ae58-4169-9cd0-a2de0e12f598",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "19702",
-            "phone": [
-              {
-                "number": "704-553-8039",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "704-553-2670",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "704-553-8039",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 35.11682396,
-              "longitude": -80.85768785
-            },
-            "storenumber": "19702"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       },
       "second_dose_pfizer": {
-        "errors": [
+        "error": [
           {
-            "code": "FC_907_NoData",
-            "message": "No participating store."
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       }
@@ -24136,137 +20240,29 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T06:16:09.145+00:00",
+    "appointments_last_fetched": "2021-02-27T06:32:01.374+00:00",
     "appointments_raw": {
       "both_doses": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "CHARLOTTE",
-              "country": "US",
-              "line1": "8520 PARK ROAD",
-              "line2": "",
-              "state": "NC",
-              "zip": "28210"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "05:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 8.58,
-            "fhirLocationId": "70ed7205-ae58-4169-9cd0-a2de0e12f598",
-            "locationId": "70ed7205-ae58-4169-9cd0-a2de0e12f598",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "19702",
-            "phone": [
-              {
-                "number": "704-553-8039",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "704-553-2670",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "704-553-8039",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 35.11682396,
-              "longitude": -80.85768785
-            },
-            "storenumber": "19702"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       },
       "second_dose_moderna": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "CHARLOTTE",
-              "country": "US",
-              "line1": "8520 PARK ROAD",
-              "line2": "",
-              "state": "NC",
-              "zip": "28210"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "05:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 4.89,
-            "fhirLocationId": "70ed7205-ae58-4169-9cd0-a2de0e12f598",
-            "locationId": "70ed7205-ae58-4169-9cd0-a2de0e12f598",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "19702",
-            "phone": [
-              {
-                "number": "704-553-8039",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "704-553-2670",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "704-553-8039",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 35.11682396,
-              "longitude": -80.85768785
-            },
-            "storenumber": "19702"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       },
       "second_dose_pfizer": {
-        "errors": [
+        "error": [
           {
-            "code": "FC_907_NoData",
-            "message": "No participating store."
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       }
