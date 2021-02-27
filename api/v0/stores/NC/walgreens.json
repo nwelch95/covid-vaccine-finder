@@ -14087,9 +14087,216 @@
       }
     ],
     "appointments_available": true,
-    "appointments_last_fetched": "2021-02-27T10:50:46.007+00:00",
+    "appointments_last_fetched": "2021-02-27T11:01:38.564+00:00",
     "appointments_raw": {
       "both_doses": {
+        "locations": [
+          {
+            "address": {
+              "city": "PLYMOUTH",
+              "country": "US",
+              "line1": "11 US HIGHWAY 64 E",
+              "line2": "",
+              "state": "NC",
+              "zip": "27962"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "04:30 pm",
+                  "04:45 pm",
+                  "05:15 pm",
+                  "05:30 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 8.35,
+            "fhirLocationId": "348862ee-2418-4ffe-995b-3cf70a58f910",
+            "locationId": "348862ee-2418-4ffe-995b-3cf70a58f910",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "16130",
+            "phone": [
+              {
+                "number": "252-793-1175",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "252-793-1175",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 35.85905807,
+              "longitude": -76.74539091
+            },
+            "storenumber": "16130"
+          },
+          {
+            "address": {
+              "city": "WILLIAMSTON",
+              "country": "US",
+              "line1": "1560 US HIGHWAY 17",
+              "line2": "",
+              "state": "NC",
+              "zip": "27892"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "10:30 am",
+                  "10:45 am",
+                  "11:15 am",
+                  "11:45 am",
+                  "12:45 pm",
+                  "02:30 pm",
+                  "03:00 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 24.36,
+            "fhirLocationId": "2ca23391-0dd1-46df-a31b-7ee80e60ea60",
+            "locationId": "2ca23391-0dd1-46df-a31b-7ee80e60ea60",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreens Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "17331",
+            "phone": [
+              {
+                "number": "252-792-2269",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "252-792-2269",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 35.83389064,
+              "longitude": -77.06722123
+            },
+            "storenumber": "17331"
+          },
+          {
+            "address": {
+              "city": "EDENTON",
+              "country": "US",
+              "line1": "717 N BROAD ST",
+              "line2": "",
+              "state": "NC",
+              "zip": "27932"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "09:45 am",
+                  "10:45 am",
+                  "11:15 am",
+                  "11:30 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "02:15 pm",
+                  "03:15 pm",
+                  "03:30 pm",
+                  "03:45 pm",
+                  "04:00 pm",
+                  "04:15 pm",
+                  "04:30 pm",
+                  "04:45 pm",
+                  "05:30 pm",
+                  "05:45 pm",
+                  "06:15 pm",
+                  "06:30 pm",
+                  "06:45 pm",
+                  "07:00 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 11.95,
+            "fhirLocationId": "aa409853-8fce-4e66-a13e-c58a17fead98",
+            "locationId": "aa409853-8fce-4e66-a13e-c58a17fead98",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "13465",
+            "phone": [
+              {
+                "number": "252-482-0194",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "252-482-0172",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "252-482-0194",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 36.06945891,
+              "longitude": -76.60581778
+            },
+            "storenumber": "13465"
+          }
+        ]
+      },
+      "second_dose_moderna": {
         "locations": [
           {
             "address": {
@@ -14267,214 +14474,7 @@
               }
             ],
             "description": "",
-            "distance": 23.64,
-            "fhirLocationId": "aa409853-8fce-4e66-a13e-c58a17fead98",
-            "locationId": "aa409853-8fce-4e66-a13e-c58a17fead98",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "13465",
-            "phone": [
-              {
-                "number": "252-482-0194",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "252-482-0172",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "252-482-0194",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 36.06945891,
-              "longitude": -76.60581778
-            },
-            "storenumber": "13465"
-          }
-        ]
-      },
-      "second_dose_moderna": {
-        "locations": [
-          {
-            "address": {
-              "city": "PLYMOUTH",
-              "country": "US",
-              "line1": "11 US HIGHWAY 64 E",
-              "line2": "",
-              "state": "NC",
-              "zip": "27962"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "04:30 pm",
-                  "04:45 pm",
-                  "05:15 pm",
-                  "05:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 3.49,
-            "fhirLocationId": "348862ee-2418-4ffe-995b-3cf70a58f910",
-            "locationId": "348862ee-2418-4ffe-995b-3cf70a58f910",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "16130",
-            "phone": [
-              {
-                "number": "252-793-1175",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "252-793-1175",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 35.85905807,
-              "longitude": -76.74539091
-            },
-            "storenumber": "16130"
-          },
-          {
-            "address": {
-              "city": "WILLIAMSTON",
-              "country": "US",
-              "line1": "1560 US HIGHWAY 17",
-              "line2": "",
-              "state": "NC",
-              "zip": "27892"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "10:30 am",
-                  "10:45 am",
-                  "11:15 am",
-                  "11:45 am",
-                  "12:45 pm",
-                  "02:30 pm",
-                  "03:00 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 17.29,
-            "fhirLocationId": "2ca23391-0dd1-46df-a31b-7ee80e60ea60",
-            "locationId": "2ca23391-0dd1-46df-a31b-7ee80e60ea60",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreens Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "17331",
-            "phone": [
-              {
-                "number": "252-792-2269",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "252-792-2269",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 35.83389064,
-              "longitude": -77.06722123
-            },
-            "storenumber": "17331"
-          },
-          {
-            "address": {
-              "city": "EDENTON",
-              "country": "US",
-              "line1": "717 N BROAD ST",
-              "line2": "",
-              "state": "NC",
-              "zip": "27932"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "09:45 am",
-                  "10:45 am",
-                  "11:15 am",
-                  "11:30 am",
-                  "12:00 pm",
-                  "12:15 pm",
-                  "12:30 pm",
-                  "02:15 pm",
-                  "03:15 pm",
-                  "03:30 pm",
-                  "03:45 pm",
-                  "04:00 pm",
-                  "04:15 pm",
-                  "04:30 pm",
-                  "04:45 pm",
-                  "05:30 pm",
-                  "05:45 pm",
-                  "06:15 pm",
-                  "06:30 pm",
-                  "06:45 pm",
-                  "07:00 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 19.89,
+            "distance": 11.95,
             "fhirLocationId": "aa409853-8fce-4e66-a13e-c58a17fead98",
             "locationId": "aa409853-8fce-4e66-a13e-c58a17fead98",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -14922,9 +14922,216 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T10:50:46.007+00:00",
+    "appointments_last_fetched": "2021-02-27T11:01:38.564+00:00",
     "appointments_raw": {
       "both_doses": {
+        "locations": [
+          {
+            "address": {
+              "city": "PLYMOUTH",
+              "country": "US",
+              "line1": "11 US HIGHWAY 64 E",
+              "line2": "",
+              "state": "NC",
+              "zip": "27962"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "04:30 pm",
+                  "04:45 pm",
+                  "05:15 pm",
+                  "05:30 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 8.35,
+            "fhirLocationId": "348862ee-2418-4ffe-995b-3cf70a58f910",
+            "locationId": "348862ee-2418-4ffe-995b-3cf70a58f910",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "16130",
+            "phone": [
+              {
+                "number": "252-793-1175",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "252-793-1175",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 35.85905807,
+              "longitude": -76.74539091
+            },
+            "storenumber": "16130"
+          },
+          {
+            "address": {
+              "city": "WILLIAMSTON",
+              "country": "US",
+              "line1": "1560 US HIGHWAY 17",
+              "line2": "",
+              "state": "NC",
+              "zip": "27892"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "10:30 am",
+                  "10:45 am",
+                  "11:15 am",
+                  "11:45 am",
+                  "12:45 pm",
+                  "02:30 pm",
+                  "03:00 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 24.36,
+            "fhirLocationId": "2ca23391-0dd1-46df-a31b-7ee80e60ea60",
+            "locationId": "2ca23391-0dd1-46df-a31b-7ee80e60ea60",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreens Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "17331",
+            "phone": [
+              {
+                "number": "252-792-2269",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "252-792-2269",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 35.83389064,
+              "longitude": -77.06722123
+            },
+            "storenumber": "17331"
+          },
+          {
+            "address": {
+              "city": "EDENTON",
+              "country": "US",
+              "line1": "717 N BROAD ST",
+              "line2": "",
+              "state": "NC",
+              "zip": "27932"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "09:45 am",
+                  "10:45 am",
+                  "11:15 am",
+                  "11:30 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "02:15 pm",
+                  "03:15 pm",
+                  "03:30 pm",
+                  "03:45 pm",
+                  "04:00 pm",
+                  "04:15 pm",
+                  "04:30 pm",
+                  "04:45 pm",
+                  "05:30 pm",
+                  "05:45 pm",
+                  "06:15 pm",
+                  "06:30 pm",
+                  "06:45 pm",
+                  "07:00 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 11.95,
+            "fhirLocationId": "aa409853-8fce-4e66-a13e-c58a17fead98",
+            "locationId": "aa409853-8fce-4e66-a13e-c58a17fead98",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "13465",
+            "phone": [
+              {
+                "number": "252-482-0194",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "252-482-0172",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "252-482-0194",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 36.06945891,
+              "longitude": -76.60581778
+            },
+            "storenumber": "13465"
+          }
+        ]
+      },
+      "second_dose_moderna": {
         "locations": [
           {
             "address": {
@@ -15102,214 +15309,7 @@
               }
             ],
             "description": "",
-            "distance": 23.64,
-            "fhirLocationId": "aa409853-8fce-4e66-a13e-c58a17fead98",
-            "locationId": "aa409853-8fce-4e66-a13e-c58a17fead98",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "13465",
-            "phone": [
-              {
-                "number": "252-482-0194",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "252-482-0172",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "252-482-0194",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 36.06945891,
-              "longitude": -76.60581778
-            },
-            "storenumber": "13465"
-          }
-        ]
-      },
-      "second_dose_moderna": {
-        "locations": [
-          {
-            "address": {
-              "city": "PLYMOUTH",
-              "country": "US",
-              "line1": "11 US HIGHWAY 64 E",
-              "line2": "",
-              "state": "NC",
-              "zip": "27962"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "04:30 pm",
-                  "04:45 pm",
-                  "05:15 pm",
-                  "05:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 3.49,
-            "fhirLocationId": "348862ee-2418-4ffe-995b-3cf70a58f910",
-            "locationId": "348862ee-2418-4ffe-995b-3cf70a58f910",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "16130",
-            "phone": [
-              {
-                "number": "252-793-1175",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "252-793-1175",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 35.85905807,
-              "longitude": -76.74539091
-            },
-            "storenumber": "16130"
-          },
-          {
-            "address": {
-              "city": "WILLIAMSTON",
-              "country": "US",
-              "line1": "1560 US HIGHWAY 17",
-              "line2": "",
-              "state": "NC",
-              "zip": "27892"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "10:30 am",
-                  "10:45 am",
-                  "11:15 am",
-                  "11:45 am",
-                  "12:45 pm",
-                  "02:30 pm",
-                  "03:00 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 17.29,
-            "fhirLocationId": "2ca23391-0dd1-46df-a31b-7ee80e60ea60",
-            "locationId": "2ca23391-0dd1-46df-a31b-7ee80e60ea60",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreens Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "17331",
-            "phone": [
-              {
-                "number": "252-792-2269",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "252-792-2269",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 35.83389064,
-              "longitude": -77.06722123
-            },
-            "storenumber": "17331"
-          },
-          {
-            "address": {
-              "city": "EDENTON",
-              "country": "US",
-              "line1": "717 N BROAD ST",
-              "line2": "",
-              "state": "NC",
-              "zip": "27932"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "09:45 am",
-                  "10:45 am",
-                  "11:15 am",
-                  "11:30 am",
-                  "12:00 pm",
-                  "12:15 pm",
-                  "12:30 pm",
-                  "02:15 pm",
-                  "03:15 pm",
-                  "03:30 pm",
-                  "03:45 pm",
-                  "04:00 pm",
-                  "04:15 pm",
-                  "04:30 pm",
-                  "04:45 pm",
-                  "05:30 pm",
-                  "05:45 pm",
-                  "06:15 pm",
-                  "06:30 pm",
-                  "06:45 pm",
-                  "07:00 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 19.89,
+            "distance": 11.95,
             "fhirLocationId": "aa409853-8fce-4e66-a13e-c58a17fead98",
             "locationId": "aa409853-8fce-4e66-a13e-c58a17fead98",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -15393,9 +15393,216 @@
       }
     ],
     "appointments_available": true,
-    "appointments_last_fetched": "2021-02-27T10:50:46.007+00:00",
+    "appointments_last_fetched": "2021-02-27T11:01:38.564+00:00",
     "appointments_raw": {
       "both_doses": {
+        "locations": [
+          {
+            "address": {
+              "city": "PLYMOUTH",
+              "country": "US",
+              "line1": "11 US HIGHWAY 64 E",
+              "line2": "",
+              "state": "NC",
+              "zip": "27962"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "04:30 pm",
+                  "04:45 pm",
+                  "05:15 pm",
+                  "05:30 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 8.35,
+            "fhirLocationId": "348862ee-2418-4ffe-995b-3cf70a58f910",
+            "locationId": "348862ee-2418-4ffe-995b-3cf70a58f910",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "16130",
+            "phone": [
+              {
+                "number": "252-793-1175",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "252-793-1175",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 35.85905807,
+              "longitude": -76.74539091
+            },
+            "storenumber": "16130"
+          },
+          {
+            "address": {
+              "city": "WILLIAMSTON",
+              "country": "US",
+              "line1": "1560 US HIGHWAY 17",
+              "line2": "",
+              "state": "NC",
+              "zip": "27892"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "10:30 am",
+                  "10:45 am",
+                  "11:15 am",
+                  "11:45 am",
+                  "12:45 pm",
+                  "02:30 pm",
+                  "03:00 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 24.36,
+            "fhirLocationId": "2ca23391-0dd1-46df-a31b-7ee80e60ea60",
+            "locationId": "2ca23391-0dd1-46df-a31b-7ee80e60ea60",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreens Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "17331",
+            "phone": [
+              {
+                "number": "252-792-2269",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "252-792-2269",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 35.83389064,
+              "longitude": -77.06722123
+            },
+            "storenumber": "17331"
+          },
+          {
+            "address": {
+              "city": "EDENTON",
+              "country": "US",
+              "line1": "717 N BROAD ST",
+              "line2": "",
+              "state": "NC",
+              "zip": "27932"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "09:45 am",
+                  "10:45 am",
+                  "11:15 am",
+                  "11:30 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "02:15 pm",
+                  "03:15 pm",
+                  "03:30 pm",
+                  "03:45 pm",
+                  "04:00 pm",
+                  "04:15 pm",
+                  "04:30 pm",
+                  "04:45 pm",
+                  "05:30 pm",
+                  "05:45 pm",
+                  "06:15 pm",
+                  "06:30 pm",
+                  "06:45 pm",
+                  "07:00 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 11.95,
+            "fhirLocationId": "aa409853-8fce-4e66-a13e-c58a17fead98",
+            "locationId": "aa409853-8fce-4e66-a13e-c58a17fead98",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "13465",
+            "phone": [
+              {
+                "number": "252-482-0194",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "252-482-0172",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "252-482-0194",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 36.06945891,
+              "longitude": -76.60581778
+            },
+            "storenumber": "13465"
+          }
+        ]
+      },
+      "second_dose_moderna": {
         "locations": [
           {
             "address": {
@@ -15573,214 +15780,7 @@
               }
             ],
             "description": "",
-            "distance": 23.64,
-            "fhirLocationId": "aa409853-8fce-4e66-a13e-c58a17fead98",
-            "locationId": "aa409853-8fce-4e66-a13e-c58a17fead98",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "13465",
-            "phone": [
-              {
-                "number": "252-482-0194",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "252-482-0172",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "252-482-0194",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 36.06945891,
-              "longitude": -76.60581778
-            },
-            "storenumber": "13465"
-          }
-        ]
-      },
-      "second_dose_moderna": {
-        "locations": [
-          {
-            "address": {
-              "city": "PLYMOUTH",
-              "country": "US",
-              "line1": "11 US HIGHWAY 64 E",
-              "line2": "",
-              "state": "NC",
-              "zip": "27962"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "04:30 pm",
-                  "04:45 pm",
-                  "05:15 pm",
-                  "05:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 3.49,
-            "fhirLocationId": "348862ee-2418-4ffe-995b-3cf70a58f910",
-            "locationId": "348862ee-2418-4ffe-995b-3cf70a58f910",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "16130",
-            "phone": [
-              {
-                "number": "252-793-1175",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "252-793-1175",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 35.85905807,
-              "longitude": -76.74539091
-            },
-            "storenumber": "16130"
-          },
-          {
-            "address": {
-              "city": "WILLIAMSTON",
-              "country": "US",
-              "line1": "1560 US HIGHWAY 17",
-              "line2": "",
-              "state": "NC",
-              "zip": "27892"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "10:30 am",
-                  "10:45 am",
-                  "11:15 am",
-                  "11:45 am",
-                  "12:45 pm",
-                  "02:30 pm",
-                  "03:00 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 17.29,
-            "fhirLocationId": "2ca23391-0dd1-46df-a31b-7ee80e60ea60",
-            "locationId": "2ca23391-0dd1-46df-a31b-7ee80e60ea60",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreens Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "17331",
-            "phone": [
-              {
-                "number": "252-792-2269",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "252-792-2269",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 35.83389064,
-              "longitude": -77.06722123
-            },
-            "storenumber": "17331"
-          },
-          {
-            "address": {
-              "city": "EDENTON",
-              "country": "US",
-              "line1": "717 N BROAD ST",
-              "line2": "",
-              "state": "NC",
-              "zip": "27932"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "09:45 am",
-                  "10:45 am",
-                  "11:15 am",
-                  "11:30 am",
-                  "12:00 pm",
-                  "12:15 pm",
-                  "12:30 pm",
-                  "02:15 pm",
-                  "03:15 pm",
-                  "03:30 pm",
-                  "03:45 pm",
-                  "04:00 pm",
-                  "04:15 pm",
-                  "04:30 pm",
-                  "04:45 pm",
-                  "05:30 pm",
-                  "05:45 pm",
-                  "06:15 pm",
-                  "06:30 pm",
-                  "06:45 pm",
-                  "07:00 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 19.89,
+            "distance": 11.95,
             "fhirLocationId": "aa409853-8fce-4e66-a13e-c58a17fead98",
             "locationId": "aa409853-8fce-4e66-a13e-c58a17fead98",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -16082,10 +16082,135 @@
       }
     ],
     "appointments_available": true,
-    "appointments_last_fetched": "2021-02-27T10:56:38.552+00:00",
+    "appointments_last_fetched": "2021-02-27T11:01:38.564+00:00",
     "appointments_raw": {
       "both_doses": {
         "locations": [
+          {
+            "address": {
+              "city": "PLYMOUTH",
+              "country": "US",
+              "line1": "11 US HIGHWAY 64 E",
+              "line2": "",
+              "state": "NC",
+              "zip": "27962"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "04:30 pm",
+                  "04:45 pm",
+                  "05:15 pm",
+                  "05:30 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 8.35,
+            "fhirLocationId": "348862ee-2418-4ffe-995b-3cf70a58f910",
+            "locationId": "348862ee-2418-4ffe-995b-3cf70a58f910",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "16130",
+            "phone": [
+              {
+                "number": "252-793-1175",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "252-793-1175",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 35.85905807,
+              "longitude": -76.74539091
+            },
+            "storenumber": "16130"
+          },
+          {
+            "address": {
+              "city": "WILLIAMSTON",
+              "country": "US",
+              "line1": "1560 US HIGHWAY 17",
+              "line2": "",
+              "state": "NC",
+              "zip": "27892"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "10:30 am",
+                  "10:45 am",
+                  "11:15 am",
+                  "11:45 am",
+                  "12:45 pm",
+                  "02:30 pm",
+                  "03:00 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 24.36,
+            "fhirLocationId": "2ca23391-0dd1-46df-a31b-7ee80e60ea60",
+            "locationId": "2ca23391-0dd1-46df-a31b-7ee80e60ea60",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreens Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "17331",
+            "phone": [
+              {
+                "number": "252-792-2269",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "252-792-2269",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 35.83389064,
+              "longitude": -77.06722123
+            },
+            "storenumber": "17331"
+          },
           {
             "address": {
               "city": "EDENTON",
@@ -16137,7 +16262,7 @@
               }
             ],
             "description": "",
-            "distance": 23.64,
+            "distance": 11.95,
             "fhirLocationId": "aa409853-8fce-4e66-a13e-c58a17fead98",
             "locationId": "aa409853-8fce-4e66-a13e-c58a17fead98",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -16163,36 +16288,29 @@
               "longitude": -76.60581778
             },
             "storenumber": "13465"
-          },
+          }
+        ]
+      },
+      "second_dose_moderna": {
+        "locations": [
           {
             "address": {
-              "city": "AHOSKIE",
+              "city": "PLYMOUTH",
               "country": "US",
-              "line1": "700 CATHERINE CREEK RD S",
+              "line1": "11 US HIGHWAY 64 E",
               "line2": "",
               "state": "NC",
-              "zip": "27910"
+              "zip": "27962"
             },
             "appointmentAvailability": [
               {
                 "date": "2021-03-01",
                 "day": "Monday",
                 "slots": [
-                  "12:00 pm",
-                  "12:15 pm",
-                  "12:30 pm",
-                  "12:45 pm",
-                  "01:00 pm",
-                  "02:30 pm",
-                  "02:45 pm",
-                  "03:00 pm",
-                  "03:15 pm",
-                  "03:45 pm",
-                  "04:00 pm",
-                  "04:15 pm",
                   "04:30 pm",
                   "04:45 pm",
-                  "05:00 pm"
+                  "05:15 pm",
+                  "05:30 pm"
                 ]
               }
             ],
@@ -16209,37 +16327,97 @@
               }
             ],
             "description": "",
-            "distance": 22.94,
-            "fhirLocationId": "1f5cc9cd-22d0-4b6e-a804-e515ff6cd9b1",
-            "locationId": "1f5cc9cd-22d0-4b6e-a804-e515ff6cd9b1",
+            "distance": 8.35,
+            "fhirLocationId": "348862ee-2418-4ffe-995b-3cf70a58f910",
+            "locationId": "348862ee-2418-4ffe-995b-3cf70a58f910",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
             "name": "Walgreen Drug Store",
             "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "15251",
+            "partnerLocationId": "16130",
             "phone": [
               {
-                "number": "252-862-0009",
+                "number": "252-793-1175",
                 "type": "StorePrimary"
               },
               {
-                "number": "252-862-0026",
+                "number": "",
                 "type": "StoreSecondary"
               },
               {
-                "number": "252-862-0009",
+                "number": "252-793-1175",
                 "type": "Pharmacy"
               }
             ],
             "position": {
-              "latitude": 36.275962,
-              "longitude": -76.979332
+              "latitude": 35.85905807,
+              "longitude": -76.74539091
             },
-            "storenumber": "15251"
-          }
-        ]
-      },
-      "second_dose_moderna": {
-        "locations": [
+            "storenumber": "16130"
+          },
+          {
+            "address": {
+              "city": "WILLIAMSTON",
+              "country": "US",
+              "line1": "1560 US HIGHWAY 17",
+              "line2": "",
+              "state": "NC",
+              "zip": "27892"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "10:30 am",
+                  "10:45 am",
+                  "11:15 am",
+                  "11:45 am",
+                  "12:45 pm",
+                  "02:30 pm",
+                  "03:00 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 20.51,
+            "fhirLocationId": "2ca23391-0dd1-46df-a31b-7ee80e60ea60",
+            "locationId": "2ca23391-0dd1-46df-a31b-7ee80e60ea60",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreens Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "17331",
+            "phone": [
+              {
+                "number": "252-792-2269",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "252-792-2269",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 35.83389064,
+              "longitude": -77.06722123
+            },
+            "storenumber": "17331"
+          },
           {
             "address": {
               "city": "EDENTON",
@@ -16291,7 +16469,7 @@
               }
             ],
             "description": "",
-            "distance": 23.64,
+            "distance": 11.95,
             "fhirLocationId": "aa409853-8fce-4e66-a13e-c58a17fead98",
             "locationId": "aa409853-8fce-4e66-a13e-c58a17fead98",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -16321,78 +16499,10 @@
         ]
       },
       "second_dose_pfizer": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "AHOSKIE",
-              "country": "US",
-              "line1": "700 CATHERINE CREEK RD S",
-              "line2": "",
-              "state": "NC",
-              "zip": "27910"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "12:00 pm",
-                  "12:15 pm",
-                  "12:30 pm",
-                  "12:45 pm",
-                  "01:00 pm",
-                  "02:30 pm",
-                  "02:45 pm",
-                  "03:00 pm",
-                  "03:15 pm",
-                  "03:45 pm",
-                  "04:00 pm",
-                  "04:15 pm",
-                  "04:30 pm",
-                  "04:45 pm",
-                  "05:00 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 12.85,
-            "fhirLocationId": "1f5cc9cd-22d0-4b6e-a804-e515ff6cd9b1",
-            "locationId": "1f5cc9cd-22d0-4b6e-a804-e515ff6cd9b1",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "15251",
-            "phone": [
-              {
-                "number": "252-862-0009",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "252-862-0026",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "252-862-0009",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 36.275962,
-              "longitude": -76.979332
-            },
-            "storenumber": "15251"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       }
@@ -19446,7 +19556,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T10:48:34.229+00:00",
+    "appointments_last_fetched": "2021-02-27T11:01:41.955+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -21327,7 +21437,7 @@
       }
     ],
     "appointments_available": true,
-    "appointments_last_fetched": "2021-02-27T10:47:11.295+00:00",
+    "appointments_last_fetched": "2021-02-27T11:00:56.161+00:00",
     "appointments_raw": {
       "both_doses": {
         "locations": [
@@ -21387,7 +21497,7 @@
               }
             ],
             "description": "",
-            "distance": 24,
+            "distance": 7.33,
             "fhirLocationId": "03fbb2f6-f417-45cc-924f-2bdbde9af982",
             "locationId": "03fbb2f6-f417-45cc-924f-2bdbde9af982",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -21468,7 +21578,7 @@
               }
             ],
             "description": "",
-            "distance": 24.4,
+            "distance": 7.74,
             "fhirLocationId": "6b76338c-63f9-43f5-8420-3b0511c73d19",
             "locationId": "6b76338c-63f9-43f5-8420-3b0511c73d19",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -21540,7 +21650,7 @@
               }
             ],
             "description": "",
-            "distance": 20.85,
+            "distance": 11.56,
             "fhirLocationId": "30fafe24-f94e-4eb9-b651-5beb74a966c3",
             "locationId": "30fafe24-f94e-4eb9-b651-5beb74a966c3",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -21612,7 +21722,7 @@
               }
             ],
             "description": "",
-            "distance": 21.84,
+            "distance": 16.14,
             "fhirLocationId": "c0caa6df-89db-4293-b218-62712a206acd",
             "locationId": "c0caa6df-89db-4293-b218-62712a206acd",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -21675,7 +21785,7 @@
               }
             ],
             "description": "",
-            "distance": 3.35,
+            "distance": 1.79,
             "fhirLocationId": "de872e72-fbcf-4332-80ab-7cef6d57d329",
             "locationId": "de872e72-fbcf-4332-80ab-7cef6d57d329",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -21759,7 +21869,7 @@
               }
             ],
             "description": "",
-            "distance": 10.9,
+            "distance": 20.79,
             "fhirLocationId": "664a7b23-808b-4779-bdaf-41678b2e4b3b",
             "locationId": "664a7b23-808b-4779-bdaf-41678b2e4b3b",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -21824,7 +21934,7 @@
               }
             ],
             "description": "",
-            "distance": 4.76,
+            "distance": 0.6,
             "fhirLocationId": "7eca8f51-07be-4e5c-8fcd-34def2d236f1",
             "locationId": "7eca8f51-07be-4e5c-8fcd-34def2d236f1",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -21895,7 +22005,7 @@
               }
             ],
             "description": "",
-            "distance": 4.87,
+            "distance": 2.32,
             "fhirLocationId": "97fe9224-0321-4c0d-a7cf-2eae653df72f",
             "locationId": "97fe9224-0321-4c0d-a7cf-2eae653df72f",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -21964,7 +22074,7 @@
               }
             ],
             "description": "",
-            "distance": 13.9,
+            "distance": 21.39,
             "fhirLocationId": "7eca8f51-07be-4e5c-8fcd-34def2d236f1",
             "locationId": "7eca8f51-07be-4e5c-8fcd-34def2d236f1",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -22051,7 +22161,7 @@
               }
             ],
             "description": "",
-            "distance": 17.6,
+            "distance": 7.33,
             "fhirLocationId": "03fbb2f6-f417-45cc-924f-2bdbde9af982",
             "locationId": "03fbb2f6-f417-45cc-924f-2bdbde9af982",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -22132,7 +22242,7 @@
               }
             ],
             "description": "",
-            "distance": 16.98,
+            "distance": 7.74,
             "fhirLocationId": "6b76338c-63f9-43f5-8420-3b0511c73d19",
             "locationId": "6b76338c-63f9-43f5-8420-3b0511c73d19",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -22204,7 +22314,7 @@
               }
             ],
             "description": "",
-            "distance": 9.76,
+            "distance": 24.43,
             "fhirLocationId": "30fafe24-f94e-4eb9-b651-5beb74a966c3",
             "locationId": "30fafe24-f94e-4eb9-b651-5beb74a966c3",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -22276,7 +22386,7 @@
               }
             ],
             "description": "",
-            "distance": 21.84,
+            "distance": 16.14,
             "fhirLocationId": "c0caa6df-89db-4293-b218-62712a206acd",
             "locationId": "c0caa6df-89db-4293-b218-62712a206acd",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -22339,7 +22449,7 @@
               }
             ],
             "description": "",
-            "distance": 3.35,
+            "distance": 19.86,
             "fhirLocationId": "de872e72-fbcf-4332-80ab-7cef6d57d329",
             "locationId": "de872e72-fbcf-4332-80ab-7cef6d57d329",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -22423,7 +22533,7 @@
               }
             ],
             "description": "",
-            "distance": 2.32,
+            "distance": 15.43,
             "fhirLocationId": "664a7b23-808b-4779-bdaf-41678b2e4b3b",
             "locationId": "664a7b23-808b-4779-bdaf-41678b2e4b3b",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -22494,7 +22604,7 @@
               }
             ],
             "description": "",
-            "distance": 4.87,
+            "distance": 21.54,
             "fhirLocationId": "97fe9224-0321-4c0d-a7cf-2eae653df72f",
             "locationId": "97fe9224-0321-4c0d-a7cf-2eae653df72f",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -39886,7 +39996,7 @@
       }
     ],
     "appointments_available": true,
-    "appointments_last_fetched": "2021-02-27T10:47:11.295+00:00",
+    "appointments_last_fetched": "2021-02-27T11:00:56.161+00:00",
     "appointments_raw": {
       "both_doses": {
         "locations": [
@@ -39946,7 +40056,7 @@
               }
             ],
             "description": "",
-            "distance": 24,
+            "distance": 7.33,
             "fhirLocationId": "03fbb2f6-f417-45cc-924f-2bdbde9af982",
             "locationId": "03fbb2f6-f417-45cc-924f-2bdbde9af982",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -40027,7 +40137,7 @@
               }
             ],
             "description": "",
-            "distance": 24.4,
+            "distance": 7.74,
             "fhirLocationId": "6b76338c-63f9-43f5-8420-3b0511c73d19",
             "locationId": "6b76338c-63f9-43f5-8420-3b0511c73d19",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -40099,7 +40209,7 @@
               }
             ],
             "description": "",
-            "distance": 20.85,
+            "distance": 11.56,
             "fhirLocationId": "30fafe24-f94e-4eb9-b651-5beb74a966c3",
             "locationId": "30fafe24-f94e-4eb9-b651-5beb74a966c3",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -40171,7 +40281,7 @@
               }
             ],
             "description": "",
-            "distance": 21.84,
+            "distance": 16.14,
             "fhirLocationId": "c0caa6df-89db-4293-b218-62712a206acd",
             "locationId": "c0caa6df-89db-4293-b218-62712a206acd",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -40234,7 +40344,7 @@
               }
             ],
             "description": "",
-            "distance": 3.35,
+            "distance": 1.79,
             "fhirLocationId": "de872e72-fbcf-4332-80ab-7cef6d57d329",
             "locationId": "de872e72-fbcf-4332-80ab-7cef6d57d329",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -40318,7 +40428,7 @@
               }
             ],
             "description": "",
-            "distance": 10.9,
+            "distance": 20.79,
             "fhirLocationId": "664a7b23-808b-4779-bdaf-41678b2e4b3b",
             "locationId": "664a7b23-808b-4779-bdaf-41678b2e4b3b",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -40383,7 +40493,7 @@
               }
             ],
             "description": "",
-            "distance": 4.76,
+            "distance": 0.6,
             "fhirLocationId": "7eca8f51-07be-4e5c-8fcd-34def2d236f1",
             "locationId": "7eca8f51-07be-4e5c-8fcd-34def2d236f1",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -40454,7 +40564,7 @@
               }
             ],
             "description": "",
-            "distance": 4.87,
+            "distance": 2.32,
             "fhirLocationId": "97fe9224-0321-4c0d-a7cf-2eae653df72f",
             "locationId": "97fe9224-0321-4c0d-a7cf-2eae653df72f",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -40523,7 +40633,7 @@
               }
             ],
             "description": "",
-            "distance": 13.9,
+            "distance": 21.39,
             "fhirLocationId": "7eca8f51-07be-4e5c-8fcd-34def2d236f1",
             "locationId": "7eca8f51-07be-4e5c-8fcd-34def2d236f1",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -40610,7 +40720,7 @@
               }
             ],
             "description": "",
-            "distance": 17.6,
+            "distance": 7.33,
             "fhirLocationId": "03fbb2f6-f417-45cc-924f-2bdbde9af982",
             "locationId": "03fbb2f6-f417-45cc-924f-2bdbde9af982",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -40691,7 +40801,7 @@
               }
             ],
             "description": "",
-            "distance": 16.98,
+            "distance": 7.74,
             "fhirLocationId": "6b76338c-63f9-43f5-8420-3b0511c73d19",
             "locationId": "6b76338c-63f9-43f5-8420-3b0511c73d19",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -40763,7 +40873,7 @@
               }
             ],
             "description": "",
-            "distance": 9.76,
+            "distance": 24.43,
             "fhirLocationId": "30fafe24-f94e-4eb9-b651-5beb74a966c3",
             "locationId": "30fafe24-f94e-4eb9-b651-5beb74a966c3",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -40835,7 +40945,7 @@
               }
             ],
             "description": "",
-            "distance": 21.84,
+            "distance": 16.14,
             "fhirLocationId": "c0caa6df-89db-4293-b218-62712a206acd",
             "locationId": "c0caa6df-89db-4293-b218-62712a206acd",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -40898,7 +41008,7 @@
               }
             ],
             "description": "",
-            "distance": 3.35,
+            "distance": 19.86,
             "fhirLocationId": "de872e72-fbcf-4332-80ab-7cef6d57d329",
             "locationId": "de872e72-fbcf-4332-80ab-7cef6d57d329",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -40982,7 +41092,7 @@
               }
             ],
             "description": "",
-            "distance": 2.32,
+            "distance": 15.43,
             "fhirLocationId": "664a7b23-808b-4779-bdaf-41678b2e4b3b",
             "locationId": "664a7b23-808b-4779-bdaf-41678b2e4b3b",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -41053,7 +41163,7 @@
               }
             ],
             "description": "",
-            "distance": 4.87,
+            "distance": 21.54,
             "fhirLocationId": "97fe9224-0321-4c0d-a7cf-2eae653df72f",
             "locationId": "97fe9224-0321-4c0d-a7cf-2eae653df72f",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -41161,7 +41271,7 @@
       }
     ],
     "appointments_available": true,
-    "appointments_last_fetched": "2021-02-27T10:47:11.295+00:00",
+    "appointments_last_fetched": "2021-02-27T11:00:56.161+00:00",
     "appointments_raw": {
       "both_doses": {
         "locations": [
@@ -41221,7 +41331,7 @@
               }
             ],
             "description": "",
-            "distance": 24,
+            "distance": 7.33,
             "fhirLocationId": "03fbb2f6-f417-45cc-924f-2bdbde9af982",
             "locationId": "03fbb2f6-f417-45cc-924f-2bdbde9af982",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -41302,7 +41412,7 @@
               }
             ],
             "description": "",
-            "distance": 24.4,
+            "distance": 7.74,
             "fhirLocationId": "6b76338c-63f9-43f5-8420-3b0511c73d19",
             "locationId": "6b76338c-63f9-43f5-8420-3b0511c73d19",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -41374,7 +41484,7 @@
               }
             ],
             "description": "",
-            "distance": 20.85,
+            "distance": 11.56,
             "fhirLocationId": "30fafe24-f94e-4eb9-b651-5beb74a966c3",
             "locationId": "30fafe24-f94e-4eb9-b651-5beb74a966c3",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -41446,7 +41556,7 @@
               }
             ],
             "description": "",
-            "distance": 21.84,
+            "distance": 16.14,
             "fhirLocationId": "c0caa6df-89db-4293-b218-62712a206acd",
             "locationId": "c0caa6df-89db-4293-b218-62712a206acd",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -41509,7 +41619,7 @@
               }
             ],
             "description": "",
-            "distance": 3.35,
+            "distance": 1.79,
             "fhirLocationId": "de872e72-fbcf-4332-80ab-7cef6d57d329",
             "locationId": "de872e72-fbcf-4332-80ab-7cef6d57d329",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -41593,7 +41703,7 @@
               }
             ],
             "description": "",
-            "distance": 10.9,
+            "distance": 20.79,
             "fhirLocationId": "664a7b23-808b-4779-bdaf-41678b2e4b3b",
             "locationId": "664a7b23-808b-4779-bdaf-41678b2e4b3b",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -41658,7 +41768,7 @@
               }
             ],
             "description": "",
-            "distance": 4.76,
+            "distance": 0.6,
             "fhirLocationId": "7eca8f51-07be-4e5c-8fcd-34def2d236f1",
             "locationId": "7eca8f51-07be-4e5c-8fcd-34def2d236f1",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -41729,7 +41839,7 @@
               }
             ],
             "description": "",
-            "distance": 4.87,
+            "distance": 2.32,
             "fhirLocationId": "97fe9224-0321-4c0d-a7cf-2eae653df72f",
             "locationId": "97fe9224-0321-4c0d-a7cf-2eae653df72f",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -41798,7 +41908,7 @@
               }
             ],
             "description": "",
-            "distance": 13.9,
+            "distance": 21.39,
             "fhirLocationId": "7eca8f51-07be-4e5c-8fcd-34def2d236f1",
             "locationId": "7eca8f51-07be-4e5c-8fcd-34def2d236f1",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -41885,7 +41995,7 @@
               }
             ],
             "description": "",
-            "distance": 17.6,
+            "distance": 7.33,
             "fhirLocationId": "03fbb2f6-f417-45cc-924f-2bdbde9af982",
             "locationId": "03fbb2f6-f417-45cc-924f-2bdbde9af982",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -41966,7 +42076,7 @@
               }
             ],
             "description": "",
-            "distance": 16.98,
+            "distance": 7.74,
             "fhirLocationId": "6b76338c-63f9-43f5-8420-3b0511c73d19",
             "locationId": "6b76338c-63f9-43f5-8420-3b0511c73d19",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -42038,7 +42148,7 @@
               }
             ],
             "description": "",
-            "distance": 9.76,
+            "distance": 24.43,
             "fhirLocationId": "30fafe24-f94e-4eb9-b651-5beb74a966c3",
             "locationId": "30fafe24-f94e-4eb9-b651-5beb74a966c3",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -42110,7 +42220,7 @@
               }
             ],
             "description": "",
-            "distance": 21.84,
+            "distance": 16.14,
             "fhirLocationId": "c0caa6df-89db-4293-b218-62712a206acd",
             "locationId": "c0caa6df-89db-4293-b218-62712a206acd",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -42173,7 +42283,7 @@
               }
             ],
             "description": "",
-            "distance": 3.35,
+            "distance": 19.86,
             "fhirLocationId": "de872e72-fbcf-4332-80ab-7cef6d57d329",
             "locationId": "de872e72-fbcf-4332-80ab-7cef6d57d329",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -42257,7 +42367,7 @@
               }
             ],
             "description": "",
-            "distance": 2.32,
+            "distance": 15.43,
             "fhirLocationId": "664a7b23-808b-4779-bdaf-41678b2e4b3b",
             "locationId": "664a7b23-808b-4779-bdaf-41678b2e4b3b",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -42328,7 +42438,7 @@
               }
             ],
             "description": "",
-            "distance": 4.87,
+            "distance": 21.54,
             "fhirLocationId": "97fe9224-0321-4c0d-a7cf-2eae653df72f",
             "locationId": "97fe9224-0321-4c0d-a7cf-2eae653df72f",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -42484,7 +42594,7 @@
       }
     ],
     "appointments_available": true,
-    "appointments_last_fetched": "2021-02-27T10:47:11.295+00:00",
+    "appointments_last_fetched": "2021-02-27T11:00:56.161+00:00",
     "appointments_raw": {
       "both_doses": {
         "locations": [
@@ -42544,7 +42654,7 @@
               }
             ],
             "description": "",
-            "distance": 24,
+            "distance": 7.33,
             "fhirLocationId": "03fbb2f6-f417-45cc-924f-2bdbde9af982",
             "locationId": "03fbb2f6-f417-45cc-924f-2bdbde9af982",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -42625,7 +42735,7 @@
               }
             ],
             "description": "",
-            "distance": 24.4,
+            "distance": 7.74,
             "fhirLocationId": "6b76338c-63f9-43f5-8420-3b0511c73d19",
             "locationId": "6b76338c-63f9-43f5-8420-3b0511c73d19",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -42697,7 +42807,7 @@
               }
             ],
             "description": "",
-            "distance": 20.85,
+            "distance": 11.56,
             "fhirLocationId": "30fafe24-f94e-4eb9-b651-5beb74a966c3",
             "locationId": "30fafe24-f94e-4eb9-b651-5beb74a966c3",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -42769,7 +42879,7 @@
               }
             ],
             "description": "",
-            "distance": 21.84,
+            "distance": 16.14,
             "fhirLocationId": "c0caa6df-89db-4293-b218-62712a206acd",
             "locationId": "c0caa6df-89db-4293-b218-62712a206acd",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -42832,7 +42942,7 @@
               }
             ],
             "description": "",
-            "distance": 3.35,
+            "distance": 1.79,
             "fhirLocationId": "de872e72-fbcf-4332-80ab-7cef6d57d329",
             "locationId": "de872e72-fbcf-4332-80ab-7cef6d57d329",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -42916,7 +43026,7 @@
               }
             ],
             "description": "",
-            "distance": 10.9,
+            "distance": 20.79,
             "fhirLocationId": "664a7b23-808b-4779-bdaf-41678b2e4b3b",
             "locationId": "664a7b23-808b-4779-bdaf-41678b2e4b3b",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -42981,7 +43091,7 @@
               }
             ],
             "description": "",
-            "distance": 4.76,
+            "distance": 0.6,
             "fhirLocationId": "7eca8f51-07be-4e5c-8fcd-34def2d236f1",
             "locationId": "7eca8f51-07be-4e5c-8fcd-34def2d236f1",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -43052,7 +43162,7 @@
               }
             ],
             "description": "",
-            "distance": 4.87,
+            "distance": 2.32,
             "fhirLocationId": "97fe9224-0321-4c0d-a7cf-2eae653df72f",
             "locationId": "97fe9224-0321-4c0d-a7cf-2eae653df72f",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -43121,7 +43231,7 @@
               }
             ],
             "description": "",
-            "distance": 13.9,
+            "distance": 21.39,
             "fhirLocationId": "7eca8f51-07be-4e5c-8fcd-34def2d236f1",
             "locationId": "7eca8f51-07be-4e5c-8fcd-34def2d236f1",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -43208,7 +43318,7 @@
               }
             ],
             "description": "",
-            "distance": 17.6,
+            "distance": 7.33,
             "fhirLocationId": "03fbb2f6-f417-45cc-924f-2bdbde9af982",
             "locationId": "03fbb2f6-f417-45cc-924f-2bdbde9af982",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -43289,7 +43399,7 @@
               }
             ],
             "description": "",
-            "distance": 16.98,
+            "distance": 7.74,
             "fhirLocationId": "6b76338c-63f9-43f5-8420-3b0511c73d19",
             "locationId": "6b76338c-63f9-43f5-8420-3b0511c73d19",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -43361,7 +43471,7 @@
               }
             ],
             "description": "",
-            "distance": 9.76,
+            "distance": 24.43,
             "fhirLocationId": "30fafe24-f94e-4eb9-b651-5beb74a966c3",
             "locationId": "30fafe24-f94e-4eb9-b651-5beb74a966c3",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -43433,7 +43543,7 @@
               }
             ],
             "description": "",
-            "distance": 21.84,
+            "distance": 16.14,
             "fhirLocationId": "c0caa6df-89db-4293-b218-62712a206acd",
             "locationId": "c0caa6df-89db-4293-b218-62712a206acd",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -43496,7 +43606,7 @@
               }
             ],
             "description": "",
-            "distance": 3.35,
+            "distance": 19.86,
             "fhirLocationId": "de872e72-fbcf-4332-80ab-7cef6d57d329",
             "locationId": "de872e72-fbcf-4332-80ab-7cef6d57d329",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -43580,7 +43690,7 @@
               }
             ],
             "description": "",
-            "distance": 2.32,
+            "distance": 15.43,
             "fhirLocationId": "664a7b23-808b-4779-bdaf-41678b2e4b3b",
             "locationId": "664a7b23-808b-4779-bdaf-41678b2e4b3b",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -43651,7 +43761,7 @@
               }
             ],
             "description": "",
-            "distance": 4.87,
+            "distance": 21.54,
             "fhirLocationId": "97fe9224-0321-4c0d-a7cf-2eae653df72f",
             "locationId": "97fe9224-0321-4c0d-a7cf-2eae653df72f",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -43815,7 +43925,7 @@
       }
     ],
     "appointments_available": true,
-    "appointments_last_fetched": "2021-02-27T10:47:11.295+00:00",
+    "appointments_last_fetched": "2021-02-27T11:00:56.161+00:00",
     "appointments_raw": {
       "both_doses": {
         "locations": [
@@ -43875,7 +43985,7 @@
               }
             ],
             "description": "",
-            "distance": 24,
+            "distance": 7.33,
             "fhirLocationId": "03fbb2f6-f417-45cc-924f-2bdbde9af982",
             "locationId": "03fbb2f6-f417-45cc-924f-2bdbde9af982",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -43956,7 +44066,7 @@
               }
             ],
             "description": "",
-            "distance": 24.4,
+            "distance": 7.74,
             "fhirLocationId": "6b76338c-63f9-43f5-8420-3b0511c73d19",
             "locationId": "6b76338c-63f9-43f5-8420-3b0511c73d19",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -44028,7 +44138,7 @@
               }
             ],
             "description": "",
-            "distance": 20.85,
+            "distance": 11.56,
             "fhirLocationId": "30fafe24-f94e-4eb9-b651-5beb74a966c3",
             "locationId": "30fafe24-f94e-4eb9-b651-5beb74a966c3",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -44100,7 +44210,7 @@
               }
             ],
             "description": "",
-            "distance": 21.84,
+            "distance": 16.14,
             "fhirLocationId": "c0caa6df-89db-4293-b218-62712a206acd",
             "locationId": "c0caa6df-89db-4293-b218-62712a206acd",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -44163,7 +44273,7 @@
               }
             ],
             "description": "",
-            "distance": 3.35,
+            "distance": 1.79,
             "fhirLocationId": "de872e72-fbcf-4332-80ab-7cef6d57d329",
             "locationId": "de872e72-fbcf-4332-80ab-7cef6d57d329",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -44247,7 +44357,7 @@
               }
             ],
             "description": "",
-            "distance": 10.9,
+            "distance": 20.79,
             "fhirLocationId": "664a7b23-808b-4779-bdaf-41678b2e4b3b",
             "locationId": "664a7b23-808b-4779-bdaf-41678b2e4b3b",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -44312,7 +44422,7 @@
               }
             ],
             "description": "",
-            "distance": 4.76,
+            "distance": 0.6,
             "fhirLocationId": "7eca8f51-07be-4e5c-8fcd-34def2d236f1",
             "locationId": "7eca8f51-07be-4e5c-8fcd-34def2d236f1",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -44383,7 +44493,7 @@
               }
             ],
             "description": "",
-            "distance": 4.87,
+            "distance": 2.32,
             "fhirLocationId": "97fe9224-0321-4c0d-a7cf-2eae653df72f",
             "locationId": "97fe9224-0321-4c0d-a7cf-2eae653df72f",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -44452,7 +44562,7 @@
               }
             ],
             "description": "",
-            "distance": 13.9,
+            "distance": 21.39,
             "fhirLocationId": "7eca8f51-07be-4e5c-8fcd-34def2d236f1",
             "locationId": "7eca8f51-07be-4e5c-8fcd-34def2d236f1",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -44539,7 +44649,7 @@
               }
             ],
             "description": "",
-            "distance": 17.6,
+            "distance": 7.33,
             "fhirLocationId": "03fbb2f6-f417-45cc-924f-2bdbde9af982",
             "locationId": "03fbb2f6-f417-45cc-924f-2bdbde9af982",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -44620,7 +44730,7 @@
               }
             ],
             "description": "",
-            "distance": 16.98,
+            "distance": 7.74,
             "fhirLocationId": "6b76338c-63f9-43f5-8420-3b0511c73d19",
             "locationId": "6b76338c-63f9-43f5-8420-3b0511c73d19",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -44692,7 +44802,7 @@
               }
             ],
             "description": "",
-            "distance": 9.76,
+            "distance": 24.43,
             "fhirLocationId": "30fafe24-f94e-4eb9-b651-5beb74a966c3",
             "locationId": "30fafe24-f94e-4eb9-b651-5beb74a966c3",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -44764,7 +44874,7 @@
               }
             ],
             "description": "",
-            "distance": 21.84,
+            "distance": 16.14,
             "fhirLocationId": "c0caa6df-89db-4293-b218-62712a206acd",
             "locationId": "c0caa6df-89db-4293-b218-62712a206acd",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -44827,7 +44937,7 @@
               }
             ],
             "description": "",
-            "distance": 3.35,
+            "distance": 19.86,
             "fhirLocationId": "de872e72-fbcf-4332-80ab-7cef6d57d329",
             "locationId": "de872e72-fbcf-4332-80ab-7cef6d57d329",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -44911,7 +45021,7 @@
               }
             ],
             "description": "",
-            "distance": 2.32,
+            "distance": 15.43,
             "fhirLocationId": "664a7b23-808b-4779-bdaf-41678b2e4b3b",
             "locationId": "664a7b23-808b-4779-bdaf-41678b2e4b3b",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -44982,7 +45092,7 @@
               }
             ],
             "description": "",
-            "distance": 4.87,
+            "distance": 21.54,
             "fhirLocationId": "97fe9224-0321-4c0d-a7cf-2eae653df72f",
             "locationId": "97fe9224-0321-4c0d-a7cf-2eae653df72f",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -45242,7 +45352,7 @@
       }
     ],
     "appointments_available": true,
-    "appointments_last_fetched": "2021-02-27T10:47:11.295+00:00",
+    "appointments_last_fetched": "2021-02-27T11:00:56.161+00:00",
     "appointments_raw": {
       "both_doses": {
         "locations": [
@@ -45302,7 +45412,7 @@
               }
             ],
             "description": "",
-            "distance": 24,
+            "distance": 7.33,
             "fhirLocationId": "03fbb2f6-f417-45cc-924f-2bdbde9af982",
             "locationId": "03fbb2f6-f417-45cc-924f-2bdbde9af982",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -45383,7 +45493,7 @@
               }
             ],
             "description": "",
-            "distance": 24.4,
+            "distance": 7.74,
             "fhirLocationId": "6b76338c-63f9-43f5-8420-3b0511c73d19",
             "locationId": "6b76338c-63f9-43f5-8420-3b0511c73d19",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -45455,7 +45565,7 @@
               }
             ],
             "description": "",
-            "distance": 20.85,
+            "distance": 11.56,
             "fhirLocationId": "30fafe24-f94e-4eb9-b651-5beb74a966c3",
             "locationId": "30fafe24-f94e-4eb9-b651-5beb74a966c3",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -45527,7 +45637,7 @@
               }
             ],
             "description": "",
-            "distance": 21.84,
+            "distance": 16.14,
             "fhirLocationId": "c0caa6df-89db-4293-b218-62712a206acd",
             "locationId": "c0caa6df-89db-4293-b218-62712a206acd",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -45590,7 +45700,7 @@
               }
             ],
             "description": "",
-            "distance": 3.35,
+            "distance": 1.79,
             "fhirLocationId": "de872e72-fbcf-4332-80ab-7cef6d57d329",
             "locationId": "de872e72-fbcf-4332-80ab-7cef6d57d329",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -45674,7 +45784,7 @@
               }
             ],
             "description": "",
-            "distance": 10.9,
+            "distance": 20.79,
             "fhirLocationId": "664a7b23-808b-4779-bdaf-41678b2e4b3b",
             "locationId": "664a7b23-808b-4779-bdaf-41678b2e4b3b",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -45739,7 +45849,7 @@
               }
             ],
             "description": "",
-            "distance": 4.76,
+            "distance": 0.6,
             "fhirLocationId": "7eca8f51-07be-4e5c-8fcd-34def2d236f1",
             "locationId": "7eca8f51-07be-4e5c-8fcd-34def2d236f1",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -45810,7 +45920,7 @@
               }
             ],
             "description": "",
-            "distance": 4.87,
+            "distance": 2.32,
             "fhirLocationId": "97fe9224-0321-4c0d-a7cf-2eae653df72f",
             "locationId": "97fe9224-0321-4c0d-a7cf-2eae653df72f",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -45879,7 +45989,7 @@
               }
             ],
             "description": "",
-            "distance": 13.9,
+            "distance": 21.39,
             "fhirLocationId": "7eca8f51-07be-4e5c-8fcd-34def2d236f1",
             "locationId": "7eca8f51-07be-4e5c-8fcd-34def2d236f1",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -45966,7 +46076,7 @@
               }
             ],
             "description": "",
-            "distance": 17.6,
+            "distance": 7.33,
             "fhirLocationId": "03fbb2f6-f417-45cc-924f-2bdbde9af982",
             "locationId": "03fbb2f6-f417-45cc-924f-2bdbde9af982",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -46047,7 +46157,7 @@
               }
             ],
             "description": "",
-            "distance": 16.98,
+            "distance": 7.74,
             "fhirLocationId": "6b76338c-63f9-43f5-8420-3b0511c73d19",
             "locationId": "6b76338c-63f9-43f5-8420-3b0511c73d19",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -46119,7 +46229,7 @@
               }
             ],
             "description": "",
-            "distance": 9.76,
+            "distance": 24.43,
             "fhirLocationId": "30fafe24-f94e-4eb9-b651-5beb74a966c3",
             "locationId": "30fafe24-f94e-4eb9-b651-5beb74a966c3",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -46191,7 +46301,7 @@
               }
             ],
             "description": "",
-            "distance": 21.84,
+            "distance": 16.14,
             "fhirLocationId": "c0caa6df-89db-4293-b218-62712a206acd",
             "locationId": "c0caa6df-89db-4293-b218-62712a206acd",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -46254,7 +46364,7 @@
               }
             ],
             "description": "",
-            "distance": 3.35,
+            "distance": 19.86,
             "fhirLocationId": "de872e72-fbcf-4332-80ab-7cef6d57d329",
             "locationId": "de872e72-fbcf-4332-80ab-7cef6d57d329",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -46338,7 +46448,7 @@
               }
             ],
             "description": "",
-            "distance": 2.32,
+            "distance": 15.43,
             "fhirLocationId": "664a7b23-808b-4779-bdaf-41678b2e4b3b",
             "locationId": "664a7b23-808b-4779-bdaf-41678b2e4b3b",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -46409,7 +46519,7 @@
               }
             ],
             "description": "",
-            "distance": 4.87,
+            "distance": 21.54,
             "fhirLocationId": "97fe9224-0321-4c0d-a7cf-2eae653df72f",
             "locationId": "97fe9224-0321-4c0d-a7cf-2eae653df72f",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -46645,7 +46755,7 @@
       }
     ],
     "appointments_available": true,
-    "appointments_last_fetched": "2021-02-27T10:47:11.295+00:00",
+    "appointments_last_fetched": "2021-02-27T11:00:56.161+00:00",
     "appointments_raw": {
       "both_doses": {
         "locations": [
@@ -46705,7 +46815,7 @@
               }
             ],
             "description": "",
-            "distance": 24,
+            "distance": 7.33,
             "fhirLocationId": "03fbb2f6-f417-45cc-924f-2bdbde9af982",
             "locationId": "03fbb2f6-f417-45cc-924f-2bdbde9af982",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -46786,7 +46896,7 @@
               }
             ],
             "description": "",
-            "distance": 24.4,
+            "distance": 7.74,
             "fhirLocationId": "6b76338c-63f9-43f5-8420-3b0511c73d19",
             "locationId": "6b76338c-63f9-43f5-8420-3b0511c73d19",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -46858,7 +46968,7 @@
               }
             ],
             "description": "",
-            "distance": 20.85,
+            "distance": 11.56,
             "fhirLocationId": "30fafe24-f94e-4eb9-b651-5beb74a966c3",
             "locationId": "30fafe24-f94e-4eb9-b651-5beb74a966c3",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -46930,7 +47040,7 @@
               }
             ],
             "description": "",
-            "distance": 21.84,
+            "distance": 16.14,
             "fhirLocationId": "c0caa6df-89db-4293-b218-62712a206acd",
             "locationId": "c0caa6df-89db-4293-b218-62712a206acd",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -46993,7 +47103,7 @@
               }
             ],
             "description": "",
-            "distance": 3.35,
+            "distance": 1.79,
             "fhirLocationId": "de872e72-fbcf-4332-80ab-7cef6d57d329",
             "locationId": "de872e72-fbcf-4332-80ab-7cef6d57d329",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -47077,7 +47187,7 @@
               }
             ],
             "description": "",
-            "distance": 10.9,
+            "distance": 20.79,
             "fhirLocationId": "664a7b23-808b-4779-bdaf-41678b2e4b3b",
             "locationId": "664a7b23-808b-4779-bdaf-41678b2e4b3b",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -47142,7 +47252,7 @@
               }
             ],
             "description": "",
-            "distance": 4.76,
+            "distance": 0.6,
             "fhirLocationId": "7eca8f51-07be-4e5c-8fcd-34def2d236f1",
             "locationId": "7eca8f51-07be-4e5c-8fcd-34def2d236f1",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -47213,7 +47323,7 @@
               }
             ],
             "description": "",
-            "distance": 4.87,
+            "distance": 2.32,
             "fhirLocationId": "97fe9224-0321-4c0d-a7cf-2eae653df72f",
             "locationId": "97fe9224-0321-4c0d-a7cf-2eae653df72f",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -47282,7 +47392,7 @@
               }
             ],
             "description": "",
-            "distance": 13.9,
+            "distance": 21.39,
             "fhirLocationId": "7eca8f51-07be-4e5c-8fcd-34def2d236f1",
             "locationId": "7eca8f51-07be-4e5c-8fcd-34def2d236f1",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -47369,7 +47479,7 @@
               }
             ],
             "description": "",
-            "distance": 17.6,
+            "distance": 7.33,
             "fhirLocationId": "03fbb2f6-f417-45cc-924f-2bdbde9af982",
             "locationId": "03fbb2f6-f417-45cc-924f-2bdbde9af982",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -47450,7 +47560,7 @@
               }
             ],
             "description": "",
-            "distance": 16.98,
+            "distance": 7.74,
             "fhirLocationId": "6b76338c-63f9-43f5-8420-3b0511c73d19",
             "locationId": "6b76338c-63f9-43f5-8420-3b0511c73d19",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -47522,7 +47632,7 @@
               }
             ],
             "description": "",
-            "distance": 9.76,
+            "distance": 24.43,
             "fhirLocationId": "30fafe24-f94e-4eb9-b651-5beb74a966c3",
             "locationId": "30fafe24-f94e-4eb9-b651-5beb74a966c3",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -47594,7 +47704,7 @@
               }
             ],
             "description": "",
-            "distance": 21.84,
+            "distance": 16.14,
             "fhirLocationId": "c0caa6df-89db-4293-b218-62712a206acd",
             "locationId": "c0caa6df-89db-4293-b218-62712a206acd",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -47657,7 +47767,7 @@
               }
             ],
             "description": "",
-            "distance": 3.35,
+            "distance": 19.86,
             "fhirLocationId": "de872e72-fbcf-4332-80ab-7cef6d57d329",
             "locationId": "de872e72-fbcf-4332-80ab-7cef6d57d329",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -47741,7 +47851,7 @@
               }
             ],
             "description": "",
-            "distance": 2.32,
+            "distance": 15.43,
             "fhirLocationId": "664a7b23-808b-4779-bdaf-41678b2e4b3b",
             "locationId": "664a7b23-808b-4779-bdaf-41678b2e4b3b",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -47812,7 +47922,7 @@
               }
             ],
             "description": "",
-            "distance": 4.87,
+            "distance": 21.54,
             "fhirLocationId": "97fe9224-0321-4c0d-a7cf-2eae653df72f",
             "locationId": "97fe9224-0321-4c0d-a7cf-2eae653df72f",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -48064,7 +48174,7 @@
       }
     ],
     "appointments_available": true,
-    "appointments_last_fetched": "2021-02-27T10:47:11.295+00:00",
+    "appointments_last_fetched": "2021-02-27T11:00:56.161+00:00",
     "appointments_raw": {
       "both_doses": {
         "locations": [
@@ -48124,7 +48234,7 @@
               }
             ],
             "description": "",
-            "distance": 24,
+            "distance": 7.33,
             "fhirLocationId": "03fbb2f6-f417-45cc-924f-2bdbde9af982",
             "locationId": "03fbb2f6-f417-45cc-924f-2bdbde9af982",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -48205,7 +48315,7 @@
               }
             ],
             "description": "",
-            "distance": 24.4,
+            "distance": 7.74,
             "fhirLocationId": "6b76338c-63f9-43f5-8420-3b0511c73d19",
             "locationId": "6b76338c-63f9-43f5-8420-3b0511c73d19",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -48277,7 +48387,7 @@
               }
             ],
             "description": "",
-            "distance": 20.85,
+            "distance": 11.56,
             "fhirLocationId": "30fafe24-f94e-4eb9-b651-5beb74a966c3",
             "locationId": "30fafe24-f94e-4eb9-b651-5beb74a966c3",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -48349,7 +48459,7 @@
               }
             ],
             "description": "",
-            "distance": 21.84,
+            "distance": 16.14,
             "fhirLocationId": "c0caa6df-89db-4293-b218-62712a206acd",
             "locationId": "c0caa6df-89db-4293-b218-62712a206acd",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -48412,7 +48522,7 @@
               }
             ],
             "description": "",
-            "distance": 3.35,
+            "distance": 1.79,
             "fhirLocationId": "de872e72-fbcf-4332-80ab-7cef6d57d329",
             "locationId": "de872e72-fbcf-4332-80ab-7cef6d57d329",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -48496,7 +48606,7 @@
               }
             ],
             "description": "",
-            "distance": 10.9,
+            "distance": 20.79,
             "fhirLocationId": "664a7b23-808b-4779-bdaf-41678b2e4b3b",
             "locationId": "664a7b23-808b-4779-bdaf-41678b2e4b3b",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -48561,7 +48671,7 @@
               }
             ],
             "description": "",
-            "distance": 4.76,
+            "distance": 0.6,
             "fhirLocationId": "7eca8f51-07be-4e5c-8fcd-34def2d236f1",
             "locationId": "7eca8f51-07be-4e5c-8fcd-34def2d236f1",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -48632,7 +48742,7 @@
               }
             ],
             "description": "",
-            "distance": 4.87,
+            "distance": 2.32,
             "fhirLocationId": "97fe9224-0321-4c0d-a7cf-2eae653df72f",
             "locationId": "97fe9224-0321-4c0d-a7cf-2eae653df72f",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -48701,7 +48811,7 @@
               }
             ],
             "description": "",
-            "distance": 13.9,
+            "distance": 21.39,
             "fhirLocationId": "7eca8f51-07be-4e5c-8fcd-34def2d236f1",
             "locationId": "7eca8f51-07be-4e5c-8fcd-34def2d236f1",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -48788,7 +48898,7 @@
               }
             ],
             "description": "",
-            "distance": 17.6,
+            "distance": 7.33,
             "fhirLocationId": "03fbb2f6-f417-45cc-924f-2bdbde9af982",
             "locationId": "03fbb2f6-f417-45cc-924f-2bdbde9af982",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -48869,7 +48979,7 @@
               }
             ],
             "description": "",
-            "distance": 16.98,
+            "distance": 7.74,
             "fhirLocationId": "6b76338c-63f9-43f5-8420-3b0511c73d19",
             "locationId": "6b76338c-63f9-43f5-8420-3b0511c73d19",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -48941,7 +49051,7 @@
               }
             ],
             "description": "",
-            "distance": 9.76,
+            "distance": 24.43,
             "fhirLocationId": "30fafe24-f94e-4eb9-b651-5beb74a966c3",
             "locationId": "30fafe24-f94e-4eb9-b651-5beb74a966c3",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -49013,7 +49123,7 @@
               }
             ],
             "description": "",
-            "distance": 21.84,
+            "distance": 16.14,
             "fhirLocationId": "c0caa6df-89db-4293-b218-62712a206acd",
             "locationId": "c0caa6df-89db-4293-b218-62712a206acd",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -49076,7 +49186,7 @@
               }
             ],
             "description": "",
-            "distance": 3.35,
+            "distance": 19.86,
             "fhirLocationId": "de872e72-fbcf-4332-80ab-7cef6d57d329",
             "locationId": "de872e72-fbcf-4332-80ab-7cef6d57d329",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -49160,7 +49270,7 @@
               }
             ],
             "description": "",
-            "distance": 2.32,
+            "distance": 15.43,
             "fhirLocationId": "664a7b23-808b-4779-bdaf-41678b2e4b3b",
             "locationId": "664a7b23-808b-4779-bdaf-41678b2e4b3b",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -49231,7 +49341,7 @@
               }
             ],
             "description": "",
-            "distance": 4.87,
+            "distance": 21.54,
             "fhirLocationId": "97fe9224-0321-4c0d-a7cf-2eae653df72f",
             "locationId": "97fe9224-0321-4c0d-a7cf-2eae653df72f",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -59952,10 +60062,146 @@
       }
     ],
     "appointments_available": true,
-    "appointments_last_fetched": "2021-02-27T10:53:24.72+00:00",
+    "appointments_last_fetched": "2021-02-27T11:01:22.684+00:00",
     "appointments_raw": {
       "both_doses": {
         "locations": [
+          {
+            "address": {
+              "city": "ROBBINSVILLE",
+              "country": "US",
+              "line1": "219 RODNEY ORR BYP",
+              "line2": "",
+              "state": "NC",
+              "zip": "28771"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "10:15 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "02:30 pm",
+                  "02:45 pm",
+                  "03:00 pm",
+                  "03:15 pm",
+                  "03:30 pm",
+                  "03:45 pm",
+                  "04:15 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 22.08,
+            "fhirLocationId": "b3c265dd-c2dd-43b3-a45b-bba3fa71938d",
+            "locationId": "b3c265dd-c2dd-43b3-a45b-bba3fa71938d",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "16110",
+            "phone": [
+              {
+                "number": "828-479-8791",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "828-479-8791",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 35.32384808,
+              "longitude": -83.80299696
+            },
+            "storenumber": "16110"
+          },
+          {
+            "address": {
+              "city": "MURPHY",
+              "country": "US",
+              "line1": "1630 ANDREWS RD",
+              "line2": "",
+              "state": "NC",
+              "zip": "28906"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm",
+                  "02:15 pm",
+                  "02:30 pm",
+                  "02:45 pm",
+                  "03:45 pm",
+                  "04:00 pm",
+                  "04:45 pm",
+                  "05:00 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 18.42,
+            "fhirLocationId": "87d8a67b-f749-4607-beb4-ad6d2e733707",
+            "locationId": "87d8a67b-f749-4607-beb4-ad6d2e733707",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "16253",
+            "phone": [
+              {
+                "number": "828-837-5512",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "828-835-3779",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "828-837-5512",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 35.11022009,
+              "longitude": -84.00795019
+            },
+            "storenumber": "16253"
+          },
           {
             "address": {
               "city": "HIAWASSEE",
@@ -60099,6 +60345,77 @@
               "longitude": -83.96273041
             },
             "storenumber": "17943"
+          }
+        ]
+      },
+      "second_dose_moderna": {
+        "locations": [
+          {
+            "address": {
+              "city": "ROBBINSVILLE",
+              "country": "US",
+              "line1": "219 RODNEY ORR BYP",
+              "line2": "",
+              "state": "NC",
+              "zip": "28771"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "10:15 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "02:30 pm",
+                  "02:45 pm",
+                  "03:00 pm",
+                  "03:15 pm",
+                  "03:30 pm",
+                  "03:45 pm",
+                  "04:15 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 13.07,
+            "fhirLocationId": "b3c265dd-c2dd-43b3-a45b-bba3fa71938d",
+            "locationId": "b3c265dd-c2dd-43b3-a45b-bba3fa71938d",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "16110",
+            "phone": [
+              {
+                "number": "828-479-8791",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "828-479-8791",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 35.32384808,
+              "longitude": -83.80299696
+            },
+            "storenumber": "16110"
           },
           {
             "address": {
@@ -60142,80 +60459,7 @@
               }
             ],
             "description": "",
-            "distance": 18.42,
-            "fhirLocationId": "87d8a67b-f749-4607-beb4-ad6d2e733707",
-            "locationId": "87d8a67b-f749-4607-beb4-ad6d2e733707",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "16253",
-            "phone": [
-              {
-                "number": "828-837-5512",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "828-835-3779",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "828-837-5512",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 35.11022009,
-              "longitude": -84.00795019
-            },
-            "storenumber": "16253"
-          }
-        ]
-      },
-      "second_dose_moderna": {
-        "locations": [
-          {
-            "address": {
-              "city": "MURPHY",
-              "country": "US",
-              "line1": "1630 ANDREWS RD",
-              "line2": "",
-              "state": "NC",
-              "zip": "28906"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "11:45 am",
-                  "12:00 pm",
-                  "12:15 pm",
-                  "12:30 pm",
-                  "12:45 pm",
-                  "02:15 pm",
-                  "02:30 pm",
-                  "02:45 pm",
-                  "03:45 pm",
-                  "04:00 pm",
-                  "04:45 pm",
-                  "05:00 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 18.42,
+            "distance": 1.87,
             "fhirLocationId": "87d8a67b-f749-4607-beb4-ad6d2e733707",
             "locationId": "87d8a67b-f749-4607-beb4-ad6d2e733707",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -60363,7 +60607,7 @@
               }
             ],
             "description": "",
-            "distance": 10.89,
+            "distance": 20.2,
             "fhirLocationId": "db33c611-aa34-4a08-9636-94ecd729649c",
             "locationId": "db33c611-aa34-4a08-9636-94ecd729649c",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -60407,7 +60651,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T10:38:01.753+00:00",
+    "appointments_last_fetched": "2021-02-27T11:01:22.684+00:00",
     "appointments_raw": {
       "both_doses": {
         "locations": [
@@ -60451,7 +60695,7 @@
               }
             ],
             "description": "",
-            "distance": 13.07,
+            "distance": 22.08,
             "fhirLocationId": "b3c265dd-c2dd-43b3-a45b-bba3fa71938d",
             "locationId": "b3c265dd-c2dd-43b3-a45b-bba3fa71938d",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -60603,7 +60847,7 @@
               }
             ],
             "description": "",
-            "distance": 24.27,
+            "distance": 2.3,
             "fhirLocationId": "670f7b6e-901f-49d4-a84d-b61f33d23539",
             "locationId": "670f7b6e-901f-49d4-a84d-b61f33d23539",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -60664,7 +60908,7 @@
               }
             ],
             "description": "",
-            "distance": 18.65,
+            "distance": 10.89,
             "fhirLocationId": "db33c611-aa34-4a08-9636-94ecd729649c",
             "locationId": "db33c611-aa34-4a08-9636-94ecd729649c",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -60735,7 +60979,7 @@
               }
             ],
             "description": "",
-            "distance": 13.65,
+            "distance": 13.07,
             "fhirLocationId": "b3c265dd-c2dd-43b3-a45b-bba3fa71938d",
             "locationId": "b3c265dd-c2dd-43b3-a45b-bba3fa71938d",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -60804,7 +61048,7 @@
               }
             ],
             "description": "",
-            "distance": 5.16,
+            "distance": 1.87,
             "fhirLocationId": "87d8a67b-f749-4607-beb4-ad6d2e733707",
             "locationId": "87d8a67b-f749-4607-beb4-ad6d2e733707",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -60891,7 +61135,7 @@
               }
             ],
             "description": "",
-            "distance": 18.36,
+            "distance": 23.59,
             "fhirLocationId": "670f7b6e-901f-49d4-a84d-b61f33d23539",
             "locationId": "670f7b6e-901f-49d4-a84d-b61f33d23539",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -60952,7 +61196,7 @@
               }
             ],
             "description": "",
-            "distance": 10.89,
+            "distance": 20.2,
             "fhirLocationId": "db33c611-aa34-4a08-9636-94ecd729649c",
             "locationId": "db33c611-aa34-4a08-9636-94ecd729649c",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -60996,7 +61240,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T10:38:01.753+00:00",
+    "appointments_last_fetched": "2021-02-27T11:01:22.684+00:00",
     "appointments_raw": {
       "both_doses": {
         "locations": [
@@ -61040,7 +61284,7 @@
               }
             ],
             "description": "",
-            "distance": 13.07,
+            "distance": 22.08,
             "fhirLocationId": "b3c265dd-c2dd-43b3-a45b-bba3fa71938d",
             "locationId": "b3c265dd-c2dd-43b3-a45b-bba3fa71938d",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -61192,7 +61436,7 @@
               }
             ],
             "description": "",
-            "distance": 24.27,
+            "distance": 2.3,
             "fhirLocationId": "670f7b6e-901f-49d4-a84d-b61f33d23539",
             "locationId": "670f7b6e-901f-49d4-a84d-b61f33d23539",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -61253,7 +61497,7 @@
               }
             ],
             "description": "",
-            "distance": 18.65,
+            "distance": 10.89,
             "fhirLocationId": "db33c611-aa34-4a08-9636-94ecd729649c",
             "locationId": "db33c611-aa34-4a08-9636-94ecd729649c",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -61324,7 +61568,7 @@
               }
             ],
             "description": "",
-            "distance": 13.65,
+            "distance": 13.07,
             "fhirLocationId": "b3c265dd-c2dd-43b3-a45b-bba3fa71938d",
             "locationId": "b3c265dd-c2dd-43b3-a45b-bba3fa71938d",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -61393,7 +61637,7 @@
               }
             ],
             "description": "",
-            "distance": 5.16,
+            "distance": 1.87,
             "fhirLocationId": "87d8a67b-f749-4607-beb4-ad6d2e733707",
             "locationId": "87d8a67b-f749-4607-beb4-ad6d2e733707",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -61480,7 +61724,7 @@
               }
             ],
             "description": "",
-            "distance": 18.36,
+            "distance": 23.59,
             "fhirLocationId": "670f7b6e-901f-49d4-a84d-b61f33d23539",
             "locationId": "670f7b6e-901f-49d4-a84d-b61f33d23539",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -61541,7 +61785,7 @@
               }
             ],
             "description": "",
-            "distance": 10.89,
+            "distance": 20.2,
             "fhirLocationId": "db33c611-aa34-4a08-9636-94ecd729649c",
             "locationId": "db33c611-aa34-4a08-9636-94ecd729649c",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -61665,80 +61909,9 @@
       }
     ],
     "appointments_available": true,
-    "appointments_last_fetched": "2021-02-27T10:52:48.436+00:00",
+    "appointments_last_fetched": "2021-02-27T11:01:22.684+00:00",
     "appointments_raw": {
       "both_doses": {
-        "locations": [
-          {
-            "address": {
-              "city": "ROBBINSVILLE",
-              "country": "US",
-              "line1": "219 RODNEY ORR BYP",
-              "line2": "",
-              "state": "NC",
-              "zip": "28771"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "10:15 am",
-                  "10:30 am",
-                  "10:45 am",
-                  "02:30 pm",
-                  "02:45 pm",
-                  "03:00 pm",
-                  "03:15 pm",
-                  "03:30 pm",
-                  "03:45 pm",
-                  "04:15 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 11.47,
-            "fhirLocationId": "b3c265dd-c2dd-43b3-a45b-bba3fa71938d",
-            "locationId": "b3c265dd-c2dd-43b3-a45b-bba3fa71938d",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "16110",
-            "phone": [
-              {
-                "number": "828-479-8791",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "828-479-8791",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 35.32384808,
-              "longitude": -83.80299696
-            },
-            "storenumber": "16110"
-          }
-        ]
-      },
-      "second_dose_moderna": {
         "locations": [
           {
             "address": {
@@ -61806,14 +61979,507 @@
               "longitude": -83.80299696
             },
             "storenumber": "16110"
+          },
+          {
+            "address": {
+              "city": "MURPHY",
+              "country": "US",
+              "line1": "1630 ANDREWS RD",
+              "line2": "",
+              "state": "NC",
+              "zip": "28906"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm",
+                  "02:15 pm",
+                  "02:30 pm",
+                  "02:45 pm",
+                  "03:45 pm",
+                  "04:00 pm",
+                  "04:45 pm",
+                  "05:00 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 18.42,
+            "fhirLocationId": "87d8a67b-f749-4607-beb4-ad6d2e733707",
+            "locationId": "87d8a67b-f749-4607-beb4-ad6d2e733707",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "16253",
+            "phone": [
+              {
+                "number": "828-837-5512",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "828-835-3779",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "828-837-5512",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 35.11022009,
+              "longitude": -84.00795019
+            },
+            "storenumber": "16253"
+          },
+          {
+            "address": {
+              "city": "HIAWASSEE",
+              "country": "US",
+              "line1": "131 SOUTH MAIN STREET",
+              "line2": "",
+              "state": "GA",
+              "zip": "30546"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "09:15 am",
+                  "09:30 am",
+                  "09:45 am",
+                  "10:00 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "11:15 am",
+                  "11:30 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "02:15 pm",
+                  "02:45 pm",
+                  "03:00 pm",
+                  "03:15 pm",
+                  "03:30 pm",
+                  "03:45 pm",
+                  "04:00 pm",
+                  "04:15 pm",
+                  "04:30 pm",
+                  "04:45 pm",
+                  "05:15 pm",
+                  "05:30 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 2.3,
+            "fhirLocationId": "670f7b6e-901f-49d4-a84d-b61f33d23539",
+            "locationId": "670f7b6e-901f-49d4-a84d-b61f33d23539",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "18402",
+            "phone": [
+              {
+                "number": "706-896-2255",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "706-896-3516",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "706-896-2255",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 34.94564535,
+              "longitude": -83.7540779
+            },
+            "storenumber": "18402"
+          },
+          {
+            "address": {
+              "city": "BLAIRSVILLE",
+              "country": "US",
+              "line1": "363 BLUE RIDGE STREET",
+              "line2": "",
+              "state": "GA",
+              "zip": "30512"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "03:15 pm",
+                  "03:30 pm",
+                  "03:45 pm",
+                  "04:30 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 10.89,
+            "fhirLocationId": "db33c611-aa34-4a08-9636-94ecd729649c",
+            "locationId": "db33c611-aa34-4a08-9636-94ecd729649c",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "17943",
+            "phone": [
+              {
+                "number": "706-745-6954",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "706-745-6936",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "706-745-6954",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 34.87118811,
+              "longitude": -83.96273041
+            },
+            "storenumber": "17943"
+          }
+        ]
+      },
+      "second_dose_moderna": {
+        "locations": [
+          {
+            "address": {
+              "city": "ROBBINSVILLE",
+              "country": "US",
+              "line1": "219 RODNEY ORR BYP",
+              "line2": "",
+              "state": "NC",
+              "zip": "28771"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "10:15 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "02:30 pm",
+                  "02:45 pm",
+                  "03:00 pm",
+                  "03:15 pm",
+                  "03:30 pm",
+                  "03:45 pm",
+                  "04:15 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 13.07,
+            "fhirLocationId": "b3c265dd-c2dd-43b3-a45b-bba3fa71938d",
+            "locationId": "b3c265dd-c2dd-43b3-a45b-bba3fa71938d",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "16110",
+            "phone": [
+              {
+                "number": "828-479-8791",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "828-479-8791",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 35.32384808,
+              "longitude": -83.80299696
+            },
+            "storenumber": "16110"
+          },
+          {
+            "address": {
+              "city": "MURPHY",
+              "country": "US",
+              "line1": "1630 ANDREWS RD",
+              "line2": "",
+              "state": "NC",
+              "zip": "28906"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm",
+                  "02:15 pm",
+                  "02:30 pm",
+                  "02:45 pm",
+                  "03:45 pm",
+                  "04:00 pm",
+                  "04:45 pm",
+                  "05:00 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 1.87,
+            "fhirLocationId": "87d8a67b-f749-4607-beb4-ad6d2e733707",
+            "locationId": "87d8a67b-f749-4607-beb4-ad6d2e733707",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "16253",
+            "phone": [
+              {
+                "number": "828-837-5512",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "828-835-3779",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "828-837-5512",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 35.11022009,
+              "longitude": -84.00795019
+            },
+            "storenumber": "16253"
           }
         ]
       },
       "second_dose_pfizer": {
-        "error": [
+        "locations": [
           {
-            "code": "FC_904_NoData",
-            "message": "Insufficient inventory."
+            "address": {
+              "city": "HIAWASSEE",
+              "country": "US",
+              "line1": "131 SOUTH MAIN STREET",
+              "line2": "",
+              "state": "GA",
+              "zip": "30546"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "09:15 am",
+                  "09:30 am",
+                  "09:45 am",
+                  "10:00 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "11:15 am",
+                  "11:30 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "02:15 pm",
+                  "02:45 pm",
+                  "03:00 pm",
+                  "03:15 pm",
+                  "03:30 pm",
+                  "03:45 pm",
+                  "04:00 pm",
+                  "04:15 pm",
+                  "04:30 pm",
+                  "04:45 pm",
+                  "05:15 pm",
+                  "05:30 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 23.59,
+            "fhirLocationId": "670f7b6e-901f-49d4-a84d-b61f33d23539",
+            "locationId": "670f7b6e-901f-49d4-a84d-b61f33d23539",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "18402",
+            "phone": [
+              {
+                "number": "706-896-2255",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "706-896-3516",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "706-896-2255",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 34.94564535,
+              "longitude": -83.7540779
+            },
+            "storenumber": "18402"
+          },
+          {
+            "address": {
+              "city": "BLAIRSVILLE",
+              "country": "US",
+              "line1": "363 BLUE RIDGE STREET",
+              "line2": "",
+              "state": "GA",
+              "zip": "30512"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "03:15 pm",
+                  "03:30 pm",
+                  "03:45 pm",
+                  "04:30 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 20.2,
+            "fhirLocationId": "db33c611-aa34-4a08-9636-94ecd729649c",
+            "locationId": "db33c611-aa34-4a08-9636-94ecd729649c",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "17943",
+            "phone": [
+              {
+                "number": "706-745-6954",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "706-745-6936",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "706-745-6954",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 34.87118811,
+              "longitude": -83.96273041
+            },
+            "storenumber": "17943"
           }
         ]
       }
