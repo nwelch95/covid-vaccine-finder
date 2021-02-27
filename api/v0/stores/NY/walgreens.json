@@ -950,7 +950,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T07:34:10.114+00:00",
+    "appointments_last_fetched": "2021-02-27T08:11:09.26+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -991,7 +991,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T07:34:10.114+00:00",
+    "appointments_last_fetched": "2021-02-27T08:11:09.26+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -1073,7 +1073,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T07:34:10.114+00:00",
+    "appointments_last_fetched": "2021-02-27T08:11:09.26+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -1114,7 +1114,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T07:34:10.114+00:00",
+    "appointments_last_fetched": "2021-02-27T08:11:09.26+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -1155,7 +1155,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T07:34:10.114+00:00",
+    "appointments_last_fetched": "2021-02-27T08:11:09.26+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -1196,7 +1196,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T07:34:10.114+00:00",
+    "appointments_last_fetched": "2021-02-27T08:11:09.26+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -1237,7 +1237,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T07:40:24.681+00:00",
+    "appointments_last_fetched": "2021-02-27T08:11:22.013+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -10677,67 +10677,13 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T07:34:29.099+00:00",
+    "appointments_last_fetched": "2021-02-27T08:11:16.941+00:00",
     "appointments_raw": {
       "both_doses": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "NEW MILFORD",
-              "country": "US",
-              "line1": "173 DANBURY ROAD",
-              "line2": "",
-              "state": "CT",
-              "zip": "6776"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "05:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 10.52,
-            "fhirLocationId": "211b08a1-3c10-49d0-8ddc-90a4b452476b",
-            "locationId": "211b08a1-3c10-49d0-8ddc-90a4b452476b",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "19560",
-            "phone": [
-              {
-                "number": "860-354-6313",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "860-354-2846",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "860-354-6313",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 41.55030453,
-              "longitude": -73.41733926
-            },
-            "storenumber": "19560"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       },
@@ -10750,64 +10696,10 @@
         ]
       },
       "second_dose_pfizer": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "NEW MILFORD",
-              "country": "US",
-              "line1": "173 DANBURY ROAD",
-              "line2": "",
-              "state": "CT",
-              "zip": "6776"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "05:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 23.12,
-            "fhirLocationId": "211b08a1-3c10-49d0-8ddc-90a4b452476b",
-            "locationId": "211b08a1-3c10-49d0-8ddc-90a4b452476b",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "19560",
-            "phone": [
-              {
-                "number": "860-354-6313",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "860-354-2846",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "860-354-6313",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 41.55030453,
-              "longitude": -73.41733926
-            },
-            "storenumber": "19560"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       }
@@ -13625,67 +13517,13 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T07:34:29.099+00:00",
+    "appointments_last_fetched": "2021-02-27T08:11:16.941+00:00",
     "appointments_raw": {
       "both_doses": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "NEW MILFORD",
-              "country": "US",
-              "line1": "173 DANBURY ROAD",
-              "line2": "",
-              "state": "CT",
-              "zip": "6776"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "05:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 10.52,
-            "fhirLocationId": "211b08a1-3c10-49d0-8ddc-90a4b452476b",
-            "locationId": "211b08a1-3c10-49d0-8ddc-90a4b452476b",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "19560",
-            "phone": [
-              {
-                "number": "860-354-6313",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "860-354-2846",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "860-354-6313",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 41.55030453,
-              "longitude": -73.41733926
-            },
-            "storenumber": "19560"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       },
@@ -13698,64 +13536,10 @@
         ]
       },
       "second_dose_pfizer": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "NEW MILFORD",
-              "country": "US",
-              "line1": "173 DANBURY ROAD",
-              "line2": "",
-              "state": "CT",
-              "zip": "6776"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "05:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 23.12,
-            "fhirLocationId": "211b08a1-3c10-49d0-8ddc-90a4b452476b",
-            "locationId": "211b08a1-3c10-49d0-8ddc-90a4b452476b",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "19560",
-            "phone": [
-              {
-                "number": "860-354-6313",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "860-354-2846",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "860-354-6313",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 41.55030453,
-              "longitude": -73.41733926
-            },
-            "storenumber": "19560"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       }
@@ -14184,67 +13968,13 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T07:34:29.099+00:00",
+    "appointments_last_fetched": "2021-02-27T08:11:16.941+00:00",
     "appointments_raw": {
       "both_doses": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "NEW MILFORD",
-              "country": "US",
-              "line1": "173 DANBURY ROAD",
-              "line2": "",
-              "state": "CT",
-              "zip": "6776"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "05:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 10.52,
-            "fhirLocationId": "211b08a1-3c10-49d0-8ddc-90a4b452476b",
-            "locationId": "211b08a1-3c10-49d0-8ddc-90a4b452476b",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "19560",
-            "phone": [
-              {
-                "number": "860-354-6313",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "860-354-2846",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "860-354-6313",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 41.55030453,
-              "longitude": -73.41733926
-            },
-            "storenumber": "19560"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       },
@@ -14257,64 +13987,10 @@
         ]
       },
       "second_dose_pfizer": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "NEW MILFORD",
-              "country": "US",
-              "line1": "173 DANBURY ROAD",
-              "line2": "",
-              "state": "CT",
-              "zip": "6776"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "05:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 23.12,
-            "fhirLocationId": "211b08a1-3c10-49d0-8ddc-90a4b452476b",
-            "locationId": "211b08a1-3c10-49d0-8ddc-90a4b452476b",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "19560",
-            "phone": [
-              {
-                "number": "860-354-6313",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "860-354-2846",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "860-354-6313",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 41.55030453,
-              "longitude": -73.41733926
-            },
-            "storenumber": "19560"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       }
@@ -14456,67 +14132,13 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T07:34:29.099+00:00",
+    "appointments_last_fetched": "2021-02-27T08:11:16.941+00:00",
     "appointments_raw": {
       "both_doses": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "NEW MILFORD",
-              "country": "US",
-              "line1": "173 DANBURY ROAD",
-              "line2": "",
-              "state": "CT",
-              "zip": "6776"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "05:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 10.52,
-            "fhirLocationId": "211b08a1-3c10-49d0-8ddc-90a4b452476b",
-            "locationId": "211b08a1-3c10-49d0-8ddc-90a4b452476b",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "19560",
-            "phone": [
-              {
-                "number": "860-354-6313",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "860-354-2846",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "860-354-6313",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 41.55030453,
-              "longitude": -73.41733926
-            },
-            "storenumber": "19560"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       },
@@ -14529,64 +14151,10 @@
         ]
       },
       "second_dose_pfizer": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "NEW MILFORD",
-              "country": "US",
-              "line1": "173 DANBURY ROAD",
-              "line2": "",
-              "state": "CT",
-              "zip": "6776"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "05:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 23.12,
-            "fhirLocationId": "211b08a1-3c10-49d0-8ddc-90a4b452476b",
-            "locationId": "211b08a1-3c10-49d0-8ddc-90a4b452476b",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "19560",
-            "phone": [
-              {
-                "number": "860-354-6313",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "860-354-2846",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "860-354-6313",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 41.55030453,
-              "longitude": -73.41733926
-            },
-            "storenumber": "19560"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       }
@@ -14646,7 +14214,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T07:40:24.681+00:00",
+    "appointments_last_fetched": "2021-02-27T08:11:22.013+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -14836,7 +14404,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T07:40:24.681+00:00",
+    "appointments_last_fetched": "2021-02-27T08:11:22.013+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -15067,7 +14635,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T07:40:24.681+00:00",
+    "appointments_last_fetched": "2021-02-27T08:11:22.013+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -15257,7 +14825,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T07:40:24.681+00:00",
+    "appointments_last_fetched": "2021-02-27T08:11:22.013+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -15298,7 +14866,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T07:40:24.681+00:00",
+    "appointments_last_fetched": "2021-02-27T08:11:22.013+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -15339,7 +14907,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T07:40:24.681+00:00",
+    "appointments_last_fetched": "2021-02-27T08:11:22.013+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -15570,7 +15138,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T07:40:24.681+00:00",
+    "appointments_last_fetched": "2021-02-27T08:11:22.013+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -15611,7 +15179,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T07:40:24.681+00:00",
+    "appointments_last_fetched": "2021-02-27T08:11:22.013+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -16412,7 +15980,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T07:40:24.681+00:00",
+    "appointments_last_fetched": "2021-02-27T08:11:22.013+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -16453,7 +16021,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T07:40:24.681+00:00",
+    "appointments_last_fetched": "2021-02-27T08:11:22.013+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -16494,7 +16062,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T07:40:24.681+00:00",
+    "appointments_last_fetched": "2021-02-27T08:11:22.013+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -16535,7 +16103,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T07:40:24.681+00:00",
+    "appointments_last_fetched": "2021-02-27T08:11:22.013+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -16822,7 +16390,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T07:40:24.681+00:00",
+    "appointments_last_fetched": "2021-02-27T08:11:22.013+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -17027,7 +16595,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T07:40:24.681+00:00",
+    "appointments_last_fetched": "2021-02-27T08:11:22.013+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -17068,7 +16636,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T07:40:24.681+00:00",
+    "appointments_last_fetched": "2021-02-27T08:11:22.013+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -17601,7 +17169,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T07:34:10.114+00:00",
+    "appointments_last_fetched": "2021-02-27T08:11:09.26+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -17642,7 +17210,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T07:34:10.114+00:00",
+    "appointments_last_fetched": "2021-02-27T08:11:09.26+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -18175,7 +17743,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T07:34:10.114+00:00",
+    "appointments_last_fetched": "2021-02-27T08:11:09.26+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -18257,7 +17825,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T07:34:10.114+00:00",
+    "appointments_last_fetched": "2021-02-27T08:11:09.26+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -18585,67 +18153,13 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T07:34:29.099+00:00",
+    "appointments_last_fetched": "2021-02-27T08:11:16.941+00:00",
     "appointments_raw": {
       "both_doses": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "NEW MILFORD",
-              "country": "US",
-              "line1": "173 DANBURY ROAD",
-              "line2": "",
-              "state": "CT",
-              "zip": "6776"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "05:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 10.52,
-            "fhirLocationId": "211b08a1-3c10-49d0-8ddc-90a4b452476b",
-            "locationId": "211b08a1-3c10-49d0-8ddc-90a4b452476b",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "19560",
-            "phone": [
-              {
-                "number": "860-354-6313",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "860-354-2846",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "860-354-6313",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 41.55030453,
-              "longitude": -73.41733926
-            },
-            "storenumber": "19560"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       },
@@ -18658,64 +18172,10 @@
         ]
       },
       "second_dose_pfizer": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "NEW MILFORD",
-              "country": "US",
-              "line1": "173 DANBURY ROAD",
-              "line2": "",
-              "state": "CT",
-              "zip": "6776"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "05:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 23.12,
-            "fhirLocationId": "211b08a1-3c10-49d0-8ddc-90a4b452476b",
-            "locationId": "211b08a1-3c10-49d0-8ddc-90a4b452476b",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "19560",
-            "phone": [
-              {
-                "number": "860-354-6313",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "860-354-2846",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "860-354-6313",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 41.55030453,
-              "longitude": -73.41733926
-            },
-            "storenumber": "19560"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       }
@@ -18734,67 +18194,13 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T07:34:29.099+00:00",
+    "appointments_last_fetched": "2021-02-27T08:11:16.941+00:00",
     "appointments_raw": {
       "both_doses": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "NEW MILFORD",
-              "country": "US",
-              "line1": "173 DANBURY ROAD",
-              "line2": "",
-              "state": "CT",
-              "zip": "6776"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "05:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 10.52,
-            "fhirLocationId": "211b08a1-3c10-49d0-8ddc-90a4b452476b",
-            "locationId": "211b08a1-3c10-49d0-8ddc-90a4b452476b",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "19560",
-            "phone": [
-              {
-                "number": "860-354-6313",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "860-354-2846",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "860-354-6313",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 41.55030453,
-              "longitude": -73.41733926
-            },
-            "storenumber": "19560"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       },
@@ -18807,64 +18213,10 @@
         ]
       },
       "second_dose_pfizer": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "NEW MILFORD",
-              "country": "US",
-              "line1": "173 DANBURY ROAD",
-              "line2": "",
-              "state": "CT",
-              "zip": "6776"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "05:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 23.12,
-            "fhirLocationId": "211b08a1-3c10-49d0-8ddc-90a4b452476b",
-            "locationId": "211b08a1-3c10-49d0-8ddc-90a4b452476b",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "19560",
-            "phone": [
-              {
-                "number": "860-354-6313",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "860-354-2846",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "860-354-6313",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 41.55030453,
-              "longitude": -73.41733926
-            },
-            "storenumber": "19560"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       }
@@ -19006,67 +18358,13 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T07:34:29.099+00:00",
+    "appointments_last_fetched": "2021-02-27T08:11:16.941+00:00",
     "appointments_raw": {
       "both_doses": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "NEW MILFORD",
-              "country": "US",
-              "line1": "173 DANBURY ROAD",
-              "line2": "",
-              "state": "CT",
-              "zip": "6776"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "05:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 10.52,
-            "fhirLocationId": "211b08a1-3c10-49d0-8ddc-90a4b452476b",
-            "locationId": "211b08a1-3c10-49d0-8ddc-90a4b452476b",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "19560",
-            "phone": [
-              {
-                "number": "860-354-6313",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "860-354-2846",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "860-354-6313",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 41.55030453,
-              "longitude": -73.41733926
-            },
-            "storenumber": "19560"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       },
@@ -19079,64 +18377,10 @@
         ]
       },
       "second_dose_pfizer": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "NEW MILFORD",
-              "country": "US",
-              "line1": "173 DANBURY ROAD",
-              "line2": "",
-              "state": "CT",
-              "zip": "6776"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "05:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 23.12,
-            "fhirLocationId": "211b08a1-3c10-49d0-8ddc-90a4b452476b",
-            "locationId": "211b08a1-3c10-49d0-8ddc-90a4b452476b",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "19560",
-            "phone": [
-              {
-                "number": "860-354-6313",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "860-354-2846",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "860-354-6313",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 41.55030453,
-              "longitude": -73.41733926
-            },
-            "storenumber": "19560"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       }
@@ -19155,67 +18399,13 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T07:34:29.099+00:00",
+    "appointments_last_fetched": "2021-02-27T08:11:16.941+00:00",
     "appointments_raw": {
       "both_doses": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "NEW MILFORD",
-              "country": "US",
-              "line1": "173 DANBURY ROAD",
-              "line2": "",
-              "state": "CT",
-              "zip": "6776"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "05:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 10.52,
-            "fhirLocationId": "211b08a1-3c10-49d0-8ddc-90a4b452476b",
-            "locationId": "211b08a1-3c10-49d0-8ddc-90a4b452476b",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "19560",
-            "phone": [
-              {
-                "number": "860-354-6313",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "860-354-2846",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "860-354-6313",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 41.55030453,
-              "longitude": -73.41733926
-            },
-            "storenumber": "19560"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       },
@@ -19228,64 +18418,10 @@
         ]
       },
       "second_dose_pfizer": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "NEW MILFORD",
-              "country": "US",
-              "line1": "173 DANBURY ROAD",
-              "line2": "",
-              "state": "CT",
-              "zip": "6776"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "05:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 23.12,
-            "fhirLocationId": "211b08a1-3c10-49d0-8ddc-90a4b452476b",
-            "locationId": "211b08a1-3c10-49d0-8ddc-90a4b452476b",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "19560",
-            "phone": [
-              {
-                "number": "860-354-6313",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "860-354-2846",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "860-354-6313",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 41.55030453,
-              "longitude": -73.41733926
-            },
-            "storenumber": "19560"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       }
@@ -19304,67 +18440,13 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T07:34:29.099+00:00",
+    "appointments_last_fetched": "2021-02-27T08:11:16.941+00:00",
     "appointments_raw": {
       "both_doses": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "NEW MILFORD",
-              "country": "US",
-              "line1": "173 DANBURY ROAD",
-              "line2": "",
-              "state": "CT",
-              "zip": "6776"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "05:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 10.52,
-            "fhirLocationId": "211b08a1-3c10-49d0-8ddc-90a4b452476b",
-            "locationId": "211b08a1-3c10-49d0-8ddc-90a4b452476b",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "19560",
-            "phone": [
-              {
-                "number": "860-354-6313",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "860-354-2846",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "860-354-6313",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 41.55030453,
-              "longitude": -73.41733926
-            },
-            "storenumber": "19560"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       },
@@ -19377,64 +18459,10 @@
         ]
       },
       "second_dose_pfizer": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "NEW MILFORD",
-              "country": "US",
-              "line1": "173 DANBURY ROAD",
-              "line2": "",
-              "state": "CT",
-              "zip": "6776"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "05:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 23.12,
-            "fhirLocationId": "211b08a1-3c10-49d0-8ddc-90a4b452476b",
-            "locationId": "211b08a1-3c10-49d0-8ddc-90a4b452476b",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "19560",
-            "phone": [
-              {
-                "number": "860-354-6313",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "860-354-2846",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "860-354-6313",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 41.55030453,
-              "longitude": -73.41733926
-            },
-            "storenumber": "19560"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       }
@@ -50072,7 +49100,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T07:34:57.634+00:00",
+    "appointments_last_fetched": "2021-02-27T08:10:24.41+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -50318,7 +49346,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T07:34:57.634+00:00",
+    "appointments_last_fetched": "2021-02-27T08:10:24.41+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -51466,7 +50494,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T07:34:57.634+00:00",
+    "appointments_last_fetched": "2021-02-27T08:10:24.41+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
