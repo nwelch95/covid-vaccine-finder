@@ -52,10 +52,259 @@
       }
     ],
     "appointments_available": true,
-    "appointments_last_fetched": "2021-02-27T11:41:32.605+00:00",
+    "appointments_last_fetched": "2021-02-27T11:43:37.352+00:00",
     "appointments_raw": {
       "both_doses": {
         "locations": [
+          {
+            "address": {
+              "city": "CHAMPLAIN",
+              "country": "US",
+              "line1": "887 STATE ROUTE 11",
+              "line2": "",
+              "state": "NY",
+              "zip": "12919"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-02-28",
+                "day": "Sunday",
+                "slots": [
+                  "09:30 am",
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "11:00 am",
+                  "11:30 am"
+                ]
+              },
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "09:15 am",
+                  "09:30 am",
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "11:00 am",
+                  "11:15 am",
+                  "11:30 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "02:15 pm",
+                  "02:30 pm",
+                  "02:45 pm",
+                  "03:00 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 15.74,
+            "fhirLocationId": "dda4dc54-72cd-48ad-809a-6706f741c27e",
+            "locationId": "dda4dc54-72cd-48ad-809a-6706f741c27e",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "19595",
+            "phone": [
+              {
+                "number": "518-298-2975",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "518-298-3825",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "518-298-2975",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 44.97775943,
+              "longitude": -73.44600661
+            },
+            "storenumber": "19595"
+          },
+          {
+            "address": {
+              "city": "PLATTSBURGH",
+              "country": "US",
+              "line1": "301 CORNELIA ST",
+              "line2": "",
+              "state": "NY",
+              "zip": "12901"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "12:00 pm",
+                  "01:00 pm",
+                  "02:15 pm",
+                  "02:30 pm",
+                  "02:45 pm",
+                  "03:00 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 19.7,
+            "fhirLocationId": "bb6bbcdc-7882-49a2-a9a5-c101deae4988",
+            "locationId": "bb6bbcdc-7882-49a2-a9a5-c101deae4988",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "11378",
+            "phone": [
+              {
+                "number": "518-314-6487",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "518-314-7754",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "518-314-6487",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 44.69682505,
+              "longitude": -73.47602772
+            },
+            "storenumber": "11378"
+          }
+        ]
+      },
+      "second_dose_moderna": {
+        "locations": [
+          {
+            "address": {
+              "city": "CHAMPLAIN",
+              "country": "US",
+              "line1": "887 STATE ROUTE 11",
+              "line2": "",
+              "state": "NY",
+              "zip": "12919"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-02-28",
+                "day": "Sunday",
+                "slots": [
+                  "09:30 am",
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "11:00 am",
+                  "11:30 am"
+                ]
+              },
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "09:15 am",
+                  "09:30 am",
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "11:00 am",
+                  "11:15 am",
+                  "11:30 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "02:15 pm",
+                  "02:30 pm",
+                  "02:45 pm",
+                  "03:00 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 1.67,
+            "fhirLocationId": "dda4dc54-72cd-48ad-809a-6706f741c27e",
+            "locationId": "dda4dc54-72cd-48ad-809a-6706f741c27e",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "19595",
+            "phone": [
+              {
+                "number": "518-298-2975",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "518-298-3825",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "518-298-2975",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 44.97775943,
+              "longitude": -73.44600661
+            },
+            "storenumber": "19595"
+          },
           {
             "address": {
               "city": "PLATTSBURGH",
@@ -93,73 +342,6 @@
             ],
             "description": "",
             "distance": 19.57,
-            "fhirLocationId": "bb6bbcdc-7882-49a2-a9a5-c101deae4988",
-            "locationId": "bb6bbcdc-7882-49a2-a9a5-c101deae4988",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "11378",
-            "phone": [
-              {
-                "number": "518-314-6487",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "518-314-7754",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "518-314-6487",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 44.69682505,
-              "longitude": -73.47602772
-            },
-            "storenumber": "11378"
-          }
-        ]
-      },
-      "second_dose_moderna": {
-        "locations": [
-          {
-            "address": {
-              "city": "PLATTSBURGH",
-              "country": "US",
-              "line1": "301 CORNELIA ST",
-              "line2": "",
-              "state": "NY",
-              "zip": "12901"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "12:00 pm",
-                  "01:00 pm",
-                  "02:15 pm",
-                  "02:30 pm",
-                  "02:45 pm",
-                  "03:00 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 4.08,
             "fhirLocationId": "bb6bbcdc-7882-49a2-a9a5-c101deae4988",
             "locationId": "bb6bbcdc-7882-49a2-a9a5-c101deae4988",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -435,9 +617,167 @@
       }
     ],
     "appointments_available": true,
-    "appointments_last_fetched": "2021-02-27T11:26:24.535+00:00",
+    "appointments_last_fetched": "2021-02-27T11:43:37.352+00:00",
     "appointments_raw": {
       "both_doses": {
+        "locations": [
+          {
+            "address": {
+              "city": "CHAMPLAIN",
+              "country": "US",
+              "line1": "887 STATE ROUTE 11",
+              "line2": "",
+              "state": "NY",
+              "zip": "12919"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-02-28",
+                "day": "Sunday",
+                "slots": [
+                  "09:30 am",
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "11:00 am",
+                  "11:30 am"
+                ]
+              },
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "09:15 am",
+                  "09:30 am",
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "11:00 am",
+                  "11:15 am",
+                  "11:30 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "02:15 pm",
+                  "02:30 pm",
+                  "02:45 pm",
+                  "03:00 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 15.74,
+            "fhirLocationId": "dda4dc54-72cd-48ad-809a-6706f741c27e",
+            "locationId": "dda4dc54-72cd-48ad-809a-6706f741c27e",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "19595",
+            "phone": [
+              {
+                "number": "518-298-2975",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "518-298-3825",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "518-298-2975",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 44.97775943,
+              "longitude": -73.44600661
+            },
+            "storenumber": "19595"
+          },
+          {
+            "address": {
+              "city": "PLATTSBURGH",
+              "country": "US",
+              "line1": "301 CORNELIA ST",
+              "line2": "",
+              "state": "NY",
+              "zip": "12901"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "12:00 pm",
+                  "01:00 pm",
+                  "02:15 pm",
+                  "02:30 pm",
+                  "02:45 pm",
+                  "03:00 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 19.7,
+            "fhirLocationId": "bb6bbcdc-7882-49a2-a9a5-c101deae4988",
+            "locationId": "bb6bbcdc-7882-49a2-a9a5-c101deae4988",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "11378",
+            "phone": [
+              {
+                "number": "518-314-6487",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "518-314-7754",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "518-314-6487",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 44.69682505,
+              "longitude": -73.47602772
+            },
+            "storenumber": "11378"
+          }
+        ]
+      },
+      "second_dose_moderna": {
         "locations": [
           {
             "address": {
@@ -567,164 +907,6 @@
             ],
             "description": "",
             "distance": 19.57,
-            "fhirLocationId": "bb6bbcdc-7882-49a2-a9a5-c101deae4988",
-            "locationId": "bb6bbcdc-7882-49a2-a9a5-c101deae4988",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "11378",
-            "phone": [
-              {
-                "number": "518-314-6487",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "518-314-7754",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "518-314-6487",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 44.69682505,
-              "longitude": -73.47602772
-            },
-            "storenumber": "11378"
-          }
-        ]
-      },
-      "second_dose_moderna": {
-        "locations": [
-          {
-            "address": {
-              "city": "CHAMPLAIN",
-              "country": "US",
-              "line1": "887 STATE ROUTE 11",
-              "line2": "",
-              "state": "NY",
-              "zip": "12919"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-02-28",
-                "day": "Sunday",
-                "slots": [
-                  "09:30 am",
-                  "09:45 am",
-                  "10:00 am",
-                  "10:15 am",
-                  "10:30 am",
-                  "10:45 am",
-                  "11:00 am",
-                  "11:30 am"
-                ]
-              },
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "09:15 am",
-                  "09:30 am",
-                  "09:45 am",
-                  "10:00 am",
-                  "10:15 am",
-                  "10:30 am",
-                  "10:45 am",
-                  "11:00 am",
-                  "11:15 am",
-                  "11:30 am",
-                  "11:45 am",
-                  "12:00 pm",
-                  "12:15 pm",
-                  "12:30 pm",
-                  "12:45 pm",
-                  "01:00 pm",
-                  "02:15 pm",
-                  "02:30 pm",
-                  "02:45 pm",
-                  "03:00 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 19.19,
-            "fhirLocationId": "dda4dc54-72cd-48ad-809a-6706f741c27e",
-            "locationId": "dda4dc54-72cd-48ad-809a-6706f741c27e",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "19595",
-            "phone": [
-              {
-                "number": "518-298-2975",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "518-298-3825",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "518-298-2975",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 44.97775943,
-              "longitude": -73.44600661
-            },
-            "storenumber": "19595"
-          },
-          {
-            "address": {
-              "city": "PLATTSBURGH",
-              "country": "US",
-              "line1": "301 CORNELIA ST",
-              "line2": "",
-              "state": "NY",
-              "zip": "12901"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "12:00 pm",
-                  "01:00 pm",
-                  "02:15 pm",
-                  "02:30 pm",
-                  "02:45 pm",
-                  "03:00 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 6.92,
             "fhirLocationId": "bb6bbcdc-7882-49a2-a9a5-c101deae4988",
             "locationId": "bb6bbcdc-7882-49a2-a9a5-c101deae4988",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -17324,7 +17506,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T11:32:18.96+00:00",
+    "appointments_last_fetched": "2021-02-27T11:43:44.032+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -17365,7 +17547,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T11:32:18.96+00:00",
+    "appointments_last_fetched": "2021-02-27T11:43:44.032+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -39590,7 +39772,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T11:26:08.209+00:00",
+    "appointments_last_fetched": "2021-02-27T11:42:58.352+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -39754,7 +39936,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T11:26:08.209+00:00",
+    "appointments_last_fetched": "2021-02-27T11:42:58.352+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -41416,7 +41598,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T11:32:18.96+00:00",
+    "appointments_last_fetched": "2021-02-27T11:43:44.032+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -41457,7 +41639,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T11:32:18.96+00:00",
+    "appointments_last_fetched": "2021-02-27T11:43:44.032+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -45096,7 +45278,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T11:26:08.209+00:00",
+    "appointments_last_fetched": "2021-02-27T11:42:58.352+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -45219,7 +45401,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T11:26:08.209+00:00",
+    "appointments_last_fetched": "2021-02-27T11:42:58.352+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -45301,7 +45483,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T11:32:17.788+00:00",
+    "appointments_last_fetched": "2021-02-27T11:43:00.236+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -45906,7 +46088,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T11:26:08.209+00:00",
+    "appointments_last_fetched": "2021-02-27T11:42:58.352+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
