@@ -2990,9 +2990,71 @@
       }
     ],
     "appointments_available": true,
-    "appointments_last_fetched": "2021-02-27T04:00:03.113+00:00",
+    "appointments_last_fetched": "2021-02-27T04:08:17.656+00:00",
     "appointments_raw": {
       "both_doses": {
+        "locations": [
+          {
+            "address": {
+              "city": "FERNLEY",
+              "country": "US",
+              "line1": "1280 US HIGHWAY 95A N",
+              "line2": "",
+              "state": "NV",
+              "zip": "89408"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "10:15 am"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 13,
+            "fhirLocationId": "097efa74-50e5-4ce7-9f27-3ed9014bd97e",
+            "locationId": "097efa74-50e5-4ce7-9f27-3ed9014bd97e",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "12488",
+            "phone": [
+              {
+                "number": "775-835-6427",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "775-835-0563",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "775-835-6427",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 39.60731417,
+              "longitude": -119.22447467
+            },
+            "storenumber": "12488"
+          }
+        ]
+      },
+      "second_dose_moderna": {
         "locations": [
           {
             "address": {
@@ -3054,68 +3116,6 @@
           }
         ]
       },
-      "second_dose_moderna": {
-        "locations": [
-          {
-            "address": {
-              "city": "FERNLEY",
-              "country": "US",
-              "line1": "1280 US HIGHWAY 95A N",
-              "line2": "",
-              "state": "NV",
-              "zip": "89408"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "10:15 am"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 21.57,
-            "fhirLocationId": "097efa74-50e5-4ce7-9f27-3ed9014bd97e",
-            "locationId": "097efa74-50e5-4ce7-9f27-3ed9014bd97e",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "12488",
-            "phone": [
-              {
-                "number": "775-835-6427",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "775-835-0563",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "775-835-6427",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 39.60731417,
-              "longitude": -119.22447467
-            },
-            "storenumber": "12488"
-          }
-        ]
-      },
       "second_dose_pfizer": {
         "error": [
           {
@@ -3139,7 +3139,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T03:57:22.204+00:00",
+    "appointments_last_fetched": "2021-02-27T04:08:17.656+00:00",
     "appointments_raw": {
       "both_doses": {
         "locations": [
@@ -3174,7 +3174,7 @@
               }
             ],
             "description": "",
-            "distance": 13.3,
+            "distance": 13,
             "fhirLocationId": "097efa74-50e5-4ce7-9f27-3ed9014bd97e",
             "locationId": "097efa74-50e5-4ce7-9f27-3ed9014bd97e",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -3236,7 +3236,7 @@
               }
             ],
             "description": "",
-            "distance": 13.95,
+            "distance": 7.16,
             "fhirLocationId": "097efa74-50e5-4ce7-9f27-3ed9014bd97e",
             "locationId": "097efa74-50e5-4ce7-9f27-3ed9014bd97e",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
