@@ -4,7 +4,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T08:29:29.828+00:00",
+    "appointments_last_fetched": "2021-02-27T08:46:50.612+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -86,7 +86,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T08:29:29.828+00:00",
+    "appointments_last_fetched": "2021-02-27T08:46:50.612+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -1111,7 +1111,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T08:15:39.09+00:00",
+    "appointments_last_fetched": "2021-02-27T08:47:09.928+00:00",
     "appointments_raw": {
       "both_doses": {
         "locations": [
@@ -1174,7 +1174,7 @@
               }
             ],
             "description": "",
-            "distance": 23.94,
+            "distance": 20.31,
             "fhirLocationId": "d3949156-2589-45aa-bb7a-2af026147cd8",
             "locationId": "d3949156-2589-45aa-bb7a-2af026147cd8",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -1272,7 +1272,7 @@
               }
             ],
             "description": "",
-            "distance": 20.45,
+            "distance": 23.94,
             "fhirLocationId": "d3949156-2589-45aa-bb7a-2af026147cd8",
             "locationId": "d3949156-2589-45aa-bb7a-2af026147cd8",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -1603,9 +1603,107 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T08:15:39.09+00:00",
+    "appointments_last_fetched": "2021-02-27T08:47:09.928+00:00",
     "appointments_raw": {
       "both_doses": {
+        "locations": [
+          {
+            "address": {
+              "city": "MC CARR",
+              "country": "US",
+              "line1": "11349 STATE HIGHWAY 1056",
+              "line2": "",
+              "state": "KY",
+              "zip": "41544"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "09:30 am",
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "11:00 am",
+                  "11:15 am",
+                  "11:30 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "01:45 pm",
+                  "02:00 pm",
+                  "02:15 pm",
+                  "02:30 pm",
+                  "02:45 pm",
+                  "03:00 pm",
+                  "03:15 pm",
+                  "03:30 pm",
+                  "03:45 pm",
+                  "04:00 pm",
+                  "04:15 pm",
+                  "04:30 pm",
+                  "04:45 pm",
+                  "05:00 pm",
+                  "05:15 pm",
+                  "05:30 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 20.31,
+            "fhirLocationId": "d3949156-2589-45aa-bb7a-2af026147cd8",
+            "locationId": "d3949156-2589-45aa-bb7a-2af026147cd8",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "17146",
+            "phone": [
+              {
+                "number": "606-427-9007",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "606-427-7582",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "606-427-9007",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 37.6198415,
+              "longitude": -82.16690185
+            },
+            "storenumber": "17146"
+          }
+        ]
+      },
+      "second_dose_moderna": {
+        "error": [
+          {
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
+          }
+        ]
+      },
+      "second_dose_pfizer": {
         "locations": [
           {
             "address": {
@@ -1694,104 +1792,6 @@
             "storenumber": "17146"
           }
         ]
-      },
-      "second_dose_moderna": {
-        "error": [
-          {
-            "code": "FC_904_NoData",
-            "message": "Insufficient inventory."
-          }
-        ]
-      },
-      "second_dose_pfizer": {
-        "locations": [
-          {
-            "address": {
-              "city": "MC CARR",
-              "country": "US",
-              "line1": "11349 STATE HIGHWAY 1056",
-              "line2": "",
-              "state": "KY",
-              "zip": "41544"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "09:30 am",
-                  "09:45 am",
-                  "10:00 am",
-                  "10:15 am",
-                  "10:30 am",
-                  "10:45 am",
-                  "11:00 am",
-                  "11:15 am",
-                  "11:30 am",
-                  "11:45 am",
-                  "12:00 pm",
-                  "12:15 pm",
-                  "12:30 pm",
-                  "01:45 pm",
-                  "02:00 pm",
-                  "02:15 pm",
-                  "02:30 pm",
-                  "02:45 pm",
-                  "03:00 pm",
-                  "03:15 pm",
-                  "03:30 pm",
-                  "03:45 pm",
-                  "04:00 pm",
-                  "04:15 pm",
-                  "04:30 pm",
-                  "04:45 pm",
-                  "05:00 pm",
-                  "05:15 pm",
-                  "05:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 20.45,
-            "fhirLocationId": "d3949156-2589-45aa-bb7a-2af026147cd8",
-            "locationId": "d3949156-2589-45aa-bb7a-2af026147cd8",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "17146",
-            "phone": [
-              {
-                "number": "606-427-9007",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "606-427-7582",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "606-427-9007",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 37.6198415,
-              "longitude": -82.16690185
-            },
-            "storenumber": "17146"
-          }
-        ]
       }
     },
     "brand": "walgreens",
@@ -1808,7 +1808,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T08:20:58.371+00:00",
+    "appointments_last_fetched": "2021-02-27T08:47:39.706+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -1849,7 +1849,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T08:20:58.371+00:00",
+    "appointments_last_fetched": "2021-02-27T08:47:39.706+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -1890,7 +1890,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T08:20:58.371+00:00",
+    "appointments_last_fetched": "2021-02-27T08:47:39.706+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -2418,7 +2418,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T08:20:58.371+00:00",
+    "appointments_last_fetched": "2021-02-27T08:47:39.706+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -2459,7 +2459,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T08:20:58.371+00:00",
+    "appointments_last_fetched": "2021-02-27T08:47:39.706+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -2500,7 +2500,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T08:20:58.371+00:00",
+    "appointments_last_fetched": "2021-02-27T08:47:39.706+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -2541,7 +2541,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T08:20:58.371+00:00",
+    "appointments_last_fetched": "2021-02-27T08:47:39.706+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -3069,7 +3069,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T08:20:58.371+00:00",
+    "appointments_last_fetched": "2021-02-27T08:47:39.706+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -3597,7 +3597,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T08:20:58.371+00:00",
+    "appointments_last_fetched": "2021-02-27T08:47:39.706+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -3679,7 +3679,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T08:23:44.066+00:00",
+    "appointments_last_fetched": "2021-02-27T08:46:39.881+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -4207,7 +4207,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T08:20:58.371+00:00",
+    "appointments_last_fetched": "2021-02-27T08:47:39.706+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -4248,7 +4248,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T08:20:58.371+00:00",
+    "appointments_last_fetched": "2021-02-27T08:47:39.706+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -4289,7 +4289,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T08:20:58.371+00:00",
+    "appointments_last_fetched": "2021-02-27T08:47:39.706+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -4817,7 +4817,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T08:20:58.371+00:00",
+    "appointments_last_fetched": "2021-02-27T08:47:39.706+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -4858,7 +4858,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T08:20:58.371+00:00",
+    "appointments_last_fetched": "2021-02-27T08:47:39.706+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -5386,7 +5386,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T08:20:58.371+00:00",
+    "appointments_last_fetched": "2021-02-27T08:47:39.706+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -5427,7 +5427,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T08:23:44.066+00:00",
+    "appointments_last_fetched": "2021-02-27T08:46:39.881+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -5955,7 +5955,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T08:20:58.371+00:00",
+    "appointments_last_fetched": "2021-02-27T08:47:39.706+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -6037,7 +6037,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T08:20:58.371+00:00",
+    "appointments_last_fetched": "2021-02-27T08:47:39.706+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -7144,7 +7144,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T08:21:05.956+00:00",
+    "appointments_last_fetched": "2021-02-27T08:46:51.481+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -7185,7 +7185,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T08:21:05.956+00:00",
+    "appointments_last_fetched": "2021-02-27T08:46:51.481+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -7349,7 +7349,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T08:21:05.956+00:00",
+    "appointments_last_fetched": "2021-02-27T08:46:51.481+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
