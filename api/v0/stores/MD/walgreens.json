@@ -4,187 +4,13 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T13:48:08.033+00:00",
+    "appointments_last_fetched": "2021-02-27T14:03:20.364+00:00",
     "appointments_raw": {
       "both_doses": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "DOVER",
-              "country": "US",
-              "line1": "5506 S DUPONT HWY",
-              "line2": "",
-              "state": "DE",
-              "zip": "19901"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-02",
-                "day": "Tuesday",
-                "slots": [
-                  "03:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 10.57,
-            "fhirLocationId": "04b7f6a0-c67d-48cd-abda-ddfac0ecfaab",
-            "locationId": "04b7f6a0-c67d-48cd-abda-ddfac0ecfaab",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "11060",
-            "phone": [
-              {
-                "number": "302-698-6320",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "302-697-2481",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "302-698-6320",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 39.07170872,
-              "longitude": -75.55409709
-            },
-            "storenumber": "11060"
-          },
-          {
-            "address": {
-              "city": "HARRINGTON",
-              "country": "US",
-              "line1": "17248 S DUPONT HWY",
-              "line2": "",
-              "state": "DE",
-              "zip": "19952"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-02",
-                "day": "Tuesday",
-                "slots": [
-                  "11:45 am",
-                  "12:45 pm",
-                  "05:15 pm",
-                  "05:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 0.7,
-            "fhirLocationId": "c648e184-70b0-4d44-9718-f1f42d7d9bd3",
-            "locationId": "c648e184-70b0-4d44-9718-f1f42d7d9bd3",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "11756",
-            "phone": [
-              {
-                "number": "302-398-1200",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "302-398-4051",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "302-398-1200",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 38.92270861,
-              "longitude": -75.56754375
-            },
-            "storenumber": "11756"
-          },
-          {
-            "address": {
-              "city": "MAGNOLIA",
-              "country": "US",
-              "line1": "52 W BIRDIE LN",
-              "line2": "",
-              "state": "DE",
-              "zip": "19962"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-02",
-                "day": "Tuesday",
-                "slots": [
-                  "03:45 pm",
-                  "04:45 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 12.29,
-            "fhirLocationId": "031483a6-d4b9-42c7-b13d-82ffe91bce20",
-            "locationId": "031483a6-d4b9-42c7-b13d-82ffe91bce20",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "11063",
-            "phone": [
-              {
-                "number": "302-697-7435",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "302-697-2360",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "302-697-7435",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 39.08236007,
-              "longitude": -75.48663136
-            },
-            "storenumber": "11063"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       },
@@ -197,184 +23,10 @@
         ]
       },
       "second_dose_pfizer": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "DOVER",
-              "country": "US",
-              "line1": "5506 S DUPONT HWY",
-              "line2": "",
-              "state": "DE",
-              "zip": "19901"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-02",
-                "day": "Tuesday",
-                "slots": [
-                  "03:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 14.56,
-            "fhirLocationId": "04b7f6a0-c67d-48cd-abda-ddfac0ecfaab",
-            "locationId": "04b7f6a0-c67d-48cd-abda-ddfac0ecfaab",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "11060",
-            "phone": [
-              {
-                "number": "302-698-6320",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "302-697-2481",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "302-698-6320",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 39.07170872,
-              "longitude": -75.55409709
-            },
-            "storenumber": "11060"
-          },
-          {
-            "address": {
-              "city": "HARRINGTON",
-              "country": "US",
-              "line1": "17248 S DUPONT HWY",
-              "line2": "",
-              "state": "DE",
-              "zip": "19952"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-02",
-                "day": "Tuesday",
-                "slots": [
-                  "11:45 am",
-                  "12:45 pm",
-                  "05:15 pm",
-                  "05:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 15.45,
-            "fhirLocationId": "c648e184-70b0-4d44-9718-f1f42d7d9bd3",
-            "locationId": "c648e184-70b0-4d44-9718-f1f42d7d9bd3",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "11756",
-            "phone": [
-              {
-                "number": "302-398-1200",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "302-398-4051",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "302-398-1200",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 38.92270861,
-              "longitude": -75.56754375
-            },
-            "storenumber": "11756"
-          },
-          {
-            "address": {
-              "city": "MAGNOLIA",
-              "country": "US",
-              "line1": "52 W BIRDIE LN",
-              "line2": "",
-              "state": "DE",
-              "zip": "19962"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-02",
-                "day": "Tuesday",
-                "slots": [
-                  "03:45 pm",
-                  "04:45 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 18.25,
-            "fhirLocationId": "031483a6-d4b9-42c7-b13d-82ffe91bce20",
-            "locationId": "031483a6-d4b9-42c7-b13d-82ffe91bce20",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "11063",
-            "phone": [
-              {
-                "number": "302-697-7435",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "302-697-2360",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "302-697-7435",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 39.08236007,
-              "longitude": -75.48663136
-            },
-            "storenumber": "11063"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       }
@@ -434,7 +86,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T13:56:10.14+00:00",
+    "appointments_last_fetched": "2021-02-27T13:59:21.525+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -475,7 +127,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T13:57:04.112+00:00",
+    "appointments_last_fetched": "2021-02-27T14:03:25.221+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -598,7 +250,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T13:49:17.335+00:00",
+    "appointments_last_fetched": "2021-02-27T14:05:20.289+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -639,7 +291,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T13:49:17.335+00:00",
+    "appointments_last_fetched": "2021-02-27T14:05:20.289+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -680,7 +332,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T13:56:20.812+00:00",
+    "appointments_last_fetched": "2021-02-27T14:03:17.34+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -721,7 +373,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T13:49:17.335+00:00",
+    "appointments_last_fetched": "2021-02-27T14:05:20.289+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -762,7 +414,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T13:56:20.812+00:00",
+    "appointments_last_fetched": "2021-02-27T14:03:17.34+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -803,7 +455,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T13:56:20.812+00:00",
+    "appointments_last_fetched": "2021-02-27T14:03:17.34+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -844,7 +496,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T13:49:17.335+00:00",
+    "appointments_last_fetched": "2021-02-27T14:05:20.289+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -885,7 +537,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T13:56:20.812+00:00",
+    "appointments_last_fetched": "2021-02-27T14:03:17.34+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -926,7 +578,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T13:56:20.812+00:00",
+    "appointments_last_fetched": "2021-02-27T14:03:17.34+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -967,7 +619,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T13:56:20.812+00:00",
+    "appointments_last_fetched": "2021-02-27T14:03:17.34+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -1008,7 +660,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T13:56:20.812+00:00",
+    "appointments_last_fetched": "2021-02-27T14:03:17.34+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -1198,7 +850,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T13:56:20.812+00:00",
+    "appointments_last_fetched": "2021-02-27T14:03:17.34+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -1686,7 +1338,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T13:56:20.812+00:00",
+    "appointments_last_fetched": "2021-02-27T14:03:17.34+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -1917,7 +1569,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T13:47:17.086+00:00",
+    "appointments_last_fetched": "2021-02-27T14:02:27.675+00:00",
     "appointments_raw": {
       "both_doses": {
         "locations": [
@@ -1937,9 +1589,7 @@
                 "slots": [
                   "10:45 am",
                   "11:45 am",
-                  "12:00 pm",
                   "12:15 pm",
-                  "12:30 pm",
                   "12:45 pm",
                   "02:15 pm"
                 ]
@@ -1958,7 +1608,7 @@
               }
             ],
             "description": "",
-            "distance": 22.09,
+            "distance": 15.24,
             "fhirLocationId": "f9a8f976-2c34-4010-84c4-70c292be610d",
             "locationId": "f9a8f976-2c34-4010-84c4-70c292be610d",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -2005,9 +1655,7 @@
                 "slots": [
                   "10:45 am",
                   "11:45 am",
-                  "12:00 pm",
                   "12:15 pm",
-                  "12:30 pm",
                   "12:45 pm",
                   "02:15 pm"
                 ]
@@ -2026,7 +1674,7 @@
               }
             ],
             "description": "",
-            "distance": 15.61,
+            "distance": 13.55,
             "fhirLocationId": "f9a8f976-2c34-4010-84c4-70c292be610d",
             "locationId": "f9a8f976-2c34-4010-84c4-70c292be610d",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -2160,7 +1808,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T13:47:20.967+00:00",
+    "appointments_last_fetched": "2021-02-27T14:02:24.536+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -2201,7 +1849,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T13:47:20.967+00:00",
+    "appointments_last_fetched": "2021-02-27T14:02:24.536+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -2242,7 +1890,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T13:47:17.086+00:00",
+    "appointments_last_fetched": "2021-02-27T14:02:27.675+00:00",
     "appointments_raw": {
       "both_doses": {
         "locations": [
@@ -2262,9 +1910,7 @@
                 "slots": [
                   "10:45 am",
                   "11:45 am",
-                  "12:00 pm",
                   "12:15 pm",
-                  "12:30 pm",
                   "12:45 pm",
                   "02:15 pm"
                 ]
@@ -2283,7 +1929,7 @@
               }
             ],
             "description": "",
-            "distance": 22.09,
+            "distance": 15.24,
             "fhirLocationId": "f9a8f976-2c34-4010-84c4-70c292be610d",
             "locationId": "f9a8f976-2c34-4010-84c4-70c292be610d",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -2330,9 +1976,7 @@
                 "slots": [
                   "10:45 am",
                   "11:45 am",
-                  "12:00 pm",
                   "12:15 pm",
-                  "12:30 pm",
                   "12:45 pm",
                   "02:15 pm"
                 ]
@@ -2351,7 +1995,7 @@
               }
             ],
             "description": "",
-            "distance": 15.61,
+            "distance": 13.55,
             "fhirLocationId": "f9a8f976-2c34-4010-84c4-70c292be610d",
             "locationId": "f9a8f976-2c34-4010-84c4-70c292be610d",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -2403,7 +2047,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T13:47:20.967+00:00",
+    "appointments_last_fetched": "2021-02-27T14:02:24.536+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -2444,7 +2088,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T13:47:20.967+00:00",
+    "appointments_last_fetched": "2021-02-27T14:02:24.536+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -2525,7 +2169,7 @@
       }
     ],
     "appointments_available": true,
-    "appointments_last_fetched": "2021-02-27T13:57:31.936+00:00",
+    "appointments_last_fetched": "2021-02-27T14:02:27.675+00:00",
     "appointments_raw": {
       "both_doses": {
         "locations": [
@@ -2564,7 +2208,7 @@
               }
             ],
             "description": "",
-            "distance": 13.69,
+            "distance": 15.24,
             "fhirLocationId": "f9a8f976-2c34-4010-84c4-70c292be610d",
             "locationId": "f9a8f976-2c34-4010-84c4-70c292be610d",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -2630,7 +2274,7 @@
               }
             ],
             "description": "",
-            "distance": 12.82,
+            "distance": 13.55,
             "fhirLocationId": "f9a8f976-2c34-4010-84c4-70c292be610d",
             "locationId": "f9a8f976-2c34-4010-84c4-70c292be610d",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -2843,7 +2487,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T13:47:20.967+00:00",
+    "appointments_last_fetched": "2021-02-27T14:02:24.536+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -2884,7 +2528,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T13:47:20.967+00:00",
+    "appointments_last_fetched": "2021-02-27T14:02:24.536+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -3086,7 +2730,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T13:47:20.967+00:00",
+    "appointments_last_fetched": "2021-02-27T14:02:24.536+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -3127,7 +2771,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T13:47:20.967+00:00",
+    "appointments_last_fetched": "2021-02-27T14:02:24.536+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -3250,7 +2894,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T13:47:20.967+00:00",
+    "appointments_last_fetched": "2021-02-27T14:02:24.536+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -3291,7 +2935,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T13:47:20.967+00:00",
+    "appointments_last_fetched": "2021-02-27T14:02:24.536+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -3414,7 +3058,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T13:47:20.967+00:00",
+    "appointments_last_fetched": "2021-02-27T14:02:24.536+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -3496,7 +3140,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T13:47:20.967+00:00",
+    "appointments_last_fetched": "2021-02-27T14:02:24.536+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -3686,7 +3330,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T13:47:20.967+00:00",
+    "appointments_last_fetched": "2021-02-27T14:02:24.536+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -3727,7 +3371,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T13:47:20.967+00:00",
+    "appointments_last_fetched": "2021-02-27T14:02:24.536+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -3768,7 +3412,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T13:47:20.967+00:00",
+    "appointments_last_fetched": "2021-02-27T14:02:24.536+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -3809,7 +3453,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T13:47:20.967+00:00",
+    "appointments_last_fetched": "2021-02-27T14:02:24.536+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -3850,7 +3494,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T13:47:20.967+00:00",
+    "appointments_last_fetched": "2021-02-27T14:02:24.536+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -3891,7 +3535,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T13:47:20.967+00:00",
+    "appointments_last_fetched": "2021-02-27T14:02:24.536+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -3932,128 +3576,10 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T13:48:08.993+00:00",
+    "appointments_last_fetched": "2021-02-27T13:58:25.799+00:00",
     "appointments_raw": {
       "both_doses": {
         "locations": [
-          {
-            "address": {
-              "city": "LAUREL",
-              "country": "US",
-              "line1": "30182 SUSSEX HWY",
-              "line2": "",
-              "state": "DE",
-              "zip": "19956"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-02",
-                "day": "Tuesday",
-                "slots": [
-                  "04:45 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 17.65,
-            "fhirLocationId": "84937c07-2faa-4558-b8ab-64e19d766898",
-            "locationId": "84937c07-2faa-4558-b8ab-64e19d766898",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "11016",
-            "phone": [
-              {
-                "number": "302-875-8560",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "302-875-8560",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 38.57517634,
-              "longitude": -75.56672294
-            },
-            "storenumber": "11016"
-          },
-          {
-            "address": {
-              "city": "SEAFORD",
-              "country": "US",
-              "line1": "22898 SUSSEX HWY",
-              "line2": "",
-              "state": "DE",
-              "zip": "19973"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-02",
-                "day": "Tuesday",
-                "slots": [
-                  "03:30 pm",
-                  "04:30 pm",
-                  "05:15 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 20.16,
-            "fhirLocationId": "edd8f6f2-f96f-49a8-bcdf-7045ad3684cd",
-            "locationId": "edd8f6f2-f96f-49a8-bcdf-7045ad3684cd",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "11621",
-            "phone": [
-              {
-                "number": "302-628-6100",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "302-629-4121",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "302-628-6100",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 38.6614835,
-              "longitude": -75.59469242
-            },
-            "storenumber": "11621"
-          },
           {
             "address": {
               "city": "DELMAR",
@@ -4068,25 +3594,11 @@
                 "date": "2021-03-02",
                 "day": "Tuesday",
                 "slots": [
-                  "10:15 am",
-                  "10:30 am",
-                  "11:45 am",
-                  "12:00 pm",
-                  "12:15 pm",
-                  "12:45 pm",
-                  "01:00 pm",
-                  "02:30 pm",
                   "02:45 pm",
-                  "03:00 pm",
-                  "03:15 pm",
-                  "03:30 pm",
                   "03:45 pm",
                   "04:15 pm",
-                  "04:30 pm",
                   "04:45 pm",
-                  "05:00 pm",
-                  "05:15 pm",
-                  "05:30 pm"
+                  "05:00 pm"
                 ]
               }
             ],
@@ -4103,7 +3615,7 @@
               }
             ],
             "description": "",
-            "distance": 18.79,
+            "distance": 19.99,
             "fhirLocationId": "41762e68-11d4-43f0-80ff-37aafd77ec2c",
             "locationId": "41762e68-11d4-43f0-80ff-37aafd77ec2c",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -4144,124 +3656,6 @@
         "locations": [
           {
             "address": {
-              "city": "LAUREL",
-              "country": "US",
-              "line1": "30182 SUSSEX HWY",
-              "line2": "",
-              "state": "DE",
-              "zip": "19956"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-02",
-                "day": "Tuesday",
-                "slots": [
-                  "04:45 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 24.46,
-            "fhirLocationId": "84937c07-2faa-4558-b8ab-64e19d766898",
-            "locationId": "84937c07-2faa-4558-b8ab-64e19d766898",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "11016",
-            "phone": [
-              {
-                "number": "302-875-8560",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "302-875-8560",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 38.57517634,
-              "longitude": -75.56672294
-            },
-            "storenumber": "11016"
-          },
-          {
-            "address": {
-              "city": "SEAFORD",
-              "country": "US",
-              "line1": "22898 SUSSEX HWY",
-              "line2": "",
-              "state": "DE",
-              "zip": "19973"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-02",
-                "day": "Tuesday",
-                "slots": [
-                  "03:30 pm",
-                  "04:30 pm",
-                  "05:15 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 20.8,
-            "fhirLocationId": "edd8f6f2-f96f-49a8-bcdf-7045ad3684cd",
-            "locationId": "edd8f6f2-f96f-49a8-bcdf-7045ad3684cd",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "11621",
-            "phone": [
-              {
-                "number": "302-628-6100",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "302-629-4121",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "302-628-6100",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 38.6614835,
-              "longitude": -75.59469242
-            },
-            "storenumber": "11621"
-          },
-          {
-            "address": {
               "city": "DELMAR",
               "country": "US",
               "line1": "38627 BENRO DR",
@@ -4274,25 +3668,11 @@
                 "date": "2021-03-02",
                 "day": "Tuesday",
                 "slots": [
-                  "10:15 am",
-                  "10:30 am",
-                  "11:45 am",
-                  "12:00 pm",
-                  "12:15 pm",
-                  "12:45 pm",
-                  "01:00 pm",
-                  "02:30 pm",
                   "02:45 pm",
-                  "03:00 pm",
-                  "03:15 pm",
-                  "03:30 pm",
                   "03:45 pm",
                   "04:15 pm",
-                  "04:30 pm",
                   "04:45 pm",
-                  "05:00 pm",
-                  "05:15 pm",
-                  "05:30 pm"
+                  "05:00 pm"
                 ]
               }
             ],
@@ -4353,7 +3733,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T13:56:10.14+00:00",
+    "appointments_last_fetched": "2021-02-27T13:59:21.525+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -4692,7 +4072,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T13:56:10.14+00:00",
+    "appointments_last_fetched": "2021-02-27T13:59:21.525+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -4882,7 +4262,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T13:56:10.14+00:00",
+    "appointments_last_fetched": "2021-02-27T13:59:21.525+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -4923,7 +4303,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T13:47:20.967+00:00",
+    "appointments_last_fetched": "2021-02-27T14:02:24.536+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -4964,7 +4344,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T13:47:20.967+00:00",
+    "appointments_last_fetched": "2021-02-27T14:02:24.536+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -5195,7 +4575,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T13:47:20.967+00:00",
+    "appointments_last_fetched": "2021-02-27T14:02:24.536+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -5236,7 +4616,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T13:47:20.967+00:00",
+    "appointments_last_fetched": "2021-02-27T14:02:24.536+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -5277,7 +4657,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T13:56:10.14+00:00",
+    "appointments_last_fetched": "2021-02-27T13:59:21.525+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -5616,7 +4996,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T13:47:20.967+00:00",
+    "appointments_last_fetched": "2021-02-27T14:02:24.536+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -5657,7 +5037,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T13:47:20.967+00:00",
+    "appointments_last_fetched": "2021-02-27T14:02:24.536+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -5698,7 +5078,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T13:56:10.14+00:00",
+    "appointments_last_fetched": "2021-02-27T13:59:21.525+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -6782,7 +6162,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T13:56:10.14+00:00",
+    "appointments_last_fetched": "2021-02-27T13:59:21.525+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -6823,7 +6203,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T13:56:10.14+00:00",
+    "appointments_last_fetched": "2021-02-27T13:59:21.525+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -7013,7 +6393,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T13:50:22.886+00:00",
+    "appointments_last_fetched": "2021-02-27T14:05:25.109+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -7032,64 +6412,10 @@
         ]
       },
       "second_dose_pfizer": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "BALTIMORE",
-              "country": "US",
-              "line1": "238 MCMECHEN STREET",
-              "line2": "",
-              "state": "MD",
-              "zip": "21217"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-02",
-                "day": "Tuesday",
-                "slots": [
-                  "10:00 am"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 10.41,
-            "fhirLocationId": "d2026c11-ce9c-47d7-8e00-42059a761be6",
-            "locationId": "d2026c11-ce9c-47d7-8e00-42059a761be6",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "17522",
-            "phone": [
-              {
-                "number": "410-523-4704",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "410-523-2935",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "410-523-4704",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 39.30756689,
-              "longitude": -76.62834059
-            },
-            "storenumber": "17522"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       }
@@ -7149,7 +6475,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T13:56:10.14+00:00",
+    "appointments_last_fetched": "2021-02-27T13:59:21.525+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -7421,7 +6747,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T13:50:22.886+00:00",
+    "appointments_last_fetched": "2021-02-27T14:05:25.109+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -7440,64 +6766,10 @@
         ]
       },
       "second_dose_pfizer": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "BALTIMORE",
-              "country": "US",
-              "line1": "238 MCMECHEN STREET",
-              "line2": "",
-              "state": "MD",
-              "zip": "21217"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-02",
-                "day": "Tuesday",
-                "slots": [
-                  "10:00 am"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 10.41,
-            "fhirLocationId": "d2026c11-ce9c-47d7-8e00-42059a761be6",
-            "locationId": "d2026c11-ce9c-47d7-8e00-42059a761be6",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "17522",
-            "phone": [
-              {
-                "number": "410-523-4704",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "410-523-2935",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "410-523-4704",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 39.30756689,
-              "longitude": -76.62834059
-            },
-            "storenumber": "17522"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       }
@@ -7516,7 +6788,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T13:56:10.14+00:00",
+    "appointments_last_fetched": "2021-02-27T13:59:21.525+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -8127,7 +7399,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T13:56:10.14+00:00",
+    "appointments_last_fetched": "2021-02-27T13:59:21.525+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -8317,7 +7589,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T13:56:10.14+00:00",
+    "appointments_last_fetched": "2021-02-27T13:59:21.525+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -9144,7 +8416,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T13:56:10.14+00:00",
+    "appointments_last_fetched": "2021-02-27T13:59:21.525+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -9185,7 +8457,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T13:56:10.14+00:00",
+    "appointments_last_fetched": "2021-02-27T13:59:21.525+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -14978,128 +14250,10 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T13:48:08.993+00:00",
+    "appointments_last_fetched": "2021-02-27T13:58:25.799+00:00",
     "appointments_raw": {
       "both_doses": {
         "locations": [
-          {
-            "address": {
-              "city": "LAUREL",
-              "country": "US",
-              "line1": "30182 SUSSEX HWY",
-              "line2": "",
-              "state": "DE",
-              "zip": "19956"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-02",
-                "day": "Tuesday",
-                "slots": [
-                  "04:45 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 17.65,
-            "fhirLocationId": "84937c07-2faa-4558-b8ab-64e19d766898",
-            "locationId": "84937c07-2faa-4558-b8ab-64e19d766898",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "11016",
-            "phone": [
-              {
-                "number": "302-875-8560",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "302-875-8560",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 38.57517634,
-              "longitude": -75.56672294
-            },
-            "storenumber": "11016"
-          },
-          {
-            "address": {
-              "city": "SEAFORD",
-              "country": "US",
-              "line1": "22898 SUSSEX HWY",
-              "line2": "",
-              "state": "DE",
-              "zip": "19973"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-02",
-                "day": "Tuesday",
-                "slots": [
-                  "03:30 pm",
-                  "04:30 pm",
-                  "05:15 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 20.16,
-            "fhirLocationId": "edd8f6f2-f96f-49a8-bcdf-7045ad3684cd",
-            "locationId": "edd8f6f2-f96f-49a8-bcdf-7045ad3684cd",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "11621",
-            "phone": [
-              {
-                "number": "302-628-6100",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "302-629-4121",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "302-628-6100",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 38.6614835,
-              "longitude": -75.59469242
-            },
-            "storenumber": "11621"
-          },
           {
             "address": {
               "city": "DELMAR",
@@ -15114,25 +14268,11 @@
                 "date": "2021-03-02",
                 "day": "Tuesday",
                 "slots": [
-                  "10:15 am",
-                  "10:30 am",
-                  "11:45 am",
-                  "12:00 pm",
-                  "12:15 pm",
-                  "12:45 pm",
-                  "01:00 pm",
-                  "02:30 pm",
                   "02:45 pm",
-                  "03:00 pm",
-                  "03:15 pm",
-                  "03:30 pm",
                   "03:45 pm",
                   "04:15 pm",
-                  "04:30 pm",
                   "04:45 pm",
-                  "05:00 pm",
-                  "05:15 pm",
-                  "05:30 pm"
+                  "05:00 pm"
                 ]
               }
             ],
@@ -15149,7 +14289,7 @@
               }
             ],
             "description": "",
-            "distance": 18.79,
+            "distance": 19.99,
             "fhirLocationId": "41762e68-11d4-43f0-80ff-37aafd77ec2c",
             "locationId": "41762e68-11d4-43f0-80ff-37aafd77ec2c",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -15190,124 +14330,6 @@
         "locations": [
           {
             "address": {
-              "city": "LAUREL",
-              "country": "US",
-              "line1": "30182 SUSSEX HWY",
-              "line2": "",
-              "state": "DE",
-              "zip": "19956"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-02",
-                "day": "Tuesday",
-                "slots": [
-                  "04:45 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 24.46,
-            "fhirLocationId": "84937c07-2faa-4558-b8ab-64e19d766898",
-            "locationId": "84937c07-2faa-4558-b8ab-64e19d766898",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "11016",
-            "phone": [
-              {
-                "number": "302-875-8560",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "302-875-8560",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 38.57517634,
-              "longitude": -75.56672294
-            },
-            "storenumber": "11016"
-          },
-          {
-            "address": {
-              "city": "SEAFORD",
-              "country": "US",
-              "line1": "22898 SUSSEX HWY",
-              "line2": "",
-              "state": "DE",
-              "zip": "19973"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-02",
-                "day": "Tuesday",
-                "slots": [
-                  "03:30 pm",
-                  "04:30 pm",
-                  "05:15 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 20.8,
-            "fhirLocationId": "edd8f6f2-f96f-49a8-bcdf-7045ad3684cd",
-            "locationId": "edd8f6f2-f96f-49a8-bcdf-7045ad3684cd",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "11621",
-            "phone": [
-              {
-                "number": "302-628-6100",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "302-629-4121",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "302-628-6100",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 38.6614835,
-              "longitude": -75.59469242
-            },
-            "storenumber": "11621"
-          },
-          {
-            "address": {
               "city": "DELMAR",
               "country": "US",
               "line1": "38627 BENRO DR",
@@ -15320,25 +14342,11 @@
                 "date": "2021-03-02",
                 "day": "Tuesday",
                 "slots": [
-                  "10:15 am",
-                  "10:30 am",
-                  "11:45 am",
-                  "12:00 pm",
-                  "12:15 pm",
-                  "12:45 pm",
-                  "01:00 pm",
-                  "02:30 pm",
                   "02:45 pm",
-                  "03:00 pm",
-                  "03:15 pm",
-                  "03:30 pm",
                   "03:45 pm",
                   "04:15 pm",
-                  "04:30 pm",
                   "04:45 pm",
-                  "05:00 pm",
-                  "05:15 pm",
-                  "05:30 pm"
+                  "05:00 pm"
                 ]
               }
             ],
@@ -15399,128 +14407,10 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T13:48:08.993+00:00",
+    "appointments_last_fetched": "2021-02-27T13:58:25.799+00:00",
     "appointments_raw": {
       "both_doses": {
         "locations": [
-          {
-            "address": {
-              "city": "LAUREL",
-              "country": "US",
-              "line1": "30182 SUSSEX HWY",
-              "line2": "",
-              "state": "DE",
-              "zip": "19956"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-02",
-                "day": "Tuesday",
-                "slots": [
-                  "04:45 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 17.65,
-            "fhirLocationId": "84937c07-2faa-4558-b8ab-64e19d766898",
-            "locationId": "84937c07-2faa-4558-b8ab-64e19d766898",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "11016",
-            "phone": [
-              {
-                "number": "302-875-8560",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "302-875-8560",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 38.57517634,
-              "longitude": -75.56672294
-            },
-            "storenumber": "11016"
-          },
-          {
-            "address": {
-              "city": "SEAFORD",
-              "country": "US",
-              "line1": "22898 SUSSEX HWY",
-              "line2": "",
-              "state": "DE",
-              "zip": "19973"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-02",
-                "day": "Tuesday",
-                "slots": [
-                  "03:30 pm",
-                  "04:30 pm",
-                  "05:15 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 20.16,
-            "fhirLocationId": "edd8f6f2-f96f-49a8-bcdf-7045ad3684cd",
-            "locationId": "edd8f6f2-f96f-49a8-bcdf-7045ad3684cd",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "11621",
-            "phone": [
-              {
-                "number": "302-628-6100",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "302-629-4121",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "302-628-6100",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 38.6614835,
-              "longitude": -75.59469242
-            },
-            "storenumber": "11621"
-          },
           {
             "address": {
               "city": "DELMAR",
@@ -15535,25 +14425,11 @@
                 "date": "2021-03-02",
                 "day": "Tuesday",
                 "slots": [
-                  "10:15 am",
-                  "10:30 am",
-                  "11:45 am",
-                  "12:00 pm",
-                  "12:15 pm",
-                  "12:45 pm",
-                  "01:00 pm",
-                  "02:30 pm",
                   "02:45 pm",
-                  "03:00 pm",
-                  "03:15 pm",
-                  "03:30 pm",
                   "03:45 pm",
                   "04:15 pm",
-                  "04:30 pm",
                   "04:45 pm",
-                  "05:00 pm",
-                  "05:15 pm",
-                  "05:30 pm"
+                  "05:00 pm"
                 ]
               }
             ],
@@ -15570,7 +14446,7 @@
               }
             ],
             "description": "",
-            "distance": 18.79,
+            "distance": 19.99,
             "fhirLocationId": "41762e68-11d4-43f0-80ff-37aafd77ec2c",
             "locationId": "41762e68-11d4-43f0-80ff-37aafd77ec2c",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -15611,124 +14487,6 @@
         "locations": [
           {
             "address": {
-              "city": "LAUREL",
-              "country": "US",
-              "line1": "30182 SUSSEX HWY",
-              "line2": "",
-              "state": "DE",
-              "zip": "19956"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-02",
-                "day": "Tuesday",
-                "slots": [
-                  "04:45 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 24.46,
-            "fhirLocationId": "84937c07-2faa-4558-b8ab-64e19d766898",
-            "locationId": "84937c07-2faa-4558-b8ab-64e19d766898",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "11016",
-            "phone": [
-              {
-                "number": "302-875-8560",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "302-875-8560",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 38.57517634,
-              "longitude": -75.56672294
-            },
-            "storenumber": "11016"
-          },
-          {
-            "address": {
-              "city": "SEAFORD",
-              "country": "US",
-              "line1": "22898 SUSSEX HWY",
-              "line2": "",
-              "state": "DE",
-              "zip": "19973"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-02",
-                "day": "Tuesday",
-                "slots": [
-                  "03:30 pm",
-                  "04:30 pm",
-                  "05:15 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 20.8,
-            "fhirLocationId": "edd8f6f2-f96f-49a8-bcdf-7045ad3684cd",
-            "locationId": "edd8f6f2-f96f-49a8-bcdf-7045ad3684cd",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "11621",
-            "phone": [
-              {
-                "number": "302-628-6100",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "302-629-4121",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "302-628-6100",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 38.6614835,
-              "longitude": -75.59469242
-            },
-            "storenumber": "11621"
-          },
-          {
-            "address": {
               "city": "DELMAR",
               "country": "US",
               "line1": "38627 BENRO DR",
@@ -15741,25 +14499,11 @@
                 "date": "2021-03-02",
                 "day": "Tuesday",
                 "slots": [
-                  "10:15 am",
-                  "10:30 am",
-                  "11:45 am",
-                  "12:00 pm",
-                  "12:15 pm",
-                  "12:45 pm",
-                  "01:00 pm",
-                  "02:30 pm",
                   "02:45 pm",
-                  "03:00 pm",
-                  "03:15 pm",
-                  "03:30 pm",
                   "03:45 pm",
                   "04:15 pm",
-                  "04:30 pm",
                   "04:45 pm",
-                  "05:00 pm",
-                  "05:15 pm",
-                  "05:30 pm"
+                  "05:00 pm"
                 ]
               }
             ],
@@ -15820,75 +14564,13 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T13:57:10.042+00:00",
+    "appointments_last_fetched": "2021-02-27T14:02:33.049+00:00",
     "appointments_raw": {
       "both_doses": {
-        "locations": [
+        "errors": [
           {
-            "address": {
-              "city": "DELMAR",
-              "country": "US",
-              "line1": "38627 BENRO DR",
-              "line2": "",
-              "state": "DE",
-              "zip": "19940"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-02",
-                "day": "Tuesday",
-                "slots": [
-                  "12:00 pm",
-                  "12:45 pm",
-                  "02:30 pm",
-                  "02:45 pm",
-                  "03:00 pm",
-                  "03:45 pm",
-                  "04:15 pm",
-                  "04:45 pm",
-                  "05:00 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 18.79,
-            "fhirLocationId": "41762e68-11d4-43f0-80ff-37aafd77ec2c",
-            "locationId": "41762e68-11d4-43f0-80ff-37aafd77ec2c",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "11079",
-            "phone": [
-              {
-                "number": "302-907-1010",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "302-907-1010",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 38.45632755,
-              "longitude": -75.55578863
-            },
-            "storenumber": "11079"
+            "code": "FC_907_NoData",
+            "message": "No participating store."
           }
         ]
       },
@@ -15901,72 +14583,10 @@
         ]
       },
       "second_dose_pfizer": {
-        "locations": [
+        "errors": [
           {
-            "address": {
-              "city": "DELMAR",
-              "country": "US",
-              "line1": "38627 BENRO DR",
-              "line2": "",
-              "state": "DE",
-              "zip": "19940"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-02",
-                "day": "Tuesday",
-                "slots": [
-                  "12:00 pm",
-                  "12:45 pm",
-                  "02:30 pm",
-                  "02:45 pm",
-                  "03:00 pm",
-                  "03:45 pm",
-                  "04:15 pm",
-                  "04:45 pm",
-                  "05:00 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 18.79,
-            "fhirLocationId": "41762e68-11d4-43f0-80ff-37aafd77ec2c",
-            "locationId": "41762e68-11d4-43f0-80ff-37aafd77ec2c",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "11079",
-            "phone": [
-              {
-                "number": "302-907-1010",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "302-907-1010",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 38.45632755,
-              "longitude": -75.55578863
-            },
-            "storenumber": "11079"
+            "code": "FC_907_NoData",
+            "message": "No participating store."
           }
         ]
       }
