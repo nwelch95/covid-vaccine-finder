@@ -44,7 +44,7 @@
       }
     ],
     "appointments_available": true,
-    "appointments_last_fetched": "2021-02-27T02:51:51.024+00:00",
+    "appointments_last_fetched": "2021-02-27T03:10:21.751+00:00",
     "appointments_raw": {
       "both_doses": {
         "locations": [
@@ -630,67 +630,13 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T02:58:22.501+00:00",
+    "appointments_last_fetched": "2021-02-27T03:10:11.781+00:00",
     "appointments_raw": {
       "both_doses": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "PORTLAND",
-              "country": "US",
-              "line1": "713 CONGRESS STREET",
-              "line2": "",
-              "state": "ME",
-              "zip": "04101"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "01:00 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 9.91,
-            "fhirLocationId": "1f8028dd-292d-48ae-82d4-943e47cb50df",
-            "locationId": "1f8028dd-292d-48ae-82d4-943e47cb50df",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "19821",
-            "phone": [
-              {
-                "number": "207-774-8456",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "207-774-4783",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "207-774-8456",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 43.6531556,
-              "longitude": -70.26903161
-            },
-            "storenumber": "19821"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       },
@@ -703,64 +649,10 @@
         ]
       },
       "second_dose_pfizer": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "PORTLAND",
-              "country": "US",
-              "line1": "713 CONGRESS STREET",
-              "line2": "",
-              "state": "ME",
-              "zip": "04101"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "01:00 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 21.77,
-            "fhirLocationId": "1f8028dd-292d-48ae-82d4-943e47cb50df",
-            "locationId": "1f8028dd-292d-48ae-82d4-943e47cb50df",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "19821",
-            "phone": [
-              {
-                "number": "207-774-8456",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "207-774-4783",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "207-774-8456",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 43.6531556,
-              "longitude": -70.26903161
-            },
-            "storenumber": "19821"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       }
@@ -820,67 +712,13 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T02:58:22.501+00:00",
+    "appointments_last_fetched": "2021-02-27T03:10:11.781+00:00",
     "appointments_raw": {
       "both_doses": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "PORTLAND",
-              "country": "US",
-              "line1": "713 CONGRESS STREET",
-              "line2": "",
-              "state": "ME",
-              "zip": "04101"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "01:00 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 9.91,
-            "fhirLocationId": "1f8028dd-292d-48ae-82d4-943e47cb50df",
-            "locationId": "1f8028dd-292d-48ae-82d4-943e47cb50df",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "19821",
-            "phone": [
-              {
-                "number": "207-774-8456",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "207-774-4783",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "207-774-8456",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 43.6531556,
-              "longitude": -70.26903161
-            },
-            "storenumber": "19821"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       },
@@ -893,64 +731,10 @@
         ]
       },
       "second_dose_pfizer": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "PORTLAND",
-              "country": "US",
-              "line1": "713 CONGRESS STREET",
-              "line2": "",
-              "state": "ME",
-              "zip": "04101"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "01:00 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 21.77,
-            "fhirLocationId": "1f8028dd-292d-48ae-82d4-943e47cb50df",
-            "locationId": "1f8028dd-292d-48ae-82d4-943e47cb50df",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "19821",
-            "phone": [
-              {
-                "number": "207-774-8456",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "207-774-4783",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "207-774-8456",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 43.6531556,
-              "longitude": -70.26903161
-            },
-            "storenumber": "19821"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       }
@@ -969,67 +753,13 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T02:58:22.501+00:00",
+    "appointments_last_fetched": "2021-02-27T03:10:11.781+00:00",
     "appointments_raw": {
       "both_doses": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "PORTLAND",
-              "country": "US",
-              "line1": "713 CONGRESS STREET",
-              "line2": "",
-              "state": "ME",
-              "zip": "04101"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "01:00 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 9.91,
-            "fhirLocationId": "1f8028dd-292d-48ae-82d4-943e47cb50df",
-            "locationId": "1f8028dd-292d-48ae-82d4-943e47cb50df",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "19821",
-            "phone": [
-              {
-                "number": "207-774-8456",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "207-774-4783",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "207-774-8456",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 43.6531556,
-              "longitude": -70.26903161
-            },
-            "storenumber": "19821"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       },
@@ -1042,64 +772,10 @@
         ]
       },
       "second_dose_pfizer": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "PORTLAND",
-              "country": "US",
-              "line1": "713 CONGRESS STREET",
-              "line2": "",
-              "state": "ME",
-              "zip": "04101"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "01:00 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 21.77,
-            "fhirLocationId": "1f8028dd-292d-48ae-82d4-943e47cb50df",
-            "locationId": "1f8028dd-292d-48ae-82d4-943e47cb50df",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "19821",
-            "phone": [
-              {
-                "number": "207-774-8456",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "207-774-4783",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "207-774-8456",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 43.6531556,
-              "longitude": -70.26903161
-            },
-            "storenumber": "19821"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       }
@@ -1118,67 +794,13 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T02:58:22.501+00:00",
+    "appointments_last_fetched": "2021-02-27T03:10:11.781+00:00",
     "appointments_raw": {
       "both_doses": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "PORTLAND",
-              "country": "US",
-              "line1": "713 CONGRESS STREET",
-              "line2": "",
-              "state": "ME",
-              "zip": "04101"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "01:00 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 9.91,
-            "fhirLocationId": "1f8028dd-292d-48ae-82d4-943e47cb50df",
-            "locationId": "1f8028dd-292d-48ae-82d4-943e47cb50df",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "19821",
-            "phone": [
-              {
-                "number": "207-774-8456",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "207-774-4783",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "207-774-8456",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 43.6531556,
-              "longitude": -70.26903161
-            },
-            "storenumber": "19821"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       },
@@ -1191,64 +813,10 @@
         ]
       },
       "second_dose_pfizer": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "PORTLAND",
-              "country": "US",
-              "line1": "713 CONGRESS STREET",
-              "line2": "",
-              "state": "ME",
-              "zip": "04101"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "01:00 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 21.77,
-            "fhirLocationId": "1f8028dd-292d-48ae-82d4-943e47cb50df",
-            "locationId": "1f8028dd-292d-48ae-82d4-943e47cb50df",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "19821",
-            "phone": [
-              {
-                "number": "207-774-8456",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "207-774-4783",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "207-774-8456",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 43.6531556,
-              "longitude": -70.26903161
-            },
-            "storenumber": "19821"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       }
@@ -1267,67 +835,13 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T02:58:22.501+00:00",
+    "appointments_last_fetched": "2021-02-27T03:10:11.781+00:00",
     "appointments_raw": {
       "both_doses": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "PORTLAND",
-              "country": "US",
-              "line1": "713 CONGRESS STREET",
-              "line2": "",
-              "state": "ME",
-              "zip": "04101"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "01:00 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 9.91,
-            "fhirLocationId": "1f8028dd-292d-48ae-82d4-943e47cb50df",
-            "locationId": "1f8028dd-292d-48ae-82d4-943e47cb50df",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "19821",
-            "phone": [
-              {
-                "number": "207-774-8456",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "207-774-4783",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "207-774-8456",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 43.6531556,
-              "longitude": -70.26903161
-            },
-            "storenumber": "19821"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       },
@@ -1340,64 +854,10 @@
         ]
       },
       "second_dose_pfizer": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "PORTLAND",
-              "country": "US",
-              "line1": "713 CONGRESS STREET",
-              "line2": "",
-              "state": "ME",
-              "zip": "04101"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "01:00 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 21.77,
-            "fhirLocationId": "1f8028dd-292d-48ae-82d4-943e47cb50df",
-            "locationId": "1f8028dd-292d-48ae-82d4-943e47cb50df",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "19821",
-            "phone": [
-              {
-                "number": "207-774-8456",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "207-774-4783",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "207-774-8456",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 43.6531556,
-              "longitude": -70.26903161
-            },
-            "storenumber": "19821"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       }
@@ -1416,67 +876,13 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T02:58:22.501+00:00",
+    "appointments_last_fetched": "2021-02-27T03:10:11.781+00:00",
     "appointments_raw": {
       "both_doses": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "PORTLAND",
-              "country": "US",
-              "line1": "713 CONGRESS STREET",
-              "line2": "",
-              "state": "ME",
-              "zip": "04101"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "01:00 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 9.91,
-            "fhirLocationId": "1f8028dd-292d-48ae-82d4-943e47cb50df",
-            "locationId": "1f8028dd-292d-48ae-82d4-943e47cb50df",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "19821",
-            "phone": [
-              {
-                "number": "207-774-8456",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "207-774-4783",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "207-774-8456",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 43.6531556,
-              "longitude": -70.26903161
-            },
-            "storenumber": "19821"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       },
@@ -1489,64 +895,10 @@
         ]
       },
       "second_dose_pfizer": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "PORTLAND",
-              "country": "US",
-              "line1": "713 CONGRESS STREET",
-              "line2": "",
-              "state": "ME",
-              "zip": "04101"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "01:00 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 21.77,
-            "fhirLocationId": "1f8028dd-292d-48ae-82d4-943e47cb50df",
-            "locationId": "1f8028dd-292d-48ae-82d4-943e47cb50df",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "19821",
-            "phone": [
-              {
-                "number": "207-774-8456",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "207-774-4783",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "207-774-8456",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 43.6531556,
-              "longitude": -70.26903161
-            },
-            "storenumber": "19821"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       }
@@ -1606,67 +958,13 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T02:58:22.501+00:00",
+    "appointments_last_fetched": "2021-02-27T03:10:11.781+00:00",
     "appointments_raw": {
       "both_doses": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "PORTLAND",
-              "country": "US",
-              "line1": "713 CONGRESS STREET",
-              "line2": "",
-              "state": "ME",
-              "zip": "04101"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "01:00 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 9.91,
-            "fhirLocationId": "1f8028dd-292d-48ae-82d4-943e47cb50df",
-            "locationId": "1f8028dd-292d-48ae-82d4-943e47cb50df",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "19821",
-            "phone": [
-              {
-                "number": "207-774-8456",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "207-774-4783",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "207-774-8456",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 43.6531556,
-              "longitude": -70.26903161
-            },
-            "storenumber": "19821"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       },
@@ -1679,64 +977,10 @@
         ]
       },
       "second_dose_pfizer": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "PORTLAND",
-              "country": "US",
-              "line1": "713 CONGRESS STREET",
-              "line2": "",
-              "state": "ME",
-              "zip": "04101"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "01:00 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 21.77,
-            "fhirLocationId": "1f8028dd-292d-48ae-82d4-943e47cb50df",
-            "locationId": "1f8028dd-292d-48ae-82d4-943e47cb50df",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "19821",
-            "phone": [
-              {
-                "number": "207-774-8456",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "207-774-4783",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "207-774-8456",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 43.6531556,
-              "longitude": -70.26903161
-            },
-            "storenumber": "19821"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       }
@@ -1837,67 +1081,13 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T02:58:22.501+00:00",
+    "appointments_last_fetched": "2021-02-27T03:10:11.781+00:00",
     "appointments_raw": {
       "both_doses": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "PORTLAND",
-              "country": "US",
-              "line1": "713 CONGRESS STREET",
-              "line2": "",
-              "state": "ME",
-              "zip": "04101"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "01:00 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 9.91,
-            "fhirLocationId": "1f8028dd-292d-48ae-82d4-943e47cb50df",
-            "locationId": "1f8028dd-292d-48ae-82d4-943e47cb50df",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "19821",
-            "phone": [
-              {
-                "number": "207-774-8456",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "207-774-4783",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "207-774-8456",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 43.6531556,
-              "longitude": -70.26903161
-            },
-            "storenumber": "19821"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       },
@@ -1910,64 +1100,10 @@
         ]
       },
       "second_dose_pfizer": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "PORTLAND",
-              "country": "US",
-              "line1": "713 CONGRESS STREET",
-              "line2": "",
-              "state": "ME",
-              "zip": "04101"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "01:00 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 21.77,
-            "fhirLocationId": "1f8028dd-292d-48ae-82d4-943e47cb50df",
-            "locationId": "1f8028dd-292d-48ae-82d4-943e47cb50df",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "19821",
-            "phone": [
-              {
-                "number": "207-774-8456",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "207-774-4783",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "207-774-8456",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 43.6531556,
-              "longitude": -70.26903161
-            },
-            "storenumber": "19821"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       }
@@ -7807,7 +6943,7 @@
       }
     ],
     "appointments_available": true,
-    "appointments_last_fetched": "2021-02-27T02:46:34.392+00:00",
+    "appointments_last_fetched": "2021-02-27T03:10:17.22+00:00",
     "appointments_raw": {
       "both_doses": {
         "locations": [
@@ -7920,7 +7056,7 @@
               }
             ],
             "description": "",
-            "distance": 16.7,
+            "distance": 15.56,
             "fhirLocationId": "1aaeb339-2354-4f19-8a1e-194848620cdc",
             "locationId": "1aaeb339-2354-4f19-8a1e-194848620cdc",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
