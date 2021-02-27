@@ -165,10 +165,89 @@
       }
     ],
     "appointments_available": true,
-    "appointments_last_fetched": "2021-02-27T10:24:33.997+00:00",
+    "appointments_last_fetched": "2021-02-27T10:45:43.25+00:00",
     "appointments_raw": {
       "both_doses": {
         "locations": [
+          {
+            "address": {
+              "city": "EDENTON",
+              "country": "US",
+              "line1": "717 N BROAD ST",
+              "line2": "",
+              "state": "NC",
+              "zip": "27932"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "09:45 am",
+                  "10:45 am",
+                  "11:00 am",
+                  "11:15 am",
+                  "11:30 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "02:15 pm",
+                  "03:15 pm",
+                  "03:30 pm",
+                  "03:45 pm",
+                  "04:00 pm",
+                  "04:15 pm",
+                  "04:30 pm",
+                  "04:45 pm",
+                  "05:30 pm",
+                  "05:45 pm",
+                  "06:15 pm",
+                  "06:30 pm",
+                  "06:45 pm",
+                  "07:00 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 23.64,
+            "fhirLocationId": "aa409853-8fce-4e66-a13e-c58a17fead98",
+            "locationId": "aa409853-8fce-4e66-a13e-c58a17fead98",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "13465",
+            "phone": [
+              {
+                "number": "252-482-0194",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "252-482-0172",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "252-482-0194",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 36.06945891,
+              "longitude": -76.60581778
+            },
+            "storenumber": "13465"
+          },
           {
             "address": {
               "city": "AHOSKIE",
@@ -214,7 +293,7 @@
               }
             ],
             "description": "",
-            "distance": 23.8,
+            "distance": 23.49,
             "fhirLocationId": "1f5cc9cd-22d0-4b6e-a804-e515ff6cd9b1",
             "locationId": "1f5cc9cd-22d0-4b6e-a804-e515ff6cd9b1",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -244,10 +323,85 @@
         ]
       },
       "second_dose_moderna": {
-        "error": [
+        "locations": [
           {
-            "code": "FC_904_NoData",
-            "message": "Insufficient inventory."
+            "address": {
+              "city": "EDENTON",
+              "country": "US",
+              "line1": "717 N BROAD ST",
+              "line2": "",
+              "state": "NC",
+              "zip": "27932"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "09:45 am",
+                  "10:45 am",
+                  "11:00 am",
+                  "11:15 am",
+                  "11:30 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "02:15 pm",
+                  "03:15 pm",
+                  "03:30 pm",
+                  "03:45 pm",
+                  "04:00 pm",
+                  "04:15 pm",
+                  "04:30 pm",
+                  "04:45 pm",
+                  "05:30 pm",
+                  "05:45 pm",
+                  "06:15 pm",
+                  "06:30 pm",
+                  "06:45 pm",
+                  "07:00 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 22.05,
+            "fhirLocationId": "aa409853-8fce-4e66-a13e-c58a17fead98",
+            "locationId": "aa409853-8fce-4e66-a13e-c58a17fead98",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "13465",
+            "phone": [
+              {
+                "number": "252-482-0194",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "252-482-0172",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "252-482-0194",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 36.06945891,
+              "longitude": -76.60581778
+            },
+            "storenumber": "13465"
           }
         ]
       },
@@ -298,7 +452,7 @@
               }
             ],
             "description": "",
-            "distance": 3.67,
+            "distance": 22.94,
             "fhirLocationId": "1f5cc9cd-22d0-4b6e-a804-e515ff6cd9b1",
             "locationId": "1f5cc9cd-22d0-4b6e-a804-e515ff6cd9b1",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -15406,7 +15560,7 @@
       }
     ],
     "appointments_available": true,
-    "appointments_last_fetched": "2021-02-27T10:23:46.096+00:00",
+    "appointments_last_fetched": "2021-02-27T10:45:43.25+00:00",
     "appointments_raw": {
       "both_doses": {
         "locations": [
@@ -15534,7 +15688,7 @@
               }
             ],
             "description": "",
-            "distance": 22.94,
+            "distance": 23.49,
             "fhirLocationId": "1f5cc9cd-22d0-4b6e-a804-e515ff6cd9b1",
             "locationId": "1f5cc9cd-22d0-4b6e-a804-e515ff6cd9b1",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -15617,7 +15771,7 @@
               }
             ],
             "description": "",
-            "distance": 23.64,
+            "distance": 22.05,
             "fhirLocationId": "aa409853-8fce-4e66-a13e-c58a17fead98",
             "locationId": "aa409853-8fce-4e66-a13e-c58a17fead98",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -15693,7 +15847,7 @@
               }
             ],
             "description": "",
-            "distance": 0,
+            "distance": 22.94,
             "fhirLocationId": "1f5cc9cd-22d0-4b6e-a804-e515ff6cd9b1",
             "locationId": "1f5cc9cd-22d0-4b6e-a804-e515ff6cd9b1",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -15737,7 +15891,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T10:32:20.122+00:00",
+    "appointments_last_fetched": "2021-02-27T10:45:40.673+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -15778,7 +15932,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T10:23:46.096+00:00",
+    "appointments_last_fetched": "2021-02-27T10:45:43.25+00:00",
     "appointments_raw": {
       "both_doses": {
         "locations": [
@@ -15906,7 +16060,7 @@
               }
             ],
             "description": "",
-            "distance": 22.94,
+            "distance": 23.49,
             "fhirLocationId": "1f5cc9cd-22d0-4b6e-a804-e515ff6cd9b1",
             "locationId": "1f5cc9cd-22d0-4b6e-a804-e515ff6cd9b1",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -15989,7 +16143,7 @@
               }
             ],
             "description": "",
-            "distance": 23.64,
+            "distance": 22.05,
             "fhirLocationId": "aa409853-8fce-4e66-a13e-c58a17fead98",
             "locationId": "aa409853-8fce-4e66-a13e-c58a17fead98",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -16065,7 +16219,7 @@
               }
             ],
             "description": "",
-            "distance": 0,
+            "distance": 22.94,
             "fhirLocationId": "1f5cc9cd-22d0-4b6e-a804-e515ff6cd9b1",
             "locationId": "1f5cc9cd-22d0-4b6e-a804-e515ff6cd9b1",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -16191,7 +16345,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T10:34:35.201+00:00",
+    "appointments_last_fetched": "2021-02-27T10:45:45.378+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -16232,7 +16386,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T10:34:35.201+00:00",
+    "appointments_last_fetched": "2021-02-27T10:45:45.378+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -16273,7 +16427,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T10:34:35.201+00:00",
+    "appointments_last_fetched": "2021-02-27T10:45:45.378+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -16396,7 +16550,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T10:34:35.201+00:00",
+    "appointments_last_fetched": "2021-02-27T10:45:45.378+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -16437,7 +16591,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T10:34:35.201+00:00",
+    "appointments_last_fetched": "2021-02-27T10:45:45.378+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -16478,7 +16632,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T10:22:35.547+00:00",
+    "appointments_last_fetched": "2021-02-27T10:45:34.98+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -16519,7 +16673,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T10:34:35.201+00:00",
+    "appointments_last_fetched": "2021-02-27T10:45:45.378+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -16560,7 +16714,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T10:34:35.201+00:00",
+    "appointments_last_fetched": "2021-02-27T10:45:45.378+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -16601,7 +16755,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T10:22:35.547+00:00",
+    "appointments_last_fetched": "2021-02-27T10:45:34.98+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -16765,7 +16919,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T10:34:35.201+00:00",
+    "appointments_last_fetched": "2021-02-27T10:45:45.378+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -16847,7 +17001,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T10:34:35.201+00:00",
+    "appointments_last_fetched": "2021-02-27T10:45:45.378+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -16888,7 +17042,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T10:34:35.201+00:00",
+    "appointments_last_fetched": "2021-02-27T10:45:45.378+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -16929,7 +17083,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T10:22:35.547+00:00",
+    "appointments_last_fetched": "2021-02-27T10:45:34.98+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -17011,7 +17165,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T10:34:35.201+00:00",
+    "appointments_last_fetched": "2021-02-27T10:45:45.378+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -17093,7 +17247,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T10:34:35.201+00:00",
+    "appointments_last_fetched": "2021-02-27T10:45:45.378+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -17134,7 +17288,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T10:34:35.201+00:00",
+    "appointments_last_fetched": "2021-02-27T10:45:45.378+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -17175,7 +17329,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T10:22:35.547+00:00",
+    "appointments_last_fetched": "2021-02-27T10:45:34.98+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -17216,7 +17370,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T10:34:35.201+00:00",
+    "appointments_last_fetched": "2021-02-27T10:45:45.378+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -17257,7 +17411,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T10:34:35.201+00:00",
+    "appointments_last_fetched": "2021-02-27T10:45:45.378+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -17831,7 +17985,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T10:34:35.201+00:00",
+    "appointments_last_fetched": "2021-02-27T10:45:45.378+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -19102,7 +19256,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T10:29:10.45+00:00",
+    "appointments_last_fetched": "2021-02-27T10:46:05.598+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -50955,333 +51109,10 @@
       }
     ],
     "appointments_available": true,
-    "appointments_last_fetched": "2021-02-27T10:43:28.529+00:00",
+    "appointments_last_fetched": "2021-02-27T10:46:49.134+00:00",
     "appointments_raw": {
       "both_doses": {
         "locations": [
-          {
-            "address": {
-              "city": "LUMBERTON",
-              "country": "US",
-              "line1": "3003 FAYETTEVILLE RD",
-              "line2": "",
-              "state": "NC",
-              "zip": "28358"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "10:15 am",
-                  "10:30 am",
-                  "10:45 am",
-                  "11:00 am",
-                  "11:15 am",
-                  "11:30 am",
-                  "11:45 am",
-                  "12:00 pm",
-                  "12:15 pm",
-                  "12:30 pm",
-                  "12:45 pm",
-                  "02:15 pm",
-                  "02:30 pm",
-                  "02:45 pm",
-                  "03:00 pm",
-                  "03:15 pm",
-                  "03:30 pm",
-                  "04:00 pm",
-                  "04:15 pm",
-                  "04:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 14.85,
-            "fhirLocationId": "c9a26510-cbf4-4922-bfdb-971a46c4c364",
-            "locationId": "c9a26510-cbf4-4922-bfdb-971a46c4c364",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "1056",
-            "phone": [
-              {
-                "number": "910-739-7072",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "910-739-7160",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "910-739-7072",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 34.639347,
-              "longitude": -79.00024
-            },
-            "storenumber": "1056"
-          },
-          {
-            "address": {
-              "city": "SAINT PAULS",
-              "country": "US",
-              "line1": "419 W BROAD ST",
-              "line2": "",
-              "state": "NC",
-              "zip": "28384"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "09:45 am",
-                  "10:00 am",
-                  "10:15 am",
-                  "10:30 am",
-                  "10:45 am",
-                  "11:00 am",
-                  "11:15 am",
-                  "11:30 am",
-                  "11:45 am",
-                  "12:00 pm",
-                  "12:15 pm",
-                  "12:30 pm",
-                  "12:45 pm",
-                  "01:00 pm",
-                  "02:15 pm",
-                  "02:30 pm",
-                  "02:45 pm",
-                  "03:00 pm",
-                  "03:15 pm",
-                  "03:30 pm",
-                  "03:45 pm",
-                  "04:00 pm",
-                  "04:15 pm",
-                  "04:30 pm",
-                  "04:45 pm",
-                  "05:00 pm",
-                  "05:15 pm",
-                  "05:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 11.5,
-            "fhirLocationId": "a6383808-ea29-4fd9-afa5-d2d74453b2df",
-            "locationId": "a6383808-ea29-4fd9-afa5-d2d74453b2df",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "16171",
-            "phone": [
-              {
-                "number": "910-865-1242",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "910-865-1242",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 34.8068665,
-              "longitude": -78.97510815
-            },
-            "storenumber": "16171"
-          },
-          {
-            "address": {
-              "city": "PEMBROKE",
-              "country": "US",
-              "line1": "503 E 3RD ST",
-              "line2": "",
-              "state": "NC",
-              "zip": "28372"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "09:45 am",
-                  "10:00 am",
-                  "10:15 am",
-                  "10:30 am",
-                  "10:45 am",
-                  "11:00 am",
-                  "11:15 am",
-                  "11:30 am",
-                  "11:45 am",
-                  "12:00 pm",
-                  "12:15 pm",
-                  "12:30 pm",
-                  "12:45 pm",
-                  "01:00 pm",
-                  "02:15 pm",
-                  "02:30 pm",
-                  "02:45 pm",
-                  "03:00 pm",
-                  "03:15 pm",
-                  "03:30 pm",
-                  "03:45 pm",
-                  "04:15 pm",
-                  "04:30 pm",
-                  "04:45 pm",
-                  "05:00 pm",
-                  "05:15 pm",
-                  "05:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 8.33,
-            "fhirLocationId": "664a7b23-808b-4779-bdaf-41678b2e4b3b",
-            "locationId": "664a7b23-808b-4779-bdaf-41678b2e4b3b",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "16119",
-            "phone": [
-              {
-                "number": "910-521-3910",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "910-521-3910",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 34.67721201,
-              "longitude": -79.18872295
-            },
-            "storenumber": "16119"
-          },
-          {
-            "address": {
-              "city": "FAIRMONT",
-              "country": "US",
-              "line1": "414 N WALNUT ST",
-              "line2": "",
-              "state": "NC",
-              "zip": "28340"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "09:15 am",
-                  "09:30 am",
-                  "09:45 am",
-                  "10:00 am",
-                  "10:15 am",
-                  "10:30 am",
-                  "10:45 am",
-                  "11:00 am",
-                  "11:15 am",
-                  "11:30 am",
-                  "11:45 am",
-                  "12:00 pm",
-                  "12:15 pm",
-                  "12:30 pm",
-                  "12:45 pm",
-                  "01:00 pm",
-                  "02:15 pm",
-                  "02:30 pm",
-                  "02:45 pm",
-                  "03:00 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 20.69,
-            "fhirLocationId": "3d6acffa-7cb5-4d9d-9e33-8a38ceb53d4e",
-            "locationId": "3d6acffa-7cb5-4d9d-9e33-8a38ceb53d4e",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "16161",
-            "phone": [
-              {
-                "number": "910-628-6068",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "910-628-6068",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 34.50284379,
-              "longitude": -79.11172332
-            },
-            "storenumber": "16161"
-          },
           {
             "address": {
               "city": "ELIZABETHTOWN",
@@ -51358,795 +51189,14 @@
               "longitude": -78.60737214
             },
             "storenumber": "15273"
-          },
-          {
-            "address": {
-              "city": "FAYETTEVILLE",
-              "country": "US",
-              "line1": "2960 HOPE MILLS RD",
-              "line2": "",
-              "state": "NC",
-              "zip": "28306"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "02:30 pm",
-                  "03:15 pm",
-                  "03:30 pm",
-                  "04:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 17.73,
-            "fhirLocationId": "e5ae200a-6d23-40a9-a49a-ff850fbeeba6",
-            "locationId": "e5ae200a-6d23-40a9-a49a-ff850fbeeba6",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "7153",
-            "phone": [
-              {
-                "number": "910-424-9213",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "910-424-9527",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "910-424-9213",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 34.986075,
-              "longitude": -78.96547
-            },
-            "storenumber": "7153"
-          },
-          {
-            "address": {
-              "city": "FAYETTEVILLE",
-              "country": "US",
-              "line1": "3296 VILLAGE DR",
-              "line2": "",
-              "state": "NC",
-              "zip": "28304"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "03:15 pm",
-                  "03:30 pm",
-                  "03:45 pm",
-                  "04:00 pm",
-                  "04:15 pm",
-                  "04:30 pm",
-                  "04:45 pm",
-                  "05:00 pm",
-                  "05:15 pm",
-                  "05:30 pm",
-                  "06:15 pm",
-                  "07:00 pm",
-                  "07:15 pm",
-                  "07:30 pm",
-                  "07:45 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 21.4,
-            "fhirLocationId": "822afc2b-167f-46f0-8ad6-3b6db78e0974",
-            "locationId": "822afc2b-167f-46f0-8ad6-3b6db78e0974",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "7805",
-            "phone": [
-              {
-                "number": "910-433-4681",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "910-433-2175",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "910-433-4681",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 35.03129434,
-              "longitude": -78.92982361
-            },
-            "storenumber": "7805"
-          },
-          {
-            "address": {
-              "city": "FAYETTEVILLE",
-              "country": "US",
-              "line1": "2605 RAEFORD RD",
-              "line2": "",
-              "state": "NC",
-              "zip": "28303"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "09:30 am",
-                  "09:45 am",
-                  "10:00 am",
-                  "10:15 am",
-                  "10:30 am",
-                  "10:45 am",
-                  "11:15 am",
-                  "11:30 am",
-                  "11:45 am",
-                  "12:00 pm",
-                  "12:15 pm",
-                  "12:30 pm",
-                  "12:45 pm",
-                  "01:00 pm",
-                  "02:15 pm",
-                  "02:30 pm",
-                  "02:45 pm",
-                  "03:15 pm",
-                  "03:30 pm",
-                  "03:45 pm",
-                  "04:00 pm",
-                  "04:15 pm",
-                  "04:30 pm",
-                  "04:45 pm",
-                  "05:15 pm",
-                  "05:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 22.53,
-            "fhirLocationId": "d4856366-90cd-4004-b678-666baefbdf8b",
-            "locationId": "d4856366-90cd-4004-b678-666baefbdf8b",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "17862",
-            "phone": [
-              {
-                "number": "910-484-2170",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "910-321-9571",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "910-484-2170",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 35.04560934,
-              "longitude": -78.91958909
-            },
-            "storenumber": "17862"
-          },
-          {
-            "address": {
-              "city": "FAYETTEVILLE",
-              "country": "US",
-              "line1": "6330 RAEFORD RD",
-              "line2": "",
-              "state": "NC",
-              "zip": "28304"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "09:45 am",
-                  "10:45 am",
-                  "11:00 am",
-                  "11:15 am",
-                  "12:15 pm",
-                  "12:30 pm",
-                  "12:45 pm",
-                  "01:00 pm",
-                  "02:15 pm",
-                  "02:30 pm",
-                  "02:45 pm",
-                  "03:00 pm",
-                  "03:15 pm",
-                  "03:30 pm",
-                  "03:45 pm",
-                  "04:00 pm",
-                  "04:15 pm",
-                  "04:30 pm",
-                  "04:45 pm",
-                  "05:00 pm",
-                  "05:15 pm",
-                  "05:30 pm",
-                  "06:30 pm",
-                  "06:45 pm",
-                  "07:00 pm",
-                  "07:15 pm",
-                  "07:30 pm",
-                  "08:00 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 20.02,
-            "fhirLocationId": "238a533c-5951-4122-98a4-5bebc286425f",
-            "locationId": "238a533c-5951-4122-98a4-5bebc286425f",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "15151",
-            "phone": [
-              {
-                "number": "910-860-0058",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "910-860-0120",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "910-860-0058",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 35.04300111,
-              "longitude": -78.99003946
-            },
-            "storenumber": "15151"
-          },
-          {
-            "address": {
-              "city": "FAYETTEVILLE",
-              "country": "US",
-              "line1": "7860 RAEFORD RD",
-              "line2": "",
-              "state": "NC",
-              "zip": "28304"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "09:15 am",
-                  "09:45 am",
-                  "10:00 am",
-                  "10:15 am",
-                  "10:30 am",
-                  "10:45 am",
-                  "11:00 am",
-                  "11:15 am",
-                  "11:45 am",
-                  "12:15 pm",
-                  "12:30 pm",
-                  "12:45 pm",
-                  "02:15 pm",
-                  "02:30 pm",
-                  "02:45 pm",
-                  "03:00 pm",
-                  "03:15 pm",
-                  "03:45 pm",
-                  "04:00 pm",
-                  "04:15 pm",
-                  "04:30 pm",
-                  "04:45 pm",
-                  "05:00 pm",
-                  "05:15 pm",
-                  "05:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 17.5,
-            "fhirLocationId": "6a55663b-c4f4-44c7-b3de-fde58e02c968",
-            "locationId": "6a55663b-c4f4-44c7-b3de-fde58e02c968",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "19644",
-            "phone": [
-              {
-                "number": "910-826-3582",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "910-826-3584",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "910-826-3582",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 35.03191067,
-              "longitude": -79.06061355
-            },
-            "storenumber": "19644"
           }
         ]
       },
       "second_dose_moderna": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "SAINT PAULS",
-              "country": "US",
-              "line1": "419 W BROAD ST",
-              "line2": "",
-              "state": "NC",
-              "zip": "28384"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "09:45 am",
-                  "10:00 am",
-                  "10:15 am",
-                  "10:30 am",
-                  "10:45 am",
-                  "11:00 am",
-                  "11:15 am",
-                  "11:30 am",
-                  "11:45 am",
-                  "12:00 pm",
-                  "12:15 pm",
-                  "12:30 pm",
-                  "12:45 pm",
-                  "01:00 pm",
-                  "02:15 pm",
-                  "02:30 pm",
-                  "02:45 pm",
-                  "03:00 pm",
-                  "03:15 pm",
-                  "03:30 pm",
-                  "03:45 pm",
-                  "04:00 pm",
-                  "04:15 pm",
-                  "04:30 pm",
-                  "04:45 pm",
-                  "05:00 pm",
-                  "05:15 pm",
-                  "05:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 16.43,
-            "fhirLocationId": "a6383808-ea29-4fd9-afa5-d2d74453b2df",
-            "locationId": "a6383808-ea29-4fd9-afa5-d2d74453b2df",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "16171",
-            "phone": [
-              {
-                "number": "910-865-1242",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "910-865-1242",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 34.8068665,
-              "longitude": -78.97510815
-            },
-            "storenumber": "16171"
-          },
-          {
-            "address": {
-              "city": "FAIRMONT",
-              "country": "US",
-              "line1": "414 N WALNUT ST",
-              "line2": "",
-              "state": "NC",
-              "zip": "28340"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "09:15 am",
-                  "09:30 am",
-                  "09:45 am",
-                  "10:00 am",
-                  "10:15 am",
-                  "10:30 am",
-                  "10:45 am",
-                  "11:00 am",
-                  "11:15 am",
-                  "11:30 am",
-                  "11:45 am",
-                  "12:00 pm",
-                  "12:15 pm",
-                  "12:30 pm",
-                  "12:45 pm",
-                  "01:00 pm",
-                  "02:15 pm",
-                  "02:30 pm",
-                  "02:45 pm",
-                  "03:00 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 14.91,
-            "fhirLocationId": "3d6acffa-7cb5-4d9d-9e33-8a38ceb53d4e",
-            "locationId": "3d6acffa-7cb5-4d9d-9e33-8a38ceb53d4e",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "16161",
-            "phone": [
-              {
-                "number": "910-628-6068",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "910-628-6068",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 34.50284379,
-              "longitude": -79.11172332
-            },
-            "storenumber": "16161"
-          },
-          {
-            "address": {
-              "city": "FAYETTEVILLE",
-              "country": "US",
-              "line1": "3296 VILLAGE DR",
-              "line2": "",
-              "state": "NC",
-              "zip": "28304"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "03:15 pm",
-                  "03:30 pm",
-                  "03:45 pm",
-                  "04:00 pm",
-                  "04:15 pm",
-                  "04:30 pm",
-                  "04:45 pm",
-                  "05:00 pm",
-                  "05:15 pm",
-                  "05:30 pm",
-                  "06:15 pm",
-                  "07:00 pm",
-                  "07:15 pm",
-                  "07:30 pm",
-                  "07:45 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 11.61,
-            "fhirLocationId": "822afc2b-167f-46f0-8ad6-3b6db78e0974",
-            "locationId": "822afc2b-167f-46f0-8ad6-3b6db78e0974",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "7805",
-            "phone": [
-              {
-                "number": "910-433-4681",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "910-433-2175",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "910-433-4681",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 35.03129434,
-              "longitude": -78.92982361
-            },
-            "storenumber": "7805"
-          },
-          {
-            "address": {
-              "city": "FAYETTEVILLE",
-              "country": "US",
-              "line1": "2605 RAEFORD RD",
-              "line2": "",
-              "state": "NC",
-              "zip": "28303"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "09:30 am",
-                  "09:45 am",
-                  "10:00 am",
-                  "10:15 am",
-                  "10:30 am",
-                  "10:45 am",
-                  "11:15 am",
-                  "11:30 am",
-                  "11:45 am",
-                  "12:00 pm",
-                  "12:15 pm",
-                  "12:30 pm",
-                  "12:45 pm",
-                  "01:00 pm",
-                  "02:15 pm",
-                  "02:30 pm",
-                  "02:45 pm",
-                  "03:15 pm",
-                  "03:30 pm",
-                  "03:45 pm",
-                  "04:00 pm",
-                  "04:15 pm",
-                  "04:30 pm",
-                  "04:45 pm",
-                  "05:15 pm",
-                  "05:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 11.6,
-            "fhirLocationId": "d4856366-90cd-4004-b678-666baefbdf8b",
-            "locationId": "d4856366-90cd-4004-b678-666baefbdf8b",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "17862",
-            "phone": [
-              {
-                "number": "910-484-2170",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "910-321-9571",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "910-484-2170",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 35.04560934,
-              "longitude": -78.91958909
-            },
-            "storenumber": "17862"
-          },
-          {
-            "address": {
-              "city": "FAYETTEVILLE",
-              "country": "US",
-              "line1": "6330 RAEFORD RD",
-              "line2": "",
-              "state": "NC",
-              "zip": "28304"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "09:45 am",
-                  "10:45 am",
-                  "11:00 am",
-                  "11:15 am",
-                  "12:15 pm",
-                  "12:30 pm",
-                  "12:45 pm",
-                  "01:00 pm",
-                  "02:15 pm",
-                  "02:30 pm",
-                  "02:45 pm",
-                  "03:00 pm",
-                  "03:15 pm",
-                  "03:30 pm",
-                  "03:45 pm",
-                  "04:00 pm",
-                  "04:15 pm",
-                  "04:30 pm",
-                  "04:45 pm",
-                  "05:00 pm",
-                  "05:15 pm",
-                  "05:30 pm",
-                  "06:30 pm",
-                  "06:45 pm",
-                  "07:00 pm",
-                  "07:15 pm",
-                  "07:30 pm",
-                  "08:00 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 15.03,
-            "fhirLocationId": "238a533c-5951-4122-98a4-5bebc286425f",
-            "locationId": "238a533c-5951-4122-98a4-5bebc286425f",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "15151",
-            "phone": [
-              {
-                "number": "910-860-0058",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "910-860-0120",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "910-860-0058",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 35.04300111,
-              "longitude": -78.99003946
-            },
-            "storenumber": "15151"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       },
@@ -52154,167 +51204,6 @@
         "locations": [
           {
             "address": {
-              "city": "LUMBERTON",
-              "country": "US",
-              "line1": "3003 FAYETTEVILLE RD",
-              "line2": "",
-              "state": "NC",
-              "zip": "28358"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "10:15 am",
-                  "10:30 am",
-                  "10:45 am",
-                  "11:00 am",
-                  "11:15 am",
-                  "11:30 am",
-                  "11:45 am",
-                  "12:00 pm",
-                  "12:15 pm",
-                  "12:30 pm",
-                  "12:45 pm",
-                  "02:15 pm",
-                  "02:30 pm",
-                  "02:45 pm",
-                  "03:00 pm",
-                  "03:15 pm",
-                  "03:30 pm",
-                  "04:00 pm",
-                  "04:15 pm",
-                  "04:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 20.97,
-            "fhirLocationId": "c9a26510-cbf4-4922-bfdb-971a46c4c364",
-            "locationId": "c9a26510-cbf4-4922-bfdb-971a46c4c364",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "1056",
-            "phone": [
-              {
-                "number": "910-739-7072",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "910-739-7160",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "910-739-7072",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 34.639347,
-              "longitude": -79.00024
-            },
-            "storenumber": "1056"
-          },
-          {
-            "address": {
-              "city": "PEMBROKE",
-              "country": "US",
-              "line1": "503 E 3RD ST",
-              "line2": "",
-              "state": "NC",
-              "zip": "28372"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "09:45 am",
-                  "10:00 am",
-                  "10:15 am",
-                  "10:30 am",
-                  "10:45 am",
-                  "11:00 am",
-                  "11:15 am",
-                  "11:30 am",
-                  "11:45 am",
-                  "12:00 pm",
-                  "12:15 pm",
-                  "12:30 pm",
-                  "12:45 pm",
-                  "01:00 pm",
-                  "02:15 pm",
-                  "02:30 pm",
-                  "02:45 pm",
-                  "03:00 pm",
-                  "03:15 pm",
-                  "03:30 pm",
-                  "03:45 pm",
-                  "04:15 pm",
-                  "04:30 pm",
-                  "04:45 pm",
-                  "05:00 pm",
-                  "05:15 pm",
-                  "05:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 15.43,
-            "fhirLocationId": "664a7b23-808b-4779-bdaf-41678b2e4b3b",
-            "locationId": "664a7b23-808b-4779-bdaf-41678b2e4b3b",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "16119",
-            "phone": [
-              {
-                "number": "910-521-3910",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "910-521-3910",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 34.67721201,
-              "longitude": -79.18872295
-            },
-            "storenumber": "16119"
-          },
-          {
-            "address": {
               "city": "ELIZABETHTOWN",
               "country": "US",
               "line1": "403 S POPLAR ST",
@@ -52363,7 +51252,7 @@
               }
             ],
             "description": "",
-            "distance": 18.74,
+            "distance": 16.06,
             "fhirLocationId": "70184bc1-e832-4418-afef-7ebe1a861a74",
             "locationId": "70184bc1-e832-4418-afef-7ebe1a861a74",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -52389,221 +51278,6 @@
               "longitude": -78.60737214
             },
             "storenumber": "15273"
-          },
-          {
-            "address": {
-              "city": "FAYETTEVILLE",
-              "country": "US",
-              "line1": "2960 HOPE MILLS RD",
-              "line2": "",
-              "state": "NC",
-              "zip": "28306"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "02:30 pm",
-                  "03:15 pm",
-                  "03:30 pm",
-                  "04:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 19.25,
-            "fhirLocationId": "e5ae200a-6d23-40a9-a49a-ff850fbeeba6",
-            "locationId": "e5ae200a-6d23-40a9-a49a-ff850fbeeba6",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "7153",
-            "phone": [
-              {
-                "number": "910-424-9213",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "910-424-9527",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "910-424-9213",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 34.986075,
-              "longitude": -78.96547
-            },
-            "storenumber": "7153"
-          },
-          {
-            "address": {
-              "city": "FAYETTEVILLE",
-              "country": "US",
-              "line1": "7860 RAEFORD RD",
-              "line2": "",
-              "state": "NC",
-              "zip": "28304"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "09:15 am",
-                  "09:45 am",
-                  "10:00 am",
-                  "10:15 am",
-                  "10:30 am",
-                  "10:45 am",
-                  "11:00 am",
-                  "11:15 am",
-                  "11:45 am",
-                  "12:15 pm",
-                  "12:30 pm",
-                  "12:45 pm",
-                  "02:15 pm",
-                  "02:30 pm",
-                  "02:45 pm",
-                  "03:00 pm",
-                  "03:15 pm",
-                  "03:45 pm",
-                  "04:00 pm",
-                  "04:15 pm",
-                  "04:30 pm",
-                  "04:45 pm",
-                  "05:00 pm",
-                  "05:15 pm",
-                  "05:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 23.63,
-            "fhirLocationId": "6a55663b-c4f4-44c7-b3de-fde58e02c968",
-            "locationId": "6a55663b-c4f4-44c7-b3de-fde58e02c968",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "19644",
-            "phone": [
-              {
-                "number": "910-826-3582",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "910-826-3584",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "910-826-3582",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 35.03191067,
-              "longitude": -79.06061355
-            },
-            "storenumber": "19644"
-          },
-          {
-            "address": {
-              "city": "MAXTON",
-              "country": "US",
-              "line1": "106 W DR MARTIN LUTHER KING JR DR",
-              "line2": "",
-              "state": "NC",
-              "zip": "28364"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "10:00 am",
-                  "10:15 am",
-                  "10:30 am",
-                  "10:45 am",
-                  "11:00 am",
-                  "11:15 am",
-                  "11:30 am",
-                  "11:45 am",
-                  "12:00 pm",
-                  "12:15 pm",
-                  "12:30 pm",
-                  "12:45 pm",
-                  "01:00 pm",
-                  "02:15 pm",
-                  "02:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 24.43,
-            "fhirLocationId": "30fafe24-f94e-4eb9-b651-5beb74a966c3",
-            "locationId": "30fafe24-f94e-4eb9-b651-5beb74a966c3",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "13960",
-            "phone": [
-              {
-                "number": "910-844-3096",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "910-844-3096",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 34.73545054,
-              "longitude": -79.34902788
-            },
-            "storenumber": "13960"
           }
         ]
       }
@@ -53219,7 +51893,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T10:29:47.839+00:00",
+    "appointments_last_fetched": "2021-02-27T10:46:09.043+00:00",
     "appointments_raw": {
       "both_doses": {
         "locations": [
@@ -53254,7 +51928,7 @@
               }
             ],
             "description": "",
-            "distance": 9.62,
+            "distance": 22.44,
             "fhirLocationId": "8c7e0c40-cadd-4710-864c-3fd16a6e0339",
             "locationId": "8c7e0c40-cadd-4710-864c-3fd16a6e0339",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -53316,7 +51990,7 @@
               }
             ],
             "description": "",
-            "distance": 2.36,
+            "distance": 24.81,
             "fhirLocationId": "8c7e0c40-cadd-4710-864c-3fd16a6e0339",
             "locationId": "8c7e0c40-cadd-4710-864c-3fd16a6e0339",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -53368,7 +52042,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T10:29:47.839+00:00",
+    "appointments_last_fetched": "2021-02-27T10:46:09.043+00:00",
     "appointments_raw": {
       "both_doses": {
         "locations": [
@@ -53403,7 +52077,7 @@
               }
             ],
             "description": "",
-            "distance": 9.62,
+            "distance": 22.44,
             "fhirLocationId": "8c7e0c40-cadd-4710-864c-3fd16a6e0339",
             "locationId": "8c7e0c40-cadd-4710-864c-3fd16a6e0339",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -53465,7 +52139,7 @@
               }
             ],
             "description": "",
-            "distance": 2.36,
+            "distance": 24.81,
             "fhirLocationId": "8c7e0c40-cadd-4710-864c-3fd16a6e0339",
             "locationId": "8c7e0c40-cadd-4710-864c-3fd16a6e0339",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -53558,7 +52232,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T10:29:47.839+00:00",
+    "appointments_last_fetched": "2021-02-27T10:46:09.043+00:00",
     "appointments_raw": {
       "both_doses": {
         "locations": [
@@ -53593,7 +52267,7 @@
               }
             ],
             "description": "",
-            "distance": 9.62,
+            "distance": 22.44,
             "fhirLocationId": "8c7e0c40-cadd-4710-864c-3fd16a6e0339",
             "locationId": "8c7e0c40-cadd-4710-864c-3fd16a6e0339",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -53623,846 +52297,6 @@
         ]
       },
       "second_dose_moderna": {
-        "locations": [
-          {
-            "address": {
-              "city": "WILMINGTON",
-              "country": "US",
-              "line1": "1618 DAWSON ST",
-              "line2": "",
-              "state": "NC",
-              "zip": "28401"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "05:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 2.36,
-            "fhirLocationId": "8c7e0c40-cadd-4710-864c-3fd16a6e0339",
-            "locationId": "8c7e0c40-cadd-4710-864c-3fd16a6e0339",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "17087",
-            "phone": [
-              {
-                "number": "910-343-708",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "910-343-5661",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "910-343-708",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 34.22522711,
-              "longitude": -77.92691449
-            },
-            "storenumber": "17087"
-          }
-        ]
-      },
-      "second_dose_pfizer": {
-        "error": [
-          {
-            "code": "FC_904_NoData",
-            "message": "Insufficient inventory."
-          }
-        ]
-      }
-    },
-    "brand": "walgreens",
-    "brand_id": "7981",
-    "carries_vaccine": null,
-    "city": "CAROLINA BEACH",
-    "id": 2716464,
-    "name": "Walgreen Drug Store",
-    "postal_code": "28428",
-    "state": "NC"
-  },
-  {
-    "address": "5900 CAROLINA BEACH RD",
-    "appointments": [
-    ],
-    "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T10:29:47.839+00:00",
-    "appointments_raw": {
-      "both_doses": {
-        "locations": [
-          {
-            "address": {
-              "city": "WILMINGTON",
-              "country": "US",
-              "line1": "1618 DAWSON ST",
-              "line2": "",
-              "state": "NC",
-              "zip": "28401"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "05:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 9.62,
-            "fhirLocationId": "8c7e0c40-cadd-4710-864c-3fd16a6e0339",
-            "locationId": "8c7e0c40-cadd-4710-864c-3fd16a6e0339",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "17087",
-            "phone": [
-              {
-                "number": "910-343-708",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "910-343-5661",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "910-343-708",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 34.22522711,
-              "longitude": -77.92691449
-            },
-            "storenumber": "17087"
-          }
-        ]
-      },
-      "second_dose_moderna": {
-        "locations": [
-          {
-            "address": {
-              "city": "WILMINGTON",
-              "country": "US",
-              "line1": "1618 DAWSON ST",
-              "line2": "",
-              "state": "NC",
-              "zip": "28401"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "05:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 2.36,
-            "fhirLocationId": "8c7e0c40-cadd-4710-864c-3fd16a6e0339",
-            "locationId": "8c7e0c40-cadd-4710-864c-3fd16a6e0339",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "17087",
-            "phone": [
-              {
-                "number": "910-343-708",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "910-343-5661",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "910-343-708",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 34.22522711,
-              "longitude": -77.92691449
-            },
-            "storenumber": "17087"
-          }
-        ]
-      },
-      "second_dose_pfizer": {
-        "error": [
-          {
-            "code": "FC_904_NoData",
-            "message": "Insufficient inventory."
-          }
-        ]
-      }
-    },
-    "brand": "walgreens",
-    "brand_id": "12853",
-    "carries_vaccine": null,
-    "city": "WILMINGTON",
-    "id": 2716466,
-    "name": "Walgreen Drug Store",
-    "postal_code": "28412",
-    "state": "NC"
-  },
-  {
-    "address": "1019 GRANDIFLORA DR",
-    "appointments": [
-    ],
-    "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T10:29:47.839+00:00",
-    "appointments_raw": {
-      "both_doses": {
-        "locations": [
-          {
-            "address": {
-              "city": "WILMINGTON",
-              "country": "US",
-              "line1": "1618 DAWSON ST",
-              "line2": "",
-              "state": "NC",
-              "zip": "28401"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "05:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 9.62,
-            "fhirLocationId": "8c7e0c40-cadd-4710-864c-3fd16a6e0339",
-            "locationId": "8c7e0c40-cadd-4710-864c-3fd16a6e0339",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "17087",
-            "phone": [
-              {
-                "number": "910-343-708",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "910-343-5661",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "910-343-708",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 34.22522711,
-              "longitude": -77.92691449
-            },
-            "storenumber": "17087"
-          }
-        ]
-      },
-      "second_dose_moderna": {
-        "locations": [
-          {
-            "address": {
-              "city": "WILMINGTON",
-              "country": "US",
-              "line1": "1618 DAWSON ST",
-              "line2": "",
-              "state": "NC",
-              "zip": "28401"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "05:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 2.36,
-            "fhirLocationId": "8c7e0c40-cadd-4710-864c-3fd16a6e0339",
-            "locationId": "8c7e0c40-cadd-4710-864c-3fd16a6e0339",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "17087",
-            "phone": [
-              {
-                "number": "910-343-708",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "910-343-5661",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "910-343-708",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 34.22522711,
-              "longitude": -77.92691449
-            },
-            "storenumber": "17087"
-          }
-        ]
-      },
-      "second_dose_pfizer": {
-        "error": [
-          {
-            "code": "FC_904_NoData",
-            "message": "Insufficient inventory."
-          }
-        ]
-      }
-    },
-    "brand": "walgreens",
-    "brand_id": "11352",
-    "carries_vaccine": null,
-    "city": "LELAND",
-    "id": 2716467,
-    "name": "Walgreen Drug Store",
-    "postal_code": "28451",
-    "state": "NC"
-  },
-  {
-    "address": "3720 S COLLEGE RD",
-    "appointments": [
-    ],
-    "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T10:29:47.839+00:00",
-    "appointments_raw": {
-      "both_doses": {
-        "locations": [
-          {
-            "address": {
-              "city": "WILMINGTON",
-              "country": "US",
-              "line1": "1618 DAWSON ST",
-              "line2": "",
-              "state": "NC",
-              "zip": "28401"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "05:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 9.62,
-            "fhirLocationId": "8c7e0c40-cadd-4710-864c-3fd16a6e0339",
-            "locationId": "8c7e0c40-cadd-4710-864c-3fd16a6e0339",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "17087",
-            "phone": [
-              {
-                "number": "910-343-708",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "910-343-5661",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "910-343-708",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 34.22522711,
-              "longitude": -77.92691449
-            },
-            "storenumber": "17087"
-          }
-        ]
-      },
-      "second_dose_moderna": {
-        "locations": [
-          {
-            "address": {
-              "city": "WILMINGTON",
-              "country": "US",
-              "line1": "1618 DAWSON ST",
-              "line2": "",
-              "state": "NC",
-              "zip": "28401"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "05:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 2.36,
-            "fhirLocationId": "8c7e0c40-cadd-4710-864c-3fd16a6e0339",
-            "locationId": "8c7e0c40-cadd-4710-864c-3fd16a6e0339",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "17087",
-            "phone": [
-              {
-                "number": "910-343-708",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "910-343-5661",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "910-343-708",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 34.22522711,
-              "longitude": -77.92691449
-            },
-            "storenumber": "17087"
-          }
-        ]
-      },
-      "second_dose_pfizer": {
-        "error": [
-          {
-            "code": "FC_904_NoData",
-            "message": "Insufficient inventory."
-          }
-        ]
-      }
-    },
-    "brand": "walgreens",
-    "brand_id": "1560",
-    "carries_vaccine": null,
-    "city": "WILMINGTON",
-    "id": 2716468,
-    "name": "Walgreen Drug Store",
-    "postal_code": "28412",
-    "state": "NC"
-  },
-  {
-    "address": "319 VILLAGE RD NE",
-    "appointments": [
-    ],
-    "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T10:29:47.839+00:00",
-    "appointments_raw": {
-      "both_doses": {
-        "locations": [
-          {
-            "address": {
-              "city": "WILMINGTON",
-              "country": "US",
-              "line1": "1618 DAWSON ST",
-              "line2": "",
-              "state": "NC",
-              "zip": "28401"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "05:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 9.62,
-            "fhirLocationId": "8c7e0c40-cadd-4710-864c-3fd16a6e0339",
-            "locationId": "8c7e0c40-cadd-4710-864c-3fd16a6e0339",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "17087",
-            "phone": [
-              {
-                "number": "910-343-708",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "910-343-5661",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "910-343-708",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 34.22522711,
-              "longitude": -77.92691449
-            },
-            "storenumber": "17087"
-          }
-        ]
-      },
-      "second_dose_moderna": {
-        "locations": [
-          {
-            "address": {
-              "city": "WILMINGTON",
-              "country": "US",
-              "line1": "1618 DAWSON ST",
-              "line2": "",
-              "state": "NC",
-              "zip": "28401"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "05:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 2.36,
-            "fhirLocationId": "8c7e0c40-cadd-4710-864c-3fd16a6e0339",
-            "locationId": "8c7e0c40-cadd-4710-864c-3fd16a6e0339",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "17087",
-            "phone": [
-              {
-                "number": "910-343-708",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "910-343-5661",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "910-343-708",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 34.22522711,
-              "longitude": -77.92691449
-            },
-            "storenumber": "17087"
-          }
-        ]
-      },
-      "second_dose_pfizer": {
-        "error": [
-          {
-            "code": "FC_904_NoData",
-            "message": "Insufficient inventory."
-          }
-        ]
-      }
-    },
-    "brand": "walgreens",
-    "brand_id": "1956",
-    "carries_vaccine": null,
-    "city": "LELAND",
-    "id": 2716469,
-    "name": "Walgreen Drug Store",
-    "postal_code": "28451",
-    "state": "NC"
-  },
-  {
-    "address": "2130 S 17TH ST",
-    "appointments": [
-    ],
-    "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T10:29:47.839+00:00",
-    "appointments_raw": {
-      "both_doses": {
-        "locations": [
-          {
-            "address": {
-              "city": "WILMINGTON",
-              "country": "US",
-              "line1": "1618 DAWSON ST",
-              "line2": "",
-              "state": "NC",
-              "zip": "28401"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "05:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 9.62,
-            "fhirLocationId": "8c7e0c40-cadd-4710-864c-3fd16a6e0339",
-            "locationId": "8c7e0c40-cadd-4710-864c-3fd16a6e0339",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "17087",
-            "phone": [
-              {
-                "number": "910-343-708",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "910-343-5661",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "910-343-708",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 34.22522711,
-              "longitude": -77.92691449
-            },
-            "storenumber": "17087"
-          }
-        ]
-      },
-      "second_dose_moderna": {
-        "locations": [
-          {
-            "address": {
-              "city": "WILMINGTON",
-              "country": "US",
-              "line1": "1618 DAWSON ST",
-              "line2": "",
-              "state": "NC",
-              "zip": "28401"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "05:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 2.36,
-            "fhirLocationId": "8c7e0c40-cadd-4710-864c-3fd16a6e0339",
-            "locationId": "8c7e0c40-cadd-4710-864c-3fd16a6e0339",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "17087",
-            "phone": [
-              {
-                "number": "910-343-708",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "910-343-5661",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "910-343-708",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 34.22522711,
-              "longitude": -77.92691449
-            },
-            "storenumber": "17087"
-          }
-        ]
-      },
-      "second_dose_pfizer": {
-        "error": [
-          {
-            "code": "FC_904_NoData",
-            "message": "Insufficient inventory."
-          }
-        ]
-      }
-    },
-    "brand": "walgreens",
-    "brand_id": "1319",
-    "carries_vaccine": null,
-    "city": "WILMINGTON",
-    "id": 2716470,
-    "name": "Walgreen Drug Store",
-    "postal_code": "28401",
-    "state": "NC"
-  },
-  {
-    "address": "1618 DAWSON ST",
-    "appointments": [
-      {
-        "time": "2021-03-01T17:30:00.000-05:00",
-        "type": "both_doses"
-      },
-      {
-        "time": "2021-03-01T17:30:00.000-05:00",
-        "type": "second_dose_moderna"
-      }
-    ],
-    "appointments_available": true,
-    "appointments_last_fetched": "2021-02-27T10:40:54.916+00:00",
-    "appointments_raw": {
-      "both_doses": {
         "locations": [
           {
             "address": {
@@ -54524,6 +52358,93 @@
           }
         ]
       },
+      "second_dose_pfizer": {
+        "error": [
+          {
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
+          }
+        ]
+      }
+    },
+    "brand": "walgreens",
+    "brand_id": "7981",
+    "carries_vaccine": null,
+    "city": "CAROLINA BEACH",
+    "id": 2716464,
+    "name": "Walgreen Drug Store",
+    "postal_code": "28428",
+    "state": "NC"
+  },
+  {
+    "address": "5900 CAROLINA BEACH RD",
+    "appointments": [
+    ],
+    "appointments_available": false,
+    "appointments_last_fetched": "2021-02-27T10:46:09.043+00:00",
+    "appointments_raw": {
+      "both_doses": {
+        "locations": [
+          {
+            "address": {
+              "city": "WILMINGTON",
+              "country": "US",
+              "line1": "1618 DAWSON ST",
+              "line2": "",
+              "state": "NC",
+              "zip": "28401"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "05:30 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 22.44,
+            "fhirLocationId": "8c7e0c40-cadd-4710-864c-3fd16a6e0339",
+            "locationId": "8c7e0c40-cadd-4710-864c-3fd16a6e0339",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "17087",
+            "phone": [
+              {
+                "number": "910-343-708",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "910-343-5661",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "910-343-708",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 34.22522711,
+              "longitude": -77.92691449
+            },
+            "storenumber": "17087"
+          }
+        ]
+      },
       "second_dose_moderna": {
         "locations": [
           {
@@ -54557,7 +52478,760 @@
               }
             ],
             "description": "",
-            "distance": 5.18,
+            "distance": 24.81,
+            "fhirLocationId": "8c7e0c40-cadd-4710-864c-3fd16a6e0339",
+            "locationId": "8c7e0c40-cadd-4710-864c-3fd16a6e0339",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "17087",
+            "phone": [
+              {
+                "number": "910-343-708",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "910-343-5661",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "910-343-708",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 34.22522711,
+              "longitude": -77.92691449
+            },
+            "storenumber": "17087"
+          }
+        ]
+      },
+      "second_dose_pfizer": {
+        "error": [
+          {
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
+          }
+        ]
+      }
+    },
+    "brand": "walgreens",
+    "brand_id": "12853",
+    "carries_vaccine": null,
+    "city": "WILMINGTON",
+    "id": 2716466,
+    "name": "Walgreen Drug Store",
+    "postal_code": "28412",
+    "state": "NC"
+  },
+  {
+    "address": "1019 GRANDIFLORA DR",
+    "appointments": [
+    ],
+    "appointments_available": false,
+    "appointments_last_fetched": "2021-02-27T10:46:09.043+00:00",
+    "appointments_raw": {
+      "both_doses": {
+        "locations": [
+          {
+            "address": {
+              "city": "WILMINGTON",
+              "country": "US",
+              "line1": "1618 DAWSON ST",
+              "line2": "",
+              "state": "NC",
+              "zip": "28401"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "05:30 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 22.44,
+            "fhirLocationId": "8c7e0c40-cadd-4710-864c-3fd16a6e0339",
+            "locationId": "8c7e0c40-cadd-4710-864c-3fd16a6e0339",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "17087",
+            "phone": [
+              {
+                "number": "910-343-708",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "910-343-5661",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "910-343-708",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 34.22522711,
+              "longitude": -77.92691449
+            },
+            "storenumber": "17087"
+          }
+        ]
+      },
+      "second_dose_moderna": {
+        "locations": [
+          {
+            "address": {
+              "city": "WILMINGTON",
+              "country": "US",
+              "line1": "1618 DAWSON ST",
+              "line2": "",
+              "state": "NC",
+              "zip": "28401"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "05:30 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 24.81,
+            "fhirLocationId": "8c7e0c40-cadd-4710-864c-3fd16a6e0339",
+            "locationId": "8c7e0c40-cadd-4710-864c-3fd16a6e0339",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "17087",
+            "phone": [
+              {
+                "number": "910-343-708",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "910-343-5661",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "910-343-708",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 34.22522711,
+              "longitude": -77.92691449
+            },
+            "storenumber": "17087"
+          }
+        ]
+      },
+      "second_dose_pfizer": {
+        "error": [
+          {
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
+          }
+        ]
+      }
+    },
+    "brand": "walgreens",
+    "brand_id": "11352",
+    "carries_vaccine": null,
+    "city": "LELAND",
+    "id": 2716467,
+    "name": "Walgreen Drug Store",
+    "postal_code": "28451",
+    "state": "NC"
+  },
+  {
+    "address": "3720 S COLLEGE RD",
+    "appointments": [
+    ],
+    "appointments_available": false,
+    "appointments_last_fetched": "2021-02-27T10:46:09.043+00:00",
+    "appointments_raw": {
+      "both_doses": {
+        "locations": [
+          {
+            "address": {
+              "city": "WILMINGTON",
+              "country": "US",
+              "line1": "1618 DAWSON ST",
+              "line2": "",
+              "state": "NC",
+              "zip": "28401"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "05:30 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 22.44,
+            "fhirLocationId": "8c7e0c40-cadd-4710-864c-3fd16a6e0339",
+            "locationId": "8c7e0c40-cadd-4710-864c-3fd16a6e0339",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "17087",
+            "phone": [
+              {
+                "number": "910-343-708",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "910-343-5661",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "910-343-708",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 34.22522711,
+              "longitude": -77.92691449
+            },
+            "storenumber": "17087"
+          }
+        ]
+      },
+      "second_dose_moderna": {
+        "locations": [
+          {
+            "address": {
+              "city": "WILMINGTON",
+              "country": "US",
+              "line1": "1618 DAWSON ST",
+              "line2": "",
+              "state": "NC",
+              "zip": "28401"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "05:30 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 24.81,
+            "fhirLocationId": "8c7e0c40-cadd-4710-864c-3fd16a6e0339",
+            "locationId": "8c7e0c40-cadd-4710-864c-3fd16a6e0339",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "17087",
+            "phone": [
+              {
+                "number": "910-343-708",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "910-343-5661",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "910-343-708",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 34.22522711,
+              "longitude": -77.92691449
+            },
+            "storenumber": "17087"
+          }
+        ]
+      },
+      "second_dose_pfizer": {
+        "error": [
+          {
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
+          }
+        ]
+      }
+    },
+    "brand": "walgreens",
+    "brand_id": "1560",
+    "carries_vaccine": null,
+    "city": "WILMINGTON",
+    "id": 2716468,
+    "name": "Walgreen Drug Store",
+    "postal_code": "28412",
+    "state": "NC"
+  },
+  {
+    "address": "319 VILLAGE RD NE",
+    "appointments": [
+    ],
+    "appointments_available": false,
+    "appointments_last_fetched": "2021-02-27T10:46:09.043+00:00",
+    "appointments_raw": {
+      "both_doses": {
+        "locations": [
+          {
+            "address": {
+              "city": "WILMINGTON",
+              "country": "US",
+              "line1": "1618 DAWSON ST",
+              "line2": "",
+              "state": "NC",
+              "zip": "28401"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "05:30 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 22.44,
+            "fhirLocationId": "8c7e0c40-cadd-4710-864c-3fd16a6e0339",
+            "locationId": "8c7e0c40-cadd-4710-864c-3fd16a6e0339",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "17087",
+            "phone": [
+              {
+                "number": "910-343-708",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "910-343-5661",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "910-343-708",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 34.22522711,
+              "longitude": -77.92691449
+            },
+            "storenumber": "17087"
+          }
+        ]
+      },
+      "second_dose_moderna": {
+        "locations": [
+          {
+            "address": {
+              "city": "WILMINGTON",
+              "country": "US",
+              "line1": "1618 DAWSON ST",
+              "line2": "",
+              "state": "NC",
+              "zip": "28401"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "05:30 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 24.81,
+            "fhirLocationId": "8c7e0c40-cadd-4710-864c-3fd16a6e0339",
+            "locationId": "8c7e0c40-cadd-4710-864c-3fd16a6e0339",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "17087",
+            "phone": [
+              {
+                "number": "910-343-708",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "910-343-5661",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "910-343-708",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 34.22522711,
+              "longitude": -77.92691449
+            },
+            "storenumber": "17087"
+          }
+        ]
+      },
+      "second_dose_pfizer": {
+        "error": [
+          {
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
+          }
+        ]
+      }
+    },
+    "brand": "walgreens",
+    "brand_id": "1956",
+    "carries_vaccine": null,
+    "city": "LELAND",
+    "id": 2716469,
+    "name": "Walgreen Drug Store",
+    "postal_code": "28451",
+    "state": "NC"
+  },
+  {
+    "address": "2130 S 17TH ST",
+    "appointments": [
+    ],
+    "appointments_available": false,
+    "appointments_last_fetched": "2021-02-27T10:46:09.043+00:00",
+    "appointments_raw": {
+      "both_doses": {
+        "locations": [
+          {
+            "address": {
+              "city": "WILMINGTON",
+              "country": "US",
+              "line1": "1618 DAWSON ST",
+              "line2": "",
+              "state": "NC",
+              "zip": "28401"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "05:30 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 22.44,
+            "fhirLocationId": "8c7e0c40-cadd-4710-864c-3fd16a6e0339",
+            "locationId": "8c7e0c40-cadd-4710-864c-3fd16a6e0339",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "17087",
+            "phone": [
+              {
+                "number": "910-343-708",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "910-343-5661",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "910-343-708",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 34.22522711,
+              "longitude": -77.92691449
+            },
+            "storenumber": "17087"
+          }
+        ]
+      },
+      "second_dose_moderna": {
+        "locations": [
+          {
+            "address": {
+              "city": "WILMINGTON",
+              "country": "US",
+              "line1": "1618 DAWSON ST",
+              "line2": "",
+              "state": "NC",
+              "zip": "28401"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "05:30 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 24.81,
+            "fhirLocationId": "8c7e0c40-cadd-4710-864c-3fd16a6e0339",
+            "locationId": "8c7e0c40-cadd-4710-864c-3fd16a6e0339",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "17087",
+            "phone": [
+              {
+                "number": "910-343-708",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "910-343-5661",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "910-343-708",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 34.22522711,
+              "longitude": -77.92691449
+            },
+            "storenumber": "17087"
+          }
+        ]
+      },
+      "second_dose_pfizer": {
+        "error": [
+          {
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
+          }
+        ]
+      }
+    },
+    "brand": "walgreens",
+    "brand_id": "1319",
+    "carries_vaccine": null,
+    "city": "WILMINGTON",
+    "id": 2716470,
+    "name": "Walgreen Drug Store",
+    "postal_code": "28401",
+    "state": "NC"
+  },
+  {
+    "address": "1618 DAWSON ST",
+    "appointments": [
+      {
+        "time": "2021-03-01T17:30:00.000-05:00",
+        "type": "both_doses"
+      },
+      {
+        "time": "2021-03-01T17:30:00.000-05:00",
+        "type": "second_dose_moderna"
+      }
+    ],
+    "appointments_available": true,
+    "appointments_last_fetched": "2021-02-27T10:46:09.043+00:00",
+    "appointments_raw": {
+      "both_doses": {
+        "locations": [
+          {
+            "address": {
+              "city": "WILMINGTON",
+              "country": "US",
+              "line1": "1618 DAWSON ST",
+              "line2": "",
+              "state": "NC",
+              "zip": "28401"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "05:30 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 22.44,
+            "fhirLocationId": "8c7e0c40-cadd-4710-864c-3fd16a6e0339",
+            "locationId": "8c7e0c40-cadd-4710-864c-3fd16a6e0339",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "17087",
+            "phone": [
+              {
+                "number": "910-343-708",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "910-343-5661",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "910-343-708",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 34.22522711,
+              "longitude": -77.92691449
+            },
+            "storenumber": "17087"
+          }
+        ]
+      },
+      "second_dose_moderna": {
+        "locations": [
+          {
+            "address": {
+              "city": "WILMINGTON",
+              "country": "US",
+              "line1": "1618 DAWSON ST",
+              "line2": "",
+              "state": "NC",
+              "zip": "28401"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "05:30 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 24.81,
             "fhirLocationId": "8c7e0c40-cadd-4710-864c-3fd16a6e0339",
             "locationId": "8c7e0c40-cadd-4710-864c-3fd16a6e0339",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -54609,7 +53283,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T10:29:47.839+00:00",
+    "appointments_last_fetched": "2021-02-27T10:46:09.043+00:00",
     "appointments_raw": {
       "both_doses": {
         "locations": [
@@ -54644,7 +53318,7 @@
               }
             ],
             "description": "",
-            "distance": 9.62,
+            "distance": 22.44,
             "fhirLocationId": "8c7e0c40-cadd-4710-864c-3fd16a6e0339",
             "locationId": "8c7e0c40-cadd-4710-864c-3fd16a6e0339",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -54706,7 +53380,7 @@
               }
             ],
             "description": "",
-            "distance": 2.36,
+            "distance": 24.81,
             "fhirLocationId": "8c7e0c40-cadd-4710-864c-3fd16a6e0339",
             "locationId": "8c7e0c40-cadd-4710-864c-3fd16a6e0339",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -55868,7 +54542,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T10:30:56.853+00:00",
+    "appointments_last_fetched": "2021-02-27T10:46:49.134+00:00",
     "appointments_raw": {
       "both_doses": {
         "locations": [
@@ -56011,7 +54685,7 @@
               }
             ],
             "description": "",
-            "distance": 16.11,
+            "distance": 16.06,
             "fhirLocationId": "70184bc1-e832-4418-afef-7ebe1a861a74",
             "locationId": "70184bc1-e832-4418-afef-7ebe1a861a74",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -58465,7 +57139,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T10:32:20.122+00:00",
+    "appointments_last_fetched": "2021-02-27T10:45:40.673+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -58506,7 +57180,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T10:32:20.122+00:00",
+    "appointments_last_fetched": "2021-02-27T10:45:40.673+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -58547,7 +57221,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T10:32:20.122+00:00",
+    "appointments_last_fetched": "2021-02-27T10:45:40.673+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -58588,7 +57262,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T10:32:20.122+00:00",
+    "appointments_last_fetched": "2021-02-27T10:45:40.673+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -59166,7 +57840,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T10:29:10.45+00:00",
+    "appointments_last_fetched": "2021-02-27T10:46:05.598+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -60033,7 +58707,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T10:29:10.45+00:00",
+    "appointments_last_fetched": "2021-02-27T10:46:05.598+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
