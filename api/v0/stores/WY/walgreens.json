@@ -85,35 +85,11 @@
     "address": "4005 E GRAND AVE",
     "appointments": [
       {
-        "time": "2021-03-02T10:15:00.000-07:00",
+        "time": "2021-03-01T17:00:00.000-07:00",
         "type": "both_doses"
       },
       {
-        "time": "2021-03-02T10:15:00.000-07:00",
-        "type": "second_dose_pfizer"
-      },
-      {
-        "time": "2021-03-02T10:30:00.000-07:00",
-        "type": "both_doses"
-      },
-      {
-        "time": "2021-03-02T10:30:00.000-07:00",
-        "type": "second_dose_pfizer"
-      },
-      {
-        "time": "2021-03-02T10:45:00.000-07:00",
-        "type": "both_doses"
-      },
-      {
-        "time": "2021-03-02T10:45:00.000-07:00",
-        "type": "second_dose_pfizer"
-      },
-      {
-        "time": "2021-03-02T11:00:00.000-07:00",
-        "type": "both_doses"
-      },
-      {
-        "time": "2021-03-02T11:00:00.000-07:00",
+        "time": "2021-03-01T17:00:00.000-07:00",
         "type": "second_dose_pfizer"
       },
       {
@@ -146,14 +122,6 @@
       },
       {
         "time": "2021-03-02T12:00:00.000-07:00",
-        "type": "second_dose_pfizer"
-      },
-      {
-        "time": "2021-03-02T12:15:00.000-07:00",
-        "type": "both_doses"
-      },
-      {
-        "time": "2021-03-02T12:15:00.000-07:00",
         "type": "second_dose_pfizer"
       },
       {
@@ -294,7 +262,7 @@
       }
     ],
     "appointments_available": true,
-    "appointments_last_fetched": "2021-02-27T16:58:13.872+00:00",
+    "appointments_last_fetched": "2021-02-27T18:06:42.569+00:00",
     "appointments_raw": {
       "both_doses": {
         "locations": [
@@ -309,18 +277,20 @@
             },
             "appointmentAvailability": [
               {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "05:00 pm"
+                ]
+              },
+              {
                 "date": "2021-03-02",
                 "day": "Tuesday",
                 "slots": [
-                  "10:15 am",
-                  "10:30 am",
-                  "10:45 am",
-                  "11:00 am",
                   "11:15 am",
                   "11:30 am",
                   "11:45 am",
                   "12:00 pm",
-                  "12:15 pm",
                   "12:30 pm",
                   "12:45 pm",
                   "01:00 pm",
@@ -404,18 +374,20 @@
             },
             "appointmentAvailability": [
               {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "05:00 pm"
+                ]
+              },
+              {
                 "date": "2021-03-02",
                 "day": "Tuesday",
                 "slots": [
-                  "10:15 am",
-                  "10:30 am",
-                  "10:45 am",
-                  "11:00 am",
                   "11:15 am",
                   "11:30 am",
                   "11:45 am",
                   "12:00 pm",
-                  "12:15 pm",
                   "12:30 pm",
                   "12:45 pm",
                   "01:00 pm",
@@ -449,7 +421,7 @@
               }
             ],
             "description": "",
-            "distance": 17.72,
+            "distance": 2.3,
             "fhirLocationId": "7eb682a9-69a9-4c1e-b175-eaf374e00eac",
             "locationId": "7eb682a9-69a9-4c1e-b175-eaf374e00eac",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
