@@ -5706,7 +5706,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T11:39:19.983+00:00",
+    "appointments_last_fetched": "2021-02-27T11:49:15.095+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -5870,7 +5870,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T11:39:19.983+00:00",
+    "appointments_last_fetched": "2021-02-27T11:49:15.095+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -7992,7 +7992,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T11:24:26.169+00:00",
+    "appointments_last_fetched": "2021-02-27T11:50:03.446+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -8033,7 +8033,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T11:39:19.983+00:00",
+    "appointments_last_fetched": "2021-02-27T11:49:15.095+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -9397,7 +9397,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T11:39:19.983+00:00",
+    "appointments_last_fetched": "2021-02-27T11:49:15.095+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -16105,7 +16105,7 @@
       }
     ],
     "appointments_available": true,
-    "appointments_last_fetched": "2021-02-27T11:33:48.131+00:00",
+    "appointments_last_fetched": "2021-02-27T11:50:15.736+00:00",
     "appointments_raw": {
       "both_doses": {
         "locations": [
@@ -16168,7 +16168,7 @@
               }
             ],
             "description": "",
-            "distance": 23.94,
+            "distance": 20.45,
             "fhirLocationId": "d3949156-2589-45aa-bb7a-2af026147cd8",
             "locationId": "d3949156-2589-45aa-bb7a-2af026147cd8",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -19636,67 +19636,13 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T11:26:59.369+00:00",
+    "appointments_last_fetched": "2021-02-27T11:50:20.78+00:00",
     "appointments_raw": {
       "both_doses": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "RUSSELLVILLE",
-              "country": "US",
-              "line1": "485 W 4TH ST",
-              "line2": "",
-              "state": "KY",
-              "zip": "42276"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "02:15 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 18.96,
-            "fhirLocationId": "8c49979e-799c-4795-9d57-59121f9d6bb2",
-            "locationId": "8c49979e-799c-4795-9d57-59121f9d6bb2",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "11168",
-            "phone": [
-              {
-                "number": "270-726-1881",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "270-726-4623",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "270-726-1881",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 36.84399897,
-              "longitude": -86.89169173
-            },
-            "storenumber": "11168"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       },
@@ -19709,64 +19655,10 @@
         ]
       },
       "second_dose_pfizer": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "RUSSELLVILLE",
-              "country": "US",
-              "line1": "485 W 4TH ST",
-              "line2": "",
-              "state": "KY",
-              "zip": "42276"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "02:15 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 19.73,
-            "fhirLocationId": "8c49979e-799c-4795-9d57-59121f9d6bb2",
-            "locationId": "8c49979e-799c-4795-9d57-59121f9d6bb2",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "11168",
-            "phone": [
-              {
-                "number": "270-726-1881",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "270-726-4623",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "270-726-1881",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 36.84399897,
-              "longitude": -86.89169173
-            },
-            "storenumber": "11168"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       }
@@ -19785,67 +19677,13 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T11:26:59.369+00:00",
+    "appointments_last_fetched": "2021-02-27T11:50:20.78+00:00",
     "appointments_raw": {
       "both_doses": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "RUSSELLVILLE",
-              "country": "US",
-              "line1": "485 W 4TH ST",
-              "line2": "",
-              "state": "KY",
-              "zip": "42276"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "02:15 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 18.96,
-            "fhirLocationId": "8c49979e-799c-4795-9d57-59121f9d6bb2",
-            "locationId": "8c49979e-799c-4795-9d57-59121f9d6bb2",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "11168",
-            "phone": [
-              {
-                "number": "270-726-1881",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "270-726-4623",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "270-726-1881",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 36.84399897,
-              "longitude": -86.89169173
-            },
-            "storenumber": "11168"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       },
@@ -19858,64 +19696,10 @@
         ]
       },
       "second_dose_pfizer": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "RUSSELLVILLE",
-              "country": "US",
-              "line1": "485 W 4TH ST",
-              "line2": "",
-              "state": "KY",
-              "zip": "42276"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "02:15 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 19.73,
-            "fhirLocationId": "8c49979e-799c-4795-9d57-59121f9d6bb2",
-            "locationId": "8c49979e-799c-4795-9d57-59121f9d6bb2",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "11168",
-            "phone": [
-              {
-                "number": "270-726-1881",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "270-726-4623",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "270-726-1881",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 36.84399897,
-              "longitude": -86.89169173
-            },
-            "storenumber": "11168"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       }
@@ -19934,67 +19718,13 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T11:26:59.369+00:00",
+    "appointments_last_fetched": "2021-02-27T11:50:20.78+00:00",
     "appointments_raw": {
       "both_doses": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "RUSSELLVILLE",
-              "country": "US",
-              "line1": "485 W 4TH ST",
-              "line2": "",
-              "state": "KY",
-              "zip": "42276"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "02:15 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 18.96,
-            "fhirLocationId": "8c49979e-799c-4795-9d57-59121f9d6bb2",
-            "locationId": "8c49979e-799c-4795-9d57-59121f9d6bb2",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "11168",
-            "phone": [
-              {
-                "number": "270-726-1881",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "270-726-4623",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "270-726-1881",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 36.84399897,
-              "longitude": -86.89169173
-            },
-            "storenumber": "11168"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       },
@@ -20007,64 +19737,10 @@
         ]
       },
       "second_dose_pfizer": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "RUSSELLVILLE",
-              "country": "US",
-              "line1": "485 W 4TH ST",
-              "line2": "",
-              "state": "KY",
-              "zip": "42276"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "02:15 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 19.73,
-            "fhirLocationId": "8c49979e-799c-4795-9d57-59121f9d6bb2",
-            "locationId": "8c49979e-799c-4795-9d57-59121f9d6bb2",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "11168",
-            "phone": [
-              {
-                "number": "270-726-1881",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "270-726-4623",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "270-726-1881",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 36.84399897,
-              "longitude": -86.89169173
-            },
-            "storenumber": "11168"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       }
@@ -20083,67 +19759,13 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T11:26:59.369+00:00",
+    "appointments_last_fetched": "2021-02-27T11:50:20.78+00:00",
     "appointments_raw": {
       "both_doses": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "RUSSELLVILLE",
-              "country": "US",
-              "line1": "485 W 4TH ST",
-              "line2": "",
-              "state": "KY",
-              "zip": "42276"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "02:15 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 18.96,
-            "fhirLocationId": "8c49979e-799c-4795-9d57-59121f9d6bb2",
-            "locationId": "8c49979e-799c-4795-9d57-59121f9d6bb2",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "11168",
-            "phone": [
-              {
-                "number": "270-726-1881",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "270-726-4623",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "270-726-1881",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 36.84399897,
-              "longitude": -86.89169173
-            },
-            "storenumber": "11168"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       },
@@ -20156,64 +19778,10 @@
         ]
       },
       "second_dose_pfizer": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "RUSSELLVILLE",
-              "country": "US",
-              "line1": "485 W 4TH ST",
-              "line2": "",
-              "state": "KY",
-              "zip": "42276"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "02:15 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 19.73,
-            "fhirLocationId": "8c49979e-799c-4795-9d57-59121f9d6bb2",
-            "locationId": "8c49979e-799c-4795-9d57-59121f9d6bb2",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "11168",
-            "phone": [
-              {
-                "number": "270-726-1881",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "270-726-4623",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "270-726-1881",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 36.84399897,
-              "longitude": -86.89169173
-            },
-            "storenumber": "11168"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       }
@@ -21119,7 +20687,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T11:24:26.169+00:00",
+    "appointments_last_fetched": "2021-02-27T11:50:03.446+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
