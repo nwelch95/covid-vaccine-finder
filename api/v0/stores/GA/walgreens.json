@@ -4592,10 +4592,147 @@
       }
     ],
     "appointments_available": true,
-    "appointments_last_fetched": "2021-02-27T08:08:06.09+00:00",
+    "appointments_last_fetched": "2021-02-27T08:09:58.329+00:00",
     "appointments_raw": {
       "both_doses": {
         "locations": [
+          {
+            "address": {
+              "city": "ROBBINSVILLE",
+              "country": "US",
+              "line1": "219 RODNEY ORR BYP",
+              "line2": "",
+              "state": "NC",
+              "zip": "28771"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "10:15 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "11:45 am",
+                  "02:30 pm",
+                  "02:45 pm",
+                  "03:00 pm",
+                  "03:15 pm",
+                  "03:30 pm",
+                  "03:45 pm",
+                  "04:15 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 11.47,
+            "fhirLocationId": "b3c265dd-c2dd-43b3-a45b-bba3fa71938d",
+            "locationId": "b3c265dd-c2dd-43b3-a45b-bba3fa71938d",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "16110",
+            "phone": [
+              {
+                "number": "828-479-8791",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "828-479-8791",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 35.32384808,
+              "longitude": -83.80299696
+            },
+            "storenumber": "16110"
+          },
+          {
+            "address": {
+              "city": "MURPHY",
+              "country": "US",
+              "line1": "1630 ANDREWS RD",
+              "line2": "",
+              "state": "NC",
+              "zip": "28906"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm",
+                  "02:15 pm",
+                  "02:30 pm",
+                  "02:45 pm",
+                  "03:45 pm",
+                  "04:00 pm",
+                  "04:45 pm",
+                  "05:00 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 13.88,
+            "fhirLocationId": "87d8a67b-f749-4607-beb4-ad6d2e733707",
+            "locationId": "87d8a67b-f749-4607-beb4-ad6d2e733707",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "16253",
+            "phone": [
+              {
+                "number": "828-837-5512",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "828-835-3779",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "828-837-5512",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 35.11022009,
+              "longitude": -84.00795019
+            },
+            "storenumber": "16253"
+          },
           {
             "address": {
               "city": "HIAWASSEE",
@@ -4652,7 +4789,7 @@
               }
             ],
             "description": "",
-            "distance": 23.59,
+            "distance": 14.84,
             "fhirLocationId": "670f7b6e-901f-49d4-a84d-b61f33d23539",
             "locationId": "670f7b6e-901f-49d4-a84d-b61f33d23539",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -4713,7 +4850,7 @@
               }
             ],
             "description": "",
-            "distance": 18.65,
+            "distance": 22.74,
             "fhirLocationId": "db33c611-aa34-4a08-9636-94ecd729649c",
             "locationId": "db33c611-aa34-4a08-9636-94ecd729649c",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -4739,6 +4876,78 @@
               "longitude": -83.96273041
             },
             "storenumber": "17943"
+          }
+        ]
+      },
+      "second_dose_moderna": {
+        "locations": [
+          {
+            "address": {
+              "city": "ROBBINSVILLE",
+              "country": "US",
+              "line1": "219 RODNEY ORR BYP",
+              "line2": "",
+              "state": "NC",
+              "zip": "28771"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "10:15 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "11:45 am",
+                  "02:30 pm",
+                  "02:45 pm",
+                  "03:00 pm",
+                  "03:15 pm",
+                  "03:30 pm",
+                  "03:45 pm",
+                  "04:15 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 7.97,
+            "fhirLocationId": "b3c265dd-c2dd-43b3-a45b-bba3fa71938d",
+            "locationId": "b3c265dd-c2dd-43b3-a45b-bba3fa71938d",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "16110",
+            "phone": [
+              {
+                "number": "828-479-8791",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "828-479-8791",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 35.32384808,
+              "longitude": -83.80299696
+            },
+            "storenumber": "16110"
           },
           {
             "address": {
@@ -4782,80 +4991,7 @@
               }
             ],
             "description": "",
-            "distance": 1.87,
-            "fhirLocationId": "87d8a67b-f749-4607-beb4-ad6d2e733707",
-            "locationId": "87d8a67b-f749-4607-beb4-ad6d2e733707",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "16253",
-            "phone": [
-              {
-                "number": "828-837-5512",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "828-835-3779",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "828-837-5512",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 35.11022009,
-              "longitude": -84.00795019
-            },
-            "storenumber": "16253"
-          }
-        ]
-      },
-      "second_dose_moderna": {
-        "locations": [
-          {
-            "address": {
-              "city": "MURPHY",
-              "country": "US",
-              "line1": "1630 ANDREWS RD",
-              "line2": "",
-              "state": "NC",
-              "zip": "28906"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "11:45 am",
-                  "12:00 pm",
-                  "12:15 pm",
-                  "12:30 pm",
-                  "12:45 pm",
-                  "02:15 pm",
-                  "02:30 pm",
-                  "02:45 pm",
-                  "03:45 pm",
-                  "04:00 pm",
-                  "04:45 pm",
-                  "05:00 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 13.88,
+            "distance": 14.61,
             "fhirLocationId": "87d8a67b-f749-4607-beb4-ad6d2e733707",
             "locationId": "87d8a67b-f749-4607-beb4-ad6d2e733707",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -6516,47 +6652,38 @@
       }
     ],
     "appointments_available": true,
-    "appointments_last_fetched": "2021-02-27T08:06:26.221+00:00",
+    "appointments_last_fetched": "2021-02-27T08:10:00.307+00:00",
     "appointments_raw": {
       "both_doses": {
         "locations": [
           {
             "address": {
-              "city": "HEPHZIBAH",
+              "city": "WILLISTON",
               "country": "US",
-              "line1": "2493 TOBACCO RD",
+              "line1": "12845 MAIN ST",
               "line2": "",
-              "state": "GA",
-              "zip": "30815"
+              "state": "SC",
+              "zip": "29853"
             },
             "appointmentAvailability": [
               {
                 "date": "2021-03-01",
                 "day": "Monday",
                 "slots": [
-                  "09:30 am",
-                  "09:45 am",
-                  "10:00 am",
-                  "10:15 am",
+                  "10:30 am",
                   "10:45 am",
                   "11:00 am",
                   "11:15 am",
                   "11:30 am",
                   "11:45 am",
+                  "12:00 pm",
                   "12:15 pm",
+                  "12:30 pm",
                   "12:45 pm",
                   "01:00 pm",
                   "02:15 pm",
                   "02:30 pm",
-                  "02:45 pm",
-                  "03:00 pm",
-                  "03:15 pm",
-                  "03:30 pm",
-                  "03:45 pm",
-                  "04:00 pm",
-                  "04:15 pm",
-                  "04:30 pm",
-                  "04:45 pm"
+                  "03:00 pm"
                 ]
               }
             ],
@@ -6573,48 +6700,107 @@
               }
             ],
             "description": "",
-            "distance": 15.06,
-            "fhirLocationId": "c31af31c-4371-403a-9bd9-05624fbb4029",
-            "locationId": "c31af31c-4371-403a-9bd9-05624fbb4029",
+            "distance": 15.14,
+            "fhirLocationId": "52fc9a2b-7aaf-4bc7-a10e-fb063b261dab",
+            "locationId": "52fc9a2b-7aaf-4bc7-a10e-fb063b261dab",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
             "name": "Walgreen Drug Store",
             "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "15333",
+            "partnerLocationId": "19057",
             "phone": [
               {
-                "number": "706-793-2106",
+                "number": "803-266-4345",
                 "type": "StorePrimary"
               },
               {
-                "number": "706-793-2897",
+                "number": "803-266-7476",
                 "type": "StoreSecondary"
               },
               {
-                "number": "706-793-2106",
+                "number": "803-266-4345",
                 "type": "Pharmacy"
               }
             ],
             "position": {
-              "latitude": 33.37713078,
-              "longitude": -82.07103431
+              "latitude": 33.40051298,
+              "longitude": -81.42102735
             },
-            "storenumber": "15333"
+            "storenumber": "19057"
           },
           {
             "address": {
-              "city": "AUGUSTA",
+              "city": "NORTH AUGUSTA",
               "country": "US",
-              "line1": "3228 WRIGHTSBORO RD",
+              "line1": "1228 KNOX AVE",
               "line2": "",
-              "state": "GA",
-              "zip": "30909"
+              "state": "SC",
+              "zip": "29841"
             },
             "appointmentAvailability": [
               {
                 "date": "2021-03-01",
                 "day": "Monday",
                 "slots": [
-                  "09:15 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "01:00 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 24.61,
+            "fhirLocationId": "f6dbf20f-1375-4a11-81d9-b2700bf362ef",
+            "locationId": "f6dbf20f-1375-4a11-81d9-b2700bf362ef",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "10581",
+            "phone": [
+              {
+                "number": "803-279-3279",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "803-279-0486",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "803-279-3279",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 33.50319272,
+              "longitude": -81.95981302
+            },
+            "storenumber": "10581"
+          },
+          {
+            "address": {
+              "city": "AUGUSTA",
+              "country": "US",
+              "line1": "1505 WALTON WAY",
+              "line2": "",
+              "state": "GA",
+              "zip": "30904"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
                   "09:30 am",
                   "09:45 am",
                   "10:00 am",
@@ -6625,16 +6811,21 @@
                   "11:15 am",
                   "11:30 am",
                   "11:45 am",
+                  "12:00 pm",
                   "12:15 pm",
                   "12:30 pm",
                   "12:45 pm",
                   "01:00 pm",
-                  "02:15 pm",
                   "02:45 pm",
+                  "03:00 pm",
                   "03:15 pm",
+                  "03:30 pm",
                   "03:45 pm",
-                  "04:15 pm",
+                  "04:00 pm",
                   "04:30 pm",
+                  "04:45 pm",
+                  "05:00 pm",
+                  "05:15 pm",
                   "05:30 pm"
                 ]
               }
@@ -6652,32 +6843,32 @@
               }
             ],
             "description": "",
-            "distance": 17.29,
-            "fhirLocationId": "07734d9c-d785-48fc-ba17-fee551124ec7",
-            "locationId": "07734d9c-d785-48fc-ba17-fee551124ec7",
+            "distance": 21.54,
+            "fhirLocationId": "b1d09b21-e65f-458e-9de1-f95d6d8eb2fc",
+            "locationId": "b1d09b21-e65f-458e-9de1-f95d6d8eb2fc",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
             "name": "Walgreen Drug Store",
             "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "9789",
+            "partnerLocationId": "19024",
             "phone": [
               {
-                "number": "706-733-3715",
+                "number": "706-828-3113",
                 "type": "StorePrimary"
               },
               {
-                "number": "706-733-3748",
+                "number": "706-828-3118",
                 "type": "StoreSecondary"
               },
               {
-                "number": "706-733-3715",
+                "number": "706-828-3113",
                 "type": "Pharmacy"
               }
             ],
             "position": {
-              "latitude": 33.46887363,
-              "longitude": -82.06612101
+              "latitude": 33.47563259,
+              "longitude": -81.9881786
             },
-            "storenumber": "9789"
+            "storenumber": "19024"
           },
           {
             "address": {
@@ -6782,6 +6973,86 @@
           },
           {
             "address": {
+              "city": "HEPHZIBAH",
+              "country": "US",
+              "line1": "2493 TOBACCO RD",
+              "line2": "",
+              "state": "GA",
+              "zip": "30815"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "09:30 am",
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:45 am",
+                  "11:00 am",
+                  "11:15 am",
+                  "11:30 am",
+                  "11:45 am",
+                  "12:15 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "02:15 pm",
+                  "02:30 pm",
+                  "02:45 pm",
+                  "03:00 pm",
+                  "03:15 pm",
+                  "03:30 pm",
+                  "03:45 pm",
+                  "04:00 pm",
+                  "04:15 pm",
+                  "04:30 pm",
+                  "04:45 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 15.06,
+            "fhirLocationId": "c31af31c-4371-403a-9bd9-05624fbb4029",
+            "locationId": "c31af31c-4371-403a-9bd9-05624fbb4029",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "15333",
+            "phone": [
+              {
+                "number": "706-793-2106",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "706-793-2897",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "706-793-2106",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 33.37713078,
+              "longitude": -82.07103431
+            },
+            "storenumber": "15333"
+          },
+          {
+            "address": {
               "city": "AUGUSTA",
               "country": "US",
               "line1": "2803 WRIGHTSBORO RD",
@@ -6879,98 +7150,25 @@
               "longitude": -82.0355694
             },
             "storenumber": "19793"
-          },
+          }
+        ]
+      },
+      "second_dose_moderna": {
+        "locations": [
           {
             "address": {
-              "city": "AUGUSTA",
+              "city": "WILLISTON",
               "country": "US",
-              "line1": "2744 WASHINGTON RD",
+              "line1": "12845 MAIN ST",
               "line2": "",
-              "state": "GA",
-              "zip": "30909"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-02-28",
-                "day": "Sunday",
-                "slots": [
-                  "12:15 pm"
-                ]
-              },
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "09:15 am",
-                  "09:30 am",
-                  "09:45 am",
-                  "10:00 am",
-                  "10:15 am",
-                  "10:30 am",
-                  "11:30 am",
-                  "11:45 am",
-                  "12:00 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 20.59,
-            "fhirLocationId": "a0e91487-2800-4694-8e31-0c741dc9c0e9",
-            "locationId": "a0e91487-2800-4694-8e31-0c741dc9c0e9",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "11827",
-            "phone": [
-              {
-                "number": "706-733-4277",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "706-733-1086",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "706-733-4277",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 33.509373,
-              "longitude": -82.028319
-            },
-            "storenumber": "11827"
-          },
-          {
-            "address": {
-              "city": "AUGUSTA",
-              "country": "US",
-              "line1": "1505 WALTON WAY",
-              "line2": "",
-              "state": "GA",
-              "zip": "30904"
+              "state": "SC",
+              "zip": "29853"
             },
             "appointmentAvailability": [
               {
                 "date": "2021-03-01",
                 "day": "Monday",
                 "slots": [
-                  "09:30 am",
-                  "09:45 am",
-                  "10:00 am",
-                  "10:15 am",
                   "10:30 am",
                   "10:45 am",
                   "11:00 am",
@@ -6982,17 +7180,9 @@
                   "12:30 pm",
                   "12:45 pm",
                   "01:00 pm",
-                  "02:45 pm",
-                  "03:00 pm",
-                  "03:15 pm",
-                  "03:30 pm",
-                  "03:45 pm",
-                  "04:00 pm",
-                  "04:30 pm",
-                  "04:45 pm",
-                  "05:00 pm",
-                  "05:15 pm",
-                  "05:30 pm"
+                  "02:15 pm",
+                  "02:30 pm",
+                  "03:00 pm"
                 ]
               }
             ],
@@ -7009,32 +7199,32 @@
               }
             ],
             "description": "",
-            "distance": 21.54,
-            "fhirLocationId": "b1d09b21-e65f-458e-9de1-f95d6d8eb2fc",
-            "locationId": "b1d09b21-e65f-458e-9de1-f95d6d8eb2fc",
+            "distance": 20.45,
+            "fhirLocationId": "52fc9a2b-7aaf-4bc7-a10e-fb063b261dab",
+            "locationId": "52fc9a2b-7aaf-4bc7-a10e-fb063b261dab",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
             "name": "Walgreen Drug Store",
             "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "19024",
+            "partnerLocationId": "19057",
             "phone": [
               {
-                "number": "706-828-3113",
+                "number": "803-266-4345",
                 "type": "StorePrimary"
               },
               {
-                "number": "706-828-3118",
+                "number": "803-266-7476",
                 "type": "StoreSecondary"
               },
               {
-                "number": "706-828-3113",
+                "number": "803-266-4345",
                 "type": "Pharmacy"
               }
             ],
             "position": {
-              "latitude": 33.47563259,
-              "longitude": -81.9881786
+              "latitude": 33.40051298,
+              "longitude": -81.42102735
             },
-            "storenumber": "19024"
+            "storenumber": "19057"
           },
           {
             "address": {
@@ -7069,71 +7259,7 @@
               }
             ],
             "description": "",
-            "distance": 23.83,
-            "fhirLocationId": "f6dbf20f-1375-4a11-81d9-b2700bf362ef",
-            "locationId": "f6dbf20f-1375-4a11-81d9-b2700bf362ef",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "10581",
-            "phone": [
-              {
-                "number": "803-279-3279",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "803-279-0486",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "803-279-3279",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 33.50319272,
-              "longitude": -81.95981302
-            },
-            "storenumber": "10581"
-          }
-        ]
-      },
-      "second_dose_moderna": {
-        "locations": [
-          {
-            "address": {
-              "city": "NORTH AUGUSTA",
-              "country": "US",
-              "line1": "1228 KNOX AVE",
-              "line2": "",
-              "state": "SC",
-              "zip": "29841"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "12:00 pm",
-                  "12:15 pm",
-                  "01:00 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 23.83,
+            "distance": 14.36,
             "fhirLocationId": "f6dbf20f-1375-4a11-81d9-b2700bf362ef",
             "locationId": "f6dbf20f-1375-4a11-81d9-b2700bf362ef",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -7166,99 +7292,18 @@
         "locations": [
           {
             "address": {
-              "city": "HEPHZIBAH",
-              "country": "US",
-              "line1": "2493 TOBACCO RD",
-              "line2": "",
-              "state": "GA",
-              "zip": "30815"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "09:30 am",
-                  "09:45 am",
-                  "10:00 am",
-                  "10:15 am",
-                  "10:45 am",
-                  "11:00 am",
-                  "11:15 am",
-                  "11:30 am",
-                  "11:45 am",
-                  "12:15 pm",
-                  "12:45 pm",
-                  "01:00 pm",
-                  "02:15 pm",
-                  "02:30 pm",
-                  "02:45 pm",
-                  "03:00 pm",
-                  "03:15 pm",
-                  "03:30 pm",
-                  "03:45 pm",
-                  "04:00 pm",
-                  "04:15 pm",
-                  "04:30 pm",
-                  "04:45 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 15.06,
-            "fhirLocationId": "c31af31c-4371-403a-9bd9-05624fbb4029",
-            "locationId": "c31af31c-4371-403a-9bd9-05624fbb4029",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "15333",
-            "phone": [
-              {
-                "number": "706-793-2106",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "706-793-2897",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "706-793-2106",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 33.37713078,
-              "longitude": -82.07103431
-            },
-            "storenumber": "15333"
-          },
-          {
-            "address": {
               "city": "AUGUSTA",
               "country": "US",
-              "line1": "3228 WRIGHTSBORO RD",
+              "line1": "1505 WALTON WAY",
               "line2": "",
               "state": "GA",
-              "zip": "30909"
+              "zip": "30904"
             },
             "appointmentAvailability": [
               {
                 "date": "2021-03-01",
                 "day": "Monday",
                 "slots": [
-                  "09:15 am",
                   "09:30 am",
                   "09:45 am",
                   "10:00 am",
@@ -7269,16 +7314,21 @@
                   "11:15 am",
                   "11:30 am",
                   "11:45 am",
+                  "12:00 pm",
                   "12:15 pm",
                   "12:30 pm",
                   "12:45 pm",
                   "01:00 pm",
-                  "02:15 pm",
                   "02:45 pm",
+                  "03:00 pm",
                   "03:15 pm",
+                  "03:30 pm",
                   "03:45 pm",
-                  "04:15 pm",
+                  "04:00 pm",
                   "04:30 pm",
+                  "04:45 pm",
+                  "05:00 pm",
+                  "05:15 pm",
                   "05:30 pm"
                 ]
               }
@@ -7296,32 +7346,32 @@
               }
             ],
             "description": "",
-            "distance": 17.29,
-            "fhirLocationId": "07734d9c-d785-48fc-ba17-fee551124ec7",
-            "locationId": "07734d9c-d785-48fc-ba17-fee551124ec7",
+            "distance": 22.12,
+            "fhirLocationId": "b1d09b21-e65f-458e-9de1-f95d6d8eb2fc",
+            "locationId": "b1d09b21-e65f-458e-9de1-f95d6d8eb2fc",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
             "name": "Walgreen Drug Store",
             "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "9789",
+            "partnerLocationId": "19024",
             "phone": [
               {
-                "number": "706-733-3715",
+                "number": "706-828-3113",
                 "type": "StorePrimary"
               },
               {
-                "number": "706-733-3748",
+                "number": "706-828-3118",
                 "type": "StoreSecondary"
               },
               {
-                "number": "706-733-3715",
+                "number": "706-828-3113",
                 "type": "Pharmacy"
               }
             ],
             "position": {
-              "latitude": 33.46887363,
-              "longitude": -82.06612101
+              "latitude": 33.47563259,
+              "longitude": -81.9881786
             },
-            "storenumber": "9789"
+            "storenumber": "19024"
           },
           {
             "address": {
@@ -7397,7 +7447,7 @@
               }
             ],
             "description": "",
-            "distance": 17.96,
+            "distance": 22.22,
             "fhirLocationId": "e04e2400-bf97-4f7a-a36f-6f14b1ee5675",
             "locationId": "e04e2400-bf97-4f7a-a36f-6f14b1ee5675",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -7423,6 +7473,86 @@
               "longitude": -82.02664256
             },
             "storenumber": "6632"
+          },
+          {
+            "address": {
+              "city": "HEPHZIBAH",
+              "country": "US",
+              "line1": "2493 TOBACCO RD",
+              "line2": "",
+              "state": "GA",
+              "zip": "30815"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "09:30 am",
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:45 am",
+                  "11:00 am",
+                  "11:15 am",
+                  "11:30 am",
+                  "11:45 am",
+                  "12:15 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "02:15 pm",
+                  "02:30 pm",
+                  "02:45 pm",
+                  "03:00 pm",
+                  "03:15 pm",
+                  "03:30 pm",
+                  "03:45 pm",
+                  "04:00 pm",
+                  "04:15 pm",
+                  "04:30 pm",
+                  "04:45 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 24.17,
+            "fhirLocationId": "c31af31c-4371-403a-9bd9-05624fbb4029",
+            "locationId": "c31af31c-4371-403a-9bd9-05624fbb4029",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "15333",
+            "phone": [
+              {
+                "number": "706-793-2106",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "706-793-2897",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "706-793-2106",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 33.37713078,
+              "longitude": -82.07103431
+            },
+            "storenumber": "15333"
           },
           {
             "address": {
@@ -7497,7 +7627,7 @@
               }
             ],
             "description": "",
-            "distance": 18.91,
+            "distance": 24.34,
             "fhirLocationId": "ff8c7c42-2bb9-4ca9-9f4d-bb7612c9b77a",
             "locationId": "ff8c7c42-2bb9-4ca9-9f4d-bb7612c9b77a",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -7523,162 +7653,6 @@
               "longitude": -82.0355694
             },
             "storenumber": "19793"
-          },
-          {
-            "address": {
-              "city": "AUGUSTA",
-              "country": "US",
-              "line1": "2744 WASHINGTON RD",
-              "line2": "",
-              "state": "GA",
-              "zip": "30909"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-02-28",
-                "day": "Sunday",
-                "slots": [
-                  "12:15 pm"
-                ]
-              },
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "09:15 am",
-                  "09:30 am",
-                  "09:45 am",
-                  "10:00 am",
-                  "10:15 am",
-                  "10:30 am",
-                  "11:30 am",
-                  "11:45 am",
-                  "12:00 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 20.59,
-            "fhirLocationId": "a0e91487-2800-4694-8e31-0c741dc9c0e9",
-            "locationId": "a0e91487-2800-4694-8e31-0c741dc9c0e9",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "11827",
-            "phone": [
-              {
-                "number": "706-733-4277",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "706-733-1086",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "706-733-4277",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 33.509373,
-              "longitude": -82.028319
-            },
-            "storenumber": "11827"
-          },
-          {
-            "address": {
-              "city": "AUGUSTA",
-              "country": "US",
-              "line1": "1505 WALTON WAY",
-              "line2": "",
-              "state": "GA",
-              "zip": "30904"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "09:30 am",
-                  "09:45 am",
-                  "10:00 am",
-                  "10:15 am",
-                  "10:30 am",
-                  "10:45 am",
-                  "11:00 am",
-                  "11:15 am",
-                  "11:30 am",
-                  "11:45 am",
-                  "12:00 pm",
-                  "12:15 pm",
-                  "12:30 pm",
-                  "12:45 pm",
-                  "01:00 pm",
-                  "02:45 pm",
-                  "03:00 pm",
-                  "03:15 pm",
-                  "03:30 pm",
-                  "03:45 pm",
-                  "04:00 pm",
-                  "04:30 pm",
-                  "04:45 pm",
-                  "05:00 pm",
-                  "05:15 pm",
-                  "05:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 21.54,
-            "fhirLocationId": "b1d09b21-e65f-458e-9de1-f95d6d8eb2fc",
-            "locationId": "b1d09b21-e65f-458e-9de1-f95d6d8eb2fc",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "19024",
-            "phone": [
-              {
-                "number": "706-828-3113",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "706-828-3118",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "706-828-3113",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 33.47563259,
-              "longitude": -81.9881786
-            },
-            "storenumber": "19024"
           }
         ]
       }
@@ -8928,47 +8902,38 @@
       }
     ],
     "appointments_available": true,
-    "appointments_last_fetched": "2021-02-27T08:06:26.221+00:00",
+    "appointments_last_fetched": "2021-02-27T08:10:00.307+00:00",
     "appointments_raw": {
       "both_doses": {
         "locations": [
           {
             "address": {
-              "city": "HEPHZIBAH",
+              "city": "WILLISTON",
               "country": "US",
-              "line1": "2493 TOBACCO RD",
+              "line1": "12845 MAIN ST",
               "line2": "",
-              "state": "GA",
-              "zip": "30815"
+              "state": "SC",
+              "zip": "29853"
             },
             "appointmentAvailability": [
               {
                 "date": "2021-03-01",
                 "day": "Monday",
                 "slots": [
-                  "09:30 am",
-                  "09:45 am",
-                  "10:00 am",
-                  "10:15 am",
+                  "10:30 am",
                   "10:45 am",
                   "11:00 am",
                   "11:15 am",
                   "11:30 am",
                   "11:45 am",
+                  "12:00 pm",
                   "12:15 pm",
+                  "12:30 pm",
                   "12:45 pm",
                   "01:00 pm",
                   "02:15 pm",
                   "02:30 pm",
-                  "02:45 pm",
-                  "03:00 pm",
-                  "03:15 pm",
-                  "03:30 pm",
-                  "03:45 pm",
-                  "04:00 pm",
-                  "04:15 pm",
-                  "04:30 pm",
-                  "04:45 pm"
+                  "03:00 pm"
                 ]
               }
             ],
@@ -8985,48 +8950,107 @@
               }
             ],
             "description": "",
-            "distance": 15.06,
-            "fhirLocationId": "c31af31c-4371-403a-9bd9-05624fbb4029",
-            "locationId": "c31af31c-4371-403a-9bd9-05624fbb4029",
+            "distance": 15.14,
+            "fhirLocationId": "52fc9a2b-7aaf-4bc7-a10e-fb063b261dab",
+            "locationId": "52fc9a2b-7aaf-4bc7-a10e-fb063b261dab",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
             "name": "Walgreen Drug Store",
             "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "15333",
+            "partnerLocationId": "19057",
             "phone": [
               {
-                "number": "706-793-2106",
+                "number": "803-266-4345",
                 "type": "StorePrimary"
               },
               {
-                "number": "706-793-2897",
+                "number": "803-266-7476",
                 "type": "StoreSecondary"
               },
               {
-                "number": "706-793-2106",
+                "number": "803-266-4345",
                 "type": "Pharmacy"
               }
             ],
             "position": {
-              "latitude": 33.37713078,
-              "longitude": -82.07103431
+              "latitude": 33.40051298,
+              "longitude": -81.42102735
             },
-            "storenumber": "15333"
+            "storenumber": "19057"
           },
           {
             "address": {
-              "city": "AUGUSTA",
+              "city": "NORTH AUGUSTA",
               "country": "US",
-              "line1": "3228 WRIGHTSBORO RD",
+              "line1": "1228 KNOX AVE",
               "line2": "",
-              "state": "GA",
-              "zip": "30909"
+              "state": "SC",
+              "zip": "29841"
             },
             "appointmentAvailability": [
               {
                 "date": "2021-03-01",
                 "day": "Monday",
                 "slots": [
-                  "09:15 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "01:00 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 24.61,
+            "fhirLocationId": "f6dbf20f-1375-4a11-81d9-b2700bf362ef",
+            "locationId": "f6dbf20f-1375-4a11-81d9-b2700bf362ef",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "10581",
+            "phone": [
+              {
+                "number": "803-279-3279",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "803-279-0486",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "803-279-3279",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 33.50319272,
+              "longitude": -81.95981302
+            },
+            "storenumber": "10581"
+          },
+          {
+            "address": {
+              "city": "AUGUSTA",
+              "country": "US",
+              "line1": "1505 WALTON WAY",
+              "line2": "",
+              "state": "GA",
+              "zip": "30904"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
                   "09:30 am",
                   "09:45 am",
                   "10:00 am",
@@ -9037,16 +9061,21 @@
                   "11:15 am",
                   "11:30 am",
                   "11:45 am",
+                  "12:00 pm",
                   "12:15 pm",
                   "12:30 pm",
                   "12:45 pm",
                   "01:00 pm",
-                  "02:15 pm",
                   "02:45 pm",
+                  "03:00 pm",
                   "03:15 pm",
+                  "03:30 pm",
                   "03:45 pm",
-                  "04:15 pm",
+                  "04:00 pm",
                   "04:30 pm",
+                  "04:45 pm",
+                  "05:00 pm",
+                  "05:15 pm",
                   "05:30 pm"
                 ]
               }
@@ -9064,32 +9093,32 @@
               }
             ],
             "description": "",
-            "distance": 17.29,
-            "fhirLocationId": "07734d9c-d785-48fc-ba17-fee551124ec7",
-            "locationId": "07734d9c-d785-48fc-ba17-fee551124ec7",
+            "distance": 21.54,
+            "fhirLocationId": "b1d09b21-e65f-458e-9de1-f95d6d8eb2fc",
+            "locationId": "b1d09b21-e65f-458e-9de1-f95d6d8eb2fc",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
             "name": "Walgreen Drug Store",
             "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "9789",
+            "partnerLocationId": "19024",
             "phone": [
               {
-                "number": "706-733-3715",
+                "number": "706-828-3113",
                 "type": "StorePrimary"
               },
               {
-                "number": "706-733-3748",
+                "number": "706-828-3118",
                 "type": "StoreSecondary"
               },
               {
-                "number": "706-733-3715",
+                "number": "706-828-3113",
                 "type": "Pharmacy"
               }
             ],
             "position": {
-              "latitude": 33.46887363,
-              "longitude": -82.06612101
+              "latitude": 33.47563259,
+              "longitude": -81.9881786
             },
-            "storenumber": "9789"
+            "storenumber": "19024"
           },
           {
             "address": {
@@ -9194,6 +9223,86 @@
           },
           {
             "address": {
+              "city": "HEPHZIBAH",
+              "country": "US",
+              "line1": "2493 TOBACCO RD",
+              "line2": "",
+              "state": "GA",
+              "zip": "30815"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "09:30 am",
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:45 am",
+                  "11:00 am",
+                  "11:15 am",
+                  "11:30 am",
+                  "11:45 am",
+                  "12:15 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "02:15 pm",
+                  "02:30 pm",
+                  "02:45 pm",
+                  "03:00 pm",
+                  "03:15 pm",
+                  "03:30 pm",
+                  "03:45 pm",
+                  "04:00 pm",
+                  "04:15 pm",
+                  "04:30 pm",
+                  "04:45 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 15.06,
+            "fhirLocationId": "c31af31c-4371-403a-9bd9-05624fbb4029",
+            "locationId": "c31af31c-4371-403a-9bd9-05624fbb4029",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "15333",
+            "phone": [
+              {
+                "number": "706-793-2106",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "706-793-2897",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "706-793-2106",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 33.37713078,
+              "longitude": -82.07103431
+            },
+            "storenumber": "15333"
+          },
+          {
+            "address": {
               "city": "AUGUSTA",
               "country": "US",
               "line1": "2803 WRIGHTSBORO RD",
@@ -9291,98 +9400,25 @@
               "longitude": -82.0355694
             },
             "storenumber": "19793"
-          },
+          }
+        ]
+      },
+      "second_dose_moderna": {
+        "locations": [
           {
             "address": {
-              "city": "AUGUSTA",
+              "city": "WILLISTON",
               "country": "US",
-              "line1": "2744 WASHINGTON RD",
+              "line1": "12845 MAIN ST",
               "line2": "",
-              "state": "GA",
-              "zip": "30909"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-02-28",
-                "day": "Sunday",
-                "slots": [
-                  "12:15 pm"
-                ]
-              },
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "09:15 am",
-                  "09:30 am",
-                  "09:45 am",
-                  "10:00 am",
-                  "10:15 am",
-                  "10:30 am",
-                  "11:30 am",
-                  "11:45 am",
-                  "12:00 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 20.59,
-            "fhirLocationId": "a0e91487-2800-4694-8e31-0c741dc9c0e9",
-            "locationId": "a0e91487-2800-4694-8e31-0c741dc9c0e9",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "11827",
-            "phone": [
-              {
-                "number": "706-733-4277",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "706-733-1086",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "706-733-4277",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 33.509373,
-              "longitude": -82.028319
-            },
-            "storenumber": "11827"
-          },
-          {
-            "address": {
-              "city": "AUGUSTA",
-              "country": "US",
-              "line1": "1505 WALTON WAY",
-              "line2": "",
-              "state": "GA",
-              "zip": "30904"
+              "state": "SC",
+              "zip": "29853"
             },
             "appointmentAvailability": [
               {
                 "date": "2021-03-01",
                 "day": "Monday",
                 "slots": [
-                  "09:30 am",
-                  "09:45 am",
-                  "10:00 am",
-                  "10:15 am",
                   "10:30 am",
                   "10:45 am",
                   "11:00 am",
@@ -9394,17 +9430,9 @@
                   "12:30 pm",
                   "12:45 pm",
                   "01:00 pm",
-                  "02:45 pm",
-                  "03:00 pm",
-                  "03:15 pm",
-                  "03:30 pm",
-                  "03:45 pm",
-                  "04:00 pm",
-                  "04:30 pm",
-                  "04:45 pm",
-                  "05:00 pm",
-                  "05:15 pm",
-                  "05:30 pm"
+                  "02:15 pm",
+                  "02:30 pm",
+                  "03:00 pm"
                 ]
               }
             ],
@@ -9421,32 +9449,32 @@
               }
             ],
             "description": "",
-            "distance": 21.54,
-            "fhirLocationId": "b1d09b21-e65f-458e-9de1-f95d6d8eb2fc",
-            "locationId": "b1d09b21-e65f-458e-9de1-f95d6d8eb2fc",
+            "distance": 20.45,
+            "fhirLocationId": "52fc9a2b-7aaf-4bc7-a10e-fb063b261dab",
+            "locationId": "52fc9a2b-7aaf-4bc7-a10e-fb063b261dab",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
             "name": "Walgreen Drug Store",
             "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "19024",
+            "partnerLocationId": "19057",
             "phone": [
               {
-                "number": "706-828-3113",
+                "number": "803-266-4345",
                 "type": "StorePrimary"
               },
               {
-                "number": "706-828-3118",
+                "number": "803-266-7476",
                 "type": "StoreSecondary"
               },
               {
-                "number": "706-828-3113",
+                "number": "803-266-4345",
                 "type": "Pharmacy"
               }
             ],
             "position": {
-              "latitude": 33.47563259,
-              "longitude": -81.9881786
+              "latitude": 33.40051298,
+              "longitude": -81.42102735
             },
-            "storenumber": "19024"
+            "storenumber": "19057"
           },
           {
             "address": {
@@ -9481,71 +9509,7 @@
               }
             ],
             "description": "",
-            "distance": 23.83,
-            "fhirLocationId": "f6dbf20f-1375-4a11-81d9-b2700bf362ef",
-            "locationId": "f6dbf20f-1375-4a11-81d9-b2700bf362ef",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "10581",
-            "phone": [
-              {
-                "number": "803-279-3279",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "803-279-0486",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "803-279-3279",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 33.50319272,
-              "longitude": -81.95981302
-            },
-            "storenumber": "10581"
-          }
-        ]
-      },
-      "second_dose_moderna": {
-        "locations": [
-          {
-            "address": {
-              "city": "NORTH AUGUSTA",
-              "country": "US",
-              "line1": "1228 KNOX AVE",
-              "line2": "",
-              "state": "SC",
-              "zip": "29841"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "12:00 pm",
-                  "12:15 pm",
-                  "01:00 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 23.83,
+            "distance": 14.36,
             "fhirLocationId": "f6dbf20f-1375-4a11-81d9-b2700bf362ef",
             "locationId": "f6dbf20f-1375-4a11-81d9-b2700bf362ef",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -9578,99 +9542,18 @@
         "locations": [
           {
             "address": {
-              "city": "HEPHZIBAH",
-              "country": "US",
-              "line1": "2493 TOBACCO RD",
-              "line2": "",
-              "state": "GA",
-              "zip": "30815"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "09:30 am",
-                  "09:45 am",
-                  "10:00 am",
-                  "10:15 am",
-                  "10:45 am",
-                  "11:00 am",
-                  "11:15 am",
-                  "11:30 am",
-                  "11:45 am",
-                  "12:15 pm",
-                  "12:45 pm",
-                  "01:00 pm",
-                  "02:15 pm",
-                  "02:30 pm",
-                  "02:45 pm",
-                  "03:00 pm",
-                  "03:15 pm",
-                  "03:30 pm",
-                  "03:45 pm",
-                  "04:00 pm",
-                  "04:15 pm",
-                  "04:30 pm",
-                  "04:45 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 15.06,
-            "fhirLocationId": "c31af31c-4371-403a-9bd9-05624fbb4029",
-            "locationId": "c31af31c-4371-403a-9bd9-05624fbb4029",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "15333",
-            "phone": [
-              {
-                "number": "706-793-2106",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "706-793-2897",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "706-793-2106",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 33.37713078,
-              "longitude": -82.07103431
-            },
-            "storenumber": "15333"
-          },
-          {
-            "address": {
               "city": "AUGUSTA",
               "country": "US",
-              "line1": "3228 WRIGHTSBORO RD",
+              "line1": "1505 WALTON WAY",
               "line2": "",
               "state": "GA",
-              "zip": "30909"
+              "zip": "30904"
             },
             "appointmentAvailability": [
               {
                 "date": "2021-03-01",
                 "day": "Monday",
                 "slots": [
-                  "09:15 am",
                   "09:30 am",
                   "09:45 am",
                   "10:00 am",
@@ -9681,16 +9564,21 @@
                   "11:15 am",
                   "11:30 am",
                   "11:45 am",
+                  "12:00 pm",
                   "12:15 pm",
                   "12:30 pm",
                   "12:45 pm",
                   "01:00 pm",
-                  "02:15 pm",
                   "02:45 pm",
+                  "03:00 pm",
                   "03:15 pm",
+                  "03:30 pm",
                   "03:45 pm",
-                  "04:15 pm",
+                  "04:00 pm",
                   "04:30 pm",
+                  "04:45 pm",
+                  "05:00 pm",
+                  "05:15 pm",
                   "05:30 pm"
                 ]
               }
@@ -9708,32 +9596,32 @@
               }
             ],
             "description": "",
-            "distance": 17.29,
-            "fhirLocationId": "07734d9c-d785-48fc-ba17-fee551124ec7",
-            "locationId": "07734d9c-d785-48fc-ba17-fee551124ec7",
+            "distance": 22.12,
+            "fhirLocationId": "b1d09b21-e65f-458e-9de1-f95d6d8eb2fc",
+            "locationId": "b1d09b21-e65f-458e-9de1-f95d6d8eb2fc",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
             "name": "Walgreen Drug Store",
             "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "9789",
+            "partnerLocationId": "19024",
             "phone": [
               {
-                "number": "706-733-3715",
+                "number": "706-828-3113",
                 "type": "StorePrimary"
               },
               {
-                "number": "706-733-3748",
+                "number": "706-828-3118",
                 "type": "StoreSecondary"
               },
               {
-                "number": "706-733-3715",
+                "number": "706-828-3113",
                 "type": "Pharmacy"
               }
             ],
             "position": {
-              "latitude": 33.46887363,
-              "longitude": -82.06612101
+              "latitude": 33.47563259,
+              "longitude": -81.9881786
             },
-            "storenumber": "9789"
+            "storenumber": "19024"
           },
           {
             "address": {
@@ -9809,7 +9697,7 @@
               }
             ],
             "description": "",
-            "distance": 17.96,
+            "distance": 22.22,
             "fhirLocationId": "e04e2400-bf97-4f7a-a36f-6f14b1ee5675",
             "locationId": "e04e2400-bf97-4f7a-a36f-6f14b1ee5675",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -9835,6 +9723,86 @@
               "longitude": -82.02664256
             },
             "storenumber": "6632"
+          },
+          {
+            "address": {
+              "city": "HEPHZIBAH",
+              "country": "US",
+              "line1": "2493 TOBACCO RD",
+              "line2": "",
+              "state": "GA",
+              "zip": "30815"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "09:30 am",
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:45 am",
+                  "11:00 am",
+                  "11:15 am",
+                  "11:30 am",
+                  "11:45 am",
+                  "12:15 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "02:15 pm",
+                  "02:30 pm",
+                  "02:45 pm",
+                  "03:00 pm",
+                  "03:15 pm",
+                  "03:30 pm",
+                  "03:45 pm",
+                  "04:00 pm",
+                  "04:15 pm",
+                  "04:30 pm",
+                  "04:45 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 24.17,
+            "fhirLocationId": "c31af31c-4371-403a-9bd9-05624fbb4029",
+            "locationId": "c31af31c-4371-403a-9bd9-05624fbb4029",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "15333",
+            "phone": [
+              {
+                "number": "706-793-2106",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "706-793-2897",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "706-793-2106",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 33.37713078,
+              "longitude": -82.07103431
+            },
+            "storenumber": "15333"
           },
           {
             "address": {
@@ -9909,7 +9877,7 @@
               }
             ],
             "description": "",
-            "distance": 18.91,
+            "distance": 24.34,
             "fhirLocationId": "ff8c7c42-2bb9-4ca9-9f4d-bb7612c9b77a",
             "locationId": "ff8c7c42-2bb9-4ca9-9f4d-bb7612c9b77a",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -9935,162 +9903,6 @@
               "longitude": -82.0355694
             },
             "storenumber": "19793"
-          },
-          {
-            "address": {
-              "city": "AUGUSTA",
-              "country": "US",
-              "line1": "2744 WASHINGTON RD",
-              "line2": "",
-              "state": "GA",
-              "zip": "30909"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-02-28",
-                "day": "Sunday",
-                "slots": [
-                  "12:15 pm"
-                ]
-              },
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "09:15 am",
-                  "09:30 am",
-                  "09:45 am",
-                  "10:00 am",
-                  "10:15 am",
-                  "10:30 am",
-                  "11:30 am",
-                  "11:45 am",
-                  "12:00 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 20.59,
-            "fhirLocationId": "a0e91487-2800-4694-8e31-0c741dc9c0e9",
-            "locationId": "a0e91487-2800-4694-8e31-0c741dc9c0e9",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "11827",
-            "phone": [
-              {
-                "number": "706-733-4277",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "706-733-1086",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "706-733-4277",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 33.509373,
-              "longitude": -82.028319
-            },
-            "storenumber": "11827"
-          },
-          {
-            "address": {
-              "city": "AUGUSTA",
-              "country": "US",
-              "line1": "1505 WALTON WAY",
-              "line2": "",
-              "state": "GA",
-              "zip": "30904"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "09:30 am",
-                  "09:45 am",
-                  "10:00 am",
-                  "10:15 am",
-                  "10:30 am",
-                  "10:45 am",
-                  "11:00 am",
-                  "11:15 am",
-                  "11:30 am",
-                  "11:45 am",
-                  "12:00 pm",
-                  "12:15 pm",
-                  "12:30 pm",
-                  "12:45 pm",
-                  "01:00 pm",
-                  "02:45 pm",
-                  "03:00 pm",
-                  "03:15 pm",
-                  "03:30 pm",
-                  "03:45 pm",
-                  "04:00 pm",
-                  "04:30 pm",
-                  "04:45 pm",
-                  "05:00 pm",
-                  "05:15 pm",
-                  "05:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 21.54,
-            "fhirLocationId": "b1d09b21-e65f-458e-9de1-f95d6d8eb2fc",
-            "locationId": "b1d09b21-e65f-458e-9de1-f95d6d8eb2fc",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "19024",
-            "phone": [
-              {
-                "number": "706-828-3113",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "706-828-3118",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "706-828-3113",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 33.47563259,
-              "longitude": -81.9881786
-            },
-            "storenumber": "19024"
           }
         ]
       }
@@ -16494,47 +16306,38 @@
       }
     ],
     "appointments_available": true,
-    "appointments_last_fetched": "2021-02-27T08:06:26.221+00:00",
+    "appointments_last_fetched": "2021-02-27T08:10:00.307+00:00",
     "appointments_raw": {
       "both_doses": {
         "locations": [
           {
             "address": {
-              "city": "HEPHZIBAH",
+              "city": "WILLISTON",
               "country": "US",
-              "line1": "2493 TOBACCO RD",
+              "line1": "12845 MAIN ST",
               "line2": "",
-              "state": "GA",
-              "zip": "30815"
+              "state": "SC",
+              "zip": "29853"
             },
             "appointmentAvailability": [
               {
                 "date": "2021-03-01",
                 "day": "Monday",
                 "slots": [
-                  "09:30 am",
-                  "09:45 am",
-                  "10:00 am",
-                  "10:15 am",
+                  "10:30 am",
                   "10:45 am",
                   "11:00 am",
                   "11:15 am",
                   "11:30 am",
                   "11:45 am",
+                  "12:00 pm",
                   "12:15 pm",
+                  "12:30 pm",
                   "12:45 pm",
                   "01:00 pm",
                   "02:15 pm",
                   "02:30 pm",
-                  "02:45 pm",
-                  "03:00 pm",
-                  "03:15 pm",
-                  "03:30 pm",
-                  "03:45 pm",
-                  "04:00 pm",
-                  "04:15 pm",
-                  "04:30 pm",
-                  "04:45 pm"
+                  "03:00 pm"
                 ]
               }
             ],
@@ -16551,48 +16354,107 @@
               }
             ],
             "description": "",
-            "distance": 15.06,
-            "fhirLocationId": "c31af31c-4371-403a-9bd9-05624fbb4029",
-            "locationId": "c31af31c-4371-403a-9bd9-05624fbb4029",
+            "distance": 15.14,
+            "fhirLocationId": "52fc9a2b-7aaf-4bc7-a10e-fb063b261dab",
+            "locationId": "52fc9a2b-7aaf-4bc7-a10e-fb063b261dab",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
             "name": "Walgreen Drug Store",
             "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "15333",
+            "partnerLocationId": "19057",
             "phone": [
               {
-                "number": "706-793-2106",
+                "number": "803-266-4345",
                 "type": "StorePrimary"
               },
               {
-                "number": "706-793-2897",
+                "number": "803-266-7476",
                 "type": "StoreSecondary"
               },
               {
-                "number": "706-793-2106",
+                "number": "803-266-4345",
                 "type": "Pharmacy"
               }
             ],
             "position": {
-              "latitude": 33.37713078,
-              "longitude": -82.07103431
+              "latitude": 33.40051298,
+              "longitude": -81.42102735
             },
-            "storenumber": "15333"
+            "storenumber": "19057"
           },
           {
             "address": {
-              "city": "AUGUSTA",
+              "city": "NORTH AUGUSTA",
               "country": "US",
-              "line1": "3228 WRIGHTSBORO RD",
+              "line1": "1228 KNOX AVE",
               "line2": "",
-              "state": "GA",
-              "zip": "30909"
+              "state": "SC",
+              "zip": "29841"
             },
             "appointmentAvailability": [
               {
                 "date": "2021-03-01",
                 "day": "Monday",
                 "slots": [
-                  "09:15 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "01:00 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 24.61,
+            "fhirLocationId": "f6dbf20f-1375-4a11-81d9-b2700bf362ef",
+            "locationId": "f6dbf20f-1375-4a11-81d9-b2700bf362ef",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "10581",
+            "phone": [
+              {
+                "number": "803-279-3279",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "803-279-0486",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "803-279-3279",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 33.50319272,
+              "longitude": -81.95981302
+            },
+            "storenumber": "10581"
+          },
+          {
+            "address": {
+              "city": "AUGUSTA",
+              "country": "US",
+              "line1": "1505 WALTON WAY",
+              "line2": "",
+              "state": "GA",
+              "zip": "30904"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
                   "09:30 am",
                   "09:45 am",
                   "10:00 am",
@@ -16603,16 +16465,21 @@
                   "11:15 am",
                   "11:30 am",
                   "11:45 am",
+                  "12:00 pm",
                   "12:15 pm",
                   "12:30 pm",
                   "12:45 pm",
                   "01:00 pm",
-                  "02:15 pm",
                   "02:45 pm",
+                  "03:00 pm",
                   "03:15 pm",
+                  "03:30 pm",
                   "03:45 pm",
-                  "04:15 pm",
+                  "04:00 pm",
                   "04:30 pm",
+                  "04:45 pm",
+                  "05:00 pm",
+                  "05:15 pm",
                   "05:30 pm"
                 ]
               }
@@ -16630,32 +16497,32 @@
               }
             ],
             "description": "",
-            "distance": 17.29,
-            "fhirLocationId": "07734d9c-d785-48fc-ba17-fee551124ec7",
-            "locationId": "07734d9c-d785-48fc-ba17-fee551124ec7",
+            "distance": 21.54,
+            "fhirLocationId": "b1d09b21-e65f-458e-9de1-f95d6d8eb2fc",
+            "locationId": "b1d09b21-e65f-458e-9de1-f95d6d8eb2fc",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
             "name": "Walgreen Drug Store",
             "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "9789",
+            "partnerLocationId": "19024",
             "phone": [
               {
-                "number": "706-733-3715",
+                "number": "706-828-3113",
                 "type": "StorePrimary"
               },
               {
-                "number": "706-733-3748",
+                "number": "706-828-3118",
                 "type": "StoreSecondary"
               },
               {
-                "number": "706-733-3715",
+                "number": "706-828-3113",
                 "type": "Pharmacy"
               }
             ],
             "position": {
-              "latitude": 33.46887363,
-              "longitude": -82.06612101
+              "latitude": 33.47563259,
+              "longitude": -81.9881786
             },
-            "storenumber": "9789"
+            "storenumber": "19024"
           },
           {
             "address": {
@@ -16760,6 +16627,86 @@
           },
           {
             "address": {
+              "city": "HEPHZIBAH",
+              "country": "US",
+              "line1": "2493 TOBACCO RD",
+              "line2": "",
+              "state": "GA",
+              "zip": "30815"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "09:30 am",
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:45 am",
+                  "11:00 am",
+                  "11:15 am",
+                  "11:30 am",
+                  "11:45 am",
+                  "12:15 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "02:15 pm",
+                  "02:30 pm",
+                  "02:45 pm",
+                  "03:00 pm",
+                  "03:15 pm",
+                  "03:30 pm",
+                  "03:45 pm",
+                  "04:00 pm",
+                  "04:15 pm",
+                  "04:30 pm",
+                  "04:45 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 15.06,
+            "fhirLocationId": "c31af31c-4371-403a-9bd9-05624fbb4029",
+            "locationId": "c31af31c-4371-403a-9bd9-05624fbb4029",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "15333",
+            "phone": [
+              {
+                "number": "706-793-2106",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "706-793-2897",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "706-793-2106",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 33.37713078,
+              "longitude": -82.07103431
+            },
+            "storenumber": "15333"
+          },
+          {
+            "address": {
               "city": "AUGUSTA",
               "country": "US",
               "line1": "2803 WRIGHTSBORO RD",
@@ -16857,98 +16804,25 @@
               "longitude": -82.0355694
             },
             "storenumber": "19793"
-          },
+          }
+        ]
+      },
+      "second_dose_moderna": {
+        "locations": [
           {
             "address": {
-              "city": "AUGUSTA",
+              "city": "WILLISTON",
               "country": "US",
-              "line1": "2744 WASHINGTON RD",
+              "line1": "12845 MAIN ST",
               "line2": "",
-              "state": "GA",
-              "zip": "30909"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-02-28",
-                "day": "Sunday",
-                "slots": [
-                  "12:15 pm"
-                ]
-              },
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "09:15 am",
-                  "09:30 am",
-                  "09:45 am",
-                  "10:00 am",
-                  "10:15 am",
-                  "10:30 am",
-                  "11:30 am",
-                  "11:45 am",
-                  "12:00 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 20.59,
-            "fhirLocationId": "a0e91487-2800-4694-8e31-0c741dc9c0e9",
-            "locationId": "a0e91487-2800-4694-8e31-0c741dc9c0e9",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "11827",
-            "phone": [
-              {
-                "number": "706-733-4277",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "706-733-1086",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "706-733-4277",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 33.509373,
-              "longitude": -82.028319
-            },
-            "storenumber": "11827"
-          },
-          {
-            "address": {
-              "city": "AUGUSTA",
-              "country": "US",
-              "line1": "1505 WALTON WAY",
-              "line2": "",
-              "state": "GA",
-              "zip": "30904"
+              "state": "SC",
+              "zip": "29853"
             },
             "appointmentAvailability": [
               {
                 "date": "2021-03-01",
                 "day": "Monday",
                 "slots": [
-                  "09:30 am",
-                  "09:45 am",
-                  "10:00 am",
-                  "10:15 am",
                   "10:30 am",
                   "10:45 am",
                   "11:00 am",
@@ -16960,17 +16834,9 @@
                   "12:30 pm",
                   "12:45 pm",
                   "01:00 pm",
-                  "02:45 pm",
-                  "03:00 pm",
-                  "03:15 pm",
-                  "03:30 pm",
-                  "03:45 pm",
-                  "04:00 pm",
-                  "04:30 pm",
-                  "04:45 pm",
-                  "05:00 pm",
-                  "05:15 pm",
-                  "05:30 pm"
+                  "02:15 pm",
+                  "02:30 pm",
+                  "03:00 pm"
                 ]
               }
             ],
@@ -16987,32 +16853,32 @@
               }
             ],
             "description": "",
-            "distance": 21.54,
-            "fhirLocationId": "b1d09b21-e65f-458e-9de1-f95d6d8eb2fc",
-            "locationId": "b1d09b21-e65f-458e-9de1-f95d6d8eb2fc",
+            "distance": 20.45,
+            "fhirLocationId": "52fc9a2b-7aaf-4bc7-a10e-fb063b261dab",
+            "locationId": "52fc9a2b-7aaf-4bc7-a10e-fb063b261dab",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
             "name": "Walgreen Drug Store",
             "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "19024",
+            "partnerLocationId": "19057",
             "phone": [
               {
-                "number": "706-828-3113",
+                "number": "803-266-4345",
                 "type": "StorePrimary"
               },
               {
-                "number": "706-828-3118",
+                "number": "803-266-7476",
                 "type": "StoreSecondary"
               },
               {
-                "number": "706-828-3113",
+                "number": "803-266-4345",
                 "type": "Pharmacy"
               }
             ],
             "position": {
-              "latitude": 33.47563259,
-              "longitude": -81.9881786
+              "latitude": 33.40051298,
+              "longitude": -81.42102735
             },
-            "storenumber": "19024"
+            "storenumber": "19057"
           },
           {
             "address": {
@@ -17047,71 +16913,7 @@
               }
             ],
             "description": "",
-            "distance": 23.83,
-            "fhirLocationId": "f6dbf20f-1375-4a11-81d9-b2700bf362ef",
-            "locationId": "f6dbf20f-1375-4a11-81d9-b2700bf362ef",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "10581",
-            "phone": [
-              {
-                "number": "803-279-3279",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "803-279-0486",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "803-279-3279",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 33.50319272,
-              "longitude": -81.95981302
-            },
-            "storenumber": "10581"
-          }
-        ]
-      },
-      "second_dose_moderna": {
-        "locations": [
-          {
-            "address": {
-              "city": "NORTH AUGUSTA",
-              "country": "US",
-              "line1": "1228 KNOX AVE",
-              "line2": "",
-              "state": "SC",
-              "zip": "29841"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "12:00 pm",
-                  "12:15 pm",
-                  "01:00 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 23.83,
+            "distance": 14.36,
             "fhirLocationId": "f6dbf20f-1375-4a11-81d9-b2700bf362ef",
             "locationId": "f6dbf20f-1375-4a11-81d9-b2700bf362ef",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -17144,99 +16946,18 @@
         "locations": [
           {
             "address": {
-              "city": "HEPHZIBAH",
-              "country": "US",
-              "line1": "2493 TOBACCO RD",
-              "line2": "",
-              "state": "GA",
-              "zip": "30815"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "09:30 am",
-                  "09:45 am",
-                  "10:00 am",
-                  "10:15 am",
-                  "10:45 am",
-                  "11:00 am",
-                  "11:15 am",
-                  "11:30 am",
-                  "11:45 am",
-                  "12:15 pm",
-                  "12:45 pm",
-                  "01:00 pm",
-                  "02:15 pm",
-                  "02:30 pm",
-                  "02:45 pm",
-                  "03:00 pm",
-                  "03:15 pm",
-                  "03:30 pm",
-                  "03:45 pm",
-                  "04:00 pm",
-                  "04:15 pm",
-                  "04:30 pm",
-                  "04:45 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 15.06,
-            "fhirLocationId": "c31af31c-4371-403a-9bd9-05624fbb4029",
-            "locationId": "c31af31c-4371-403a-9bd9-05624fbb4029",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "15333",
-            "phone": [
-              {
-                "number": "706-793-2106",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "706-793-2897",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "706-793-2106",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 33.37713078,
-              "longitude": -82.07103431
-            },
-            "storenumber": "15333"
-          },
-          {
-            "address": {
               "city": "AUGUSTA",
               "country": "US",
-              "line1": "3228 WRIGHTSBORO RD",
+              "line1": "1505 WALTON WAY",
               "line2": "",
               "state": "GA",
-              "zip": "30909"
+              "zip": "30904"
             },
             "appointmentAvailability": [
               {
                 "date": "2021-03-01",
                 "day": "Monday",
                 "slots": [
-                  "09:15 am",
                   "09:30 am",
                   "09:45 am",
                   "10:00 am",
@@ -17247,16 +16968,21 @@
                   "11:15 am",
                   "11:30 am",
                   "11:45 am",
+                  "12:00 pm",
                   "12:15 pm",
                   "12:30 pm",
                   "12:45 pm",
                   "01:00 pm",
-                  "02:15 pm",
                   "02:45 pm",
+                  "03:00 pm",
                   "03:15 pm",
+                  "03:30 pm",
                   "03:45 pm",
-                  "04:15 pm",
+                  "04:00 pm",
                   "04:30 pm",
+                  "04:45 pm",
+                  "05:00 pm",
+                  "05:15 pm",
                   "05:30 pm"
                 ]
               }
@@ -17274,32 +17000,32 @@
               }
             ],
             "description": "",
-            "distance": 17.29,
-            "fhirLocationId": "07734d9c-d785-48fc-ba17-fee551124ec7",
-            "locationId": "07734d9c-d785-48fc-ba17-fee551124ec7",
+            "distance": 22.12,
+            "fhirLocationId": "b1d09b21-e65f-458e-9de1-f95d6d8eb2fc",
+            "locationId": "b1d09b21-e65f-458e-9de1-f95d6d8eb2fc",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
             "name": "Walgreen Drug Store",
             "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "9789",
+            "partnerLocationId": "19024",
             "phone": [
               {
-                "number": "706-733-3715",
+                "number": "706-828-3113",
                 "type": "StorePrimary"
               },
               {
-                "number": "706-733-3748",
+                "number": "706-828-3118",
                 "type": "StoreSecondary"
               },
               {
-                "number": "706-733-3715",
+                "number": "706-828-3113",
                 "type": "Pharmacy"
               }
             ],
             "position": {
-              "latitude": 33.46887363,
-              "longitude": -82.06612101
+              "latitude": 33.47563259,
+              "longitude": -81.9881786
             },
-            "storenumber": "9789"
+            "storenumber": "19024"
           },
           {
             "address": {
@@ -17375,7 +17101,7 @@
               }
             ],
             "description": "",
-            "distance": 17.96,
+            "distance": 22.22,
             "fhirLocationId": "e04e2400-bf97-4f7a-a36f-6f14b1ee5675",
             "locationId": "e04e2400-bf97-4f7a-a36f-6f14b1ee5675",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -17401,6 +17127,86 @@
               "longitude": -82.02664256
             },
             "storenumber": "6632"
+          },
+          {
+            "address": {
+              "city": "HEPHZIBAH",
+              "country": "US",
+              "line1": "2493 TOBACCO RD",
+              "line2": "",
+              "state": "GA",
+              "zip": "30815"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "09:30 am",
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:45 am",
+                  "11:00 am",
+                  "11:15 am",
+                  "11:30 am",
+                  "11:45 am",
+                  "12:15 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "02:15 pm",
+                  "02:30 pm",
+                  "02:45 pm",
+                  "03:00 pm",
+                  "03:15 pm",
+                  "03:30 pm",
+                  "03:45 pm",
+                  "04:00 pm",
+                  "04:15 pm",
+                  "04:30 pm",
+                  "04:45 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 24.17,
+            "fhirLocationId": "c31af31c-4371-403a-9bd9-05624fbb4029",
+            "locationId": "c31af31c-4371-403a-9bd9-05624fbb4029",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "15333",
+            "phone": [
+              {
+                "number": "706-793-2106",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "706-793-2897",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "706-793-2106",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 33.37713078,
+              "longitude": -82.07103431
+            },
+            "storenumber": "15333"
           },
           {
             "address": {
@@ -17475,7 +17281,7 @@
               }
             ],
             "description": "",
-            "distance": 18.91,
+            "distance": 24.34,
             "fhirLocationId": "ff8c7c42-2bb9-4ca9-9f4d-bb7612c9b77a",
             "locationId": "ff8c7c42-2bb9-4ca9-9f4d-bb7612c9b77a",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -17501,162 +17307,6 @@
               "longitude": -82.0355694
             },
             "storenumber": "19793"
-          },
-          {
-            "address": {
-              "city": "AUGUSTA",
-              "country": "US",
-              "line1": "2744 WASHINGTON RD",
-              "line2": "",
-              "state": "GA",
-              "zip": "30909"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-02-28",
-                "day": "Sunday",
-                "slots": [
-                  "12:15 pm"
-                ]
-              },
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "09:15 am",
-                  "09:30 am",
-                  "09:45 am",
-                  "10:00 am",
-                  "10:15 am",
-                  "10:30 am",
-                  "11:30 am",
-                  "11:45 am",
-                  "12:00 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 20.59,
-            "fhirLocationId": "a0e91487-2800-4694-8e31-0c741dc9c0e9",
-            "locationId": "a0e91487-2800-4694-8e31-0c741dc9c0e9",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "11827",
-            "phone": [
-              {
-                "number": "706-733-4277",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "706-733-1086",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "706-733-4277",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 33.509373,
-              "longitude": -82.028319
-            },
-            "storenumber": "11827"
-          },
-          {
-            "address": {
-              "city": "AUGUSTA",
-              "country": "US",
-              "line1": "1505 WALTON WAY",
-              "line2": "",
-              "state": "GA",
-              "zip": "30904"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "09:30 am",
-                  "09:45 am",
-                  "10:00 am",
-                  "10:15 am",
-                  "10:30 am",
-                  "10:45 am",
-                  "11:00 am",
-                  "11:15 am",
-                  "11:30 am",
-                  "11:45 am",
-                  "12:00 pm",
-                  "12:15 pm",
-                  "12:30 pm",
-                  "12:45 pm",
-                  "01:00 pm",
-                  "02:45 pm",
-                  "03:00 pm",
-                  "03:15 pm",
-                  "03:30 pm",
-                  "03:45 pm",
-                  "04:00 pm",
-                  "04:30 pm",
-                  "04:45 pm",
-                  "05:00 pm",
-                  "05:15 pm",
-                  "05:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 21.54,
-            "fhirLocationId": "b1d09b21-e65f-458e-9de1-f95d6d8eb2fc",
-            "locationId": "b1d09b21-e65f-458e-9de1-f95d6d8eb2fc",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "19024",
-            "phone": [
-              {
-                "number": "706-828-3113",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "706-828-3118",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "706-828-3113",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 33.47563259,
-              "longitude": -81.9881786
-            },
-            "storenumber": "19024"
           }
         ]
       }
@@ -19040,47 +18690,38 @@
       }
     ],
     "appointments_available": true,
-    "appointments_last_fetched": "2021-02-27T08:06:26.221+00:00",
+    "appointments_last_fetched": "2021-02-27T08:10:00.307+00:00",
     "appointments_raw": {
       "both_doses": {
         "locations": [
           {
             "address": {
-              "city": "HEPHZIBAH",
+              "city": "WILLISTON",
               "country": "US",
-              "line1": "2493 TOBACCO RD",
+              "line1": "12845 MAIN ST",
               "line2": "",
-              "state": "GA",
-              "zip": "30815"
+              "state": "SC",
+              "zip": "29853"
             },
             "appointmentAvailability": [
               {
                 "date": "2021-03-01",
                 "day": "Monday",
                 "slots": [
-                  "09:30 am",
-                  "09:45 am",
-                  "10:00 am",
-                  "10:15 am",
+                  "10:30 am",
                   "10:45 am",
                   "11:00 am",
                   "11:15 am",
                   "11:30 am",
                   "11:45 am",
+                  "12:00 pm",
                   "12:15 pm",
+                  "12:30 pm",
                   "12:45 pm",
                   "01:00 pm",
                   "02:15 pm",
                   "02:30 pm",
-                  "02:45 pm",
-                  "03:00 pm",
-                  "03:15 pm",
-                  "03:30 pm",
-                  "03:45 pm",
-                  "04:00 pm",
-                  "04:15 pm",
-                  "04:30 pm",
-                  "04:45 pm"
+                  "03:00 pm"
                 ]
               }
             ],
@@ -19097,48 +18738,107 @@
               }
             ],
             "description": "",
-            "distance": 15.06,
-            "fhirLocationId": "c31af31c-4371-403a-9bd9-05624fbb4029",
-            "locationId": "c31af31c-4371-403a-9bd9-05624fbb4029",
+            "distance": 15.14,
+            "fhirLocationId": "52fc9a2b-7aaf-4bc7-a10e-fb063b261dab",
+            "locationId": "52fc9a2b-7aaf-4bc7-a10e-fb063b261dab",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
             "name": "Walgreen Drug Store",
             "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "15333",
+            "partnerLocationId": "19057",
             "phone": [
               {
-                "number": "706-793-2106",
+                "number": "803-266-4345",
                 "type": "StorePrimary"
               },
               {
-                "number": "706-793-2897",
+                "number": "803-266-7476",
                 "type": "StoreSecondary"
               },
               {
-                "number": "706-793-2106",
+                "number": "803-266-4345",
                 "type": "Pharmacy"
               }
             ],
             "position": {
-              "latitude": 33.37713078,
-              "longitude": -82.07103431
+              "latitude": 33.40051298,
+              "longitude": -81.42102735
             },
-            "storenumber": "15333"
+            "storenumber": "19057"
           },
           {
             "address": {
-              "city": "AUGUSTA",
+              "city": "NORTH AUGUSTA",
               "country": "US",
-              "line1": "3228 WRIGHTSBORO RD",
+              "line1": "1228 KNOX AVE",
               "line2": "",
-              "state": "GA",
-              "zip": "30909"
+              "state": "SC",
+              "zip": "29841"
             },
             "appointmentAvailability": [
               {
                 "date": "2021-03-01",
                 "day": "Monday",
                 "slots": [
-                  "09:15 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "01:00 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 24.61,
+            "fhirLocationId": "f6dbf20f-1375-4a11-81d9-b2700bf362ef",
+            "locationId": "f6dbf20f-1375-4a11-81d9-b2700bf362ef",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "10581",
+            "phone": [
+              {
+                "number": "803-279-3279",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "803-279-0486",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "803-279-3279",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 33.50319272,
+              "longitude": -81.95981302
+            },
+            "storenumber": "10581"
+          },
+          {
+            "address": {
+              "city": "AUGUSTA",
+              "country": "US",
+              "line1": "1505 WALTON WAY",
+              "line2": "",
+              "state": "GA",
+              "zip": "30904"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
                   "09:30 am",
                   "09:45 am",
                   "10:00 am",
@@ -19149,16 +18849,21 @@
                   "11:15 am",
                   "11:30 am",
                   "11:45 am",
+                  "12:00 pm",
                   "12:15 pm",
                   "12:30 pm",
                   "12:45 pm",
                   "01:00 pm",
-                  "02:15 pm",
                   "02:45 pm",
+                  "03:00 pm",
                   "03:15 pm",
+                  "03:30 pm",
                   "03:45 pm",
-                  "04:15 pm",
+                  "04:00 pm",
                   "04:30 pm",
+                  "04:45 pm",
+                  "05:00 pm",
+                  "05:15 pm",
                   "05:30 pm"
                 ]
               }
@@ -19176,32 +18881,32 @@
               }
             ],
             "description": "",
-            "distance": 17.29,
-            "fhirLocationId": "07734d9c-d785-48fc-ba17-fee551124ec7",
-            "locationId": "07734d9c-d785-48fc-ba17-fee551124ec7",
+            "distance": 21.54,
+            "fhirLocationId": "b1d09b21-e65f-458e-9de1-f95d6d8eb2fc",
+            "locationId": "b1d09b21-e65f-458e-9de1-f95d6d8eb2fc",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
             "name": "Walgreen Drug Store",
             "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "9789",
+            "partnerLocationId": "19024",
             "phone": [
               {
-                "number": "706-733-3715",
+                "number": "706-828-3113",
                 "type": "StorePrimary"
               },
               {
-                "number": "706-733-3748",
+                "number": "706-828-3118",
                 "type": "StoreSecondary"
               },
               {
-                "number": "706-733-3715",
+                "number": "706-828-3113",
                 "type": "Pharmacy"
               }
             ],
             "position": {
-              "latitude": 33.46887363,
-              "longitude": -82.06612101
+              "latitude": 33.47563259,
+              "longitude": -81.9881786
             },
-            "storenumber": "9789"
+            "storenumber": "19024"
           },
           {
             "address": {
@@ -19306,6 +19011,86 @@
           },
           {
             "address": {
+              "city": "HEPHZIBAH",
+              "country": "US",
+              "line1": "2493 TOBACCO RD",
+              "line2": "",
+              "state": "GA",
+              "zip": "30815"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "09:30 am",
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:45 am",
+                  "11:00 am",
+                  "11:15 am",
+                  "11:30 am",
+                  "11:45 am",
+                  "12:15 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "02:15 pm",
+                  "02:30 pm",
+                  "02:45 pm",
+                  "03:00 pm",
+                  "03:15 pm",
+                  "03:30 pm",
+                  "03:45 pm",
+                  "04:00 pm",
+                  "04:15 pm",
+                  "04:30 pm",
+                  "04:45 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 15.06,
+            "fhirLocationId": "c31af31c-4371-403a-9bd9-05624fbb4029",
+            "locationId": "c31af31c-4371-403a-9bd9-05624fbb4029",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "15333",
+            "phone": [
+              {
+                "number": "706-793-2106",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "706-793-2897",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "706-793-2106",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 33.37713078,
+              "longitude": -82.07103431
+            },
+            "storenumber": "15333"
+          },
+          {
+            "address": {
               "city": "AUGUSTA",
               "country": "US",
               "line1": "2803 WRIGHTSBORO RD",
@@ -19403,98 +19188,25 @@
               "longitude": -82.0355694
             },
             "storenumber": "19793"
-          },
+          }
+        ]
+      },
+      "second_dose_moderna": {
+        "locations": [
           {
             "address": {
-              "city": "AUGUSTA",
+              "city": "WILLISTON",
               "country": "US",
-              "line1": "2744 WASHINGTON RD",
+              "line1": "12845 MAIN ST",
               "line2": "",
-              "state": "GA",
-              "zip": "30909"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-02-28",
-                "day": "Sunday",
-                "slots": [
-                  "12:15 pm"
-                ]
-              },
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "09:15 am",
-                  "09:30 am",
-                  "09:45 am",
-                  "10:00 am",
-                  "10:15 am",
-                  "10:30 am",
-                  "11:30 am",
-                  "11:45 am",
-                  "12:00 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 20.59,
-            "fhirLocationId": "a0e91487-2800-4694-8e31-0c741dc9c0e9",
-            "locationId": "a0e91487-2800-4694-8e31-0c741dc9c0e9",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "11827",
-            "phone": [
-              {
-                "number": "706-733-4277",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "706-733-1086",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "706-733-4277",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 33.509373,
-              "longitude": -82.028319
-            },
-            "storenumber": "11827"
-          },
-          {
-            "address": {
-              "city": "AUGUSTA",
-              "country": "US",
-              "line1": "1505 WALTON WAY",
-              "line2": "",
-              "state": "GA",
-              "zip": "30904"
+              "state": "SC",
+              "zip": "29853"
             },
             "appointmentAvailability": [
               {
                 "date": "2021-03-01",
                 "day": "Monday",
                 "slots": [
-                  "09:30 am",
-                  "09:45 am",
-                  "10:00 am",
-                  "10:15 am",
                   "10:30 am",
                   "10:45 am",
                   "11:00 am",
@@ -19506,17 +19218,9 @@
                   "12:30 pm",
                   "12:45 pm",
                   "01:00 pm",
-                  "02:45 pm",
-                  "03:00 pm",
-                  "03:15 pm",
-                  "03:30 pm",
-                  "03:45 pm",
-                  "04:00 pm",
-                  "04:30 pm",
-                  "04:45 pm",
-                  "05:00 pm",
-                  "05:15 pm",
-                  "05:30 pm"
+                  "02:15 pm",
+                  "02:30 pm",
+                  "03:00 pm"
                 ]
               }
             ],
@@ -19533,32 +19237,32 @@
               }
             ],
             "description": "",
-            "distance": 21.54,
-            "fhirLocationId": "b1d09b21-e65f-458e-9de1-f95d6d8eb2fc",
-            "locationId": "b1d09b21-e65f-458e-9de1-f95d6d8eb2fc",
+            "distance": 20.45,
+            "fhirLocationId": "52fc9a2b-7aaf-4bc7-a10e-fb063b261dab",
+            "locationId": "52fc9a2b-7aaf-4bc7-a10e-fb063b261dab",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
             "name": "Walgreen Drug Store",
             "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "19024",
+            "partnerLocationId": "19057",
             "phone": [
               {
-                "number": "706-828-3113",
+                "number": "803-266-4345",
                 "type": "StorePrimary"
               },
               {
-                "number": "706-828-3118",
+                "number": "803-266-7476",
                 "type": "StoreSecondary"
               },
               {
-                "number": "706-828-3113",
+                "number": "803-266-4345",
                 "type": "Pharmacy"
               }
             ],
             "position": {
-              "latitude": 33.47563259,
-              "longitude": -81.9881786
+              "latitude": 33.40051298,
+              "longitude": -81.42102735
             },
-            "storenumber": "19024"
+            "storenumber": "19057"
           },
           {
             "address": {
@@ -19593,71 +19297,7 @@
               }
             ],
             "description": "",
-            "distance": 23.83,
-            "fhirLocationId": "f6dbf20f-1375-4a11-81d9-b2700bf362ef",
-            "locationId": "f6dbf20f-1375-4a11-81d9-b2700bf362ef",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "10581",
-            "phone": [
-              {
-                "number": "803-279-3279",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "803-279-0486",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "803-279-3279",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 33.50319272,
-              "longitude": -81.95981302
-            },
-            "storenumber": "10581"
-          }
-        ]
-      },
-      "second_dose_moderna": {
-        "locations": [
-          {
-            "address": {
-              "city": "NORTH AUGUSTA",
-              "country": "US",
-              "line1": "1228 KNOX AVE",
-              "line2": "",
-              "state": "SC",
-              "zip": "29841"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "12:00 pm",
-                  "12:15 pm",
-                  "01:00 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 23.83,
+            "distance": 14.36,
             "fhirLocationId": "f6dbf20f-1375-4a11-81d9-b2700bf362ef",
             "locationId": "f6dbf20f-1375-4a11-81d9-b2700bf362ef",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -19690,99 +19330,18 @@
         "locations": [
           {
             "address": {
-              "city": "HEPHZIBAH",
-              "country": "US",
-              "line1": "2493 TOBACCO RD",
-              "line2": "",
-              "state": "GA",
-              "zip": "30815"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "09:30 am",
-                  "09:45 am",
-                  "10:00 am",
-                  "10:15 am",
-                  "10:45 am",
-                  "11:00 am",
-                  "11:15 am",
-                  "11:30 am",
-                  "11:45 am",
-                  "12:15 pm",
-                  "12:45 pm",
-                  "01:00 pm",
-                  "02:15 pm",
-                  "02:30 pm",
-                  "02:45 pm",
-                  "03:00 pm",
-                  "03:15 pm",
-                  "03:30 pm",
-                  "03:45 pm",
-                  "04:00 pm",
-                  "04:15 pm",
-                  "04:30 pm",
-                  "04:45 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 15.06,
-            "fhirLocationId": "c31af31c-4371-403a-9bd9-05624fbb4029",
-            "locationId": "c31af31c-4371-403a-9bd9-05624fbb4029",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "15333",
-            "phone": [
-              {
-                "number": "706-793-2106",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "706-793-2897",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "706-793-2106",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 33.37713078,
-              "longitude": -82.07103431
-            },
-            "storenumber": "15333"
-          },
-          {
-            "address": {
               "city": "AUGUSTA",
               "country": "US",
-              "line1": "3228 WRIGHTSBORO RD",
+              "line1": "1505 WALTON WAY",
               "line2": "",
               "state": "GA",
-              "zip": "30909"
+              "zip": "30904"
             },
             "appointmentAvailability": [
               {
                 "date": "2021-03-01",
                 "day": "Monday",
                 "slots": [
-                  "09:15 am",
                   "09:30 am",
                   "09:45 am",
                   "10:00 am",
@@ -19793,16 +19352,21 @@
                   "11:15 am",
                   "11:30 am",
                   "11:45 am",
+                  "12:00 pm",
                   "12:15 pm",
                   "12:30 pm",
                   "12:45 pm",
                   "01:00 pm",
-                  "02:15 pm",
                   "02:45 pm",
+                  "03:00 pm",
                   "03:15 pm",
+                  "03:30 pm",
                   "03:45 pm",
-                  "04:15 pm",
+                  "04:00 pm",
                   "04:30 pm",
+                  "04:45 pm",
+                  "05:00 pm",
+                  "05:15 pm",
                   "05:30 pm"
                 ]
               }
@@ -19820,32 +19384,32 @@
               }
             ],
             "description": "",
-            "distance": 17.29,
-            "fhirLocationId": "07734d9c-d785-48fc-ba17-fee551124ec7",
-            "locationId": "07734d9c-d785-48fc-ba17-fee551124ec7",
+            "distance": 22.12,
+            "fhirLocationId": "b1d09b21-e65f-458e-9de1-f95d6d8eb2fc",
+            "locationId": "b1d09b21-e65f-458e-9de1-f95d6d8eb2fc",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
             "name": "Walgreen Drug Store",
             "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "9789",
+            "partnerLocationId": "19024",
             "phone": [
               {
-                "number": "706-733-3715",
+                "number": "706-828-3113",
                 "type": "StorePrimary"
               },
               {
-                "number": "706-733-3748",
+                "number": "706-828-3118",
                 "type": "StoreSecondary"
               },
               {
-                "number": "706-733-3715",
+                "number": "706-828-3113",
                 "type": "Pharmacy"
               }
             ],
             "position": {
-              "latitude": 33.46887363,
-              "longitude": -82.06612101
+              "latitude": 33.47563259,
+              "longitude": -81.9881786
             },
-            "storenumber": "9789"
+            "storenumber": "19024"
           },
           {
             "address": {
@@ -19921,7 +19485,7 @@
               }
             ],
             "description": "",
-            "distance": 17.96,
+            "distance": 22.22,
             "fhirLocationId": "e04e2400-bf97-4f7a-a36f-6f14b1ee5675",
             "locationId": "e04e2400-bf97-4f7a-a36f-6f14b1ee5675",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -19947,6 +19511,86 @@
               "longitude": -82.02664256
             },
             "storenumber": "6632"
+          },
+          {
+            "address": {
+              "city": "HEPHZIBAH",
+              "country": "US",
+              "line1": "2493 TOBACCO RD",
+              "line2": "",
+              "state": "GA",
+              "zip": "30815"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "09:30 am",
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:45 am",
+                  "11:00 am",
+                  "11:15 am",
+                  "11:30 am",
+                  "11:45 am",
+                  "12:15 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "02:15 pm",
+                  "02:30 pm",
+                  "02:45 pm",
+                  "03:00 pm",
+                  "03:15 pm",
+                  "03:30 pm",
+                  "03:45 pm",
+                  "04:00 pm",
+                  "04:15 pm",
+                  "04:30 pm",
+                  "04:45 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 24.17,
+            "fhirLocationId": "c31af31c-4371-403a-9bd9-05624fbb4029",
+            "locationId": "c31af31c-4371-403a-9bd9-05624fbb4029",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "15333",
+            "phone": [
+              {
+                "number": "706-793-2106",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "706-793-2897",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "706-793-2106",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 33.37713078,
+              "longitude": -82.07103431
+            },
+            "storenumber": "15333"
           },
           {
             "address": {
@@ -20021,7 +19665,7 @@
               }
             ],
             "description": "",
-            "distance": 18.91,
+            "distance": 24.34,
             "fhirLocationId": "ff8c7c42-2bb9-4ca9-9f4d-bb7612c9b77a",
             "locationId": "ff8c7c42-2bb9-4ca9-9f4d-bb7612c9b77a",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -20047,162 +19691,6 @@
               "longitude": -82.0355694
             },
             "storenumber": "19793"
-          },
-          {
-            "address": {
-              "city": "AUGUSTA",
-              "country": "US",
-              "line1": "2744 WASHINGTON RD",
-              "line2": "",
-              "state": "GA",
-              "zip": "30909"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-02-28",
-                "day": "Sunday",
-                "slots": [
-                  "12:15 pm"
-                ]
-              },
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "09:15 am",
-                  "09:30 am",
-                  "09:45 am",
-                  "10:00 am",
-                  "10:15 am",
-                  "10:30 am",
-                  "11:30 am",
-                  "11:45 am",
-                  "12:00 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 20.59,
-            "fhirLocationId": "a0e91487-2800-4694-8e31-0c741dc9c0e9",
-            "locationId": "a0e91487-2800-4694-8e31-0c741dc9c0e9",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "11827",
-            "phone": [
-              {
-                "number": "706-733-4277",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "706-733-1086",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "706-733-4277",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 33.509373,
-              "longitude": -82.028319
-            },
-            "storenumber": "11827"
-          },
-          {
-            "address": {
-              "city": "AUGUSTA",
-              "country": "US",
-              "line1": "1505 WALTON WAY",
-              "line2": "",
-              "state": "GA",
-              "zip": "30904"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "09:30 am",
-                  "09:45 am",
-                  "10:00 am",
-                  "10:15 am",
-                  "10:30 am",
-                  "10:45 am",
-                  "11:00 am",
-                  "11:15 am",
-                  "11:30 am",
-                  "11:45 am",
-                  "12:00 pm",
-                  "12:15 pm",
-                  "12:30 pm",
-                  "12:45 pm",
-                  "01:00 pm",
-                  "02:45 pm",
-                  "03:00 pm",
-                  "03:15 pm",
-                  "03:30 pm",
-                  "03:45 pm",
-                  "04:00 pm",
-                  "04:30 pm",
-                  "04:45 pm",
-                  "05:00 pm",
-                  "05:15 pm",
-                  "05:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 21.54,
-            "fhirLocationId": "b1d09b21-e65f-458e-9de1-f95d6d8eb2fc",
-            "locationId": "b1d09b21-e65f-458e-9de1-f95d6d8eb2fc",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "19024",
-            "phone": [
-              {
-                "number": "706-828-3113",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "706-828-3118",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "706-828-3113",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 33.47563259,
-              "longitude": -81.9881786
-            },
-            "storenumber": "19024"
           }
         ]
       }
@@ -43800,7 +43288,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T07:41:34.089+00:00",
+    "appointments_last_fetched": "2021-02-27T08:09:26.812+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -43882,7 +43370,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T07:41:34.089+00:00",
+    "appointments_last_fetched": "2021-02-27T08:09:26.812+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -44005,7 +43493,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T07:41:34.089+00:00",
+    "appointments_last_fetched": "2021-02-27T08:09:26.812+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -58127,10 +57615,147 @@
       }
     ],
     "appointments_available": true,
-    "appointments_last_fetched": "2021-02-27T08:08:06.09+00:00",
+    "appointments_last_fetched": "2021-02-27T08:09:58.329+00:00",
     "appointments_raw": {
       "both_doses": {
         "locations": [
+          {
+            "address": {
+              "city": "ROBBINSVILLE",
+              "country": "US",
+              "line1": "219 RODNEY ORR BYP",
+              "line2": "",
+              "state": "NC",
+              "zip": "28771"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "10:15 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "11:45 am",
+                  "02:30 pm",
+                  "02:45 pm",
+                  "03:00 pm",
+                  "03:15 pm",
+                  "03:30 pm",
+                  "03:45 pm",
+                  "04:15 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 11.47,
+            "fhirLocationId": "b3c265dd-c2dd-43b3-a45b-bba3fa71938d",
+            "locationId": "b3c265dd-c2dd-43b3-a45b-bba3fa71938d",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "16110",
+            "phone": [
+              {
+                "number": "828-479-8791",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "828-479-8791",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 35.32384808,
+              "longitude": -83.80299696
+            },
+            "storenumber": "16110"
+          },
+          {
+            "address": {
+              "city": "MURPHY",
+              "country": "US",
+              "line1": "1630 ANDREWS RD",
+              "line2": "",
+              "state": "NC",
+              "zip": "28906"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm",
+                  "02:15 pm",
+                  "02:30 pm",
+                  "02:45 pm",
+                  "03:45 pm",
+                  "04:00 pm",
+                  "04:45 pm",
+                  "05:00 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 13.88,
+            "fhirLocationId": "87d8a67b-f749-4607-beb4-ad6d2e733707",
+            "locationId": "87d8a67b-f749-4607-beb4-ad6d2e733707",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "16253",
+            "phone": [
+              {
+                "number": "828-837-5512",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "828-835-3779",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "828-837-5512",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 35.11022009,
+              "longitude": -84.00795019
+            },
+            "storenumber": "16253"
+          },
           {
             "address": {
               "city": "HIAWASSEE",
@@ -58187,7 +57812,7 @@
               }
             ],
             "description": "",
-            "distance": 23.59,
+            "distance": 14.84,
             "fhirLocationId": "670f7b6e-901f-49d4-a84d-b61f33d23539",
             "locationId": "670f7b6e-901f-49d4-a84d-b61f33d23539",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -58248,7 +57873,7 @@
               }
             ],
             "description": "",
-            "distance": 18.65,
+            "distance": 22.74,
             "fhirLocationId": "db33c611-aa34-4a08-9636-94ecd729649c",
             "locationId": "db33c611-aa34-4a08-9636-94ecd729649c",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -58274,6 +57899,78 @@
               "longitude": -83.96273041
             },
             "storenumber": "17943"
+          }
+        ]
+      },
+      "second_dose_moderna": {
+        "locations": [
+          {
+            "address": {
+              "city": "ROBBINSVILLE",
+              "country": "US",
+              "line1": "219 RODNEY ORR BYP",
+              "line2": "",
+              "state": "NC",
+              "zip": "28771"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "10:15 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "11:45 am",
+                  "02:30 pm",
+                  "02:45 pm",
+                  "03:00 pm",
+                  "03:15 pm",
+                  "03:30 pm",
+                  "03:45 pm",
+                  "04:15 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 7.97,
+            "fhirLocationId": "b3c265dd-c2dd-43b3-a45b-bba3fa71938d",
+            "locationId": "b3c265dd-c2dd-43b3-a45b-bba3fa71938d",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "16110",
+            "phone": [
+              {
+                "number": "828-479-8791",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "828-479-8791",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 35.32384808,
+              "longitude": -83.80299696
+            },
+            "storenumber": "16110"
           },
           {
             "address": {
@@ -58317,80 +58014,7 @@
               }
             ],
             "description": "",
-            "distance": 1.87,
-            "fhirLocationId": "87d8a67b-f749-4607-beb4-ad6d2e733707",
-            "locationId": "87d8a67b-f749-4607-beb4-ad6d2e733707",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "16253",
-            "phone": [
-              {
-                "number": "828-837-5512",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "828-835-3779",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "828-837-5512",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 35.11022009,
-              "longitude": -84.00795019
-            },
-            "storenumber": "16253"
-          }
-        ]
-      },
-      "second_dose_moderna": {
-        "locations": [
-          {
-            "address": {
-              "city": "MURPHY",
-              "country": "US",
-              "line1": "1630 ANDREWS RD",
-              "line2": "",
-              "state": "NC",
-              "zip": "28906"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "11:45 am",
-                  "12:00 pm",
-                  "12:15 pm",
-                  "12:30 pm",
-                  "12:45 pm",
-                  "02:15 pm",
-                  "02:30 pm",
-                  "02:45 pm",
-                  "03:45 pm",
-                  "04:00 pm",
-                  "04:45 pm",
-                  "05:00 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 13.88,
+            "distance": 14.61,
             "fhirLocationId": "87d8a67b-f749-4607-beb4-ad6d2e733707",
             "locationId": "87d8a67b-f749-4607-beb4-ad6d2e733707",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -68723,7 +68347,7 @@
       }
     ],
     "appointments_available": true,
-    "appointments_last_fetched": "2021-02-27T08:07:58.676+00:00",
+    "appointments_last_fetched": "2021-02-27T08:09:10.954+00:00",
     "appointments_raw": {
       "both_doses": {
         "locations": [
@@ -68780,7 +68404,7 @@
               }
             ],
             "description": "",
-            "distance": 13.04,
+            "distance": 7.05,
             "fhirLocationId": "861e24d1-98ff-4c43-9f82-1ab9323277b5",
             "locationId": "861e24d1-98ff-4c43-9f82-1ab9323277b5",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",

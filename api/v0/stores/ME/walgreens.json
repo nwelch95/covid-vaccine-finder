@@ -44,9 +44,83 @@
       }
     ],
     "appointments_available": true,
-    "appointments_last_fetched": "2021-02-27T08:05:55.666+00:00",
+    "appointments_last_fetched": "2021-02-27T08:10:07.112+00:00",
     "appointments_raw": {
       "both_doses": {
+        "locations": [
+          {
+            "address": {
+              "city": "BETHEL",
+              "country": "US",
+              "line1": "28 MAYVILLE ROAD",
+              "line2": "",
+              "state": "ME",
+              "zip": "04217"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "02:15 pm",
+                  "02:30 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 20.97,
+            "fhirLocationId": "89822d5e-2298-430c-909d-951a80149f6b",
+            "locationId": "89822d5e-2298-430c-909d-951a80149f6b",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "19575",
+            "phone": [
+              {
+                "number": "207-824-8085",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "207-824-8086",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "207-824-8085",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 44.41232916,
+              "longitude": -70.79609161
+            },
+            "storenumber": "19575"
+          }
+        ]
+      },
+      "second_dose_moderna": {
+        "error": [
+          {
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
+          }
+        ]
+      },
+      "second_dose_pfizer": {
         "locations": [
           {
             "address": {
@@ -111,80 +185,6 @@
             "storenumber": "19575"
           }
         ]
-      },
-      "second_dose_moderna": {
-        "error": [
-          {
-            "code": "FC_904_NoData",
-            "message": "Insufficient inventory."
-          }
-        ]
-      },
-      "second_dose_pfizer": {
-        "locations": [
-          {
-            "address": {
-              "city": "BETHEL",
-              "country": "US",
-              "line1": "28 MAYVILLE ROAD",
-              "line2": "",
-              "state": "ME",
-              "zip": "04217"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "11:45 am",
-                  "12:00 pm",
-                  "12:15 pm",
-                  "02:15 pm",
-                  "02:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 20.97,
-            "fhirLocationId": "89822d5e-2298-430c-909d-951a80149f6b",
-            "locationId": "89822d5e-2298-430c-909d-951a80149f6b",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "19575",
-            "phone": [
-              {
-                "number": "207-824-8085",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "207-824-8086",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "207-824-8085",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 44.41232916,
-              "longitude": -70.79609161
-            },
-            "storenumber": "19575"
-          }
-        ]
       }
     },
     "brand": "walgreens",
@@ -201,7 +201,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T07:38:33.18+00:00",
+    "appointments_last_fetched": "2021-02-27T08:10:07.112+00:00",
     "appointments_raw": {
       "both_doses": {
         "locations": [
@@ -314,7 +314,7 @@
               }
             ],
             "description": "",
-            "distance": 18.86,
+            "distance": 10.23,
             "fhirLocationId": "89822d5e-2298-430c-909d-951a80149f6b",
             "locationId": "89822d5e-2298-430c-909d-951a80149f6b",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -481,7 +481,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T07:37:03.971+00:00",
+    "appointments_last_fetched": "2021-02-27T08:10:08.94+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -563,7 +563,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T07:37:03.971+00:00",
+    "appointments_last_fetched": "2021-02-27T08:10:08.94+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -932,7 +932,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T07:36:35.942+00:00",
+    "appointments_last_fetched": "2021-02-27T08:09:19.156+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -1055,7 +1055,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T07:36:35.942+00:00",
+    "appointments_last_fetched": "2021-02-27T08:09:19.156+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -1137,7 +1137,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T07:36:35.942+00:00",
+    "appointments_last_fetched": "2021-02-27T08:09:19.156+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -1178,7 +1178,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T07:36:35.942+00:00",
+    "appointments_last_fetched": "2021-02-27T08:09:19.156+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -1219,7 +1219,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T07:36:35.942+00:00",
+    "appointments_last_fetched": "2021-02-27T08:09:19.156+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -1260,7 +1260,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T07:36:35.942+00:00",
+    "appointments_last_fetched": "2021-02-27T08:09:19.156+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -1383,7 +1383,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T07:36:35.942+00:00",
+    "appointments_last_fetched": "2021-02-27T08:09:19.156+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -1424,7 +1424,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T07:36:35.942+00:00",
+    "appointments_last_fetched": "2021-02-27T08:09:19.156+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -1629,7 +1629,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T07:36:35.942+00:00",
+    "appointments_last_fetched": "2021-02-27T08:09:19.156+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -1670,7 +1670,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T07:36:35.942+00:00",
+    "appointments_last_fetched": "2021-02-27T08:09:19.156+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -1711,7 +1711,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T07:36:35.942+00:00",
+    "appointments_last_fetched": "2021-02-27T08:09:19.156+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -1998,7 +1998,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T07:36:35.942+00:00",
+    "appointments_last_fetched": "2021-02-27T08:09:19.156+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -4197,7 +4197,7 @@
       }
     ],
     "appointments_available": true,
-    "appointments_last_fetched": "2021-02-27T07:30:35.035+00:00",
+    "appointments_last_fetched": "2021-02-27T08:10:03.571+00:00",
     "appointments_raw": {
       "both_doses": {
         "locations": [
@@ -4253,7 +4253,7 @@
               }
             ],
             "description": "",
-            "distance": 18.17,
+            "distance": 11.76,
             "fhirLocationId": "24c825e7-b500-4248-bf88-13c68c4476ce",
             "locationId": "24c825e7-b500-4248-bf88-13c68c4476ce",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -4336,7 +4336,7 @@
               }
             ],
             "description": "",
-            "distance": 16.12,
+            "distance": 0,
             "fhirLocationId": "b1c35360-3b68-4104-af2c-fa2940715eb0",
             "locationId": "b1c35360-3b68-4104-af2c-fa2940715eb0",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -4427,7 +4427,7 @@
               }
             ],
             "description": "",
-            "distance": 18.17,
+            "distance": 11.76,
             "fhirLocationId": "24c825e7-b500-4248-bf88-13c68c4476ce",
             "locationId": "24c825e7-b500-4248-bf88-13c68c4476ce",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -4510,7 +4510,7 @@
               }
             ],
             "description": "",
-            "distance": 22.47,
+            "distance": 23.5,
             "fhirLocationId": "b1c35360-3b68-4104-af2c-fa2940715eb0",
             "locationId": "b1c35360-3b68-4104-af2c-fa2940715eb0",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -4554,7 +4554,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T07:30:35.035+00:00",
+    "appointments_last_fetched": "2021-02-27T08:10:03.571+00:00",
     "appointments_raw": {
       "both_doses": {
         "locations": [
@@ -4610,7 +4610,7 @@
               }
             ],
             "description": "",
-            "distance": 18.17,
+            "distance": 11.76,
             "fhirLocationId": "24c825e7-b500-4248-bf88-13c68c4476ce",
             "locationId": "24c825e7-b500-4248-bf88-13c68c4476ce",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -4693,7 +4693,7 @@
               }
             ],
             "description": "",
-            "distance": 16.12,
+            "distance": 0,
             "fhirLocationId": "b1c35360-3b68-4104-af2c-fa2940715eb0",
             "locationId": "b1c35360-3b68-4104-af2c-fa2940715eb0",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -4784,7 +4784,7 @@
               }
             ],
             "description": "",
-            "distance": 18.17,
+            "distance": 11.76,
             "fhirLocationId": "24c825e7-b500-4248-bf88-13c68c4476ce",
             "locationId": "24c825e7-b500-4248-bf88-13c68c4476ce",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -4867,7 +4867,7 @@
               }
             ],
             "description": "",
-            "distance": 22.47,
+            "distance": 23.5,
             "fhirLocationId": "b1c35360-3b68-4104-af2c-fa2940715eb0",
             "locationId": "b1c35360-3b68-4104-af2c-fa2940715eb0",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -14869,7 +14869,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T07:30:35.035+00:00",
+    "appointments_last_fetched": "2021-02-27T08:10:03.571+00:00",
     "appointments_raw": {
       "both_doses": {
         "locations": [
@@ -14925,7 +14925,7 @@
               }
             ],
             "description": "",
-            "distance": 18.17,
+            "distance": 11.76,
             "fhirLocationId": "24c825e7-b500-4248-bf88-13c68c4476ce",
             "locationId": "24c825e7-b500-4248-bf88-13c68c4476ce",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -15008,7 +15008,7 @@
               }
             ],
             "description": "",
-            "distance": 16.12,
+            "distance": 0,
             "fhirLocationId": "b1c35360-3b68-4104-af2c-fa2940715eb0",
             "locationId": "b1c35360-3b68-4104-af2c-fa2940715eb0",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -15099,7 +15099,7 @@
               }
             ],
             "description": "",
-            "distance": 18.17,
+            "distance": 11.76,
             "fhirLocationId": "24c825e7-b500-4248-bf88-13c68c4476ce",
             "locationId": "24c825e7-b500-4248-bf88-13c68c4476ce",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -15182,7 +15182,7 @@
               }
             ],
             "description": "",
-            "distance": 22.47,
+            "distance": 23.5,
             "fhirLocationId": "b1c35360-3b68-4104-af2c-fa2940715eb0",
             "locationId": "b1c35360-3b68-4104-af2c-fa2940715eb0",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -15427,27 +15427,43 @@
       }
     ],
     "appointments_available": true,
-    "appointments_last_fetched": "2021-02-27T07:42:55.134+00:00",
+    "appointments_last_fetched": "2021-02-27T08:10:03.571+00:00",
     "appointments_raw": {
       "both_doses": {
         "locations": [
           {
             "address": {
-              "city": "PITTSFIELD",
+              "city": "MILO",
               "country": "US",
-              "line1": "506 SOMERSET AVENUE",
+              "line1": "35 PARK STREET",
               "line2": "",
               "state": "ME",
-              "zip": "04967"
+              "zip": "4463"
             },
             "appointmentAvailability": [
+              {
+                "date": "2021-02-28",
+                "day": "Sunday",
+                "slots": [
+                  "11:00 am",
+                  "11:15 am",
+                  "11:30 am",
+                  "11:45 am",
+                  "12:00 pm"
+                ]
+              },
               {
                 "date": "2021-03-01",
                 "day": "Monday",
                 "slots": [
+                  "09:15 am",
+                  "09:30 am",
                   "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
                   "10:30 am",
                   "10:45 am",
+                  "11:00 am",
                   "11:15 am",
                   "11:30 am",
                   "11:45 am"
@@ -15467,32 +15483,32 @@
               }
             ],
             "description": "",
-            "distance": 8.76,
-            "fhirLocationId": "432a4774-8228-46df-9098-06dde6cdc9e0",
-            "locationId": "432a4774-8228-46df-9098-06dde6cdc9e0",
+            "distance": 11.76,
+            "fhirLocationId": "24c825e7-b500-4248-bf88-13c68c4476ce",
+            "locationId": "24c825e7-b500-4248-bf88-13c68c4476ce",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
             "name": "Walgreen Drug Store",
             "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "17153",
+            "partnerLocationId": "19253",
             "phone": [
               {
-                "number": "207-487-5467",
+                "number": "207-943-8750",
                 "type": "StorePrimary"
               },
               {
-                "number": "207-487-3043",
+                "number": "207-943-2212",
                 "type": "StoreSecondary"
               },
               {
-                "number": "207-487-5467",
+                "number": "207-943-8750",
                 "type": "Pharmacy"
               }
             ],
             "position": {
-              "latitude": 44.78487346,
-              "longitude": -69.40085247
+              "latitude": 45.25615665,
+              "longitude": -68.98645719
             },
-            "storenumber": "17153"
+            "storenumber": "19253"
           },
           {
             "address": {
@@ -15550,7 +15566,7 @@
               }
             ],
             "description": "",
-            "distance": 12.96,
+            "distance": 0,
             "fhirLocationId": "b1c35360-3b68-4104-af2c-fa2940715eb0",
             "locationId": "b1c35360-3b68-4104-af2c-fa2940715eb0",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -15591,21 +15607,37 @@
         "locations": [
           {
             "address": {
-              "city": "PITTSFIELD",
+              "city": "MILO",
               "country": "US",
-              "line1": "506 SOMERSET AVENUE",
+              "line1": "35 PARK STREET",
               "line2": "",
               "state": "ME",
-              "zip": "04967"
+              "zip": "4463"
             },
             "appointmentAvailability": [
+              {
+                "date": "2021-02-28",
+                "day": "Sunday",
+                "slots": [
+                  "11:00 am",
+                  "11:15 am",
+                  "11:30 am",
+                  "11:45 am",
+                  "12:00 pm"
+                ]
+              },
               {
                 "date": "2021-03-01",
                 "day": "Monday",
                 "slots": [
+                  "09:15 am",
+                  "09:30 am",
                   "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
                   "10:30 am",
                   "10:45 am",
+                  "11:00 am",
                   "11:15 am",
                   "11:30 am",
                   "11:45 am"
@@ -15625,32 +15657,32 @@
               }
             ],
             "description": "",
-            "distance": 17.61,
-            "fhirLocationId": "432a4774-8228-46df-9098-06dde6cdc9e0",
-            "locationId": "432a4774-8228-46df-9098-06dde6cdc9e0",
+            "distance": 11.76,
+            "fhirLocationId": "24c825e7-b500-4248-bf88-13c68c4476ce",
+            "locationId": "24c825e7-b500-4248-bf88-13c68c4476ce",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
             "name": "Walgreen Drug Store",
             "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "17153",
+            "partnerLocationId": "19253",
             "phone": [
               {
-                "number": "207-487-5467",
+                "number": "207-943-8750",
                 "type": "StorePrimary"
               },
               {
-                "number": "207-487-3043",
+                "number": "207-943-2212",
                 "type": "StoreSecondary"
               },
               {
-                "number": "207-487-5467",
+                "number": "207-943-8750",
                 "type": "Pharmacy"
               }
             ],
             "position": {
-              "latitude": 44.78487346,
-              "longitude": -69.40085247
+              "latitude": 45.25615665,
+              "longitude": -68.98645719
             },
-            "storenumber": "17153"
+            "storenumber": "19253"
           },
           {
             "address": {
@@ -15708,7 +15740,7 @@
               }
             ],
             "description": "",
-            "distance": 20.67,
+            "distance": 23.5,
             "fhirLocationId": "b1c35360-3b68-4104-af2c-fa2940715eb0",
             "locationId": "b1c35360-3b68-4104-af2c-fa2940715eb0",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
