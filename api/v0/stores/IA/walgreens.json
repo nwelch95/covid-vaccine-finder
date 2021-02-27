@@ -4,7 +4,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:29:38.095+00:00",
+    "appointments_last_fetched": "2021-02-27T18:45:45.663+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -1234,7 +1234,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:24:53.531+00:00",
+    "appointments_last_fetched": "2021-02-27T18:45:50.578+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -1357,7 +1357,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:27:21.384+00:00",
+    "appointments_last_fetched": "2021-02-27T18:44:50.326+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -1398,7 +1398,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:27:21.384+00:00",
+    "appointments_last_fetched": "2021-02-27T18:44:50.326+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -1439,7 +1439,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:39:55.069+00:00",
+    "appointments_last_fetched": "2021-02-27T18:44:45.044+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -1480,7 +1480,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:39:55.069+00:00",
+    "appointments_last_fetched": "2021-02-27T18:44:45.044+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -1521,7 +1521,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:39:55.069+00:00",
+    "appointments_last_fetched": "2021-02-27T18:44:45.044+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -1644,7 +1644,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:39:50.96+00:00",
+    "appointments_last_fetched": "2021-02-27T18:45:26.673+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -2341,13 +2341,67 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:39:22.532+00:00",
+    "appointments_last_fetched": "2021-02-27T18:45:11.313+00:00",
     "appointments_raw": {
       "both_doses": {
-        "error": [
+        "locations": [
           {
-            "code": "FC_904_NoData",
-            "message": "Insufficient inventory."
+            "address": {
+              "city": "MILAN",
+              "country": "US",
+              "line1": "440 10TH AVE W",
+              "line2": "",
+              "state": "IL",
+              "zip": "61264"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "09:15 am"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 5.41,
+            "fhirLocationId": "9e5a3421-4a40-4c56-a565-daa31efcc057",
+            "locationId": "9e5a3421-4a40-4c56-a565-daa31efcc057",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "9267",
+            "phone": [
+              {
+                "number": "309-787-2161",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "309-787-2349",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "309-787-2161",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 41.442342,
+              "longitude": -90.572584
+            },
+            "storenumber": "9267"
           }
         ]
       },
@@ -2360,10 +2414,64 @@
         ]
       },
       "second_dose_pfizer": {
-        "error": [
+        "locations": [
           {
-            "code": "FC_904_NoData",
-            "message": "Insufficient inventory."
+            "address": {
+              "city": "MILAN",
+              "country": "US",
+              "line1": "440 10TH AVE W",
+              "line2": "",
+              "state": "IL",
+              "zip": "61264"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "09:15 am"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 12.12,
+            "fhirLocationId": "9e5a3421-4a40-4c56-a565-daa31efcc057",
+            "locationId": "9e5a3421-4a40-4c56-a565-daa31efcc057",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "9267",
+            "phone": [
+              {
+                "number": "309-787-2161",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "309-787-2349",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "309-787-2161",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 41.442342,
+              "longitude": -90.572584
+            },
+            "storenumber": "9267"
           }
         ]
       }
@@ -2382,13 +2490,67 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:39:22.532+00:00",
+    "appointments_last_fetched": "2021-02-27T18:45:11.313+00:00",
     "appointments_raw": {
       "both_doses": {
-        "error": [
+        "locations": [
           {
-            "code": "FC_904_NoData",
-            "message": "Insufficient inventory."
+            "address": {
+              "city": "MILAN",
+              "country": "US",
+              "line1": "440 10TH AVE W",
+              "line2": "",
+              "state": "IL",
+              "zip": "61264"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "09:15 am"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 5.41,
+            "fhirLocationId": "9e5a3421-4a40-4c56-a565-daa31efcc057",
+            "locationId": "9e5a3421-4a40-4c56-a565-daa31efcc057",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "9267",
+            "phone": [
+              {
+                "number": "309-787-2161",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "309-787-2349",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "309-787-2161",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 41.442342,
+              "longitude": -90.572584
+            },
+            "storenumber": "9267"
           }
         ]
       },
@@ -2401,10 +2563,64 @@
         ]
       },
       "second_dose_pfizer": {
-        "error": [
+        "locations": [
           {
-            "code": "FC_904_NoData",
-            "message": "Insufficient inventory."
+            "address": {
+              "city": "MILAN",
+              "country": "US",
+              "line1": "440 10TH AVE W",
+              "line2": "",
+              "state": "IL",
+              "zip": "61264"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "09:15 am"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 12.12,
+            "fhirLocationId": "9e5a3421-4a40-4c56-a565-daa31efcc057",
+            "locationId": "9e5a3421-4a40-4c56-a565-daa31efcc057",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "9267",
+            "phone": [
+              {
+                "number": "309-787-2161",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "309-787-2349",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "309-787-2161",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 41.442342,
+              "longitude": -90.572584
+            },
+            "storenumber": "9267"
           }
         ]
       }
@@ -2464,13 +2680,67 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:39:22.532+00:00",
+    "appointments_last_fetched": "2021-02-27T18:45:11.313+00:00",
     "appointments_raw": {
       "both_doses": {
-        "error": [
+        "locations": [
           {
-            "code": "FC_904_NoData",
-            "message": "Insufficient inventory."
+            "address": {
+              "city": "MILAN",
+              "country": "US",
+              "line1": "440 10TH AVE W",
+              "line2": "",
+              "state": "IL",
+              "zip": "61264"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "09:15 am"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 5.41,
+            "fhirLocationId": "9e5a3421-4a40-4c56-a565-daa31efcc057",
+            "locationId": "9e5a3421-4a40-4c56-a565-daa31efcc057",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "9267",
+            "phone": [
+              {
+                "number": "309-787-2161",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "309-787-2349",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "309-787-2161",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 41.442342,
+              "longitude": -90.572584
+            },
+            "storenumber": "9267"
           }
         ]
       },
@@ -2483,10 +2753,64 @@
         ]
       },
       "second_dose_pfizer": {
-        "error": [
+        "locations": [
           {
-            "code": "FC_904_NoData",
-            "message": "Insufficient inventory."
+            "address": {
+              "city": "MILAN",
+              "country": "US",
+              "line1": "440 10TH AVE W",
+              "line2": "",
+              "state": "IL",
+              "zip": "61264"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "09:15 am"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 12.12,
+            "fhirLocationId": "9e5a3421-4a40-4c56-a565-daa31efcc057",
+            "locationId": "9e5a3421-4a40-4c56-a565-daa31efcc057",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "9267",
+            "phone": [
+              {
+                "number": "309-787-2161",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "309-787-2349",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "309-787-2161",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 41.442342,
+              "longitude": -90.572584
+            },
+            "storenumber": "9267"
           }
         ]
       }
@@ -2505,13 +2829,67 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:39:22.532+00:00",
+    "appointments_last_fetched": "2021-02-27T18:45:11.313+00:00",
     "appointments_raw": {
       "both_doses": {
-        "error": [
+        "locations": [
           {
-            "code": "FC_904_NoData",
-            "message": "Insufficient inventory."
+            "address": {
+              "city": "MILAN",
+              "country": "US",
+              "line1": "440 10TH AVE W",
+              "line2": "",
+              "state": "IL",
+              "zip": "61264"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "09:15 am"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 5.41,
+            "fhirLocationId": "9e5a3421-4a40-4c56-a565-daa31efcc057",
+            "locationId": "9e5a3421-4a40-4c56-a565-daa31efcc057",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "9267",
+            "phone": [
+              {
+                "number": "309-787-2161",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "309-787-2349",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "309-787-2161",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 41.442342,
+              "longitude": -90.572584
+            },
+            "storenumber": "9267"
           }
         ]
       },
@@ -2524,10 +2902,64 @@
         ]
       },
       "second_dose_pfizer": {
-        "error": [
+        "locations": [
           {
-            "code": "FC_904_NoData",
-            "message": "Insufficient inventory."
+            "address": {
+              "city": "MILAN",
+              "country": "US",
+              "line1": "440 10TH AVE W",
+              "line2": "",
+              "state": "IL",
+              "zip": "61264"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "09:15 am"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 12.12,
+            "fhirLocationId": "9e5a3421-4a40-4c56-a565-daa31efcc057",
+            "locationId": "9e5a3421-4a40-4c56-a565-daa31efcc057",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "9267",
+            "phone": [
+              {
+                "number": "309-787-2161",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "309-787-2349",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "309-787-2161",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 41.442342,
+              "longitude": -90.572584
+            },
+            "storenumber": "9267"
           }
         ]
       }

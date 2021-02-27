@@ -83546,7 +83546,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:40:08.419+00:00",
+    "appointments_last_fetched": "2021-02-27T18:45:47.996+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -90205,7 +90205,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:40:08.419+00:00",
+    "appointments_last_fetched": "2021-02-27T18:45:47.996+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -99065,7 +99065,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:40:08.419+00:00",
+    "appointments_last_fetched": "2021-02-27T18:45:47.996+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -101944,7 +101944,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:40:08.419+00:00",
+    "appointments_last_fetched": "2021-02-27T18:45:47.996+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -101985,13 +101985,67 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:24:57.008+00:00",
+    "appointments_last_fetched": "2021-02-27T18:46:02.139+00:00",
     "appointments_raw": {
       "both_doses": {
-        "error": [
+        "locations": [
           {
-            "code": "FC_904_NoData",
-            "message": "Insufficient inventory."
+            "address": {
+              "city": "BELOIT",
+              "country": "US",
+              "line1": "1901 PRAIRIE AVE",
+              "line2": "",
+              "state": "WI",
+              "zip": "53511"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "09:45 am"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 5.95,
+            "fhirLocationId": "573b01fc-44d6-4f62-9835-7020211267d3",
+            "locationId": "573b01fc-44d6-4f62-9835-7020211267d3",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "6096",
+            "phone": [
+              {
+                "number": "608-365-2001",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "608-365-4139",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "608-365-2001",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 42.52553754,
+              "longitude": -89.01136185
+            },
+            "storenumber": "6096"
           }
         ]
       },
@@ -102004,10 +102058,64 @@
         ]
       },
       "second_dose_pfizer": {
-        "error": [
+        "locations": [
           {
-            "code": "FC_904_NoData",
-            "message": "Insufficient inventory."
+            "address": {
+              "city": "BELOIT",
+              "country": "US",
+              "line1": "1901 PRAIRIE AVE",
+              "line2": "",
+              "state": "WI",
+              "zip": "53511"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "09:45 am"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 22.01,
+            "fhirLocationId": "573b01fc-44d6-4f62-9835-7020211267d3",
+            "locationId": "573b01fc-44d6-4f62-9835-7020211267d3",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "6096",
+            "phone": [
+              {
+                "number": "608-365-2001",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "608-365-4139",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "608-365-2001",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 42.52553754,
+              "longitude": -89.01136185
+            },
+            "storenumber": "6096"
           }
         ]
       }
@@ -102026,13 +102134,67 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:24:57.008+00:00",
+    "appointments_last_fetched": "2021-02-27T18:46:02.139+00:00",
     "appointments_raw": {
       "both_doses": {
-        "error": [
+        "locations": [
           {
-            "code": "FC_904_NoData",
-            "message": "Insufficient inventory."
+            "address": {
+              "city": "BELOIT",
+              "country": "US",
+              "line1": "1901 PRAIRIE AVE",
+              "line2": "",
+              "state": "WI",
+              "zip": "53511"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "09:45 am"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 5.95,
+            "fhirLocationId": "573b01fc-44d6-4f62-9835-7020211267d3",
+            "locationId": "573b01fc-44d6-4f62-9835-7020211267d3",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "6096",
+            "phone": [
+              {
+                "number": "608-365-2001",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "608-365-4139",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "608-365-2001",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 42.52553754,
+              "longitude": -89.01136185
+            },
+            "storenumber": "6096"
           }
         ]
       },
@@ -102045,10 +102207,64 @@
         ]
       },
       "second_dose_pfizer": {
-        "error": [
+        "locations": [
           {
-            "code": "FC_904_NoData",
-            "message": "Insufficient inventory."
+            "address": {
+              "city": "BELOIT",
+              "country": "US",
+              "line1": "1901 PRAIRIE AVE",
+              "line2": "",
+              "state": "WI",
+              "zip": "53511"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "09:45 am"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 22.01,
+            "fhirLocationId": "573b01fc-44d6-4f62-9835-7020211267d3",
+            "locationId": "573b01fc-44d6-4f62-9835-7020211267d3",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "6096",
+            "phone": [
+              {
+                "number": "608-365-2001",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "608-365-4139",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "608-365-2001",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 42.52553754,
+              "longitude": -89.01136185
+            },
+            "storenumber": "6096"
           }
         ]
       }
@@ -102065,15 +102281,77 @@
   {
     "address": "1901 PRAIRIE AVE",
     "appointments": [
+      {
+        "time": "2021-03-01T09:45:00.000-06:00",
+        "type": "both_doses"
+      },
+      {
+        "time": "2021-03-01T09:45:00.000-06:00",
+        "type": "second_dose_pfizer"
+      }
     ],
-    "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:29:25.752+00:00",
+    "appointments_available": true,
+    "appointments_last_fetched": "2021-02-27T18:46:02.139+00:00",
     "appointments_raw": {
       "both_doses": {
-        "error": [
+        "locations": [
           {
-            "code": "FC_904_NoData",
-            "message": "Insufficient inventory."
+            "address": {
+              "city": "BELOIT",
+              "country": "US",
+              "line1": "1901 PRAIRIE AVE",
+              "line2": "",
+              "state": "WI",
+              "zip": "53511"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "09:45 am"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 5.95,
+            "fhirLocationId": "573b01fc-44d6-4f62-9835-7020211267d3",
+            "locationId": "573b01fc-44d6-4f62-9835-7020211267d3",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "6096",
+            "phone": [
+              {
+                "number": "608-365-2001",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "608-365-4139",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "608-365-2001",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 42.52553754,
+              "longitude": -89.01136185
+            },
+            "storenumber": "6096"
           }
         ]
       },
@@ -102086,10 +102364,64 @@
         ]
       },
       "second_dose_pfizer": {
-        "error": [
+        "locations": [
           {
-            "code": "FC_904_NoData",
-            "message": "Insufficient inventory."
+            "address": {
+              "city": "BELOIT",
+              "country": "US",
+              "line1": "1901 PRAIRIE AVE",
+              "line2": "",
+              "state": "WI",
+              "zip": "53511"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "09:45 am"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 22.01,
+            "fhirLocationId": "573b01fc-44d6-4f62-9835-7020211267d3",
+            "locationId": "573b01fc-44d6-4f62-9835-7020211267d3",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "6096",
+            "phone": [
+              {
+                "number": "608-365-2001",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "608-365-4139",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "608-365-2001",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 42.52553754,
+              "longitude": -89.01136185
+            },
+            "storenumber": "6096"
           }
         ]
       }
@@ -102764,7 +103096,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:40:08.419+00:00",
+    "appointments_last_fetched": "2021-02-27T18:45:47.996+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -108700,7 +109032,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:40:08.419+00:00",
+    "appointments_last_fetched": "2021-02-27T18:45:47.996+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -108741,7 +109073,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:40:08.419+00:00",
+    "appointments_last_fetched": "2021-02-27T18:45:47.996+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -108864,7 +109196,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:40:08.419+00:00",
+    "appointments_last_fetched": "2021-02-27T18:45:47.996+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -109643,7 +109975,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:26:54.427+00:00",
+    "appointments_last_fetched": "2021-02-27T18:45:36.526+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -109725,7 +110057,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:41:25.741+00:00",
+    "appointments_last_fetched": "2021-02-27T18:46:14.965+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -112928,7 +113260,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:28:15.991+00:00",
+    "appointments_last_fetched": "2021-02-27T18:44:09.272+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -113215,7 +113547,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:26:27.21+00:00",
+    "appointments_last_fetched": "2021-02-27T18:44:47.469+00:00",
     "appointments_raw": {
       "both_doses": {
         "locations": [
@@ -113256,7 +113588,7 @@
               }
             ],
             "description": "",
-            "distance": 7.76,
+            "distance": 18.19,
             "fhirLocationId": "56f187f9-37be-4965-8690-28299ac9b8a5",
             "locationId": "56f187f9-37be-4965-8690-28299ac9b8a5",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -113328,7 +113660,7 @@
               }
             ],
             "description": "",
-            "distance": 0,
+            "distance": 20.78,
             "fhirLocationId": "d9f5771e-d37a-4280-8509-b602be108ef2",
             "locationId": "d9f5771e-d37a-4280-8509-b602be108ef2",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -113404,7 +113736,7 @@
               }
             ],
             "description": "",
-            "distance": 24.21,
+            "distance": 21.9,
             "fhirLocationId": "d9f5771e-d37a-4280-8509-b602be108ef2",
             "locationId": "d9f5771e-d37a-4280-8509-b602be108ef2",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -113472,7 +113804,7 @@
               }
             ],
             "description": "",
-            "distance": 24.22,
+            "distance": 18.86,
             "fhirLocationId": "56f187f9-37be-4965-8690-28299ac9b8a5",
             "locationId": "56f187f9-37be-4965-8690-28299ac9b8a5",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -113636,10 +113968,74 @@
       }
     ],
     "appointments_available": true,
-    "appointments_last_fetched": "2021-02-27T18:27:06.018+00:00",
+    "appointments_last_fetched": "2021-02-27T18:44:47.469+00:00",
     "appointments_raw": {
       "both_doses": {
         "locations": [
+          {
+            "address": {
+              "city": "ANTIGO",
+              "country": "US",
+              "line1": "2204 NEVA RD",
+              "line2": "",
+              "state": "WI",
+              "zip": "54409"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "12:30 pm",
+                  "12:45 pm",
+                  "02:30 pm",
+                  "02:45 pm",
+                  "03:15 pm",
+                  "04:15 pm",
+                  "04:30 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 18.19,
+            "fhirLocationId": "56f187f9-37be-4965-8690-28299ac9b8a5",
+            "locationId": "56f187f9-37be-4965-8690-28299ac9b8a5",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "6153",
+            "phone": [
+              {
+                "number": "715-627-7430",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "715-627-7430",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 45.16144112,
+              "longitude": -89.14912889
+            },
+            "storenumber": "6153"
+          },
           {
             "address": {
               "city": "RHINELANDER",
@@ -113685,7 +114081,7 @@
               }
             ],
             "description": "",
-            "distance": 22.79,
+            "distance": 20.78,
             "fhirLocationId": "d9f5771e-d37a-4280-8509-b602be108ef2",
             "locationId": "d9f5771e-d37a-4280-8509-b602be108ef2",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -113711,76 +114107,6 @@
               "longitude": -89.37953954
             },
             "storenumber": "7880"
-          },
-          {
-            "address": {
-              "city": "EAGLE RIVER",
-              "country": "US",
-              "line1": "108 W WALL ST",
-              "line2": "",
-              "state": "WI",
-              "zip": "54521"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-02",
-                "day": "Tuesday",
-                "slots": [
-                  "12:30 pm",
-                  "12:45 pm",
-                  "02:15 pm",
-                  "02:30 pm",
-                  "02:45 pm",
-                  "03:00 pm",
-                  "03:15 pm",
-                  "03:30 pm",
-                  "03:45 pm",
-                  "04:00 pm",
-                  "04:15 pm",
-                  "04:30 pm",
-                  "05:15 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 22.15,
-            "fhirLocationId": "e525e36b-dcb6-4231-a4b2-fe85f3f2ba73",
-            "locationId": "e525e36b-dcb6-4231-a4b2-fe85f3f2ba73",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "12545",
-            "phone": [
-              {
-                "number": "715-479-1069",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "715-479-1308",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "715-479-1069",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 45.91500518,
-              "longitude": -89.25397057
-            },
-            "storenumber": "12545"
           }
         ]
       },
@@ -113831,7 +114157,7 @@
               }
             ],
             "description": "",
-            "distance": 13.07,
+            "distance": 21.9,
             "fhirLocationId": "d9f5771e-d37a-4280-8509-b602be108ef2",
             "locationId": "d9f5771e-d37a-4280-8509-b602be108ef2",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -113857,15 +114183,19 @@
               "longitude": -89.37953954
             },
             "storenumber": "7880"
-          },
+          }
+        ]
+      },
+      "second_dose_pfizer": {
+        "locations": [
           {
             "address": {
-              "city": "EAGLE RIVER",
+              "city": "ANTIGO",
               "country": "US",
-              "line1": "108 W WALL ST",
+              "line1": "2204 NEVA RD",
               "line2": "",
               "state": "WI",
-              "zip": "54521"
+              "zip": "54409"
             },
             "appointmentAvailability": [
               {
@@ -113874,17 +114204,11 @@
                 "slots": [
                   "12:30 pm",
                   "12:45 pm",
-                  "02:15 pm",
                   "02:30 pm",
                   "02:45 pm",
-                  "03:00 pm",
                   "03:15 pm",
-                  "03:30 pm",
-                  "03:45 pm",
-                  "04:00 pm",
                   "04:15 pm",
-                  "04:30 pm",
-                  "05:15 pm"
+                  "04:30 pm"
                 ]
               }
             ],
@@ -113901,40 +114225,32 @@
               }
             ],
             "description": "",
-            "distance": 14.66,
-            "fhirLocationId": "e525e36b-dcb6-4231-a4b2-fe85f3f2ba73",
-            "locationId": "e525e36b-dcb6-4231-a4b2-fe85f3f2ba73",
+            "distance": 18.86,
+            "fhirLocationId": "56f187f9-37be-4965-8690-28299ac9b8a5",
+            "locationId": "56f187f9-37be-4965-8690-28299ac9b8a5",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
             "name": "Walgreen Drug Store",
             "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "12545",
+            "partnerLocationId": "6153",
             "phone": [
               {
-                "number": "715-479-1069",
+                "number": "715-627-7430",
                 "type": "StorePrimary"
               },
               {
-                "number": "715-479-1308",
+                "number": "",
                 "type": "StoreSecondary"
               },
               {
-                "number": "715-479-1069",
+                "number": "715-627-7430",
                 "type": "Pharmacy"
               }
             ],
             "position": {
-              "latitude": 45.91500518,
-              "longitude": -89.25397057
+              "latitude": 45.16144112,
+              "longitude": -89.14912889
             },
-            "storenumber": "12545"
-          }
-        ]
-      },
-      "second_dose_pfizer": {
-        "error": [
-          {
-            "code": "FC_904_NoData",
-            "message": "Insufficient inventory."
+            "storenumber": "6153"
           }
         ]
       }
@@ -114430,7 +114746,7 @@
       }
     ],
     "appointments_available": true,
-    "appointments_last_fetched": "2021-02-27T18:27:37.821+00:00",
+    "appointments_last_fetched": "2021-02-27T18:44:47.469+00:00",
     "appointments_raw": {
       "both_doses": {
         "locations": [
@@ -114471,7 +114787,7 @@
               }
             ],
             "description": "",
-            "distance": 7.76,
+            "distance": 18.19,
             "fhirLocationId": "56f187f9-37be-4965-8690-28299ac9b8a5",
             "locationId": "56f187f9-37be-4965-8690-28299ac9b8a5",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -114497,14 +114813,154 @@
               "longitude": -89.14912889
             },
             "storenumber": "6153"
+          },
+          {
+            "address": {
+              "city": "RHINELANDER",
+              "country": "US",
+              "line1": "421 S EISENHOWER PKWY",
+              "line2": "",
+              "state": "WI",
+              "zip": "54501"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "11:30 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:45 pm",
+                  "03:00 pm",
+                  "03:15 pm",
+                  "04:15 pm",
+                  "04:30 pm",
+                  "06:30 pm",
+                  "06:45 pm",
+                  "07:00 pm",
+                  "07:15 pm",
+                  "07:30 pm",
+                  "07:45 pm",
+                  "08:00 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 20.78,
+            "fhirLocationId": "d9f5771e-d37a-4280-8509-b602be108ef2",
+            "locationId": "d9f5771e-d37a-4280-8509-b602be108ef2",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "7880",
+            "phone": [
+              {
+                "number": "715-369-1079",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "715-369-1102",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "715-369-1079",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 45.63416605,
+              "longitude": -89.37953954
+            },
+            "storenumber": "7880"
           }
         ]
       },
       "second_dose_moderna": {
-        "error": [
+        "locations": [
           {
-            "code": "FC_904_NoData",
-            "message": "Insufficient inventory."
+            "address": {
+              "city": "RHINELANDER",
+              "country": "US",
+              "line1": "421 S EISENHOWER PKWY",
+              "line2": "",
+              "state": "WI",
+              "zip": "54501"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "11:30 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:45 pm",
+                  "03:00 pm",
+                  "03:15 pm",
+                  "04:15 pm",
+                  "04:30 pm",
+                  "06:30 pm",
+                  "06:45 pm",
+                  "07:00 pm",
+                  "07:15 pm",
+                  "07:30 pm",
+                  "07:45 pm",
+                  "08:00 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 21.9,
+            "fhirLocationId": "d9f5771e-d37a-4280-8509-b602be108ef2",
+            "locationId": "d9f5771e-d37a-4280-8509-b602be108ef2",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "7880",
+            "phone": [
+              {
+                "number": "715-369-1079",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "715-369-1102",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "715-369-1079",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 45.63416605,
+              "longitude": -89.37953954
+            },
+            "storenumber": "7880"
           }
         ]
       },
@@ -114547,7 +115003,7 @@
               }
             ],
             "description": "",
-            "distance": 6.89,
+            "distance": 18.86,
             "fhirLocationId": "56f187f9-37be-4965-8690-28299ac9b8a5",
             "locationId": "56f187f9-37be-4965-8690-28299ac9b8a5",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -117040,7 +117496,7 @@
       }
     ],
     "appointments_available": true,
-    "appointments_last_fetched": "2021-02-27T18:39:38.757+00:00",
+    "appointments_last_fetched": "2021-02-27T18:44:24.137+00:00",
     "appointments_raw": {
       "both_doses": {
         "locations": [
@@ -117938,7 +118394,7 @@
       }
     ],
     "appointments_available": true,
-    "appointments_last_fetched": "2021-02-27T18:42:44.933+00:00",
+    "appointments_last_fetched": "2021-02-27T18:44:04.462+00:00",
     "appointments_raw": {
       "both_doses": {
         "locations": [
@@ -117973,7 +118429,7 @@
               }
             ],
             "description": "",
-            "distance": 8.74,
+            "distance": 13.76,
             "fhirLocationId": "53fbbb5e-37ac-415c-b583-670715133d98",
             "locationId": "53fbbb5e-37ac-415c-b583-670715133d98",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -118087,7 +118543,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:42:44.933+00:00",
+    "appointments_last_fetched": "2021-02-27T18:44:04.462+00:00",
     "appointments_raw": {
       "both_doses": {
         "locations": [
@@ -118122,7 +118578,7 @@
               }
             ],
             "description": "",
-            "distance": 8.74,
+            "distance": 13.76,
             "fhirLocationId": "53fbbb5e-37ac-415c-b583-670715133d98",
             "locationId": "53fbbb5e-37ac-415c-b583-670715133d98",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -118236,7 +118692,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:41:25.741+00:00",
+    "appointments_last_fetched": "2021-02-27T18:46:14.965+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -118277,7 +118733,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:41:25.741+00:00",
+    "appointments_last_fetched": "2021-02-27T18:46:14.965+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -118318,7 +118774,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:41:25.741+00:00",
+    "appointments_last_fetched": "2021-02-27T18:46:14.965+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
