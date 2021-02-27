@@ -3,6 +3,14 @@
     "address": "217 SUPERIOR AVE",
     "appointments": [
       {
+        "time": "2021-03-01T12:15:00.000-06:00",
+        "type": "both_doses"
+      },
+      {
+        "time": "2021-03-01T12:15:00.000-06:00",
+        "type": "second_dose_moderna"
+      },
+      {
         "time": "2021-03-02T10:15:00.000-06:00",
         "type": "both_doses"
       },
@@ -92,7 +100,7 @@
       }
     ],
     "appointments_available": true,
-    "appointments_last_fetched": "2021-02-27T18:17:57.975+00:00",
+    "appointments_last_fetched": "2021-02-27T18:22:12.89+00:00",
     "appointments_raw": {
       "both_doses": {
         "locations": [
@@ -106,6 +114,13 @@
               "zip": "70427"
             },
             "appointmentAvailability": [
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "12:15 pm"
+                ]
+              },
               {
                 "date": "2021-03-02",
                 "day": "Tuesday",
@@ -179,6 +194,13 @@
             },
             "appointmentAvailability": [
               {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "12:15 pm"
+                ]
+              },
+              {
                 "date": "2021-03-02",
                 "day": "Tuesday",
                 "slots": [
@@ -209,7 +231,7 @@
               }
             ],
             "description": "",
-            "distance": 22.57,
+            "distance": 10.5,
             "fhirLocationId": "a87112f2-d223-46fd-a278-ee05d13461dc",
             "locationId": "a87112f2-d223-46fd-a278-ee05d13461dc",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -2598,7 +2620,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T17:06:20.682+00:00",
+    "appointments_last_fetched": "2021-02-27T18:22:23.681+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -3326,7 +3348,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T17:06:20.682+00:00",
+    "appointments_last_fetched": "2021-02-27T18:22:23.681+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -3367,7 +3389,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T17:06:20.682+00:00",
+    "appointments_last_fetched": "2021-02-27T18:22:23.681+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -3408,7 +3430,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T17:06:20.682+00:00",
+    "appointments_last_fetched": "2021-02-27T18:22:23.681+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -3449,7 +3471,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T17:06:20.682+00:00",
+    "appointments_last_fetched": "2021-02-27T18:22:23.681+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -3490,7 +3512,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T17:06:20.682+00:00",
+    "appointments_last_fetched": "2021-02-27T18:22:23.681+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -3531,7 +3553,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T17:06:20.682+00:00",
+    "appointments_last_fetched": "2021-02-27T18:22:23.681+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -3620,7 +3642,7 @@
       }
     ],
     "appointments_available": true,
-    "appointments_last_fetched": "2021-02-27T18:16:32.137+00:00",
+    "appointments_last_fetched": "2021-02-27T18:22:40.918+00:00",
     "appointments_raw": {
       "both_doses": {
         "locations": [
@@ -3660,7 +3682,7 @@
               }
             ],
             "description": "",
-            "distance": 22.1,
+            "distance": 13.66,
             "fhirLocationId": "e4fbd166-1e61-4ae0-9bfb-6667be78dbc2",
             "locationId": "e4fbd166-1e61-4ae0-9bfb-6667be78dbc2",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -3727,7 +3749,7 @@
               }
             ],
             "description": "",
-            "distance": 22.1,
+            "distance": 16.74,
             "fhirLocationId": "e4fbd166-1e61-4ae0-9bfb-6667be78dbc2",
             "locationId": "e4fbd166-1e61-4ae0-9bfb-6667be78dbc2",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -3779,7 +3801,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T17:00:52.346+00:00",
+    "appointments_last_fetched": "2021-02-27T18:22:40.918+00:00",
     "appointments_raw": {
       "both_doses": {
         "locations": [
@@ -3797,11 +3819,8 @@
                 "date": "2021-03-02",
                 "day": "Tuesday",
                 "slots": [
-                  "09:30 am",
                   "09:45 am",
                   "10:15 am",
-                  "10:30 am",
-                  "12:45 pm",
                   "02:15 pm",
                   "02:30 pm",
                   "02:45 pm",
@@ -3822,7 +3841,7 @@
               }
             ],
             "description": "",
-            "distance": 23.96,
+            "distance": 13.66,
             "fhirLocationId": "e4fbd166-1e61-4ae0-9bfb-6667be78dbc2",
             "locationId": "e4fbd166-1e61-4ae0-9bfb-6667be78dbc2",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -3867,11 +3886,8 @@
                 "date": "2021-03-02",
                 "day": "Tuesday",
                 "slots": [
-                  "09:30 am",
                   "09:45 am",
                   "10:15 am",
-                  "10:30 am",
-                  "12:45 pm",
                   "02:15 pm",
                   "02:30 pm",
                   "02:45 pm",
@@ -3892,7 +3908,7 @@
               }
             ],
             "description": "",
-            "distance": 22.1,
+            "distance": 16.74,
             "fhirLocationId": "e4fbd166-1e61-4ae0-9bfb-6667be78dbc2",
             "locationId": "e4fbd166-1e61-4ae0-9bfb-6667be78dbc2",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -4303,7 +4319,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:05:07.565+00:00",
+    "appointments_last_fetched": "2021-02-27T18:22:57.922+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -4344,7 +4360,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:05:07.565+00:00",
+    "appointments_last_fetched": "2021-02-27T18:22:57.922+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -4385,7 +4401,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:05:07.565+00:00",
+    "appointments_last_fetched": "2021-02-27T18:22:57.922+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -4467,7 +4483,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:05:07.565+00:00",
+    "appointments_last_fetched": "2021-02-27T18:22:57.922+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -4508,7 +4524,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:05:07.565+00:00",
+    "appointments_last_fetched": "2021-02-27T18:22:57.922+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -4549,7 +4565,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:05:07.565+00:00",
+    "appointments_last_fetched": "2021-02-27T18:22:57.922+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -4590,7 +4606,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:05:07.565+00:00",
+    "appointments_last_fetched": "2021-02-27T18:22:57.922+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -4631,7 +4647,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:05:07.565+00:00",
+    "appointments_last_fetched": "2021-02-27T18:22:57.922+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -4672,7 +4688,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:05:07.565+00:00",
+    "appointments_last_fetched": "2021-02-27T18:22:57.922+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -4713,7 +4729,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:05:07.565+00:00",
+    "appointments_last_fetched": "2021-02-27T18:22:57.922+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -4754,7 +4770,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:05:07.565+00:00",
+    "appointments_last_fetched": "2021-02-27T18:22:57.922+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -4795,7 +4811,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:05:07.565+00:00",
+    "appointments_last_fetched": "2021-02-27T18:22:57.922+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -4877,7 +4893,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:05:07.565+00:00",
+    "appointments_last_fetched": "2021-02-27T18:22:57.922+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -4918,7 +4934,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:05:07.565+00:00",
+    "appointments_last_fetched": "2021-02-27T18:22:57.922+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -5000,7 +5016,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:05:07.565+00:00",
+    "appointments_last_fetched": "2021-02-27T18:22:57.922+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -5082,7 +5098,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:05:07.565+00:00",
+    "appointments_last_fetched": "2021-02-27T18:22:57.922+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -5123,7 +5139,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:05:07.565+00:00",
+    "appointments_last_fetched": "2021-02-27T18:22:57.922+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -5205,7 +5221,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:05:07.565+00:00",
+    "appointments_last_fetched": "2021-02-27T18:22:57.922+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -5246,7 +5262,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:05:07.565+00:00",
+    "appointments_last_fetched": "2021-02-27T18:22:57.922+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -5287,7 +5303,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:05:07.565+00:00",
+    "appointments_last_fetched": "2021-02-27T18:22:57.922+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -5328,7 +5344,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:05:07.565+00:00",
+    "appointments_last_fetched": "2021-02-27T18:22:57.922+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -5369,7 +5385,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:05:07.565+00:00",
+    "appointments_last_fetched": "2021-02-27T18:22:57.922+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -5410,7 +5426,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:05:07.565+00:00",
+    "appointments_last_fetched": "2021-02-27T18:22:57.922+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -5451,7 +5467,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:05:07.565+00:00",
+    "appointments_last_fetched": "2021-02-27T18:22:57.922+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -5492,7 +5508,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:05:07.565+00:00",
+    "appointments_last_fetched": "2021-02-27T18:22:57.922+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -5533,7 +5549,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:05:07.565+00:00",
+    "appointments_last_fetched": "2021-02-27T18:22:57.922+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -5574,7 +5590,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:05:07.565+00:00",
+    "appointments_last_fetched": "2021-02-27T18:22:57.922+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -5615,7 +5631,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:05:07.565+00:00",
+    "appointments_last_fetched": "2021-02-27T18:22:57.922+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -5656,7 +5672,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:05:07.565+00:00",
+    "appointments_last_fetched": "2021-02-27T18:22:57.922+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -5697,7 +5713,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:05:07.565+00:00",
+    "appointments_last_fetched": "2021-02-27T18:22:57.922+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -5738,7 +5754,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:05:07.565+00:00",
+    "appointments_last_fetched": "2021-02-27T18:22:57.922+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -5902,7 +5918,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:04:46.799+00:00",
+    "appointments_last_fetched": "2021-02-27T18:22:34.52+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -5943,7 +5959,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:04:46.799+00:00",
+    "appointments_last_fetched": "2021-02-27T18:22:34.52+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -5984,7 +6000,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:04:46.799+00:00",
+    "appointments_last_fetched": "2021-02-27T18:22:34.52+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -6025,7 +6041,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:04:46.799+00:00",
+    "appointments_last_fetched": "2021-02-27T18:22:34.52+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -6066,7 +6082,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:04:46.799+00:00",
+    "appointments_last_fetched": "2021-02-27T18:22:34.52+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -6107,7 +6123,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:04:46.799+00:00",
+    "appointments_last_fetched": "2021-02-27T18:22:34.52+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -6148,7 +6164,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:04:46.799+00:00",
+    "appointments_last_fetched": "2021-02-27T18:22:34.52+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -6189,7 +6205,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:04:46.799+00:00",
+    "appointments_last_fetched": "2021-02-27T18:22:34.52+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -6230,7 +6246,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:04:46.799+00:00",
+    "appointments_last_fetched": "2021-02-27T18:22:34.52+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -6271,7 +6287,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:04:46.799+00:00",
+    "appointments_last_fetched": "2021-02-27T18:22:34.52+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -6312,7 +6328,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:04:46.799+00:00",
+    "appointments_last_fetched": "2021-02-27T18:22:34.52+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -6353,7 +6369,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:04:46.799+00:00",
+    "appointments_last_fetched": "2021-02-27T18:22:34.52+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -6394,7 +6410,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:04:46.799+00:00",
+    "appointments_last_fetched": "2021-02-27T18:22:34.52+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -6435,7 +6451,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:04:46.799+00:00",
+    "appointments_last_fetched": "2021-02-27T18:22:34.52+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -6476,7 +6492,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:04:46.799+00:00",
+    "appointments_last_fetched": "2021-02-27T18:22:34.52+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -6886,7 +6902,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:10:03.33+00:00",
+    "appointments_last_fetched": "2021-02-27T18:22:37.664+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -7009,7 +7025,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:05:04.951+00:00",
+    "appointments_last_fetched": "2021-02-27T18:23:07.14+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -7050,7 +7066,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:05:04.951+00:00",
+    "appointments_last_fetched": "2021-02-27T18:23:07.14+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -7091,7 +7107,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:05:04.951+00:00",
+    "appointments_last_fetched": "2021-02-27T18:23:07.14+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -7132,7 +7148,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:05:04.951+00:00",
+    "appointments_last_fetched": "2021-02-27T18:23:07.14+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -8774,7 +8790,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T17:07:22.478+00:00",
+    "appointments_last_fetched": "2021-02-27T18:24:18.194+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
