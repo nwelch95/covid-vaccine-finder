@@ -1726,24 +1726,27 @@
       }
     ],
     "appointments_available": true,
-    "appointments_last_fetched": "2021-02-27T10:52:43.335+00:00",
+    "appointments_last_fetched": "2021-02-27T10:58:44.445+00:00",
     "appointments_raw": {
       "both_doses": {
         "locations": [
           {
             "address": {
-              "city": "FLATWOODS",
+              "city": "CATLETTSBURG",
               "country": "US",
-              "line1": "1900 ARGILLITE RD",
+              "line1": "3501 COURT STREET",
               "line2": "",
               "state": "KY",
-              "zip": "41139"
+              "zip": "41129"
             },
             "appointmentAvailability": [
               {
                 "date": "2021-03-01",
                 "day": "Monday",
                 "slots": [
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
                   "10:30 am",
                   "10:45 am",
                   "11:00 am",
@@ -1758,14 +1761,7 @@
                   "02:15 pm",
                   "02:30 pm",
                   "02:45 pm",
-                  "03:00 pm",
-                  "03:15 pm",
-                  "03:45 pm",
-                  "04:30 pm",
-                  "04:45 pm",
-                  "05:00 pm",
-                  "05:15 pm",
-                  "05:30 pm"
+                  "03:00 pm"
                 ]
               }
             ],
@@ -1782,32 +1778,32 @@
               }
             ],
             "description": "",
-            "distance": 15.1,
-            "fhirLocationId": "7a998d86-5c98-4434-948c-e929734bba09",
-            "locationId": "7a998d86-5c98-4434-948c-e929734bba09",
+            "distance": 0.31,
+            "fhirLocationId": "ecaedca8-5c78-4f9e-aa4c-39bee892e9c8",
+            "locationId": "ecaedca8-5c78-4f9e-aa4c-39bee892e9c8",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
             "name": "Walgreen Drug Store",
             "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "17727",
+            "partnerLocationId": "19810",
             "phone": [
               {
-                "number": "606-836-2498",
+                "number": "606-739-4432",
                 "type": "StorePrimary"
               },
               {
-                "number": "606-833-2724",
+                "number": "606-739-4682",
                 "type": "StoreSecondary"
               },
               {
-                "number": "606-836-2498",
+                "number": "606-739-4432",
                 "type": "Pharmacy"
               }
             ],
             "position": {
-              "latitude": 38.52209339,
-              "longitude": -82.71717224
+              "latitude": 38.40440471,
+              "longitude": -82.6006265
             },
-            "storenumber": "17727"
+            "storenumber": "19810"
           },
           {
             "address": {
@@ -1855,7 +1851,7 @@
               }
             ],
             "description": "",
-            "distance": 10.79,
+            "distance": 5.56,
             "fhirLocationId": "b0ad5fcb-acc8-43df-9e83-5539c07804a2",
             "locationId": "b0ad5fcb-acc8-43df-9e83-5539c07804a2",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -1882,6 +1878,91 @@
             },
             "storenumber": "19356"
           },
+          {
+            "address": {
+              "city": "LOUISA",
+              "country": "US",
+              "line1": "4311 HIGHWAY 2565",
+              "line2": "",
+              "state": "KY",
+              "zip": "41230"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "11:00 am",
+                  "11:30 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "01:45 pm",
+                  "02:00 pm",
+                  "02:15 pm",
+                  "02:45 pm",
+                  "03:00 pm",
+                  "03:30 pm",
+                  "03:45 pm",
+                  "04:00 pm",
+                  "04:15 pm",
+                  "04:30 pm",
+                  "04:45 pm",
+                  "05:00 pm",
+                  "05:15 pm",
+                  "05:30 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 19.46,
+            "fhirLocationId": "b6d04327-a1c6-4776-8c95-7ed849881c3a",
+            "locationId": "b6d04327-a1c6-4776-8c95-7ed849881c3a",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "17442",
+            "phone": [
+              {
+                "number": "606-638-3110",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "606-638-3540",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "606-638-3110",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 38.11869728,
+              "longitude": -82.61922226
+            },
+            "storenumber": "17442"
+          }
+        ]
+      },
+      "second_dose_moderna": {
+        "locations": [
           {
             "address": {
               "city": "CATLETTSBURG",
@@ -1959,166 +2040,8 @@
           }
         ]
       },
-      "second_dose_moderna": {
-        "locations": [
-          {
-            "address": {
-              "city": "CATLETTSBURG",
-              "country": "US",
-              "line1": "3501 COURT STREET",
-              "line2": "",
-              "state": "KY",
-              "zip": "41129"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "09:45 am",
-                  "10:00 am",
-                  "10:15 am",
-                  "10:30 am",
-                  "10:45 am",
-                  "11:00 am",
-                  "11:15 am",
-                  "11:30 am",
-                  "11:45 am",
-                  "12:00 pm",
-                  "12:15 pm",
-                  "12:30 pm",
-                  "12:45 pm",
-                  "01:00 pm",
-                  "02:15 pm",
-                  "02:30 pm",
-                  "02:45 pm",
-                  "03:00 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 23.85,
-            "fhirLocationId": "ecaedca8-5c78-4f9e-aa4c-39bee892e9c8",
-            "locationId": "ecaedca8-5c78-4f9e-aa4c-39bee892e9c8",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "19810",
-            "phone": [
-              {
-                "number": "606-739-4432",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "606-739-4682",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "606-739-4432",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 38.40440471,
-              "longitude": -82.6006265
-            },
-            "storenumber": "19810"
-          }
-        ]
-      },
       "second_dose_pfizer": {
         "locations": [
-          {
-            "address": {
-              "city": "FLATWOODS",
-              "country": "US",
-              "line1": "1900 ARGILLITE RD",
-              "line2": "",
-              "state": "KY",
-              "zip": "41139"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "10:30 am",
-                  "10:45 am",
-                  "11:00 am",
-                  "11:15 am",
-                  "11:30 am",
-                  "11:45 am",
-                  "12:00 pm",
-                  "12:15 pm",
-                  "12:30 pm",
-                  "12:45 pm",
-                  "01:00 pm",
-                  "02:15 pm",
-                  "02:30 pm",
-                  "02:45 pm",
-                  "03:00 pm",
-                  "03:15 pm",
-                  "03:45 pm",
-                  "04:30 pm",
-                  "04:45 pm",
-                  "05:00 pm",
-                  "05:15 pm",
-                  "05:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 14.93,
-            "fhirLocationId": "7a998d86-5c98-4434-948c-e929734bba09",
-            "locationId": "7a998d86-5c98-4434-948c-e929734bba09",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "17727",
-            "phone": [
-              {
-                "number": "606-836-2498",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "606-833-2724",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "606-836-2498",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 38.52209339,
-              "longitude": -82.71717224
-            },
-            "storenumber": "17727"
-          },
           {
             "address": {
               "city": "ASHLAND",
@@ -2191,6 +2114,87 @@
               "longitude": -82.65874195
             },
             "storenumber": "19356"
+          },
+          {
+            "address": {
+              "city": "LOUISA",
+              "country": "US",
+              "line1": "4311 HIGHWAY 2565",
+              "line2": "",
+              "state": "KY",
+              "zip": "41230"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "11:00 am",
+                  "11:30 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "01:45 pm",
+                  "02:00 pm",
+                  "02:15 pm",
+                  "02:45 pm",
+                  "03:00 pm",
+                  "03:30 pm",
+                  "03:45 pm",
+                  "04:00 pm",
+                  "04:15 pm",
+                  "04:30 pm",
+                  "04:45 pm",
+                  "05:00 pm",
+                  "05:15 pm",
+                  "05:30 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 17.91,
+            "fhirLocationId": "b6d04327-a1c6-4776-8c95-7ed849881c3a",
+            "locationId": "b6d04327-a1c6-4776-8c95-7ed849881c3a",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "17442",
+            "phone": [
+              {
+                "number": "606-638-3110",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "606-638-3540",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "606-638-3110",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 38.11869728,
+              "longitude": -82.61922226
+            },
+            "storenumber": "17442"
           }
         ]
       }
@@ -2337,24 +2341,27 @@
       }
     ],
     "appointments_available": true,
-    "appointments_last_fetched": "2021-02-27T10:52:43.335+00:00",
+    "appointments_last_fetched": "2021-02-27T10:58:44.445+00:00",
     "appointments_raw": {
       "both_doses": {
         "locations": [
           {
             "address": {
-              "city": "FLATWOODS",
+              "city": "CATLETTSBURG",
               "country": "US",
-              "line1": "1900 ARGILLITE RD",
+              "line1": "3501 COURT STREET",
               "line2": "",
               "state": "KY",
-              "zip": "41139"
+              "zip": "41129"
             },
             "appointmentAvailability": [
               {
                 "date": "2021-03-01",
                 "day": "Monday",
                 "slots": [
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
                   "10:30 am",
                   "10:45 am",
                   "11:00 am",
@@ -2369,14 +2376,7 @@
                   "02:15 pm",
                   "02:30 pm",
                   "02:45 pm",
-                  "03:00 pm",
-                  "03:15 pm",
-                  "03:45 pm",
-                  "04:30 pm",
-                  "04:45 pm",
-                  "05:00 pm",
-                  "05:15 pm",
-                  "05:30 pm"
+                  "03:00 pm"
                 ]
               }
             ],
@@ -2393,32 +2393,32 @@
               }
             ],
             "description": "",
-            "distance": 15.1,
-            "fhirLocationId": "7a998d86-5c98-4434-948c-e929734bba09",
-            "locationId": "7a998d86-5c98-4434-948c-e929734bba09",
+            "distance": 0.31,
+            "fhirLocationId": "ecaedca8-5c78-4f9e-aa4c-39bee892e9c8",
+            "locationId": "ecaedca8-5c78-4f9e-aa4c-39bee892e9c8",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
             "name": "Walgreen Drug Store",
             "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "17727",
+            "partnerLocationId": "19810",
             "phone": [
               {
-                "number": "606-836-2498",
+                "number": "606-739-4432",
                 "type": "StorePrimary"
               },
               {
-                "number": "606-833-2724",
+                "number": "606-739-4682",
                 "type": "StoreSecondary"
               },
               {
-                "number": "606-836-2498",
+                "number": "606-739-4432",
                 "type": "Pharmacy"
               }
             ],
             "position": {
-              "latitude": 38.52209339,
-              "longitude": -82.71717224
+              "latitude": 38.40440471,
+              "longitude": -82.6006265
             },
-            "storenumber": "17727"
+            "storenumber": "19810"
           },
           {
             "address": {
@@ -2466,7 +2466,7 @@
               }
             ],
             "description": "",
-            "distance": 10.79,
+            "distance": 5.56,
             "fhirLocationId": "b0ad5fcb-acc8-43df-9e83-5539c07804a2",
             "locationId": "b0ad5fcb-acc8-43df-9e83-5539c07804a2",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -2493,6 +2493,91 @@
             },
             "storenumber": "19356"
           },
+          {
+            "address": {
+              "city": "LOUISA",
+              "country": "US",
+              "line1": "4311 HIGHWAY 2565",
+              "line2": "",
+              "state": "KY",
+              "zip": "41230"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "11:00 am",
+                  "11:30 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "01:45 pm",
+                  "02:00 pm",
+                  "02:15 pm",
+                  "02:45 pm",
+                  "03:00 pm",
+                  "03:30 pm",
+                  "03:45 pm",
+                  "04:00 pm",
+                  "04:15 pm",
+                  "04:30 pm",
+                  "04:45 pm",
+                  "05:00 pm",
+                  "05:15 pm",
+                  "05:30 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 19.46,
+            "fhirLocationId": "b6d04327-a1c6-4776-8c95-7ed849881c3a",
+            "locationId": "b6d04327-a1c6-4776-8c95-7ed849881c3a",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "17442",
+            "phone": [
+              {
+                "number": "606-638-3110",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "606-638-3540",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "606-638-3110",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 38.11869728,
+              "longitude": -82.61922226
+            },
+            "storenumber": "17442"
+          }
+        ]
+      },
+      "second_dose_moderna": {
+        "locations": [
           {
             "address": {
               "city": "CATLETTSBURG",
@@ -2570,166 +2655,8 @@
           }
         ]
       },
-      "second_dose_moderna": {
-        "locations": [
-          {
-            "address": {
-              "city": "CATLETTSBURG",
-              "country": "US",
-              "line1": "3501 COURT STREET",
-              "line2": "",
-              "state": "KY",
-              "zip": "41129"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "09:45 am",
-                  "10:00 am",
-                  "10:15 am",
-                  "10:30 am",
-                  "10:45 am",
-                  "11:00 am",
-                  "11:15 am",
-                  "11:30 am",
-                  "11:45 am",
-                  "12:00 pm",
-                  "12:15 pm",
-                  "12:30 pm",
-                  "12:45 pm",
-                  "01:00 pm",
-                  "02:15 pm",
-                  "02:30 pm",
-                  "02:45 pm",
-                  "03:00 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 23.85,
-            "fhirLocationId": "ecaedca8-5c78-4f9e-aa4c-39bee892e9c8",
-            "locationId": "ecaedca8-5c78-4f9e-aa4c-39bee892e9c8",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "19810",
-            "phone": [
-              {
-                "number": "606-739-4432",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "606-739-4682",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "606-739-4432",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 38.40440471,
-              "longitude": -82.6006265
-            },
-            "storenumber": "19810"
-          }
-        ]
-      },
       "second_dose_pfizer": {
         "locations": [
-          {
-            "address": {
-              "city": "FLATWOODS",
-              "country": "US",
-              "line1": "1900 ARGILLITE RD",
-              "line2": "",
-              "state": "KY",
-              "zip": "41139"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "10:30 am",
-                  "10:45 am",
-                  "11:00 am",
-                  "11:15 am",
-                  "11:30 am",
-                  "11:45 am",
-                  "12:00 pm",
-                  "12:15 pm",
-                  "12:30 pm",
-                  "12:45 pm",
-                  "01:00 pm",
-                  "02:15 pm",
-                  "02:30 pm",
-                  "02:45 pm",
-                  "03:00 pm",
-                  "03:15 pm",
-                  "03:45 pm",
-                  "04:30 pm",
-                  "04:45 pm",
-                  "05:00 pm",
-                  "05:15 pm",
-                  "05:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 14.93,
-            "fhirLocationId": "7a998d86-5c98-4434-948c-e929734bba09",
-            "locationId": "7a998d86-5c98-4434-948c-e929734bba09",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "17727",
-            "phone": [
-              {
-                "number": "606-836-2498",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "606-833-2724",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "606-836-2498",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 38.52209339,
-              "longitude": -82.71717224
-            },
-            "storenumber": "17727"
-          },
           {
             "address": {
               "city": "ASHLAND",
@@ -2802,6 +2729,87 @@
               "longitude": -82.65874195
             },
             "storenumber": "19356"
+          },
+          {
+            "address": {
+              "city": "LOUISA",
+              "country": "US",
+              "line1": "4311 HIGHWAY 2565",
+              "line2": "",
+              "state": "KY",
+              "zip": "41230"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "11:00 am",
+                  "11:30 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "01:45 pm",
+                  "02:00 pm",
+                  "02:15 pm",
+                  "02:45 pm",
+                  "03:00 pm",
+                  "03:30 pm",
+                  "03:45 pm",
+                  "04:00 pm",
+                  "04:15 pm",
+                  "04:30 pm",
+                  "04:45 pm",
+                  "05:00 pm",
+                  "05:15 pm",
+                  "05:30 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 17.91,
+            "fhirLocationId": "b6d04327-a1c6-4776-8c95-7ed849881c3a",
+            "locationId": "b6d04327-a1c6-4776-8c95-7ed849881c3a",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "17442",
+            "phone": [
+              {
+                "number": "606-638-3110",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "606-638-3540",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "606-638-3110",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 38.11869728,
+              "longitude": -82.61922226
+            },
+            "storenumber": "17442"
           }
         ]
       }
@@ -3671,7 +3679,7 @@
       }
     ],
     "appointments_available": true,
-    "appointments_last_fetched": "2021-02-27T10:48:39.569+00:00",
+    "appointments_last_fetched": "2021-02-27T10:58:44.445+00:00",
     "appointments_raw": {
       "both_doses": {
         "locations": [
@@ -3723,7 +3731,7 @@
               }
             ],
             "description": "",
-            "distance": 21.76,
+            "distance": 0.31,
             "fhirLocationId": "ecaedca8-5c78-4f9e-aa4c-39bee892e9c8",
             "locationId": "ecaedca8-5c78-4f9e-aa4c-39bee892e9c8",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -3796,7 +3804,7 @@
               }
             ],
             "description": "",
-            "distance": 18.55,
+            "distance": 5.56,
             "fhirLocationId": "b0ad5fcb-acc8-43df-9e83-5539c07804a2",
             "locationId": "b0ad5fcb-acc8-43df-9e83-5539c07804a2",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -3877,7 +3885,7 @@
               }
             ],
             "description": "",
-            "distance": 23.5,
+            "distance": 19.46,
             "fhirLocationId": "b6d04327-a1c6-4776-8c95-7ed849881c3a",
             "locationId": "b6d04327-a1c6-4776-8c95-7ed849881c3a",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -3956,7 +3964,7 @@
               }
             ],
             "description": "",
-            "distance": 18.11,
+            "distance": 7.05,
             "fhirLocationId": "ecaedca8-5c78-4f9e-aa4c-39bee892e9c8",
             "locationId": "ecaedca8-5c78-4f9e-aa4c-39bee892e9c8",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -4033,7 +4041,7 @@
               }
             ],
             "description": "",
-            "distance": 18.55,
+            "distance": 19.86,
             "fhirLocationId": "b0ad5fcb-acc8-43df-9e83-5539c07804a2",
             "locationId": "b0ad5fcb-acc8-43df-9e83-5539c07804a2",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -4114,7 +4122,7 @@
               }
             ],
             "description": "",
-            "distance": 22.49,
+            "distance": 17.91,
             "fhirLocationId": "b6d04327-a1c6-4776-8c95-7ed849881c3a",
             "locationId": "b6d04327-a1c6-4776-8c95-7ed849881c3a",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -4773,7 +4781,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T10:46:04.919+00:00",
+    "appointments_last_fetched": "2021-02-27T10:59:06.267+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -5142,7 +5150,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T10:46:04.919+00:00",
+    "appointments_last_fetched": "2021-02-27T10:59:06.267+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -5183,7 +5191,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T10:46:04.919+00:00",
+    "appointments_last_fetched": "2021-02-27T10:59:06.267+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -5634,7 +5642,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T10:46:04.919+00:00",
+    "appointments_last_fetched": "2021-02-27T10:59:06.267+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
