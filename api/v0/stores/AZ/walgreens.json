@@ -19987,21 +19987,167 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T11:43:30.992+00:00",
+    "appointments_last_fetched": "2021-02-27T12:17:38.676+00:00",
     "appointments_raw": {
       "both_doses": {
-        "error": [
+        "locations": [
           {
-            "code": "FC_904_NoData",
-            "message": "Insufficient inventory."
+            "address": {
+              "city": "COTTONWOOD",
+              "country": "US",
+              "line1": "550 S MAIN ST",
+              "line2": "",
+              "state": "AZ",
+              "zip": "86326"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "09:15 am",
+                  "09:30 am",
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "11:00 am",
+                  "11:15 am",
+                  "11:30 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "02:15 pm",
+                  "02:30 pm",
+                  "02:45 pm",
+                  "03:00 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 23.85,
+            "fhirLocationId": "8489bdcc-af8f-4336-9566-1d74de2e262f",
+            "locationId": "8489bdcc-af8f-4336-9566-1d74de2e262f",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "5567",
+            "phone": [
+              {
+                "number": "928-649-3850",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "928-649-3855",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "928-649-3850",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 34.72925898,
+              "longitude": -112.0099376
+            },
+            "storenumber": "5567"
           }
         ]
       },
       "second_dose_moderna": {
-        "error": [
+        "locations": [
           {
-            "code": "FC_904_NoData",
-            "message": "Insufficient inventory."
+            "address": {
+              "city": "COTTONWOOD",
+              "country": "US",
+              "line1": "550 S MAIN ST",
+              "line2": "",
+              "state": "AZ",
+              "zip": "86326"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "09:15 am",
+                  "09:30 am",
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "11:00 am",
+                  "11:15 am",
+                  "11:30 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "02:15 pm",
+                  "02:30 pm",
+                  "02:45 pm",
+                  "03:00 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 11.29,
+            "fhirLocationId": "8489bdcc-af8f-4336-9566-1d74de2e262f",
+            "locationId": "8489bdcc-af8f-4336-9566-1d74de2e262f",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "5567",
+            "phone": [
+              {
+                "number": "928-649-3850",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "928-649-3855",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "928-649-3850",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 34.72925898,
+              "longitude": -112.0099376
+            },
+            "storenumber": "5567"
           }
         ]
       },
@@ -20026,23 +20172,329 @@
   {
     "address": "550 S MAIN ST",
     "appointments": [
+      {
+        "time": "2021-03-02T09:15:00.000-07:00",
+        "type": "both_doses"
+      },
+      {
+        "time": "2021-03-02T09:15:00.000-07:00",
+        "type": "second_dose_moderna"
+      },
+      {
+        "time": "2021-03-02T09:30:00.000-07:00",
+        "type": "both_doses"
+      },
+      {
+        "time": "2021-03-02T09:30:00.000-07:00",
+        "type": "second_dose_moderna"
+      },
+      {
+        "time": "2021-03-02T09:45:00.000-07:00",
+        "type": "both_doses"
+      },
+      {
+        "time": "2021-03-02T09:45:00.000-07:00",
+        "type": "second_dose_moderna"
+      },
+      {
+        "time": "2021-03-02T10:00:00.000-07:00",
+        "type": "both_doses"
+      },
+      {
+        "time": "2021-03-02T10:00:00.000-07:00",
+        "type": "second_dose_moderna"
+      },
+      {
+        "time": "2021-03-02T10:15:00.000-07:00",
+        "type": "both_doses"
+      },
+      {
+        "time": "2021-03-02T10:15:00.000-07:00",
+        "type": "second_dose_moderna"
+      },
+      {
+        "time": "2021-03-02T10:30:00.000-07:00",
+        "type": "both_doses"
+      },
+      {
+        "time": "2021-03-02T10:30:00.000-07:00",
+        "type": "second_dose_moderna"
+      },
+      {
+        "time": "2021-03-02T10:45:00.000-07:00",
+        "type": "both_doses"
+      },
+      {
+        "time": "2021-03-02T10:45:00.000-07:00",
+        "type": "second_dose_moderna"
+      },
+      {
+        "time": "2021-03-02T11:00:00.000-07:00",
+        "type": "both_doses"
+      },
+      {
+        "time": "2021-03-02T11:00:00.000-07:00",
+        "type": "second_dose_moderna"
+      },
+      {
+        "time": "2021-03-02T11:15:00.000-07:00",
+        "type": "both_doses"
+      },
+      {
+        "time": "2021-03-02T11:15:00.000-07:00",
+        "type": "second_dose_moderna"
+      },
+      {
+        "time": "2021-03-02T11:30:00.000-07:00",
+        "type": "both_doses"
+      },
+      {
+        "time": "2021-03-02T11:30:00.000-07:00",
+        "type": "second_dose_moderna"
+      },
+      {
+        "time": "2021-03-02T11:45:00.000-07:00",
+        "type": "both_doses"
+      },
+      {
+        "time": "2021-03-02T11:45:00.000-07:00",
+        "type": "second_dose_moderna"
+      },
+      {
+        "time": "2021-03-02T12:00:00.000-07:00",
+        "type": "both_doses"
+      },
+      {
+        "time": "2021-03-02T12:00:00.000-07:00",
+        "type": "second_dose_moderna"
+      },
+      {
+        "time": "2021-03-02T12:15:00.000-07:00",
+        "type": "both_doses"
+      },
+      {
+        "time": "2021-03-02T12:15:00.000-07:00",
+        "type": "second_dose_moderna"
+      },
+      {
+        "time": "2021-03-02T12:30:00.000-07:00",
+        "type": "both_doses"
+      },
+      {
+        "time": "2021-03-02T12:30:00.000-07:00",
+        "type": "second_dose_moderna"
+      },
+      {
+        "time": "2021-03-02T12:45:00.000-07:00",
+        "type": "both_doses"
+      },
+      {
+        "time": "2021-03-02T12:45:00.000-07:00",
+        "type": "second_dose_moderna"
+      },
+      {
+        "time": "2021-03-02T13:00:00.000-07:00",
+        "type": "both_doses"
+      },
+      {
+        "time": "2021-03-02T13:00:00.000-07:00",
+        "type": "second_dose_moderna"
+      },
+      {
+        "time": "2021-03-02T14:15:00.000-07:00",
+        "type": "both_doses"
+      },
+      {
+        "time": "2021-03-02T14:15:00.000-07:00",
+        "type": "second_dose_moderna"
+      },
+      {
+        "time": "2021-03-02T14:30:00.000-07:00",
+        "type": "both_doses"
+      },
+      {
+        "time": "2021-03-02T14:30:00.000-07:00",
+        "type": "second_dose_moderna"
+      },
+      {
+        "time": "2021-03-02T14:45:00.000-07:00",
+        "type": "both_doses"
+      },
+      {
+        "time": "2021-03-02T14:45:00.000-07:00",
+        "type": "second_dose_moderna"
+      },
+      {
+        "time": "2021-03-02T15:00:00.000-07:00",
+        "type": "both_doses"
+      },
+      {
+        "time": "2021-03-02T15:00:00.000-07:00",
+        "type": "second_dose_moderna"
+      }
     ],
-    "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T11:45:49.959+00:00",
+    "appointments_available": true,
+    "appointments_last_fetched": "2021-02-27T12:17:38.676+00:00",
     "appointments_raw": {
       "both_doses": {
-        "error": [
+        "locations": [
           {
-            "code": "FC_904_NoData",
-            "message": "Insufficient inventory."
+            "address": {
+              "city": "COTTONWOOD",
+              "country": "US",
+              "line1": "550 S MAIN ST",
+              "line2": "",
+              "state": "AZ",
+              "zip": "86326"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "09:15 am",
+                  "09:30 am",
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "11:00 am",
+                  "11:15 am",
+                  "11:30 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "02:15 pm",
+                  "02:30 pm",
+                  "02:45 pm",
+                  "03:00 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 23.85,
+            "fhirLocationId": "8489bdcc-af8f-4336-9566-1d74de2e262f",
+            "locationId": "8489bdcc-af8f-4336-9566-1d74de2e262f",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "5567",
+            "phone": [
+              {
+                "number": "928-649-3850",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "928-649-3855",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "928-649-3850",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 34.72925898,
+              "longitude": -112.0099376
+            },
+            "storenumber": "5567"
           }
         ]
       },
       "second_dose_moderna": {
-        "error": [
+        "locations": [
           {
-            "code": "FC_904_NoData",
-            "message": "Insufficient inventory."
+            "address": {
+              "city": "COTTONWOOD",
+              "country": "US",
+              "line1": "550 S MAIN ST",
+              "line2": "",
+              "state": "AZ",
+              "zip": "86326"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "09:15 am",
+                  "09:30 am",
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "11:00 am",
+                  "11:15 am",
+                  "11:30 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "02:15 pm",
+                  "02:30 pm",
+                  "02:45 pm",
+                  "03:00 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 11.29,
+            "fhirLocationId": "8489bdcc-af8f-4336-9566-1d74de2e262f",
+            "locationId": "8489bdcc-af8f-4336-9566-1d74de2e262f",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "5567",
+            "phone": [
+              {
+                "number": "928-649-3850",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "928-649-3855",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "928-649-3850",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 34.72925898,
+              "longitude": -112.0099376
+            },
+            "storenumber": "5567"
           }
         ]
       },
@@ -20069,21 +20521,167 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T11:43:30.992+00:00",
+    "appointments_last_fetched": "2021-02-27T12:17:38.676+00:00",
     "appointments_raw": {
       "both_doses": {
-        "error": [
+        "locations": [
           {
-            "code": "FC_904_NoData",
-            "message": "Insufficient inventory."
+            "address": {
+              "city": "COTTONWOOD",
+              "country": "US",
+              "line1": "550 S MAIN ST",
+              "line2": "",
+              "state": "AZ",
+              "zip": "86326"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "09:15 am",
+                  "09:30 am",
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "11:00 am",
+                  "11:15 am",
+                  "11:30 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "02:15 pm",
+                  "02:30 pm",
+                  "02:45 pm",
+                  "03:00 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 23.85,
+            "fhirLocationId": "8489bdcc-af8f-4336-9566-1d74de2e262f",
+            "locationId": "8489bdcc-af8f-4336-9566-1d74de2e262f",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "5567",
+            "phone": [
+              {
+                "number": "928-649-3850",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "928-649-3855",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "928-649-3850",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 34.72925898,
+              "longitude": -112.0099376
+            },
+            "storenumber": "5567"
           }
         ]
       },
       "second_dose_moderna": {
-        "error": [
+        "locations": [
           {
-            "code": "FC_904_NoData",
-            "message": "Insufficient inventory."
+            "address": {
+              "city": "COTTONWOOD",
+              "country": "US",
+              "line1": "550 S MAIN ST",
+              "line2": "",
+              "state": "AZ",
+              "zip": "86326"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "09:15 am",
+                  "09:30 am",
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "11:00 am",
+                  "11:15 am",
+                  "11:30 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "02:15 pm",
+                  "02:30 pm",
+                  "02:45 pm",
+                  "03:00 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 11.29,
+            "fhirLocationId": "8489bdcc-af8f-4336-9566-1d74de2e262f",
+            "locationId": "8489bdcc-af8f-4336-9566-1d74de2e262f",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "5567",
+            "phone": [
+              {
+                "number": "928-649-3850",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "928-649-3855",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "928-649-3850",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 34.72925898,
+              "longitude": -112.0099376
+            },
+            "storenumber": "5567"
           }
         ]
       },
@@ -20108,23 +20706,637 @@
   {
     "address": "2880 N CENTRE CT",
     "appointments": [
+      {
+        "time": "2021-03-02T09:15:00.000-07:00",
+        "type": "both_doses"
+      },
+      {
+        "time": "2021-03-02T09:15:00.000-07:00",
+        "type": "second_dose_moderna"
+      },
+      {
+        "time": "2021-03-02T09:30:00.000-07:00",
+        "type": "both_doses"
+      },
+      {
+        "time": "2021-03-02T09:30:00.000-07:00",
+        "type": "second_dose_moderna"
+      },
+      {
+        "time": "2021-03-02T09:45:00.000-07:00",
+        "type": "both_doses"
+      },
+      {
+        "time": "2021-03-02T09:45:00.000-07:00",
+        "type": "second_dose_moderna"
+      },
+      {
+        "time": "2021-03-02T10:00:00.000-07:00",
+        "type": "both_doses"
+      },
+      {
+        "time": "2021-03-02T10:00:00.000-07:00",
+        "type": "second_dose_moderna"
+      },
+      {
+        "time": "2021-03-02T10:15:00.000-07:00",
+        "type": "both_doses"
+      },
+      {
+        "time": "2021-03-02T10:15:00.000-07:00",
+        "type": "second_dose_moderna"
+      },
+      {
+        "time": "2021-03-02T10:30:00.000-07:00",
+        "type": "both_doses"
+      },
+      {
+        "time": "2021-03-02T10:30:00.000-07:00",
+        "type": "second_dose_moderna"
+      },
+      {
+        "time": "2021-03-02T10:45:00.000-07:00",
+        "type": "both_doses"
+      },
+      {
+        "time": "2021-03-02T10:45:00.000-07:00",
+        "type": "second_dose_moderna"
+      },
+      {
+        "time": "2021-03-02T11:00:00.000-07:00",
+        "type": "both_doses"
+      },
+      {
+        "time": "2021-03-02T11:00:00.000-07:00",
+        "type": "second_dose_moderna"
+      },
+      {
+        "time": "2021-03-02T11:15:00.000-07:00",
+        "type": "both_doses"
+      },
+      {
+        "time": "2021-03-02T11:15:00.000-07:00",
+        "type": "second_dose_moderna"
+      },
+      {
+        "time": "2021-03-02T11:30:00.000-07:00",
+        "type": "both_doses"
+      },
+      {
+        "time": "2021-03-02T11:30:00.000-07:00",
+        "type": "second_dose_moderna"
+      },
+      {
+        "time": "2021-03-02T11:45:00.000-07:00",
+        "type": "both_doses"
+      },
+      {
+        "time": "2021-03-02T11:45:00.000-07:00",
+        "type": "second_dose_moderna"
+      },
+      {
+        "time": "2021-03-02T12:00:00.000-07:00",
+        "type": "both_doses"
+      },
+      {
+        "time": "2021-03-02T12:00:00.000-07:00",
+        "type": "second_dose_moderna"
+      },
+      {
+        "time": "2021-03-02T12:15:00.000-07:00",
+        "type": "both_doses"
+      },
+      {
+        "time": "2021-03-02T12:15:00.000-07:00",
+        "type": "second_dose_moderna"
+      },
+      {
+        "time": "2021-03-02T12:30:00.000-07:00",
+        "type": "both_doses"
+      },
+      {
+        "time": "2021-03-02T12:30:00.000-07:00",
+        "type": "second_dose_moderna"
+      },
+      {
+        "time": "2021-03-02T12:45:00.000-07:00",
+        "type": "both_doses"
+      },
+      {
+        "time": "2021-03-02T12:45:00.000-07:00",
+        "type": "second_dose_moderna"
+      },
+      {
+        "time": "2021-03-02T13:00:00.000-07:00",
+        "type": "both_doses"
+      },
+      {
+        "time": "2021-03-02T13:00:00.000-07:00",
+        "type": "second_dose_moderna"
+      },
+      {
+        "time": "2021-03-02T14:15:00.000-07:00",
+        "type": "both_doses"
+      },
+      {
+        "time": "2021-03-02T14:15:00.000-07:00",
+        "type": "second_dose_moderna"
+      },
+      {
+        "time": "2021-03-02T14:30:00.000-07:00",
+        "type": "both_doses"
+      },
+      {
+        "time": "2021-03-02T14:30:00.000-07:00",
+        "type": "second_dose_moderna"
+      },
+      {
+        "time": "2021-03-02T14:45:00.000-07:00",
+        "type": "both_doses"
+      },
+      {
+        "time": "2021-03-02T14:45:00.000-07:00",
+        "type": "second_dose_moderna"
+      },
+      {
+        "time": "2021-03-02T15:00:00.000-07:00",
+        "type": "both_doses"
+      },
+      {
+        "time": "2021-03-02T15:00:00.000-07:00",
+        "type": "second_dose_moderna"
+      }
     ],
-    "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T11:45:49.959+00:00",
+    "appointments_available": true,
+    "appointments_last_fetched": "2021-02-27T12:17:14.784+00:00",
     "appointments_raw": {
       "both_doses": {
-        "error": [
+        "locations": [
           {
-            "code": "FC_904_NoData",
-            "message": "Insufficient inventory."
+            "address": {
+              "city": "PRESCOTT VALLEY",
+              "country": "US",
+              "line1": "2880 N CENTRE CT",
+              "line2": "",
+              "state": "AZ",
+              "zip": "86314"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "09:15 am",
+                  "09:30 am",
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "11:00 am",
+                  "11:15 am",
+                  "11:30 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "02:15 pm",
+                  "02:30 pm",
+                  "02:45 pm",
+                  "03:00 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 10,
+            "fhirLocationId": "5a40c0cd-0eaf-482a-9ad8-3cd40f830f8a",
+            "locationId": "5a40c0cd-0eaf-482a-9ad8-3cd40f830f8a",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "6666",
+            "phone": [
+              {
+                "number": "928-772-4938",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "928-772-4874",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "928-772-4938",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 34.58426974,
+              "longitude": -112.33983125
+            },
+            "storenumber": "6666"
+          },
+          {
+            "address": {
+              "city": "COTTONWOOD",
+              "country": "US",
+              "line1": "550 S MAIN ST",
+              "line2": "",
+              "state": "AZ",
+              "zip": "86326"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "09:15 am",
+                  "09:30 am",
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "11:00 am",
+                  "11:15 am",
+                  "11:30 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "02:15 pm",
+                  "02:30 pm",
+                  "02:45 pm",
+                  "03:00 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 23.85,
+            "fhirLocationId": "8489bdcc-af8f-4336-9566-1d74de2e262f",
+            "locationId": "8489bdcc-af8f-4336-9566-1d74de2e262f",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "5567",
+            "phone": [
+              {
+                "number": "928-649-3850",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "928-649-3855",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "928-649-3850",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 34.72925898,
+              "longitude": -112.0099376
+            },
+            "storenumber": "5567"
+          },
+          {
+            "address": {
+              "city": "PRESCOTT",
+              "country": "US",
+              "line1": "1310 WILLOW CREEK RD",
+              "line2": "",
+              "state": "AZ",
+              "zip": "86301"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "09:15 am",
+                  "09:30 am",
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "11:00 am",
+                  "11:15 am",
+                  "11:30 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "02:15 pm",
+                  "02:30 pm",
+                  "02:45 pm",
+                  "03:00 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 17.85,
+            "fhirLocationId": "cb6dd417-721c-4988-9635-f4de03bcccc1",
+            "locationId": "cb6dd417-721c-4988-9635-f4de03bcccc1",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "9292",
+            "phone": [
+              {
+                "number": "928-227-9965",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "928-227-9962",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "928-227-9965",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 34.56735061,
+              "longitude": -112.48293038
+            },
+            "storenumber": "9292"
           }
         ]
       },
       "second_dose_moderna": {
-        "error": [
+        "locations": [
           {
-            "code": "FC_904_NoData",
-            "message": "Insufficient inventory."
+            "address": {
+              "city": "PRESCOTT VALLEY",
+              "country": "US",
+              "line1": "2880 N CENTRE CT",
+              "line2": "",
+              "state": "AZ",
+              "zip": "86314"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "09:15 am",
+                  "09:30 am",
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "11:00 am",
+                  "11:15 am",
+                  "11:30 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "02:15 pm",
+                  "02:30 pm",
+                  "02:45 pm",
+                  "03:00 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 8.24,
+            "fhirLocationId": "5a40c0cd-0eaf-482a-9ad8-3cd40f830f8a",
+            "locationId": "5a40c0cd-0eaf-482a-9ad8-3cd40f830f8a",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "6666",
+            "phone": [
+              {
+                "number": "928-772-4938",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "928-772-4874",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "928-772-4938",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 34.58426974,
+              "longitude": -112.33983125
+            },
+            "storenumber": "6666"
+          },
+          {
+            "address": {
+              "city": "COTTONWOOD",
+              "country": "US",
+              "line1": "550 S MAIN ST",
+              "line2": "",
+              "state": "AZ",
+              "zip": "86326"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "09:15 am",
+                  "09:30 am",
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "11:00 am",
+                  "11:15 am",
+                  "11:30 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "02:15 pm",
+                  "02:30 pm",
+                  "02:45 pm",
+                  "03:00 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 15.87,
+            "fhirLocationId": "8489bdcc-af8f-4336-9566-1d74de2e262f",
+            "locationId": "8489bdcc-af8f-4336-9566-1d74de2e262f",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "5567",
+            "phone": [
+              {
+                "number": "928-649-3850",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "928-649-3855",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "928-649-3850",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 34.72925898,
+              "longitude": -112.0099376
+            },
+            "storenumber": "5567"
+          },
+          {
+            "address": {
+              "city": "PRESCOTT",
+              "country": "US",
+              "line1": "1310 WILLOW CREEK RD",
+              "line2": "",
+              "state": "AZ",
+              "zip": "86301"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "09:15 am",
+                  "09:30 am",
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "11:00 am",
+                  "11:15 am",
+                  "11:30 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "02:15 pm",
+                  "02:30 pm",
+                  "02:45 pm",
+                  "03:00 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 1.34,
+            "fhirLocationId": "cb6dd417-721c-4988-9635-f4de03bcccc1",
+            "locationId": "cb6dd417-721c-4988-9635-f4de03bcccc1",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "9292",
+            "phone": [
+              {
+                "number": "928-227-9965",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "928-227-9962",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "928-227-9965",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 34.56735061,
+              "longitude": -112.48293038
+            },
+            "storenumber": "9292"
           }
         ]
       },
@@ -20151,21 +21363,475 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T11:45:49.959+00:00",
+    "appointments_last_fetched": "2021-02-27T12:17:14.784+00:00",
     "appointments_raw": {
       "both_doses": {
-        "error": [
+        "locations": [
           {
-            "code": "FC_904_NoData",
-            "message": "Insufficient inventory."
+            "address": {
+              "city": "PRESCOTT VALLEY",
+              "country": "US",
+              "line1": "2880 N CENTRE CT",
+              "line2": "",
+              "state": "AZ",
+              "zip": "86314"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "09:15 am",
+                  "09:30 am",
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "11:00 am",
+                  "11:15 am",
+                  "11:30 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "02:15 pm",
+                  "02:30 pm",
+                  "02:45 pm",
+                  "03:00 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 10,
+            "fhirLocationId": "5a40c0cd-0eaf-482a-9ad8-3cd40f830f8a",
+            "locationId": "5a40c0cd-0eaf-482a-9ad8-3cd40f830f8a",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "6666",
+            "phone": [
+              {
+                "number": "928-772-4938",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "928-772-4874",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "928-772-4938",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 34.58426974,
+              "longitude": -112.33983125
+            },
+            "storenumber": "6666"
+          },
+          {
+            "address": {
+              "city": "COTTONWOOD",
+              "country": "US",
+              "line1": "550 S MAIN ST",
+              "line2": "",
+              "state": "AZ",
+              "zip": "86326"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "09:15 am",
+                  "09:30 am",
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "11:00 am",
+                  "11:15 am",
+                  "11:30 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "02:15 pm",
+                  "02:30 pm",
+                  "02:45 pm",
+                  "03:00 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 23.85,
+            "fhirLocationId": "8489bdcc-af8f-4336-9566-1d74de2e262f",
+            "locationId": "8489bdcc-af8f-4336-9566-1d74de2e262f",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "5567",
+            "phone": [
+              {
+                "number": "928-649-3850",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "928-649-3855",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "928-649-3850",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 34.72925898,
+              "longitude": -112.0099376
+            },
+            "storenumber": "5567"
+          },
+          {
+            "address": {
+              "city": "PRESCOTT",
+              "country": "US",
+              "line1": "1310 WILLOW CREEK RD",
+              "line2": "",
+              "state": "AZ",
+              "zip": "86301"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "09:15 am",
+                  "09:30 am",
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "11:00 am",
+                  "11:15 am",
+                  "11:30 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "02:15 pm",
+                  "02:30 pm",
+                  "02:45 pm",
+                  "03:00 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 17.85,
+            "fhirLocationId": "cb6dd417-721c-4988-9635-f4de03bcccc1",
+            "locationId": "cb6dd417-721c-4988-9635-f4de03bcccc1",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "9292",
+            "phone": [
+              {
+                "number": "928-227-9965",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "928-227-9962",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "928-227-9965",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 34.56735061,
+              "longitude": -112.48293038
+            },
+            "storenumber": "9292"
           }
         ]
       },
       "second_dose_moderna": {
-        "error": [
+        "locations": [
           {
-            "code": "FC_904_NoData",
-            "message": "Insufficient inventory."
+            "address": {
+              "city": "PRESCOTT VALLEY",
+              "country": "US",
+              "line1": "2880 N CENTRE CT",
+              "line2": "",
+              "state": "AZ",
+              "zip": "86314"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "09:15 am",
+                  "09:30 am",
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "11:00 am",
+                  "11:15 am",
+                  "11:30 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "02:15 pm",
+                  "02:30 pm",
+                  "02:45 pm",
+                  "03:00 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 8.24,
+            "fhirLocationId": "5a40c0cd-0eaf-482a-9ad8-3cd40f830f8a",
+            "locationId": "5a40c0cd-0eaf-482a-9ad8-3cd40f830f8a",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "6666",
+            "phone": [
+              {
+                "number": "928-772-4938",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "928-772-4874",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "928-772-4938",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 34.58426974,
+              "longitude": -112.33983125
+            },
+            "storenumber": "6666"
+          },
+          {
+            "address": {
+              "city": "COTTONWOOD",
+              "country": "US",
+              "line1": "550 S MAIN ST",
+              "line2": "",
+              "state": "AZ",
+              "zip": "86326"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "09:15 am",
+                  "09:30 am",
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "11:00 am",
+                  "11:15 am",
+                  "11:30 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "02:15 pm",
+                  "02:30 pm",
+                  "02:45 pm",
+                  "03:00 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 15.87,
+            "fhirLocationId": "8489bdcc-af8f-4336-9566-1d74de2e262f",
+            "locationId": "8489bdcc-af8f-4336-9566-1d74de2e262f",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "5567",
+            "phone": [
+              {
+                "number": "928-649-3850",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "928-649-3855",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "928-649-3850",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 34.72925898,
+              "longitude": -112.0099376
+            },
+            "storenumber": "5567"
+          },
+          {
+            "address": {
+              "city": "PRESCOTT",
+              "country": "US",
+              "line1": "1310 WILLOW CREEK RD",
+              "line2": "",
+              "state": "AZ",
+              "zip": "86301"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "09:15 am",
+                  "09:30 am",
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "11:00 am",
+                  "11:15 am",
+                  "11:30 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "02:15 pm",
+                  "02:30 pm",
+                  "02:45 pm",
+                  "03:00 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 1.34,
+            "fhirLocationId": "cb6dd417-721c-4988-9635-f4de03bcccc1",
+            "locationId": "cb6dd417-721c-4988-9635-f4de03bcccc1",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "9292",
+            "phone": [
+              {
+                "number": "928-227-9965",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "928-227-9962",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "928-227-9965",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 34.56735061,
+              "longitude": -112.48293038
+            },
+            "storenumber": "9292"
           }
         ]
       },
@@ -20190,23 +21856,637 @@
   {
     "address": "1310 WILLOW CREEK RD",
     "appointments": [
+      {
+        "time": "2021-03-02T09:15:00.000-07:00",
+        "type": "both_doses"
+      },
+      {
+        "time": "2021-03-02T09:15:00.000-07:00",
+        "type": "second_dose_moderna"
+      },
+      {
+        "time": "2021-03-02T09:30:00.000-07:00",
+        "type": "both_doses"
+      },
+      {
+        "time": "2021-03-02T09:30:00.000-07:00",
+        "type": "second_dose_moderna"
+      },
+      {
+        "time": "2021-03-02T09:45:00.000-07:00",
+        "type": "both_doses"
+      },
+      {
+        "time": "2021-03-02T09:45:00.000-07:00",
+        "type": "second_dose_moderna"
+      },
+      {
+        "time": "2021-03-02T10:00:00.000-07:00",
+        "type": "both_doses"
+      },
+      {
+        "time": "2021-03-02T10:00:00.000-07:00",
+        "type": "second_dose_moderna"
+      },
+      {
+        "time": "2021-03-02T10:15:00.000-07:00",
+        "type": "both_doses"
+      },
+      {
+        "time": "2021-03-02T10:15:00.000-07:00",
+        "type": "second_dose_moderna"
+      },
+      {
+        "time": "2021-03-02T10:30:00.000-07:00",
+        "type": "both_doses"
+      },
+      {
+        "time": "2021-03-02T10:30:00.000-07:00",
+        "type": "second_dose_moderna"
+      },
+      {
+        "time": "2021-03-02T10:45:00.000-07:00",
+        "type": "both_doses"
+      },
+      {
+        "time": "2021-03-02T10:45:00.000-07:00",
+        "type": "second_dose_moderna"
+      },
+      {
+        "time": "2021-03-02T11:00:00.000-07:00",
+        "type": "both_doses"
+      },
+      {
+        "time": "2021-03-02T11:00:00.000-07:00",
+        "type": "second_dose_moderna"
+      },
+      {
+        "time": "2021-03-02T11:15:00.000-07:00",
+        "type": "both_doses"
+      },
+      {
+        "time": "2021-03-02T11:15:00.000-07:00",
+        "type": "second_dose_moderna"
+      },
+      {
+        "time": "2021-03-02T11:30:00.000-07:00",
+        "type": "both_doses"
+      },
+      {
+        "time": "2021-03-02T11:30:00.000-07:00",
+        "type": "second_dose_moderna"
+      },
+      {
+        "time": "2021-03-02T11:45:00.000-07:00",
+        "type": "both_doses"
+      },
+      {
+        "time": "2021-03-02T11:45:00.000-07:00",
+        "type": "second_dose_moderna"
+      },
+      {
+        "time": "2021-03-02T12:00:00.000-07:00",
+        "type": "both_doses"
+      },
+      {
+        "time": "2021-03-02T12:00:00.000-07:00",
+        "type": "second_dose_moderna"
+      },
+      {
+        "time": "2021-03-02T12:15:00.000-07:00",
+        "type": "both_doses"
+      },
+      {
+        "time": "2021-03-02T12:15:00.000-07:00",
+        "type": "second_dose_moderna"
+      },
+      {
+        "time": "2021-03-02T12:30:00.000-07:00",
+        "type": "both_doses"
+      },
+      {
+        "time": "2021-03-02T12:30:00.000-07:00",
+        "type": "second_dose_moderna"
+      },
+      {
+        "time": "2021-03-02T12:45:00.000-07:00",
+        "type": "both_doses"
+      },
+      {
+        "time": "2021-03-02T12:45:00.000-07:00",
+        "type": "second_dose_moderna"
+      },
+      {
+        "time": "2021-03-02T13:00:00.000-07:00",
+        "type": "both_doses"
+      },
+      {
+        "time": "2021-03-02T13:00:00.000-07:00",
+        "type": "second_dose_moderna"
+      },
+      {
+        "time": "2021-03-02T14:15:00.000-07:00",
+        "type": "both_doses"
+      },
+      {
+        "time": "2021-03-02T14:15:00.000-07:00",
+        "type": "second_dose_moderna"
+      },
+      {
+        "time": "2021-03-02T14:30:00.000-07:00",
+        "type": "both_doses"
+      },
+      {
+        "time": "2021-03-02T14:30:00.000-07:00",
+        "type": "second_dose_moderna"
+      },
+      {
+        "time": "2021-03-02T14:45:00.000-07:00",
+        "type": "both_doses"
+      },
+      {
+        "time": "2021-03-02T14:45:00.000-07:00",
+        "type": "second_dose_moderna"
+      },
+      {
+        "time": "2021-03-02T15:00:00.000-07:00",
+        "type": "both_doses"
+      },
+      {
+        "time": "2021-03-02T15:00:00.000-07:00",
+        "type": "second_dose_moderna"
+      }
     ],
-    "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T11:59:05.322+00:00",
+    "appointments_available": true,
+    "appointments_last_fetched": "2021-02-27T12:17:14.784+00:00",
     "appointments_raw": {
       "both_doses": {
-        "error": [
+        "locations": [
           {
-            "code": "FC_904_NoData",
-            "message": "Insufficient inventory."
+            "address": {
+              "city": "PRESCOTT VALLEY",
+              "country": "US",
+              "line1": "2880 N CENTRE CT",
+              "line2": "",
+              "state": "AZ",
+              "zip": "86314"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "09:15 am",
+                  "09:30 am",
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "11:00 am",
+                  "11:15 am",
+                  "11:30 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "02:15 pm",
+                  "02:30 pm",
+                  "02:45 pm",
+                  "03:00 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 10,
+            "fhirLocationId": "5a40c0cd-0eaf-482a-9ad8-3cd40f830f8a",
+            "locationId": "5a40c0cd-0eaf-482a-9ad8-3cd40f830f8a",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "6666",
+            "phone": [
+              {
+                "number": "928-772-4938",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "928-772-4874",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "928-772-4938",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 34.58426974,
+              "longitude": -112.33983125
+            },
+            "storenumber": "6666"
+          },
+          {
+            "address": {
+              "city": "COTTONWOOD",
+              "country": "US",
+              "line1": "550 S MAIN ST",
+              "line2": "",
+              "state": "AZ",
+              "zip": "86326"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "09:15 am",
+                  "09:30 am",
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "11:00 am",
+                  "11:15 am",
+                  "11:30 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "02:15 pm",
+                  "02:30 pm",
+                  "02:45 pm",
+                  "03:00 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 23.85,
+            "fhirLocationId": "8489bdcc-af8f-4336-9566-1d74de2e262f",
+            "locationId": "8489bdcc-af8f-4336-9566-1d74de2e262f",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "5567",
+            "phone": [
+              {
+                "number": "928-649-3850",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "928-649-3855",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "928-649-3850",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 34.72925898,
+              "longitude": -112.0099376
+            },
+            "storenumber": "5567"
+          },
+          {
+            "address": {
+              "city": "PRESCOTT",
+              "country": "US",
+              "line1": "1310 WILLOW CREEK RD",
+              "line2": "",
+              "state": "AZ",
+              "zip": "86301"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "09:15 am",
+                  "09:30 am",
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "11:00 am",
+                  "11:15 am",
+                  "11:30 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "02:15 pm",
+                  "02:30 pm",
+                  "02:45 pm",
+                  "03:00 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 17.85,
+            "fhirLocationId": "cb6dd417-721c-4988-9635-f4de03bcccc1",
+            "locationId": "cb6dd417-721c-4988-9635-f4de03bcccc1",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "9292",
+            "phone": [
+              {
+                "number": "928-227-9965",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "928-227-9962",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "928-227-9965",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 34.56735061,
+              "longitude": -112.48293038
+            },
+            "storenumber": "9292"
           }
         ]
       },
       "second_dose_moderna": {
-        "error": [
+        "locations": [
           {
-            "code": "FC_904_NoData",
-            "message": "Insufficient inventory."
+            "address": {
+              "city": "PRESCOTT VALLEY",
+              "country": "US",
+              "line1": "2880 N CENTRE CT",
+              "line2": "",
+              "state": "AZ",
+              "zip": "86314"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "09:15 am",
+                  "09:30 am",
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "11:00 am",
+                  "11:15 am",
+                  "11:30 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "02:15 pm",
+                  "02:30 pm",
+                  "02:45 pm",
+                  "03:00 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 8.24,
+            "fhirLocationId": "5a40c0cd-0eaf-482a-9ad8-3cd40f830f8a",
+            "locationId": "5a40c0cd-0eaf-482a-9ad8-3cd40f830f8a",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "6666",
+            "phone": [
+              {
+                "number": "928-772-4938",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "928-772-4874",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "928-772-4938",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 34.58426974,
+              "longitude": -112.33983125
+            },
+            "storenumber": "6666"
+          },
+          {
+            "address": {
+              "city": "COTTONWOOD",
+              "country": "US",
+              "line1": "550 S MAIN ST",
+              "line2": "",
+              "state": "AZ",
+              "zip": "86326"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "09:15 am",
+                  "09:30 am",
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "11:00 am",
+                  "11:15 am",
+                  "11:30 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "02:15 pm",
+                  "02:30 pm",
+                  "02:45 pm",
+                  "03:00 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 15.87,
+            "fhirLocationId": "8489bdcc-af8f-4336-9566-1d74de2e262f",
+            "locationId": "8489bdcc-af8f-4336-9566-1d74de2e262f",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "5567",
+            "phone": [
+              {
+                "number": "928-649-3850",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "928-649-3855",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "928-649-3850",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 34.72925898,
+              "longitude": -112.0099376
+            },
+            "storenumber": "5567"
+          },
+          {
+            "address": {
+              "city": "PRESCOTT",
+              "country": "US",
+              "line1": "1310 WILLOW CREEK RD",
+              "line2": "",
+              "state": "AZ",
+              "zip": "86301"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "09:15 am",
+                  "09:30 am",
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "11:00 am",
+                  "11:15 am",
+                  "11:30 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "02:15 pm",
+                  "02:30 pm",
+                  "02:45 pm",
+                  "03:00 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 1.34,
+            "fhirLocationId": "cb6dd417-721c-4988-9635-f4de03bcccc1",
+            "locationId": "cb6dd417-721c-4988-9635-f4de03bcccc1",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "9292",
+            "phone": [
+              {
+                "number": "928-227-9965",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "928-227-9962",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "928-227-9965",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 34.56735061,
+              "longitude": -112.48293038
+            },
+            "storenumber": "9292"
           }
         ]
       },
@@ -20233,21 +22513,475 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T11:45:49.959+00:00",
+    "appointments_last_fetched": "2021-02-27T12:17:14.784+00:00",
     "appointments_raw": {
       "both_doses": {
-        "error": [
+        "locations": [
           {
-            "code": "FC_904_NoData",
-            "message": "Insufficient inventory."
+            "address": {
+              "city": "PRESCOTT VALLEY",
+              "country": "US",
+              "line1": "2880 N CENTRE CT",
+              "line2": "",
+              "state": "AZ",
+              "zip": "86314"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "09:15 am",
+                  "09:30 am",
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "11:00 am",
+                  "11:15 am",
+                  "11:30 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "02:15 pm",
+                  "02:30 pm",
+                  "02:45 pm",
+                  "03:00 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 10,
+            "fhirLocationId": "5a40c0cd-0eaf-482a-9ad8-3cd40f830f8a",
+            "locationId": "5a40c0cd-0eaf-482a-9ad8-3cd40f830f8a",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "6666",
+            "phone": [
+              {
+                "number": "928-772-4938",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "928-772-4874",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "928-772-4938",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 34.58426974,
+              "longitude": -112.33983125
+            },
+            "storenumber": "6666"
+          },
+          {
+            "address": {
+              "city": "COTTONWOOD",
+              "country": "US",
+              "line1": "550 S MAIN ST",
+              "line2": "",
+              "state": "AZ",
+              "zip": "86326"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "09:15 am",
+                  "09:30 am",
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "11:00 am",
+                  "11:15 am",
+                  "11:30 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "02:15 pm",
+                  "02:30 pm",
+                  "02:45 pm",
+                  "03:00 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 23.85,
+            "fhirLocationId": "8489bdcc-af8f-4336-9566-1d74de2e262f",
+            "locationId": "8489bdcc-af8f-4336-9566-1d74de2e262f",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "5567",
+            "phone": [
+              {
+                "number": "928-649-3850",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "928-649-3855",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "928-649-3850",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 34.72925898,
+              "longitude": -112.0099376
+            },
+            "storenumber": "5567"
+          },
+          {
+            "address": {
+              "city": "PRESCOTT",
+              "country": "US",
+              "line1": "1310 WILLOW CREEK RD",
+              "line2": "",
+              "state": "AZ",
+              "zip": "86301"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "09:15 am",
+                  "09:30 am",
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "11:00 am",
+                  "11:15 am",
+                  "11:30 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "02:15 pm",
+                  "02:30 pm",
+                  "02:45 pm",
+                  "03:00 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 17.85,
+            "fhirLocationId": "cb6dd417-721c-4988-9635-f4de03bcccc1",
+            "locationId": "cb6dd417-721c-4988-9635-f4de03bcccc1",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "9292",
+            "phone": [
+              {
+                "number": "928-227-9965",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "928-227-9962",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "928-227-9965",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 34.56735061,
+              "longitude": -112.48293038
+            },
+            "storenumber": "9292"
           }
         ]
       },
       "second_dose_moderna": {
-        "error": [
+        "locations": [
           {
-            "code": "FC_904_NoData",
-            "message": "Insufficient inventory."
+            "address": {
+              "city": "PRESCOTT VALLEY",
+              "country": "US",
+              "line1": "2880 N CENTRE CT",
+              "line2": "",
+              "state": "AZ",
+              "zip": "86314"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "09:15 am",
+                  "09:30 am",
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "11:00 am",
+                  "11:15 am",
+                  "11:30 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "02:15 pm",
+                  "02:30 pm",
+                  "02:45 pm",
+                  "03:00 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 8.24,
+            "fhirLocationId": "5a40c0cd-0eaf-482a-9ad8-3cd40f830f8a",
+            "locationId": "5a40c0cd-0eaf-482a-9ad8-3cd40f830f8a",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "6666",
+            "phone": [
+              {
+                "number": "928-772-4938",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "928-772-4874",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "928-772-4938",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 34.58426974,
+              "longitude": -112.33983125
+            },
+            "storenumber": "6666"
+          },
+          {
+            "address": {
+              "city": "COTTONWOOD",
+              "country": "US",
+              "line1": "550 S MAIN ST",
+              "line2": "",
+              "state": "AZ",
+              "zip": "86326"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "09:15 am",
+                  "09:30 am",
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "11:00 am",
+                  "11:15 am",
+                  "11:30 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "02:15 pm",
+                  "02:30 pm",
+                  "02:45 pm",
+                  "03:00 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 15.87,
+            "fhirLocationId": "8489bdcc-af8f-4336-9566-1d74de2e262f",
+            "locationId": "8489bdcc-af8f-4336-9566-1d74de2e262f",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "5567",
+            "phone": [
+              {
+                "number": "928-649-3850",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "928-649-3855",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "928-649-3850",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 34.72925898,
+              "longitude": -112.0099376
+            },
+            "storenumber": "5567"
+          },
+          {
+            "address": {
+              "city": "PRESCOTT",
+              "country": "US",
+              "line1": "1310 WILLOW CREEK RD",
+              "line2": "",
+              "state": "AZ",
+              "zip": "86301"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "09:15 am",
+                  "09:30 am",
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "11:00 am",
+                  "11:15 am",
+                  "11:30 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "02:15 pm",
+                  "02:30 pm",
+                  "02:45 pm",
+                  "03:00 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 1.34,
+            "fhirLocationId": "cb6dd417-721c-4988-9635-f4de03bcccc1",
+            "locationId": "cb6dd417-721c-4988-9635-f4de03bcccc1",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "9292",
+            "phone": [
+              {
+                "number": "928-227-9965",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "928-227-9962",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "928-227-9965",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 34.56735061,
+              "longitude": -112.48293038
+            },
+            "storenumber": "9292"
           }
         ]
       },

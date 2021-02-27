@@ -27382,7 +27382,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T11:41:19.927+00:00",
+    "appointments_last_fetched": "2021-02-27T12:17:35.625+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -27710,7 +27710,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T11:41:19.927+00:00",
+    "appointments_last_fetched": "2021-02-27T12:17:35.625+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -29596,7 +29596,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T11:41:19.927+00:00",
+    "appointments_last_fetched": "2021-02-27T12:17:35.625+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -29965,13 +29965,188 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T11:52:36.875+00:00",
+    "appointments_last_fetched": "2021-02-27T12:17:28.896+00:00",
     "appointments_raw": {
       "both_doses": {
-        "error": [
+        "locations": [
           {
-            "code": "FC_904_NoData",
-            "message": "Insufficient inventory."
+            "address": {
+              "city": "DANVILLE",
+              "country": "US",
+              "line1": "842 E MAIN ST",
+              "line2": "",
+              "state": "IL",
+              "zip": "61832"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "09:15 am",
+                  "09:30 am",
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "01:15 pm",
+                  "01:30 pm",
+                  "01:45 pm",
+                  "02:00 pm",
+                  "02:15 pm",
+                  "02:30 pm",
+                  "02:45 pm",
+                  "03:00 pm",
+                  "03:15 pm",
+                  "03:30 pm",
+                  "03:45 pm",
+                  "04:00 pm",
+                  "04:15 pm",
+                  "04:30 pm",
+                  "04:45 pm",
+                  "05:00 pm",
+                  "05:15 pm",
+                  "05:30 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 22.53,
+            "fhirLocationId": "c89b3341-1f84-4fd0-b48f-763cb66fbf4c",
+            "locationId": "c89b3341-1f84-4fd0-b48f-763cb66fbf4c",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "3212",
+            "phone": [
+              {
+                "number": "217-446-1215",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "217-446-1632",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "217-446-1215",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 40.1257129,
+              "longitude": -87.61216085
+            },
+            "storenumber": "3212"
+          },
+          {
+            "address": {
+              "city": "DANVILLE",
+              "country": "US",
+              "line1": "400 W FAIRCHILD ST",
+              "line2": "",
+              "state": "IL",
+              "zip": "61832"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "10:00 am"
+                ]
+              },
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "09:15 am",
+                  "09:30 am",
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "01:15 pm",
+                  "01:30 pm",
+                  "01:45 pm",
+                  "02:00 pm",
+                  "02:15 pm",
+                  "02:30 pm",
+                  "02:45 pm",
+                  "03:30 pm",
+                  "03:45 pm",
+                  "04:00 pm",
+                  "04:15 pm",
+                  "04:30 pm",
+                  "04:45 pm",
+                  "05:00 pm",
+                  "05:15 pm",
+                  "05:30 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 23.92,
+            "fhirLocationId": "4d3670db-730c-492b-9b83-5b03d0f6794d",
+            "locationId": "4d3670db-730c-492b-9b83-5b03d0f6794d",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "12787",
+            "phone": [
+              {
+                "number": "217-442-7388",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "217-442-7387",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "217-442-7388",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 40.1380605,
+              "longitude": -87.63616724
+            },
+            "storenumber": "12787"
           }
         ]
       },
@@ -29984,10 +30159,185 @@
         ]
       },
       "second_dose_pfizer": {
-        "error": [
+        "locations": [
           {
-            "code": "FC_904_NoData",
-            "message": "Insufficient inventory."
+            "address": {
+              "city": "DANVILLE",
+              "country": "US",
+              "line1": "842 E MAIN ST",
+              "line2": "",
+              "state": "IL",
+              "zip": "61832"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "09:15 am",
+                  "09:30 am",
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "01:15 pm",
+                  "01:30 pm",
+                  "01:45 pm",
+                  "02:00 pm",
+                  "02:15 pm",
+                  "02:30 pm",
+                  "02:45 pm",
+                  "03:00 pm",
+                  "03:15 pm",
+                  "03:30 pm",
+                  "03:45 pm",
+                  "04:00 pm",
+                  "04:15 pm",
+                  "04:30 pm",
+                  "04:45 pm",
+                  "05:00 pm",
+                  "05:15 pm",
+                  "05:30 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 4.63,
+            "fhirLocationId": "c89b3341-1f84-4fd0-b48f-763cb66fbf4c",
+            "locationId": "c89b3341-1f84-4fd0-b48f-763cb66fbf4c",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "3212",
+            "phone": [
+              {
+                "number": "217-446-1215",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "217-446-1632",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "217-446-1215",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 40.1257129,
+              "longitude": -87.61216085
+            },
+            "storenumber": "3212"
+          },
+          {
+            "address": {
+              "city": "DANVILLE",
+              "country": "US",
+              "line1": "400 W FAIRCHILD ST",
+              "line2": "",
+              "state": "IL",
+              "zip": "61832"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "10:00 am"
+                ]
+              },
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "09:15 am",
+                  "09:30 am",
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "01:15 pm",
+                  "01:30 pm",
+                  "01:45 pm",
+                  "02:00 pm",
+                  "02:15 pm",
+                  "02:30 pm",
+                  "02:45 pm",
+                  "03:30 pm",
+                  "03:45 pm",
+                  "04:00 pm",
+                  "04:15 pm",
+                  "04:30 pm",
+                  "04:45 pm",
+                  "05:00 pm",
+                  "05:15 pm",
+                  "05:30 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 5.23,
+            "fhirLocationId": "4d3670db-730c-492b-9b83-5b03d0f6794d",
+            "locationId": "4d3670db-730c-492b-9b83-5b03d0f6794d",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "12787",
+            "phone": [
+              {
+                "number": "217-442-7388",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "217-442-7387",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "217-442-7388",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 40.1380605,
+              "longitude": -87.63616724
+            },
+            "storenumber": "12787"
           }
         ]
       }

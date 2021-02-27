@@ -250,7 +250,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T11:43:28.415+00:00",
+    "appointments_last_fetched": "2021-02-27T12:17:02.42+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -291,7 +291,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T11:43:28.415+00:00",
+    "appointments_last_fetched": "2021-02-27T12:17:02.42+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -373,29 +373,513 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T11:45:07.727+00:00",
+    "appointments_last_fetched": "2021-02-27T12:16:05.365+00:00",
     "appointments_raw": {
       "both_doses": {
-        "error": [
+        "locations": [
           {
-            "code": "FC_904_NoData",
-            "message": "Insufficient inventory."
+            "address": {
+              "city": "HAGERSTOWN",
+              "country": "US",
+              "line1": "17703 VIRGINIA AVE",
+              "line2": "",
+              "state": "MD",
+              "zip": "21740"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "09:15 am",
+                  "09:30 am",
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "11:00 am",
+                  "11:15 am",
+                  "11:30 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "02:15 pm",
+                  "02:45 pm",
+                  "03:00 pm",
+                  "03:15 pm",
+                  "03:30 pm",
+                  "03:45 pm",
+                  "04:15 pm",
+                  "04:30 pm",
+                  "04:45 pm",
+                  "05:00 pm",
+                  "05:15 pm",
+                  "05:30 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 20,
+            "fhirLocationId": "55973724-32ff-456e-9046-95995dd0064f",
+            "locationId": "55973724-32ff-456e-9046-95995dd0064f",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "13892",
+            "phone": [
+              {
+                "number": "240-420-5310",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "240-420-5329",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "240-420-5310",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 39.6213257,
+              "longitude": -77.75550622
+            },
+            "storenumber": "13892"
+          },
+          {
+            "address": {
+              "city": "HAGERSTOWN",
+              "country": "US",
+              "line1": "901 NORTH BURNHANS BOULEVARD",
+              "line2": "",
+              "state": "MD",
+              "zip": "21742"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "09:15 am",
+                  "09:30 am",
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "11:00 am",
+                  "11:15 am",
+                  "11:30 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "02:15 pm",
+                  "02:30 pm",
+                  "02:45 pm",
+                  "03:00 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 24.35,
+            "fhirLocationId": "1f12ac8f-1a9b-44d6-aca3-58955c737073",
+            "locationId": "1f12ac8f-1a9b-44d6-aca3-58955c737073",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "17174",
+            "phone": [
+              {
+                "number": "301-797-9300",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "301-790-6690",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "301-797-9300",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 39.65722354,
+              "longitude": -77.72045369
+            },
+            "storenumber": "17174"
+          },
+          {
+            "address": {
+              "city": "HAGERSTOWN",
+              "country": "US",
+              "line1": "1631 DUAL HWY",
+              "line2": "",
+              "state": "MD",
+              "zip": "21740"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "09:15 am",
+                  "09:30 am",
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "11:00 am",
+                  "11:15 am",
+                  "11:30 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "02:15 pm",
+                  "02:30 pm",
+                  "02:45 pm",
+                  "03:00 pm",
+                  "03:30 pm",
+                  "03:45 pm",
+                  "04:00 pm",
+                  "04:15 pm",
+                  "04:30 pm",
+                  "04:45 pm",
+                  "05:00 pm",
+                  "05:15 pm",
+                  "05:30 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 22.65,
+            "fhirLocationId": "b45e6349-0f92-49e1-80a1-cfc21265d4ca",
+            "locationId": "b45e6349-0f92-49e1-80a1-cfc21265d4ca",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "13893",
+            "phone": [
+              {
+                "number": "240-313-9165",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "240-313-3974",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "240-313-9165",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 39.61652472,
+              "longitude": -77.69328139
+            },
+            "storenumber": "13893"
           }
         ]
       },
       "second_dose_moderna": {
-        "error": [
+        "locations": [
           {
-            "code": "FC_904_NoData",
-            "message": "Insufficient inventory."
+            "address": {
+              "city": "HAGERSTOWN",
+              "country": "US",
+              "line1": "901 NORTH BURNHANS BOULEVARD",
+              "line2": "",
+              "state": "MD",
+              "zip": "21742"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "09:15 am",
+                  "09:30 am",
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "11:00 am",
+                  "11:15 am",
+                  "11:30 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "02:15 pm",
+                  "02:30 pm",
+                  "02:45 pm",
+                  "03:00 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 19.54,
+            "fhirLocationId": "1f12ac8f-1a9b-44d6-aca3-58955c737073",
+            "locationId": "1f12ac8f-1a9b-44d6-aca3-58955c737073",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "17174",
+            "phone": [
+              {
+                "number": "301-797-9300",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "301-790-6690",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "301-797-9300",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 39.65722354,
+              "longitude": -77.72045369
+            },
+            "storenumber": "17174"
           }
         ]
       },
       "second_dose_pfizer": {
-        "error": [
+        "locations": [
           {
-            "code": "FC_904_NoData",
-            "message": "Insufficient inventory."
+            "address": {
+              "city": "HAGERSTOWN",
+              "country": "US",
+              "line1": "17703 VIRGINIA AVE",
+              "line2": "",
+              "state": "MD",
+              "zip": "21740"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "09:15 am",
+                  "09:30 am",
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "11:00 am",
+                  "11:15 am",
+                  "11:30 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "02:15 pm",
+                  "02:45 pm",
+                  "03:00 pm",
+                  "03:15 pm",
+                  "03:30 pm",
+                  "03:45 pm",
+                  "04:15 pm",
+                  "04:30 pm",
+                  "04:45 pm",
+                  "05:00 pm",
+                  "05:15 pm",
+                  "05:30 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 20,
+            "fhirLocationId": "55973724-32ff-456e-9046-95995dd0064f",
+            "locationId": "55973724-32ff-456e-9046-95995dd0064f",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "13892",
+            "phone": [
+              {
+                "number": "240-420-5310",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "240-420-5329",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "240-420-5310",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 39.6213257,
+              "longitude": -77.75550622
+            },
+            "storenumber": "13892"
+          },
+          {
+            "address": {
+              "city": "HAGERSTOWN",
+              "country": "US",
+              "line1": "1631 DUAL HWY",
+              "line2": "",
+              "state": "MD",
+              "zip": "21740"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "09:15 am",
+                  "09:30 am",
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "11:00 am",
+                  "11:15 am",
+                  "11:30 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "02:15 pm",
+                  "02:30 pm",
+                  "02:45 pm",
+                  "03:00 pm",
+                  "03:30 pm",
+                  "03:45 pm",
+                  "04:00 pm",
+                  "04:15 pm",
+                  "04:30 pm",
+                  "04:45 pm",
+                  "05:00 pm",
+                  "05:15 pm",
+                  "05:30 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 22.87,
+            "fhirLocationId": "b45e6349-0f92-49e1-80a1-cfc21265d4ca",
+            "locationId": "b45e6349-0f92-49e1-80a1-cfc21265d4ca",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "13893",
+            "phone": [
+              {
+                "number": "240-313-9165",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "240-313-3974",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "240-313-9165",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 39.61652472,
+              "longitude": -77.69328139
+            },
+            "storenumber": "13893"
           }
         ]
       }
@@ -455,29 +939,513 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T11:45:07.727+00:00",
+    "appointments_last_fetched": "2021-02-27T12:16:05.365+00:00",
     "appointments_raw": {
       "both_doses": {
-        "error": [
+        "locations": [
           {
-            "code": "FC_904_NoData",
-            "message": "Insufficient inventory."
+            "address": {
+              "city": "HAGERSTOWN",
+              "country": "US",
+              "line1": "17703 VIRGINIA AVE",
+              "line2": "",
+              "state": "MD",
+              "zip": "21740"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "09:15 am",
+                  "09:30 am",
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "11:00 am",
+                  "11:15 am",
+                  "11:30 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "02:15 pm",
+                  "02:45 pm",
+                  "03:00 pm",
+                  "03:15 pm",
+                  "03:30 pm",
+                  "03:45 pm",
+                  "04:15 pm",
+                  "04:30 pm",
+                  "04:45 pm",
+                  "05:00 pm",
+                  "05:15 pm",
+                  "05:30 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 20,
+            "fhirLocationId": "55973724-32ff-456e-9046-95995dd0064f",
+            "locationId": "55973724-32ff-456e-9046-95995dd0064f",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "13892",
+            "phone": [
+              {
+                "number": "240-420-5310",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "240-420-5329",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "240-420-5310",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 39.6213257,
+              "longitude": -77.75550622
+            },
+            "storenumber": "13892"
+          },
+          {
+            "address": {
+              "city": "HAGERSTOWN",
+              "country": "US",
+              "line1": "901 NORTH BURNHANS BOULEVARD",
+              "line2": "",
+              "state": "MD",
+              "zip": "21742"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "09:15 am",
+                  "09:30 am",
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "11:00 am",
+                  "11:15 am",
+                  "11:30 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "02:15 pm",
+                  "02:30 pm",
+                  "02:45 pm",
+                  "03:00 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 24.35,
+            "fhirLocationId": "1f12ac8f-1a9b-44d6-aca3-58955c737073",
+            "locationId": "1f12ac8f-1a9b-44d6-aca3-58955c737073",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "17174",
+            "phone": [
+              {
+                "number": "301-797-9300",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "301-790-6690",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "301-797-9300",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 39.65722354,
+              "longitude": -77.72045369
+            },
+            "storenumber": "17174"
+          },
+          {
+            "address": {
+              "city": "HAGERSTOWN",
+              "country": "US",
+              "line1": "1631 DUAL HWY",
+              "line2": "",
+              "state": "MD",
+              "zip": "21740"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "09:15 am",
+                  "09:30 am",
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "11:00 am",
+                  "11:15 am",
+                  "11:30 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "02:15 pm",
+                  "02:30 pm",
+                  "02:45 pm",
+                  "03:00 pm",
+                  "03:30 pm",
+                  "03:45 pm",
+                  "04:00 pm",
+                  "04:15 pm",
+                  "04:30 pm",
+                  "04:45 pm",
+                  "05:00 pm",
+                  "05:15 pm",
+                  "05:30 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 22.65,
+            "fhirLocationId": "b45e6349-0f92-49e1-80a1-cfc21265d4ca",
+            "locationId": "b45e6349-0f92-49e1-80a1-cfc21265d4ca",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "13893",
+            "phone": [
+              {
+                "number": "240-313-9165",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "240-313-3974",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "240-313-9165",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 39.61652472,
+              "longitude": -77.69328139
+            },
+            "storenumber": "13893"
           }
         ]
       },
       "second_dose_moderna": {
-        "error": [
+        "locations": [
           {
-            "code": "FC_904_NoData",
-            "message": "Insufficient inventory."
+            "address": {
+              "city": "HAGERSTOWN",
+              "country": "US",
+              "line1": "901 NORTH BURNHANS BOULEVARD",
+              "line2": "",
+              "state": "MD",
+              "zip": "21742"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "09:15 am",
+                  "09:30 am",
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "11:00 am",
+                  "11:15 am",
+                  "11:30 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "02:15 pm",
+                  "02:30 pm",
+                  "02:45 pm",
+                  "03:00 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 19.54,
+            "fhirLocationId": "1f12ac8f-1a9b-44d6-aca3-58955c737073",
+            "locationId": "1f12ac8f-1a9b-44d6-aca3-58955c737073",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "17174",
+            "phone": [
+              {
+                "number": "301-797-9300",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "301-790-6690",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "301-797-9300",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 39.65722354,
+              "longitude": -77.72045369
+            },
+            "storenumber": "17174"
           }
         ]
       },
       "second_dose_pfizer": {
-        "error": [
+        "locations": [
           {
-            "code": "FC_904_NoData",
-            "message": "Insufficient inventory."
+            "address": {
+              "city": "HAGERSTOWN",
+              "country": "US",
+              "line1": "17703 VIRGINIA AVE",
+              "line2": "",
+              "state": "MD",
+              "zip": "21740"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "09:15 am",
+                  "09:30 am",
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "11:00 am",
+                  "11:15 am",
+                  "11:30 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "02:15 pm",
+                  "02:45 pm",
+                  "03:00 pm",
+                  "03:15 pm",
+                  "03:30 pm",
+                  "03:45 pm",
+                  "04:15 pm",
+                  "04:30 pm",
+                  "04:45 pm",
+                  "05:00 pm",
+                  "05:15 pm",
+                  "05:30 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 20,
+            "fhirLocationId": "55973724-32ff-456e-9046-95995dd0064f",
+            "locationId": "55973724-32ff-456e-9046-95995dd0064f",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "13892",
+            "phone": [
+              {
+                "number": "240-420-5310",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "240-420-5329",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "240-420-5310",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 39.6213257,
+              "longitude": -77.75550622
+            },
+            "storenumber": "13892"
+          },
+          {
+            "address": {
+              "city": "HAGERSTOWN",
+              "country": "US",
+              "line1": "1631 DUAL HWY",
+              "line2": "",
+              "state": "MD",
+              "zip": "21740"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "09:15 am",
+                  "09:30 am",
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "11:00 am",
+                  "11:15 am",
+                  "11:30 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "02:15 pm",
+                  "02:30 pm",
+                  "02:45 pm",
+                  "03:00 pm",
+                  "03:30 pm",
+                  "03:45 pm",
+                  "04:00 pm",
+                  "04:15 pm",
+                  "04:30 pm",
+                  "04:45 pm",
+                  "05:00 pm",
+                  "05:15 pm",
+                  "05:30 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 22.87,
+            "fhirLocationId": "b45e6349-0f92-49e1-80a1-cfc21265d4ca",
+            "locationId": "b45e6349-0f92-49e1-80a1-cfc21265d4ca",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "13893",
+            "phone": [
+              {
+                "number": "240-313-9165",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "240-313-3974",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "240-313-9165",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 39.61652472,
+              "longitude": -77.69328139
+            },
+            "storenumber": "13893"
           }
         ]
       }
@@ -496,29 +1464,513 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T11:45:07.727+00:00",
+    "appointments_last_fetched": "2021-02-27T12:16:05.365+00:00",
     "appointments_raw": {
       "both_doses": {
-        "error": [
+        "locations": [
           {
-            "code": "FC_904_NoData",
-            "message": "Insufficient inventory."
+            "address": {
+              "city": "HAGERSTOWN",
+              "country": "US",
+              "line1": "17703 VIRGINIA AVE",
+              "line2": "",
+              "state": "MD",
+              "zip": "21740"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "09:15 am",
+                  "09:30 am",
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "11:00 am",
+                  "11:15 am",
+                  "11:30 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "02:15 pm",
+                  "02:45 pm",
+                  "03:00 pm",
+                  "03:15 pm",
+                  "03:30 pm",
+                  "03:45 pm",
+                  "04:15 pm",
+                  "04:30 pm",
+                  "04:45 pm",
+                  "05:00 pm",
+                  "05:15 pm",
+                  "05:30 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 20,
+            "fhirLocationId": "55973724-32ff-456e-9046-95995dd0064f",
+            "locationId": "55973724-32ff-456e-9046-95995dd0064f",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "13892",
+            "phone": [
+              {
+                "number": "240-420-5310",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "240-420-5329",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "240-420-5310",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 39.6213257,
+              "longitude": -77.75550622
+            },
+            "storenumber": "13892"
+          },
+          {
+            "address": {
+              "city": "HAGERSTOWN",
+              "country": "US",
+              "line1": "901 NORTH BURNHANS BOULEVARD",
+              "line2": "",
+              "state": "MD",
+              "zip": "21742"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "09:15 am",
+                  "09:30 am",
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "11:00 am",
+                  "11:15 am",
+                  "11:30 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "02:15 pm",
+                  "02:30 pm",
+                  "02:45 pm",
+                  "03:00 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 24.35,
+            "fhirLocationId": "1f12ac8f-1a9b-44d6-aca3-58955c737073",
+            "locationId": "1f12ac8f-1a9b-44d6-aca3-58955c737073",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "17174",
+            "phone": [
+              {
+                "number": "301-797-9300",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "301-790-6690",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "301-797-9300",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 39.65722354,
+              "longitude": -77.72045369
+            },
+            "storenumber": "17174"
+          },
+          {
+            "address": {
+              "city": "HAGERSTOWN",
+              "country": "US",
+              "line1": "1631 DUAL HWY",
+              "line2": "",
+              "state": "MD",
+              "zip": "21740"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "09:15 am",
+                  "09:30 am",
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "11:00 am",
+                  "11:15 am",
+                  "11:30 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "02:15 pm",
+                  "02:30 pm",
+                  "02:45 pm",
+                  "03:00 pm",
+                  "03:30 pm",
+                  "03:45 pm",
+                  "04:00 pm",
+                  "04:15 pm",
+                  "04:30 pm",
+                  "04:45 pm",
+                  "05:00 pm",
+                  "05:15 pm",
+                  "05:30 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 22.65,
+            "fhirLocationId": "b45e6349-0f92-49e1-80a1-cfc21265d4ca",
+            "locationId": "b45e6349-0f92-49e1-80a1-cfc21265d4ca",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "13893",
+            "phone": [
+              {
+                "number": "240-313-9165",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "240-313-3974",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "240-313-9165",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 39.61652472,
+              "longitude": -77.69328139
+            },
+            "storenumber": "13893"
           }
         ]
       },
       "second_dose_moderna": {
-        "error": [
+        "locations": [
           {
-            "code": "FC_904_NoData",
-            "message": "Insufficient inventory."
+            "address": {
+              "city": "HAGERSTOWN",
+              "country": "US",
+              "line1": "901 NORTH BURNHANS BOULEVARD",
+              "line2": "",
+              "state": "MD",
+              "zip": "21742"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "09:15 am",
+                  "09:30 am",
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "11:00 am",
+                  "11:15 am",
+                  "11:30 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "02:15 pm",
+                  "02:30 pm",
+                  "02:45 pm",
+                  "03:00 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 19.54,
+            "fhirLocationId": "1f12ac8f-1a9b-44d6-aca3-58955c737073",
+            "locationId": "1f12ac8f-1a9b-44d6-aca3-58955c737073",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "17174",
+            "phone": [
+              {
+                "number": "301-797-9300",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "301-790-6690",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "301-797-9300",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 39.65722354,
+              "longitude": -77.72045369
+            },
+            "storenumber": "17174"
           }
         ]
       },
       "second_dose_pfizer": {
-        "error": [
+        "locations": [
           {
-            "code": "FC_904_NoData",
-            "message": "Insufficient inventory."
+            "address": {
+              "city": "HAGERSTOWN",
+              "country": "US",
+              "line1": "17703 VIRGINIA AVE",
+              "line2": "",
+              "state": "MD",
+              "zip": "21740"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "09:15 am",
+                  "09:30 am",
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "11:00 am",
+                  "11:15 am",
+                  "11:30 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "02:15 pm",
+                  "02:45 pm",
+                  "03:00 pm",
+                  "03:15 pm",
+                  "03:30 pm",
+                  "03:45 pm",
+                  "04:15 pm",
+                  "04:30 pm",
+                  "04:45 pm",
+                  "05:00 pm",
+                  "05:15 pm",
+                  "05:30 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 20,
+            "fhirLocationId": "55973724-32ff-456e-9046-95995dd0064f",
+            "locationId": "55973724-32ff-456e-9046-95995dd0064f",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "13892",
+            "phone": [
+              {
+                "number": "240-420-5310",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "240-420-5329",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "240-420-5310",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 39.6213257,
+              "longitude": -77.75550622
+            },
+            "storenumber": "13892"
+          },
+          {
+            "address": {
+              "city": "HAGERSTOWN",
+              "country": "US",
+              "line1": "1631 DUAL HWY",
+              "line2": "",
+              "state": "MD",
+              "zip": "21740"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "09:15 am",
+                  "09:30 am",
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "11:00 am",
+                  "11:15 am",
+                  "11:30 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "02:15 pm",
+                  "02:30 pm",
+                  "02:45 pm",
+                  "03:00 pm",
+                  "03:30 pm",
+                  "03:45 pm",
+                  "04:00 pm",
+                  "04:15 pm",
+                  "04:30 pm",
+                  "04:45 pm",
+                  "05:00 pm",
+                  "05:15 pm",
+                  "05:30 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 22.87,
+            "fhirLocationId": "b45e6349-0f92-49e1-80a1-cfc21265d4ca",
+            "locationId": "b45e6349-0f92-49e1-80a1-cfc21265d4ca",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "13893",
+            "phone": [
+              {
+                "number": "240-313-9165",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "240-313-3974",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "240-313-9165",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 39.61652472,
+              "longitude": -77.69328139
+            },
+            "storenumber": "13893"
           }
         ]
       }
@@ -537,29 +1989,513 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T11:45:07.727+00:00",
+    "appointments_last_fetched": "2021-02-27T12:16:05.365+00:00",
     "appointments_raw": {
       "both_doses": {
-        "error": [
+        "locations": [
           {
-            "code": "FC_904_NoData",
-            "message": "Insufficient inventory."
+            "address": {
+              "city": "HAGERSTOWN",
+              "country": "US",
+              "line1": "17703 VIRGINIA AVE",
+              "line2": "",
+              "state": "MD",
+              "zip": "21740"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "09:15 am",
+                  "09:30 am",
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "11:00 am",
+                  "11:15 am",
+                  "11:30 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "02:15 pm",
+                  "02:45 pm",
+                  "03:00 pm",
+                  "03:15 pm",
+                  "03:30 pm",
+                  "03:45 pm",
+                  "04:15 pm",
+                  "04:30 pm",
+                  "04:45 pm",
+                  "05:00 pm",
+                  "05:15 pm",
+                  "05:30 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 20,
+            "fhirLocationId": "55973724-32ff-456e-9046-95995dd0064f",
+            "locationId": "55973724-32ff-456e-9046-95995dd0064f",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "13892",
+            "phone": [
+              {
+                "number": "240-420-5310",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "240-420-5329",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "240-420-5310",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 39.6213257,
+              "longitude": -77.75550622
+            },
+            "storenumber": "13892"
+          },
+          {
+            "address": {
+              "city": "HAGERSTOWN",
+              "country": "US",
+              "line1": "901 NORTH BURNHANS BOULEVARD",
+              "line2": "",
+              "state": "MD",
+              "zip": "21742"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "09:15 am",
+                  "09:30 am",
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "11:00 am",
+                  "11:15 am",
+                  "11:30 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "02:15 pm",
+                  "02:30 pm",
+                  "02:45 pm",
+                  "03:00 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 24.35,
+            "fhirLocationId": "1f12ac8f-1a9b-44d6-aca3-58955c737073",
+            "locationId": "1f12ac8f-1a9b-44d6-aca3-58955c737073",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "17174",
+            "phone": [
+              {
+                "number": "301-797-9300",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "301-790-6690",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "301-797-9300",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 39.65722354,
+              "longitude": -77.72045369
+            },
+            "storenumber": "17174"
+          },
+          {
+            "address": {
+              "city": "HAGERSTOWN",
+              "country": "US",
+              "line1": "1631 DUAL HWY",
+              "line2": "",
+              "state": "MD",
+              "zip": "21740"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "09:15 am",
+                  "09:30 am",
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "11:00 am",
+                  "11:15 am",
+                  "11:30 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "02:15 pm",
+                  "02:30 pm",
+                  "02:45 pm",
+                  "03:00 pm",
+                  "03:30 pm",
+                  "03:45 pm",
+                  "04:00 pm",
+                  "04:15 pm",
+                  "04:30 pm",
+                  "04:45 pm",
+                  "05:00 pm",
+                  "05:15 pm",
+                  "05:30 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 22.65,
+            "fhirLocationId": "b45e6349-0f92-49e1-80a1-cfc21265d4ca",
+            "locationId": "b45e6349-0f92-49e1-80a1-cfc21265d4ca",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "13893",
+            "phone": [
+              {
+                "number": "240-313-9165",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "240-313-3974",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "240-313-9165",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 39.61652472,
+              "longitude": -77.69328139
+            },
+            "storenumber": "13893"
           }
         ]
       },
       "second_dose_moderna": {
-        "error": [
+        "locations": [
           {
-            "code": "FC_904_NoData",
-            "message": "Insufficient inventory."
+            "address": {
+              "city": "HAGERSTOWN",
+              "country": "US",
+              "line1": "901 NORTH BURNHANS BOULEVARD",
+              "line2": "",
+              "state": "MD",
+              "zip": "21742"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "09:15 am",
+                  "09:30 am",
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "11:00 am",
+                  "11:15 am",
+                  "11:30 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "02:15 pm",
+                  "02:30 pm",
+                  "02:45 pm",
+                  "03:00 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 19.54,
+            "fhirLocationId": "1f12ac8f-1a9b-44d6-aca3-58955c737073",
+            "locationId": "1f12ac8f-1a9b-44d6-aca3-58955c737073",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "17174",
+            "phone": [
+              {
+                "number": "301-797-9300",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "301-790-6690",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "301-797-9300",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 39.65722354,
+              "longitude": -77.72045369
+            },
+            "storenumber": "17174"
           }
         ]
       },
       "second_dose_pfizer": {
-        "error": [
+        "locations": [
           {
-            "code": "FC_904_NoData",
-            "message": "Insufficient inventory."
+            "address": {
+              "city": "HAGERSTOWN",
+              "country": "US",
+              "line1": "17703 VIRGINIA AVE",
+              "line2": "",
+              "state": "MD",
+              "zip": "21740"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "09:15 am",
+                  "09:30 am",
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "11:00 am",
+                  "11:15 am",
+                  "11:30 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "02:15 pm",
+                  "02:45 pm",
+                  "03:00 pm",
+                  "03:15 pm",
+                  "03:30 pm",
+                  "03:45 pm",
+                  "04:15 pm",
+                  "04:30 pm",
+                  "04:45 pm",
+                  "05:00 pm",
+                  "05:15 pm",
+                  "05:30 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 20,
+            "fhirLocationId": "55973724-32ff-456e-9046-95995dd0064f",
+            "locationId": "55973724-32ff-456e-9046-95995dd0064f",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "13892",
+            "phone": [
+              {
+                "number": "240-420-5310",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "240-420-5329",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "240-420-5310",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 39.6213257,
+              "longitude": -77.75550622
+            },
+            "storenumber": "13892"
+          },
+          {
+            "address": {
+              "city": "HAGERSTOWN",
+              "country": "US",
+              "line1": "1631 DUAL HWY",
+              "line2": "",
+              "state": "MD",
+              "zip": "21740"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "09:15 am",
+                  "09:30 am",
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "11:00 am",
+                  "11:15 am",
+                  "11:30 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "02:15 pm",
+                  "02:30 pm",
+                  "02:45 pm",
+                  "03:00 pm",
+                  "03:30 pm",
+                  "03:45 pm",
+                  "04:00 pm",
+                  "04:15 pm",
+                  "04:30 pm",
+                  "04:45 pm",
+                  "05:00 pm",
+                  "05:15 pm",
+                  "05:30 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 22.87,
+            "fhirLocationId": "b45e6349-0f92-49e1-80a1-cfc21265d4ca",
+            "locationId": "b45e6349-0f92-49e1-80a1-cfc21265d4ca",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "13893",
+            "phone": [
+              {
+                "number": "240-313-9165",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "240-313-3974",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "240-313-9165",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 39.61652472,
+              "longitude": -77.69328139
+            },
+            "storenumber": "13893"
           }
         ]
       }
@@ -578,29 +2514,513 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T11:45:07.727+00:00",
+    "appointments_last_fetched": "2021-02-27T12:16:05.365+00:00",
     "appointments_raw": {
       "both_doses": {
-        "error": [
+        "locations": [
           {
-            "code": "FC_904_NoData",
-            "message": "Insufficient inventory."
+            "address": {
+              "city": "HAGERSTOWN",
+              "country": "US",
+              "line1": "17703 VIRGINIA AVE",
+              "line2": "",
+              "state": "MD",
+              "zip": "21740"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "09:15 am",
+                  "09:30 am",
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "11:00 am",
+                  "11:15 am",
+                  "11:30 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "02:15 pm",
+                  "02:45 pm",
+                  "03:00 pm",
+                  "03:15 pm",
+                  "03:30 pm",
+                  "03:45 pm",
+                  "04:15 pm",
+                  "04:30 pm",
+                  "04:45 pm",
+                  "05:00 pm",
+                  "05:15 pm",
+                  "05:30 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 20,
+            "fhirLocationId": "55973724-32ff-456e-9046-95995dd0064f",
+            "locationId": "55973724-32ff-456e-9046-95995dd0064f",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "13892",
+            "phone": [
+              {
+                "number": "240-420-5310",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "240-420-5329",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "240-420-5310",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 39.6213257,
+              "longitude": -77.75550622
+            },
+            "storenumber": "13892"
+          },
+          {
+            "address": {
+              "city": "HAGERSTOWN",
+              "country": "US",
+              "line1": "901 NORTH BURNHANS BOULEVARD",
+              "line2": "",
+              "state": "MD",
+              "zip": "21742"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "09:15 am",
+                  "09:30 am",
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "11:00 am",
+                  "11:15 am",
+                  "11:30 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "02:15 pm",
+                  "02:30 pm",
+                  "02:45 pm",
+                  "03:00 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 24.35,
+            "fhirLocationId": "1f12ac8f-1a9b-44d6-aca3-58955c737073",
+            "locationId": "1f12ac8f-1a9b-44d6-aca3-58955c737073",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "17174",
+            "phone": [
+              {
+                "number": "301-797-9300",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "301-790-6690",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "301-797-9300",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 39.65722354,
+              "longitude": -77.72045369
+            },
+            "storenumber": "17174"
+          },
+          {
+            "address": {
+              "city": "HAGERSTOWN",
+              "country": "US",
+              "line1": "1631 DUAL HWY",
+              "line2": "",
+              "state": "MD",
+              "zip": "21740"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "09:15 am",
+                  "09:30 am",
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "11:00 am",
+                  "11:15 am",
+                  "11:30 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "02:15 pm",
+                  "02:30 pm",
+                  "02:45 pm",
+                  "03:00 pm",
+                  "03:30 pm",
+                  "03:45 pm",
+                  "04:00 pm",
+                  "04:15 pm",
+                  "04:30 pm",
+                  "04:45 pm",
+                  "05:00 pm",
+                  "05:15 pm",
+                  "05:30 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 22.65,
+            "fhirLocationId": "b45e6349-0f92-49e1-80a1-cfc21265d4ca",
+            "locationId": "b45e6349-0f92-49e1-80a1-cfc21265d4ca",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "13893",
+            "phone": [
+              {
+                "number": "240-313-9165",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "240-313-3974",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "240-313-9165",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 39.61652472,
+              "longitude": -77.69328139
+            },
+            "storenumber": "13893"
           }
         ]
       },
       "second_dose_moderna": {
-        "error": [
+        "locations": [
           {
-            "code": "FC_904_NoData",
-            "message": "Insufficient inventory."
+            "address": {
+              "city": "HAGERSTOWN",
+              "country": "US",
+              "line1": "901 NORTH BURNHANS BOULEVARD",
+              "line2": "",
+              "state": "MD",
+              "zip": "21742"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "09:15 am",
+                  "09:30 am",
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "11:00 am",
+                  "11:15 am",
+                  "11:30 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "02:15 pm",
+                  "02:30 pm",
+                  "02:45 pm",
+                  "03:00 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 19.54,
+            "fhirLocationId": "1f12ac8f-1a9b-44d6-aca3-58955c737073",
+            "locationId": "1f12ac8f-1a9b-44d6-aca3-58955c737073",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "17174",
+            "phone": [
+              {
+                "number": "301-797-9300",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "301-790-6690",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "301-797-9300",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 39.65722354,
+              "longitude": -77.72045369
+            },
+            "storenumber": "17174"
           }
         ]
       },
       "second_dose_pfizer": {
-        "error": [
+        "locations": [
           {
-            "code": "FC_904_NoData",
-            "message": "Insufficient inventory."
+            "address": {
+              "city": "HAGERSTOWN",
+              "country": "US",
+              "line1": "17703 VIRGINIA AVE",
+              "line2": "",
+              "state": "MD",
+              "zip": "21740"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "09:15 am",
+                  "09:30 am",
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "11:00 am",
+                  "11:15 am",
+                  "11:30 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "02:15 pm",
+                  "02:45 pm",
+                  "03:00 pm",
+                  "03:15 pm",
+                  "03:30 pm",
+                  "03:45 pm",
+                  "04:15 pm",
+                  "04:30 pm",
+                  "04:45 pm",
+                  "05:00 pm",
+                  "05:15 pm",
+                  "05:30 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 20,
+            "fhirLocationId": "55973724-32ff-456e-9046-95995dd0064f",
+            "locationId": "55973724-32ff-456e-9046-95995dd0064f",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "13892",
+            "phone": [
+              {
+                "number": "240-420-5310",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "240-420-5329",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "240-420-5310",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 39.6213257,
+              "longitude": -77.75550622
+            },
+            "storenumber": "13892"
+          },
+          {
+            "address": {
+              "city": "HAGERSTOWN",
+              "country": "US",
+              "line1": "1631 DUAL HWY",
+              "line2": "",
+              "state": "MD",
+              "zip": "21740"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "09:15 am",
+                  "09:30 am",
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "11:00 am",
+                  "11:15 am",
+                  "11:30 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "02:15 pm",
+                  "02:30 pm",
+                  "02:45 pm",
+                  "03:00 pm",
+                  "03:30 pm",
+                  "03:45 pm",
+                  "04:00 pm",
+                  "04:15 pm",
+                  "04:30 pm",
+                  "04:45 pm",
+                  "05:00 pm",
+                  "05:15 pm",
+                  "05:30 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 22.87,
+            "fhirLocationId": "b45e6349-0f92-49e1-80a1-cfc21265d4ca",
+            "locationId": "b45e6349-0f92-49e1-80a1-cfc21265d4ca",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "13893",
+            "phone": [
+              {
+                "number": "240-313-9165",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "240-313-3974",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "240-313-9165",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 39.61652472,
+              "longitude": -77.69328139
+            },
+            "storenumber": "13893"
           }
         ]
       }
@@ -619,29 +3039,513 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T11:45:07.727+00:00",
+    "appointments_last_fetched": "2021-02-27T12:16:05.365+00:00",
     "appointments_raw": {
       "both_doses": {
-        "error": [
+        "locations": [
           {
-            "code": "FC_904_NoData",
-            "message": "Insufficient inventory."
+            "address": {
+              "city": "HAGERSTOWN",
+              "country": "US",
+              "line1": "17703 VIRGINIA AVE",
+              "line2": "",
+              "state": "MD",
+              "zip": "21740"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "09:15 am",
+                  "09:30 am",
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "11:00 am",
+                  "11:15 am",
+                  "11:30 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "02:15 pm",
+                  "02:45 pm",
+                  "03:00 pm",
+                  "03:15 pm",
+                  "03:30 pm",
+                  "03:45 pm",
+                  "04:15 pm",
+                  "04:30 pm",
+                  "04:45 pm",
+                  "05:00 pm",
+                  "05:15 pm",
+                  "05:30 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 20,
+            "fhirLocationId": "55973724-32ff-456e-9046-95995dd0064f",
+            "locationId": "55973724-32ff-456e-9046-95995dd0064f",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "13892",
+            "phone": [
+              {
+                "number": "240-420-5310",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "240-420-5329",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "240-420-5310",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 39.6213257,
+              "longitude": -77.75550622
+            },
+            "storenumber": "13892"
+          },
+          {
+            "address": {
+              "city": "HAGERSTOWN",
+              "country": "US",
+              "line1": "901 NORTH BURNHANS BOULEVARD",
+              "line2": "",
+              "state": "MD",
+              "zip": "21742"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "09:15 am",
+                  "09:30 am",
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "11:00 am",
+                  "11:15 am",
+                  "11:30 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "02:15 pm",
+                  "02:30 pm",
+                  "02:45 pm",
+                  "03:00 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 24.35,
+            "fhirLocationId": "1f12ac8f-1a9b-44d6-aca3-58955c737073",
+            "locationId": "1f12ac8f-1a9b-44d6-aca3-58955c737073",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "17174",
+            "phone": [
+              {
+                "number": "301-797-9300",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "301-790-6690",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "301-797-9300",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 39.65722354,
+              "longitude": -77.72045369
+            },
+            "storenumber": "17174"
+          },
+          {
+            "address": {
+              "city": "HAGERSTOWN",
+              "country": "US",
+              "line1": "1631 DUAL HWY",
+              "line2": "",
+              "state": "MD",
+              "zip": "21740"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "09:15 am",
+                  "09:30 am",
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "11:00 am",
+                  "11:15 am",
+                  "11:30 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "02:15 pm",
+                  "02:30 pm",
+                  "02:45 pm",
+                  "03:00 pm",
+                  "03:30 pm",
+                  "03:45 pm",
+                  "04:00 pm",
+                  "04:15 pm",
+                  "04:30 pm",
+                  "04:45 pm",
+                  "05:00 pm",
+                  "05:15 pm",
+                  "05:30 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 22.65,
+            "fhirLocationId": "b45e6349-0f92-49e1-80a1-cfc21265d4ca",
+            "locationId": "b45e6349-0f92-49e1-80a1-cfc21265d4ca",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "13893",
+            "phone": [
+              {
+                "number": "240-313-9165",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "240-313-3974",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "240-313-9165",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 39.61652472,
+              "longitude": -77.69328139
+            },
+            "storenumber": "13893"
           }
         ]
       },
       "second_dose_moderna": {
-        "error": [
+        "locations": [
           {
-            "code": "FC_904_NoData",
-            "message": "Insufficient inventory."
+            "address": {
+              "city": "HAGERSTOWN",
+              "country": "US",
+              "line1": "901 NORTH BURNHANS BOULEVARD",
+              "line2": "",
+              "state": "MD",
+              "zip": "21742"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "09:15 am",
+                  "09:30 am",
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "11:00 am",
+                  "11:15 am",
+                  "11:30 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "02:15 pm",
+                  "02:30 pm",
+                  "02:45 pm",
+                  "03:00 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 19.54,
+            "fhirLocationId": "1f12ac8f-1a9b-44d6-aca3-58955c737073",
+            "locationId": "1f12ac8f-1a9b-44d6-aca3-58955c737073",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "17174",
+            "phone": [
+              {
+                "number": "301-797-9300",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "301-790-6690",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "301-797-9300",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 39.65722354,
+              "longitude": -77.72045369
+            },
+            "storenumber": "17174"
           }
         ]
       },
       "second_dose_pfizer": {
-        "error": [
+        "locations": [
           {
-            "code": "FC_904_NoData",
-            "message": "Insufficient inventory."
+            "address": {
+              "city": "HAGERSTOWN",
+              "country": "US",
+              "line1": "17703 VIRGINIA AVE",
+              "line2": "",
+              "state": "MD",
+              "zip": "21740"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "09:15 am",
+                  "09:30 am",
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "11:00 am",
+                  "11:15 am",
+                  "11:30 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "02:15 pm",
+                  "02:45 pm",
+                  "03:00 pm",
+                  "03:15 pm",
+                  "03:30 pm",
+                  "03:45 pm",
+                  "04:15 pm",
+                  "04:30 pm",
+                  "04:45 pm",
+                  "05:00 pm",
+                  "05:15 pm",
+                  "05:30 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 20,
+            "fhirLocationId": "55973724-32ff-456e-9046-95995dd0064f",
+            "locationId": "55973724-32ff-456e-9046-95995dd0064f",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "13892",
+            "phone": [
+              {
+                "number": "240-420-5310",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "240-420-5329",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "240-420-5310",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 39.6213257,
+              "longitude": -77.75550622
+            },
+            "storenumber": "13892"
+          },
+          {
+            "address": {
+              "city": "HAGERSTOWN",
+              "country": "US",
+              "line1": "1631 DUAL HWY",
+              "line2": "",
+              "state": "MD",
+              "zip": "21740"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "09:15 am",
+                  "09:30 am",
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "11:00 am",
+                  "11:15 am",
+                  "11:30 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "02:15 pm",
+                  "02:30 pm",
+                  "02:45 pm",
+                  "03:00 pm",
+                  "03:30 pm",
+                  "03:45 pm",
+                  "04:00 pm",
+                  "04:15 pm",
+                  "04:30 pm",
+                  "04:45 pm",
+                  "05:00 pm",
+                  "05:15 pm",
+                  "05:30 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 22.87,
+            "fhirLocationId": "b45e6349-0f92-49e1-80a1-cfc21265d4ca",
+            "locationId": "b45e6349-0f92-49e1-80a1-cfc21265d4ca",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "13893",
+            "phone": [
+              {
+                "number": "240-313-9165",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "240-313-3974",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "240-313-9165",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 39.61652472,
+              "longitude": -77.69328139
+            },
+            "storenumber": "13893"
           }
         ]
       }
@@ -1111,10 +4015,97 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T11:50:15.736+00:00",
+    "appointments_last_fetched": "2021-02-27T12:16:08.115+00:00",
     "appointments_raw": {
       "both_doses": {
         "locations": [
+          {
+            "address": {
+              "city": "GRUNDY",
+              "country": "US",
+              "line1": "20822 RIVERSIDE DRIVE",
+              "line2": "",
+              "state": "VA",
+              "zip": "24614"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "09:15 am",
+                  "09:30 am",
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "11:00 am",
+                  "11:15 am",
+                  "11:30 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "02:15 pm",
+                  "02:30 pm",
+                  "02:45 pm",
+                  "03:00 pm",
+                  "03:15 pm",
+                  "03:30 pm",
+                  "03:45 pm",
+                  "04:00 pm",
+                  "04:15 pm",
+                  "04:30 pm",
+                  "04:45 pm",
+                  "05:00 pm",
+                  "05:15 pm",
+                  "05:30 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 19.41,
+            "fhirLocationId": "266546ed-e3eb-4227-a4bb-72dd628cab50",
+            "locationId": "266546ed-e3eb-4227-a4bb-72dd628cab50",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "17306",
+            "phone": [
+              {
+                "number": "276-935-2789",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "276-935-4675",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "276-935-2789",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 37.26094718,
+              "longitude": -82.10119855
+            },
+            "storenumber": "17306"
+          },
           {
             "address": {
               "city": "MC CARR",
@@ -1129,6 +4120,42 @@
                 "date": "2021-03-01",
                 "day": "Monday",
                 "slots": [
+                  "09:30 am",
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "11:00 am",
+                  "11:15 am",
+                  "11:30 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "01:45 pm",
+                  "02:00 pm",
+                  "02:15 pm",
+                  "02:30 pm",
+                  "02:45 pm",
+                  "03:00 pm",
+                  "03:15 pm",
+                  "03:30 pm",
+                  "03:45 pm",
+                  "04:00 pm",
+                  "04:15 pm",
+                  "04:30 pm",
+                  "04:45 pm",
+                  "05:00 pm",
+                  "05:15 pm",
+                  "05:30 pm"
+                ]
+              },
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "09:15 am",
                   "09:30 am",
                   "09:45 am",
                   "10:00 am",
@@ -1174,7 +4201,7 @@
               }
             ],
             "description": "",
-            "distance": 20.45,
+            "distance": 23.94,
             "fhirLocationId": "d3949156-2589-45aa-bb7a-2af026147cd8",
             "locationId": "d3949156-2589-45aa-bb7a-2af026147cd8",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -1215,6 +4242,93 @@
         "locations": [
           {
             "address": {
+              "city": "GRUNDY",
+              "country": "US",
+              "line1": "20822 RIVERSIDE DRIVE",
+              "line2": "",
+              "state": "VA",
+              "zip": "24614"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "09:15 am",
+                  "09:30 am",
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "11:00 am",
+                  "11:15 am",
+                  "11:30 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "02:15 pm",
+                  "02:30 pm",
+                  "02:45 pm",
+                  "03:00 pm",
+                  "03:15 pm",
+                  "03:30 pm",
+                  "03:45 pm",
+                  "04:00 pm",
+                  "04:15 pm",
+                  "04:30 pm",
+                  "04:45 pm",
+                  "05:00 pm",
+                  "05:15 pm",
+                  "05:30 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 19.27,
+            "fhirLocationId": "266546ed-e3eb-4227-a4bb-72dd628cab50",
+            "locationId": "266546ed-e3eb-4227-a4bb-72dd628cab50",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "17306",
+            "phone": [
+              {
+                "number": "276-935-2789",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "276-935-4675",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "276-935-2789",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 37.26094718,
+              "longitude": -82.10119855
+            },
+            "storenumber": "17306"
+          },
+          {
+            "address": {
               "city": "MC CARR",
               "country": "US",
               "line1": "11349 STATE HIGHWAY 1056",
@@ -1227,6 +4341,42 @@
                 "date": "2021-03-01",
                 "day": "Monday",
                 "slots": [
+                  "09:30 am",
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "11:00 am",
+                  "11:15 am",
+                  "11:30 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "01:45 pm",
+                  "02:00 pm",
+                  "02:15 pm",
+                  "02:30 pm",
+                  "02:45 pm",
+                  "03:00 pm",
+                  "03:15 pm",
+                  "03:30 pm",
+                  "03:45 pm",
+                  "04:00 pm",
+                  "04:15 pm",
+                  "04:30 pm",
+                  "04:45 pm",
+                  "05:00 pm",
+                  "05:15 pm",
+                  "05:30 pm"
+                ]
+              },
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "09:15 am",
                   "09:30 am",
                   "09:45 am",
                   "10:00 am",
@@ -1316,7 +4466,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T11:49:20.044+00:00",
+    "appointments_last_fetched": "2021-02-27T12:17:05.449+00:00",
     "appointments_raw": {
       "both_doses": {
         "locations": [
@@ -1334,6 +4484,42 @@
                 "date": "2021-03-01",
                 "day": "Monday",
                 "slots": [
+                  "09:30 am",
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "11:00 am",
+                  "11:15 am",
+                  "11:30 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "01:45 pm",
+                  "02:00 pm",
+                  "02:15 pm",
+                  "02:30 pm",
+                  "02:45 pm",
+                  "03:00 pm",
+                  "03:15 pm",
+                  "03:30 pm",
+                  "03:45 pm",
+                  "04:00 pm",
+                  "04:15 pm",
+                  "04:30 pm",
+                  "04:45 pm",
+                  "05:00 pm",
+                  "05:15 pm",
+                  "05:30 pm"
+                ]
+              },
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "09:15 am",
                   "09:30 am",
                   "09:45 am",
                   "10:00 am",
@@ -1462,6 +4648,42 @@
                   "05:15 pm",
                   "05:30 pm"
                 ]
+              },
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "09:15 am",
+                  "09:30 am",
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "11:00 am",
+                  "11:15 am",
+                  "11:30 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "01:45 pm",
+                  "02:00 pm",
+                  "02:15 pm",
+                  "02:30 pm",
+                  "02:45 pm",
+                  "03:00 pm",
+                  "03:15 pm",
+                  "03:30 pm",
+                  "03:45 pm",
+                  "04:00 pm",
+                  "04:15 pm",
+                  "04:30 pm",
+                  "04:45 pm",
+                  "05:00 pm",
+                  "05:15 pm",
+                  "05:30 pm"
+                ]
               }
             ],
             "categories": [
@@ -1477,7 +4699,7 @@
               }
             ],
             "description": "",
-            "distance": 20.45,
+            "distance": 20.69,
             "fhirLocationId": "d3949156-2589-45aa-bb7a-2af026147cd8",
             "locationId": "d3949156-2589-45aa-bb7a-2af026147cd8",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -1603,10 +4825,97 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T11:50:15.736+00:00",
+    "appointments_last_fetched": "2021-02-27T12:16:08.115+00:00",
     "appointments_raw": {
       "both_doses": {
         "locations": [
+          {
+            "address": {
+              "city": "GRUNDY",
+              "country": "US",
+              "line1": "20822 RIVERSIDE DRIVE",
+              "line2": "",
+              "state": "VA",
+              "zip": "24614"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "09:15 am",
+                  "09:30 am",
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "11:00 am",
+                  "11:15 am",
+                  "11:30 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "02:15 pm",
+                  "02:30 pm",
+                  "02:45 pm",
+                  "03:00 pm",
+                  "03:15 pm",
+                  "03:30 pm",
+                  "03:45 pm",
+                  "04:00 pm",
+                  "04:15 pm",
+                  "04:30 pm",
+                  "04:45 pm",
+                  "05:00 pm",
+                  "05:15 pm",
+                  "05:30 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 19.41,
+            "fhirLocationId": "266546ed-e3eb-4227-a4bb-72dd628cab50",
+            "locationId": "266546ed-e3eb-4227-a4bb-72dd628cab50",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "17306",
+            "phone": [
+              {
+                "number": "276-935-2789",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "276-935-4675",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "276-935-2789",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 37.26094718,
+              "longitude": -82.10119855
+            },
+            "storenumber": "17306"
+          },
           {
             "address": {
               "city": "MC CARR",
@@ -1621,6 +4930,42 @@
                 "date": "2021-03-01",
                 "day": "Monday",
                 "slots": [
+                  "09:30 am",
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "11:00 am",
+                  "11:15 am",
+                  "11:30 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "01:45 pm",
+                  "02:00 pm",
+                  "02:15 pm",
+                  "02:30 pm",
+                  "02:45 pm",
+                  "03:00 pm",
+                  "03:15 pm",
+                  "03:30 pm",
+                  "03:45 pm",
+                  "04:00 pm",
+                  "04:15 pm",
+                  "04:30 pm",
+                  "04:45 pm",
+                  "05:00 pm",
+                  "05:15 pm",
+                  "05:30 pm"
+                ]
+              },
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "09:15 am",
                   "09:30 am",
                   "09:45 am",
                   "10:00 am",
@@ -1666,7 +5011,7 @@
               }
             ],
             "description": "",
-            "distance": 20.45,
+            "distance": 23.94,
             "fhirLocationId": "d3949156-2589-45aa-bb7a-2af026147cd8",
             "locationId": "d3949156-2589-45aa-bb7a-2af026147cd8",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -1707,6 +5052,93 @@
         "locations": [
           {
             "address": {
+              "city": "GRUNDY",
+              "country": "US",
+              "line1": "20822 RIVERSIDE DRIVE",
+              "line2": "",
+              "state": "VA",
+              "zip": "24614"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "09:15 am",
+                  "09:30 am",
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "11:00 am",
+                  "11:15 am",
+                  "11:30 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "02:15 pm",
+                  "02:30 pm",
+                  "02:45 pm",
+                  "03:00 pm",
+                  "03:15 pm",
+                  "03:30 pm",
+                  "03:45 pm",
+                  "04:00 pm",
+                  "04:15 pm",
+                  "04:30 pm",
+                  "04:45 pm",
+                  "05:00 pm",
+                  "05:15 pm",
+                  "05:30 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 19.27,
+            "fhirLocationId": "266546ed-e3eb-4227-a4bb-72dd628cab50",
+            "locationId": "266546ed-e3eb-4227-a4bb-72dd628cab50",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "17306",
+            "phone": [
+              {
+                "number": "276-935-2789",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "276-935-4675",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "276-935-2789",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 37.26094718,
+              "longitude": -82.10119855
+            },
+            "storenumber": "17306"
+          },
+          {
+            "address": {
               "city": "MC CARR",
               "country": "US",
               "line1": "11349 STATE HIGHWAY 1056",
@@ -1719,6 +5151,42 @@
                 "date": "2021-03-01",
                 "day": "Monday",
                 "slots": [
+                  "09:30 am",
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "11:00 am",
+                  "11:15 am",
+                  "11:30 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "01:45 pm",
+                  "02:00 pm",
+                  "02:15 pm",
+                  "02:30 pm",
+                  "02:45 pm",
+                  "03:00 pm",
+                  "03:15 pm",
+                  "03:30 pm",
+                  "03:45 pm",
+                  "04:00 pm",
+                  "04:15 pm",
+                  "04:30 pm",
+                  "04:45 pm",
+                  "05:00 pm",
+                  "05:15 pm",
+                  "05:30 pm"
+                ]
+              },
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "09:15 am",
                   "09:30 am",
                   "09:45 am",
                   "10:00 am",
@@ -1808,7 +5276,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T11:46:20.535+00:00",
+    "appointments_last_fetched": "2021-02-27T12:15:52.234+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -1849,7 +5317,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T11:46:20.535+00:00",
+    "appointments_last_fetched": "2021-02-27T12:15:52.234+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -1890,7 +5358,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T11:46:20.535+00:00",
+    "appointments_last_fetched": "2021-02-27T12:15:52.234+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -2418,7 +5886,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T11:46:20.535+00:00",
+    "appointments_last_fetched": "2021-02-27T12:15:52.234+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -2459,7 +5927,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T11:46:20.535+00:00",
+    "appointments_last_fetched": "2021-02-27T12:15:52.234+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -2500,7 +5968,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T11:46:20.535+00:00",
+    "appointments_last_fetched": "2021-02-27T12:15:52.234+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -2541,7 +6009,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T11:46:20.535+00:00",
+    "appointments_last_fetched": "2021-02-27T12:15:52.234+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -3069,7 +6537,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T11:46:20.535+00:00",
+    "appointments_last_fetched": "2021-02-27T12:15:52.234+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -3597,7 +7065,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T11:46:20.535+00:00",
+    "appointments_last_fetched": "2021-02-27T12:15:52.234+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -4207,7 +7675,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T11:46:20.535+00:00",
+    "appointments_last_fetched": "2021-02-27T12:15:52.234+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -4248,7 +7716,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T11:46:20.535+00:00",
+    "appointments_last_fetched": "2021-02-27T12:15:52.234+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -4289,7 +7757,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T11:46:20.535+00:00",
+    "appointments_last_fetched": "2021-02-27T12:15:52.234+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -4817,7 +8285,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T11:46:20.535+00:00",
+    "appointments_last_fetched": "2021-02-27T12:15:52.234+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -4858,7 +8326,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T11:46:20.535+00:00",
+    "appointments_last_fetched": "2021-02-27T12:15:52.234+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -5386,7 +8854,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T11:46:20.535+00:00",
+    "appointments_last_fetched": "2021-02-27T12:15:52.234+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -5955,7 +9423,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T11:46:20.535+00:00",
+    "appointments_last_fetched": "2021-02-27T12:15:52.234+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -6037,7 +9505,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T11:46:20.535+00:00",
+    "appointments_last_fetched": "2021-02-27T12:15:52.234+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -6078,7 +9546,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T11:49:20.044+00:00",
+    "appointments_last_fetched": "2021-02-27T12:17:05.449+00:00",
     "appointments_raw": {
       "both_doses": {
         "locations": [
@@ -6096,6 +9564,42 @@
                 "date": "2021-03-01",
                 "day": "Monday",
                 "slots": [
+                  "09:30 am",
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "11:00 am",
+                  "11:15 am",
+                  "11:30 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "01:45 pm",
+                  "02:00 pm",
+                  "02:15 pm",
+                  "02:30 pm",
+                  "02:45 pm",
+                  "03:00 pm",
+                  "03:15 pm",
+                  "03:30 pm",
+                  "03:45 pm",
+                  "04:00 pm",
+                  "04:15 pm",
+                  "04:30 pm",
+                  "04:45 pm",
+                  "05:00 pm",
+                  "05:15 pm",
+                  "05:30 pm"
+                ]
+              },
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "09:15 am",
                   "09:30 am",
                   "09:45 am",
                   "10:00 am",
@@ -6224,6 +9728,42 @@
                   "05:15 pm",
                   "05:30 pm"
                 ]
+              },
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "09:15 am",
+                  "09:30 am",
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "11:00 am",
+                  "11:15 am",
+                  "11:30 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "01:45 pm",
+                  "02:00 pm",
+                  "02:15 pm",
+                  "02:30 pm",
+                  "02:45 pm",
+                  "03:00 pm",
+                  "03:15 pm",
+                  "03:30 pm",
+                  "03:45 pm",
+                  "04:00 pm",
+                  "04:15 pm",
+                  "04:30 pm",
+                  "04:45 pm",
+                  "05:00 pm",
+                  "05:15 pm",
+                  "05:30 pm"
+                ]
               }
             ],
             "categories": [
@@ -6239,7 +9779,7 @@
               }
             ],
             "description": "",
-            "distance": 20.45,
+            "distance": 20.69,
             "fhirLocationId": "d3949156-2589-45aa-bb7a-2af026147cd8",
             "locationId": "d3949156-2589-45aa-bb7a-2af026147cd8",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -6283,7 +9823,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T11:49:20.044+00:00",
+    "appointments_last_fetched": "2021-02-27T12:17:05.449+00:00",
     "appointments_raw": {
       "both_doses": {
         "locations": [
@@ -6301,6 +9841,42 @@
                 "date": "2021-03-01",
                 "day": "Monday",
                 "slots": [
+                  "09:30 am",
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "11:00 am",
+                  "11:15 am",
+                  "11:30 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "01:45 pm",
+                  "02:00 pm",
+                  "02:15 pm",
+                  "02:30 pm",
+                  "02:45 pm",
+                  "03:00 pm",
+                  "03:15 pm",
+                  "03:30 pm",
+                  "03:45 pm",
+                  "04:00 pm",
+                  "04:15 pm",
+                  "04:30 pm",
+                  "04:45 pm",
+                  "05:00 pm",
+                  "05:15 pm",
+                  "05:30 pm"
+                ]
+              },
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "09:15 am",
                   "09:30 am",
                   "09:45 am",
                   "10:00 am",
@@ -6429,6 +10005,42 @@
                   "05:15 pm",
                   "05:30 pm"
                 ]
+              },
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "09:15 am",
+                  "09:30 am",
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "11:00 am",
+                  "11:15 am",
+                  "11:30 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "01:45 pm",
+                  "02:00 pm",
+                  "02:15 pm",
+                  "02:30 pm",
+                  "02:45 pm",
+                  "03:00 pm",
+                  "03:15 pm",
+                  "03:30 pm",
+                  "03:45 pm",
+                  "04:00 pm",
+                  "04:15 pm",
+                  "04:30 pm",
+                  "04:45 pm",
+                  "05:00 pm",
+                  "05:15 pm",
+                  "05:30 pm"
+                ]
               }
             ],
             "categories": [
@@ -6444,7 +10056,7 @@
               }
             ],
             "description": "",
-            "distance": 20.45,
+            "distance": 20.69,
             "fhirLocationId": "d3949156-2589-45aa-bb7a-2af026147cd8",
             "locationId": "d3949156-2589-45aa-bb7a-2af026147cd8",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -6529,7 +10141,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T11:49:20.044+00:00",
+    "appointments_last_fetched": "2021-02-27T12:17:05.449+00:00",
     "appointments_raw": {
       "both_doses": {
         "locations": [
@@ -6547,6 +10159,42 @@
                 "date": "2021-03-01",
                 "day": "Monday",
                 "slots": [
+                  "09:30 am",
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "11:00 am",
+                  "11:15 am",
+                  "11:30 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "01:45 pm",
+                  "02:00 pm",
+                  "02:15 pm",
+                  "02:30 pm",
+                  "02:45 pm",
+                  "03:00 pm",
+                  "03:15 pm",
+                  "03:30 pm",
+                  "03:45 pm",
+                  "04:00 pm",
+                  "04:15 pm",
+                  "04:30 pm",
+                  "04:45 pm",
+                  "05:00 pm",
+                  "05:15 pm",
+                  "05:30 pm"
+                ]
+              },
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "09:15 am",
                   "09:30 am",
                   "09:45 am",
                   "10:00 am",
@@ -6675,6 +10323,42 @@
                   "05:15 pm",
                   "05:30 pm"
                 ]
+              },
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "09:15 am",
+                  "09:30 am",
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "11:00 am",
+                  "11:15 am",
+                  "11:30 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "01:45 pm",
+                  "02:00 pm",
+                  "02:15 pm",
+                  "02:30 pm",
+                  "02:45 pm",
+                  "03:00 pm",
+                  "03:15 pm",
+                  "03:30 pm",
+                  "03:45 pm",
+                  "04:00 pm",
+                  "04:15 pm",
+                  "04:30 pm",
+                  "04:45 pm",
+                  "05:00 pm",
+                  "05:15 pm",
+                  "05:30 pm"
+                ]
               }
             ],
             "categories": [
@@ -6690,7 +10374,7 @@
               }
             ],
             "description": "",
-            "distance": 20.45,
+            "distance": 20.69,
             "fhirLocationId": "d3949156-2589-45aa-bb7a-2af026147cd8",
             "locationId": "d3949156-2589-45aa-bb7a-2af026147cd8",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -6816,7 +10500,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T11:43:28.415+00:00",
+    "appointments_last_fetched": "2021-02-27T12:17:02.42+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -6857,7 +10541,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T11:43:28.415+00:00",
+    "appointments_last_fetched": "2021-02-27T12:17:02.42+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -6898,7 +10582,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T11:43:28.415+00:00",
+    "appointments_last_fetched": "2021-02-27T12:17:02.42+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -6939,7 +10623,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T11:43:28.415+00:00",
+    "appointments_last_fetched": "2021-02-27T12:17:02.42+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -6980,7 +10664,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T11:43:28.415+00:00",
+    "appointments_last_fetched": "2021-02-27T12:17:02.42+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -7062,7 +10746,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T11:43:28.415+00:00",
+    "appointments_last_fetched": "2021-02-27T12:17:02.42+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -7884,7 +11568,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T11:49:20.044+00:00",
+    "appointments_last_fetched": "2021-02-27T12:17:05.449+00:00",
     "appointments_raw": {
       "both_doses": {
         "locations": [
@@ -7902,6 +11586,42 @@
                 "date": "2021-03-01",
                 "day": "Monday",
                 "slots": [
+                  "09:30 am",
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "11:00 am",
+                  "11:15 am",
+                  "11:30 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "01:45 pm",
+                  "02:00 pm",
+                  "02:15 pm",
+                  "02:30 pm",
+                  "02:45 pm",
+                  "03:00 pm",
+                  "03:15 pm",
+                  "03:30 pm",
+                  "03:45 pm",
+                  "04:00 pm",
+                  "04:15 pm",
+                  "04:30 pm",
+                  "04:45 pm",
+                  "05:00 pm",
+                  "05:15 pm",
+                  "05:30 pm"
+                ]
+              },
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "09:15 am",
                   "09:30 am",
                   "09:45 am",
                   "10:00 am",
@@ -8030,6 +11750,42 @@
                   "05:15 pm",
                   "05:30 pm"
                 ]
+              },
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "09:15 am",
+                  "09:30 am",
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "11:00 am",
+                  "11:15 am",
+                  "11:30 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "01:45 pm",
+                  "02:00 pm",
+                  "02:15 pm",
+                  "02:30 pm",
+                  "02:45 pm",
+                  "03:00 pm",
+                  "03:15 pm",
+                  "03:30 pm",
+                  "03:45 pm",
+                  "04:00 pm",
+                  "04:15 pm",
+                  "04:30 pm",
+                  "04:45 pm",
+                  "05:00 pm",
+                  "05:15 pm",
+                  "05:30 pm"
+                ]
               }
             ],
             "categories": [
@@ -8045,7 +11801,7 @@
               }
             ],
             "description": "",
-            "distance": 20.45,
+            "distance": 20.69,
             "fhirLocationId": "d3949156-2589-45aa-bb7a-2af026147cd8",
             "locationId": "d3949156-2589-45aa-bb7a-2af026147cd8",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -8089,7 +11845,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T11:49:20.044+00:00",
+    "appointments_last_fetched": "2021-02-27T12:17:05.449+00:00",
     "appointments_raw": {
       "both_doses": {
         "locations": [
@@ -8107,6 +11863,42 @@
                 "date": "2021-03-01",
                 "day": "Monday",
                 "slots": [
+                  "09:30 am",
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "11:00 am",
+                  "11:15 am",
+                  "11:30 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "01:45 pm",
+                  "02:00 pm",
+                  "02:15 pm",
+                  "02:30 pm",
+                  "02:45 pm",
+                  "03:00 pm",
+                  "03:15 pm",
+                  "03:30 pm",
+                  "03:45 pm",
+                  "04:00 pm",
+                  "04:15 pm",
+                  "04:30 pm",
+                  "04:45 pm",
+                  "05:00 pm",
+                  "05:15 pm",
+                  "05:30 pm"
+                ]
+              },
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "09:15 am",
                   "09:30 am",
                   "09:45 am",
                   "10:00 am",
@@ -8235,6 +12027,42 @@
                   "05:15 pm",
                   "05:30 pm"
                 ]
+              },
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "09:15 am",
+                  "09:30 am",
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "11:00 am",
+                  "11:15 am",
+                  "11:30 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "01:45 pm",
+                  "02:00 pm",
+                  "02:15 pm",
+                  "02:30 pm",
+                  "02:45 pm",
+                  "03:00 pm",
+                  "03:15 pm",
+                  "03:30 pm",
+                  "03:45 pm",
+                  "04:00 pm",
+                  "04:15 pm",
+                  "04:30 pm",
+                  "04:45 pm",
+                  "05:00 pm",
+                  "05:15 pm",
+                  "05:30 pm"
+                ]
               }
             ],
             "categories": [
@@ -8250,7 +12078,7 @@
               }
             ],
             "description": "",
-            "distance": 20.45,
+            "distance": 20.69,
             "fhirLocationId": "d3949156-2589-45aa-bb7a-2af026147cd8",
             "locationId": "d3949156-2589-45aa-bb7a-2af026147cd8",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
