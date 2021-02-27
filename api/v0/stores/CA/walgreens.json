@@ -1316,7 +1316,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T08:22:12.655+00:00",
+    "appointments_last_fetched": "2021-02-27T08:53:33.421+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -12509,7 +12509,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T08:21:27.585+00:00",
+    "appointments_last_fetched": "2021-02-27T08:53:27.989+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -18700,13 +18700,68 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T08:22:58.941+00:00",
+    "appointments_last_fetched": "2021-02-27T08:54:04.095+00:00",
     "appointments_raw": {
       "both_doses": {
-        "error": [
+        "locations": [
           {
-            "code": "FC_904_NoData",
-            "message": "Insufficient inventory."
+            "address": {
+              "city": "SANTA CLARA",
+              "country": "US",
+              "line1": "200 N WINCHESTER BLVD",
+              "line2": "",
+              "state": "CA",
+              "zip": "95050"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "11:00 am",
+                  "11:15 am"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 13.58,
+            "fhirLocationId": "a97dd7bf-9d2f-476a-b9ad-b6fdd51dd74e",
+            "locationId": "a97dd7bf-9d2f-476a-b9ad-b6fdd51dd74e",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "2612",
+            "phone": [
+              {
+                "number": "408-247-1894",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "408-247-1895",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "408-247-1894",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 37.32913857,
+              "longitude": -121.95071785
+            },
+            "storenumber": "2612"
           }
         ]
       },
@@ -18719,10 +18774,65 @@
         ]
       },
       "second_dose_pfizer": {
-        "error": [
+        "locations": [
           {
-            "code": "FC_904_NoData",
-            "message": "Insufficient inventory."
+            "address": {
+              "city": "SANTA CLARA",
+              "country": "US",
+              "line1": "200 N WINCHESTER BLVD",
+              "line2": "",
+              "state": "CA",
+              "zip": "95050"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "11:00 am",
+                  "11:15 am"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 24.32,
+            "fhirLocationId": "a97dd7bf-9d2f-476a-b9ad-b6fdd51dd74e",
+            "locationId": "a97dd7bf-9d2f-476a-b9ad-b6fdd51dd74e",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "2612",
+            "phone": [
+              {
+                "number": "408-247-1894",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "408-247-1895",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "408-247-1894",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 37.32913857,
+              "longitude": -121.95071785
+            },
+            "storenumber": "2612"
           }
         ]
       }
@@ -18739,15 +18849,86 @@
   {
     "address": "200 N WINCHESTER BLVD",
     "appointments": [
+      {
+        "time": "2021-03-01T11:00:00.000-08:00",
+        "type": "both_doses"
+      },
+      {
+        "time": "2021-03-01T11:00:00.000-08:00",
+        "type": "second_dose_pfizer"
+      },
+      {
+        "time": "2021-03-01T11:15:00.000-08:00",
+        "type": "both_doses"
+      },
+      {
+        "time": "2021-03-01T11:15:00.000-08:00",
+        "type": "second_dose_pfizer"
+      }
     ],
-    "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T08:32:06.687+00:00",
+    "appointments_available": true,
+    "appointments_last_fetched": "2021-02-27T08:54:04.095+00:00",
     "appointments_raw": {
       "both_doses": {
-        "error": [
+        "locations": [
           {
-            "code": "FC_904_NoData",
-            "message": "Insufficient inventory."
+            "address": {
+              "city": "SANTA CLARA",
+              "country": "US",
+              "line1": "200 N WINCHESTER BLVD",
+              "line2": "",
+              "state": "CA",
+              "zip": "95050"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "11:00 am",
+                  "11:15 am"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 13.58,
+            "fhirLocationId": "a97dd7bf-9d2f-476a-b9ad-b6fdd51dd74e",
+            "locationId": "a97dd7bf-9d2f-476a-b9ad-b6fdd51dd74e",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "2612",
+            "phone": [
+              {
+                "number": "408-247-1894",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "408-247-1895",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "408-247-1894",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 37.32913857,
+              "longitude": -121.95071785
+            },
+            "storenumber": "2612"
           }
         ]
       },
@@ -18760,10 +18941,65 @@
         ]
       },
       "second_dose_pfizer": {
-        "error": [
+        "locations": [
           {
-            "code": "FC_904_NoData",
-            "message": "Insufficient inventory."
+            "address": {
+              "city": "SANTA CLARA",
+              "country": "US",
+              "line1": "200 N WINCHESTER BLVD",
+              "line2": "",
+              "state": "CA",
+              "zip": "95050"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "11:00 am",
+                  "11:15 am"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 24.32,
+            "fhirLocationId": "a97dd7bf-9d2f-476a-b9ad-b6fdd51dd74e",
+            "locationId": "a97dd7bf-9d2f-476a-b9ad-b6fdd51dd74e",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "2612",
+            "phone": [
+              {
+                "number": "408-247-1894",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "408-247-1895",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "408-247-1894",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 37.32913857,
+              "longitude": -121.95071785
+            },
+            "storenumber": "2612"
           }
         ]
       }
@@ -18782,13 +19018,68 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T08:22:58.941+00:00",
+    "appointments_last_fetched": "2021-02-27T08:54:04.095+00:00",
     "appointments_raw": {
       "both_doses": {
-        "error": [
+        "locations": [
           {
-            "code": "FC_904_NoData",
-            "message": "Insufficient inventory."
+            "address": {
+              "city": "SANTA CLARA",
+              "country": "US",
+              "line1": "200 N WINCHESTER BLVD",
+              "line2": "",
+              "state": "CA",
+              "zip": "95050"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "11:00 am",
+                  "11:15 am"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 13.58,
+            "fhirLocationId": "a97dd7bf-9d2f-476a-b9ad-b6fdd51dd74e",
+            "locationId": "a97dd7bf-9d2f-476a-b9ad-b6fdd51dd74e",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "2612",
+            "phone": [
+              {
+                "number": "408-247-1894",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "408-247-1895",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "408-247-1894",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 37.32913857,
+              "longitude": -121.95071785
+            },
+            "storenumber": "2612"
           }
         ]
       },
@@ -18801,10 +19092,65 @@
         ]
       },
       "second_dose_pfizer": {
-        "error": [
+        "locations": [
           {
-            "code": "FC_904_NoData",
-            "message": "Insufficient inventory."
+            "address": {
+              "city": "SANTA CLARA",
+              "country": "US",
+              "line1": "200 N WINCHESTER BLVD",
+              "line2": "",
+              "state": "CA",
+              "zip": "95050"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "11:00 am",
+                  "11:15 am"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 24.32,
+            "fhirLocationId": "a97dd7bf-9d2f-476a-b9ad-b6fdd51dd74e",
+            "locationId": "a97dd7bf-9d2f-476a-b9ad-b6fdd51dd74e",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "2612",
+            "phone": [
+              {
+                "number": "408-247-1894",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "408-247-1895",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "408-247-1894",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 37.32913857,
+              "longitude": -121.95071785
+            },
+            "storenumber": "2612"
           }
         ]
       }
@@ -18905,13 +19251,68 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T08:22:58.941+00:00",
+    "appointments_last_fetched": "2021-02-27T08:54:04.095+00:00",
     "appointments_raw": {
       "both_doses": {
-        "error": [
+        "locations": [
           {
-            "code": "FC_904_NoData",
-            "message": "Insufficient inventory."
+            "address": {
+              "city": "SANTA CLARA",
+              "country": "US",
+              "line1": "200 N WINCHESTER BLVD",
+              "line2": "",
+              "state": "CA",
+              "zip": "95050"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "11:00 am",
+                  "11:15 am"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 13.58,
+            "fhirLocationId": "a97dd7bf-9d2f-476a-b9ad-b6fdd51dd74e",
+            "locationId": "a97dd7bf-9d2f-476a-b9ad-b6fdd51dd74e",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "2612",
+            "phone": [
+              {
+                "number": "408-247-1894",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "408-247-1895",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "408-247-1894",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 37.32913857,
+              "longitude": -121.95071785
+            },
+            "storenumber": "2612"
           }
         ]
       },
@@ -18924,10 +19325,65 @@
         ]
       },
       "second_dose_pfizer": {
-        "error": [
+        "locations": [
           {
-            "code": "FC_904_NoData",
-            "message": "Insufficient inventory."
+            "address": {
+              "city": "SANTA CLARA",
+              "country": "US",
+              "line1": "200 N WINCHESTER BLVD",
+              "line2": "",
+              "state": "CA",
+              "zip": "95050"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "11:00 am",
+                  "11:15 am"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 24.32,
+            "fhirLocationId": "a97dd7bf-9d2f-476a-b9ad-b6fdd51dd74e",
+            "locationId": "a97dd7bf-9d2f-476a-b9ad-b6fdd51dd74e",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "2612",
+            "phone": [
+              {
+                "number": "408-247-1894",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "408-247-1895",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "408-247-1894",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 37.32913857,
+              "longitude": -121.95071785
+            },
+            "storenumber": "2612"
           }
         ]
       }
@@ -19069,13 +19525,68 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T08:22:58.941+00:00",
+    "appointments_last_fetched": "2021-02-27T08:54:04.095+00:00",
     "appointments_raw": {
       "both_doses": {
-        "error": [
+        "locations": [
           {
-            "code": "FC_904_NoData",
-            "message": "Insufficient inventory."
+            "address": {
+              "city": "SANTA CLARA",
+              "country": "US",
+              "line1": "200 N WINCHESTER BLVD",
+              "line2": "",
+              "state": "CA",
+              "zip": "95050"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "11:00 am",
+                  "11:15 am"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 13.58,
+            "fhirLocationId": "a97dd7bf-9d2f-476a-b9ad-b6fdd51dd74e",
+            "locationId": "a97dd7bf-9d2f-476a-b9ad-b6fdd51dd74e",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "2612",
+            "phone": [
+              {
+                "number": "408-247-1894",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "408-247-1895",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "408-247-1894",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 37.32913857,
+              "longitude": -121.95071785
+            },
+            "storenumber": "2612"
           }
         ]
       },
@@ -19088,10 +19599,65 @@
         ]
       },
       "second_dose_pfizer": {
-        "error": [
+        "locations": [
           {
-            "code": "FC_904_NoData",
-            "message": "Insufficient inventory."
+            "address": {
+              "city": "SANTA CLARA",
+              "country": "US",
+              "line1": "200 N WINCHESTER BLVD",
+              "line2": "",
+              "state": "CA",
+              "zip": "95050"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "11:00 am",
+                  "11:15 am"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 24.32,
+            "fhirLocationId": "a97dd7bf-9d2f-476a-b9ad-b6fdd51dd74e",
+            "locationId": "a97dd7bf-9d2f-476a-b9ad-b6fdd51dd74e",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "2612",
+            "phone": [
+              {
+                "number": "408-247-1894",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "408-247-1895",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "408-247-1894",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 37.32913857,
+              "longitude": -121.95071785
+            },
+            "storenumber": "2612"
           }
         ]
       }
@@ -19110,13 +19676,68 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T08:22:58.941+00:00",
+    "appointments_last_fetched": "2021-02-27T08:54:04.095+00:00",
     "appointments_raw": {
       "both_doses": {
-        "error": [
+        "locations": [
           {
-            "code": "FC_904_NoData",
-            "message": "Insufficient inventory."
+            "address": {
+              "city": "SANTA CLARA",
+              "country": "US",
+              "line1": "200 N WINCHESTER BLVD",
+              "line2": "",
+              "state": "CA",
+              "zip": "95050"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "11:00 am",
+                  "11:15 am"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 13.58,
+            "fhirLocationId": "a97dd7bf-9d2f-476a-b9ad-b6fdd51dd74e",
+            "locationId": "a97dd7bf-9d2f-476a-b9ad-b6fdd51dd74e",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "2612",
+            "phone": [
+              {
+                "number": "408-247-1894",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "408-247-1895",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "408-247-1894",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 37.32913857,
+              "longitude": -121.95071785
+            },
+            "storenumber": "2612"
           }
         ]
       },
@@ -19129,10 +19750,65 @@
         ]
       },
       "second_dose_pfizer": {
-        "error": [
+        "locations": [
           {
-            "code": "FC_904_NoData",
-            "message": "Insufficient inventory."
+            "address": {
+              "city": "SANTA CLARA",
+              "country": "US",
+              "line1": "200 N WINCHESTER BLVD",
+              "line2": "",
+              "state": "CA",
+              "zip": "95050"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "11:00 am",
+                  "11:15 am"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 24.32,
+            "fhirLocationId": "a97dd7bf-9d2f-476a-b9ad-b6fdd51dd74e",
+            "locationId": "a97dd7bf-9d2f-476a-b9ad-b6fdd51dd74e",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "2612",
+            "phone": [
+              {
+                "number": "408-247-1894",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "408-247-1895",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "408-247-1894",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 37.32913857,
+              "longitude": -121.95071785
+            },
+            "storenumber": "2612"
           }
         ]
       }
@@ -19233,13 +19909,68 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T08:22:58.941+00:00",
+    "appointments_last_fetched": "2021-02-27T08:54:04.095+00:00",
     "appointments_raw": {
       "both_doses": {
-        "error": [
+        "locations": [
           {
-            "code": "FC_904_NoData",
-            "message": "Insufficient inventory."
+            "address": {
+              "city": "SANTA CLARA",
+              "country": "US",
+              "line1": "200 N WINCHESTER BLVD",
+              "line2": "",
+              "state": "CA",
+              "zip": "95050"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "11:00 am",
+                  "11:15 am"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 13.58,
+            "fhirLocationId": "a97dd7bf-9d2f-476a-b9ad-b6fdd51dd74e",
+            "locationId": "a97dd7bf-9d2f-476a-b9ad-b6fdd51dd74e",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "2612",
+            "phone": [
+              {
+                "number": "408-247-1894",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "408-247-1895",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "408-247-1894",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 37.32913857,
+              "longitude": -121.95071785
+            },
+            "storenumber": "2612"
           }
         ]
       },
@@ -19252,10 +19983,65 @@
         ]
       },
       "second_dose_pfizer": {
-        "error": [
+        "locations": [
           {
-            "code": "FC_904_NoData",
-            "message": "Insufficient inventory."
+            "address": {
+              "city": "SANTA CLARA",
+              "country": "US",
+              "line1": "200 N WINCHESTER BLVD",
+              "line2": "",
+              "state": "CA",
+              "zip": "95050"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "11:00 am",
+                  "11:15 am"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 24.32,
+            "fhirLocationId": "a97dd7bf-9d2f-476a-b9ad-b6fdd51dd74e",
+            "locationId": "a97dd7bf-9d2f-476a-b9ad-b6fdd51dd74e",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "2612",
+            "phone": [
+              {
+                "number": "408-247-1894",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "408-247-1895",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "408-247-1894",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 37.32913857,
+              "longitude": -121.95071785
+            },
+            "storenumber": "2612"
           }
         ]
       }
@@ -19315,13 +20101,68 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T08:22:58.941+00:00",
+    "appointments_last_fetched": "2021-02-27T08:54:04.095+00:00",
     "appointments_raw": {
       "both_doses": {
-        "error": [
+        "locations": [
           {
-            "code": "FC_904_NoData",
-            "message": "Insufficient inventory."
+            "address": {
+              "city": "SANTA CLARA",
+              "country": "US",
+              "line1": "200 N WINCHESTER BLVD",
+              "line2": "",
+              "state": "CA",
+              "zip": "95050"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "11:00 am",
+                  "11:15 am"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 13.58,
+            "fhirLocationId": "a97dd7bf-9d2f-476a-b9ad-b6fdd51dd74e",
+            "locationId": "a97dd7bf-9d2f-476a-b9ad-b6fdd51dd74e",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "2612",
+            "phone": [
+              {
+                "number": "408-247-1894",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "408-247-1895",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "408-247-1894",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 37.32913857,
+              "longitude": -121.95071785
+            },
+            "storenumber": "2612"
           }
         ]
       },
@@ -19334,10 +20175,65 @@
         ]
       },
       "second_dose_pfizer": {
-        "error": [
+        "locations": [
           {
-            "code": "FC_904_NoData",
-            "message": "Insufficient inventory."
+            "address": {
+              "city": "SANTA CLARA",
+              "country": "US",
+              "line1": "200 N WINCHESTER BLVD",
+              "line2": "",
+              "state": "CA",
+              "zip": "95050"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "11:00 am",
+                  "11:15 am"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 24.32,
+            "fhirLocationId": "a97dd7bf-9d2f-476a-b9ad-b6fdd51dd74e",
+            "locationId": "a97dd7bf-9d2f-476a-b9ad-b6fdd51dd74e",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "2612",
+            "phone": [
+              {
+                "number": "408-247-1894",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "408-247-1895",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "408-247-1894",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 37.32913857,
+              "longitude": -121.95071785
+            },
+            "storenumber": "2612"
           }
         ]
       }
@@ -19520,13 +20416,68 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T08:22:58.941+00:00",
+    "appointments_last_fetched": "2021-02-27T08:54:04.095+00:00",
     "appointments_raw": {
       "both_doses": {
-        "error": [
+        "locations": [
           {
-            "code": "FC_904_NoData",
-            "message": "Insufficient inventory."
+            "address": {
+              "city": "SANTA CLARA",
+              "country": "US",
+              "line1": "200 N WINCHESTER BLVD",
+              "line2": "",
+              "state": "CA",
+              "zip": "95050"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "11:00 am",
+                  "11:15 am"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 13.58,
+            "fhirLocationId": "a97dd7bf-9d2f-476a-b9ad-b6fdd51dd74e",
+            "locationId": "a97dd7bf-9d2f-476a-b9ad-b6fdd51dd74e",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "2612",
+            "phone": [
+              {
+                "number": "408-247-1894",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "408-247-1895",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "408-247-1894",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 37.32913857,
+              "longitude": -121.95071785
+            },
+            "storenumber": "2612"
           }
         ]
       },
@@ -19539,10 +20490,65 @@
         ]
       },
       "second_dose_pfizer": {
-        "error": [
+        "locations": [
           {
-            "code": "FC_904_NoData",
-            "message": "Insufficient inventory."
+            "address": {
+              "city": "SANTA CLARA",
+              "country": "US",
+              "line1": "200 N WINCHESTER BLVD",
+              "line2": "",
+              "state": "CA",
+              "zip": "95050"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "11:00 am",
+                  "11:15 am"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 24.32,
+            "fhirLocationId": "a97dd7bf-9d2f-476a-b9ad-b6fdd51dd74e",
+            "locationId": "a97dd7bf-9d2f-476a-b9ad-b6fdd51dd74e",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "2612",
+            "phone": [
+              {
+                "number": "408-247-1894",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "408-247-1895",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "408-247-1894",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 37.32913857,
+              "longitude": -121.95071785
+            },
+            "storenumber": "2612"
           }
         ]
       }
@@ -19561,13 +20567,68 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T08:22:58.941+00:00",
+    "appointments_last_fetched": "2021-02-27T08:54:04.095+00:00",
     "appointments_raw": {
       "both_doses": {
-        "error": [
+        "locations": [
           {
-            "code": "FC_904_NoData",
-            "message": "Insufficient inventory."
+            "address": {
+              "city": "SANTA CLARA",
+              "country": "US",
+              "line1": "200 N WINCHESTER BLVD",
+              "line2": "",
+              "state": "CA",
+              "zip": "95050"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "11:00 am",
+                  "11:15 am"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 13.58,
+            "fhirLocationId": "a97dd7bf-9d2f-476a-b9ad-b6fdd51dd74e",
+            "locationId": "a97dd7bf-9d2f-476a-b9ad-b6fdd51dd74e",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "2612",
+            "phone": [
+              {
+                "number": "408-247-1894",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "408-247-1895",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "408-247-1894",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 37.32913857,
+              "longitude": -121.95071785
+            },
+            "storenumber": "2612"
           }
         ]
       },
@@ -19580,10 +20641,65 @@
         ]
       },
       "second_dose_pfizer": {
-        "error": [
+        "locations": [
           {
-            "code": "FC_904_NoData",
-            "message": "Insufficient inventory."
+            "address": {
+              "city": "SANTA CLARA",
+              "country": "US",
+              "line1": "200 N WINCHESTER BLVD",
+              "line2": "",
+              "state": "CA",
+              "zip": "95050"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "11:00 am",
+                  "11:15 am"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 24.32,
+            "fhirLocationId": "a97dd7bf-9d2f-476a-b9ad-b6fdd51dd74e",
+            "locationId": "a97dd7bf-9d2f-476a-b9ad-b6fdd51dd74e",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "2612",
+            "phone": [
+              {
+                "number": "408-247-1894",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "408-247-1895",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "408-247-1894",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 37.32913857,
+              "longitude": -121.95071785
+            },
+            "storenumber": "2612"
           }
         ]
       }
@@ -19602,7 +20718,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T08:21:40.478+00:00",
+    "appointments_last_fetched": "2021-02-27T08:53:41.405+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -19643,13 +20759,68 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T08:22:58.941+00:00",
+    "appointments_last_fetched": "2021-02-27T08:54:04.095+00:00",
     "appointments_raw": {
       "both_doses": {
-        "error": [
+        "locations": [
           {
-            "code": "FC_904_NoData",
-            "message": "Insufficient inventory."
+            "address": {
+              "city": "SANTA CLARA",
+              "country": "US",
+              "line1": "200 N WINCHESTER BLVD",
+              "line2": "",
+              "state": "CA",
+              "zip": "95050"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "11:00 am",
+                  "11:15 am"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 13.58,
+            "fhirLocationId": "a97dd7bf-9d2f-476a-b9ad-b6fdd51dd74e",
+            "locationId": "a97dd7bf-9d2f-476a-b9ad-b6fdd51dd74e",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "2612",
+            "phone": [
+              {
+                "number": "408-247-1894",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "408-247-1895",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "408-247-1894",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 37.32913857,
+              "longitude": -121.95071785
+            },
+            "storenumber": "2612"
           }
         ]
       },
@@ -19662,10 +20833,65 @@
         ]
       },
       "second_dose_pfizer": {
-        "error": [
+        "locations": [
           {
-            "code": "FC_904_NoData",
-            "message": "Insufficient inventory."
+            "address": {
+              "city": "SANTA CLARA",
+              "country": "US",
+              "line1": "200 N WINCHESTER BLVD",
+              "line2": "",
+              "state": "CA",
+              "zip": "95050"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "11:00 am",
+                  "11:15 am"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 24.32,
+            "fhirLocationId": "a97dd7bf-9d2f-476a-b9ad-b6fdd51dd74e",
+            "locationId": "a97dd7bf-9d2f-476a-b9ad-b6fdd51dd74e",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "2612",
+            "phone": [
+              {
+                "number": "408-247-1894",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "408-247-1895",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "408-247-1894",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 37.32913857,
+              "longitude": -121.95071785
+            },
+            "storenumber": "2612"
           }
         ]
       }
@@ -19684,7 +20910,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T08:21:40.478+00:00",
+    "appointments_last_fetched": "2021-02-27T08:53:41.405+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -19725,13 +20951,68 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T08:22:58.941+00:00",
+    "appointments_last_fetched": "2021-02-27T08:54:04.095+00:00",
     "appointments_raw": {
       "both_doses": {
-        "error": [
+        "locations": [
           {
-            "code": "FC_904_NoData",
-            "message": "Insufficient inventory."
+            "address": {
+              "city": "SANTA CLARA",
+              "country": "US",
+              "line1": "200 N WINCHESTER BLVD",
+              "line2": "",
+              "state": "CA",
+              "zip": "95050"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "11:00 am",
+                  "11:15 am"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 13.58,
+            "fhirLocationId": "a97dd7bf-9d2f-476a-b9ad-b6fdd51dd74e",
+            "locationId": "a97dd7bf-9d2f-476a-b9ad-b6fdd51dd74e",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "2612",
+            "phone": [
+              {
+                "number": "408-247-1894",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "408-247-1895",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "408-247-1894",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 37.32913857,
+              "longitude": -121.95071785
+            },
+            "storenumber": "2612"
           }
         ]
       },
@@ -19744,10 +21025,65 @@
         ]
       },
       "second_dose_pfizer": {
-        "error": [
+        "locations": [
           {
-            "code": "FC_904_NoData",
-            "message": "Insufficient inventory."
+            "address": {
+              "city": "SANTA CLARA",
+              "country": "US",
+              "line1": "200 N WINCHESTER BLVD",
+              "line2": "",
+              "state": "CA",
+              "zip": "95050"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "11:00 am",
+                  "11:15 am"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 24.32,
+            "fhirLocationId": "a97dd7bf-9d2f-476a-b9ad-b6fdd51dd74e",
+            "locationId": "a97dd7bf-9d2f-476a-b9ad-b6fdd51dd74e",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "2612",
+            "phone": [
+              {
+                "number": "408-247-1894",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "408-247-1895",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "408-247-1894",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 37.32913857,
+              "longitude": -121.95071785
+            },
+            "storenumber": "2612"
           }
         ]
       }
@@ -19766,7 +21102,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T08:21:40.478+00:00",
+    "appointments_last_fetched": "2021-02-27T08:53:41.405+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -19807,13 +21143,68 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T08:22:58.941+00:00",
+    "appointments_last_fetched": "2021-02-27T08:54:04.095+00:00",
     "appointments_raw": {
       "both_doses": {
-        "error": [
+        "locations": [
           {
-            "code": "FC_904_NoData",
-            "message": "Insufficient inventory."
+            "address": {
+              "city": "SANTA CLARA",
+              "country": "US",
+              "line1": "200 N WINCHESTER BLVD",
+              "line2": "",
+              "state": "CA",
+              "zip": "95050"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "11:00 am",
+                  "11:15 am"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 13.58,
+            "fhirLocationId": "a97dd7bf-9d2f-476a-b9ad-b6fdd51dd74e",
+            "locationId": "a97dd7bf-9d2f-476a-b9ad-b6fdd51dd74e",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "2612",
+            "phone": [
+              {
+                "number": "408-247-1894",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "408-247-1895",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "408-247-1894",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 37.32913857,
+              "longitude": -121.95071785
+            },
+            "storenumber": "2612"
           }
         ]
       },
@@ -19826,10 +21217,65 @@
         ]
       },
       "second_dose_pfizer": {
-        "error": [
+        "locations": [
           {
-            "code": "FC_904_NoData",
-            "message": "Insufficient inventory."
+            "address": {
+              "city": "SANTA CLARA",
+              "country": "US",
+              "line1": "200 N WINCHESTER BLVD",
+              "line2": "",
+              "state": "CA",
+              "zip": "95050"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "11:00 am",
+                  "11:15 am"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 24.32,
+            "fhirLocationId": "a97dd7bf-9d2f-476a-b9ad-b6fdd51dd74e",
+            "locationId": "a97dd7bf-9d2f-476a-b9ad-b6fdd51dd74e",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "2612",
+            "phone": [
+              {
+                "number": "408-247-1894",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "408-247-1895",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "408-247-1894",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 37.32913857,
+              "longitude": -121.95071785
+            },
+            "storenumber": "2612"
           }
         ]
       }
@@ -19930,13 +21376,68 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T08:22:58.941+00:00",
+    "appointments_last_fetched": "2021-02-27T08:54:04.095+00:00",
     "appointments_raw": {
       "both_doses": {
-        "error": [
+        "locations": [
           {
-            "code": "FC_904_NoData",
-            "message": "Insufficient inventory."
+            "address": {
+              "city": "SANTA CLARA",
+              "country": "US",
+              "line1": "200 N WINCHESTER BLVD",
+              "line2": "",
+              "state": "CA",
+              "zip": "95050"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "11:00 am",
+                  "11:15 am"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 13.58,
+            "fhirLocationId": "a97dd7bf-9d2f-476a-b9ad-b6fdd51dd74e",
+            "locationId": "a97dd7bf-9d2f-476a-b9ad-b6fdd51dd74e",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "2612",
+            "phone": [
+              {
+                "number": "408-247-1894",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "408-247-1895",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "408-247-1894",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 37.32913857,
+              "longitude": -121.95071785
+            },
+            "storenumber": "2612"
           }
         ]
       },
@@ -19949,10 +21450,65 @@
         ]
       },
       "second_dose_pfizer": {
-        "error": [
+        "locations": [
           {
-            "code": "FC_904_NoData",
-            "message": "Insufficient inventory."
+            "address": {
+              "city": "SANTA CLARA",
+              "country": "US",
+              "line1": "200 N WINCHESTER BLVD",
+              "line2": "",
+              "state": "CA",
+              "zip": "95050"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "11:00 am",
+                  "11:15 am"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 24.32,
+            "fhirLocationId": "a97dd7bf-9d2f-476a-b9ad-b6fdd51dd74e",
+            "locationId": "a97dd7bf-9d2f-476a-b9ad-b6fdd51dd74e",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "2612",
+            "phone": [
+              {
+                "number": "408-247-1894",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "408-247-1895",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "408-247-1894",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 37.32913857,
+              "longitude": -121.95071785
+            },
+            "storenumber": "2612"
           }
         ]
       }
@@ -22431,7 +23987,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T08:21:47.786+00:00",
+    "appointments_last_fetched": "2021-02-27T08:54:08.187+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -22472,7 +24028,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T08:21:47.786+00:00",
+    "appointments_last_fetched": "2021-02-27T08:54:08.187+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -22513,7 +24069,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T08:21:47.786+00:00",
+    "appointments_last_fetched": "2021-02-27T08:54:08.187+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
