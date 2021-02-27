@@ -10762,7 +10762,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T11:44:27.324+00:00",
+    "appointments_last_fetched": "2021-02-27T11:54:33.347+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -11332,7 +11332,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T11:44:27.324+00:00",
+    "appointments_last_fetched": "2021-02-27T11:54:33.347+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -11727,7 +11727,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T11:44:27.324+00:00",
+    "appointments_last_fetched": "2021-02-27T11:54:33.347+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -11850,7 +11850,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T11:44:27.324+00:00",
+    "appointments_last_fetched": "2021-02-27T11:54:33.347+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -12670,7 +12670,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T11:44:27.324+00:00",
+    "appointments_last_fetched": "2021-02-27T11:54:33.347+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -13693,77 +13693,15 @@
   {
     "address": "1021 SUMMIT AVE",
     "appointments": [
-      {
-        "time": "2021-02-28T10:30:00.000-06:00",
-        "type": "both_doses"
-      },
-      {
-        "time": "2021-02-28T10:30:00.000-06:00",
-        "type": "second_dose_pfizer"
-      }
     ],
-    "appointments_available": true,
-    "appointments_last_fetched": "2021-02-27T11:51:15.022+00:00",
+    "appointments_available": false,
+    "appointments_last_fetched": "2021-02-27T11:54:33.347+00:00",
     "appointments_raw": {
       "both_doses": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "OCONOMOWOC",
-              "country": "US",
-              "line1": "1021 SUMMIT AVE",
-              "line2": "",
-              "state": "WI",
-              "zip": "53066"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-02-28",
-                "day": "Sunday",
-                "slots": [
-                  "10:30 am"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 19.37,
-            "fhirLocationId": "32ce115d-25a0-4f40-b5ee-8e840f9ac471",
-            "locationId": "32ce115d-25a0-4f40-b5ee-8e840f9ac471",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "3567",
-            "phone": [
-              {
-                "number": "262-567-9173",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "262-567-9173",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 43.09621618,
-              "longitude": -88.48215021
-            },
-            "storenumber": "3567"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       },
@@ -13776,64 +13714,10 @@
         ]
       },
       "second_dose_pfizer": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "OCONOMOWOC",
-              "country": "US",
-              "line1": "1021 SUMMIT AVE",
-              "line2": "",
-              "state": "WI",
-              "zip": "53066"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-02-28",
-                "day": "Sunday",
-                "slots": [
-                  "10:30 am"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 22.83,
-            "fhirLocationId": "32ce115d-25a0-4f40-b5ee-8e840f9ac471",
-            "locationId": "32ce115d-25a0-4f40-b5ee-8e840f9ac471",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "3567",
-            "phone": [
-              {
-                "number": "262-567-9173",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "262-567-9173",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 43.09621618,
-              "longitude": -88.48215021
-            },
-            "storenumber": "3567"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       }
@@ -13852,7 +13736,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T11:44:27.324+00:00",
+    "appointments_last_fetched": "2021-02-27T11:54:33.347+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -13975,7 +13859,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T11:44:27.324+00:00",
+    "appointments_last_fetched": "2021-02-27T11:54:33.347+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -16681,7 +16565,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T11:43:43.968+00:00",
+    "appointments_last_fetched": "2021-02-27T11:54:13.66+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -17034,7 +16918,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T11:34:34.056+00:00",
+    "appointments_last_fetched": "2021-02-27T11:53:25.311+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
