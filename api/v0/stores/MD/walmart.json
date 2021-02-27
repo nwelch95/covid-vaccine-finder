@@ -1137,11 +1137,11 @@
   {
     "address": "2132 Old Snow Hill Rd",
     "appointments": [
-      "2021-03-04T12:40:00.000-05:00",
-      "2021-03-04T17:40:00.000-05:00"
+      "2021-03-02T10:40:00.000-05:00",
+      "2021-03-05T12:40:00.000-05:00"
     ],
     "appointments_available": true,
-    "appointments_last_fetched": "2021-02-27T15:36:36.304+00:00",
+    "appointments_last_fetched": "2021-02-27T15:43:18.73+00:00",
     "appointments_raw": {
       "data": {
         "accessPointId": "77212d69-36f6-4503-87f8-62e92adae810",
@@ -1166,9 +1166,14 @@
             ]
           },
           {
-            "message": "There are no appointments available for Tue, 2 Mar. Please select a different day.",
+            "message": null,
             "slotDate": "03022021",
             "slots": [
+              {
+                "endTime": "11:00",
+                "slotId": "19cfae7b-c6df-450b-bfbf-136a7f3aaec4-2021-03-02",
+                "startTime": "10:40"
+              }
             ]
           },
           {
@@ -1178,25 +1183,20 @@
             ]
           },
           {
-            "message": null,
+            "message": "There are no appointments available for Thu, 4 Mar. Please select a different day.",
             "slotDate": "03042021",
             "slots": [
-              {
-                "endTime": "13:00",
-                "slotId": "7ce27ff7-2039-41d0-9227-38ba13c8f0ca-2021-03-04",
-                "startTime": "12:40"
-              },
-              {
-                "endTime": "18:00",
-                "slotId": "6f521ccf-1f65-49eb-a6c6-3b57b818aa06-2021-03-04",
-                "startTime": "17:40"
-              }
             ]
           },
           {
-            "message": "There are no appointments available for Fri, 5 Mar. Please select a different day.",
+            "message": null,
             "slotDate": "03052021",
             "slots": [
+              {
+                "endTime": "13:00",
+                "slotId": "7ce27ff7-2039-41d0-9227-38ba13c8f0ca-2021-03-05",
+                "startTime": "12:40"
+              }
             ]
           }
         ],
