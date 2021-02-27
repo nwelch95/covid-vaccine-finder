@@ -2239,131 +2239,39 @@
       }
     ],
     "appointments_available": true,
-    "appointments_last_fetched": "2021-02-27T03:27:47.586+00:00",
+    "appointments_last_fetched": "2021-02-27T03:29:30.313+00:00",
     "appointments_raw": {
       "both_doses": {
         "locations": [
           {
             "address": {
-              "city": "TOCCOA",
+              "city": "ROYSTON",
               "country": "US",
-              "line1": "876 BIG A RD",
+              "line1": "859 FRANKLIN SPRINGS STREET",
               "line2": "",
               "state": "GA",
-              "zip": "30577"
+              "zip": "30662"
             },
             "appointmentAvailability": [
-              {
-                "date": "2021-02-27",
-                "day": "Saturday",
-                "slots": [
-                  "09:15 am"
-                ]
-              },
               {
                 "date": "2021-03-01",
                 "day": "Monday",
                 "slots": [
-                  "09:15 am",
                   "09:30 am",
                   "09:45 am",
-                  "10:00 am",
-                  "10:45 am",
+                  "10:15 am",
                   "11:00 am",
                   "11:15 am",
                   "11:30 am",
                   "11:45 am",
-                  "12:00 pm",
-                  "12:15 pm",
-                  "12:30 pm",
-                  "02:15 pm",
-                  "02:30 pm",
-                  "03:00 pm",
-                  "03:15 pm",
-                  "03:30 pm",
-                  "03:45 pm",
-                  "04:30 pm",
-                  "04:45 pm",
-                  "05:00 pm",
-                  "05:15 pm",
-                  "05:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 6.42,
-            "fhirLocationId": "3308b758-bfd7-4cd3-8f64-3f8d9c82bdcd",
-            "locationId": "3308b758-bfd7-4cd3-8f64-3f8d9c82bdcd",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "12502",
-            "phone": [
-              {
-                "number": "706-297-7618",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "706-297-7618",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 34.57146089,
-              "longitude": -83.31028574
-            },
-            "storenumber": "12502"
-          },
-          {
-            "address": {
-              "city": "LAVONIA",
-              "country": "US",
-              "line1": "13387 JONES STREET",
-              "line2": "",
-              "state": "GA",
-              "zip": "30553"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "10:45 am",
-                  "11:00 am",
-                  "11:15 am",
-                  "11:30 am",
-                  "11:45 am",
-                  "12:00 pm",
                   "12:15 pm",
                   "12:30 pm",
                   "12:45 pm",
-                  "01:00 pm",
-                  "02:15 pm",
-                  "02:30 pm",
-                  "02:45 pm",
-                  "03:30 pm",
                   "03:45 pm",
-                  "04:00 pm",
                   "04:15 pm",
                   "04:30 pm",
                   "04:45 pm",
-                  "05:00 pm"
+                  "05:15 pm"
                 ]
               }
             ],
@@ -2380,96 +2288,45 @@
               }
             ],
             "description": "",
-            "distance": 12.53,
-            "fhirLocationId": "8b73ba0e-1925-49a3-a38a-df8361f5222a",
-            "locationId": "8b73ba0e-1925-49a3-a38a-df8361f5222a",
+            "distance": 9.92,
+            "fhirLocationId": "da8b4deb-5e1a-410d-9b2d-cec8e939a5b0",
+            "locationId": "da8b4deb-5e1a-410d-9b2d-cec8e939a5b0",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
             "name": "Walgreen Drug Store",
             "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "19428",
+            "partnerLocationId": "19011",
             "phone": [
               {
-                "number": "706-356-4153",
+                "number": "706-245-8595",
                 "type": "StorePrimary"
               },
               {
-                "number": "706-356-8451",
+                "number": "706-245-4231",
                 "type": "StoreSecondary"
               },
               {
-                "number": "706-356-4153",
+                "number": "706-245-8595",
                 "type": "Pharmacy"
               }
             ],
             "position": {
-              "latitude": 34.44230569,
-              "longitude": -83.11480822
+              "latitude": 34.28409968,
+              "longitude": -83.1244603
             },
-            "storenumber": "19428"
-          },
+            "storenumber": "19011"
+          }
+        ]
+      },
+      "second_dose_moderna": {
+        "error": [
           {
-            "address": {
-              "city": "CLARKESVILLE",
-              "country": "US",
-              "line1": "1235 WASHINGTON ST",
-              "line2": "",
-              "state": "GA",
-              "zip": "30523"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "11:15 am",
-                  "12:15 pm",
-                  "04:45 pm",
-                  "05:00 pm",
-                  "05:15 pm",
-                  "05:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 14.39,
-            "fhirLocationId": "cc1f367c-0ae6-4661-ac0a-63f76a532822",
-            "locationId": "cc1f367c-0ae6-4661-ac0a-63f76a532822",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "19561",
-            "phone": [
-              {
-                "number": "706-754-4122",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "706-754-6161",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "706-754-4122",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 34.61306959,
-              "longitude": -83.52442826
-            },
-            "storenumber": "19561"
-          },
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
+          }
+        ]
+      },
+      "second_dose_pfizer": {
+        "locations": [
           {
             "address": {
               "city": "ROYSTON",
@@ -2516,317 +2373,6 @@
             ],
             "description": "",
             "distance": 23.21,
-            "fhirLocationId": "da8b4deb-5e1a-410d-9b2d-cec8e939a5b0",
-            "locationId": "da8b4deb-5e1a-410d-9b2d-cec8e939a5b0",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "19011",
-            "phone": [
-              {
-                "number": "706-245-8595",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "706-245-4231",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "706-245-8595",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 34.28409968,
-              "longitude": -83.1244603
-            },
-            "storenumber": "19011"
-          }
-        ]
-      },
-      "second_dose_moderna": {
-        "error": [
-          {
-            "code": "FC_904_NoData",
-            "message": "Insufficient inventory."
-          }
-        ]
-      },
-      "second_dose_pfizer": {
-        "locations": [
-          {
-            "address": {
-              "city": "TOCCOA",
-              "country": "US",
-              "line1": "876 BIG A RD",
-              "line2": "",
-              "state": "GA",
-              "zip": "30577"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-02-27",
-                "day": "Saturday",
-                "slots": [
-                  "09:15 am"
-                ]
-              },
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "09:15 am",
-                  "09:30 am",
-                  "09:45 am",
-                  "10:00 am",
-                  "10:45 am",
-                  "11:00 am",
-                  "11:15 am",
-                  "11:30 am",
-                  "11:45 am",
-                  "12:00 pm",
-                  "12:15 pm",
-                  "12:30 pm",
-                  "02:15 pm",
-                  "02:30 pm",
-                  "03:00 pm",
-                  "03:15 pm",
-                  "03:30 pm",
-                  "03:45 pm",
-                  "04:30 pm",
-                  "04:45 pm",
-                  "05:00 pm",
-                  "05:15 pm",
-                  "05:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 14.58,
-            "fhirLocationId": "3308b758-bfd7-4cd3-8f64-3f8d9c82bdcd",
-            "locationId": "3308b758-bfd7-4cd3-8f64-3f8d9c82bdcd",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "12502",
-            "phone": [
-              {
-                "number": "706-297-7618",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "706-297-7618",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 34.57146089,
-              "longitude": -83.31028574
-            },
-            "storenumber": "12502"
-          },
-          {
-            "address": {
-              "city": "LAVONIA",
-              "country": "US",
-              "line1": "13387 JONES STREET",
-              "line2": "",
-              "state": "GA",
-              "zip": "30553"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "10:45 am",
-                  "11:00 am",
-                  "11:15 am",
-                  "11:30 am",
-                  "11:45 am",
-                  "12:00 pm",
-                  "12:15 pm",
-                  "12:30 pm",
-                  "12:45 pm",
-                  "01:00 pm",
-                  "02:15 pm",
-                  "02:30 pm",
-                  "02:45 pm",
-                  "03:30 pm",
-                  "03:45 pm",
-                  "04:00 pm",
-                  "04:15 pm",
-                  "04:30 pm",
-                  "04:45 pm",
-                  "05:00 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 0.32,
-            "fhirLocationId": "8b73ba0e-1925-49a3-a38a-df8361f5222a",
-            "locationId": "8b73ba0e-1925-49a3-a38a-df8361f5222a",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "19428",
-            "phone": [
-              {
-                "number": "706-356-4153",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "706-356-8451",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "706-356-4153",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 34.44230569,
-              "longitude": -83.11480822
-            },
-            "storenumber": "19428"
-          },
-          {
-            "address": {
-              "city": "CLARKESVILLE",
-              "country": "US",
-              "line1": "1235 WASHINGTON ST",
-              "line2": "",
-              "state": "GA",
-              "zip": "30523"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "11:15 am",
-                  "12:15 pm",
-                  "04:45 pm",
-                  "05:00 pm",
-                  "05:15 pm",
-                  "05:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 14.39,
-            "fhirLocationId": "cc1f367c-0ae6-4661-ac0a-63f76a532822",
-            "locationId": "cc1f367c-0ae6-4661-ac0a-63f76a532822",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "19561",
-            "phone": [
-              {
-                "number": "706-754-4122",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "706-754-6161",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "706-754-4122",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 34.61306959,
-              "longitude": -83.52442826
-            },
-            "storenumber": "19561"
-          },
-          {
-            "address": {
-              "city": "ROYSTON",
-              "country": "US",
-              "line1": "859 FRANKLIN SPRINGS STREET",
-              "line2": "",
-              "state": "GA",
-              "zip": "30662"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "09:30 am",
-                  "09:45 am",
-                  "10:15 am",
-                  "11:00 am",
-                  "11:15 am",
-                  "11:30 am",
-                  "11:45 am",
-                  "12:15 pm",
-                  "12:30 pm",
-                  "12:45 pm",
-                  "03:45 pm",
-                  "04:15 pm",
-                  "04:30 pm",
-                  "04:45 pm",
-                  "05:15 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 10.8,
             "fhirLocationId": "da8b4deb-5e1a-410d-9b2d-cec8e939a5b0",
             "locationId": "da8b4deb-5e1a-410d-9b2d-cec8e939a5b0",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -4607,7 +4153,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T03:05:20.279+00:00",
+    "appointments_last_fetched": "2021-02-27T03:29:30.313+00:00",
     "appointments_raw": {
       "both_doses": {
         "locations": [
@@ -4656,7 +4202,7 @@
               }
             ],
             "description": "",
-            "distance": 12.68,
+            "distance": 9.92,
             "fhirLocationId": "da8b4deb-5e1a-410d-9b2d-cec8e939a5b0",
             "locationId": "da8b4deb-5e1a-410d-9b2d-cec8e939a5b0",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -4740,7 +4286,7 @@
               }
             ],
             "description": "",
-            "distance": 19.54,
+            "distance": 23.21,
             "fhirLocationId": "da8b4deb-5e1a-410d-9b2d-cec8e939a5b0",
             "locationId": "da8b4deb-5e1a-410d-9b2d-cec8e939a5b0",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -4784,7 +4330,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T03:05:20.279+00:00",
+    "appointments_last_fetched": "2021-02-27T03:29:30.313+00:00",
     "appointments_raw": {
       "both_doses": {
         "locations": [
@@ -4833,7 +4379,7 @@
               }
             ],
             "description": "",
-            "distance": 12.68,
+            "distance": 9.92,
             "fhirLocationId": "da8b4deb-5e1a-410d-9b2d-cec8e939a5b0",
             "locationId": "da8b4deb-5e1a-410d-9b2d-cec8e939a5b0",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -4917,7 +4463,7 @@
               }
             ],
             "description": "",
-            "distance": 19.54,
+            "distance": 23.21,
             "fhirLocationId": "da8b4deb-5e1a-410d-9b2d-cec8e939a5b0",
             "locationId": "da8b4deb-5e1a-410d-9b2d-cec8e939a5b0",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -47230,7 +46776,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T03:16:06.332+00:00",
+    "appointments_last_fetched": "2021-02-27T03:28:17.36+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -47271,7 +46817,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T03:16:06.332+00:00",
+    "appointments_last_fetched": "2021-02-27T03:28:17.36+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -47312,7 +46858,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T03:16:06.332+00:00",
+    "appointments_last_fetched": "2021-02-27T03:28:17.36+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -47353,7 +46899,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T03:16:06.332+00:00",
+    "appointments_last_fetched": "2021-02-27T03:28:17.36+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -47394,7 +46940,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T03:16:06.332+00:00",
+    "appointments_last_fetched": "2021-02-27T03:28:17.36+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -47435,7 +46981,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T03:16:06.332+00:00",
+    "appointments_last_fetched": "2021-02-27T03:28:17.36+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -47476,7 +47022,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T03:16:06.332+00:00",
+    "appointments_last_fetched": "2021-02-27T03:28:17.36+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -47517,7 +47063,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T03:16:06.332+00:00",
+    "appointments_last_fetched": "2021-02-27T03:28:17.36+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -47558,7 +47104,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T03:16:06.332+00:00",
+    "appointments_last_fetched": "2021-02-27T03:28:17.36+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -47804,7 +47350,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T03:00:29.566+00:00",
+    "appointments_last_fetched": "2021-02-27T03:28:48.986+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -47886,7 +47432,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T03:00:29.566+00:00",
+    "appointments_last_fetched": "2021-02-27T03:28:48.986+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -48009,7 +47555,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T03:00:29.566+00:00",
+    "appointments_last_fetched": "2021-02-27T03:28:48.986+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -48463,7 +48009,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T03:14:44.381+00:00",
+    "appointments_last_fetched": "2021-02-27T03:28:45.958+00:00",
     "appointments_raw": {
       "both_doses": {
         "locations": [
@@ -48516,7 +48062,7 @@
               }
             ],
             "description": "",
-            "distance": 1.27,
+            "distance": 19.37,
             "fhirLocationId": "8d767e63-af9c-4fab-8535-660cb4b6e217",
             "locationId": "8d767e63-af9c-4fab-8535-660cb4b6e217",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -48583,7 +48129,7 @@
               }
             ],
             "description": "",
-            "distance": 3.34,
+            "distance": 15.51,
             "fhirLocationId": "7cd6e91d-4f9c-4749-8713-4c7dd12cda60",
             "locationId": "7cd6e91d-4f9c-4749-8713-4c7dd12cda60",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -48657,7 +48203,7 @@
               }
             ],
             "description": "",
-            "distance": 4.23,
+            "distance": 18.79,
             "fhirLocationId": "c430bd57-0fd0-4e1f-8d7f-bd3b0816f2da",
             "locationId": "c430bd57-0fd0-4e1f-8d7f-bd3b0816f2da",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -48721,7 +48267,7 @@
               }
             ],
             "description": "",
-            "distance": 4.42,
+            "distance": 16.81,
             "fhirLocationId": "622444e1-9828-44f0-bd18-0206b93508f1",
             "locationId": "622444e1-9828-44f0-bd18-0206b93508f1",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -48809,7 +48355,7 @@
               }
             ],
             "description": "",
-            "distance": 4.9,
+            "distance": 11.65,
             "fhirLocationId": "8d767e63-af9c-4fab-8535-660cb4b6e217",
             "locationId": "8d767e63-af9c-4fab-8535-660cb4b6e217",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -48876,7 +48422,7 @@
               }
             ],
             "description": "",
-            "distance": 4.09,
+            "distance": 7.13,
             "fhirLocationId": "7cd6e91d-4f9c-4749-8713-4c7dd12cda60",
             "locationId": "7cd6e91d-4f9c-4749-8713-4c7dd12cda60",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -48950,7 +48496,7 @@
               }
             ],
             "description": "",
-            "distance": 0.35,
+            "distance": 9.76,
             "fhirLocationId": "c430bd57-0fd0-4e1f-8d7f-bd3b0816f2da",
             "locationId": "c430bd57-0fd0-4e1f-8d7f-bd3b0816f2da",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -49014,7 +48560,7 @@
               }
             ],
             "description": "",
-            "distance": 2.34,
+            "distance": 7.78,
             "fhirLocationId": "622444e1-9828-44f0-bd18-0206b93508f1",
             "locationId": "622444e1-9828-44f0-bd18-0206b93508f1",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -60383,7 +59929,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T03:05:20.279+00:00",
+    "appointments_last_fetched": "2021-02-27T03:29:30.313+00:00",
     "appointments_raw": {
       "both_doses": {
         "locations": [
@@ -60432,7 +59978,7 @@
               }
             ],
             "description": "",
-            "distance": 12.68,
+            "distance": 9.92,
             "fhirLocationId": "da8b4deb-5e1a-410d-9b2d-cec8e939a5b0",
             "locationId": "da8b4deb-5e1a-410d-9b2d-cec8e939a5b0",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -60516,7 +60062,7 @@
               }
             ],
             "description": "",
-            "distance": 19.54,
+            "distance": 23.21,
             "fhirLocationId": "da8b4deb-5e1a-410d-9b2d-cec8e939a5b0",
             "locationId": "da8b4deb-5e1a-410d-9b2d-cec8e939a5b0",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -60560,7 +60106,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T03:05:20.279+00:00",
+    "appointments_last_fetched": "2021-02-27T03:29:30.313+00:00",
     "appointments_raw": {
       "both_doses": {
         "locations": [
@@ -60609,7 +60155,7 @@
               }
             ],
             "description": "",
-            "distance": 12.68,
+            "distance": 9.92,
             "fhirLocationId": "da8b4deb-5e1a-410d-9b2d-cec8e939a5b0",
             "locationId": "da8b4deb-5e1a-410d-9b2d-cec8e939a5b0",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -60693,7 +60239,7 @@
               }
             ],
             "description": "",
-            "distance": 19.54,
+            "distance": 23.21,
             "fhirLocationId": "da8b4deb-5e1a-410d-9b2d-cec8e939a5b0",
             "locationId": "da8b4deb-5e1a-410d-9b2d-cec8e939a5b0",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -60737,7 +60283,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T03:05:20.279+00:00",
+    "appointments_last_fetched": "2021-02-27T03:29:30.313+00:00",
     "appointments_raw": {
       "both_doses": {
         "locations": [
@@ -60786,7 +60332,7 @@
               }
             ],
             "description": "",
-            "distance": 12.68,
+            "distance": 9.92,
             "fhirLocationId": "da8b4deb-5e1a-410d-9b2d-cec8e939a5b0",
             "locationId": "da8b4deb-5e1a-410d-9b2d-cec8e939a5b0",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -60870,7 +60416,7 @@
               }
             ],
             "description": "",
-            "distance": 19.54,
+            "distance": 23.21,
             "fhirLocationId": "da8b4deb-5e1a-410d-9b2d-cec8e939a5b0",
             "locationId": "da8b4deb-5e1a-410d-9b2d-cec8e939a5b0",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -60914,7 +60460,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T03:05:20.279+00:00",
+    "appointments_last_fetched": "2021-02-27T03:29:30.313+00:00",
     "appointments_raw": {
       "both_doses": {
         "locations": [
@@ -60963,7 +60509,7 @@
               }
             ],
             "description": "",
-            "distance": 12.68,
+            "distance": 9.92,
             "fhirLocationId": "da8b4deb-5e1a-410d-9b2d-cec8e939a5b0",
             "locationId": "da8b4deb-5e1a-410d-9b2d-cec8e939a5b0",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -61047,7 +60593,7 @@
               }
             ],
             "description": "",
-            "distance": 19.54,
+            "distance": 23.21,
             "fhirLocationId": "da8b4deb-5e1a-410d-9b2d-cec8e939a5b0",
             "locationId": "da8b4deb-5e1a-410d-9b2d-cec8e939a5b0",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -61091,7 +60637,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T03:05:20.279+00:00",
+    "appointments_last_fetched": "2021-02-27T03:29:30.313+00:00",
     "appointments_raw": {
       "both_doses": {
         "locations": [
@@ -61140,7 +60686,7 @@
               }
             ],
             "description": "",
-            "distance": 12.68,
+            "distance": 9.92,
             "fhirLocationId": "da8b4deb-5e1a-410d-9b2d-cec8e939a5b0",
             "locationId": "da8b4deb-5e1a-410d-9b2d-cec8e939a5b0",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -61224,7 +60770,7 @@
               }
             ],
             "description": "",
-            "distance": 19.54,
+            "distance": 23.21,
             "fhirLocationId": "da8b4deb-5e1a-410d-9b2d-cec8e939a5b0",
             "locationId": "da8b4deb-5e1a-410d-9b2d-cec8e939a5b0",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -61268,7 +60814,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T03:05:20.279+00:00",
+    "appointments_last_fetched": "2021-02-27T03:29:30.313+00:00",
     "appointments_raw": {
       "both_doses": {
         "locations": [
@@ -61317,7 +60863,7 @@
               }
             ],
             "description": "",
-            "distance": 12.68,
+            "distance": 9.92,
             "fhirLocationId": "da8b4deb-5e1a-410d-9b2d-cec8e939a5b0",
             "locationId": "da8b4deb-5e1a-410d-9b2d-cec8e939a5b0",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -61401,7 +60947,7 @@
               }
             ],
             "description": "",
-            "distance": 19.54,
+            "distance": 23.21,
             "fhirLocationId": "da8b4deb-5e1a-410d-9b2d-cec8e939a5b0",
             "locationId": "da8b4deb-5e1a-410d-9b2d-cec8e939a5b0",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -61915,7 +61461,7 @@
       }
     ],
     "appointments_available": true,
-    "appointments_last_fetched": "2021-02-27T03:14:44.381+00:00",
+    "appointments_last_fetched": "2021-02-27T03:28:45.958+00:00",
     "appointments_raw": {
       "both_doses": {
         "locations": [
@@ -61968,7 +61514,7 @@
               }
             ],
             "description": "",
-            "distance": 1.27,
+            "distance": 19.37,
             "fhirLocationId": "8d767e63-af9c-4fab-8535-660cb4b6e217",
             "locationId": "8d767e63-af9c-4fab-8535-660cb4b6e217",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -62035,7 +61581,7 @@
               }
             ],
             "description": "",
-            "distance": 3.34,
+            "distance": 15.51,
             "fhirLocationId": "7cd6e91d-4f9c-4749-8713-4c7dd12cda60",
             "locationId": "7cd6e91d-4f9c-4749-8713-4c7dd12cda60",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -62109,7 +61655,7 @@
               }
             ],
             "description": "",
-            "distance": 4.23,
+            "distance": 18.79,
             "fhirLocationId": "c430bd57-0fd0-4e1f-8d7f-bd3b0816f2da",
             "locationId": "c430bd57-0fd0-4e1f-8d7f-bd3b0816f2da",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -62173,7 +61719,7 @@
               }
             ],
             "description": "",
-            "distance": 4.42,
+            "distance": 16.81,
             "fhirLocationId": "622444e1-9828-44f0-bd18-0206b93508f1",
             "locationId": "622444e1-9828-44f0-bd18-0206b93508f1",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -62261,7 +61807,7 @@
               }
             ],
             "description": "",
-            "distance": 4.9,
+            "distance": 11.65,
             "fhirLocationId": "8d767e63-af9c-4fab-8535-660cb4b6e217",
             "locationId": "8d767e63-af9c-4fab-8535-660cb4b6e217",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -62328,7 +61874,7 @@
               }
             ],
             "description": "",
-            "distance": 4.09,
+            "distance": 7.13,
             "fhirLocationId": "7cd6e91d-4f9c-4749-8713-4c7dd12cda60",
             "locationId": "7cd6e91d-4f9c-4749-8713-4c7dd12cda60",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -62402,7 +61948,7 @@
               }
             ],
             "description": "",
-            "distance": 0.35,
+            "distance": 9.76,
             "fhirLocationId": "c430bd57-0fd0-4e1f-8d7f-bd3b0816f2da",
             "locationId": "c430bd57-0fd0-4e1f-8d7f-bd3b0816f2da",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -62466,7 +62012,7 @@
               }
             ],
             "description": "",
-            "distance": 2.34,
+            "distance": 7.78,
             "fhirLocationId": "622444e1-9828-44f0-bd18-0206b93508f1",
             "locationId": "622444e1-9828-44f0-bd18-0206b93508f1",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -62646,7 +62192,7 @@
       }
     ],
     "appointments_available": true,
-    "appointments_last_fetched": "2021-02-27T03:14:44.381+00:00",
+    "appointments_last_fetched": "2021-02-27T03:28:45.958+00:00",
     "appointments_raw": {
       "both_doses": {
         "locations": [
@@ -62699,7 +62245,7 @@
               }
             ],
             "description": "",
-            "distance": 1.27,
+            "distance": 19.37,
             "fhirLocationId": "8d767e63-af9c-4fab-8535-660cb4b6e217",
             "locationId": "8d767e63-af9c-4fab-8535-660cb4b6e217",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -62766,7 +62312,7 @@
               }
             ],
             "description": "",
-            "distance": 3.34,
+            "distance": 15.51,
             "fhirLocationId": "7cd6e91d-4f9c-4749-8713-4c7dd12cda60",
             "locationId": "7cd6e91d-4f9c-4749-8713-4c7dd12cda60",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -62840,7 +62386,7 @@
               }
             ],
             "description": "",
-            "distance": 4.23,
+            "distance": 18.79,
             "fhirLocationId": "c430bd57-0fd0-4e1f-8d7f-bd3b0816f2da",
             "locationId": "c430bd57-0fd0-4e1f-8d7f-bd3b0816f2da",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -62904,7 +62450,7 @@
               }
             ],
             "description": "",
-            "distance": 4.42,
+            "distance": 16.81,
             "fhirLocationId": "622444e1-9828-44f0-bd18-0206b93508f1",
             "locationId": "622444e1-9828-44f0-bd18-0206b93508f1",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -62992,7 +62538,7 @@
               }
             ],
             "description": "",
-            "distance": 4.9,
+            "distance": 11.65,
             "fhirLocationId": "8d767e63-af9c-4fab-8535-660cb4b6e217",
             "locationId": "8d767e63-af9c-4fab-8535-660cb4b6e217",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -63059,7 +62605,7 @@
               }
             ],
             "description": "",
-            "distance": 4.09,
+            "distance": 7.13,
             "fhirLocationId": "7cd6e91d-4f9c-4749-8713-4c7dd12cda60",
             "locationId": "7cd6e91d-4f9c-4749-8713-4c7dd12cda60",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -63133,7 +62679,7 @@
               }
             ],
             "description": "",
-            "distance": 0.35,
+            "distance": 9.76,
             "fhirLocationId": "c430bd57-0fd0-4e1f-8d7f-bd3b0816f2da",
             "locationId": "c430bd57-0fd0-4e1f-8d7f-bd3b0816f2da",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -63197,7 +62743,7 @@
               }
             ],
             "description": "",
-            "distance": 2.34,
+            "distance": 7.78,
             "fhirLocationId": "622444e1-9828-44f0-bd18-0206b93508f1",
             "locationId": "622444e1-9828-44f0-bd18-0206b93508f1",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -63488,7 +63034,7 @@
       }
     ],
     "appointments_available": true,
-    "appointments_last_fetched": "2021-02-27T03:14:44.381+00:00",
+    "appointments_last_fetched": "2021-02-27T03:28:45.958+00:00",
     "appointments_raw": {
       "both_doses": {
         "locations": [
@@ -63541,7 +63087,7 @@
               }
             ],
             "description": "",
-            "distance": 1.27,
+            "distance": 19.37,
             "fhirLocationId": "8d767e63-af9c-4fab-8535-660cb4b6e217",
             "locationId": "8d767e63-af9c-4fab-8535-660cb4b6e217",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -63608,7 +63154,7 @@
               }
             ],
             "description": "",
-            "distance": 3.34,
+            "distance": 15.51,
             "fhirLocationId": "7cd6e91d-4f9c-4749-8713-4c7dd12cda60",
             "locationId": "7cd6e91d-4f9c-4749-8713-4c7dd12cda60",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -63682,7 +63228,7 @@
               }
             ],
             "description": "",
-            "distance": 4.23,
+            "distance": 18.79,
             "fhirLocationId": "c430bd57-0fd0-4e1f-8d7f-bd3b0816f2da",
             "locationId": "c430bd57-0fd0-4e1f-8d7f-bd3b0816f2da",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -63746,7 +63292,7 @@
               }
             ],
             "description": "",
-            "distance": 4.42,
+            "distance": 16.81,
             "fhirLocationId": "622444e1-9828-44f0-bd18-0206b93508f1",
             "locationId": "622444e1-9828-44f0-bd18-0206b93508f1",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -63834,7 +63380,7 @@
               }
             ],
             "description": "",
-            "distance": 4.9,
+            "distance": 11.65,
             "fhirLocationId": "8d767e63-af9c-4fab-8535-660cb4b6e217",
             "locationId": "8d767e63-af9c-4fab-8535-660cb4b6e217",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -63901,7 +63447,7 @@
               }
             ],
             "description": "",
-            "distance": 4.09,
+            "distance": 7.13,
             "fhirLocationId": "7cd6e91d-4f9c-4749-8713-4c7dd12cda60",
             "locationId": "7cd6e91d-4f9c-4749-8713-4c7dd12cda60",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -63975,7 +63521,7 @@
               }
             ],
             "description": "",
-            "distance": 0.35,
+            "distance": 9.76,
             "fhirLocationId": "c430bd57-0fd0-4e1f-8d7f-bd3b0816f2da",
             "locationId": "c430bd57-0fd0-4e1f-8d7f-bd3b0816f2da",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -64039,7 +63585,7 @@
               }
             ],
             "description": "",
-            "distance": 2.34,
+            "distance": 7.78,
             "fhirLocationId": "622444e1-9828-44f0-bd18-0206b93508f1",
             "locationId": "622444e1-9828-44f0-bd18-0206b93508f1",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -64235,7 +63781,7 @@
       }
     ],
     "appointments_available": true,
-    "appointments_last_fetched": "2021-02-27T03:14:44.381+00:00",
+    "appointments_last_fetched": "2021-02-27T03:28:45.958+00:00",
     "appointments_raw": {
       "both_doses": {
         "locations": [
@@ -64288,7 +63834,7 @@
               }
             ],
             "description": "",
-            "distance": 1.27,
+            "distance": 19.37,
             "fhirLocationId": "8d767e63-af9c-4fab-8535-660cb4b6e217",
             "locationId": "8d767e63-af9c-4fab-8535-660cb4b6e217",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -64355,7 +63901,7 @@
               }
             ],
             "description": "",
-            "distance": 3.34,
+            "distance": 15.51,
             "fhirLocationId": "7cd6e91d-4f9c-4749-8713-4c7dd12cda60",
             "locationId": "7cd6e91d-4f9c-4749-8713-4c7dd12cda60",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -64429,7 +63975,7 @@
               }
             ],
             "description": "",
-            "distance": 4.23,
+            "distance": 18.79,
             "fhirLocationId": "c430bd57-0fd0-4e1f-8d7f-bd3b0816f2da",
             "locationId": "c430bd57-0fd0-4e1f-8d7f-bd3b0816f2da",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -64493,7 +64039,7 @@
               }
             ],
             "description": "",
-            "distance": 4.42,
+            "distance": 16.81,
             "fhirLocationId": "622444e1-9828-44f0-bd18-0206b93508f1",
             "locationId": "622444e1-9828-44f0-bd18-0206b93508f1",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -64581,7 +64127,7 @@
               }
             ],
             "description": "",
-            "distance": 4.9,
+            "distance": 11.65,
             "fhirLocationId": "8d767e63-af9c-4fab-8535-660cb4b6e217",
             "locationId": "8d767e63-af9c-4fab-8535-660cb4b6e217",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -64648,7 +64194,7 @@
               }
             ],
             "description": "",
-            "distance": 4.09,
+            "distance": 7.13,
             "fhirLocationId": "7cd6e91d-4f9c-4749-8713-4c7dd12cda60",
             "locationId": "7cd6e91d-4f9c-4749-8713-4c7dd12cda60",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -64722,7 +64268,7 @@
               }
             ],
             "description": "",
-            "distance": 0.35,
+            "distance": 9.76,
             "fhirLocationId": "c430bd57-0fd0-4e1f-8d7f-bd3b0816f2da",
             "locationId": "c430bd57-0fd0-4e1f-8d7f-bd3b0816f2da",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -64786,7 +64332,7 @@
               }
             ],
             "description": "",
-            "distance": 2.34,
+            "distance": 7.78,
             "fhirLocationId": "622444e1-9828-44f0-bd18-0206b93508f1",
             "locationId": "622444e1-9828-44f0-bd18-0206b93508f1",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -64830,7 +64376,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T03:14:44.381+00:00",
+    "appointments_last_fetched": "2021-02-27T03:28:45.958+00:00",
     "appointments_raw": {
       "both_doses": {
         "locations": [
@@ -64883,7 +64429,7 @@
               }
             ],
             "description": "",
-            "distance": 1.27,
+            "distance": 19.37,
             "fhirLocationId": "8d767e63-af9c-4fab-8535-660cb4b6e217",
             "locationId": "8d767e63-af9c-4fab-8535-660cb4b6e217",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -64950,7 +64496,7 @@
               }
             ],
             "description": "",
-            "distance": 3.34,
+            "distance": 15.51,
             "fhirLocationId": "7cd6e91d-4f9c-4749-8713-4c7dd12cda60",
             "locationId": "7cd6e91d-4f9c-4749-8713-4c7dd12cda60",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -65024,7 +64570,7 @@
               }
             ],
             "description": "",
-            "distance": 4.23,
+            "distance": 18.79,
             "fhirLocationId": "c430bd57-0fd0-4e1f-8d7f-bd3b0816f2da",
             "locationId": "c430bd57-0fd0-4e1f-8d7f-bd3b0816f2da",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -65088,7 +64634,7 @@
               }
             ],
             "description": "",
-            "distance": 4.42,
+            "distance": 16.81,
             "fhirLocationId": "622444e1-9828-44f0-bd18-0206b93508f1",
             "locationId": "622444e1-9828-44f0-bd18-0206b93508f1",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -65176,7 +64722,7 @@
               }
             ],
             "description": "",
-            "distance": 4.9,
+            "distance": 11.65,
             "fhirLocationId": "8d767e63-af9c-4fab-8535-660cb4b6e217",
             "locationId": "8d767e63-af9c-4fab-8535-660cb4b6e217",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -65243,7 +64789,7 @@
               }
             ],
             "description": "",
-            "distance": 4.09,
+            "distance": 7.13,
             "fhirLocationId": "7cd6e91d-4f9c-4749-8713-4c7dd12cda60",
             "locationId": "7cd6e91d-4f9c-4749-8713-4c7dd12cda60",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -65317,7 +64863,7 @@
               }
             ],
             "description": "",
-            "distance": 0.35,
+            "distance": 9.76,
             "fhirLocationId": "c430bd57-0fd0-4e1f-8d7f-bd3b0816f2da",
             "locationId": "c430bd57-0fd0-4e1f-8d7f-bd3b0816f2da",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -65381,7 +64927,7 @@
               }
             ],
             "description": "",
-            "distance": 2.34,
+            "distance": 7.78,
             "fhirLocationId": "622444e1-9828-44f0-bd18-0206b93508f1",
             "locationId": "622444e1-9828-44f0-bd18-0206b93508f1",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -68382,7 +67928,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T03:10:00.225+00:00",
+    "appointments_last_fetched": "2021-02-27T03:29:10.144+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -68628,7 +68174,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T03:10:00.225+00:00",
+    "appointments_last_fetched": "2021-02-27T03:29:10.144+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -78933,10 +78479,356 @@
       }
     ],
     "appointments_available": true,
-    "appointments_last_fetched": "2021-02-27T03:21:01.513+00:00",
+    "appointments_last_fetched": "2021-02-27T03:29:09.638+00:00",
     "appointments_raw": {
       "both_doses": {
         "locations": [
+          {
+            "address": {
+              "city": "ALBANY",
+              "country": "US",
+              "line1": "2414 SYLVESTER RD",
+              "line2": "",
+              "state": "GA",
+              "zip": "31705"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "09:15 am",
+                  "09:30 am",
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "11:00 am",
+                  "11:15 am",
+                  "11:30 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "02:45 pm",
+                  "03:00 pm",
+                  "03:15 pm",
+                  "03:30 pm",
+                  "03:45 pm",
+                  "04:00 pm",
+                  "04:15 pm",
+                  "04:30 pm",
+                  "04:45 pm",
+                  "05:00 pm",
+                  "05:15 pm",
+                  "05:30 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 23.11,
+            "fhirLocationId": "c352bcc9-e719-4abb-becc-dabf25cbc823",
+            "locationId": "c352bcc9-e719-4abb-becc-dabf25cbc823",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "10796",
+            "phone": [
+              {
+                "number": "229-430-9119",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "229-430-9021",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "229-430-9119",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 31.57418571,
+              "longitude": -84.09141181
+            },
+            "storenumber": "10796"
+          },
+          {
+            "address": {
+              "city": "ALBANY",
+              "country": "US",
+              "line1": "2425 NORTH SLAPPEY BOULEVARD",
+              "line2": "",
+              "state": "GA",
+              "zip": "31701"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "09:15 am",
+                  "09:30 am",
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "11:00 am",
+                  "11:15 am",
+                  "11:30 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "02:15 pm",
+                  "02:30 pm",
+                  "02:45 pm",
+                  "03:00 pm",
+                  "03:15 pm",
+                  "03:30 pm",
+                  "03:45 pm",
+                  "04:00 pm",
+                  "04:15 pm",
+                  "04:30 pm",
+                  "04:45 pm",
+                  "05:00 pm",
+                  "05:15 pm",
+                  "05:30 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 17.56,
+            "fhirLocationId": "1023632d-7509-4355-ac66-aa53cd0cd10d",
+            "locationId": "1023632d-7509-4355-ac66-aa53cd0cd10d",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "17983",
+            "phone": [
+              {
+                "number": "229-883-5047",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "229-883-5055",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "229-883-5047",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 31.61056529,
+              "longitude": -84.17641749
+            },
+            "storenumber": "17983"
+          },
+          {
+            "address": {
+              "city": "ALBANY",
+              "country": "US",
+              "line1": "300 N SLAPPEY BLVD",
+              "line2": "",
+              "state": "GA",
+              "zip": "31701"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "09:15 am",
+                  "09:30 am",
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "11:00 am",
+                  "11:15 am",
+                  "11:30 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "02:15 pm",
+                  "02:30 pm",
+                  "02:45 pm",
+                  "03:00 pm",
+                  "03:15 pm",
+                  "03:30 pm",
+                  "03:45 pm",
+                  "04:00 pm",
+                  "04:15 pm",
+                  "04:30 pm",
+                  "04:45 pm",
+                  "05:00 pm",
+                  "05:15 pm",
+                  "05:30 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 18.36,
+            "fhirLocationId": "3982e7ec-300a-4911-bd2f-cb8104be62ba",
+            "locationId": "3982e7ec-300a-4911-bd2f-cb8104be62ba",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "10797",
+            "phone": [
+              {
+                "number": "229-430-5541",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "229-430-8225",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "229-430-5541",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 31.57996653,
+              "longitude": -84.17584675
+            },
+            "storenumber": "10797"
+          },
+          {
+            "address": {
+              "city": "ALBANY",
+              "country": "US",
+              "line1": "2351 DAWSON RD",
+              "line2": "",
+              "state": "GA",
+              "zip": "31707"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "09:15 am",
+                  "09:30 am",
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "11:00 am",
+                  "11:15 am",
+                  "11:30 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "02:15 pm",
+                  "02:30 pm",
+                  "02:45 pm",
+                  "03:00 pm",
+                  "03:15 pm",
+                  "03:30 pm",
+                  "03:45 pm",
+                  "04:00 pm",
+                  "04:15 pm",
+                  "04:30 pm",
+                  "04:45 pm",
+                  "05:00 pm",
+                  "05:15 pm",
+                  "05:30 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 16.05,
+            "fhirLocationId": "9f5d4d24-0059-4834-a225-6947770a2bae",
+            "locationId": "9f5d4d24-0059-4834-a225-6947770a2bae",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "6201",
+            "phone": [
+              {
+                "number": "229-888-6166",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "229-888-5712",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "229-888-6166",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 31.60558035,
+              "longitude": -84.20581628
+            },
+            "storenumber": "6201"
+          },
           {
             "address": {
               "city": "TIFTON",
@@ -79021,93 +78913,6 @@
               "longitude": -83.506799
             },
             "storenumber": "10833"
-          },
-          {
-            "address": {
-              "city": "FITZGERALD",
-              "country": "US",
-              "line1": "162 OCILLA HIGHWAY",
-              "line2": "",
-              "state": "GA",
-              "zip": "31750"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "09:15 am",
-                  "09:30 am",
-                  "09:45 am",
-                  "10:00 am",
-                  "10:15 am",
-                  "10:30 am",
-                  "10:45 am",
-                  "11:00 am",
-                  "11:15 am",
-                  "11:30 am",
-                  "11:45 am",
-                  "12:00 pm",
-                  "12:15 pm",
-                  "12:30 pm",
-                  "12:45 pm",
-                  "01:00 pm",
-                  "02:15 pm",
-                  "02:30 pm",
-                  "02:45 pm",
-                  "03:00 pm",
-                  "03:15 pm",
-                  "03:30 pm",
-                  "03:45 pm",
-                  "04:00 pm",
-                  "04:15 pm",
-                  "04:30 pm",
-                  "04:45 pm",
-                  "05:00 pm",
-                  "05:15 pm",
-                  "05:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 14.52,
-            "fhirLocationId": "68419262-1a7c-49ac-b881-91d637e707e4",
-            "locationId": "68419262-1a7c-49ac-b881-91d637e707e4",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "19147",
-            "phone": [
-              {
-                "number": "229-423-2039",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "229-423-7919",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "229-423-2039",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 31.70168915,
-              "longitude": -83.25074805
-            },
-            "storenumber": "19147"
           }
         ]
       },
@@ -79123,6 +78928,352 @@
         "locations": [
           {
             "address": {
+              "city": "ALBANY",
+              "country": "US",
+              "line1": "2414 SYLVESTER RD",
+              "line2": "",
+              "state": "GA",
+              "zip": "31705"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "09:15 am",
+                  "09:30 am",
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "11:00 am",
+                  "11:15 am",
+                  "11:30 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "02:45 pm",
+                  "03:00 pm",
+                  "03:15 pm",
+                  "03:30 pm",
+                  "03:45 pm",
+                  "04:00 pm",
+                  "04:15 pm",
+                  "04:30 pm",
+                  "04:45 pm",
+                  "05:00 pm",
+                  "05:15 pm",
+                  "05:30 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 23.11,
+            "fhirLocationId": "c352bcc9-e719-4abb-becc-dabf25cbc823",
+            "locationId": "c352bcc9-e719-4abb-becc-dabf25cbc823",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "10796",
+            "phone": [
+              {
+                "number": "229-430-9119",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "229-430-9021",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "229-430-9119",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 31.57418571,
+              "longitude": -84.09141181
+            },
+            "storenumber": "10796"
+          },
+          {
+            "address": {
+              "city": "ALBANY",
+              "country": "US",
+              "line1": "2425 NORTH SLAPPEY BOULEVARD",
+              "line2": "",
+              "state": "GA",
+              "zip": "31701"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "09:15 am",
+                  "09:30 am",
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "11:00 am",
+                  "11:15 am",
+                  "11:30 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "02:15 pm",
+                  "02:30 pm",
+                  "02:45 pm",
+                  "03:00 pm",
+                  "03:15 pm",
+                  "03:30 pm",
+                  "03:45 pm",
+                  "04:00 pm",
+                  "04:15 pm",
+                  "04:30 pm",
+                  "04:45 pm",
+                  "05:00 pm",
+                  "05:15 pm",
+                  "05:30 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 17.56,
+            "fhirLocationId": "1023632d-7509-4355-ac66-aa53cd0cd10d",
+            "locationId": "1023632d-7509-4355-ac66-aa53cd0cd10d",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "17983",
+            "phone": [
+              {
+                "number": "229-883-5047",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "229-883-5055",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "229-883-5047",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 31.61056529,
+              "longitude": -84.17641749
+            },
+            "storenumber": "17983"
+          },
+          {
+            "address": {
+              "city": "ALBANY",
+              "country": "US",
+              "line1": "300 N SLAPPEY BLVD",
+              "line2": "",
+              "state": "GA",
+              "zip": "31701"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "09:15 am",
+                  "09:30 am",
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "11:00 am",
+                  "11:15 am",
+                  "11:30 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "02:15 pm",
+                  "02:30 pm",
+                  "02:45 pm",
+                  "03:00 pm",
+                  "03:15 pm",
+                  "03:30 pm",
+                  "03:45 pm",
+                  "04:00 pm",
+                  "04:15 pm",
+                  "04:30 pm",
+                  "04:45 pm",
+                  "05:00 pm",
+                  "05:15 pm",
+                  "05:30 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 18.36,
+            "fhirLocationId": "3982e7ec-300a-4911-bd2f-cb8104be62ba",
+            "locationId": "3982e7ec-300a-4911-bd2f-cb8104be62ba",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "10797",
+            "phone": [
+              {
+                "number": "229-430-5541",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "229-430-8225",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "229-430-5541",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 31.57996653,
+              "longitude": -84.17584675
+            },
+            "storenumber": "10797"
+          },
+          {
+            "address": {
+              "city": "ALBANY",
+              "country": "US",
+              "line1": "2351 DAWSON RD",
+              "line2": "",
+              "state": "GA",
+              "zip": "31707"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "09:15 am",
+                  "09:30 am",
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "11:00 am",
+                  "11:15 am",
+                  "11:30 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "02:15 pm",
+                  "02:30 pm",
+                  "02:45 pm",
+                  "03:00 pm",
+                  "03:15 pm",
+                  "03:30 pm",
+                  "03:45 pm",
+                  "04:00 pm",
+                  "04:15 pm",
+                  "04:30 pm",
+                  "04:45 pm",
+                  "05:00 pm",
+                  "05:15 pm",
+                  "05:30 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 16.05,
+            "fhirLocationId": "9f5d4d24-0059-4834-a225-6947770a2bae",
+            "locationId": "9f5d4d24-0059-4834-a225-6947770a2bae",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "6201",
+            "phone": [
+              {
+                "number": "229-888-6166",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "229-888-5712",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "229-888-6166",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 31.60558035,
+              "longitude": -84.20581628
+            },
+            "storenumber": "6201"
+          },
+          {
+            "address": {
               "city": "TIFTON",
               "country": "US",
               "line1": "615 LOVE AVE",
@@ -79205,93 +79356,6 @@
               "longitude": -83.506799
             },
             "storenumber": "10833"
-          },
-          {
-            "address": {
-              "city": "FITZGERALD",
-              "country": "US",
-              "line1": "162 OCILLA HIGHWAY",
-              "line2": "",
-              "state": "GA",
-              "zip": "31750"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "09:15 am",
-                  "09:30 am",
-                  "09:45 am",
-                  "10:00 am",
-                  "10:15 am",
-                  "10:30 am",
-                  "10:45 am",
-                  "11:00 am",
-                  "11:15 am",
-                  "11:30 am",
-                  "11:45 am",
-                  "12:00 pm",
-                  "12:15 pm",
-                  "12:30 pm",
-                  "12:45 pm",
-                  "01:00 pm",
-                  "02:15 pm",
-                  "02:30 pm",
-                  "02:45 pm",
-                  "03:00 pm",
-                  "03:15 pm",
-                  "03:30 pm",
-                  "03:45 pm",
-                  "04:00 pm",
-                  "04:15 pm",
-                  "04:30 pm",
-                  "04:45 pm",
-                  "05:00 pm",
-                  "05:15 pm",
-                  "05:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 14.52,
-            "fhirLocationId": "68419262-1a7c-49ac-b881-91d637e707e4",
-            "locationId": "68419262-1a7c-49ac-b881-91d637e707e4",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "19147",
-            "phone": [
-              {
-                "number": "229-423-2039",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "229-423-7919",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "229-423-2039",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 31.70168915,
-              "longitude": -83.25074805
-            },
-            "storenumber": "19147"
           }
         ]
       }
@@ -79946,7 +80010,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T03:13:57.984+00:00",
+    "appointments_last_fetched": "2021-02-27T03:29:09.638+00:00",
     "appointments_raw": {
       "both_doses": {
         "locations": [
@@ -80451,7 +80515,7 @@
               }
             ],
             "description": "",
-            "distance": 1.53,
+            "distance": 23.11,
             "fhirLocationId": "c352bcc9-e719-4abb-becc-dabf25cbc823",
             "locationId": "c352bcc9-e719-4abb-becc-dabf25cbc823",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -80538,7 +80602,7 @@
               }
             ],
             "description": "",
-            "distance": 6.17,
+            "distance": 17.56,
             "fhirLocationId": "1023632d-7509-4355-ac66-aa53cd0cd10d",
             "locationId": "1023632d-7509-4355-ac66-aa53cd0cd10d",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -80625,7 +80689,7 @@
               }
             ],
             "description": "",
-            "distance": 5.03,
+            "distance": 18.36,
             "fhirLocationId": "3982e7ec-300a-4911-bd2f-cb8104be62ba",
             "locationId": "3982e7ec-300a-4911-bd2f-cb8104be62ba",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -80712,7 +80776,7 @@
               }
             ],
             "description": "",
-            "distance": 7.39,
+            "distance": 16.05,
             "fhirLocationId": "9f5d4d24-0059-4834-a225-6947770a2bae",
             "locationId": "9f5d4d24-0059-4834-a225-6947770a2bae",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -81502,732 +81566,7 @@
       }
     ],
     "appointments_available": true,
-    "appointments_last_fetched": "2021-02-27T03:23:05.676+00:00",
-    "appointments_raw": {
-      "both_doses": {
-        "locations": [
-          {
-            "address": {
-              "city": "ALBANY",
-              "country": "US",
-              "line1": "2351 DAWSON RD",
-              "line2": "",
-              "state": "GA",
-              "zip": "31707"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "09:15 am",
-                  "09:30 am",
-                  "09:45 am",
-                  "10:00 am",
-                  "10:15 am",
-                  "10:30 am",
-                  "10:45 am",
-                  "11:00 am",
-                  "11:15 am",
-                  "11:30 am",
-                  "11:45 am",
-                  "12:00 pm",
-                  "12:15 pm",
-                  "12:30 pm",
-                  "12:45 pm",
-                  "01:00 pm",
-                  "02:15 pm",
-                  "02:30 pm",
-                  "02:45 pm",
-                  "03:00 pm",
-                  "03:15 pm",
-                  "03:30 pm",
-                  "03:45 pm",
-                  "04:00 pm",
-                  "04:15 pm",
-                  "04:30 pm",
-                  "04:45 pm",
-                  "05:00 pm",
-                  "05:15 pm",
-                  "05:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 16.05,
-            "fhirLocationId": "9f5d4d24-0059-4834-a225-6947770a2bae",
-            "locationId": "9f5d4d24-0059-4834-a225-6947770a2bae",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "6201",
-            "phone": [
-              {
-                "number": "229-888-6166",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "229-888-5712",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "229-888-6166",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 31.60558035,
-              "longitude": -84.20581628
-            },
-            "storenumber": "6201"
-          },
-          {
-            "address": {
-              "city": "ALBANY",
-              "country": "US",
-              "line1": "2425 NORTH SLAPPEY BOULEVARD",
-              "line2": "",
-              "state": "GA",
-              "zip": "31701"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "09:15 am",
-                  "09:30 am",
-                  "09:45 am",
-                  "10:00 am",
-                  "10:15 am",
-                  "10:30 am",
-                  "10:45 am",
-                  "11:00 am",
-                  "11:15 am",
-                  "11:30 am",
-                  "11:45 am",
-                  "12:00 pm",
-                  "12:15 pm",
-                  "12:30 pm",
-                  "12:45 pm",
-                  "01:00 pm",
-                  "02:15 pm",
-                  "02:30 pm",
-                  "02:45 pm",
-                  "03:00 pm",
-                  "03:15 pm",
-                  "03:30 pm",
-                  "03:45 pm",
-                  "04:00 pm",
-                  "04:15 pm",
-                  "04:30 pm",
-                  "04:45 pm",
-                  "05:00 pm",
-                  "05:15 pm",
-                  "05:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 17.56,
-            "fhirLocationId": "1023632d-7509-4355-ac66-aa53cd0cd10d",
-            "locationId": "1023632d-7509-4355-ac66-aa53cd0cd10d",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "17983",
-            "phone": [
-              {
-                "number": "229-883-5047",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "229-883-5055",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "229-883-5047",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 31.61056529,
-              "longitude": -84.17641749
-            },
-            "storenumber": "17983"
-          },
-          {
-            "address": {
-              "city": "ALBANY",
-              "country": "US",
-              "line1": "300 N SLAPPEY BLVD",
-              "line2": "",
-              "state": "GA",
-              "zip": "31701"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "09:15 am",
-                  "09:30 am",
-                  "09:45 am",
-                  "10:00 am",
-                  "10:15 am",
-                  "10:30 am",
-                  "10:45 am",
-                  "11:00 am",
-                  "11:15 am",
-                  "11:30 am",
-                  "11:45 am",
-                  "12:00 pm",
-                  "12:15 pm",
-                  "12:30 pm",
-                  "12:45 pm",
-                  "01:00 pm",
-                  "02:15 pm",
-                  "02:30 pm",
-                  "02:45 pm",
-                  "03:00 pm",
-                  "03:15 pm",
-                  "03:30 pm",
-                  "03:45 pm",
-                  "04:00 pm",
-                  "04:15 pm",
-                  "04:30 pm",
-                  "04:45 pm",
-                  "05:00 pm",
-                  "05:15 pm",
-                  "05:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 18.36,
-            "fhirLocationId": "3982e7ec-300a-4911-bd2f-cb8104be62ba",
-            "locationId": "3982e7ec-300a-4911-bd2f-cb8104be62ba",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "10797",
-            "phone": [
-              {
-                "number": "229-430-5541",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "229-430-8225",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "229-430-5541",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 31.57996653,
-              "longitude": -84.17584675
-            },
-            "storenumber": "10797"
-          },
-          {
-            "address": {
-              "city": "ALBANY",
-              "country": "US",
-              "line1": "2414 SYLVESTER RD",
-              "line2": "",
-              "state": "GA",
-              "zip": "31705"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "09:15 am",
-                  "09:30 am",
-                  "09:45 am",
-                  "10:00 am",
-                  "10:15 am",
-                  "10:30 am",
-                  "10:45 am",
-                  "11:00 am",
-                  "11:15 am",
-                  "11:30 am",
-                  "11:45 am",
-                  "12:00 pm",
-                  "12:15 pm",
-                  "12:30 pm",
-                  "12:45 pm",
-                  "01:00 pm",
-                  "02:45 pm",
-                  "03:00 pm",
-                  "03:15 pm",
-                  "03:30 pm",
-                  "03:45 pm",
-                  "04:00 pm",
-                  "04:15 pm",
-                  "04:30 pm",
-                  "04:45 pm",
-                  "05:00 pm",
-                  "05:15 pm",
-                  "05:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 23.11,
-            "fhirLocationId": "c352bcc9-e719-4abb-becc-dabf25cbc823",
-            "locationId": "c352bcc9-e719-4abb-becc-dabf25cbc823",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "10796",
-            "phone": [
-              {
-                "number": "229-430-9119",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "229-430-9021",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "229-430-9119",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 31.57418571,
-              "longitude": -84.09141181
-            },
-            "storenumber": "10796"
-          }
-        ]
-      },
-      "second_dose_moderna": {
-        "error": [
-          {
-            "code": "FC_904_NoData",
-            "message": "Insufficient inventory."
-          }
-        ]
-      },
-      "second_dose_pfizer": {
-        "locations": [
-          {
-            "address": {
-              "city": "ALBANY",
-              "country": "US",
-              "line1": "2351 DAWSON RD",
-              "line2": "",
-              "state": "GA",
-              "zip": "31707"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "09:15 am",
-                  "09:30 am",
-                  "09:45 am",
-                  "10:00 am",
-                  "10:15 am",
-                  "10:30 am",
-                  "10:45 am",
-                  "11:00 am",
-                  "11:15 am",
-                  "11:30 am",
-                  "11:45 am",
-                  "12:00 pm",
-                  "12:15 pm",
-                  "12:30 pm",
-                  "12:45 pm",
-                  "01:00 pm",
-                  "02:15 pm",
-                  "02:30 pm",
-                  "02:45 pm",
-                  "03:00 pm",
-                  "03:15 pm",
-                  "03:30 pm",
-                  "03:45 pm",
-                  "04:00 pm",
-                  "04:15 pm",
-                  "04:30 pm",
-                  "04:45 pm",
-                  "05:00 pm",
-                  "05:15 pm",
-                  "05:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 16.05,
-            "fhirLocationId": "9f5d4d24-0059-4834-a225-6947770a2bae",
-            "locationId": "9f5d4d24-0059-4834-a225-6947770a2bae",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "6201",
-            "phone": [
-              {
-                "number": "229-888-6166",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "229-888-5712",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "229-888-6166",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 31.60558035,
-              "longitude": -84.20581628
-            },
-            "storenumber": "6201"
-          },
-          {
-            "address": {
-              "city": "ALBANY",
-              "country": "US",
-              "line1": "2425 NORTH SLAPPEY BOULEVARD",
-              "line2": "",
-              "state": "GA",
-              "zip": "31701"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "09:15 am",
-                  "09:30 am",
-                  "09:45 am",
-                  "10:00 am",
-                  "10:15 am",
-                  "10:30 am",
-                  "10:45 am",
-                  "11:00 am",
-                  "11:15 am",
-                  "11:30 am",
-                  "11:45 am",
-                  "12:00 pm",
-                  "12:15 pm",
-                  "12:30 pm",
-                  "12:45 pm",
-                  "01:00 pm",
-                  "02:15 pm",
-                  "02:30 pm",
-                  "02:45 pm",
-                  "03:00 pm",
-                  "03:15 pm",
-                  "03:30 pm",
-                  "03:45 pm",
-                  "04:00 pm",
-                  "04:15 pm",
-                  "04:30 pm",
-                  "04:45 pm",
-                  "05:00 pm",
-                  "05:15 pm",
-                  "05:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 17.56,
-            "fhirLocationId": "1023632d-7509-4355-ac66-aa53cd0cd10d",
-            "locationId": "1023632d-7509-4355-ac66-aa53cd0cd10d",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "17983",
-            "phone": [
-              {
-                "number": "229-883-5047",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "229-883-5055",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "229-883-5047",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 31.61056529,
-              "longitude": -84.17641749
-            },
-            "storenumber": "17983"
-          },
-          {
-            "address": {
-              "city": "ALBANY",
-              "country": "US",
-              "line1": "300 N SLAPPEY BLVD",
-              "line2": "",
-              "state": "GA",
-              "zip": "31701"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "09:15 am",
-                  "09:30 am",
-                  "09:45 am",
-                  "10:00 am",
-                  "10:15 am",
-                  "10:30 am",
-                  "10:45 am",
-                  "11:00 am",
-                  "11:15 am",
-                  "11:30 am",
-                  "11:45 am",
-                  "12:00 pm",
-                  "12:15 pm",
-                  "12:30 pm",
-                  "12:45 pm",
-                  "01:00 pm",
-                  "02:15 pm",
-                  "02:30 pm",
-                  "02:45 pm",
-                  "03:00 pm",
-                  "03:15 pm",
-                  "03:30 pm",
-                  "03:45 pm",
-                  "04:00 pm",
-                  "04:15 pm",
-                  "04:30 pm",
-                  "04:45 pm",
-                  "05:00 pm",
-                  "05:15 pm",
-                  "05:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 18.36,
-            "fhirLocationId": "3982e7ec-300a-4911-bd2f-cb8104be62ba",
-            "locationId": "3982e7ec-300a-4911-bd2f-cb8104be62ba",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "10797",
-            "phone": [
-              {
-                "number": "229-430-5541",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "229-430-8225",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "229-430-5541",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 31.57996653,
-              "longitude": -84.17584675
-            },
-            "storenumber": "10797"
-          },
-          {
-            "address": {
-              "city": "ALBANY",
-              "country": "US",
-              "line1": "2414 SYLVESTER RD",
-              "line2": "",
-              "state": "GA",
-              "zip": "31705"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "09:15 am",
-                  "09:30 am",
-                  "09:45 am",
-                  "10:00 am",
-                  "10:15 am",
-                  "10:30 am",
-                  "10:45 am",
-                  "11:00 am",
-                  "11:15 am",
-                  "11:30 am",
-                  "11:45 am",
-                  "12:00 pm",
-                  "12:15 pm",
-                  "12:30 pm",
-                  "12:45 pm",
-                  "01:00 pm",
-                  "02:45 pm",
-                  "03:00 pm",
-                  "03:15 pm",
-                  "03:30 pm",
-                  "03:45 pm",
-                  "04:00 pm",
-                  "04:15 pm",
-                  "04:30 pm",
-                  "04:45 pm",
-                  "05:00 pm",
-                  "05:15 pm",
-                  "05:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 23.11,
-            "fhirLocationId": "c352bcc9-e719-4abb-becc-dabf25cbc823",
-            "locationId": "c352bcc9-e719-4abb-becc-dabf25cbc823",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "10796",
-            "phone": [
-              {
-                "number": "229-430-9119",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "229-430-9021",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "229-430-9119",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 31.57418571,
-              "longitude": -84.09141181
-            },
-            "storenumber": "10796"
-          }
-        ]
-      }
-    },
-    "brand": "walgreens",
-    "brand_id": "10796",
-    "carries_vaccine": null,
-    "city": "ALBANY",
-    "id": 2717516,
-    "name": "Walgreen Drug Store",
-    "postal_code": "31705",
-    "state": "GA"
-  },
-  {
-    "address": "2200A E OGLETHORPE BLVD",
-    "appointments": [
-    ],
-    "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T03:13:57.984+00:00",
+    "appointments_last_fetched": "2021-02-27T03:29:09.638+00:00",
     "appointments_raw": {
       "both_doses": {
         "locations": [
@@ -82732,7 +82071,7 @@
               }
             ],
             "description": "",
-            "distance": 1.53,
+            "distance": 23.11,
             "fhirLocationId": "c352bcc9-e719-4abb-becc-dabf25cbc823",
             "locationId": "c352bcc9-e719-4abb-becc-dabf25cbc823",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -82819,7 +82158,7 @@
               }
             ],
             "description": "",
-            "distance": 6.17,
+            "distance": 17.56,
             "fhirLocationId": "1023632d-7509-4355-ac66-aa53cd0cd10d",
             "locationId": "1023632d-7509-4355-ac66-aa53cd0cd10d",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -82906,7 +82245,7 @@
               }
             ],
             "description": "",
-            "distance": 5.03,
+            "distance": 18.36,
             "fhirLocationId": "3982e7ec-300a-4911-bd2f-cb8104be62ba",
             "locationId": "3982e7ec-300a-4911-bd2f-cb8104be62ba",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -82993,7 +82332,902 @@
               }
             ],
             "description": "",
-            "distance": 7.39,
+            "distance": 16.05,
+            "fhirLocationId": "9f5d4d24-0059-4834-a225-6947770a2bae",
+            "locationId": "9f5d4d24-0059-4834-a225-6947770a2bae",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "6201",
+            "phone": [
+              {
+                "number": "229-888-6166",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "229-888-5712",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "229-888-6166",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 31.60558035,
+              "longitude": -84.20581628
+            },
+            "storenumber": "6201"
+          },
+          {
+            "address": {
+              "city": "TIFTON",
+              "country": "US",
+              "line1": "615 LOVE AVE",
+              "line2": "",
+              "state": "GA",
+              "zip": "31794"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "09:15 am",
+                  "09:30 am",
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "11:00 am",
+                  "11:15 am",
+                  "11:30 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "02:15 pm",
+                  "03:00 pm",
+                  "03:15 pm",
+                  "03:30 pm",
+                  "03:45 pm",
+                  "04:00 pm",
+                  "04:15 pm",
+                  "04:30 pm",
+                  "04:45 pm",
+                  "05:00 pm",
+                  "05:15 pm",
+                  "05:30 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 11.36,
+            "fhirLocationId": "84f7ff5d-f7e6-44d7-8c0f-d9d86de0e831",
+            "locationId": "84f7ff5d-f7e6-44d7-8c0f-d9d86de0e831",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "10833",
+            "phone": [
+              {
+                "number": "229-382-5359",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "229-382-3017",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "229-382-5359",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 31.45912,
+              "longitude": -83.506799
+            },
+            "storenumber": "10833"
+          }
+        ]
+      }
+    },
+    "brand": "walgreens",
+    "brand_id": "10796",
+    "carries_vaccine": null,
+    "city": "ALBANY",
+    "id": 2717516,
+    "name": "Walgreen Drug Store",
+    "postal_code": "31705",
+    "state": "GA"
+  },
+  {
+    "address": "2200A E OGLETHORPE BLVD",
+    "appointments": [
+    ],
+    "appointments_available": false,
+    "appointments_last_fetched": "2021-02-27T03:29:09.638+00:00",
+    "appointments_raw": {
+      "both_doses": {
+        "locations": [
+          {
+            "address": {
+              "city": "ALBANY",
+              "country": "US",
+              "line1": "2414 SYLVESTER RD",
+              "line2": "",
+              "state": "GA",
+              "zip": "31705"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "09:15 am",
+                  "09:30 am",
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "11:00 am",
+                  "11:15 am",
+                  "11:30 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "02:45 pm",
+                  "03:00 pm",
+                  "03:15 pm",
+                  "03:30 pm",
+                  "03:45 pm",
+                  "04:00 pm",
+                  "04:15 pm",
+                  "04:30 pm",
+                  "04:45 pm",
+                  "05:00 pm",
+                  "05:15 pm",
+                  "05:30 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 23.11,
+            "fhirLocationId": "c352bcc9-e719-4abb-becc-dabf25cbc823",
+            "locationId": "c352bcc9-e719-4abb-becc-dabf25cbc823",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "10796",
+            "phone": [
+              {
+                "number": "229-430-9119",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "229-430-9021",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "229-430-9119",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 31.57418571,
+              "longitude": -84.09141181
+            },
+            "storenumber": "10796"
+          },
+          {
+            "address": {
+              "city": "ALBANY",
+              "country": "US",
+              "line1": "2425 NORTH SLAPPEY BOULEVARD",
+              "line2": "",
+              "state": "GA",
+              "zip": "31701"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "09:15 am",
+                  "09:30 am",
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "11:00 am",
+                  "11:15 am",
+                  "11:30 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "02:15 pm",
+                  "02:30 pm",
+                  "02:45 pm",
+                  "03:00 pm",
+                  "03:15 pm",
+                  "03:30 pm",
+                  "03:45 pm",
+                  "04:00 pm",
+                  "04:15 pm",
+                  "04:30 pm",
+                  "04:45 pm",
+                  "05:00 pm",
+                  "05:15 pm",
+                  "05:30 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 17.56,
+            "fhirLocationId": "1023632d-7509-4355-ac66-aa53cd0cd10d",
+            "locationId": "1023632d-7509-4355-ac66-aa53cd0cd10d",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "17983",
+            "phone": [
+              {
+                "number": "229-883-5047",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "229-883-5055",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "229-883-5047",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 31.61056529,
+              "longitude": -84.17641749
+            },
+            "storenumber": "17983"
+          },
+          {
+            "address": {
+              "city": "ALBANY",
+              "country": "US",
+              "line1": "300 N SLAPPEY BLVD",
+              "line2": "",
+              "state": "GA",
+              "zip": "31701"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "09:15 am",
+                  "09:30 am",
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "11:00 am",
+                  "11:15 am",
+                  "11:30 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "02:15 pm",
+                  "02:30 pm",
+                  "02:45 pm",
+                  "03:00 pm",
+                  "03:15 pm",
+                  "03:30 pm",
+                  "03:45 pm",
+                  "04:00 pm",
+                  "04:15 pm",
+                  "04:30 pm",
+                  "04:45 pm",
+                  "05:00 pm",
+                  "05:15 pm",
+                  "05:30 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 18.36,
+            "fhirLocationId": "3982e7ec-300a-4911-bd2f-cb8104be62ba",
+            "locationId": "3982e7ec-300a-4911-bd2f-cb8104be62ba",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "10797",
+            "phone": [
+              {
+                "number": "229-430-5541",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "229-430-8225",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "229-430-5541",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 31.57996653,
+              "longitude": -84.17584675
+            },
+            "storenumber": "10797"
+          },
+          {
+            "address": {
+              "city": "ALBANY",
+              "country": "US",
+              "line1": "2351 DAWSON RD",
+              "line2": "",
+              "state": "GA",
+              "zip": "31707"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "09:15 am",
+                  "09:30 am",
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "11:00 am",
+                  "11:15 am",
+                  "11:30 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "02:15 pm",
+                  "02:30 pm",
+                  "02:45 pm",
+                  "03:00 pm",
+                  "03:15 pm",
+                  "03:30 pm",
+                  "03:45 pm",
+                  "04:00 pm",
+                  "04:15 pm",
+                  "04:30 pm",
+                  "04:45 pm",
+                  "05:00 pm",
+                  "05:15 pm",
+                  "05:30 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 16.05,
+            "fhirLocationId": "9f5d4d24-0059-4834-a225-6947770a2bae",
+            "locationId": "9f5d4d24-0059-4834-a225-6947770a2bae",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "6201",
+            "phone": [
+              {
+                "number": "229-888-6166",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "229-888-5712",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "229-888-6166",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 31.60558035,
+              "longitude": -84.20581628
+            },
+            "storenumber": "6201"
+          },
+          {
+            "address": {
+              "city": "TIFTON",
+              "country": "US",
+              "line1": "615 LOVE AVE",
+              "line2": "",
+              "state": "GA",
+              "zip": "31794"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "09:15 am",
+                  "09:30 am",
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "11:00 am",
+                  "11:15 am",
+                  "11:30 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "02:15 pm",
+                  "03:00 pm",
+                  "03:15 pm",
+                  "03:30 pm",
+                  "03:45 pm",
+                  "04:00 pm",
+                  "04:15 pm",
+                  "04:30 pm",
+                  "04:45 pm",
+                  "05:00 pm",
+                  "05:15 pm",
+                  "05:30 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 11.36,
+            "fhirLocationId": "84f7ff5d-f7e6-44d7-8c0f-d9d86de0e831",
+            "locationId": "84f7ff5d-f7e6-44d7-8c0f-d9d86de0e831",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "10833",
+            "phone": [
+              {
+                "number": "229-382-5359",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "229-382-3017",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "229-382-5359",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 31.45912,
+              "longitude": -83.506799
+            },
+            "storenumber": "10833"
+          }
+        ]
+      },
+      "second_dose_moderna": {
+        "error": [
+          {
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
+          }
+        ]
+      },
+      "second_dose_pfizer": {
+        "locations": [
+          {
+            "address": {
+              "city": "ALBANY",
+              "country": "US",
+              "line1": "2414 SYLVESTER RD",
+              "line2": "",
+              "state": "GA",
+              "zip": "31705"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "09:15 am",
+                  "09:30 am",
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "11:00 am",
+                  "11:15 am",
+                  "11:30 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "02:45 pm",
+                  "03:00 pm",
+                  "03:15 pm",
+                  "03:30 pm",
+                  "03:45 pm",
+                  "04:00 pm",
+                  "04:15 pm",
+                  "04:30 pm",
+                  "04:45 pm",
+                  "05:00 pm",
+                  "05:15 pm",
+                  "05:30 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 23.11,
+            "fhirLocationId": "c352bcc9-e719-4abb-becc-dabf25cbc823",
+            "locationId": "c352bcc9-e719-4abb-becc-dabf25cbc823",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "10796",
+            "phone": [
+              {
+                "number": "229-430-9119",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "229-430-9021",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "229-430-9119",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 31.57418571,
+              "longitude": -84.09141181
+            },
+            "storenumber": "10796"
+          },
+          {
+            "address": {
+              "city": "ALBANY",
+              "country": "US",
+              "line1": "2425 NORTH SLAPPEY BOULEVARD",
+              "line2": "",
+              "state": "GA",
+              "zip": "31701"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "09:15 am",
+                  "09:30 am",
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "11:00 am",
+                  "11:15 am",
+                  "11:30 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "02:15 pm",
+                  "02:30 pm",
+                  "02:45 pm",
+                  "03:00 pm",
+                  "03:15 pm",
+                  "03:30 pm",
+                  "03:45 pm",
+                  "04:00 pm",
+                  "04:15 pm",
+                  "04:30 pm",
+                  "04:45 pm",
+                  "05:00 pm",
+                  "05:15 pm",
+                  "05:30 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 17.56,
+            "fhirLocationId": "1023632d-7509-4355-ac66-aa53cd0cd10d",
+            "locationId": "1023632d-7509-4355-ac66-aa53cd0cd10d",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "17983",
+            "phone": [
+              {
+                "number": "229-883-5047",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "229-883-5055",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "229-883-5047",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 31.61056529,
+              "longitude": -84.17641749
+            },
+            "storenumber": "17983"
+          },
+          {
+            "address": {
+              "city": "ALBANY",
+              "country": "US",
+              "line1": "300 N SLAPPEY BLVD",
+              "line2": "",
+              "state": "GA",
+              "zip": "31701"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "09:15 am",
+                  "09:30 am",
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "11:00 am",
+                  "11:15 am",
+                  "11:30 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "02:15 pm",
+                  "02:30 pm",
+                  "02:45 pm",
+                  "03:00 pm",
+                  "03:15 pm",
+                  "03:30 pm",
+                  "03:45 pm",
+                  "04:00 pm",
+                  "04:15 pm",
+                  "04:30 pm",
+                  "04:45 pm",
+                  "05:00 pm",
+                  "05:15 pm",
+                  "05:30 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 18.36,
+            "fhirLocationId": "3982e7ec-300a-4911-bd2f-cb8104be62ba",
+            "locationId": "3982e7ec-300a-4911-bd2f-cb8104be62ba",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "10797",
+            "phone": [
+              {
+                "number": "229-430-5541",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "229-430-8225",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "229-430-5541",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 31.57996653,
+              "longitude": -84.17584675
+            },
+            "storenumber": "10797"
+          },
+          {
+            "address": {
+              "city": "ALBANY",
+              "country": "US",
+              "line1": "2351 DAWSON RD",
+              "line2": "",
+              "state": "GA",
+              "zip": "31707"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "09:15 am",
+                  "09:30 am",
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "11:00 am",
+                  "11:15 am",
+                  "11:30 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "02:15 pm",
+                  "02:30 pm",
+                  "02:45 pm",
+                  "03:00 pm",
+                  "03:15 pm",
+                  "03:30 pm",
+                  "03:45 pm",
+                  "04:00 pm",
+                  "04:15 pm",
+                  "04:30 pm",
+                  "04:45 pm",
+                  "05:00 pm",
+                  "05:15 pm",
+                  "05:30 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 16.05,
             "fhirLocationId": "9f5d4d24-0059-4834-a225-6947770a2bae",
             "locationId": "9f5d4d24-0059-4834-a225-6947770a2bae",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -83362,7 +83596,7 @@
       }
     ],
     "appointments_available": true,
-    "appointments_last_fetched": "2021-02-27T03:23:05.676+00:00",
+    "appointments_last_fetched": "2021-02-27T03:29:09.638+00:00",
     "appointments_raw": {
       "both_doses": {
         "locations": [
@@ -83370,10 +83604,10 @@
             "address": {
               "city": "ALBANY",
               "country": "US",
-              "line1": "2351 DAWSON RD",
+              "line1": "2414 SYLVESTER RD",
               "line2": "",
               "state": "GA",
-              "zip": "31707"
+              "zip": "31705"
             },
             "appointmentAvailability": [
               {
@@ -83396,8 +83630,6 @@
                   "12:30 pm",
                   "12:45 pm",
                   "01:00 pm",
-                  "02:15 pm",
-                  "02:30 pm",
                   "02:45 pm",
                   "03:00 pm",
                   "03:15 pm",
@@ -83426,32 +83658,32 @@
               }
             ],
             "description": "",
-            "distance": 16.05,
-            "fhirLocationId": "9f5d4d24-0059-4834-a225-6947770a2bae",
-            "locationId": "9f5d4d24-0059-4834-a225-6947770a2bae",
+            "distance": 23.11,
+            "fhirLocationId": "c352bcc9-e719-4abb-becc-dabf25cbc823",
+            "locationId": "c352bcc9-e719-4abb-becc-dabf25cbc823",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
             "name": "Walgreen Drug Store",
             "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "6201",
+            "partnerLocationId": "10796",
             "phone": [
               {
-                "number": "229-888-6166",
+                "number": "229-430-9119",
                 "type": "StorePrimary"
               },
               {
-                "number": "229-888-5712",
+                "number": "229-430-9021",
                 "type": "StoreSecondary"
               },
               {
-                "number": "229-888-6166",
+                "number": "229-430-9119",
                 "type": "Pharmacy"
               }
             ],
             "position": {
-              "latitude": 31.60558035,
-              "longitude": -84.20581628
+              "latitude": 31.57418571,
+              "longitude": -84.09141181
             },
-            "storenumber": "6201"
+            "storenumber": "10796"
           },
           {
             "address": {
@@ -83631,10 +83863,10 @@
             "address": {
               "city": "ALBANY",
               "country": "US",
-              "line1": "2414 SYLVESTER RD",
+              "line1": "2351 DAWSON RD",
               "line2": "",
               "state": "GA",
-              "zip": "31705"
+              "zip": "31707"
             },
             "appointmentAvailability": [
               {
@@ -83657,6 +83889,8 @@
                   "12:30 pm",
                   "12:45 pm",
                   "01:00 pm",
+                  "02:15 pm",
+                  "02:30 pm",
                   "02:45 pm",
                   "03:00 pm",
                   "03:15 pm",
@@ -83685,32 +83919,117 @@
               }
             ],
             "description": "",
-            "distance": 23.11,
-            "fhirLocationId": "c352bcc9-e719-4abb-becc-dabf25cbc823",
-            "locationId": "c352bcc9-e719-4abb-becc-dabf25cbc823",
+            "distance": 16.05,
+            "fhirLocationId": "9f5d4d24-0059-4834-a225-6947770a2bae",
+            "locationId": "9f5d4d24-0059-4834-a225-6947770a2bae",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
             "name": "Walgreen Drug Store",
             "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "10796",
+            "partnerLocationId": "6201",
             "phone": [
               {
-                "number": "229-430-9119",
+                "number": "229-888-6166",
                 "type": "StorePrimary"
               },
               {
-                "number": "229-430-9021",
+                "number": "229-888-5712",
                 "type": "StoreSecondary"
               },
               {
-                "number": "229-430-9119",
+                "number": "229-888-6166",
                 "type": "Pharmacy"
               }
             ],
             "position": {
-              "latitude": 31.57418571,
-              "longitude": -84.09141181
+              "latitude": 31.60558035,
+              "longitude": -84.20581628
             },
-            "storenumber": "10796"
+            "storenumber": "6201"
+          },
+          {
+            "address": {
+              "city": "TIFTON",
+              "country": "US",
+              "line1": "615 LOVE AVE",
+              "line2": "",
+              "state": "GA",
+              "zip": "31794"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "09:15 am",
+                  "09:30 am",
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "11:00 am",
+                  "11:15 am",
+                  "11:30 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "02:15 pm",
+                  "03:00 pm",
+                  "03:15 pm",
+                  "03:30 pm",
+                  "03:45 pm",
+                  "04:00 pm",
+                  "04:15 pm",
+                  "04:30 pm",
+                  "04:45 pm",
+                  "05:00 pm",
+                  "05:15 pm",
+                  "05:30 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 11.36,
+            "fhirLocationId": "84f7ff5d-f7e6-44d7-8c0f-d9d86de0e831",
+            "locationId": "84f7ff5d-f7e6-44d7-8c0f-d9d86de0e831",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "10833",
+            "phone": [
+              {
+                "number": "229-382-5359",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "229-382-3017",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "229-382-5359",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 31.45912,
+              "longitude": -83.506799
+            },
+            "storenumber": "10833"
           }
         ]
       },
@@ -83728,10 +84047,10 @@
             "address": {
               "city": "ALBANY",
               "country": "US",
-              "line1": "2351 DAWSON RD",
+              "line1": "2414 SYLVESTER RD",
               "line2": "",
               "state": "GA",
-              "zip": "31707"
+              "zip": "31705"
             },
             "appointmentAvailability": [
               {
@@ -83754,8 +84073,6 @@
                   "12:30 pm",
                   "12:45 pm",
                   "01:00 pm",
-                  "02:15 pm",
-                  "02:30 pm",
                   "02:45 pm",
                   "03:00 pm",
                   "03:15 pm",
@@ -83784,32 +84101,32 @@
               }
             ],
             "description": "",
-            "distance": 16.05,
-            "fhirLocationId": "9f5d4d24-0059-4834-a225-6947770a2bae",
-            "locationId": "9f5d4d24-0059-4834-a225-6947770a2bae",
+            "distance": 23.11,
+            "fhirLocationId": "c352bcc9-e719-4abb-becc-dabf25cbc823",
+            "locationId": "c352bcc9-e719-4abb-becc-dabf25cbc823",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
             "name": "Walgreen Drug Store",
             "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "6201",
+            "partnerLocationId": "10796",
             "phone": [
               {
-                "number": "229-888-6166",
+                "number": "229-430-9119",
                 "type": "StorePrimary"
               },
               {
-                "number": "229-888-5712",
+                "number": "229-430-9021",
                 "type": "StoreSecondary"
               },
               {
-                "number": "229-888-6166",
+                "number": "229-430-9119",
                 "type": "Pharmacy"
               }
             ],
             "position": {
-              "latitude": 31.60558035,
-              "longitude": -84.20581628
+              "latitude": 31.57418571,
+              "longitude": -84.09141181
             },
-            "storenumber": "6201"
+            "storenumber": "10796"
           },
           {
             "address": {
@@ -83989,10 +84306,10 @@
             "address": {
               "city": "ALBANY",
               "country": "US",
-              "line1": "2414 SYLVESTER RD",
+              "line1": "2351 DAWSON RD",
               "line2": "",
               "state": "GA",
-              "zip": "31705"
+              "zip": "31707"
             },
             "appointmentAvailability": [
               {
@@ -84015,6 +84332,8 @@
                   "12:30 pm",
                   "12:45 pm",
                   "01:00 pm",
+                  "02:15 pm",
+                  "02:30 pm",
                   "02:45 pm",
                   "03:00 pm",
                   "03:15 pm",
@@ -84043,32 +84362,117 @@
               }
             ],
             "description": "",
-            "distance": 23.11,
-            "fhirLocationId": "c352bcc9-e719-4abb-becc-dabf25cbc823",
-            "locationId": "c352bcc9-e719-4abb-becc-dabf25cbc823",
+            "distance": 16.05,
+            "fhirLocationId": "9f5d4d24-0059-4834-a225-6947770a2bae",
+            "locationId": "9f5d4d24-0059-4834-a225-6947770a2bae",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
             "name": "Walgreen Drug Store",
             "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "10796",
+            "partnerLocationId": "6201",
             "phone": [
               {
-                "number": "229-430-9119",
+                "number": "229-888-6166",
                 "type": "StorePrimary"
               },
               {
-                "number": "229-430-9021",
+                "number": "229-888-5712",
                 "type": "StoreSecondary"
               },
               {
-                "number": "229-430-9119",
+                "number": "229-888-6166",
                 "type": "Pharmacy"
               }
             ],
             "position": {
-              "latitude": 31.57418571,
-              "longitude": -84.09141181
+              "latitude": 31.60558035,
+              "longitude": -84.20581628
             },
-            "storenumber": "10796"
+            "storenumber": "6201"
+          },
+          {
+            "address": {
+              "city": "TIFTON",
+              "country": "US",
+              "line1": "615 LOVE AVE",
+              "line2": "",
+              "state": "GA",
+              "zip": "31794"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "09:15 am",
+                  "09:30 am",
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "11:00 am",
+                  "11:15 am",
+                  "11:30 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "02:15 pm",
+                  "03:00 pm",
+                  "03:15 pm",
+                  "03:30 pm",
+                  "03:45 pm",
+                  "04:00 pm",
+                  "04:15 pm",
+                  "04:30 pm",
+                  "04:45 pm",
+                  "05:00 pm",
+                  "05:15 pm",
+                  "05:30 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 11.36,
+            "fhirLocationId": "84f7ff5d-f7e6-44d7-8c0f-d9d86de0e831",
+            "locationId": "84f7ff5d-f7e6-44d7-8c0f-d9d86de0e831",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "10833",
+            "phone": [
+              {
+                "number": "229-382-5359",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "229-382-3017",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "229-382-5359",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 31.45912,
+              "longitude": -83.506799
+            },
+            "storenumber": "10833"
           }
         ]
       }
@@ -84327,7 +84731,7 @@
       }
     ],
     "appointments_available": true,
-    "appointments_last_fetched": "2021-02-27T03:23:05.676+00:00",
+    "appointments_last_fetched": "2021-02-27T03:29:09.638+00:00",
     "appointments_raw": {
       "both_doses": {
         "locations": [
@@ -84335,10 +84739,10 @@
             "address": {
               "city": "ALBANY",
               "country": "US",
-              "line1": "2351 DAWSON RD",
+              "line1": "2414 SYLVESTER RD",
               "line2": "",
               "state": "GA",
-              "zip": "31707"
+              "zip": "31705"
             },
             "appointmentAvailability": [
               {
@@ -84361,8 +84765,6 @@
                   "12:30 pm",
                   "12:45 pm",
                   "01:00 pm",
-                  "02:15 pm",
-                  "02:30 pm",
                   "02:45 pm",
                   "03:00 pm",
                   "03:15 pm",
@@ -84391,32 +84793,32 @@
               }
             ],
             "description": "",
-            "distance": 16.05,
-            "fhirLocationId": "9f5d4d24-0059-4834-a225-6947770a2bae",
-            "locationId": "9f5d4d24-0059-4834-a225-6947770a2bae",
+            "distance": 23.11,
+            "fhirLocationId": "c352bcc9-e719-4abb-becc-dabf25cbc823",
+            "locationId": "c352bcc9-e719-4abb-becc-dabf25cbc823",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
             "name": "Walgreen Drug Store",
             "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "6201",
+            "partnerLocationId": "10796",
             "phone": [
               {
-                "number": "229-888-6166",
+                "number": "229-430-9119",
                 "type": "StorePrimary"
               },
               {
-                "number": "229-888-5712",
+                "number": "229-430-9021",
                 "type": "StoreSecondary"
               },
               {
-                "number": "229-888-6166",
+                "number": "229-430-9119",
                 "type": "Pharmacy"
               }
             ],
             "position": {
-              "latitude": 31.60558035,
-              "longitude": -84.20581628
+              "latitude": 31.57418571,
+              "longitude": -84.09141181
             },
-            "storenumber": "6201"
+            "storenumber": "10796"
           },
           {
             "address": {
@@ -84596,10 +84998,10 @@
             "address": {
               "city": "ALBANY",
               "country": "US",
-              "line1": "2414 SYLVESTER RD",
+              "line1": "2351 DAWSON RD",
               "line2": "",
               "state": "GA",
-              "zip": "31705"
+              "zip": "31707"
             },
             "appointmentAvailability": [
               {
@@ -84622,6 +85024,8 @@
                   "12:30 pm",
                   "12:45 pm",
                   "01:00 pm",
+                  "02:15 pm",
+                  "02:30 pm",
                   "02:45 pm",
                   "03:00 pm",
                   "03:15 pm",
@@ -84650,32 +85054,117 @@
               }
             ],
             "description": "",
-            "distance": 23.11,
-            "fhirLocationId": "c352bcc9-e719-4abb-becc-dabf25cbc823",
-            "locationId": "c352bcc9-e719-4abb-becc-dabf25cbc823",
+            "distance": 16.05,
+            "fhirLocationId": "9f5d4d24-0059-4834-a225-6947770a2bae",
+            "locationId": "9f5d4d24-0059-4834-a225-6947770a2bae",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
             "name": "Walgreen Drug Store",
             "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "10796",
+            "partnerLocationId": "6201",
             "phone": [
               {
-                "number": "229-430-9119",
+                "number": "229-888-6166",
                 "type": "StorePrimary"
               },
               {
-                "number": "229-430-9021",
+                "number": "229-888-5712",
                 "type": "StoreSecondary"
               },
               {
-                "number": "229-430-9119",
+                "number": "229-888-6166",
                 "type": "Pharmacy"
               }
             ],
             "position": {
-              "latitude": 31.57418571,
-              "longitude": -84.09141181
+              "latitude": 31.60558035,
+              "longitude": -84.20581628
             },
-            "storenumber": "10796"
+            "storenumber": "6201"
+          },
+          {
+            "address": {
+              "city": "TIFTON",
+              "country": "US",
+              "line1": "615 LOVE AVE",
+              "line2": "",
+              "state": "GA",
+              "zip": "31794"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "09:15 am",
+                  "09:30 am",
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "11:00 am",
+                  "11:15 am",
+                  "11:30 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "02:15 pm",
+                  "03:00 pm",
+                  "03:15 pm",
+                  "03:30 pm",
+                  "03:45 pm",
+                  "04:00 pm",
+                  "04:15 pm",
+                  "04:30 pm",
+                  "04:45 pm",
+                  "05:00 pm",
+                  "05:15 pm",
+                  "05:30 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 11.36,
+            "fhirLocationId": "84f7ff5d-f7e6-44d7-8c0f-d9d86de0e831",
+            "locationId": "84f7ff5d-f7e6-44d7-8c0f-d9d86de0e831",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "10833",
+            "phone": [
+              {
+                "number": "229-382-5359",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "229-382-3017",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "229-382-5359",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 31.45912,
+              "longitude": -83.506799
+            },
+            "storenumber": "10833"
           }
         ]
       },
@@ -84693,10 +85182,10 @@
             "address": {
               "city": "ALBANY",
               "country": "US",
-              "line1": "2351 DAWSON RD",
+              "line1": "2414 SYLVESTER RD",
               "line2": "",
               "state": "GA",
-              "zip": "31707"
+              "zip": "31705"
             },
             "appointmentAvailability": [
               {
@@ -84719,8 +85208,6 @@
                   "12:30 pm",
                   "12:45 pm",
                   "01:00 pm",
-                  "02:15 pm",
-                  "02:30 pm",
                   "02:45 pm",
                   "03:00 pm",
                   "03:15 pm",
@@ -84749,32 +85236,32 @@
               }
             ],
             "description": "",
-            "distance": 16.05,
-            "fhirLocationId": "9f5d4d24-0059-4834-a225-6947770a2bae",
-            "locationId": "9f5d4d24-0059-4834-a225-6947770a2bae",
+            "distance": 23.11,
+            "fhirLocationId": "c352bcc9-e719-4abb-becc-dabf25cbc823",
+            "locationId": "c352bcc9-e719-4abb-becc-dabf25cbc823",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
             "name": "Walgreen Drug Store",
             "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "6201",
+            "partnerLocationId": "10796",
             "phone": [
               {
-                "number": "229-888-6166",
+                "number": "229-430-9119",
                 "type": "StorePrimary"
               },
               {
-                "number": "229-888-5712",
+                "number": "229-430-9021",
                 "type": "StoreSecondary"
               },
               {
-                "number": "229-888-6166",
+                "number": "229-430-9119",
                 "type": "Pharmacy"
               }
             ],
             "position": {
-              "latitude": 31.60558035,
-              "longitude": -84.20581628
+              "latitude": 31.57418571,
+              "longitude": -84.09141181
             },
-            "storenumber": "6201"
+            "storenumber": "10796"
           },
           {
             "address": {
@@ -84954,10 +85441,10 @@
             "address": {
               "city": "ALBANY",
               "country": "US",
-              "line1": "2414 SYLVESTER RD",
+              "line1": "2351 DAWSON RD",
               "line2": "",
               "state": "GA",
-              "zip": "31705"
+              "zip": "31707"
             },
             "appointmentAvailability": [
               {
@@ -84980,6 +85467,8 @@
                   "12:30 pm",
                   "12:45 pm",
                   "01:00 pm",
+                  "02:15 pm",
+                  "02:30 pm",
                   "02:45 pm",
                   "03:00 pm",
                   "03:15 pm",
@@ -85008,32 +85497,117 @@
               }
             ],
             "description": "",
-            "distance": 23.11,
-            "fhirLocationId": "c352bcc9-e719-4abb-becc-dabf25cbc823",
-            "locationId": "c352bcc9-e719-4abb-becc-dabf25cbc823",
+            "distance": 16.05,
+            "fhirLocationId": "9f5d4d24-0059-4834-a225-6947770a2bae",
+            "locationId": "9f5d4d24-0059-4834-a225-6947770a2bae",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
             "name": "Walgreen Drug Store",
             "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "10796",
+            "partnerLocationId": "6201",
             "phone": [
               {
-                "number": "229-430-9119",
+                "number": "229-888-6166",
                 "type": "StorePrimary"
               },
               {
-                "number": "229-430-9021",
+                "number": "229-888-5712",
                 "type": "StoreSecondary"
               },
               {
-                "number": "229-430-9119",
+                "number": "229-888-6166",
                 "type": "Pharmacy"
               }
             ],
             "position": {
-              "latitude": 31.57418571,
-              "longitude": -84.09141181
+              "latitude": 31.60558035,
+              "longitude": -84.20581628
             },
-            "storenumber": "10796"
+            "storenumber": "6201"
+          },
+          {
+            "address": {
+              "city": "TIFTON",
+              "country": "US",
+              "line1": "615 LOVE AVE",
+              "line2": "",
+              "state": "GA",
+              "zip": "31794"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "09:15 am",
+                  "09:30 am",
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "11:00 am",
+                  "11:15 am",
+                  "11:30 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "02:15 pm",
+                  "03:00 pm",
+                  "03:15 pm",
+                  "03:30 pm",
+                  "03:45 pm",
+                  "04:00 pm",
+                  "04:15 pm",
+                  "04:30 pm",
+                  "04:45 pm",
+                  "05:00 pm",
+                  "05:15 pm",
+                  "05:30 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 11.36,
+            "fhirLocationId": "84f7ff5d-f7e6-44d7-8c0f-d9d86de0e831",
+            "locationId": "84f7ff5d-f7e6-44d7-8c0f-d9d86de0e831",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "10833",
+            "phone": [
+              {
+                "number": "229-382-5359",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "229-382-3017",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "229-382-5359",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 31.45912,
+              "longitude": -83.506799
+            },
+            "storenumber": "10833"
           }
         ]
       }
@@ -85292,7 +85866,7 @@
       }
     ],
     "appointments_available": true,
-    "appointments_last_fetched": "2021-02-27T03:23:05.676+00:00",
+    "appointments_last_fetched": "2021-02-27T03:29:09.638+00:00",
     "appointments_raw": {
       "both_doses": {
         "locations": [
@@ -85300,10 +85874,10 @@
             "address": {
               "city": "ALBANY",
               "country": "US",
-              "line1": "2351 DAWSON RD",
+              "line1": "2414 SYLVESTER RD",
               "line2": "",
               "state": "GA",
-              "zip": "31707"
+              "zip": "31705"
             },
             "appointmentAvailability": [
               {
@@ -85326,8 +85900,6 @@
                   "12:30 pm",
                   "12:45 pm",
                   "01:00 pm",
-                  "02:15 pm",
-                  "02:30 pm",
                   "02:45 pm",
                   "03:00 pm",
                   "03:15 pm",
@@ -85356,32 +85928,32 @@
               }
             ],
             "description": "",
-            "distance": 16.05,
-            "fhirLocationId": "9f5d4d24-0059-4834-a225-6947770a2bae",
-            "locationId": "9f5d4d24-0059-4834-a225-6947770a2bae",
+            "distance": 23.11,
+            "fhirLocationId": "c352bcc9-e719-4abb-becc-dabf25cbc823",
+            "locationId": "c352bcc9-e719-4abb-becc-dabf25cbc823",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
             "name": "Walgreen Drug Store",
             "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "6201",
+            "partnerLocationId": "10796",
             "phone": [
               {
-                "number": "229-888-6166",
+                "number": "229-430-9119",
                 "type": "StorePrimary"
               },
               {
-                "number": "229-888-5712",
+                "number": "229-430-9021",
                 "type": "StoreSecondary"
               },
               {
-                "number": "229-888-6166",
+                "number": "229-430-9119",
                 "type": "Pharmacy"
               }
             ],
             "position": {
-              "latitude": 31.60558035,
-              "longitude": -84.20581628
+              "latitude": 31.57418571,
+              "longitude": -84.09141181
             },
-            "storenumber": "6201"
+            "storenumber": "10796"
           },
           {
             "address": {
@@ -85561,10 +86133,10 @@
             "address": {
               "city": "ALBANY",
               "country": "US",
-              "line1": "2414 SYLVESTER RD",
+              "line1": "2351 DAWSON RD",
               "line2": "",
               "state": "GA",
-              "zip": "31705"
+              "zip": "31707"
             },
             "appointmentAvailability": [
               {
@@ -85587,6 +86159,8 @@
                   "12:30 pm",
                   "12:45 pm",
                   "01:00 pm",
+                  "02:15 pm",
+                  "02:30 pm",
                   "02:45 pm",
                   "03:00 pm",
                   "03:15 pm",
@@ -85615,32 +86189,117 @@
               }
             ],
             "description": "",
-            "distance": 23.11,
-            "fhirLocationId": "c352bcc9-e719-4abb-becc-dabf25cbc823",
-            "locationId": "c352bcc9-e719-4abb-becc-dabf25cbc823",
+            "distance": 16.05,
+            "fhirLocationId": "9f5d4d24-0059-4834-a225-6947770a2bae",
+            "locationId": "9f5d4d24-0059-4834-a225-6947770a2bae",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
             "name": "Walgreen Drug Store",
             "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "10796",
+            "partnerLocationId": "6201",
             "phone": [
               {
-                "number": "229-430-9119",
+                "number": "229-888-6166",
                 "type": "StorePrimary"
               },
               {
-                "number": "229-430-9021",
+                "number": "229-888-5712",
                 "type": "StoreSecondary"
               },
               {
-                "number": "229-430-9119",
+                "number": "229-888-6166",
                 "type": "Pharmacy"
               }
             ],
             "position": {
-              "latitude": 31.57418571,
-              "longitude": -84.09141181
+              "latitude": 31.60558035,
+              "longitude": -84.20581628
             },
-            "storenumber": "10796"
+            "storenumber": "6201"
+          },
+          {
+            "address": {
+              "city": "TIFTON",
+              "country": "US",
+              "line1": "615 LOVE AVE",
+              "line2": "",
+              "state": "GA",
+              "zip": "31794"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "09:15 am",
+                  "09:30 am",
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "11:00 am",
+                  "11:15 am",
+                  "11:30 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "02:15 pm",
+                  "03:00 pm",
+                  "03:15 pm",
+                  "03:30 pm",
+                  "03:45 pm",
+                  "04:00 pm",
+                  "04:15 pm",
+                  "04:30 pm",
+                  "04:45 pm",
+                  "05:00 pm",
+                  "05:15 pm",
+                  "05:30 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 11.36,
+            "fhirLocationId": "84f7ff5d-f7e6-44d7-8c0f-d9d86de0e831",
+            "locationId": "84f7ff5d-f7e6-44d7-8c0f-d9d86de0e831",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "10833",
+            "phone": [
+              {
+                "number": "229-382-5359",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "229-382-3017",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "229-382-5359",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 31.45912,
+              "longitude": -83.506799
+            },
+            "storenumber": "10833"
           }
         ]
       },
@@ -85658,10 +86317,10 @@
             "address": {
               "city": "ALBANY",
               "country": "US",
-              "line1": "2351 DAWSON RD",
+              "line1": "2414 SYLVESTER RD",
               "line2": "",
               "state": "GA",
-              "zip": "31707"
+              "zip": "31705"
             },
             "appointmentAvailability": [
               {
@@ -85684,8 +86343,6 @@
                   "12:30 pm",
                   "12:45 pm",
                   "01:00 pm",
-                  "02:15 pm",
-                  "02:30 pm",
                   "02:45 pm",
                   "03:00 pm",
                   "03:15 pm",
@@ -85714,32 +86371,32 @@
               }
             ],
             "description": "",
-            "distance": 16.05,
-            "fhirLocationId": "9f5d4d24-0059-4834-a225-6947770a2bae",
-            "locationId": "9f5d4d24-0059-4834-a225-6947770a2bae",
+            "distance": 23.11,
+            "fhirLocationId": "c352bcc9-e719-4abb-becc-dabf25cbc823",
+            "locationId": "c352bcc9-e719-4abb-becc-dabf25cbc823",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
             "name": "Walgreen Drug Store",
             "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "6201",
+            "partnerLocationId": "10796",
             "phone": [
               {
-                "number": "229-888-6166",
+                "number": "229-430-9119",
                 "type": "StorePrimary"
               },
               {
-                "number": "229-888-5712",
+                "number": "229-430-9021",
                 "type": "StoreSecondary"
               },
               {
-                "number": "229-888-6166",
+                "number": "229-430-9119",
                 "type": "Pharmacy"
               }
             ],
             "position": {
-              "latitude": 31.60558035,
-              "longitude": -84.20581628
+              "latitude": 31.57418571,
+              "longitude": -84.09141181
             },
-            "storenumber": "6201"
+            "storenumber": "10796"
           },
           {
             "address": {
@@ -85919,10 +86576,10 @@
             "address": {
               "city": "ALBANY",
               "country": "US",
-              "line1": "2414 SYLVESTER RD",
+              "line1": "2351 DAWSON RD",
               "line2": "",
               "state": "GA",
-              "zip": "31705"
+              "zip": "31707"
             },
             "appointmentAvailability": [
               {
@@ -85945,6 +86602,8 @@
                   "12:30 pm",
                   "12:45 pm",
                   "01:00 pm",
+                  "02:15 pm",
+                  "02:30 pm",
                   "02:45 pm",
                   "03:00 pm",
                   "03:15 pm",
@@ -85973,32 +86632,117 @@
               }
             ],
             "description": "",
-            "distance": 23.11,
-            "fhirLocationId": "c352bcc9-e719-4abb-becc-dabf25cbc823",
-            "locationId": "c352bcc9-e719-4abb-becc-dabf25cbc823",
+            "distance": 16.05,
+            "fhirLocationId": "9f5d4d24-0059-4834-a225-6947770a2bae",
+            "locationId": "9f5d4d24-0059-4834-a225-6947770a2bae",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
             "name": "Walgreen Drug Store",
             "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "10796",
+            "partnerLocationId": "6201",
             "phone": [
               {
-                "number": "229-430-9119",
+                "number": "229-888-6166",
                 "type": "StorePrimary"
               },
               {
-                "number": "229-430-9021",
+                "number": "229-888-5712",
                 "type": "StoreSecondary"
               },
               {
-                "number": "229-430-9119",
+                "number": "229-888-6166",
                 "type": "Pharmacy"
               }
             ],
             "position": {
-              "latitude": 31.57418571,
-              "longitude": -84.09141181
+              "latitude": 31.60558035,
+              "longitude": -84.20581628
             },
-            "storenumber": "10796"
+            "storenumber": "6201"
+          },
+          {
+            "address": {
+              "city": "TIFTON",
+              "country": "US",
+              "line1": "615 LOVE AVE",
+              "line2": "",
+              "state": "GA",
+              "zip": "31794"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "09:15 am",
+                  "09:30 am",
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "11:00 am",
+                  "11:15 am",
+                  "11:30 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "02:15 pm",
+                  "03:00 pm",
+                  "03:15 pm",
+                  "03:30 pm",
+                  "03:45 pm",
+                  "04:00 pm",
+                  "04:15 pm",
+                  "04:30 pm",
+                  "04:45 pm",
+                  "05:00 pm",
+                  "05:15 pm",
+                  "05:30 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 11.36,
+            "fhirLocationId": "84f7ff5d-f7e6-44d7-8c0f-d9d86de0e831",
+            "locationId": "84f7ff5d-f7e6-44d7-8c0f-d9d86de0e831",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "10833",
+            "phone": [
+              {
+                "number": "229-382-5359",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "229-382-3017",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "229-382-5359",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 31.45912,
+              "longitude": -83.506799
+            },
+            "storenumber": "10833"
           }
         ]
       }
