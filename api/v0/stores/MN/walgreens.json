@@ -45,7 +45,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T14:38:36.483+00:00",
+    "appointments_last_fetched": "2021-02-27T16:44:18.114+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -1644,136 +1644,13 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T14:37:20.7+00:00",
+    "appointments_last_fetched": "2021-02-27T16:46:56.024+00:00",
     "appointments_raw": {
       "both_doses": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "HUDSON",
-              "country": "US",
-              "line1": "141 CARMICHAEL RD",
-              "line2": "",
-              "state": "WI",
-              "zip": "54016"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-02",
-                "day": "Tuesday",
-                "slots": [
-                  "10:45 am",
-                  "11:30 am"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 5.46,
-            "fhirLocationId": "bef61a9c-bd5e-46ac-a19d-11700d8f5d57",
-            "locationId": "bef61a9c-bd5e-46ac-a19d-11700d8f5d57",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "15121",
-            "phone": [
-              {
-                "number": "715-381-0183",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "715-381-6541",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "715-381-0183",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 44.96738863,
-              "longitude": -92.72185867
-            },
-            "storenumber": "15121"
-          },
-          {
-            "address": {
-              "city": "RIVER FALLS",
-              "country": "US",
-              "line1": "1047 N MAIN ST",
-              "line2": "",
-              "state": "WI",
-              "zip": "54022"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-02",
-                "day": "Tuesday",
-                "slots": [
-                  "10:30 am",
-                  "10:45 am",
-                  "11:30 am",
-                  "12:15 pm",
-                  "12:45 pm",
-                  "02:45 pm",
-                  "03:00 pm",
-                  "03:15 pm",
-                  "03:30 pm",
-                  "03:45 pm",
-                  "04:45 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 13.76,
-            "fhirLocationId": "53fbbb5e-37ac-415c-b583-670715133d98",
-            "locationId": "53fbbb5e-37ac-415c-b583-670715133d98",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "10585",
-            "phone": [
-              {
-                "number": "715-426-4089",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "715-426-4089",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 44.870262,
-              "longitude": -92.622108
-            },
-            "storenumber": "10585"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       },
@@ -1786,133 +1663,10 @@
         ]
       },
       "second_dose_pfizer": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "HUDSON",
-              "country": "US",
-              "line1": "141 CARMICHAEL RD",
-              "line2": "",
-              "state": "WI",
-              "zip": "54016"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-02",
-                "day": "Tuesday",
-                "slots": [
-                  "10:45 am",
-                  "11:30 am"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 5.46,
-            "fhirLocationId": "bef61a9c-bd5e-46ac-a19d-11700d8f5d57",
-            "locationId": "bef61a9c-bd5e-46ac-a19d-11700d8f5d57",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "15121",
-            "phone": [
-              {
-                "number": "715-381-0183",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "715-381-6541",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "715-381-0183",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 44.96738863,
-              "longitude": -92.72185867
-            },
-            "storenumber": "15121"
-          },
-          {
-            "address": {
-              "city": "RIVER FALLS",
-              "country": "US",
-              "line1": "1047 N MAIN ST",
-              "line2": "",
-              "state": "WI",
-              "zip": "54022"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-02",
-                "day": "Tuesday",
-                "slots": [
-                  "10:30 am",
-                  "10:45 am",
-                  "11:30 am",
-                  "12:15 pm",
-                  "12:45 pm",
-                  "02:45 pm",
-                  "03:00 pm",
-                  "03:15 pm",
-                  "03:30 pm",
-                  "03:45 pm",
-                  "04:45 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 13.76,
-            "fhirLocationId": "53fbbb5e-37ac-415c-b583-670715133d98",
-            "locationId": "53fbbb5e-37ac-415c-b583-670715133d98",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "10585",
-            "phone": [
-              {
-                "number": "715-426-4089",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "715-426-4089",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 44.870262,
-              "longitude": -92.622108
-            },
-            "storenumber": "10585"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       }
@@ -5211,7 +4965,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T14:43:13.096+00:00",
+    "appointments_last_fetched": "2021-02-27T16:44:54.386+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -5457,7 +5211,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T14:43:13.096+00:00",
+    "appointments_last_fetched": "2021-02-27T16:44:54.386+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -5539,7 +5293,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T14:43:13.096+00:00",
+    "appointments_last_fetched": "2021-02-27T16:44:54.386+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -5621,7 +5375,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T14:43:13.096+00:00",
+    "appointments_last_fetched": "2021-02-27T16:44:54.386+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -5662,7 +5416,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T14:43:13.096+00:00",
+    "appointments_last_fetched": "2021-02-27T16:44:54.386+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -5744,7 +5498,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T14:43:13.096+00:00",
+    "appointments_last_fetched": "2021-02-27T16:44:54.386+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -5785,7 +5539,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T14:43:13.096+00:00",
+    "appointments_last_fetched": "2021-02-27T16:44:54.386+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -6802,7 +6556,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T14:46:47.992+00:00",
+    "appointments_last_fetched": "2021-02-27T16:47:10.911+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -6925,7 +6679,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T14:41:03.971+00:00",
+    "appointments_last_fetched": "2021-02-27T16:44:39.25+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
