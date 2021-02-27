@@ -22847,7 +22847,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T06:04:01.444+00:00",
+    "appointments_last_fetched": "2021-02-27T06:21:14.055+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -22970,7 +22970,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T06:04:01.444+00:00",
+    "appointments_last_fetched": "2021-02-27T06:21:14.055+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -23216,7 +23216,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T06:04:01.444+00:00",
+    "appointments_last_fetched": "2021-02-27T06:21:14.055+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -23667,7 +23667,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T06:04:01.444+00:00",
+    "appointments_last_fetched": "2021-02-27T06:21:14.055+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -24241,91 +24241,13 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T05:56:56.306+00:00",
+    "appointments_last_fetched": "2021-02-27T06:20:39.89+00:00",
     "appointments_raw": {
       "both_doses": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "SMYRNA",
-              "country": "US",
-              "line1": "700 JIMMY DR",
-              "line2": "",
-              "state": "DE",
-              "zip": "19977"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-02",
-                "day": "Tuesday",
-                "slots": [
-                  "09:15 am",
-                  "09:30 am",
-                  "09:45 am",
-                  "10:15 am",
-                  "10:30 am",
-                  "10:45 am",
-                  "11:15 am",
-                  "11:30 am",
-                  "11:45 am",
-                  "12:15 pm",
-                  "12:30 pm",
-                  "12:45 pm",
-                  "02:15 pm",
-                  "02:30 pm",
-                  "02:45 pm",
-                  "03:15 pm",
-                  "03:30 pm",
-                  "03:45 pm",
-                  "04:00 pm",
-                  "04:15 pm",
-                  "04:30 pm",
-                  "04:45 pm",
-                  "05:00 pm",
-                  "05:15 pm",
-                  "05:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 12.84,
-            "fhirLocationId": "71893d2c-5c92-40d2-9980-4092f44ded88",
-            "locationId": "71893d2c-5c92-40d2-9980-4092f44ded88",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "11134",
-            "phone": [
-              {
-                "number": "302-653-8528",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "302-653-6323",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "302-653-8528",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 39.28021,
-              "longitude": -75.593793
-            },
-            "storenumber": "11134"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       },
@@ -24338,88 +24260,10 @@
         ]
       },
       "second_dose_pfizer": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "SMYRNA",
-              "country": "US",
-              "line1": "700 JIMMY DR",
-              "line2": "",
-              "state": "DE",
-              "zip": "19977"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-02",
-                "day": "Tuesday",
-                "slots": [
-                  "09:15 am",
-                  "09:30 am",
-                  "09:45 am",
-                  "10:15 am",
-                  "10:30 am",
-                  "10:45 am",
-                  "11:15 am",
-                  "11:30 am",
-                  "11:45 am",
-                  "12:15 pm",
-                  "12:30 pm",
-                  "12:45 pm",
-                  "02:15 pm",
-                  "02:30 pm",
-                  "02:45 pm",
-                  "03:15 pm",
-                  "03:30 pm",
-                  "03:45 pm",
-                  "04:00 pm",
-                  "04:15 pm",
-                  "04:30 pm",
-                  "04:45 pm",
-                  "05:00 pm",
-                  "05:15 pm",
-                  "05:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 7.98,
-            "fhirLocationId": "71893d2c-5c92-40d2-9980-4092f44ded88",
-            "locationId": "71893d2c-5c92-40d2-9980-4092f44ded88",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "11134",
-            "phone": [
-              {
-                "number": "302-653-8528",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "302-653-6323",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "302-653-8528",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 39.28021,
-              "longitude": -75.593793
-            },
-            "storenumber": "11134"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       }
@@ -24438,91 +24282,13 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T05:56:56.306+00:00",
+    "appointments_last_fetched": "2021-02-27T06:20:39.89+00:00",
     "appointments_raw": {
       "both_doses": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "SMYRNA",
-              "country": "US",
-              "line1": "700 JIMMY DR",
-              "line2": "",
-              "state": "DE",
-              "zip": "19977"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-02",
-                "day": "Tuesday",
-                "slots": [
-                  "09:15 am",
-                  "09:30 am",
-                  "09:45 am",
-                  "10:15 am",
-                  "10:30 am",
-                  "10:45 am",
-                  "11:15 am",
-                  "11:30 am",
-                  "11:45 am",
-                  "12:15 pm",
-                  "12:30 pm",
-                  "12:45 pm",
-                  "02:15 pm",
-                  "02:30 pm",
-                  "02:45 pm",
-                  "03:15 pm",
-                  "03:30 pm",
-                  "03:45 pm",
-                  "04:00 pm",
-                  "04:15 pm",
-                  "04:30 pm",
-                  "04:45 pm",
-                  "05:00 pm",
-                  "05:15 pm",
-                  "05:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 12.84,
-            "fhirLocationId": "71893d2c-5c92-40d2-9980-4092f44ded88",
-            "locationId": "71893d2c-5c92-40d2-9980-4092f44ded88",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "11134",
-            "phone": [
-              {
-                "number": "302-653-8528",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "302-653-6323",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "302-653-8528",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 39.28021,
-              "longitude": -75.593793
-            },
-            "storenumber": "11134"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       },
@@ -24535,88 +24301,10 @@
         ]
       },
       "second_dose_pfizer": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "SMYRNA",
-              "country": "US",
-              "line1": "700 JIMMY DR",
-              "line2": "",
-              "state": "DE",
-              "zip": "19977"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-02",
-                "day": "Tuesday",
-                "slots": [
-                  "09:15 am",
-                  "09:30 am",
-                  "09:45 am",
-                  "10:15 am",
-                  "10:30 am",
-                  "10:45 am",
-                  "11:15 am",
-                  "11:30 am",
-                  "11:45 am",
-                  "12:15 pm",
-                  "12:30 pm",
-                  "12:45 pm",
-                  "02:15 pm",
-                  "02:30 pm",
-                  "02:45 pm",
-                  "03:15 pm",
-                  "03:30 pm",
-                  "03:45 pm",
-                  "04:00 pm",
-                  "04:15 pm",
-                  "04:30 pm",
-                  "04:45 pm",
-                  "05:00 pm",
-                  "05:15 pm",
-                  "05:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 7.98,
-            "fhirLocationId": "71893d2c-5c92-40d2-9980-4092f44ded88",
-            "locationId": "71893d2c-5c92-40d2-9980-4092f44ded88",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "11134",
-            "phone": [
-              {
-                "number": "302-653-8528",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "302-653-6323",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "302-653-8528",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 39.28021,
-              "longitude": -75.593793
-            },
-            "storenumber": "11134"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       }
@@ -27775,91 +27463,13 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T05:56:56.306+00:00",
+    "appointments_last_fetched": "2021-02-27T06:20:39.89+00:00",
     "appointments_raw": {
       "both_doses": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "SMYRNA",
-              "country": "US",
-              "line1": "700 JIMMY DR",
-              "line2": "",
-              "state": "DE",
-              "zip": "19977"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-02",
-                "day": "Tuesday",
-                "slots": [
-                  "09:15 am",
-                  "09:30 am",
-                  "09:45 am",
-                  "10:15 am",
-                  "10:30 am",
-                  "10:45 am",
-                  "11:15 am",
-                  "11:30 am",
-                  "11:45 am",
-                  "12:15 pm",
-                  "12:30 pm",
-                  "12:45 pm",
-                  "02:15 pm",
-                  "02:30 pm",
-                  "02:45 pm",
-                  "03:15 pm",
-                  "03:30 pm",
-                  "03:45 pm",
-                  "04:00 pm",
-                  "04:15 pm",
-                  "04:30 pm",
-                  "04:45 pm",
-                  "05:00 pm",
-                  "05:15 pm",
-                  "05:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 12.84,
-            "fhirLocationId": "71893d2c-5c92-40d2-9980-4092f44ded88",
-            "locationId": "71893d2c-5c92-40d2-9980-4092f44ded88",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "11134",
-            "phone": [
-              {
-                "number": "302-653-8528",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "302-653-6323",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "302-653-8528",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 39.28021,
-              "longitude": -75.593793
-            },
-            "storenumber": "11134"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       },
@@ -27872,88 +27482,10 @@
         ]
       },
       "second_dose_pfizer": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "SMYRNA",
-              "country": "US",
-              "line1": "700 JIMMY DR",
-              "line2": "",
-              "state": "DE",
-              "zip": "19977"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-02",
-                "day": "Tuesday",
-                "slots": [
-                  "09:15 am",
-                  "09:30 am",
-                  "09:45 am",
-                  "10:15 am",
-                  "10:30 am",
-                  "10:45 am",
-                  "11:15 am",
-                  "11:30 am",
-                  "11:45 am",
-                  "12:15 pm",
-                  "12:30 pm",
-                  "12:45 pm",
-                  "02:15 pm",
-                  "02:30 pm",
-                  "02:45 pm",
-                  "03:15 pm",
-                  "03:30 pm",
-                  "03:45 pm",
-                  "04:00 pm",
-                  "04:15 pm",
-                  "04:30 pm",
-                  "04:45 pm",
-                  "05:00 pm",
-                  "05:15 pm",
-                  "05:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 7.98,
-            "fhirLocationId": "71893d2c-5c92-40d2-9980-4092f44ded88",
-            "locationId": "71893d2c-5c92-40d2-9980-4092f44ded88",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "11134",
-            "phone": [
-              {
-                "number": "302-653-8528",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "302-653-6323",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "302-653-8528",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 39.28021,
-              "longitude": -75.593793
-            },
-            "storenumber": "11134"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       }
@@ -30948,91 +30480,13 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T05:56:56.306+00:00",
+    "appointments_last_fetched": "2021-02-27T06:20:39.89+00:00",
     "appointments_raw": {
       "both_doses": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "SMYRNA",
-              "country": "US",
-              "line1": "700 JIMMY DR",
-              "line2": "",
-              "state": "DE",
-              "zip": "19977"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-02",
-                "day": "Tuesday",
-                "slots": [
-                  "09:15 am",
-                  "09:30 am",
-                  "09:45 am",
-                  "10:15 am",
-                  "10:30 am",
-                  "10:45 am",
-                  "11:15 am",
-                  "11:30 am",
-                  "11:45 am",
-                  "12:15 pm",
-                  "12:30 pm",
-                  "12:45 pm",
-                  "02:15 pm",
-                  "02:30 pm",
-                  "02:45 pm",
-                  "03:15 pm",
-                  "03:30 pm",
-                  "03:45 pm",
-                  "04:00 pm",
-                  "04:15 pm",
-                  "04:30 pm",
-                  "04:45 pm",
-                  "05:00 pm",
-                  "05:15 pm",
-                  "05:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 12.84,
-            "fhirLocationId": "71893d2c-5c92-40d2-9980-4092f44ded88",
-            "locationId": "71893d2c-5c92-40d2-9980-4092f44ded88",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "11134",
-            "phone": [
-              {
-                "number": "302-653-8528",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "302-653-6323",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "302-653-8528",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 39.28021,
-              "longitude": -75.593793
-            },
-            "storenumber": "11134"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       },
@@ -31045,88 +30499,10 @@
         ]
       },
       "second_dose_pfizer": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "SMYRNA",
-              "country": "US",
-              "line1": "700 JIMMY DR",
-              "line2": "",
-              "state": "DE",
-              "zip": "19977"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-02",
-                "day": "Tuesday",
-                "slots": [
-                  "09:15 am",
-                  "09:30 am",
-                  "09:45 am",
-                  "10:15 am",
-                  "10:30 am",
-                  "10:45 am",
-                  "11:15 am",
-                  "11:30 am",
-                  "11:45 am",
-                  "12:15 pm",
-                  "12:30 pm",
-                  "12:45 pm",
-                  "02:15 pm",
-                  "02:30 pm",
-                  "02:45 pm",
-                  "03:15 pm",
-                  "03:30 pm",
-                  "03:45 pm",
-                  "04:00 pm",
-                  "04:15 pm",
-                  "04:30 pm",
-                  "04:45 pm",
-                  "05:00 pm",
-                  "05:15 pm",
-                  "05:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 7.98,
-            "fhirLocationId": "71893d2c-5c92-40d2-9980-4092f44ded88",
-            "locationId": "71893d2c-5c92-40d2-9980-4092f44ded88",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "11134",
-            "phone": [
-              {
-                "number": "302-653-8528",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "302-653-6323",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "302-653-8528",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 39.28021,
-              "longitude": -75.593793
-            },
-            "storenumber": "11134"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       }
@@ -47812,7 +47188,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T06:04:01.444+00:00",
+    "appointments_last_fetched": "2021-02-27T06:21:14.055+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -50624,7 +50000,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T06:04:01.444+00:00",
+    "appointments_last_fetched": "2021-02-27T06:21:14.055+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -53518,7 +52894,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T06:04:01.444+00:00",
+    "appointments_last_fetched": "2021-02-27T06:21:14.055+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
