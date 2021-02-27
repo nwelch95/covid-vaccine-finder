@@ -311,10 +311,15 @@
   {
     "address": "180 River Rd",
     "appointments": [
-      "2021-03-04T12:00:00.000-05:00"
+      "2021-03-03T14:40:00.000-05:00",
+      "2021-03-03T15:00:00.000-05:00",
+      "2021-03-03T15:20:00.000-05:00",
+      "2021-03-03T15:40:00.000-05:00",
+      "2021-03-03T16:00:00.000-05:00",
+      "2021-03-04T13:00:00.000-05:00"
     ],
     "appointments_available": true,
-    "appointments_last_fetched": "2021-02-26T19:18:36.832+00:00",
+    "appointments_last_fetched": "2021-02-27T02:26:35.762+00:00",
     "appointments_raw": {
       "data": {
         "accessPointId": "249ac0ba-28d0-4a58-8a5f-5343efaab8cf",
@@ -351,9 +356,34 @@
             ]
           },
           {
-            "message": "There are no appointments available for Wed, 3 Mar. Please select a different day.",
+            "message": null,
             "slotDate": "03032021",
             "slots": [
+              {
+                "endTime": "15:00",
+                "slotId": "4036ab61-6cbf-4151-8b2d-67cfb727095c-2021-03-03",
+                "startTime": "14:40"
+              },
+              {
+                "endTime": "15:20",
+                "slotId": "4000de6a-815b-49da-9012-d8353369c2a5-2021-03-03",
+                "startTime": "15:00"
+              },
+              {
+                "endTime": "15:40",
+                "slotId": "680a53c4-87d2-4384-835c-37581ebd0da3-2021-03-03",
+                "startTime": "15:20"
+              },
+              {
+                "endTime": "16:00",
+                "slotId": "73f9b557-fb4b-48c2-a334-cac417410048-2021-03-03",
+                "startTime": "15:40"
+              },
+              {
+                "endTime": "16:20",
+                "slotId": "348a51a6-091a-45b5-8611-9b97fc5b3f58-2021-03-03",
+                "startTime": "16:00"
+              }
             ]
           },
           {
@@ -361,9 +391,9 @@
             "slotDate": "03042021",
             "slots": [
               {
-                "endTime": "12:20",
-                "slotId": "b8b5c8e8-d968-4de2-a065-b06f4a3ffeab-2021-03-04",
-                "startTime": "12:00"
+                "endTime": "13:20",
+                "slotId": "ede85891-e408-4088-a1a6-1cf18e7f8ce1-2021-03-04",
+                "startTime": "13:00"
               }
             ]
           }
