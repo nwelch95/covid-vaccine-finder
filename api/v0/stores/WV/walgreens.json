@@ -4,7 +4,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T12:21:28.185+00:00",
+    "appointments_last_fetched": "2021-02-27T13:19:04.467+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -45,7 +45,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T12:35:50.432+00:00",
+    "appointments_last_fetched": "2021-02-27T13:08:39.157+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -86,7 +86,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T12:21:28.185+00:00",
+    "appointments_last_fetched": "2021-02-27T13:19:04.467+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -127,7 +127,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T12:35:50.432+00:00",
+    "appointments_last_fetched": "2021-02-27T13:08:39.157+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -168,7 +168,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T12:35:50.432+00:00",
+    "appointments_last_fetched": "2021-02-27T13:08:39.157+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -209,7 +209,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T12:35:50.432+00:00",
+    "appointments_last_fetched": "2021-02-27T13:08:39.157+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -250,7 +250,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T12:21:34.13+00:00",
+    "appointments_last_fetched": "2021-02-27T13:15:53.938+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -291,7 +291,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T12:21:34.13+00:00",
+    "appointments_last_fetched": "2021-02-27T13:15:53.938+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -332,7 +332,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T12:40:35.678+00:00",
+    "appointments_last_fetched": "2021-02-27T13:17:55.942+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -373,149 +373,21 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T12:38:33.587+00:00",
+    "appointments_last_fetched": "2021-02-27T13:16:29.269+00:00",
     "appointments_raw": {
       "both_doses": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "HAGERSTOWN",
-              "country": "US",
-              "line1": "901 NORTH BURNHANS BOULEVARD",
-              "line2": "",
-              "state": "MD",
-              "zip": "21742"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-02",
-                "day": "Tuesday",
-                "slots": [
-                  "09:45 am",
-                  "10:15 am",
-                  "10:45 am",
-                  "11:00 am",
-                  "11:15 am",
-                  "11:45 am",
-                  "12:00 pm",
-                  "12:15 pm",
-                  "12:45 pm",
-                  "02:30 pm",
-                  "02:45 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 21.18,
-            "fhirLocationId": "1f12ac8f-1a9b-44d6-aca3-58955c737073",
-            "locationId": "1f12ac8f-1a9b-44d6-aca3-58955c737073",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "17174",
-            "phone": [
-              {
-                "number": "301-797-9300",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "301-790-6690",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "301-797-9300",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 39.65722354,
-              "longitude": -77.72045369
-            },
-            "storenumber": "17174"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       },
       "second_dose_moderna": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "HAGERSTOWN",
-              "country": "US",
-              "line1": "901 NORTH BURNHANS BOULEVARD",
-              "line2": "",
-              "state": "MD",
-              "zip": "21742"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-02",
-                "day": "Tuesday",
-                "slots": [
-                  "09:45 am",
-                  "10:15 am",
-                  "10:45 am",
-                  "11:00 am",
-                  "11:15 am",
-                  "11:45 am",
-                  "12:00 pm",
-                  "12:15 pm",
-                  "12:45 pm",
-                  "02:30 pm",
-                  "02:45 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 22.82,
-            "fhirLocationId": "1f12ac8f-1a9b-44d6-aca3-58955c737073",
-            "locationId": "1f12ac8f-1a9b-44d6-aca3-58955c737073",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "17174",
-            "phone": [
-              {
-                "number": "301-797-9300",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "301-790-6690",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "301-797-9300",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 39.65722354,
-              "longitude": -77.72045369
-            },
-            "storenumber": "17174"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       },
@@ -542,7 +414,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T12:40:35.678+00:00",
+    "appointments_last_fetched": "2021-02-27T13:17:55.942+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -583,149 +455,21 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T12:38:33.587+00:00",
+    "appointments_last_fetched": "2021-02-27T13:16:29.269+00:00",
     "appointments_raw": {
       "both_doses": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "HAGERSTOWN",
-              "country": "US",
-              "line1": "901 NORTH BURNHANS BOULEVARD",
-              "line2": "",
-              "state": "MD",
-              "zip": "21742"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-02",
-                "day": "Tuesday",
-                "slots": [
-                  "09:45 am",
-                  "10:15 am",
-                  "10:45 am",
-                  "11:00 am",
-                  "11:15 am",
-                  "11:45 am",
-                  "12:00 pm",
-                  "12:15 pm",
-                  "12:45 pm",
-                  "02:30 pm",
-                  "02:45 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 21.18,
-            "fhirLocationId": "1f12ac8f-1a9b-44d6-aca3-58955c737073",
-            "locationId": "1f12ac8f-1a9b-44d6-aca3-58955c737073",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "17174",
-            "phone": [
-              {
-                "number": "301-797-9300",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "301-790-6690",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "301-797-9300",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 39.65722354,
-              "longitude": -77.72045369
-            },
-            "storenumber": "17174"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       },
       "second_dose_moderna": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "HAGERSTOWN",
-              "country": "US",
-              "line1": "901 NORTH BURNHANS BOULEVARD",
-              "line2": "",
-              "state": "MD",
-              "zip": "21742"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-02",
-                "day": "Tuesday",
-                "slots": [
-                  "09:45 am",
-                  "10:15 am",
-                  "10:45 am",
-                  "11:00 am",
-                  "11:15 am",
-                  "11:45 am",
-                  "12:00 pm",
-                  "12:15 pm",
-                  "12:45 pm",
-                  "02:30 pm",
-                  "02:45 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 22.82,
-            "fhirLocationId": "1f12ac8f-1a9b-44d6-aca3-58955c737073",
-            "locationId": "1f12ac8f-1a9b-44d6-aca3-58955c737073",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "17174",
-            "phone": [
-              {
-                "number": "301-797-9300",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "301-790-6690",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "301-797-9300",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 39.65722354,
-              "longitude": -77.72045369
-            },
-            "storenumber": "17174"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       },
@@ -752,149 +496,21 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T12:38:33.587+00:00",
+    "appointments_last_fetched": "2021-02-27T13:16:29.269+00:00",
     "appointments_raw": {
       "both_doses": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "HAGERSTOWN",
-              "country": "US",
-              "line1": "901 NORTH BURNHANS BOULEVARD",
-              "line2": "",
-              "state": "MD",
-              "zip": "21742"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-02",
-                "day": "Tuesday",
-                "slots": [
-                  "09:45 am",
-                  "10:15 am",
-                  "10:45 am",
-                  "11:00 am",
-                  "11:15 am",
-                  "11:45 am",
-                  "12:00 pm",
-                  "12:15 pm",
-                  "12:45 pm",
-                  "02:30 pm",
-                  "02:45 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 21.18,
-            "fhirLocationId": "1f12ac8f-1a9b-44d6-aca3-58955c737073",
-            "locationId": "1f12ac8f-1a9b-44d6-aca3-58955c737073",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "17174",
-            "phone": [
-              {
-                "number": "301-797-9300",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "301-790-6690",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "301-797-9300",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 39.65722354,
-              "longitude": -77.72045369
-            },
-            "storenumber": "17174"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       },
       "second_dose_moderna": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "HAGERSTOWN",
-              "country": "US",
-              "line1": "901 NORTH BURNHANS BOULEVARD",
-              "line2": "",
-              "state": "MD",
-              "zip": "21742"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-02",
-                "day": "Tuesday",
-                "slots": [
-                  "09:45 am",
-                  "10:15 am",
-                  "10:45 am",
-                  "11:00 am",
-                  "11:15 am",
-                  "11:45 am",
-                  "12:00 pm",
-                  "12:15 pm",
-                  "12:45 pm",
-                  "02:30 pm",
-                  "02:45 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 22.82,
-            "fhirLocationId": "1f12ac8f-1a9b-44d6-aca3-58955c737073",
-            "locationId": "1f12ac8f-1a9b-44d6-aca3-58955c737073",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "17174",
-            "phone": [
-              {
-                "number": "301-797-9300",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "301-790-6690",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "301-797-9300",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 39.65722354,
-              "longitude": -77.72045369
-            },
-            "storenumber": "17174"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       },
@@ -921,149 +537,21 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T12:38:33.587+00:00",
+    "appointments_last_fetched": "2021-02-27T13:16:29.269+00:00",
     "appointments_raw": {
       "both_doses": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "HAGERSTOWN",
-              "country": "US",
-              "line1": "901 NORTH BURNHANS BOULEVARD",
-              "line2": "",
-              "state": "MD",
-              "zip": "21742"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-02",
-                "day": "Tuesday",
-                "slots": [
-                  "09:45 am",
-                  "10:15 am",
-                  "10:45 am",
-                  "11:00 am",
-                  "11:15 am",
-                  "11:45 am",
-                  "12:00 pm",
-                  "12:15 pm",
-                  "12:45 pm",
-                  "02:30 pm",
-                  "02:45 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 21.18,
-            "fhirLocationId": "1f12ac8f-1a9b-44d6-aca3-58955c737073",
-            "locationId": "1f12ac8f-1a9b-44d6-aca3-58955c737073",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "17174",
-            "phone": [
-              {
-                "number": "301-797-9300",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "301-790-6690",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "301-797-9300",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 39.65722354,
-              "longitude": -77.72045369
-            },
-            "storenumber": "17174"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       },
       "second_dose_moderna": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "HAGERSTOWN",
-              "country": "US",
-              "line1": "901 NORTH BURNHANS BOULEVARD",
-              "line2": "",
-              "state": "MD",
-              "zip": "21742"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-02",
-                "day": "Tuesday",
-                "slots": [
-                  "09:45 am",
-                  "10:15 am",
-                  "10:45 am",
-                  "11:00 am",
-                  "11:15 am",
-                  "11:45 am",
-                  "12:00 pm",
-                  "12:15 pm",
-                  "12:45 pm",
-                  "02:30 pm",
-                  "02:45 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 22.82,
-            "fhirLocationId": "1f12ac8f-1a9b-44d6-aca3-58955c737073",
-            "locationId": "1f12ac8f-1a9b-44d6-aca3-58955c737073",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "17174",
-            "phone": [
-              {
-                "number": "301-797-9300",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "301-790-6690",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "301-797-9300",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 39.65722354,
-              "longitude": -77.72045369
-            },
-            "storenumber": "17174"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       },
@@ -1090,149 +578,21 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T12:38:33.587+00:00",
+    "appointments_last_fetched": "2021-02-27T13:16:29.269+00:00",
     "appointments_raw": {
       "both_doses": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "HAGERSTOWN",
-              "country": "US",
-              "line1": "901 NORTH BURNHANS BOULEVARD",
-              "line2": "",
-              "state": "MD",
-              "zip": "21742"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-02",
-                "day": "Tuesday",
-                "slots": [
-                  "09:45 am",
-                  "10:15 am",
-                  "10:45 am",
-                  "11:00 am",
-                  "11:15 am",
-                  "11:45 am",
-                  "12:00 pm",
-                  "12:15 pm",
-                  "12:45 pm",
-                  "02:30 pm",
-                  "02:45 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 21.18,
-            "fhirLocationId": "1f12ac8f-1a9b-44d6-aca3-58955c737073",
-            "locationId": "1f12ac8f-1a9b-44d6-aca3-58955c737073",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "17174",
-            "phone": [
-              {
-                "number": "301-797-9300",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "301-790-6690",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "301-797-9300",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 39.65722354,
-              "longitude": -77.72045369
-            },
-            "storenumber": "17174"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       },
       "second_dose_moderna": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "HAGERSTOWN",
-              "country": "US",
-              "line1": "901 NORTH BURNHANS BOULEVARD",
-              "line2": "",
-              "state": "MD",
-              "zip": "21742"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-02",
-                "day": "Tuesday",
-                "slots": [
-                  "09:45 am",
-                  "10:15 am",
-                  "10:45 am",
-                  "11:00 am",
-                  "11:15 am",
-                  "11:45 am",
-                  "12:00 pm",
-                  "12:15 pm",
-                  "12:45 pm",
-                  "02:30 pm",
-                  "02:45 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 22.82,
-            "fhirLocationId": "1f12ac8f-1a9b-44d6-aca3-58955c737073",
-            "locationId": "1f12ac8f-1a9b-44d6-aca3-58955c737073",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "17174",
-            "phone": [
-              {
-                "number": "301-797-9300",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "301-790-6690",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "301-797-9300",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 39.65722354,
-              "longitude": -77.72045369
-            },
-            "storenumber": "17174"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       },
@@ -1259,149 +619,21 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T12:38:33.587+00:00",
+    "appointments_last_fetched": "2021-02-27T13:16:29.269+00:00",
     "appointments_raw": {
       "both_doses": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "HAGERSTOWN",
-              "country": "US",
-              "line1": "901 NORTH BURNHANS BOULEVARD",
-              "line2": "",
-              "state": "MD",
-              "zip": "21742"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-02",
-                "day": "Tuesday",
-                "slots": [
-                  "09:45 am",
-                  "10:15 am",
-                  "10:45 am",
-                  "11:00 am",
-                  "11:15 am",
-                  "11:45 am",
-                  "12:00 pm",
-                  "12:15 pm",
-                  "12:45 pm",
-                  "02:30 pm",
-                  "02:45 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 21.18,
-            "fhirLocationId": "1f12ac8f-1a9b-44d6-aca3-58955c737073",
-            "locationId": "1f12ac8f-1a9b-44d6-aca3-58955c737073",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "17174",
-            "phone": [
-              {
-                "number": "301-797-9300",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "301-790-6690",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "301-797-9300",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 39.65722354,
-              "longitude": -77.72045369
-            },
-            "storenumber": "17174"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       },
       "second_dose_moderna": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "HAGERSTOWN",
-              "country": "US",
-              "line1": "901 NORTH BURNHANS BOULEVARD",
-              "line2": "",
-              "state": "MD",
-              "zip": "21742"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-02",
-                "day": "Tuesday",
-                "slots": [
-                  "09:45 am",
-                  "10:15 am",
-                  "10:45 am",
-                  "11:00 am",
-                  "11:15 am",
-                  "11:45 am",
-                  "12:00 pm",
-                  "12:15 pm",
-                  "12:45 pm",
-                  "02:30 pm",
-                  "02:45 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 22.82,
-            "fhirLocationId": "1f12ac8f-1a9b-44d6-aca3-58955c737073",
-            "locationId": "1f12ac8f-1a9b-44d6-aca3-58955c737073",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "17174",
-            "phone": [
-              {
-                "number": "301-797-9300",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "301-790-6690",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "301-797-9300",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 39.65722354,
-              "longitude": -77.72045369
-            },
-            "storenumber": "17174"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       },
@@ -1428,7 +660,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T12:35:32.732+00:00",
+    "appointments_last_fetched": "2021-02-27T13:24:18.322+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -1469,7 +701,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T12:36:51.04+00:00",
+    "appointments_last_fetched": "2021-02-27T13:20:05.768+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -1510,7 +742,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T12:36:54.244+00:00",
+    "appointments_last_fetched": "2021-02-27T13:22:36.401+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -1551,7 +783,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T12:38:01.6+00:00",
+    "appointments_last_fetched": "2021-02-27T13:23:28.664+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -1592,7 +824,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T12:38:01.6+00:00",
+    "appointments_last_fetched": "2021-02-27T13:23:28.664+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -1633,7 +865,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T12:21:08.783+00:00",
+    "appointments_last_fetched": "2021-02-27T13:23:06.656+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -1674,7 +906,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T12:42:43.355+00:00",
+    "appointments_last_fetched": "2021-02-27T13:23:01.121+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -1715,7 +947,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T12:42:43.355+00:00",
+    "appointments_last_fetched": "2021-02-27T13:23:01.121+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -1756,7 +988,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T12:42:43.355+00:00",
+    "appointments_last_fetched": "2021-02-27T13:23:01.121+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -1797,7 +1029,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T12:38:01.6+00:00",
+    "appointments_last_fetched": "2021-02-27T13:23:28.664+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -1838,7 +1070,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T12:42:43.355+00:00",
+    "appointments_last_fetched": "2021-02-27T13:23:01.121+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -1879,7 +1111,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T12:36:14.086+00:00",
+    "appointments_last_fetched": "2021-02-27T13:18:29.993+00:00",
     "appointments_raw": {
       "both_doses": {
         "locations": [
@@ -1897,8 +1129,6 @@
                 "date": "2021-03-02",
                 "day": "Tuesday",
                 "slots": [
-                  "09:15 am",
-                  "09:30 am",
                   "09:45 am",
                   "10:00 am",
                   "10:15 am",
@@ -1943,7 +1173,7 @@
               }
             ],
             "description": "",
-            "distance": 4.46,
+            "distance": 19.27,
             "fhirLocationId": "266546ed-e3eb-4227-a4bb-72dd628cab50",
             "locationId": "266546ed-e3eb-4227-a4bb-72dd628cab50",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -2065,7 +1295,7 @@
               }
             ],
             "description": "",
-            "distance": 23.94,
+            "distance": 20.45,
             "fhirLocationId": "d3949156-2589-45aa-bb7a-2af026147cd8",
             "locationId": "d3949156-2589-45aa-bb7a-2af026147cd8",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -2118,8 +1348,6 @@
                 "date": "2021-03-02",
                 "day": "Tuesday",
                 "slots": [
-                  "09:15 am",
-                  "09:30 am",
                   "09:45 am",
                   "10:00 am",
                   "10:15 am",
@@ -2330,7 +1558,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T12:40:03.595+00:00",
+    "appointments_last_fetched": "2021-02-27T13:15:14.089+00:00",
     "appointments_raw": {
       "both_doses": {
         "locations": [
@@ -2607,7 +1835,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T12:21:04.282+00:00",
+    "appointments_last_fetched": "2021-02-27T13:16:41.332+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -2648,7 +1876,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T12:36:54.244+00:00",
+    "appointments_last_fetched": "2021-02-27T13:22:36.401+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -2689,7 +1917,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T12:36:14.086+00:00",
+    "appointments_last_fetched": "2021-02-27T13:18:29.993+00:00",
     "appointments_raw": {
       "both_doses": {
         "locations": [
@@ -2707,8 +1935,6 @@
                 "date": "2021-03-02",
                 "day": "Tuesday",
                 "slots": [
-                  "09:15 am",
-                  "09:30 am",
                   "09:45 am",
                   "10:00 am",
                   "10:15 am",
@@ -2753,7 +1979,7 @@
               }
             ],
             "description": "",
-            "distance": 4.46,
+            "distance": 19.27,
             "fhirLocationId": "266546ed-e3eb-4227-a4bb-72dd628cab50",
             "locationId": "266546ed-e3eb-4227-a4bb-72dd628cab50",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -2875,7 +2101,7 @@
               }
             ],
             "description": "",
-            "distance": 23.94,
+            "distance": 20.45,
             "fhirLocationId": "d3949156-2589-45aa-bb7a-2af026147cd8",
             "locationId": "d3949156-2589-45aa-bb7a-2af026147cd8",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -2928,8 +2154,6 @@
                 "date": "2021-03-02",
                 "day": "Tuesday",
                 "slots": [
-                  "09:15 am",
-                  "09:30 am",
                   "09:45 am",
                   "10:00 am",
                   "10:15 am",
@@ -3140,7 +2364,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T12:42:31.383+00:00",
+    "appointments_last_fetched": "2021-02-27T13:22:11.3+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -3181,7 +2405,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T12:42:31.383+00:00",
+    "appointments_last_fetched": "2021-02-27T13:22:11.3+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -3222,7 +2446,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T12:42:31.383+00:00",
+    "appointments_last_fetched": "2021-02-27T13:22:11.3+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -3263,7 +2487,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T12:23:47.114+00:00",
+    "appointments_last_fetched": "2021-02-27T13:24:12.405+00:00",
     "appointments_raw": {
       "both_doses": {
         "locations": [
@@ -3567,7 +2791,7 @@
               }
             ],
             "description": "",
-            "distance": 17.91,
+            "distance": 19.16,
             "fhirLocationId": "b6d04327-a1c6-4776-8c95-7ed849881c3a",
             "locationId": "b6d04327-a1c6-4776-8c95-7ed849881c3a",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -3672,7 +2896,7 @@
               }
             ],
             "description": "",
-            "distance": 18.11,
+            "distance": 21.76,
             "fhirLocationId": "ecaedca8-5c78-4f9e-aa4c-39bee892e9c8",
             "locationId": "ecaedca8-5c78-4f9e-aa4c-39bee892e9c8",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -3785,7 +3009,7 @@
               }
             ],
             "description": "",
-            "distance": 22.56,
+            "distance": 18.55,
             "fhirLocationId": "b0ad5fcb-acc8-43df-9e83-5539c07804a2",
             "locationId": "b0ad5fcb-acc8-43df-9e83-5539c07804a2",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -3902,7 +3126,7 @@
               }
             ],
             "description": "",
-            "distance": 17.91,
+            "distance": 23.5,
             "fhirLocationId": "b6d04327-a1c6-4776-8c95-7ed849881c3a",
             "locationId": "b6d04327-a1c6-4776-8c95-7ed849881c3a",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -3946,7 +3170,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T12:42:31.383+00:00",
+    "appointments_last_fetched": "2021-02-27T13:22:11.3+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -3987,7 +3211,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T12:42:31.383+00:00",
+    "appointments_last_fetched": "2021-02-27T13:22:11.3+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -4028,7 +3252,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T12:42:31.383+00:00",
+    "appointments_last_fetched": "2021-02-27T13:22:11.3+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -4069,7 +3293,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T12:42:31.383+00:00",
+    "appointments_last_fetched": "2021-02-27T13:22:11.3+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -4110,7 +3334,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T12:23:47.114+00:00",
+    "appointments_last_fetched": "2021-02-27T13:24:12.405+00:00",
     "appointments_raw": {
       "both_doses": {
         "locations": [
@@ -4414,7 +3638,7 @@
               }
             ],
             "description": "",
-            "distance": 17.91,
+            "distance": 19.16,
             "fhirLocationId": "b6d04327-a1c6-4776-8c95-7ed849881c3a",
             "locationId": "b6d04327-a1c6-4776-8c95-7ed849881c3a",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -4519,7 +3743,7 @@
               }
             ],
             "description": "",
-            "distance": 18.11,
+            "distance": 21.76,
             "fhirLocationId": "ecaedca8-5c78-4f9e-aa4c-39bee892e9c8",
             "locationId": "ecaedca8-5c78-4f9e-aa4c-39bee892e9c8",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -4632,7 +3856,7 @@
               }
             ],
             "description": "",
-            "distance": 22.56,
+            "distance": 18.55,
             "fhirLocationId": "b0ad5fcb-acc8-43df-9e83-5539c07804a2",
             "locationId": "b0ad5fcb-acc8-43df-9e83-5539c07804a2",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -4749,7 +3973,7 @@
               }
             ],
             "description": "",
-            "distance": 17.91,
+            "distance": 23.5,
             "fhirLocationId": "b6d04327-a1c6-4776-8c95-7ed849881c3a",
             "locationId": "b6d04327-a1c6-4776-8c95-7ed849881c3a",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -4793,7 +4017,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T12:42:31.383+00:00",
+    "appointments_last_fetched": "2021-02-27T13:22:11.3+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -4834,7 +4058,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T12:23:47.114+00:00",
+    "appointments_last_fetched": "2021-02-27T13:24:12.405+00:00",
     "appointments_raw": {
       "both_doses": {
         "locations": [
@@ -5138,7 +4362,7 @@
               }
             ],
             "description": "",
-            "distance": 17.91,
+            "distance": 19.16,
             "fhirLocationId": "b6d04327-a1c6-4776-8c95-7ed849881c3a",
             "locationId": "b6d04327-a1c6-4776-8c95-7ed849881c3a",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -5243,7 +4467,7 @@
               }
             ],
             "description": "",
-            "distance": 18.11,
+            "distance": 21.76,
             "fhirLocationId": "ecaedca8-5c78-4f9e-aa4c-39bee892e9c8",
             "locationId": "ecaedca8-5c78-4f9e-aa4c-39bee892e9c8",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -5356,7 +4580,7 @@
               }
             ],
             "description": "",
-            "distance": 22.56,
+            "distance": 18.55,
             "fhirLocationId": "b0ad5fcb-acc8-43df-9e83-5539c07804a2",
             "locationId": "b0ad5fcb-acc8-43df-9e83-5539c07804a2",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -5473,7 +4697,7 @@
               }
             ],
             "description": "",
-            "distance": 17.91,
+            "distance": 23.5,
             "fhirLocationId": "b6d04327-a1c6-4776-8c95-7ed849881c3a",
             "locationId": "b6d04327-a1c6-4776-8c95-7ed849881c3a",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -5517,7 +4741,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T12:42:31.383+00:00",
+    "appointments_last_fetched": "2021-02-27T13:22:11.3+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -5558,7 +4782,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T12:34:46.466+00:00",
+    "appointments_last_fetched": "2021-02-27T13:20:51.949+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -5599,7 +4823,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T12:37:00.635+00:00",
+    "appointments_last_fetched": "2021-02-27T13:14:05.495+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -5640,7 +4864,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T12:23:47.114+00:00",
+    "appointments_last_fetched": "2021-02-27T13:24:12.405+00:00",
     "appointments_raw": {
       "both_doses": {
         "locations": [
@@ -5944,7 +5168,7 @@
               }
             ],
             "description": "",
-            "distance": 17.91,
+            "distance": 19.16,
             "fhirLocationId": "b6d04327-a1c6-4776-8c95-7ed849881c3a",
             "locationId": "b6d04327-a1c6-4776-8c95-7ed849881c3a",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -6049,7 +5273,7 @@
               }
             ],
             "description": "",
-            "distance": 18.11,
+            "distance": 21.76,
             "fhirLocationId": "ecaedca8-5c78-4f9e-aa4c-39bee892e9c8",
             "locationId": "ecaedca8-5c78-4f9e-aa4c-39bee892e9c8",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -6162,7 +5386,7 @@
               }
             ],
             "description": "",
-            "distance": 22.56,
+            "distance": 18.55,
             "fhirLocationId": "b0ad5fcb-acc8-43df-9e83-5539c07804a2",
             "locationId": "b0ad5fcb-acc8-43df-9e83-5539c07804a2",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -6279,7 +5503,7 @@
               }
             ],
             "description": "",
-            "distance": 17.91,
+            "distance": 23.5,
             "fhirLocationId": "b6d04327-a1c6-4776-8c95-7ed849881c3a",
             "locationId": "b6d04327-a1c6-4776-8c95-7ed849881c3a",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -6323,7 +5547,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T12:42:31.383+00:00",
+    "appointments_last_fetched": "2021-02-27T13:22:11.3+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -6364,7 +5588,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T12:42:31.383+00:00",
+    "appointments_last_fetched": "2021-02-27T13:22:11.3+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -6405,7 +5629,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T12:42:31.383+00:00",
+    "appointments_last_fetched": "2021-02-27T13:22:11.3+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -6446,7 +5670,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T12:23:47.114+00:00",
+    "appointments_last_fetched": "2021-02-27T13:24:12.405+00:00",
     "appointments_raw": {
       "both_doses": {
         "locations": [
@@ -6750,7 +5974,7 @@
               }
             ],
             "description": "",
-            "distance": 17.91,
+            "distance": 19.16,
             "fhirLocationId": "b6d04327-a1c6-4776-8c95-7ed849881c3a",
             "locationId": "b6d04327-a1c6-4776-8c95-7ed849881c3a",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -6855,7 +6079,7 @@
               }
             ],
             "description": "",
-            "distance": 18.11,
+            "distance": 21.76,
             "fhirLocationId": "ecaedca8-5c78-4f9e-aa4c-39bee892e9c8",
             "locationId": "ecaedca8-5c78-4f9e-aa4c-39bee892e9c8",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -6968,7 +6192,7 @@
               }
             ],
             "description": "",
-            "distance": 22.56,
+            "distance": 18.55,
             "fhirLocationId": "b0ad5fcb-acc8-43df-9e83-5539c07804a2",
             "locationId": "b0ad5fcb-acc8-43df-9e83-5539c07804a2",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -7085,7 +6309,7 @@
               }
             ],
             "description": "",
-            "distance": 17.91,
+            "distance": 23.5,
             "fhirLocationId": "b6d04327-a1c6-4776-8c95-7ed849881c3a",
             "locationId": "b6d04327-a1c6-4776-8c95-7ed849881c3a",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -7129,7 +6353,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T12:42:31.383+00:00",
+    "appointments_last_fetched": "2021-02-27T13:22:11.3+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -7170,7 +6394,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T12:42:31.383+00:00",
+    "appointments_last_fetched": "2021-02-27T13:22:11.3+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -7211,7 +6435,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T12:23:47.114+00:00",
+    "appointments_last_fetched": "2021-02-27T13:24:12.405+00:00",
     "appointments_raw": {
       "both_doses": {
         "locations": [
@@ -7515,7 +6739,7 @@
               }
             ],
             "description": "",
-            "distance": 17.91,
+            "distance": 19.16,
             "fhirLocationId": "b6d04327-a1c6-4776-8c95-7ed849881c3a",
             "locationId": "b6d04327-a1c6-4776-8c95-7ed849881c3a",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -7620,7 +6844,7 @@
               }
             ],
             "description": "",
-            "distance": 18.11,
+            "distance": 21.76,
             "fhirLocationId": "ecaedca8-5c78-4f9e-aa4c-39bee892e9c8",
             "locationId": "ecaedca8-5c78-4f9e-aa4c-39bee892e9c8",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -7733,7 +6957,7 @@
               }
             ],
             "description": "",
-            "distance": 22.56,
+            "distance": 18.55,
             "fhirLocationId": "b0ad5fcb-acc8-43df-9e83-5539c07804a2",
             "locationId": "b0ad5fcb-acc8-43df-9e83-5539c07804a2",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -7850,7 +7074,7 @@
               }
             ],
             "description": "",
-            "distance": 17.91,
+            "distance": 23.5,
             "fhirLocationId": "b6d04327-a1c6-4776-8c95-7ed849881c3a",
             "locationId": "b6d04327-a1c6-4776-8c95-7ed849881c3a",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -7894,7 +7118,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T12:42:31.383+00:00",
+    "appointments_last_fetched": "2021-02-27T13:22:11.3+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -7935,7 +7159,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T12:37:00.635+00:00",
+    "appointments_last_fetched": "2021-02-27T13:14:05.495+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -7976,7 +7200,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T12:23:47.114+00:00",
+    "appointments_last_fetched": "2021-02-27T13:24:12.405+00:00",
     "appointments_raw": {
       "both_doses": {
         "locations": [
@@ -8280,7 +7504,7 @@
               }
             ],
             "description": "",
-            "distance": 17.91,
+            "distance": 19.16,
             "fhirLocationId": "b6d04327-a1c6-4776-8c95-7ed849881c3a",
             "locationId": "b6d04327-a1c6-4776-8c95-7ed849881c3a",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -8385,7 +7609,7 @@
               }
             ],
             "description": "",
-            "distance": 18.11,
+            "distance": 21.76,
             "fhirLocationId": "ecaedca8-5c78-4f9e-aa4c-39bee892e9c8",
             "locationId": "ecaedca8-5c78-4f9e-aa4c-39bee892e9c8",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -8498,7 +7722,7 @@
               }
             ],
             "description": "",
-            "distance": 22.56,
+            "distance": 18.55,
             "fhirLocationId": "b0ad5fcb-acc8-43df-9e83-5539c07804a2",
             "locationId": "b0ad5fcb-acc8-43df-9e83-5539c07804a2",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -8615,7 +7839,7 @@
               }
             ],
             "description": "",
-            "distance": 17.91,
+            "distance": 23.5,
             "fhirLocationId": "b6d04327-a1c6-4776-8c95-7ed849881c3a",
             "locationId": "b6d04327-a1c6-4776-8c95-7ed849881c3a",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -8659,7 +7883,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T12:42:31.383+00:00",
+    "appointments_last_fetched": "2021-02-27T13:22:11.3+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -8700,7 +7924,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T12:39:10.72+00:00",
+    "appointments_last_fetched": "2021-02-27T13:16:43.561+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -8741,7 +7965,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T12:42:31.383+00:00",
+    "appointments_last_fetched": "2021-02-27T13:22:11.3+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -8782,7 +8006,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T12:40:03.595+00:00",
+    "appointments_last_fetched": "2021-02-27T13:15:14.089+00:00",
     "appointments_raw": {
       "both_doses": {
         "locations": [
@@ -9059,7 +8283,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T12:40:03.595+00:00",
+    "appointments_last_fetched": "2021-02-27T13:15:14.089+00:00",
     "appointments_raw": {
       "both_doses": {
         "locations": [
@@ -9336,7 +8560,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T12:39:10.72+00:00",
+    "appointments_last_fetched": "2021-02-27T13:16:43.561+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -9377,7 +8601,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T12:40:03.595+00:00",
+    "appointments_last_fetched": "2021-02-27T13:15:14.089+00:00",
     "appointments_raw": {
       "both_doses": {
         "locations": [
@@ -9654,7 +8878,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T12:38:45.025+00:00",
+    "appointments_last_fetched": "2021-02-27T13:17:06.243+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -9695,7 +8919,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T12:38:45.025+00:00",
+    "appointments_last_fetched": "2021-02-27T13:17:06.243+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -9736,7 +8960,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T12:21:34.13+00:00",
+    "appointments_last_fetched": "2021-02-27T13:15:53.938+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -9777,7 +9001,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T12:21:34.13+00:00",
+    "appointments_last_fetched": "2021-02-27T13:15:53.938+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -9818,7 +9042,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T12:21:34.13+00:00",
+    "appointments_last_fetched": "2021-02-27T13:15:53.938+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -9859,7 +9083,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T12:21:34.13+00:00",
+    "appointments_last_fetched": "2021-02-27T13:15:53.938+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -9900,7 +9124,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T12:21:34.13+00:00",
+    "appointments_last_fetched": "2021-02-27T13:15:53.938+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -9941,7 +9165,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T12:38:45.025+00:00",
+    "appointments_last_fetched": "2021-02-27T13:17:06.243+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -9982,7 +9206,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T12:21:34.13+00:00",
+    "appointments_last_fetched": "2021-02-27T13:15:53.938+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -10023,7 +9247,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T12:38:45.025+00:00",
+    "appointments_last_fetched": "2021-02-27T13:17:06.243+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -10064,7 +9288,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T12:42:16.953+00:00",
+    "appointments_last_fetched": "2021-02-27T13:18:53.989+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -10105,7 +9329,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T12:42:16.953+00:00",
+    "appointments_last_fetched": "2021-02-27T13:18:53.989+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -10146,7 +9370,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T12:23:16.244+00:00",
+    "appointments_last_fetched": "2021-02-27T13:11:11.836+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -10187,7 +9411,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T12:42:40.326+00:00",
+    "appointments_last_fetched": "2021-02-27T13:23:40.496+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -10228,7 +9452,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T12:42:40.167+00:00",
+    "appointments_last_fetched": "2021-02-27T13:14:27.546+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -10269,7 +9493,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T12:42:16.953+00:00",
+    "appointments_last_fetched": "2021-02-27T13:18:53.989+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -10310,82 +9534,13 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T12:35:33.74+00:00",
+    "appointments_last_fetched": "2021-02-27T13:18:14.228+00:00",
     "appointments_raw": {
       "both_doses": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "OAKLAND",
-              "country": "US",
-              "line1": "209 N 3RD ST",
-              "line2": "",
-              "state": "MD",
-              "zip": "21550"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-02",
-                "day": "Tuesday",
-                "slots": [
-                  "10:15 am",
-                  "11:15 am",
-                  "11:30 am",
-                  "11:45 am",
-                  "12:00 pm",
-                  "12:15 pm",
-                  "12:30 pm",
-                  "01:00 pm",
-                  "02:15 pm",
-                  "02:30 pm",
-                  "02:45 pm",
-                  "03:00 pm",
-                  "03:15 pm",
-                  "03:30 pm",
-                  "03:45 pm",
-                  "04:00 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 8.46,
-            "fhirLocationId": "7b854a3e-d7a3-4037-9bf4-3c5531f7a100",
-            "locationId": "7b854a3e-d7a3-4037-9bf4-3c5531f7a100",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "12266",
-            "phone": [
-              {
-                "number": "301-334-1597",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "301-334-1693",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "301-334-1597",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 39.41286851,
-              "longitude": -79.4034661
-            },
-            "storenumber": "12266"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       },
@@ -10398,79 +9553,10 @@
         ]
       },
       "second_dose_pfizer": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "OAKLAND",
-              "country": "US",
-              "line1": "209 N 3RD ST",
-              "line2": "",
-              "state": "MD",
-              "zip": "21550"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-02",
-                "day": "Tuesday",
-                "slots": [
-                  "10:15 am",
-                  "11:15 am",
-                  "11:30 am",
-                  "11:45 am",
-                  "12:00 pm",
-                  "12:15 pm",
-                  "12:30 pm",
-                  "01:00 pm",
-                  "02:15 pm",
-                  "02:30 pm",
-                  "02:45 pm",
-                  "03:00 pm",
-                  "03:15 pm",
-                  "03:30 pm",
-                  "03:45 pm",
-                  "04:00 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 4.35,
-            "fhirLocationId": "7b854a3e-d7a3-4037-9bf4-3c5531f7a100",
-            "locationId": "7b854a3e-d7a3-4037-9bf4-3c5531f7a100",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "12266",
-            "phone": [
-              {
-                "number": "301-334-1597",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "301-334-1693",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "301-334-1597",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 39.41286851,
-              "longitude": -79.4034661
-            },
-            "storenumber": "12266"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       }
@@ -10489,7 +9575,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T12:42:40.167+00:00",
+    "appointments_last_fetched": "2021-02-27T13:14:27.546+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -10530,7 +9616,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T12:39:10.72+00:00",
+    "appointments_last_fetched": "2021-02-27T13:16:43.561+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -10571,7 +9657,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T12:21:04.282+00:00",
+    "appointments_last_fetched": "2021-02-27T13:16:41.332+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -10612,7 +9698,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T12:36:54.244+00:00",
+    "appointments_last_fetched": "2021-02-27T13:22:36.401+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -10653,7 +9739,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T12:36:54.244+00:00",
+    "appointments_last_fetched": "2021-02-27T13:22:36.401+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -10694,7 +9780,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T12:21:04.282+00:00",
+    "appointments_last_fetched": "2021-02-27T13:16:41.332+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -10735,7 +9821,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T12:36:51.04+00:00",
+    "appointments_last_fetched": "2021-02-27T13:20:05.768+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -10776,7 +9862,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T12:40:03.595+00:00",
+    "appointments_last_fetched": "2021-02-27T13:15:14.089+00:00",
     "appointments_raw": {
       "both_doses": {
         "locations": [
@@ -11053,7 +10139,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T12:40:03.595+00:00",
+    "appointments_last_fetched": "2021-02-27T13:15:14.089+00:00",
     "appointments_raw": {
       "both_doses": {
         "locations": [
@@ -11330,7 +10416,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T12:42:40.326+00:00",
+    "appointments_last_fetched": "2021-02-27T13:23:40.496+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -11371,7 +10457,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T12:42:40.326+00:00",
+    "appointments_last_fetched": "2021-02-27T13:23:40.496+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -11412,7 +10498,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T12:42:40.326+00:00",
+    "appointments_last_fetched": "2021-02-27T13:23:40.496+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
