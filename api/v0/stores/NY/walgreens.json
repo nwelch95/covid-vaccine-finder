@@ -67246,26 +67246,49 @@
       }
     ],
     "appointments_available": true,
-    "appointments_last_fetched": "2021-02-27T04:04:14.679+00:00",
+    "appointments_last_fetched": "2021-02-27T04:10:55.649+00:00",
     "appointments_raw": {
       "both_doses": {
         "locations": [
           {
             "address": {
-              "city": "MASSENA",
+              "city": "POTSDAM",
               "country": "US",
-              "line1": "303 MAIN ST",
+              "line1": "173 MARKET ST",
               "line2": "",
               "state": "NY",
-              "zip": "13662"
+              "zip": "13676"
             },
             "appointmentAvailability": [
+              {
+                "date": "2021-02-27",
+                "day": "Saturday",
+                "slots": [
+                  "09:15 am",
+                  "09:30 am",
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "11:00 am",
+                  "11:15 am"
+                ]
+              },
               {
                 "date": "2021-02-28",
                 "day": "Sunday",
                 "slots": [
+                  "10:15 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "11:00 am",
+                  "11:15 am",
                   "11:30 am",
-                  "11:45 am"
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm"
                 ]
               },
               {
@@ -67288,8 +67311,8 @@
                   "12:30 pm",
                   "12:45 pm",
                   "01:00 pm",
-                  "02:30 pm",
-                  "02:45 pm"
+                  "02:15 pm",
+                  "02:30 pm"
                 ]
               }
             ],
@@ -67306,33 +67329,122 @@
               }
             ],
             "description": "",
-            "distance": 18.77,
-            "fhirLocationId": "98f6fe62-6334-44f5-a20b-e5aea64609a6",
-            "locationId": "98f6fe62-6334-44f5-a20b-e5aea64609a6",
+            "distance": 19.8,
+            "fhirLocationId": "e3de3f8b-a608-4a67-9688-9a6ffd028e2c",
+            "locationId": "e3de3f8b-a608-4a67-9688-9a6ffd028e2c",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
             "name": "Walgreen Drug Store",
             "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "10698",
+            "partnerLocationId": "10293",
             "phone": [
               {
-                "number": "315-764-0204",
+                "number": "315-265-6192",
                 "type": "StorePrimary"
               },
               {
-                "number": "315-764-0613",
+                "number": "315-265-6193",
                 "type": "StoreSecondary"
               },
               {
-                "number": "315-764-0204",
+                "number": "315-265-6192",
                 "type": "Pharmacy"
               }
             ],
             "position": {
-              "latitude": 44.92273791,
-              "longitude": -74.88951434
+              "latitude": 44.68370092,
+              "longitude": -74.98796405
             },
-            "storenumber": "10698"
+            "storenumber": "10293"
           },
+          {
+            "address": {
+              "city": "CANTON",
+              "country": "US",
+              "line1": "97 E MAIN ST",
+              "line2": "",
+              "state": "NY",
+              "zip": "13617"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "11:00 am",
+                  "11:15 am",
+                  "11:30 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "02:15 pm",
+                  "02:30 pm",
+                  "02:45 pm",
+                  "03:00 pm",
+                  "03:15 pm",
+                  "03:30 pm",
+                  "03:45 pm",
+                  "04:00 pm",
+                  "04:15 pm",
+                  "04:30 pm",
+                  "04:45 pm",
+                  "05:00 pm",
+                  "05:15 pm",
+                  "05:30 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 23.03,
+            "fhirLocationId": "e9756d6b-c330-4e51-b17b-51acfb079bbf",
+            "locationId": "e9756d6b-c330-4e51-b17b-51acfb079bbf",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "17182",
+            "phone": [
+              {
+                "number": "315-386-8611",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "315-386-4982",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "315-386-8611",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 44.59699794,
+              "longitude": -75.15237414
+            },
+            "storenumber": "17182"
+          }
+        ]
+      },
+      "second_dose_moderna": {
+        "locations": [
           {
             "address": {
               "city": "POTSDAM",
@@ -67498,284 +67610,6 @@
             ],
             "description": "",
             "distance": 8.82,
-            "fhirLocationId": "e9756d6b-c330-4e51-b17b-51acfb079bbf",
-            "locationId": "e9756d6b-c330-4e51-b17b-51acfb079bbf",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "17182",
-            "phone": [
-              {
-                "number": "315-386-8611",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "315-386-4982",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "315-386-8611",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 44.59699794,
-              "longitude": -75.15237414
-            },
-            "storenumber": "17182"
-          }
-        ]
-      },
-      "second_dose_moderna": {
-        "locations": [
-          {
-            "address": {
-              "city": "MASSENA",
-              "country": "US",
-              "line1": "303 MAIN ST",
-              "line2": "",
-              "state": "NY",
-              "zip": "13662"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-02-28",
-                "day": "Sunday",
-                "slots": [
-                  "11:30 am",
-                  "11:45 am"
-                ]
-              },
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "09:15 am",
-                  "09:30 am",
-                  "09:45 am",
-                  "10:00 am",
-                  "10:15 am",
-                  "10:30 am",
-                  "10:45 am",
-                  "11:00 am",
-                  "11:15 am",
-                  "11:30 am",
-                  "11:45 am",
-                  "12:00 pm",
-                  "12:15 pm",
-                  "12:30 pm",
-                  "12:45 pm",
-                  "01:00 pm",
-                  "02:30 pm",
-                  "02:45 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 7.04,
-            "fhirLocationId": "98f6fe62-6334-44f5-a20b-e5aea64609a6",
-            "locationId": "98f6fe62-6334-44f5-a20b-e5aea64609a6",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "10698",
-            "phone": [
-              {
-                "number": "315-764-0204",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "315-764-0613",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "315-764-0204",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 44.92273791,
-              "longitude": -74.88951434
-            },
-            "storenumber": "10698"
-          },
-          {
-            "address": {
-              "city": "POTSDAM",
-              "country": "US",
-              "line1": "173 MARKET ST",
-              "line2": "",
-              "state": "NY",
-              "zip": "13676"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-02-27",
-                "day": "Saturday",
-                "slots": [
-                  "09:15 am",
-                  "09:30 am",
-                  "09:45 am",
-                  "10:00 am",
-                  "10:15 am",
-                  "10:30 am",
-                  "10:45 am",
-                  "11:00 am",
-                  "11:15 am"
-                ]
-              },
-              {
-                "date": "2021-02-28",
-                "day": "Sunday",
-                "slots": [
-                  "10:15 am",
-                  "10:30 am",
-                  "10:45 am",
-                  "11:00 am",
-                  "11:15 am",
-                  "11:30 am",
-                  "11:45 am",
-                  "12:00 pm",
-                  "12:15 pm",
-                  "12:30 pm"
-                ]
-              },
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "09:15 am",
-                  "09:30 am",
-                  "09:45 am",
-                  "10:00 am",
-                  "10:15 am",
-                  "10:30 am",
-                  "10:45 am",
-                  "11:00 am",
-                  "11:15 am",
-                  "11:30 am",
-                  "11:45 am",
-                  "12:00 pm",
-                  "12:15 pm",
-                  "12:30 pm",
-                  "12:45 pm",
-                  "01:00 pm",
-                  "02:15 pm",
-                  "02:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 13.65,
-            "fhirLocationId": "e3de3f8b-a608-4a67-9688-9a6ffd028e2c",
-            "locationId": "e3de3f8b-a608-4a67-9688-9a6ffd028e2c",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "10293",
-            "phone": [
-              {
-                "number": "315-265-6192",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "315-265-6193",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "315-265-6192",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 44.68370092,
-              "longitude": -74.98796405
-            },
-            "storenumber": "10293"
-          },
-          {
-            "address": {
-              "city": "CANTON",
-              "country": "US",
-              "line1": "97 E MAIN ST",
-              "line2": "",
-              "state": "NY",
-              "zip": "13617"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "09:45 am",
-                  "10:00 am",
-                  "10:15 am",
-                  "10:30 am",
-                  "10:45 am",
-                  "11:00 am",
-                  "11:15 am",
-                  "11:30 am",
-                  "11:45 am",
-                  "12:00 pm",
-                  "12:15 pm",
-                  "12:30 pm",
-                  "12:45 pm",
-                  "01:00 pm",
-                  "02:15 pm",
-                  "02:30 pm",
-                  "02:45 pm",
-                  "03:00 pm",
-                  "03:15 pm",
-                  "03:30 pm",
-                  "03:45 pm",
-                  "04:00 pm",
-                  "04:15 pm",
-                  "04:30 pm",
-                  "04:45 pm",
-                  "05:00 pm",
-                  "05:15 pm",
-                  "05:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 20.6,
             "fhirLocationId": "e9756d6b-c330-4e51-b17b-51acfb079bbf",
             "locationId": "e9756d6b-c330-4e51-b17b-51acfb079bbf",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -68051,26 +67885,49 @@
       }
     ],
     "appointments_available": true,
-    "appointments_last_fetched": "2021-02-27T04:04:14.679+00:00",
+    "appointments_last_fetched": "2021-02-27T04:10:55.649+00:00",
     "appointments_raw": {
       "both_doses": {
         "locations": [
           {
             "address": {
-              "city": "MASSENA",
+              "city": "POTSDAM",
               "country": "US",
-              "line1": "303 MAIN ST",
+              "line1": "173 MARKET ST",
               "line2": "",
               "state": "NY",
-              "zip": "13662"
+              "zip": "13676"
             },
             "appointmentAvailability": [
+              {
+                "date": "2021-02-27",
+                "day": "Saturday",
+                "slots": [
+                  "09:15 am",
+                  "09:30 am",
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "11:00 am",
+                  "11:15 am"
+                ]
+              },
               {
                 "date": "2021-02-28",
                 "day": "Sunday",
                 "slots": [
+                  "10:15 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "11:00 am",
+                  "11:15 am",
                   "11:30 am",
-                  "11:45 am"
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm"
                 ]
               },
               {
@@ -68093,8 +67950,8 @@
                   "12:30 pm",
                   "12:45 pm",
                   "01:00 pm",
-                  "02:30 pm",
-                  "02:45 pm"
+                  "02:15 pm",
+                  "02:30 pm"
                 ]
               }
             ],
@@ -68111,33 +67968,122 @@
               }
             ],
             "description": "",
-            "distance": 18.77,
-            "fhirLocationId": "98f6fe62-6334-44f5-a20b-e5aea64609a6",
-            "locationId": "98f6fe62-6334-44f5-a20b-e5aea64609a6",
+            "distance": 19.8,
+            "fhirLocationId": "e3de3f8b-a608-4a67-9688-9a6ffd028e2c",
+            "locationId": "e3de3f8b-a608-4a67-9688-9a6ffd028e2c",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
             "name": "Walgreen Drug Store",
             "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "10698",
+            "partnerLocationId": "10293",
             "phone": [
               {
-                "number": "315-764-0204",
+                "number": "315-265-6192",
                 "type": "StorePrimary"
               },
               {
-                "number": "315-764-0613",
+                "number": "315-265-6193",
                 "type": "StoreSecondary"
               },
               {
-                "number": "315-764-0204",
+                "number": "315-265-6192",
                 "type": "Pharmacy"
               }
             ],
             "position": {
-              "latitude": 44.92273791,
-              "longitude": -74.88951434
+              "latitude": 44.68370092,
+              "longitude": -74.98796405
             },
-            "storenumber": "10698"
+            "storenumber": "10293"
           },
+          {
+            "address": {
+              "city": "CANTON",
+              "country": "US",
+              "line1": "97 E MAIN ST",
+              "line2": "",
+              "state": "NY",
+              "zip": "13617"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "11:00 am",
+                  "11:15 am",
+                  "11:30 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "02:15 pm",
+                  "02:30 pm",
+                  "02:45 pm",
+                  "03:00 pm",
+                  "03:15 pm",
+                  "03:30 pm",
+                  "03:45 pm",
+                  "04:00 pm",
+                  "04:15 pm",
+                  "04:30 pm",
+                  "04:45 pm",
+                  "05:00 pm",
+                  "05:15 pm",
+                  "05:30 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 23.03,
+            "fhirLocationId": "e9756d6b-c330-4e51-b17b-51acfb079bbf",
+            "locationId": "e9756d6b-c330-4e51-b17b-51acfb079bbf",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "17182",
+            "phone": [
+              {
+                "number": "315-386-8611",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "315-386-4982",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "315-386-8611",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 44.59699794,
+              "longitude": -75.15237414
+            },
+            "storenumber": "17182"
+          }
+        ]
+      },
+      "second_dose_moderna": {
+        "locations": [
           {
             "address": {
               "city": "POTSDAM",
@@ -68303,284 +68249,6 @@
             ],
             "description": "",
             "distance": 8.82,
-            "fhirLocationId": "e9756d6b-c330-4e51-b17b-51acfb079bbf",
-            "locationId": "e9756d6b-c330-4e51-b17b-51acfb079bbf",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "17182",
-            "phone": [
-              {
-                "number": "315-386-8611",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "315-386-4982",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "315-386-8611",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 44.59699794,
-              "longitude": -75.15237414
-            },
-            "storenumber": "17182"
-          }
-        ]
-      },
-      "second_dose_moderna": {
-        "locations": [
-          {
-            "address": {
-              "city": "MASSENA",
-              "country": "US",
-              "line1": "303 MAIN ST",
-              "line2": "",
-              "state": "NY",
-              "zip": "13662"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-02-28",
-                "day": "Sunday",
-                "slots": [
-                  "11:30 am",
-                  "11:45 am"
-                ]
-              },
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "09:15 am",
-                  "09:30 am",
-                  "09:45 am",
-                  "10:00 am",
-                  "10:15 am",
-                  "10:30 am",
-                  "10:45 am",
-                  "11:00 am",
-                  "11:15 am",
-                  "11:30 am",
-                  "11:45 am",
-                  "12:00 pm",
-                  "12:15 pm",
-                  "12:30 pm",
-                  "12:45 pm",
-                  "01:00 pm",
-                  "02:30 pm",
-                  "02:45 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 7.04,
-            "fhirLocationId": "98f6fe62-6334-44f5-a20b-e5aea64609a6",
-            "locationId": "98f6fe62-6334-44f5-a20b-e5aea64609a6",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "10698",
-            "phone": [
-              {
-                "number": "315-764-0204",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "315-764-0613",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "315-764-0204",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 44.92273791,
-              "longitude": -74.88951434
-            },
-            "storenumber": "10698"
-          },
-          {
-            "address": {
-              "city": "POTSDAM",
-              "country": "US",
-              "line1": "173 MARKET ST",
-              "line2": "",
-              "state": "NY",
-              "zip": "13676"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-02-27",
-                "day": "Saturday",
-                "slots": [
-                  "09:15 am",
-                  "09:30 am",
-                  "09:45 am",
-                  "10:00 am",
-                  "10:15 am",
-                  "10:30 am",
-                  "10:45 am",
-                  "11:00 am",
-                  "11:15 am"
-                ]
-              },
-              {
-                "date": "2021-02-28",
-                "day": "Sunday",
-                "slots": [
-                  "10:15 am",
-                  "10:30 am",
-                  "10:45 am",
-                  "11:00 am",
-                  "11:15 am",
-                  "11:30 am",
-                  "11:45 am",
-                  "12:00 pm",
-                  "12:15 pm",
-                  "12:30 pm"
-                ]
-              },
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "09:15 am",
-                  "09:30 am",
-                  "09:45 am",
-                  "10:00 am",
-                  "10:15 am",
-                  "10:30 am",
-                  "10:45 am",
-                  "11:00 am",
-                  "11:15 am",
-                  "11:30 am",
-                  "11:45 am",
-                  "12:00 pm",
-                  "12:15 pm",
-                  "12:30 pm",
-                  "12:45 pm",
-                  "01:00 pm",
-                  "02:15 pm",
-                  "02:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 13.65,
-            "fhirLocationId": "e3de3f8b-a608-4a67-9688-9a6ffd028e2c",
-            "locationId": "e3de3f8b-a608-4a67-9688-9a6ffd028e2c",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "10293",
-            "phone": [
-              {
-                "number": "315-265-6192",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "315-265-6193",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "315-265-6192",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 44.68370092,
-              "longitude": -74.98796405
-            },
-            "storenumber": "10293"
-          },
-          {
-            "address": {
-              "city": "CANTON",
-              "country": "US",
-              "line1": "97 E MAIN ST",
-              "line2": "",
-              "state": "NY",
-              "zip": "13617"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "09:45 am",
-                  "10:00 am",
-                  "10:15 am",
-                  "10:30 am",
-                  "10:45 am",
-                  "11:00 am",
-                  "11:15 am",
-                  "11:30 am",
-                  "11:45 am",
-                  "12:00 pm",
-                  "12:15 pm",
-                  "12:30 pm",
-                  "12:45 pm",
-                  "01:00 pm",
-                  "02:15 pm",
-                  "02:30 pm",
-                  "02:45 pm",
-                  "03:00 pm",
-                  "03:15 pm",
-                  "03:30 pm",
-                  "03:45 pm",
-                  "04:00 pm",
-                  "04:15 pm",
-                  "04:30 pm",
-                  "04:45 pm",
-                  "05:00 pm",
-                  "05:15 pm",
-                  "05:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 20.6,
             "fhirLocationId": "e9756d6b-c330-4e51-b17b-51acfb079bbf",
             "locationId": "e9756d6b-c330-4e51-b17b-51acfb079bbf",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -98670,7 +98338,7 @@
       }
     ],
     "appointments_available": true,
-    "appointments_last_fetched": "2021-02-27T03:59:16.169+00:00",
+    "appointments_last_fetched": "2021-02-27T04:09:52.538+00:00",
     "appointments_raw": {
       "both_doses": {
         "locations": [
@@ -98732,7 +98400,7 @@
               }
             ],
             "description": "",
-            "distance": 8.82,
+            "distance": 20.6,
             "fhirLocationId": "e9756d6b-c330-4e51-b17b-51acfb079bbf",
             "locationId": "e9756d6b-c330-4e51-b17b-51acfb079bbf",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -98943,7 +98611,7 @@
               }
             ],
             "description": "",
-            "distance": 18.28,
+            "distance": 13.65,
             "fhirLocationId": "e3de3f8b-a608-4a67-9688-9a6ffd028e2c",
             "locationId": "e3de3f8b-a608-4a67-9688-9a6ffd028e2c",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -99459,7 +99127,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T03:55:50.981+00:00",
+    "appointments_last_fetched": "2021-02-27T04:09:58.082+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
