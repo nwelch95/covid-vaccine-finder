@@ -4,7 +4,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T04:52:10.837+00:00",
+    "appointments_last_fetched": "2021-02-27T05:14:33.55+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -3899,7 +3899,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T04:45:20.558+00:00",
+    "appointments_last_fetched": "2021-02-27T05:13:46.551+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -3940,7 +3940,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T04:45:20.558+00:00",
+    "appointments_last_fetched": "2021-02-27T05:13:46.551+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -5908,7 +5908,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T04:45:41.643+00:00",
+    "appointments_last_fetched": "2021-02-27T05:14:01.356+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -6031,7 +6031,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T04:45:41.643+00:00",
+    "appointments_last_fetched": "2021-02-27T05:14:01.356+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -6113,7 +6113,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T04:45:41.643+00:00",
+    "appointments_last_fetched": "2021-02-27T05:14:01.356+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -6195,7 +6195,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T04:45:41.643+00:00",
+    "appointments_last_fetched": "2021-02-27T05:14:01.356+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -7056,143 +7056,21 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T05:04:37.496+00:00",
+    "appointments_last_fetched": "2021-02-27T05:14:09.365+00:00",
     "appointments_raw": {
       "both_doses": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "ASHWAUBENON",
-              "country": "US",
-              "line1": "2301 S ONEIDA ST",
-              "line2": "",
-              "state": "WI",
-              "zip": "54304"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-02-27",
-                "day": "Saturday",
-                "slots": [
-                  "02:15 pm"
-                ]
-              },
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "05:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 20.4,
-            "fhirLocationId": "897e3fed-c493-492f-bd6d-bfbb1bce8fc0",
-            "locationId": "897e3fed-c493-492f-bd6d-bfbb1bce8fc0",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "3133",
-            "phone": [
-              {
-                "number": "920-490-0424",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "920-490-0424",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 44.48894116,
-              "longitude": -88.06474213
-            },
-            "storenumber": "3133"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       },
       "second_dose_moderna": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "ASHWAUBENON",
-              "country": "US",
-              "line1": "2301 S ONEIDA ST",
-              "line2": "",
-              "state": "WI",
-              "zip": "54304"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-02-27",
-                "day": "Saturday",
-                "slots": [
-                  "02:15 pm"
-                ]
-              },
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "05:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 18.4,
-            "fhirLocationId": "897e3fed-c493-492f-bd6d-bfbb1bce8fc0",
-            "locationId": "897e3fed-c493-492f-bd6d-bfbb1bce8fc0",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "3133",
-            "phone": [
-              {
-                "number": "920-490-0424",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "920-490-0424",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 44.48894116,
-              "longitude": -88.06474213
-            },
-            "storenumber": "3133"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       },
@@ -7219,143 +7097,21 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T05:04:37.496+00:00",
+    "appointments_last_fetched": "2021-02-27T05:14:09.365+00:00",
     "appointments_raw": {
       "both_doses": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "ASHWAUBENON",
-              "country": "US",
-              "line1": "2301 S ONEIDA ST",
-              "line2": "",
-              "state": "WI",
-              "zip": "54304"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-02-27",
-                "day": "Saturday",
-                "slots": [
-                  "02:15 pm"
-                ]
-              },
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "05:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 20.4,
-            "fhirLocationId": "897e3fed-c493-492f-bd6d-bfbb1bce8fc0",
-            "locationId": "897e3fed-c493-492f-bd6d-bfbb1bce8fc0",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "3133",
-            "phone": [
-              {
-                "number": "920-490-0424",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "920-490-0424",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 44.48894116,
-              "longitude": -88.06474213
-            },
-            "storenumber": "3133"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       },
       "second_dose_moderna": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "ASHWAUBENON",
-              "country": "US",
-              "line1": "2301 S ONEIDA ST",
-              "line2": "",
-              "state": "WI",
-              "zip": "54304"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-02-27",
-                "day": "Saturday",
-                "slots": [
-                  "02:15 pm"
-                ]
-              },
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "05:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 18.4,
-            "fhirLocationId": "897e3fed-c493-492f-bd6d-bfbb1bce8fc0",
-            "locationId": "897e3fed-c493-492f-bd6d-bfbb1bce8fc0",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "3133",
-            "phone": [
-              {
-                "number": "920-490-0424",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "920-490-0424",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 44.48894116,
-              "longitude": -88.06474213
-            },
-            "storenumber": "3133"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       },
@@ -7382,143 +7138,21 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T05:04:37.496+00:00",
+    "appointments_last_fetched": "2021-02-27T05:14:09.365+00:00",
     "appointments_raw": {
       "both_doses": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "ASHWAUBENON",
-              "country": "US",
-              "line1": "2301 S ONEIDA ST",
-              "line2": "",
-              "state": "WI",
-              "zip": "54304"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-02-27",
-                "day": "Saturday",
-                "slots": [
-                  "02:15 pm"
-                ]
-              },
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "05:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 20.4,
-            "fhirLocationId": "897e3fed-c493-492f-bd6d-bfbb1bce8fc0",
-            "locationId": "897e3fed-c493-492f-bd6d-bfbb1bce8fc0",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "3133",
-            "phone": [
-              {
-                "number": "920-490-0424",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "920-490-0424",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 44.48894116,
-              "longitude": -88.06474213
-            },
-            "storenumber": "3133"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       },
       "second_dose_moderna": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "ASHWAUBENON",
-              "country": "US",
-              "line1": "2301 S ONEIDA ST",
-              "line2": "",
-              "state": "WI",
-              "zip": "54304"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-02-27",
-                "day": "Saturday",
-                "slots": [
-                  "02:15 pm"
-                ]
-              },
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "05:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 18.4,
-            "fhirLocationId": "897e3fed-c493-492f-bd6d-bfbb1bce8fc0",
-            "locationId": "897e3fed-c493-492f-bd6d-bfbb1bce8fc0",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "3133",
-            "phone": [
-              {
-                "number": "920-490-0424",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "920-490-0424",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 44.48894116,
-              "longitude": -88.06474213
-            },
-            "storenumber": "3133"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       },
@@ -7545,143 +7179,21 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T05:04:37.496+00:00",
+    "appointments_last_fetched": "2021-02-27T05:14:09.365+00:00",
     "appointments_raw": {
       "both_doses": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "ASHWAUBENON",
-              "country": "US",
-              "line1": "2301 S ONEIDA ST",
-              "line2": "",
-              "state": "WI",
-              "zip": "54304"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-02-27",
-                "day": "Saturday",
-                "slots": [
-                  "02:15 pm"
-                ]
-              },
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "05:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 20.4,
-            "fhirLocationId": "897e3fed-c493-492f-bd6d-bfbb1bce8fc0",
-            "locationId": "897e3fed-c493-492f-bd6d-bfbb1bce8fc0",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "3133",
-            "phone": [
-              {
-                "number": "920-490-0424",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "920-490-0424",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 44.48894116,
-              "longitude": -88.06474213
-            },
-            "storenumber": "3133"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       },
       "second_dose_moderna": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "ASHWAUBENON",
-              "country": "US",
-              "line1": "2301 S ONEIDA ST",
-              "line2": "",
-              "state": "WI",
-              "zip": "54304"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-02-27",
-                "day": "Saturday",
-                "slots": [
-                  "02:15 pm"
-                ]
-              },
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "05:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 18.4,
-            "fhirLocationId": "897e3fed-c493-492f-bd6d-bfbb1bce8fc0",
-            "locationId": "897e3fed-c493-492f-bd6d-bfbb1bce8fc0",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "3133",
-            "phone": [
-              {
-                "number": "920-490-0424",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "920-490-0424",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 44.48894116,
-              "longitude": -88.06474213
-            },
-            "storenumber": "3133"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       },
@@ -7706,161 +7218,23 @@
   {
     "address": "2301 S ONEIDA ST",
     "appointments": [
-      {
-        "time": "2021-02-27T14:15:00.000-06:00",
-        "type": "both_doses"
-      },
-      {
-        "time": "2021-02-27T14:15:00.000-06:00",
-        "type": "second_dose_moderna"
-      },
-      {
-        "time": "2021-03-01T17:30:00.000-06:00",
-        "type": "both_doses"
-      },
-      {
-        "time": "2021-03-01T17:30:00.000-06:00",
-        "type": "second_dose_moderna"
-      }
     ],
-    "appointments_available": true,
-    "appointments_last_fetched": "2021-02-27T05:04:37.496+00:00",
+    "appointments_available": false,
+    "appointments_last_fetched": "2021-02-27T05:14:09.365+00:00",
     "appointments_raw": {
       "both_doses": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "ASHWAUBENON",
-              "country": "US",
-              "line1": "2301 S ONEIDA ST",
-              "line2": "",
-              "state": "WI",
-              "zip": "54304"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-02-27",
-                "day": "Saturday",
-                "slots": [
-                  "02:15 pm"
-                ]
-              },
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "05:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 20.4,
-            "fhirLocationId": "897e3fed-c493-492f-bd6d-bfbb1bce8fc0",
-            "locationId": "897e3fed-c493-492f-bd6d-bfbb1bce8fc0",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "3133",
-            "phone": [
-              {
-                "number": "920-490-0424",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "920-490-0424",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 44.48894116,
-              "longitude": -88.06474213
-            },
-            "storenumber": "3133"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       },
       "second_dose_moderna": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "ASHWAUBENON",
-              "country": "US",
-              "line1": "2301 S ONEIDA ST",
-              "line2": "",
-              "state": "WI",
-              "zip": "54304"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-02-27",
-                "day": "Saturday",
-                "slots": [
-                  "02:15 pm"
-                ]
-              },
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "05:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 18.4,
-            "fhirLocationId": "897e3fed-c493-492f-bd6d-bfbb1bce8fc0",
-            "locationId": "897e3fed-c493-492f-bd6d-bfbb1bce8fc0",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "3133",
-            "phone": [
-              {
-                "number": "920-490-0424",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "920-490-0424",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 44.48894116,
-              "longitude": -88.06474213
-            },
-            "storenumber": "3133"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       },
@@ -7887,143 +7261,21 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T05:04:37.496+00:00",
+    "appointments_last_fetched": "2021-02-27T05:14:09.365+00:00",
     "appointments_raw": {
       "both_doses": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "ASHWAUBENON",
-              "country": "US",
-              "line1": "2301 S ONEIDA ST",
-              "line2": "",
-              "state": "WI",
-              "zip": "54304"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-02-27",
-                "day": "Saturday",
-                "slots": [
-                  "02:15 pm"
-                ]
-              },
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "05:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 20.4,
-            "fhirLocationId": "897e3fed-c493-492f-bd6d-bfbb1bce8fc0",
-            "locationId": "897e3fed-c493-492f-bd6d-bfbb1bce8fc0",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "3133",
-            "phone": [
-              {
-                "number": "920-490-0424",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "920-490-0424",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 44.48894116,
-              "longitude": -88.06474213
-            },
-            "storenumber": "3133"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       },
       "second_dose_moderna": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "ASHWAUBENON",
-              "country": "US",
-              "line1": "2301 S ONEIDA ST",
-              "line2": "",
-              "state": "WI",
-              "zip": "54304"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-02-27",
-                "day": "Saturday",
-                "slots": [
-                  "02:15 pm"
-                ]
-              },
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "05:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 18.4,
-            "fhirLocationId": "897e3fed-c493-492f-bd6d-bfbb1bce8fc0",
-            "locationId": "897e3fed-c493-492f-bd6d-bfbb1bce8fc0",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "3133",
-            "phone": [
-              {
-                "number": "920-490-0424",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "920-490-0424",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 44.48894116,
-              "longitude": -88.06474213
-            },
-            "storenumber": "3133"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       },
@@ -8050,143 +7302,21 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T05:04:37.496+00:00",
+    "appointments_last_fetched": "2021-02-27T05:14:09.365+00:00",
     "appointments_raw": {
       "both_doses": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "ASHWAUBENON",
-              "country": "US",
-              "line1": "2301 S ONEIDA ST",
-              "line2": "",
-              "state": "WI",
-              "zip": "54304"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-02-27",
-                "day": "Saturday",
-                "slots": [
-                  "02:15 pm"
-                ]
-              },
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "05:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 20.4,
-            "fhirLocationId": "897e3fed-c493-492f-bd6d-bfbb1bce8fc0",
-            "locationId": "897e3fed-c493-492f-bd6d-bfbb1bce8fc0",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "3133",
-            "phone": [
-              {
-                "number": "920-490-0424",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "920-490-0424",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 44.48894116,
-              "longitude": -88.06474213
-            },
-            "storenumber": "3133"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       },
       "second_dose_moderna": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "ASHWAUBENON",
-              "country": "US",
-              "line1": "2301 S ONEIDA ST",
-              "line2": "",
-              "state": "WI",
-              "zip": "54304"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-02-27",
-                "day": "Saturday",
-                "slots": [
-                  "02:15 pm"
-                ]
-              },
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "05:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 18.4,
-            "fhirLocationId": "897e3fed-c493-492f-bd6d-bfbb1bce8fc0",
-            "locationId": "897e3fed-c493-492f-bd6d-bfbb1bce8fc0",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "3133",
-            "phone": [
-              {
-                "number": "920-490-0424",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "920-490-0424",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 44.48894116,
-              "longitude": -88.06474213
-            },
-            "storenumber": "3133"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       },
@@ -8213,143 +7343,21 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T05:04:37.496+00:00",
+    "appointments_last_fetched": "2021-02-27T05:14:09.365+00:00",
     "appointments_raw": {
       "both_doses": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "ASHWAUBENON",
-              "country": "US",
-              "line1": "2301 S ONEIDA ST",
-              "line2": "",
-              "state": "WI",
-              "zip": "54304"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-02-27",
-                "day": "Saturday",
-                "slots": [
-                  "02:15 pm"
-                ]
-              },
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "05:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 20.4,
-            "fhirLocationId": "897e3fed-c493-492f-bd6d-bfbb1bce8fc0",
-            "locationId": "897e3fed-c493-492f-bd6d-bfbb1bce8fc0",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "3133",
-            "phone": [
-              {
-                "number": "920-490-0424",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "920-490-0424",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 44.48894116,
-              "longitude": -88.06474213
-            },
-            "storenumber": "3133"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       },
       "second_dose_moderna": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "ASHWAUBENON",
-              "country": "US",
-              "line1": "2301 S ONEIDA ST",
-              "line2": "",
-              "state": "WI",
-              "zip": "54304"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-02-27",
-                "day": "Saturday",
-                "slots": [
-                  "02:15 pm"
-                ]
-              },
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "05:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 18.4,
-            "fhirLocationId": "897e3fed-c493-492f-bd6d-bfbb1bce8fc0",
-            "locationId": "897e3fed-c493-492f-bd6d-bfbb1bce8fc0",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "3133",
-            "phone": [
-              {
-                "number": "920-490-0424",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "920-490-0424",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 44.48894116,
-              "longitude": -88.06474213
-            },
-            "storenumber": "3133"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       },
@@ -8827,7 +7835,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T04:52:10.837+00:00",
+    "appointments_last_fetched": "2021-02-27T05:14:33.55+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -8868,7 +7876,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T04:52:10.837+00:00",
+    "appointments_last_fetched": "2021-02-27T05:14:33.55+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -8950,143 +7958,21 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T05:04:37.496+00:00",
+    "appointments_last_fetched": "2021-02-27T05:14:09.365+00:00",
     "appointments_raw": {
       "both_doses": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "ASHWAUBENON",
-              "country": "US",
-              "line1": "2301 S ONEIDA ST",
-              "line2": "",
-              "state": "WI",
-              "zip": "54304"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-02-27",
-                "day": "Saturday",
-                "slots": [
-                  "02:15 pm"
-                ]
-              },
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "05:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 20.4,
-            "fhirLocationId": "897e3fed-c493-492f-bd6d-bfbb1bce8fc0",
-            "locationId": "897e3fed-c493-492f-bd6d-bfbb1bce8fc0",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "3133",
-            "phone": [
-              {
-                "number": "920-490-0424",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "920-490-0424",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 44.48894116,
-              "longitude": -88.06474213
-            },
-            "storenumber": "3133"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       },
       "second_dose_moderna": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "ASHWAUBENON",
-              "country": "US",
-              "line1": "2301 S ONEIDA ST",
-              "line2": "",
-              "state": "WI",
-              "zip": "54304"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-02-27",
-                "day": "Saturday",
-                "slots": [
-                  "02:15 pm"
-                ]
-              },
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "05:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 18.4,
-            "fhirLocationId": "897e3fed-c493-492f-bd6d-bfbb1bce8fc0",
-            "locationId": "897e3fed-c493-492f-bd6d-bfbb1bce8fc0",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "3133",
-            "phone": [
-              {
-                "number": "920-490-0424",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "920-490-0424",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 44.48894116,
-              "longitude": -88.06474213
-            },
-            "storenumber": "3133"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       },
@@ -9195,7 +8081,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T04:50:27.667+00:00",
+    "appointments_last_fetched": "2021-02-27T05:13:45.78+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
