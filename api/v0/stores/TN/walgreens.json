@@ -3721,7 +3721,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T04:40:05.725+00:00",
+    "appointments_last_fetched": "2021-02-27T05:06:07.861+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -3885,7 +3885,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T04:40:05.725+00:00",
+    "appointments_last_fetched": "2021-02-27T05:06:07.861+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -3967,7 +3967,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T04:40:05.725+00:00",
+    "appointments_last_fetched": "2021-02-27T05:06:07.861+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -8567,7 +8567,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T04:48:58.374+00:00",
+    "appointments_last_fetched": "2021-02-27T05:06:49.511+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -8608,7 +8608,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T04:48:58.374+00:00",
+    "appointments_last_fetched": "2021-02-27T05:06:49.511+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -9018,7 +9018,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T04:36:26.227+00:00",
+    "appointments_last_fetched": "2021-02-27T05:05:27.724+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -9059,7 +9059,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T04:36:26.227+00:00",
+    "appointments_last_fetched": "2021-02-27T05:05:27.724+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -9141,7 +9141,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T04:36:26.227+00:00",
+    "appointments_last_fetched": "2021-02-27T05:05:27.724+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -9182,7 +9182,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T04:36:26.227+00:00",
+    "appointments_last_fetched": "2021-02-27T05:05:27.724+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -9387,7 +9387,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T04:54:59.956+00:00",
+    "appointments_last_fetched": "2021-02-27T05:06:56.862+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -9428,10 +9428,73 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T04:51:37.289+00:00",
+    "appointments_last_fetched": "2021-02-27T05:07:07.121+00:00",
     "appointments_raw": {
       "both_doses": {
         "locations": [
+          {
+            "address": {
+              "city": "FT OGLETHORPE",
+              "country": "US",
+              "line1": "1228 BATTLEFIELD PKWY",
+              "line2": "",
+              "state": "GA",
+              "zip": "30742"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "09:15 am",
+                  "09:30 am",
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 8.47,
+            "fhirLocationId": "b831674c-6560-481c-8300-93a9a7d2af30",
+            "locationId": "b831674c-6560-481c-8300-93a9a7d2af30",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "7567",
+            "phone": [
+              {
+                "number": "706-861-7284",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "706-861-7284",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 34.951644,
+              "longitude": -85.2443
+            },
+            "storenumber": "7567"
+          },
           {
             "address": {
               "city": "DALTON",
@@ -9442,13 +9505,6 @@
               "zip": "30720"
             },
             "appointmentAvailability": [
-              {
-                "date": "2021-02-27",
-                "day": "Saturday",
-                "slots": [
-                  "10:45 am"
-                ]
-              },
               {
                 "date": "2021-02-28",
                 "day": "Sunday",
@@ -9465,6 +9521,42 @@
               {
                 "date": "2021-03-01",
                 "day": "Monday",
+                "slots": [
+                  "09:15 am",
+                  "09:30 am",
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "11:00 am",
+                  "11:15 am",
+                  "11:30 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "02:15 pm",
+                  "02:30 pm",
+                  "02:45 pm",
+                  "03:00 pm",
+                  "03:15 pm",
+                  "03:30 pm",
+                  "03:45 pm",
+                  "04:00 pm",
+                  "04:15 pm",
+                  "04:30 pm",
+                  "04:45 pm",
+                  "05:00 pm",
+                  "05:15 pm",
+                  "05:30 pm"
+                ]
+              },
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
                 "slots": [
                   "09:15 am",
                   "09:30 am",
@@ -9570,6 +9662,42 @@
                   "04:30 pm",
                   "04:45 pm"
                 ]
+              },
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "09:15 am",
+                  "09:30 am",
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "11:00 am",
+                  "11:15 am",
+                  "11:30 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "02:15 pm",
+                  "02:30 pm",
+                  "02:45 pm",
+                  "03:00 pm",
+                  "03:15 pm",
+                  "03:30 pm",
+                  "03:45 pm",
+                  "04:00 pm",
+                  "04:15 pm",
+                  "04:30 pm",
+                  "04:45 pm",
+                  "05:00 pm",
+                  "05:15 pm",
+                  "05:30 pm"
+                ]
               }
             ],
             "categories": [
@@ -9626,6 +9754,69 @@
         "locations": [
           {
             "address": {
+              "city": "FT OGLETHORPE",
+              "country": "US",
+              "line1": "1228 BATTLEFIELD PKWY",
+              "line2": "",
+              "state": "GA",
+              "zip": "30742"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "09:15 am",
+                  "09:30 am",
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 8.47,
+            "fhirLocationId": "b831674c-6560-481c-8300-93a9a7d2af30",
+            "locationId": "b831674c-6560-481c-8300-93a9a7d2af30",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "7567",
+            "phone": [
+              {
+                "number": "706-861-7284",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "706-861-7284",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 34.951644,
+              "longitude": -85.2443
+            },
+            "storenumber": "7567"
+          },
+          {
+            "address": {
               "city": "DALTON",
               "country": "US",
               "line1": "1247 W WALNUT AVE",
@@ -9634,13 +9825,6 @@
               "zip": "30720"
             },
             "appointmentAvailability": [
-              {
-                "date": "2021-02-27",
-                "day": "Saturday",
-                "slots": [
-                  "10:45 am"
-                ]
-              },
               {
                 "date": "2021-02-28",
                 "day": "Sunday",
@@ -9689,6 +9873,42 @@
                   "05:15 pm",
                   "05:30 pm"
                 ]
+              },
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "09:15 am",
+                  "09:30 am",
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "11:00 am",
+                  "11:15 am",
+                  "11:30 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "02:15 pm",
+                  "02:30 pm",
+                  "02:45 pm",
+                  "03:00 pm",
+                  "03:15 pm",
+                  "03:30 pm",
+                  "03:45 pm",
+                  "04:00 pm",
+                  "04:15 pm",
+                  "04:30 pm",
+                  "04:45 pm",
+                  "05:00 pm",
+                  "05:15 pm",
+                  "05:30 pm"
+                ]
               }
             ],
             "categories": [
@@ -9704,7 +9924,7 @@
               }
             ],
             "description": "",
-            "distance": 7.19,
+            "distance": 19.51,
             "fhirLocationId": "59486563-f2be-4a85-9dd3-51a2bada8563",
             "locationId": "59486563-f2be-4a85-9dd3-51a2bada8563",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -9762,6 +9982,42 @@
                   "04:30 pm",
                   "04:45 pm"
                 ]
+              },
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "09:15 am",
+                  "09:30 am",
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "11:00 am",
+                  "11:15 am",
+                  "11:30 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "02:15 pm",
+                  "02:30 pm",
+                  "02:45 pm",
+                  "03:00 pm",
+                  "03:15 pm",
+                  "03:30 pm",
+                  "03:45 pm",
+                  "04:00 pm",
+                  "04:15 pm",
+                  "04:30 pm",
+                  "04:45 pm",
+                  "05:00 pm",
+                  "05:15 pm",
+                  "05:30 pm"
+                ]
               }
             ],
             "categories": [
@@ -9777,7 +10033,7 @@
               }
             ],
             "description": "",
-            "distance": 4.48,
+            "distance": 20.71,
             "fhirLocationId": "3c1f1e95-bda6-4b9b-ac43-a75a4184203d",
             "locationId": "3c1f1e95-bda6-4b9b-ac43-a75a4184203d",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -9862,10 +10118,73 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T04:51:37.289+00:00",
+    "appointments_last_fetched": "2021-02-27T05:07:07.121+00:00",
     "appointments_raw": {
       "both_doses": {
         "locations": [
+          {
+            "address": {
+              "city": "FT OGLETHORPE",
+              "country": "US",
+              "line1": "1228 BATTLEFIELD PKWY",
+              "line2": "",
+              "state": "GA",
+              "zip": "30742"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "09:15 am",
+                  "09:30 am",
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 8.47,
+            "fhirLocationId": "b831674c-6560-481c-8300-93a9a7d2af30",
+            "locationId": "b831674c-6560-481c-8300-93a9a7d2af30",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "7567",
+            "phone": [
+              {
+                "number": "706-861-7284",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "706-861-7284",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 34.951644,
+              "longitude": -85.2443
+            },
+            "storenumber": "7567"
+          },
           {
             "address": {
               "city": "DALTON",
@@ -9876,13 +10195,6 @@
               "zip": "30720"
             },
             "appointmentAvailability": [
-              {
-                "date": "2021-02-27",
-                "day": "Saturday",
-                "slots": [
-                  "10:45 am"
-                ]
-              },
               {
                 "date": "2021-02-28",
                 "day": "Sunday",
@@ -9899,6 +10211,42 @@
               {
                 "date": "2021-03-01",
                 "day": "Monday",
+                "slots": [
+                  "09:15 am",
+                  "09:30 am",
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "11:00 am",
+                  "11:15 am",
+                  "11:30 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "02:15 pm",
+                  "02:30 pm",
+                  "02:45 pm",
+                  "03:00 pm",
+                  "03:15 pm",
+                  "03:30 pm",
+                  "03:45 pm",
+                  "04:00 pm",
+                  "04:15 pm",
+                  "04:30 pm",
+                  "04:45 pm",
+                  "05:00 pm",
+                  "05:15 pm",
+                  "05:30 pm"
+                ]
+              },
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
                 "slots": [
                   "09:15 am",
                   "09:30 am",
@@ -10004,6 +10352,42 @@
                   "04:30 pm",
                   "04:45 pm"
                 ]
+              },
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "09:15 am",
+                  "09:30 am",
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "11:00 am",
+                  "11:15 am",
+                  "11:30 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "02:15 pm",
+                  "02:30 pm",
+                  "02:45 pm",
+                  "03:00 pm",
+                  "03:15 pm",
+                  "03:30 pm",
+                  "03:45 pm",
+                  "04:00 pm",
+                  "04:15 pm",
+                  "04:30 pm",
+                  "04:45 pm",
+                  "05:00 pm",
+                  "05:15 pm",
+                  "05:30 pm"
+                ]
               }
             ],
             "categories": [
@@ -10060,6 +10444,69 @@
         "locations": [
           {
             "address": {
+              "city": "FT OGLETHORPE",
+              "country": "US",
+              "line1": "1228 BATTLEFIELD PKWY",
+              "line2": "",
+              "state": "GA",
+              "zip": "30742"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "09:15 am",
+                  "09:30 am",
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 8.47,
+            "fhirLocationId": "b831674c-6560-481c-8300-93a9a7d2af30",
+            "locationId": "b831674c-6560-481c-8300-93a9a7d2af30",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "7567",
+            "phone": [
+              {
+                "number": "706-861-7284",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "706-861-7284",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 34.951644,
+              "longitude": -85.2443
+            },
+            "storenumber": "7567"
+          },
+          {
+            "address": {
               "city": "DALTON",
               "country": "US",
               "line1": "1247 W WALNUT AVE",
@@ -10068,13 +10515,6 @@
               "zip": "30720"
             },
             "appointmentAvailability": [
-              {
-                "date": "2021-02-27",
-                "day": "Saturday",
-                "slots": [
-                  "10:45 am"
-                ]
-              },
               {
                 "date": "2021-02-28",
                 "day": "Sunday",
@@ -10123,6 +10563,42 @@
                   "05:15 pm",
                   "05:30 pm"
                 ]
+              },
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "09:15 am",
+                  "09:30 am",
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "11:00 am",
+                  "11:15 am",
+                  "11:30 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "02:15 pm",
+                  "02:30 pm",
+                  "02:45 pm",
+                  "03:00 pm",
+                  "03:15 pm",
+                  "03:30 pm",
+                  "03:45 pm",
+                  "04:00 pm",
+                  "04:15 pm",
+                  "04:30 pm",
+                  "04:45 pm",
+                  "05:00 pm",
+                  "05:15 pm",
+                  "05:30 pm"
+                ]
               }
             ],
             "categories": [
@@ -10138,7 +10614,7 @@
               }
             ],
             "description": "",
-            "distance": 7.19,
+            "distance": 19.51,
             "fhirLocationId": "59486563-f2be-4a85-9dd3-51a2bada8563",
             "locationId": "59486563-f2be-4a85-9dd3-51a2bada8563",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -10196,6 +10672,42 @@
                   "04:30 pm",
                   "04:45 pm"
                 ]
+              },
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "09:15 am",
+                  "09:30 am",
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "11:00 am",
+                  "11:15 am",
+                  "11:30 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "02:15 pm",
+                  "02:30 pm",
+                  "02:45 pm",
+                  "03:00 pm",
+                  "03:15 pm",
+                  "03:30 pm",
+                  "03:45 pm",
+                  "04:00 pm",
+                  "04:15 pm",
+                  "04:30 pm",
+                  "04:45 pm",
+                  "05:00 pm",
+                  "05:15 pm",
+                  "05:30 pm"
+                ]
               }
             ],
             "categories": [
@@ -10211,7 +10723,7 @@
               }
             ],
             "description": "",
-            "distance": 4.48,
+            "distance": 20.71,
             "fhirLocationId": "3c1f1e95-bda6-4b9b-ac43-a75a4184203d",
             "locationId": "3c1f1e95-bda6-4b9b-ac43-a75a4184203d",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -10255,10 +10767,73 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T04:51:37.289+00:00",
+    "appointments_last_fetched": "2021-02-27T05:07:07.121+00:00",
     "appointments_raw": {
       "both_doses": {
         "locations": [
+          {
+            "address": {
+              "city": "FT OGLETHORPE",
+              "country": "US",
+              "line1": "1228 BATTLEFIELD PKWY",
+              "line2": "",
+              "state": "GA",
+              "zip": "30742"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "09:15 am",
+                  "09:30 am",
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 8.47,
+            "fhirLocationId": "b831674c-6560-481c-8300-93a9a7d2af30",
+            "locationId": "b831674c-6560-481c-8300-93a9a7d2af30",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "7567",
+            "phone": [
+              {
+                "number": "706-861-7284",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "706-861-7284",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 34.951644,
+              "longitude": -85.2443
+            },
+            "storenumber": "7567"
+          },
           {
             "address": {
               "city": "DALTON",
@@ -10269,13 +10844,6 @@
               "zip": "30720"
             },
             "appointmentAvailability": [
-              {
-                "date": "2021-02-27",
-                "day": "Saturday",
-                "slots": [
-                  "10:45 am"
-                ]
-              },
               {
                 "date": "2021-02-28",
                 "day": "Sunday",
@@ -10292,6 +10860,42 @@
               {
                 "date": "2021-03-01",
                 "day": "Monday",
+                "slots": [
+                  "09:15 am",
+                  "09:30 am",
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "11:00 am",
+                  "11:15 am",
+                  "11:30 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "02:15 pm",
+                  "02:30 pm",
+                  "02:45 pm",
+                  "03:00 pm",
+                  "03:15 pm",
+                  "03:30 pm",
+                  "03:45 pm",
+                  "04:00 pm",
+                  "04:15 pm",
+                  "04:30 pm",
+                  "04:45 pm",
+                  "05:00 pm",
+                  "05:15 pm",
+                  "05:30 pm"
+                ]
+              },
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
                 "slots": [
                   "09:15 am",
                   "09:30 am",
@@ -10397,6 +11001,42 @@
                   "04:30 pm",
                   "04:45 pm"
                 ]
+              },
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "09:15 am",
+                  "09:30 am",
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "11:00 am",
+                  "11:15 am",
+                  "11:30 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "02:15 pm",
+                  "02:30 pm",
+                  "02:45 pm",
+                  "03:00 pm",
+                  "03:15 pm",
+                  "03:30 pm",
+                  "03:45 pm",
+                  "04:00 pm",
+                  "04:15 pm",
+                  "04:30 pm",
+                  "04:45 pm",
+                  "05:00 pm",
+                  "05:15 pm",
+                  "05:30 pm"
+                ]
               }
             ],
             "categories": [
@@ -10453,6 +11093,69 @@
         "locations": [
           {
             "address": {
+              "city": "FT OGLETHORPE",
+              "country": "US",
+              "line1": "1228 BATTLEFIELD PKWY",
+              "line2": "",
+              "state": "GA",
+              "zip": "30742"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "09:15 am",
+                  "09:30 am",
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 8.47,
+            "fhirLocationId": "b831674c-6560-481c-8300-93a9a7d2af30",
+            "locationId": "b831674c-6560-481c-8300-93a9a7d2af30",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "7567",
+            "phone": [
+              {
+                "number": "706-861-7284",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "706-861-7284",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 34.951644,
+              "longitude": -85.2443
+            },
+            "storenumber": "7567"
+          },
+          {
+            "address": {
               "city": "DALTON",
               "country": "US",
               "line1": "1247 W WALNUT AVE",
@@ -10461,13 +11164,6 @@
               "zip": "30720"
             },
             "appointmentAvailability": [
-              {
-                "date": "2021-02-27",
-                "day": "Saturday",
-                "slots": [
-                  "10:45 am"
-                ]
-              },
               {
                 "date": "2021-02-28",
                 "day": "Sunday",
@@ -10516,6 +11212,42 @@
                   "05:15 pm",
                   "05:30 pm"
                 ]
+              },
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "09:15 am",
+                  "09:30 am",
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "11:00 am",
+                  "11:15 am",
+                  "11:30 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "02:15 pm",
+                  "02:30 pm",
+                  "02:45 pm",
+                  "03:00 pm",
+                  "03:15 pm",
+                  "03:30 pm",
+                  "03:45 pm",
+                  "04:00 pm",
+                  "04:15 pm",
+                  "04:30 pm",
+                  "04:45 pm",
+                  "05:00 pm",
+                  "05:15 pm",
+                  "05:30 pm"
+                ]
               }
             ],
             "categories": [
@@ -10531,7 +11263,7 @@
               }
             ],
             "description": "",
-            "distance": 7.19,
+            "distance": 19.51,
             "fhirLocationId": "59486563-f2be-4a85-9dd3-51a2bada8563",
             "locationId": "59486563-f2be-4a85-9dd3-51a2bada8563",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -10589,6 +11321,42 @@
                   "04:30 pm",
                   "04:45 pm"
                 ]
+              },
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "09:15 am",
+                  "09:30 am",
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "11:00 am",
+                  "11:15 am",
+                  "11:30 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "02:15 pm",
+                  "02:30 pm",
+                  "02:45 pm",
+                  "03:00 pm",
+                  "03:15 pm",
+                  "03:30 pm",
+                  "03:45 pm",
+                  "04:00 pm",
+                  "04:15 pm",
+                  "04:30 pm",
+                  "04:45 pm",
+                  "05:00 pm",
+                  "05:15 pm",
+                  "05:30 pm"
+                ]
               }
             ],
             "categories": [
@@ -10604,7 +11372,7 @@
               }
             ],
             "description": "",
-            "distance": 4.48,
+            "distance": 20.71,
             "fhirLocationId": "3c1f1e95-bda6-4b9b-ac43-a75a4184203d",
             "locationId": "3c1f1e95-bda6-4b9b-ac43-a75a4184203d",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -10648,10 +11416,73 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T04:51:37.289+00:00",
+    "appointments_last_fetched": "2021-02-27T05:07:07.121+00:00",
     "appointments_raw": {
       "both_doses": {
         "locations": [
+          {
+            "address": {
+              "city": "FT OGLETHORPE",
+              "country": "US",
+              "line1": "1228 BATTLEFIELD PKWY",
+              "line2": "",
+              "state": "GA",
+              "zip": "30742"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "09:15 am",
+                  "09:30 am",
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 8.47,
+            "fhirLocationId": "b831674c-6560-481c-8300-93a9a7d2af30",
+            "locationId": "b831674c-6560-481c-8300-93a9a7d2af30",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "7567",
+            "phone": [
+              {
+                "number": "706-861-7284",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "706-861-7284",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 34.951644,
+              "longitude": -85.2443
+            },
+            "storenumber": "7567"
+          },
           {
             "address": {
               "city": "DALTON",
@@ -10662,13 +11493,6 @@
               "zip": "30720"
             },
             "appointmentAvailability": [
-              {
-                "date": "2021-02-27",
-                "day": "Saturday",
-                "slots": [
-                  "10:45 am"
-                ]
-              },
               {
                 "date": "2021-02-28",
                 "day": "Sunday",
@@ -10685,6 +11509,42 @@
               {
                 "date": "2021-03-01",
                 "day": "Monday",
+                "slots": [
+                  "09:15 am",
+                  "09:30 am",
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "11:00 am",
+                  "11:15 am",
+                  "11:30 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "02:15 pm",
+                  "02:30 pm",
+                  "02:45 pm",
+                  "03:00 pm",
+                  "03:15 pm",
+                  "03:30 pm",
+                  "03:45 pm",
+                  "04:00 pm",
+                  "04:15 pm",
+                  "04:30 pm",
+                  "04:45 pm",
+                  "05:00 pm",
+                  "05:15 pm",
+                  "05:30 pm"
+                ]
+              },
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
                 "slots": [
                   "09:15 am",
                   "09:30 am",
@@ -10790,6 +11650,42 @@
                   "04:30 pm",
                   "04:45 pm"
                 ]
+              },
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "09:15 am",
+                  "09:30 am",
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "11:00 am",
+                  "11:15 am",
+                  "11:30 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "02:15 pm",
+                  "02:30 pm",
+                  "02:45 pm",
+                  "03:00 pm",
+                  "03:15 pm",
+                  "03:30 pm",
+                  "03:45 pm",
+                  "04:00 pm",
+                  "04:15 pm",
+                  "04:30 pm",
+                  "04:45 pm",
+                  "05:00 pm",
+                  "05:15 pm",
+                  "05:30 pm"
+                ]
               }
             ],
             "categories": [
@@ -10846,6 +11742,69 @@
         "locations": [
           {
             "address": {
+              "city": "FT OGLETHORPE",
+              "country": "US",
+              "line1": "1228 BATTLEFIELD PKWY",
+              "line2": "",
+              "state": "GA",
+              "zip": "30742"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "09:15 am",
+                  "09:30 am",
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 8.47,
+            "fhirLocationId": "b831674c-6560-481c-8300-93a9a7d2af30",
+            "locationId": "b831674c-6560-481c-8300-93a9a7d2af30",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "7567",
+            "phone": [
+              {
+                "number": "706-861-7284",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "706-861-7284",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 34.951644,
+              "longitude": -85.2443
+            },
+            "storenumber": "7567"
+          },
+          {
+            "address": {
               "city": "DALTON",
               "country": "US",
               "line1": "1247 W WALNUT AVE",
@@ -10854,13 +11813,6 @@
               "zip": "30720"
             },
             "appointmentAvailability": [
-              {
-                "date": "2021-02-27",
-                "day": "Saturday",
-                "slots": [
-                  "10:45 am"
-                ]
-              },
               {
                 "date": "2021-02-28",
                 "day": "Sunday",
@@ -10909,6 +11861,42 @@
                   "05:15 pm",
                   "05:30 pm"
                 ]
+              },
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "09:15 am",
+                  "09:30 am",
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "11:00 am",
+                  "11:15 am",
+                  "11:30 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "02:15 pm",
+                  "02:30 pm",
+                  "02:45 pm",
+                  "03:00 pm",
+                  "03:15 pm",
+                  "03:30 pm",
+                  "03:45 pm",
+                  "04:00 pm",
+                  "04:15 pm",
+                  "04:30 pm",
+                  "04:45 pm",
+                  "05:00 pm",
+                  "05:15 pm",
+                  "05:30 pm"
+                ]
               }
             ],
             "categories": [
@@ -10924,7 +11912,7 @@
               }
             ],
             "description": "",
-            "distance": 7.19,
+            "distance": 19.51,
             "fhirLocationId": "59486563-f2be-4a85-9dd3-51a2bada8563",
             "locationId": "59486563-f2be-4a85-9dd3-51a2bada8563",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -10982,6 +11970,42 @@
                   "04:30 pm",
                   "04:45 pm"
                 ]
+              },
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "09:15 am",
+                  "09:30 am",
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "11:00 am",
+                  "11:15 am",
+                  "11:30 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "02:15 pm",
+                  "02:30 pm",
+                  "02:45 pm",
+                  "03:00 pm",
+                  "03:15 pm",
+                  "03:30 pm",
+                  "03:45 pm",
+                  "04:00 pm",
+                  "04:15 pm",
+                  "04:30 pm",
+                  "04:45 pm",
+                  "05:00 pm",
+                  "05:15 pm",
+                  "05:30 pm"
+                ]
               }
             ],
             "categories": [
@@ -10997,7 +12021,7 @@
               }
             ],
             "description": "",
-            "distance": 4.48,
+            "distance": 20.71,
             "fhirLocationId": "3c1f1e95-bda6-4b9b-ac43-a75a4184203d",
             "locationId": "3c1f1e95-bda6-4b9b-ac43-a75a4184203d",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -11082,10 +12106,73 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T04:51:37.289+00:00",
+    "appointments_last_fetched": "2021-02-27T05:07:07.121+00:00",
     "appointments_raw": {
       "both_doses": {
         "locations": [
+          {
+            "address": {
+              "city": "FT OGLETHORPE",
+              "country": "US",
+              "line1": "1228 BATTLEFIELD PKWY",
+              "line2": "",
+              "state": "GA",
+              "zip": "30742"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "09:15 am",
+                  "09:30 am",
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 8.47,
+            "fhirLocationId": "b831674c-6560-481c-8300-93a9a7d2af30",
+            "locationId": "b831674c-6560-481c-8300-93a9a7d2af30",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "7567",
+            "phone": [
+              {
+                "number": "706-861-7284",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "706-861-7284",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 34.951644,
+              "longitude": -85.2443
+            },
+            "storenumber": "7567"
+          },
           {
             "address": {
               "city": "DALTON",
@@ -11096,13 +12183,6 @@
               "zip": "30720"
             },
             "appointmentAvailability": [
-              {
-                "date": "2021-02-27",
-                "day": "Saturday",
-                "slots": [
-                  "10:45 am"
-                ]
-              },
               {
                 "date": "2021-02-28",
                 "day": "Sunday",
@@ -11119,6 +12199,42 @@
               {
                 "date": "2021-03-01",
                 "day": "Monday",
+                "slots": [
+                  "09:15 am",
+                  "09:30 am",
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "11:00 am",
+                  "11:15 am",
+                  "11:30 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "02:15 pm",
+                  "02:30 pm",
+                  "02:45 pm",
+                  "03:00 pm",
+                  "03:15 pm",
+                  "03:30 pm",
+                  "03:45 pm",
+                  "04:00 pm",
+                  "04:15 pm",
+                  "04:30 pm",
+                  "04:45 pm",
+                  "05:00 pm",
+                  "05:15 pm",
+                  "05:30 pm"
+                ]
+              },
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
                 "slots": [
                   "09:15 am",
                   "09:30 am",
@@ -11224,6 +12340,42 @@
                   "04:30 pm",
                   "04:45 pm"
                 ]
+              },
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "09:15 am",
+                  "09:30 am",
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "11:00 am",
+                  "11:15 am",
+                  "11:30 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "02:15 pm",
+                  "02:30 pm",
+                  "02:45 pm",
+                  "03:00 pm",
+                  "03:15 pm",
+                  "03:30 pm",
+                  "03:45 pm",
+                  "04:00 pm",
+                  "04:15 pm",
+                  "04:30 pm",
+                  "04:45 pm",
+                  "05:00 pm",
+                  "05:15 pm",
+                  "05:30 pm"
+                ]
               }
             ],
             "categories": [
@@ -11280,6 +12432,69 @@
         "locations": [
           {
             "address": {
+              "city": "FT OGLETHORPE",
+              "country": "US",
+              "line1": "1228 BATTLEFIELD PKWY",
+              "line2": "",
+              "state": "GA",
+              "zip": "30742"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "09:15 am",
+                  "09:30 am",
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 8.47,
+            "fhirLocationId": "b831674c-6560-481c-8300-93a9a7d2af30",
+            "locationId": "b831674c-6560-481c-8300-93a9a7d2af30",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "7567",
+            "phone": [
+              {
+                "number": "706-861-7284",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "706-861-7284",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 34.951644,
+              "longitude": -85.2443
+            },
+            "storenumber": "7567"
+          },
+          {
+            "address": {
               "city": "DALTON",
               "country": "US",
               "line1": "1247 W WALNUT AVE",
@@ -11288,13 +12503,6 @@
               "zip": "30720"
             },
             "appointmentAvailability": [
-              {
-                "date": "2021-02-27",
-                "day": "Saturday",
-                "slots": [
-                  "10:45 am"
-                ]
-              },
               {
                 "date": "2021-02-28",
                 "day": "Sunday",
@@ -11343,6 +12551,42 @@
                   "05:15 pm",
                   "05:30 pm"
                 ]
+              },
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "09:15 am",
+                  "09:30 am",
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "11:00 am",
+                  "11:15 am",
+                  "11:30 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "02:15 pm",
+                  "02:30 pm",
+                  "02:45 pm",
+                  "03:00 pm",
+                  "03:15 pm",
+                  "03:30 pm",
+                  "03:45 pm",
+                  "04:00 pm",
+                  "04:15 pm",
+                  "04:30 pm",
+                  "04:45 pm",
+                  "05:00 pm",
+                  "05:15 pm",
+                  "05:30 pm"
+                ]
               }
             ],
             "categories": [
@@ -11358,7 +12602,7 @@
               }
             ],
             "description": "",
-            "distance": 7.19,
+            "distance": 19.51,
             "fhirLocationId": "59486563-f2be-4a85-9dd3-51a2bada8563",
             "locationId": "59486563-f2be-4a85-9dd3-51a2bada8563",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -11416,6 +12660,42 @@
                   "04:30 pm",
                   "04:45 pm"
                 ]
+              },
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "09:15 am",
+                  "09:30 am",
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "11:00 am",
+                  "11:15 am",
+                  "11:30 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "02:15 pm",
+                  "02:30 pm",
+                  "02:45 pm",
+                  "03:00 pm",
+                  "03:15 pm",
+                  "03:30 pm",
+                  "03:45 pm",
+                  "04:00 pm",
+                  "04:15 pm",
+                  "04:30 pm",
+                  "04:45 pm",
+                  "05:00 pm",
+                  "05:15 pm",
+                  "05:30 pm"
+                ]
               }
             ],
             "categories": [
@@ -11431,7 +12711,7 @@
               }
             ],
             "description": "",
-            "distance": 4.48,
+            "distance": 20.71,
             "fhirLocationId": "3c1f1e95-bda6-4b9b-ac43-a75a4184203d",
             "locationId": "3c1f1e95-bda6-4b9b-ac43-a75a4184203d",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -11475,10 +12755,73 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T04:51:37.289+00:00",
+    "appointments_last_fetched": "2021-02-27T05:07:07.121+00:00",
     "appointments_raw": {
       "both_doses": {
         "locations": [
+          {
+            "address": {
+              "city": "FT OGLETHORPE",
+              "country": "US",
+              "line1": "1228 BATTLEFIELD PKWY",
+              "line2": "",
+              "state": "GA",
+              "zip": "30742"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "09:15 am",
+                  "09:30 am",
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 8.47,
+            "fhirLocationId": "b831674c-6560-481c-8300-93a9a7d2af30",
+            "locationId": "b831674c-6560-481c-8300-93a9a7d2af30",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "7567",
+            "phone": [
+              {
+                "number": "706-861-7284",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "706-861-7284",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 34.951644,
+              "longitude": -85.2443
+            },
+            "storenumber": "7567"
+          },
           {
             "address": {
               "city": "DALTON",
@@ -11489,13 +12832,6 @@
               "zip": "30720"
             },
             "appointmentAvailability": [
-              {
-                "date": "2021-02-27",
-                "day": "Saturday",
-                "slots": [
-                  "10:45 am"
-                ]
-              },
               {
                 "date": "2021-02-28",
                 "day": "Sunday",
@@ -11512,6 +12848,42 @@
               {
                 "date": "2021-03-01",
                 "day": "Monday",
+                "slots": [
+                  "09:15 am",
+                  "09:30 am",
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "11:00 am",
+                  "11:15 am",
+                  "11:30 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "02:15 pm",
+                  "02:30 pm",
+                  "02:45 pm",
+                  "03:00 pm",
+                  "03:15 pm",
+                  "03:30 pm",
+                  "03:45 pm",
+                  "04:00 pm",
+                  "04:15 pm",
+                  "04:30 pm",
+                  "04:45 pm",
+                  "05:00 pm",
+                  "05:15 pm",
+                  "05:30 pm"
+                ]
+              },
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
                 "slots": [
                   "09:15 am",
                   "09:30 am",
@@ -11617,6 +12989,42 @@
                   "04:30 pm",
                   "04:45 pm"
                 ]
+              },
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "09:15 am",
+                  "09:30 am",
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "11:00 am",
+                  "11:15 am",
+                  "11:30 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "02:15 pm",
+                  "02:30 pm",
+                  "02:45 pm",
+                  "03:00 pm",
+                  "03:15 pm",
+                  "03:30 pm",
+                  "03:45 pm",
+                  "04:00 pm",
+                  "04:15 pm",
+                  "04:30 pm",
+                  "04:45 pm",
+                  "05:00 pm",
+                  "05:15 pm",
+                  "05:30 pm"
+                ]
               }
             ],
             "categories": [
@@ -11673,6 +13081,69 @@
         "locations": [
           {
             "address": {
+              "city": "FT OGLETHORPE",
+              "country": "US",
+              "line1": "1228 BATTLEFIELD PKWY",
+              "line2": "",
+              "state": "GA",
+              "zip": "30742"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "09:15 am",
+                  "09:30 am",
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 8.47,
+            "fhirLocationId": "b831674c-6560-481c-8300-93a9a7d2af30",
+            "locationId": "b831674c-6560-481c-8300-93a9a7d2af30",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "7567",
+            "phone": [
+              {
+                "number": "706-861-7284",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "706-861-7284",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 34.951644,
+              "longitude": -85.2443
+            },
+            "storenumber": "7567"
+          },
+          {
+            "address": {
               "city": "DALTON",
               "country": "US",
               "line1": "1247 W WALNUT AVE",
@@ -11681,13 +13152,6 @@
               "zip": "30720"
             },
             "appointmentAvailability": [
-              {
-                "date": "2021-02-27",
-                "day": "Saturday",
-                "slots": [
-                  "10:45 am"
-                ]
-              },
               {
                 "date": "2021-02-28",
                 "day": "Sunday",
@@ -11736,6 +13200,42 @@
                   "05:15 pm",
                   "05:30 pm"
                 ]
+              },
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "09:15 am",
+                  "09:30 am",
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "11:00 am",
+                  "11:15 am",
+                  "11:30 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "02:15 pm",
+                  "02:30 pm",
+                  "02:45 pm",
+                  "03:00 pm",
+                  "03:15 pm",
+                  "03:30 pm",
+                  "03:45 pm",
+                  "04:00 pm",
+                  "04:15 pm",
+                  "04:30 pm",
+                  "04:45 pm",
+                  "05:00 pm",
+                  "05:15 pm",
+                  "05:30 pm"
+                ]
               }
             ],
             "categories": [
@@ -11751,7 +13251,7 @@
               }
             ],
             "description": "",
-            "distance": 7.19,
+            "distance": 19.51,
             "fhirLocationId": "59486563-f2be-4a85-9dd3-51a2bada8563",
             "locationId": "59486563-f2be-4a85-9dd3-51a2bada8563",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -11809,6 +13309,42 @@
                   "04:30 pm",
                   "04:45 pm"
                 ]
+              },
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "09:15 am",
+                  "09:30 am",
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "11:00 am",
+                  "11:15 am",
+                  "11:30 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "02:15 pm",
+                  "02:30 pm",
+                  "02:45 pm",
+                  "03:00 pm",
+                  "03:15 pm",
+                  "03:30 pm",
+                  "03:45 pm",
+                  "04:00 pm",
+                  "04:15 pm",
+                  "04:30 pm",
+                  "04:45 pm",
+                  "05:00 pm",
+                  "05:15 pm",
+                  "05:30 pm"
+                ]
               }
             ],
             "categories": [
@@ -11824,7 +13360,7 @@
               }
             ],
             "description": "",
-            "distance": 4.48,
+            "distance": 20.71,
             "fhirLocationId": "3c1f1e95-bda6-4b9b-ac43-a75a4184203d",
             "locationId": "3c1f1e95-bda6-4b9b-ac43-a75a4184203d",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -11909,10 +13445,73 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T04:51:37.289+00:00",
+    "appointments_last_fetched": "2021-02-27T05:07:07.121+00:00",
     "appointments_raw": {
       "both_doses": {
         "locations": [
+          {
+            "address": {
+              "city": "FT OGLETHORPE",
+              "country": "US",
+              "line1": "1228 BATTLEFIELD PKWY",
+              "line2": "",
+              "state": "GA",
+              "zip": "30742"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "09:15 am",
+                  "09:30 am",
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 8.47,
+            "fhirLocationId": "b831674c-6560-481c-8300-93a9a7d2af30",
+            "locationId": "b831674c-6560-481c-8300-93a9a7d2af30",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "7567",
+            "phone": [
+              {
+                "number": "706-861-7284",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "706-861-7284",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 34.951644,
+              "longitude": -85.2443
+            },
+            "storenumber": "7567"
+          },
           {
             "address": {
               "city": "DALTON",
@@ -11923,13 +13522,6 @@
               "zip": "30720"
             },
             "appointmentAvailability": [
-              {
-                "date": "2021-02-27",
-                "day": "Saturday",
-                "slots": [
-                  "10:45 am"
-                ]
-              },
               {
                 "date": "2021-02-28",
                 "day": "Sunday",
@@ -11946,6 +13538,42 @@
               {
                 "date": "2021-03-01",
                 "day": "Monday",
+                "slots": [
+                  "09:15 am",
+                  "09:30 am",
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "11:00 am",
+                  "11:15 am",
+                  "11:30 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "02:15 pm",
+                  "02:30 pm",
+                  "02:45 pm",
+                  "03:00 pm",
+                  "03:15 pm",
+                  "03:30 pm",
+                  "03:45 pm",
+                  "04:00 pm",
+                  "04:15 pm",
+                  "04:30 pm",
+                  "04:45 pm",
+                  "05:00 pm",
+                  "05:15 pm",
+                  "05:30 pm"
+                ]
+              },
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
                 "slots": [
                   "09:15 am",
                   "09:30 am",
@@ -12051,6 +13679,42 @@
                   "04:30 pm",
                   "04:45 pm"
                 ]
+              },
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "09:15 am",
+                  "09:30 am",
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "11:00 am",
+                  "11:15 am",
+                  "11:30 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "02:15 pm",
+                  "02:30 pm",
+                  "02:45 pm",
+                  "03:00 pm",
+                  "03:15 pm",
+                  "03:30 pm",
+                  "03:45 pm",
+                  "04:00 pm",
+                  "04:15 pm",
+                  "04:30 pm",
+                  "04:45 pm",
+                  "05:00 pm",
+                  "05:15 pm",
+                  "05:30 pm"
+                ]
               }
             ],
             "categories": [
@@ -12107,6 +13771,69 @@
         "locations": [
           {
             "address": {
+              "city": "FT OGLETHORPE",
+              "country": "US",
+              "line1": "1228 BATTLEFIELD PKWY",
+              "line2": "",
+              "state": "GA",
+              "zip": "30742"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "09:15 am",
+                  "09:30 am",
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 8.47,
+            "fhirLocationId": "b831674c-6560-481c-8300-93a9a7d2af30",
+            "locationId": "b831674c-6560-481c-8300-93a9a7d2af30",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "7567",
+            "phone": [
+              {
+                "number": "706-861-7284",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "706-861-7284",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 34.951644,
+              "longitude": -85.2443
+            },
+            "storenumber": "7567"
+          },
+          {
+            "address": {
               "city": "DALTON",
               "country": "US",
               "line1": "1247 W WALNUT AVE",
@@ -12115,13 +13842,6 @@
               "zip": "30720"
             },
             "appointmentAvailability": [
-              {
-                "date": "2021-02-27",
-                "day": "Saturday",
-                "slots": [
-                  "10:45 am"
-                ]
-              },
               {
                 "date": "2021-02-28",
                 "day": "Sunday",
@@ -12170,6 +13890,42 @@
                   "05:15 pm",
                   "05:30 pm"
                 ]
+              },
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "09:15 am",
+                  "09:30 am",
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "11:00 am",
+                  "11:15 am",
+                  "11:30 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "02:15 pm",
+                  "02:30 pm",
+                  "02:45 pm",
+                  "03:00 pm",
+                  "03:15 pm",
+                  "03:30 pm",
+                  "03:45 pm",
+                  "04:00 pm",
+                  "04:15 pm",
+                  "04:30 pm",
+                  "04:45 pm",
+                  "05:00 pm",
+                  "05:15 pm",
+                  "05:30 pm"
+                ]
               }
             ],
             "categories": [
@@ -12185,7 +13941,7 @@
               }
             ],
             "description": "",
-            "distance": 7.19,
+            "distance": 19.51,
             "fhirLocationId": "59486563-f2be-4a85-9dd3-51a2bada8563",
             "locationId": "59486563-f2be-4a85-9dd3-51a2bada8563",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -12243,6 +13999,42 @@
                   "04:30 pm",
                   "04:45 pm"
                 ]
+              },
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "09:15 am",
+                  "09:30 am",
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "11:00 am",
+                  "11:15 am",
+                  "11:30 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "02:15 pm",
+                  "02:30 pm",
+                  "02:45 pm",
+                  "03:00 pm",
+                  "03:15 pm",
+                  "03:30 pm",
+                  "03:45 pm",
+                  "04:00 pm",
+                  "04:15 pm",
+                  "04:30 pm",
+                  "04:45 pm",
+                  "05:00 pm",
+                  "05:15 pm",
+                  "05:30 pm"
+                ]
               }
             ],
             "categories": [
@@ -12258,7 +14050,7 @@
               }
             ],
             "description": "",
-            "distance": 4.48,
+            "distance": 20.71,
             "fhirLocationId": "3c1f1e95-bda6-4b9b-ac43-a75a4184203d",
             "locationId": "3c1f1e95-bda6-4b9b-ac43-a75a4184203d",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -12343,10 +14135,73 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T04:51:37.289+00:00",
+    "appointments_last_fetched": "2021-02-27T05:07:07.121+00:00",
     "appointments_raw": {
       "both_doses": {
         "locations": [
+          {
+            "address": {
+              "city": "FT OGLETHORPE",
+              "country": "US",
+              "line1": "1228 BATTLEFIELD PKWY",
+              "line2": "",
+              "state": "GA",
+              "zip": "30742"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "09:15 am",
+                  "09:30 am",
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 8.47,
+            "fhirLocationId": "b831674c-6560-481c-8300-93a9a7d2af30",
+            "locationId": "b831674c-6560-481c-8300-93a9a7d2af30",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "7567",
+            "phone": [
+              {
+                "number": "706-861-7284",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "706-861-7284",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 34.951644,
+              "longitude": -85.2443
+            },
+            "storenumber": "7567"
+          },
           {
             "address": {
               "city": "DALTON",
@@ -12357,13 +14212,6 @@
               "zip": "30720"
             },
             "appointmentAvailability": [
-              {
-                "date": "2021-02-27",
-                "day": "Saturday",
-                "slots": [
-                  "10:45 am"
-                ]
-              },
               {
                 "date": "2021-02-28",
                 "day": "Sunday",
@@ -12380,6 +14228,42 @@
               {
                 "date": "2021-03-01",
                 "day": "Monday",
+                "slots": [
+                  "09:15 am",
+                  "09:30 am",
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "11:00 am",
+                  "11:15 am",
+                  "11:30 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "02:15 pm",
+                  "02:30 pm",
+                  "02:45 pm",
+                  "03:00 pm",
+                  "03:15 pm",
+                  "03:30 pm",
+                  "03:45 pm",
+                  "04:00 pm",
+                  "04:15 pm",
+                  "04:30 pm",
+                  "04:45 pm",
+                  "05:00 pm",
+                  "05:15 pm",
+                  "05:30 pm"
+                ]
+              },
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
                 "slots": [
                   "09:15 am",
                   "09:30 am",
@@ -12485,6 +14369,42 @@
                   "04:30 pm",
                   "04:45 pm"
                 ]
+              },
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "09:15 am",
+                  "09:30 am",
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "11:00 am",
+                  "11:15 am",
+                  "11:30 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "02:15 pm",
+                  "02:30 pm",
+                  "02:45 pm",
+                  "03:00 pm",
+                  "03:15 pm",
+                  "03:30 pm",
+                  "03:45 pm",
+                  "04:00 pm",
+                  "04:15 pm",
+                  "04:30 pm",
+                  "04:45 pm",
+                  "05:00 pm",
+                  "05:15 pm",
+                  "05:30 pm"
+                ]
               }
             ],
             "categories": [
@@ -12541,6 +14461,69 @@
         "locations": [
           {
             "address": {
+              "city": "FT OGLETHORPE",
+              "country": "US",
+              "line1": "1228 BATTLEFIELD PKWY",
+              "line2": "",
+              "state": "GA",
+              "zip": "30742"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "09:15 am",
+                  "09:30 am",
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 8.47,
+            "fhirLocationId": "b831674c-6560-481c-8300-93a9a7d2af30",
+            "locationId": "b831674c-6560-481c-8300-93a9a7d2af30",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "7567",
+            "phone": [
+              {
+                "number": "706-861-7284",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "706-861-7284",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 34.951644,
+              "longitude": -85.2443
+            },
+            "storenumber": "7567"
+          },
+          {
+            "address": {
               "city": "DALTON",
               "country": "US",
               "line1": "1247 W WALNUT AVE",
@@ -12549,13 +14532,6 @@
               "zip": "30720"
             },
             "appointmentAvailability": [
-              {
-                "date": "2021-02-27",
-                "day": "Saturday",
-                "slots": [
-                  "10:45 am"
-                ]
-              },
               {
                 "date": "2021-02-28",
                 "day": "Sunday",
@@ -12604,6 +14580,42 @@
                   "05:15 pm",
                   "05:30 pm"
                 ]
+              },
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "09:15 am",
+                  "09:30 am",
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "11:00 am",
+                  "11:15 am",
+                  "11:30 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "02:15 pm",
+                  "02:30 pm",
+                  "02:45 pm",
+                  "03:00 pm",
+                  "03:15 pm",
+                  "03:30 pm",
+                  "03:45 pm",
+                  "04:00 pm",
+                  "04:15 pm",
+                  "04:30 pm",
+                  "04:45 pm",
+                  "05:00 pm",
+                  "05:15 pm",
+                  "05:30 pm"
+                ]
               }
             ],
             "categories": [
@@ -12619,7 +14631,7 @@
               }
             ],
             "description": "",
-            "distance": 7.19,
+            "distance": 19.51,
             "fhirLocationId": "59486563-f2be-4a85-9dd3-51a2bada8563",
             "locationId": "59486563-f2be-4a85-9dd3-51a2bada8563",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -12677,6 +14689,42 @@
                   "04:30 pm",
                   "04:45 pm"
                 ]
+              },
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "09:15 am",
+                  "09:30 am",
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "11:00 am",
+                  "11:15 am",
+                  "11:30 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "02:15 pm",
+                  "02:30 pm",
+                  "02:45 pm",
+                  "03:00 pm",
+                  "03:15 pm",
+                  "03:30 pm",
+                  "03:45 pm",
+                  "04:00 pm",
+                  "04:15 pm",
+                  "04:30 pm",
+                  "04:45 pm",
+                  "05:00 pm",
+                  "05:15 pm",
+                  "05:30 pm"
+                ]
               }
             ],
             "categories": [
@@ -12692,7 +14740,7 @@
               }
             ],
             "description": "",
-            "distance": 4.48,
+            "distance": 20.71,
             "fhirLocationId": "3c1f1e95-bda6-4b9b-ac43-a75a4184203d",
             "locationId": "3c1f1e95-bda6-4b9b-ac43-a75a4184203d",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -12736,10 +14784,73 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T04:51:37.289+00:00",
+    "appointments_last_fetched": "2021-02-27T05:07:07.121+00:00",
     "appointments_raw": {
       "both_doses": {
         "locations": [
+          {
+            "address": {
+              "city": "FT OGLETHORPE",
+              "country": "US",
+              "line1": "1228 BATTLEFIELD PKWY",
+              "line2": "",
+              "state": "GA",
+              "zip": "30742"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "09:15 am",
+                  "09:30 am",
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 8.47,
+            "fhirLocationId": "b831674c-6560-481c-8300-93a9a7d2af30",
+            "locationId": "b831674c-6560-481c-8300-93a9a7d2af30",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "7567",
+            "phone": [
+              {
+                "number": "706-861-7284",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "706-861-7284",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 34.951644,
+              "longitude": -85.2443
+            },
+            "storenumber": "7567"
+          },
           {
             "address": {
               "city": "DALTON",
@@ -12750,13 +14861,6 @@
               "zip": "30720"
             },
             "appointmentAvailability": [
-              {
-                "date": "2021-02-27",
-                "day": "Saturday",
-                "slots": [
-                  "10:45 am"
-                ]
-              },
               {
                 "date": "2021-02-28",
                 "day": "Sunday",
@@ -12773,6 +14877,42 @@
               {
                 "date": "2021-03-01",
                 "day": "Monday",
+                "slots": [
+                  "09:15 am",
+                  "09:30 am",
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "11:00 am",
+                  "11:15 am",
+                  "11:30 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "02:15 pm",
+                  "02:30 pm",
+                  "02:45 pm",
+                  "03:00 pm",
+                  "03:15 pm",
+                  "03:30 pm",
+                  "03:45 pm",
+                  "04:00 pm",
+                  "04:15 pm",
+                  "04:30 pm",
+                  "04:45 pm",
+                  "05:00 pm",
+                  "05:15 pm",
+                  "05:30 pm"
+                ]
+              },
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
                 "slots": [
                   "09:15 am",
                   "09:30 am",
@@ -12878,6 +15018,42 @@
                   "04:30 pm",
                   "04:45 pm"
                 ]
+              },
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "09:15 am",
+                  "09:30 am",
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "11:00 am",
+                  "11:15 am",
+                  "11:30 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "02:15 pm",
+                  "02:30 pm",
+                  "02:45 pm",
+                  "03:00 pm",
+                  "03:15 pm",
+                  "03:30 pm",
+                  "03:45 pm",
+                  "04:00 pm",
+                  "04:15 pm",
+                  "04:30 pm",
+                  "04:45 pm",
+                  "05:00 pm",
+                  "05:15 pm",
+                  "05:30 pm"
+                ]
               }
             ],
             "categories": [
@@ -12934,6 +15110,69 @@
         "locations": [
           {
             "address": {
+              "city": "FT OGLETHORPE",
+              "country": "US",
+              "line1": "1228 BATTLEFIELD PKWY",
+              "line2": "",
+              "state": "GA",
+              "zip": "30742"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "09:15 am",
+                  "09:30 am",
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 8.47,
+            "fhirLocationId": "b831674c-6560-481c-8300-93a9a7d2af30",
+            "locationId": "b831674c-6560-481c-8300-93a9a7d2af30",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "7567",
+            "phone": [
+              {
+                "number": "706-861-7284",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "706-861-7284",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 34.951644,
+              "longitude": -85.2443
+            },
+            "storenumber": "7567"
+          },
+          {
+            "address": {
               "city": "DALTON",
               "country": "US",
               "line1": "1247 W WALNUT AVE",
@@ -12942,13 +15181,6 @@
               "zip": "30720"
             },
             "appointmentAvailability": [
-              {
-                "date": "2021-02-27",
-                "day": "Saturday",
-                "slots": [
-                  "10:45 am"
-                ]
-              },
               {
                 "date": "2021-02-28",
                 "day": "Sunday",
@@ -12997,6 +15229,42 @@
                   "05:15 pm",
                   "05:30 pm"
                 ]
+              },
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "09:15 am",
+                  "09:30 am",
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "11:00 am",
+                  "11:15 am",
+                  "11:30 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "02:15 pm",
+                  "02:30 pm",
+                  "02:45 pm",
+                  "03:00 pm",
+                  "03:15 pm",
+                  "03:30 pm",
+                  "03:45 pm",
+                  "04:00 pm",
+                  "04:15 pm",
+                  "04:30 pm",
+                  "04:45 pm",
+                  "05:00 pm",
+                  "05:15 pm",
+                  "05:30 pm"
+                ]
               }
             ],
             "categories": [
@@ -13012,7 +15280,7 @@
               }
             ],
             "description": "",
-            "distance": 7.19,
+            "distance": 19.51,
             "fhirLocationId": "59486563-f2be-4a85-9dd3-51a2bada8563",
             "locationId": "59486563-f2be-4a85-9dd3-51a2bada8563",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -13070,6 +15338,42 @@
                   "04:30 pm",
                   "04:45 pm"
                 ]
+              },
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "09:15 am",
+                  "09:30 am",
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "11:00 am",
+                  "11:15 am",
+                  "11:30 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "02:15 pm",
+                  "02:30 pm",
+                  "02:45 pm",
+                  "03:00 pm",
+                  "03:15 pm",
+                  "03:30 pm",
+                  "03:45 pm",
+                  "04:00 pm",
+                  "04:15 pm",
+                  "04:30 pm",
+                  "04:45 pm",
+                  "05:00 pm",
+                  "05:15 pm",
+                  "05:30 pm"
+                ]
               }
             ],
             "categories": [
@@ -13085,7 +15389,7 @@
               }
             ],
             "description": "",
-            "distance": 4.48,
+            "distance": 20.71,
             "fhirLocationId": "3c1f1e95-bda6-4b9b-ac43-a75a4184203d",
             "locationId": "3c1f1e95-bda6-4b9b-ac43-a75a4184203d",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -14769,7 +17073,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T04:32:32.868+00:00",
+    "appointments_last_fetched": "2021-02-27T05:05:35.263+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -15589,7 +17893,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T04:48:58.374+00:00",
+    "appointments_last_fetched": "2021-02-27T05:06:49.511+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -15671,7 +17975,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T04:32:32.868+00:00",
+    "appointments_last_fetched": "2021-02-27T05:05:35.263+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [

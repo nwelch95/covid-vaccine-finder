@@ -17514,15 +17514,282 @@
   {
     "address": "90 RIVER ST",
     "appointments": [
+      {
+        "time": "2021-03-02T12:15:00.000-05:00",
+        "type": "both_doses"
+      },
+      {
+        "time": "2021-03-02T12:15:00.000-05:00",
+        "type": "second_dose_pfizer"
+      },
+      {
+        "time": "2021-03-02T12:25:00.000-05:00",
+        "type": "both_doses"
+      },
+      {
+        "time": "2021-03-02T12:25:00.000-05:00",
+        "type": "second_dose_pfizer"
+      }
     ],
-    "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T04:48:38.778+00:00",
+    "appointments_available": true,
+    "appointments_last_fetched": "2021-02-27T05:07:04.498+00:00",
     "appointments_raw": {
       "both_doses": {
-        "error": [
+        "locations": [
           {
-            "code": "FC_904_NoData",
-            "message": "Insufficient inventory."
+            "address": {
+              "city": "REVERE",
+              "country": "US",
+              "line1": "430 BROADWAY",
+              "line2": "",
+              "state": "MA",
+              "zip": "02151"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "12:55 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 2.88,
+            "fhirLocationId": "56aef7ce-74ef-44d7-8def-1afd640edc51",
+            "locationId": "56aef7ce-74ef-44d7-8def-1afd640edc51",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "10824",
+            "phone": [
+              {
+                "number": "781-289-3607",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "781-289-3608",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "781-289-3607",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 42.41118485,
+              "longitude": -71.01270887
+            },
+            "storenumber": "10824"
+          },
+          {
+            "address": {
+              "city": "CHELSEA",
+              "country": "US",
+              "line1": "1010 BROADWAY",
+              "line2": "",
+              "state": "MA",
+              "zip": "02150"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "10:05 am",
+                  "10:15 am",
+                  "10:25 am",
+                  "01:05 pm",
+                  "03:05 pm",
+                  "05:25 pm",
+                  "05:35 pm",
+                  "05:55 pm",
+                  "06:35 pm",
+                  "07:05 pm",
+                  "07:15 pm",
+                  "07:55 pm",
+                  "08:05 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 2.21,
+            "fhirLocationId": "252d86ca-5af3-43bd-9b61-054654671165",
+            "locationId": "252d86ca-5af3-43bd-9b61-054654671165",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "3759",
+            "phone": [
+              {
+                "number": "617-884-0917",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "617-884-0919",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "617-884-0917",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 42.40293046,
+              "longitude": -71.019388
+            },
+            "storenumber": "3759"
+          },
+          {
+            "address": {
+              "city": "ROXBURY",
+              "country": "US",
+              "line1": "416 WARREN ST",
+              "line2": "",
+              "state": "MA",
+              "zip": "02119"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "09:35 am",
+                  "09:45 am",
+                  "12:15 pm",
+                  "12:45 pm",
+                  "01:05 pm",
+                  "02:55 pm",
+                  "03:45 pm",
+                  "04:25 pm",
+                  "04:55 pm",
+                  "08:35 pm",
+                  "08:45 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 4.55,
+            "fhirLocationId": "65b7492e-71fc-4975-bd78-56d8b00bddd6",
+            "locationId": "65b7492e-71fc-4975-bd78-56d8b00bddd6",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "3016",
+            "phone": [
+              {
+                "number": "617-541-0310",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "617-541-0310",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 42.31682779,
+              "longitude": -71.08226
+            },
+            "storenumber": "3016"
+          },
+          {
+            "address": {
+              "city": "MATTAPAN",
+              "country": "US",
+              "line1": "90 RIVER ST",
+              "line2": "",
+              "state": "MA",
+              "zip": "2126"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "12:15 pm",
+                  "12:25 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 7.38,
+            "fhirLocationId": "bb9450a3-dd91-47bf-8906-0e621b917616",
+            "locationId": "bb9450a3-dd91-47bf-8906-0e621b917616",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "17257",
+            "phone": [
+              {
+                "number": "617-298-6634",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "617-298-4940",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "617-298-6634",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 42.27070847,
+              "longitude": -71.07426361
+            },
+            "storenumber": "17257"
           }
         ]
       },
@@ -17535,10 +17802,261 @@
         ]
       },
       "second_dose_pfizer": {
-        "error": [
+        "locations": [
           {
-            "code": "FC_904_NoData",
-            "message": "Insufficient inventory."
+            "address": {
+              "city": "REVERE",
+              "country": "US",
+              "line1": "430 BROADWAY",
+              "line2": "",
+              "state": "MA",
+              "zip": "02151"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "12:55 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 6.64,
+            "fhirLocationId": "56aef7ce-74ef-44d7-8def-1afd640edc51",
+            "locationId": "56aef7ce-74ef-44d7-8def-1afd640edc51",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "10824",
+            "phone": [
+              {
+                "number": "781-289-3607",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "781-289-3608",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "781-289-3607",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 42.41118485,
+              "longitude": -71.01270887
+            },
+            "storenumber": "10824"
+          },
+          {
+            "address": {
+              "city": "CHELSEA",
+              "country": "US",
+              "line1": "1010 BROADWAY",
+              "line2": "",
+              "state": "MA",
+              "zip": "02150"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "10:05 am",
+                  "10:15 am",
+                  "10:25 am",
+                  "01:05 pm",
+                  "03:05 pm",
+                  "05:25 pm",
+                  "05:35 pm",
+                  "05:55 pm",
+                  "06:35 pm",
+                  "07:05 pm",
+                  "07:15 pm",
+                  "07:55 pm",
+                  "08:05 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 5.98,
+            "fhirLocationId": "252d86ca-5af3-43bd-9b61-054654671165",
+            "locationId": "252d86ca-5af3-43bd-9b61-054654671165",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "3759",
+            "phone": [
+              {
+                "number": "617-884-0917",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "617-884-0919",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "617-884-0917",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 42.40293046,
+              "longitude": -71.019388
+            },
+            "storenumber": "3759"
+          },
+          {
+            "address": {
+              "city": "ROXBURY",
+              "country": "US",
+              "line1": "416 WARREN ST",
+              "line2": "",
+              "state": "MA",
+              "zip": "02119"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "09:35 am",
+                  "09:45 am",
+                  "12:15 pm",
+                  "12:45 pm",
+                  "01:05 pm",
+                  "02:55 pm",
+                  "03:45 pm",
+                  "04:25 pm",
+                  "04:55 pm",
+                  "08:35 pm",
+                  "08:45 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 0.96,
+            "fhirLocationId": "65b7492e-71fc-4975-bd78-56d8b00bddd6",
+            "locationId": "65b7492e-71fc-4975-bd78-56d8b00bddd6",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "3016",
+            "phone": [
+              {
+                "number": "617-541-0310",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "617-541-0310",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 42.31682779,
+              "longitude": -71.08226
+            },
+            "storenumber": "3016"
+          },
+          {
+            "address": {
+              "city": "MATTAPAN",
+              "country": "US",
+              "line1": "90 RIVER ST",
+              "line2": "",
+              "state": "MA",
+              "zip": "2126"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "12:15 pm",
+                  "12:25 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 4.17,
+            "fhirLocationId": "bb9450a3-dd91-47bf-8906-0e621b917616",
+            "locationId": "bb9450a3-dd91-47bf-8906-0e621b917616",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "17257",
+            "phone": [
+              {
+                "number": "617-298-6634",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "617-298-4940",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "617-298-6634",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 42.27070847,
+              "longitude": -71.07426361
+            },
+            "storenumber": "17257"
           }
         ]
       }
@@ -17801,15 +18319,354 @@
   {
     "address": "416 WARREN ST",
     "appointments": [
+      {
+        "time": "2021-03-02T09:35:00.000-05:00",
+        "type": "both_doses"
+      },
+      {
+        "time": "2021-03-02T09:35:00.000-05:00",
+        "type": "second_dose_pfizer"
+      },
+      {
+        "time": "2021-03-02T09:45:00.000-05:00",
+        "type": "both_doses"
+      },
+      {
+        "time": "2021-03-02T09:45:00.000-05:00",
+        "type": "second_dose_pfizer"
+      },
+      {
+        "time": "2021-03-02T12:15:00.000-05:00",
+        "type": "both_doses"
+      },
+      {
+        "time": "2021-03-02T12:15:00.000-05:00",
+        "type": "second_dose_pfizer"
+      },
+      {
+        "time": "2021-03-02T12:45:00.000-05:00",
+        "type": "both_doses"
+      },
+      {
+        "time": "2021-03-02T12:45:00.000-05:00",
+        "type": "second_dose_pfizer"
+      },
+      {
+        "time": "2021-03-02T13:05:00.000-05:00",
+        "type": "both_doses"
+      },
+      {
+        "time": "2021-03-02T13:05:00.000-05:00",
+        "type": "second_dose_pfizer"
+      },
+      {
+        "time": "2021-03-02T14:55:00.000-05:00",
+        "type": "both_doses"
+      },
+      {
+        "time": "2021-03-02T14:55:00.000-05:00",
+        "type": "second_dose_pfizer"
+      },
+      {
+        "time": "2021-03-02T15:45:00.000-05:00",
+        "type": "both_doses"
+      },
+      {
+        "time": "2021-03-02T15:45:00.000-05:00",
+        "type": "second_dose_pfizer"
+      },
+      {
+        "time": "2021-03-02T16:25:00.000-05:00",
+        "type": "both_doses"
+      },
+      {
+        "time": "2021-03-02T16:25:00.000-05:00",
+        "type": "second_dose_pfizer"
+      },
+      {
+        "time": "2021-03-02T16:55:00.000-05:00",
+        "type": "both_doses"
+      },
+      {
+        "time": "2021-03-02T16:55:00.000-05:00",
+        "type": "second_dose_pfizer"
+      },
+      {
+        "time": "2021-03-02T20:35:00.000-05:00",
+        "type": "both_doses"
+      },
+      {
+        "time": "2021-03-02T20:35:00.000-05:00",
+        "type": "second_dose_pfizer"
+      },
+      {
+        "time": "2021-03-02T20:45:00.000-05:00",
+        "type": "both_doses"
+      },
+      {
+        "time": "2021-03-02T20:45:00.000-05:00",
+        "type": "second_dose_pfizer"
+      }
     ],
-    "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T04:53:22.499+00:00",
+    "appointments_available": true,
+    "appointments_last_fetched": "2021-02-27T05:07:04.498+00:00",
     "appointments_raw": {
       "both_doses": {
-        "error": [
+        "locations": [
           {
-            "code": "FC_904_NoData",
-            "message": "Insufficient inventory."
+            "address": {
+              "city": "REVERE",
+              "country": "US",
+              "line1": "430 BROADWAY",
+              "line2": "",
+              "state": "MA",
+              "zip": "02151"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "12:55 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 2.88,
+            "fhirLocationId": "56aef7ce-74ef-44d7-8def-1afd640edc51",
+            "locationId": "56aef7ce-74ef-44d7-8def-1afd640edc51",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "10824",
+            "phone": [
+              {
+                "number": "781-289-3607",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "781-289-3608",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "781-289-3607",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 42.41118485,
+              "longitude": -71.01270887
+            },
+            "storenumber": "10824"
+          },
+          {
+            "address": {
+              "city": "CHELSEA",
+              "country": "US",
+              "line1": "1010 BROADWAY",
+              "line2": "",
+              "state": "MA",
+              "zip": "02150"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "10:05 am",
+                  "10:15 am",
+                  "10:25 am",
+                  "01:05 pm",
+                  "03:05 pm",
+                  "05:25 pm",
+                  "05:35 pm",
+                  "05:55 pm",
+                  "06:35 pm",
+                  "07:05 pm",
+                  "07:15 pm",
+                  "07:55 pm",
+                  "08:05 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 2.21,
+            "fhirLocationId": "252d86ca-5af3-43bd-9b61-054654671165",
+            "locationId": "252d86ca-5af3-43bd-9b61-054654671165",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "3759",
+            "phone": [
+              {
+                "number": "617-884-0917",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "617-884-0919",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "617-884-0917",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 42.40293046,
+              "longitude": -71.019388
+            },
+            "storenumber": "3759"
+          },
+          {
+            "address": {
+              "city": "ROXBURY",
+              "country": "US",
+              "line1": "416 WARREN ST",
+              "line2": "",
+              "state": "MA",
+              "zip": "02119"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "09:35 am",
+                  "09:45 am",
+                  "12:15 pm",
+                  "12:45 pm",
+                  "01:05 pm",
+                  "02:55 pm",
+                  "03:45 pm",
+                  "04:25 pm",
+                  "04:55 pm",
+                  "08:35 pm",
+                  "08:45 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 4.55,
+            "fhirLocationId": "65b7492e-71fc-4975-bd78-56d8b00bddd6",
+            "locationId": "65b7492e-71fc-4975-bd78-56d8b00bddd6",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "3016",
+            "phone": [
+              {
+                "number": "617-541-0310",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "617-541-0310",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 42.31682779,
+              "longitude": -71.08226
+            },
+            "storenumber": "3016"
+          },
+          {
+            "address": {
+              "city": "MATTAPAN",
+              "country": "US",
+              "line1": "90 RIVER ST",
+              "line2": "",
+              "state": "MA",
+              "zip": "2126"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "12:15 pm",
+                  "12:25 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 7.38,
+            "fhirLocationId": "bb9450a3-dd91-47bf-8906-0e621b917616",
+            "locationId": "bb9450a3-dd91-47bf-8906-0e621b917616",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "17257",
+            "phone": [
+              {
+                "number": "617-298-6634",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "617-298-4940",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "617-298-6634",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 42.27070847,
+              "longitude": -71.07426361
+            },
+            "storenumber": "17257"
           }
         ]
       },
@@ -17822,10 +18679,261 @@
         ]
       },
       "second_dose_pfizer": {
-        "error": [
+        "locations": [
           {
-            "code": "FC_904_NoData",
-            "message": "Insufficient inventory."
+            "address": {
+              "city": "REVERE",
+              "country": "US",
+              "line1": "430 BROADWAY",
+              "line2": "",
+              "state": "MA",
+              "zip": "02151"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "12:55 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 6.64,
+            "fhirLocationId": "56aef7ce-74ef-44d7-8def-1afd640edc51",
+            "locationId": "56aef7ce-74ef-44d7-8def-1afd640edc51",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "10824",
+            "phone": [
+              {
+                "number": "781-289-3607",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "781-289-3608",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "781-289-3607",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 42.41118485,
+              "longitude": -71.01270887
+            },
+            "storenumber": "10824"
+          },
+          {
+            "address": {
+              "city": "CHELSEA",
+              "country": "US",
+              "line1": "1010 BROADWAY",
+              "line2": "",
+              "state": "MA",
+              "zip": "02150"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "10:05 am",
+                  "10:15 am",
+                  "10:25 am",
+                  "01:05 pm",
+                  "03:05 pm",
+                  "05:25 pm",
+                  "05:35 pm",
+                  "05:55 pm",
+                  "06:35 pm",
+                  "07:05 pm",
+                  "07:15 pm",
+                  "07:55 pm",
+                  "08:05 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 5.98,
+            "fhirLocationId": "252d86ca-5af3-43bd-9b61-054654671165",
+            "locationId": "252d86ca-5af3-43bd-9b61-054654671165",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "3759",
+            "phone": [
+              {
+                "number": "617-884-0917",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "617-884-0919",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "617-884-0917",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 42.40293046,
+              "longitude": -71.019388
+            },
+            "storenumber": "3759"
+          },
+          {
+            "address": {
+              "city": "ROXBURY",
+              "country": "US",
+              "line1": "416 WARREN ST",
+              "line2": "",
+              "state": "MA",
+              "zip": "02119"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "09:35 am",
+                  "09:45 am",
+                  "12:15 pm",
+                  "12:45 pm",
+                  "01:05 pm",
+                  "02:55 pm",
+                  "03:45 pm",
+                  "04:25 pm",
+                  "04:55 pm",
+                  "08:35 pm",
+                  "08:45 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 0.96,
+            "fhirLocationId": "65b7492e-71fc-4975-bd78-56d8b00bddd6",
+            "locationId": "65b7492e-71fc-4975-bd78-56d8b00bddd6",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "3016",
+            "phone": [
+              {
+                "number": "617-541-0310",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "617-541-0310",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 42.31682779,
+              "longitude": -71.08226
+            },
+            "storenumber": "3016"
+          },
+          {
+            "address": {
+              "city": "MATTAPAN",
+              "country": "US",
+              "line1": "90 RIVER ST",
+              "line2": "",
+              "state": "MA",
+              "zip": "2126"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "12:15 pm",
+                  "12:25 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 4.17,
+            "fhirLocationId": "bb9450a3-dd91-47bf-8906-0e621b917616",
+            "locationId": "bb9450a3-dd91-47bf-8906-0e621b917616",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "17257",
+            "phone": [
+              {
+                "number": "617-298-6634",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "617-298-4940",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "617-298-6634",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 42.27070847,
+              "longitude": -71.07426361
+            },
+            "storenumber": "17257"
           }
         ]
       }
@@ -18131,13 +19239,264 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T04:44:51.525+00:00",
+    "appointments_last_fetched": "2021-02-27T05:07:04.498+00:00",
     "appointments_raw": {
       "both_doses": {
-        "error": [
+        "locations": [
           {
-            "code": "FC_904_NoData",
-            "message": "Insufficient inventory."
+            "address": {
+              "city": "REVERE",
+              "country": "US",
+              "line1": "430 BROADWAY",
+              "line2": "",
+              "state": "MA",
+              "zip": "02151"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "12:55 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 2.88,
+            "fhirLocationId": "56aef7ce-74ef-44d7-8def-1afd640edc51",
+            "locationId": "56aef7ce-74ef-44d7-8def-1afd640edc51",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "10824",
+            "phone": [
+              {
+                "number": "781-289-3607",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "781-289-3608",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "781-289-3607",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 42.41118485,
+              "longitude": -71.01270887
+            },
+            "storenumber": "10824"
+          },
+          {
+            "address": {
+              "city": "CHELSEA",
+              "country": "US",
+              "line1": "1010 BROADWAY",
+              "line2": "",
+              "state": "MA",
+              "zip": "02150"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "10:05 am",
+                  "10:15 am",
+                  "10:25 am",
+                  "01:05 pm",
+                  "03:05 pm",
+                  "05:25 pm",
+                  "05:35 pm",
+                  "05:55 pm",
+                  "06:35 pm",
+                  "07:05 pm",
+                  "07:15 pm",
+                  "07:55 pm",
+                  "08:05 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 2.21,
+            "fhirLocationId": "252d86ca-5af3-43bd-9b61-054654671165",
+            "locationId": "252d86ca-5af3-43bd-9b61-054654671165",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "3759",
+            "phone": [
+              {
+                "number": "617-884-0917",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "617-884-0919",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "617-884-0917",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 42.40293046,
+              "longitude": -71.019388
+            },
+            "storenumber": "3759"
+          },
+          {
+            "address": {
+              "city": "ROXBURY",
+              "country": "US",
+              "line1": "416 WARREN ST",
+              "line2": "",
+              "state": "MA",
+              "zip": "02119"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "09:35 am",
+                  "09:45 am",
+                  "12:15 pm",
+                  "12:45 pm",
+                  "01:05 pm",
+                  "02:55 pm",
+                  "03:45 pm",
+                  "04:25 pm",
+                  "04:55 pm",
+                  "08:35 pm",
+                  "08:45 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 4.55,
+            "fhirLocationId": "65b7492e-71fc-4975-bd78-56d8b00bddd6",
+            "locationId": "65b7492e-71fc-4975-bd78-56d8b00bddd6",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "3016",
+            "phone": [
+              {
+                "number": "617-541-0310",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "617-541-0310",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 42.31682779,
+              "longitude": -71.08226
+            },
+            "storenumber": "3016"
+          },
+          {
+            "address": {
+              "city": "MATTAPAN",
+              "country": "US",
+              "line1": "90 RIVER ST",
+              "line2": "",
+              "state": "MA",
+              "zip": "2126"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "12:15 pm",
+                  "12:25 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 7.38,
+            "fhirLocationId": "bb9450a3-dd91-47bf-8906-0e621b917616",
+            "locationId": "bb9450a3-dd91-47bf-8906-0e621b917616",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "17257",
+            "phone": [
+              {
+                "number": "617-298-6634",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "617-298-4940",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "617-298-6634",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 42.27070847,
+              "longitude": -71.07426361
+            },
+            "storenumber": "17257"
           }
         ]
       },
@@ -18150,10 +19509,261 @@
         ]
       },
       "second_dose_pfizer": {
-        "error": [
+        "locations": [
           {
-            "code": "FC_904_NoData",
-            "message": "Insufficient inventory."
+            "address": {
+              "city": "REVERE",
+              "country": "US",
+              "line1": "430 BROADWAY",
+              "line2": "",
+              "state": "MA",
+              "zip": "02151"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "12:55 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 6.64,
+            "fhirLocationId": "56aef7ce-74ef-44d7-8def-1afd640edc51",
+            "locationId": "56aef7ce-74ef-44d7-8def-1afd640edc51",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "10824",
+            "phone": [
+              {
+                "number": "781-289-3607",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "781-289-3608",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "781-289-3607",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 42.41118485,
+              "longitude": -71.01270887
+            },
+            "storenumber": "10824"
+          },
+          {
+            "address": {
+              "city": "CHELSEA",
+              "country": "US",
+              "line1": "1010 BROADWAY",
+              "line2": "",
+              "state": "MA",
+              "zip": "02150"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "10:05 am",
+                  "10:15 am",
+                  "10:25 am",
+                  "01:05 pm",
+                  "03:05 pm",
+                  "05:25 pm",
+                  "05:35 pm",
+                  "05:55 pm",
+                  "06:35 pm",
+                  "07:05 pm",
+                  "07:15 pm",
+                  "07:55 pm",
+                  "08:05 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 5.98,
+            "fhirLocationId": "252d86ca-5af3-43bd-9b61-054654671165",
+            "locationId": "252d86ca-5af3-43bd-9b61-054654671165",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "3759",
+            "phone": [
+              {
+                "number": "617-884-0917",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "617-884-0919",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "617-884-0917",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 42.40293046,
+              "longitude": -71.019388
+            },
+            "storenumber": "3759"
+          },
+          {
+            "address": {
+              "city": "ROXBURY",
+              "country": "US",
+              "line1": "416 WARREN ST",
+              "line2": "",
+              "state": "MA",
+              "zip": "02119"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "09:35 am",
+                  "09:45 am",
+                  "12:15 pm",
+                  "12:45 pm",
+                  "01:05 pm",
+                  "02:55 pm",
+                  "03:45 pm",
+                  "04:25 pm",
+                  "04:55 pm",
+                  "08:35 pm",
+                  "08:45 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 0.96,
+            "fhirLocationId": "65b7492e-71fc-4975-bd78-56d8b00bddd6",
+            "locationId": "65b7492e-71fc-4975-bd78-56d8b00bddd6",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "3016",
+            "phone": [
+              {
+                "number": "617-541-0310",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "617-541-0310",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 42.31682779,
+              "longitude": -71.08226
+            },
+            "storenumber": "3016"
+          },
+          {
+            "address": {
+              "city": "MATTAPAN",
+              "country": "US",
+              "line1": "90 RIVER ST",
+              "line2": "",
+              "state": "MA",
+              "zip": "2126"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "12:15 pm",
+                  "12:25 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 4.17,
+            "fhirLocationId": "bb9450a3-dd91-47bf-8906-0e621b917616",
+            "locationId": "bb9450a3-dd91-47bf-8906-0e621b917616",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "17257",
+            "phone": [
+              {
+                "number": "617-298-6634",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "617-298-4940",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "617-298-6634",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 42.27070847,
+              "longitude": -71.07426361
+            },
+            "storenumber": "17257"
           }
         ]
       }
@@ -19154,15 +20764,370 @@
   {
     "address": "1010 BROADWAY",
     "appointments": [
+      {
+        "time": "2021-03-02T10:05:00.000-05:00",
+        "type": "both_doses"
+      },
+      {
+        "time": "2021-03-02T10:05:00.000-05:00",
+        "type": "second_dose_pfizer"
+      },
+      {
+        "time": "2021-03-02T10:15:00.000-05:00",
+        "type": "both_doses"
+      },
+      {
+        "time": "2021-03-02T10:15:00.000-05:00",
+        "type": "second_dose_pfizer"
+      },
+      {
+        "time": "2021-03-02T10:25:00.000-05:00",
+        "type": "both_doses"
+      },
+      {
+        "time": "2021-03-02T10:25:00.000-05:00",
+        "type": "second_dose_pfizer"
+      },
+      {
+        "time": "2021-03-02T13:05:00.000-05:00",
+        "type": "both_doses"
+      },
+      {
+        "time": "2021-03-02T13:05:00.000-05:00",
+        "type": "second_dose_pfizer"
+      },
+      {
+        "time": "2021-03-02T15:05:00.000-05:00",
+        "type": "both_doses"
+      },
+      {
+        "time": "2021-03-02T15:05:00.000-05:00",
+        "type": "second_dose_pfizer"
+      },
+      {
+        "time": "2021-03-02T17:25:00.000-05:00",
+        "type": "both_doses"
+      },
+      {
+        "time": "2021-03-02T17:25:00.000-05:00",
+        "type": "second_dose_pfizer"
+      },
+      {
+        "time": "2021-03-02T17:35:00.000-05:00",
+        "type": "both_doses"
+      },
+      {
+        "time": "2021-03-02T17:35:00.000-05:00",
+        "type": "second_dose_pfizer"
+      },
+      {
+        "time": "2021-03-02T17:55:00.000-05:00",
+        "type": "both_doses"
+      },
+      {
+        "time": "2021-03-02T17:55:00.000-05:00",
+        "type": "second_dose_pfizer"
+      },
+      {
+        "time": "2021-03-02T18:35:00.000-05:00",
+        "type": "both_doses"
+      },
+      {
+        "time": "2021-03-02T18:35:00.000-05:00",
+        "type": "second_dose_pfizer"
+      },
+      {
+        "time": "2021-03-02T19:05:00.000-05:00",
+        "type": "both_doses"
+      },
+      {
+        "time": "2021-03-02T19:05:00.000-05:00",
+        "type": "second_dose_pfizer"
+      },
+      {
+        "time": "2021-03-02T19:15:00.000-05:00",
+        "type": "both_doses"
+      },
+      {
+        "time": "2021-03-02T19:15:00.000-05:00",
+        "type": "second_dose_pfizer"
+      },
+      {
+        "time": "2021-03-02T19:55:00.000-05:00",
+        "type": "both_doses"
+      },
+      {
+        "time": "2021-03-02T19:55:00.000-05:00",
+        "type": "second_dose_pfizer"
+      },
+      {
+        "time": "2021-03-02T20:05:00.000-05:00",
+        "type": "both_doses"
+      },
+      {
+        "time": "2021-03-02T20:05:00.000-05:00",
+        "type": "second_dose_pfizer"
+      }
     ],
-    "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T04:53:22.499+00:00",
+    "appointments_available": true,
+    "appointments_last_fetched": "2021-02-27T05:07:04.498+00:00",
     "appointments_raw": {
       "both_doses": {
-        "error": [
+        "locations": [
           {
-            "code": "FC_904_NoData",
-            "message": "Insufficient inventory."
+            "address": {
+              "city": "REVERE",
+              "country": "US",
+              "line1": "430 BROADWAY",
+              "line2": "",
+              "state": "MA",
+              "zip": "02151"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "12:55 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 2.88,
+            "fhirLocationId": "56aef7ce-74ef-44d7-8def-1afd640edc51",
+            "locationId": "56aef7ce-74ef-44d7-8def-1afd640edc51",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "10824",
+            "phone": [
+              {
+                "number": "781-289-3607",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "781-289-3608",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "781-289-3607",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 42.41118485,
+              "longitude": -71.01270887
+            },
+            "storenumber": "10824"
+          },
+          {
+            "address": {
+              "city": "CHELSEA",
+              "country": "US",
+              "line1": "1010 BROADWAY",
+              "line2": "",
+              "state": "MA",
+              "zip": "02150"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "10:05 am",
+                  "10:15 am",
+                  "10:25 am",
+                  "01:05 pm",
+                  "03:05 pm",
+                  "05:25 pm",
+                  "05:35 pm",
+                  "05:55 pm",
+                  "06:35 pm",
+                  "07:05 pm",
+                  "07:15 pm",
+                  "07:55 pm",
+                  "08:05 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 2.21,
+            "fhirLocationId": "252d86ca-5af3-43bd-9b61-054654671165",
+            "locationId": "252d86ca-5af3-43bd-9b61-054654671165",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "3759",
+            "phone": [
+              {
+                "number": "617-884-0917",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "617-884-0919",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "617-884-0917",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 42.40293046,
+              "longitude": -71.019388
+            },
+            "storenumber": "3759"
+          },
+          {
+            "address": {
+              "city": "ROXBURY",
+              "country": "US",
+              "line1": "416 WARREN ST",
+              "line2": "",
+              "state": "MA",
+              "zip": "02119"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "09:35 am",
+                  "09:45 am",
+                  "12:15 pm",
+                  "12:45 pm",
+                  "01:05 pm",
+                  "02:55 pm",
+                  "03:45 pm",
+                  "04:25 pm",
+                  "04:55 pm",
+                  "08:35 pm",
+                  "08:45 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 4.55,
+            "fhirLocationId": "65b7492e-71fc-4975-bd78-56d8b00bddd6",
+            "locationId": "65b7492e-71fc-4975-bd78-56d8b00bddd6",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "3016",
+            "phone": [
+              {
+                "number": "617-541-0310",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "617-541-0310",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 42.31682779,
+              "longitude": -71.08226
+            },
+            "storenumber": "3016"
+          },
+          {
+            "address": {
+              "city": "MATTAPAN",
+              "country": "US",
+              "line1": "90 RIVER ST",
+              "line2": "",
+              "state": "MA",
+              "zip": "2126"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "12:15 pm",
+                  "12:25 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 7.38,
+            "fhirLocationId": "bb9450a3-dd91-47bf-8906-0e621b917616",
+            "locationId": "bb9450a3-dd91-47bf-8906-0e621b917616",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "17257",
+            "phone": [
+              {
+                "number": "617-298-6634",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "617-298-4940",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "617-298-6634",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 42.27070847,
+              "longitude": -71.07426361
+            },
+            "storenumber": "17257"
           }
         ]
       },
@@ -19175,10 +21140,261 @@
         ]
       },
       "second_dose_pfizer": {
-        "error": [
+        "locations": [
           {
-            "code": "FC_904_NoData",
-            "message": "Insufficient inventory."
+            "address": {
+              "city": "REVERE",
+              "country": "US",
+              "line1": "430 BROADWAY",
+              "line2": "",
+              "state": "MA",
+              "zip": "02151"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "12:55 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 6.64,
+            "fhirLocationId": "56aef7ce-74ef-44d7-8def-1afd640edc51",
+            "locationId": "56aef7ce-74ef-44d7-8def-1afd640edc51",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "10824",
+            "phone": [
+              {
+                "number": "781-289-3607",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "781-289-3608",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "781-289-3607",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 42.41118485,
+              "longitude": -71.01270887
+            },
+            "storenumber": "10824"
+          },
+          {
+            "address": {
+              "city": "CHELSEA",
+              "country": "US",
+              "line1": "1010 BROADWAY",
+              "line2": "",
+              "state": "MA",
+              "zip": "02150"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "10:05 am",
+                  "10:15 am",
+                  "10:25 am",
+                  "01:05 pm",
+                  "03:05 pm",
+                  "05:25 pm",
+                  "05:35 pm",
+                  "05:55 pm",
+                  "06:35 pm",
+                  "07:05 pm",
+                  "07:15 pm",
+                  "07:55 pm",
+                  "08:05 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 5.98,
+            "fhirLocationId": "252d86ca-5af3-43bd-9b61-054654671165",
+            "locationId": "252d86ca-5af3-43bd-9b61-054654671165",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "3759",
+            "phone": [
+              {
+                "number": "617-884-0917",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "617-884-0919",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "617-884-0917",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 42.40293046,
+              "longitude": -71.019388
+            },
+            "storenumber": "3759"
+          },
+          {
+            "address": {
+              "city": "ROXBURY",
+              "country": "US",
+              "line1": "416 WARREN ST",
+              "line2": "",
+              "state": "MA",
+              "zip": "02119"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "09:35 am",
+                  "09:45 am",
+                  "12:15 pm",
+                  "12:45 pm",
+                  "01:05 pm",
+                  "02:55 pm",
+                  "03:45 pm",
+                  "04:25 pm",
+                  "04:55 pm",
+                  "08:35 pm",
+                  "08:45 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 0.96,
+            "fhirLocationId": "65b7492e-71fc-4975-bd78-56d8b00bddd6",
+            "locationId": "65b7492e-71fc-4975-bd78-56d8b00bddd6",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "3016",
+            "phone": [
+              {
+                "number": "617-541-0310",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "617-541-0310",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 42.31682779,
+              "longitude": -71.08226
+            },
+            "storenumber": "3016"
+          },
+          {
+            "address": {
+              "city": "MATTAPAN",
+              "country": "US",
+              "line1": "90 RIVER ST",
+              "line2": "",
+              "state": "MA",
+              "zip": "2126"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "12:15 pm",
+                  "12:25 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 4.17,
+            "fhirLocationId": "bb9450a3-dd91-47bf-8906-0e621b917616",
+            "locationId": "bb9450a3-dd91-47bf-8906-0e621b917616",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "17257",
+            "phone": [
+              {
+                "number": "617-298-6634",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "617-298-4940",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "617-298-6634",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 42.27070847,
+              "longitude": -71.07426361
+            },
+            "storenumber": "17257"
           }
         ]
       }
@@ -19359,15 +21575,274 @@
   {
     "address": "430 BROADWAY",
     "appointments": [
+      {
+        "time": "2021-03-02T12:55:00.000-05:00",
+        "type": "both_doses"
+      },
+      {
+        "time": "2021-03-02T12:55:00.000-05:00",
+        "type": "second_dose_pfizer"
+      }
     ],
-    "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T04:53:22.499+00:00",
+    "appointments_available": true,
+    "appointments_last_fetched": "2021-02-27T05:07:04.498+00:00",
     "appointments_raw": {
       "both_doses": {
-        "error": [
+        "locations": [
           {
-            "code": "FC_904_NoData",
-            "message": "Insufficient inventory."
+            "address": {
+              "city": "REVERE",
+              "country": "US",
+              "line1": "430 BROADWAY",
+              "line2": "",
+              "state": "MA",
+              "zip": "02151"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "12:55 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 2.88,
+            "fhirLocationId": "56aef7ce-74ef-44d7-8def-1afd640edc51",
+            "locationId": "56aef7ce-74ef-44d7-8def-1afd640edc51",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "10824",
+            "phone": [
+              {
+                "number": "781-289-3607",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "781-289-3608",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "781-289-3607",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 42.41118485,
+              "longitude": -71.01270887
+            },
+            "storenumber": "10824"
+          },
+          {
+            "address": {
+              "city": "CHELSEA",
+              "country": "US",
+              "line1": "1010 BROADWAY",
+              "line2": "",
+              "state": "MA",
+              "zip": "02150"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "10:05 am",
+                  "10:15 am",
+                  "10:25 am",
+                  "01:05 pm",
+                  "03:05 pm",
+                  "05:25 pm",
+                  "05:35 pm",
+                  "05:55 pm",
+                  "06:35 pm",
+                  "07:05 pm",
+                  "07:15 pm",
+                  "07:55 pm",
+                  "08:05 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 2.21,
+            "fhirLocationId": "252d86ca-5af3-43bd-9b61-054654671165",
+            "locationId": "252d86ca-5af3-43bd-9b61-054654671165",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "3759",
+            "phone": [
+              {
+                "number": "617-884-0917",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "617-884-0919",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "617-884-0917",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 42.40293046,
+              "longitude": -71.019388
+            },
+            "storenumber": "3759"
+          },
+          {
+            "address": {
+              "city": "ROXBURY",
+              "country": "US",
+              "line1": "416 WARREN ST",
+              "line2": "",
+              "state": "MA",
+              "zip": "02119"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "09:35 am",
+                  "09:45 am",
+                  "12:15 pm",
+                  "12:45 pm",
+                  "01:05 pm",
+                  "02:55 pm",
+                  "03:45 pm",
+                  "04:25 pm",
+                  "04:55 pm",
+                  "08:35 pm",
+                  "08:45 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 4.55,
+            "fhirLocationId": "65b7492e-71fc-4975-bd78-56d8b00bddd6",
+            "locationId": "65b7492e-71fc-4975-bd78-56d8b00bddd6",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "3016",
+            "phone": [
+              {
+                "number": "617-541-0310",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "617-541-0310",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 42.31682779,
+              "longitude": -71.08226
+            },
+            "storenumber": "3016"
+          },
+          {
+            "address": {
+              "city": "MATTAPAN",
+              "country": "US",
+              "line1": "90 RIVER ST",
+              "line2": "",
+              "state": "MA",
+              "zip": "2126"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "12:15 pm",
+                  "12:25 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 7.38,
+            "fhirLocationId": "bb9450a3-dd91-47bf-8906-0e621b917616",
+            "locationId": "bb9450a3-dd91-47bf-8906-0e621b917616",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "17257",
+            "phone": [
+              {
+                "number": "617-298-6634",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "617-298-4940",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "617-298-6634",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 42.27070847,
+              "longitude": -71.07426361
+            },
+            "storenumber": "17257"
           }
         ]
       },
@@ -19380,10 +21855,261 @@
         ]
       },
       "second_dose_pfizer": {
-        "error": [
+        "locations": [
           {
-            "code": "FC_904_NoData",
-            "message": "Insufficient inventory."
+            "address": {
+              "city": "REVERE",
+              "country": "US",
+              "line1": "430 BROADWAY",
+              "line2": "",
+              "state": "MA",
+              "zip": "02151"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "12:55 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 6.64,
+            "fhirLocationId": "56aef7ce-74ef-44d7-8def-1afd640edc51",
+            "locationId": "56aef7ce-74ef-44d7-8def-1afd640edc51",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "10824",
+            "phone": [
+              {
+                "number": "781-289-3607",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "781-289-3608",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "781-289-3607",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 42.41118485,
+              "longitude": -71.01270887
+            },
+            "storenumber": "10824"
+          },
+          {
+            "address": {
+              "city": "CHELSEA",
+              "country": "US",
+              "line1": "1010 BROADWAY",
+              "line2": "",
+              "state": "MA",
+              "zip": "02150"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "10:05 am",
+                  "10:15 am",
+                  "10:25 am",
+                  "01:05 pm",
+                  "03:05 pm",
+                  "05:25 pm",
+                  "05:35 pm",
+                  "05:55 pm",
+                  "06:35 pm",
+                  "07:05 pm",
+                  "07:15 pm",
+                  "07:55 pm",
+                  "08:05 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 5.98,
+            "fhirLocationId": "252d86ca-5af3-43bd-9b61-054654671165",
+            "locationId": "252d86ca-5af3-43bd-9b61-054654671165",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "3759",
+            "phone": [
+              {
+                "number": "617-884-0917",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "617-884-0919",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "617-884-0917",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 42.40293046,
+              "longitude": -71.019388
+            },
+            "storenumber": "3759"
+          },
+          {
+            "address": {
+              "city": "ROXBURY",
+              "country": "US",
+              "line1": "416 WARREN ST",
+              "line2": "",
+              "state": "MA",
+              "zip": "02119"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "09:35 am",
+                  "09:45 am",
+                  "12:15 pm",
+                  "12:45 pm",
+                  "01:05 pm",
+                  "02:55 pm",
+                  "03:45 pm",
+                  "04:25 pm",
+                  "04:55 pm",
+                  "08:35 pm",
+                  "08:45 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 0.96,
+            "fhirLocationId": "65b7492e-71fc-4975-bd78-56d8b00bddd6",
+            "locationId": "65b7492e-71fc-4975-bd78-56d8b00bddd6",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "3016",
+            "phone": [
+              {
+                "number": "617-541-0310",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "617-541-0310",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 42.31682779,
+              "longitude": -71.08226
+            },
+            "storenumber": "3016"
+          },
+          {
+            "address": {
+              "city": "MATTAPAN",
+              "country": "US",
+              "line1": "90 RIVER ST",
+              "line2": "",
+              "state": "MA",
+              "zip": "2126"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "12:15 pm",
+                  "12:25 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 4.17,
+            "fhirLocationId": "bb9450a3-dd91-47bf-8906-0e621b917616",
+            "locationId": "bb9450a3-dd91-47bf-8906-0e621b917616",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "17257",
+            "phone": [
+              {
+                "number": "617-298-6634",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "617-298-4940",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "617-298-6634",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 42.27070847,
+              "longitude": -71.07426361
+            },
+            "storenumber": "17257"
           }
         ]
       }
@@ -19607,13 +22333,264 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T04:44:51.525+00:00",
+    "appointments_last_fetched": "2021-02-27T05:07:04.498+00:00",
     "appointments_raw": {
       "both_doses": {
-        "error": [
+        "locations": [
           {
-            "code": "FC_904_NoData",
-            "message": "Insufficient inventory."
+            "address": {
+              "city": "REVERE",
+              "country": "US",
+              "line1": "430 BROADWAY",
+              "line2": "",
+              "state": "MA",
+              "zip": "02151"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "12:55 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 2.88,
+            "fhirLocationId": "56aef7ce-74ef-44d7-8def-1afd640edc51",
+            "locationId": "56aef7ce-74ef-44d7-8def-1afd640edc51",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "10824",
+            "phone": [
+              {
+                "number": "781-289-3607",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "781-289-3608",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "781-289-3607",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 42.41118485,
+              "longitude": -71.01270887
+            },
+            "storenumber": "10824"
+          },
+          {
+            "address": {
+              "city": "CHELSEA",
+              "country": "US",
+              "line1": "1010 BROADWAY",
+              "line2": "",
+              "state": "MA",
+              "zip": "02150"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "10:05 am",
+                  "10:15 am",
+                  "10:25 am",
+                  "01:05 pm",
+                  "03:05 pm",
+                  "05:25 pm",
+                  "05:35 pm",
+                  "05:55 pm",
+                  "06:35 pm",
+                  "07:05 pm",
+                  "07:15 pm",
+                  "07:55 pm",
+                  "08:05 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 2.21,
+            "fhirLocationId": "252d86ca-5af3-43bd-9b61-054654671165",
+            "locationId": "252d86ca-5af3-43bd-9b61-054654671165",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "3759",
+            "phone": [
+              {
+                "number": "617-884-0917",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "617-884-0919",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "617-884-0917",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 42.40293046,
+              "longitude": -71.019388
+            },
+            "storenumber": "3759"
+          },
+          {
+            "address": {
+              "city": "ROXBURY",
+              "country": "US",
+              "line1": "416 WARREN ST",
+              "line2": "",
+              "state": "MA",
+              "zip": "02119"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "09:35 am",
+                  "09:45 am",
+                  "12:15 pm",
+                  "12:45 pm",
+                  "01:05 pm",
+                  "02:55 pm",
+                  "03:45 pm",
+                  "04:25 pm",
+                  "04:55 pm",
+                  "08:35 pm",
+                  "08:45 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 4.55,
+            "fhirLocationId": "65b7492e-71fc-4975-bd78-56d8b00bddd6",
+            "locationId": "65b7492e-71fc-4975-bd78-56d8b00bddd6",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "3016",
+            "phone": [
+              {
+                "number": "617-541-0310",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "617-541-0310",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 42.31682779,
+              "longitude": -71.08226
+            },
+            "storenumber": "3016"
+          },
+          {
+            "address": {
+              "city": "MATTAPAN",
+              "country": "US",
+              "line1": "90 RIVER ST",
+              "line2": "",
+              "state": "MA",
+              "zip": "2126"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "12:15 pm",
+                  "12:25 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 7.38,
+            "fhirLocationId": "bb9450a3-dd91-47bf-8906-0e621b917616",
+            "locationId": "bb9450a3-dd91-47bf-8906-0e621b917616",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "17257",
+            "phone": [
+              {
+                "number": "617-298-6634",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "617-298-4940",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "617-298-6634",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 42.27070847,
+              "longitude": -71.07426361
+            },
+            "storenumber": "17257"
           }
         ]
       },
@@ -19626,10 +22603,261 @@
         ]
       },
       "second_dose_pfizer": {
-        "error": [
+        "locations": [
           {
-            "code": "FC_904_NoData",
-            "message": "Insufficient inventory."
+            "address": {
+              "city": "REVERE",
+              "country": "US",
+              "line1": "430 BROADWAY",
+              "line2": "",
+              "state": "MA",
+              "zip": "02151"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "12:55 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 6.64,
+            "fhirLocationId": "56aef7ce-74ef-44d7-8def-1afd640edc51",
+            "locationId": "56aef7ce-74ef-44d7-8def-1afd640edc51",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "10824",
+            "phone": [
+              {
+                "number": "781-289-3607",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "781-289-3608",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "781-289-3607",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 42.41118485,
+              "longitude": -71.01270887
+            },
+            "storenumber": "10824"
+          },
+          {
+            "address": {
+              "city": "CHELSEA",
+              "country": "US",
+              "line1": "1010 BROADWAY",
+              "line2": "",
+              "state": "MA",
+              "zip": "02150"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "10:05 am",
+                  "10:15 am",
+                  "10:25 am",
+                  "01:05 pm",
+                  "03:05 pm",
+                  "05:25 pm",
+                  "05:35 pm",
+                  "05:55 pm",
+                  "06:35 pm",
+                  "07:05 pm",
+                  "07:15 pm",
+                  "07:55 pm",
+                  "08:05 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 5.98,
+            "fhirLocationId": "252d86ca-5af3-43bd-9b61-054654671165",
+            "locationId": "252d86ca-5af3-43bd-9b61-054654671165",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "3759",
+            "phone": [
+              {
+                "number": "617-884-0917",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "617-884-0919",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "617-884-0917",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 42.40293046,
+              "longitude": -71.019388
+            },
+            "storenumber": "3759"
+          },
+          {
+            "address": {
+              "city": "ROXBURY",
+              "country": "US",
+              "line1": "416 WARREN ST",
+              "line2": "",
+              "state": "MA",
+              "zip": "02119"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "09:35 am",
+                  "09:45 am",
+                  "12:15 pm",
+                  "12:45 pm",
+                  "01:05 pm",
+                  "02:55 pm",
+                  "03:45 pm",
+                  "04:25 pm",
+                  "04:55 pm",
+                  "08:35 pm",
+                  "08:45 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 0.96,
+            "fhirLocationId": "65b7492e-71fc-4975-bd78-56d8b00bddd6",
+            "locationId": "65b7492e-71fc-4975-bd78-56d8b00bddd6",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "3016",
+            "phone": [
+              {
+                "number": "617-541-0310",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "617-541-0310",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 42.31682779,
+              "longitude": -71.08226
+            },
+            "storenumber": "3016"
+          },
+          {
+            "address": {
+              "city": "MATTAPAN",
+              "country": "US",
+              "line1": "90 RIVER ST",
+              "line2": "",
+              "state": "MA",
+              "zip": "2126"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "12:15 pm",
+                  "12:25 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 4.17,
+            "fhirLocationId": "bb9450a3-dd91-47bf-8906-0e621b917616",
+            "locationId": "bb9450a3-dd91-47bf-8906-0e621b917616",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "17257",
+            "phone": [
+              {
+                "number": "617-298-6634",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "617-298-4940",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "617-298-6634",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 42.27070847,
+              "longitude": -71.07426361
+            },
+            "storenumber": "17257"
           }
         ]
       }
@@ -20673,13 +23901,264 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T04:44:51.525+00:00",
+    "appointments_last_fetched": "2021-02-27T05:07:04.498+00:00",
     "appointments_raw": {
       "both_doses": {
-        "error": [
+        "locations": [
           {
-            "code": "FC_904_NoData",
-            "message": "Insufficient inventory."
+            "address": {
+              "city": "REVERE",
+              "country": "US",
+              "line1": "430 BROADWAY",
+              "line2": "",
+              "state": "MA",
+              "zip": "02151"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "12:55 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 2.88,
+            "fhirLocationId": "56aef7ce-74ef-44d7-8def-1afd640edc51",
+            "locationId": "56aef7ce-74ef-44d7-8def-1afd640edc51",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "10824",
+            "phone": [
+              {
+                "number": "781-289-3607",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "781-289-3608",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "781-289-3607",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 42.41118485,
+              "longitude": -71.01270887
+            },
+            "storenumber": "10824"
+          },
+          {
+            "address": {
+              "city": "CHELSEA",
+              "country": "US",
+              "line1": "1010 BROADWAY",
+              "line2": "",
+              "state": "MA",
+              "zip": "02150"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "10:05 am",
+                  "10:15 am",
+                  "10:25 am",
+                  "01:05 pm",
+                  "03:05 pm",
+                  "05:25 pm",
+                  "05:35 pm",
+                  "05:55 pm",
+                  "06:35 pm",
+                  "07:05 pm",
+                  "07:15 pm",
+                  "07:55 pm",
+                  "08:05 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 2.21,
+            "fhirLocationId": "252d86ca-5af3-43bd-9b61-054654671165",
+            "locationId": "252d86ca-5af3-43bd-9b61-054654671165",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "3759",
+            "phone": [
+              {
+                "number": "617-884-0917",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "617-884-0919",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "617-884-0917",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 42.40293046,
+              "longitude": -71.019388
+            },
+            "storenumber": "3759"
+          },
+          {
+            "address": {
+              "city": "ROXBURY",
+              "country": "US",
+              "line1": "416 WARREN ST",
+              "line2": "",
+              "state": "MA",
+              "zip": "02119"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "09:35 am",
+                  "09:45 am",
+                  "12:15 pm",
+                  "12:45 pm",
+                  "01:05 pm",
+                  "02:55 pm",
+                  "03:45 pm",
+                  "04:25 pm",
+                  "04:55 pm",
+                  "08:35 pm",
+                  "08:45 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 4.55,
+            "fhirLocationId": "65b7492e-71fc-4975-bd78-56d8b00bddd6",
+            "locationId": "65b7492e-71fc-4975-bd78-56d8b00bddd6",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "3016",
+            "phone": [
+              {
+                "number": "617-541-0310",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "617-541-0310",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 42.31682779,
+              "longitude": -71.08226
+            },
+            "storenumber": "3016"
+          },
+          {
+            "address": {
+              "city": "MATTAPAN",
+              "country": "US",
+              "line1": "90 RIVER ST",
+              "line2": "",
+              "state": "MA",
+              "zip": "2126"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "12:15 pm",
+                  "12:25 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 7.38,
+            "fhirLocationId": "bb9450a3-dd91-47bf-8906-0e621b917616",
+            "locationId": "bb9450a3-dd91-47bf-8906-0e621b917616",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "17257",
+            "phone": [
+              {
+                "number": "617-298-6634",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "617-298-4940",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "617-298-6634",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 42.27070847,
+              "longitude": -71.07426361
+            },
+            "storenumber": "17257"
           }
         ]
       },
@@ -20692,10 +24171,261 @@
         ]
       },
       "second_dose_pfizer": {
-        "error": [
+        "locations": [
           {
-            "code": "FC_904_NoData",
-            "message": "Insufficient inventory."
+            "address": {
+              "city": "REVERE",
+              "country": "US",
+              "line1": "430 BROADWAY",
+              "line2": "",
+              "state": "MA",
+              "zip": "02151"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "12:55 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 6.64,
+            "fhirLocationId": "56aef7ce-74ef-44d7-8def-1afd640edc51",
+            "locationId": "56aef7ce-74ef-44d7-8def-1afd640edc51",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "10824",
+            "phone": [
+              {
+                "number": "781-289-3607",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "781-289-3608",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "781-289-3607",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 42.41118485,
+              "longitude": -71.01270887
+            },
+            "storenumber": "10824"
+          },
+          {
+            "address": {
+              "city": "CHELSEA",
+              "country": "US",
+              "line1": "1010 BROADWAY",
+              "line2": "",
+              "state": "MA",
+              "zip": "02150"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "10:05 am",
+                  "10:15 am",
+                  "10:25 am",
+                  "01:05 pm",
+                  "03:05 pm",
+                  "05:25 pm",
+                  "05:35 pm",
+                  "05:55 pm",
+                  "06:35 pm",
+                  "07:05 pm",
+                  "07:15 pm",
+                  "07:55 pm",
+                  "08:05 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 5.98,
+            "fhirLocationId": "252d86ca-5af3-43bd-9b61-054654671165",
+            "locationId": "252d86ca-5af3-43bd-9b61-054654671165",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "3759",
+            "phone": [
+              {
+                "number": "617-884-0917",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "617-884-0919",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "617-884-0917",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 42.40293046,
+              "longitude": -71.019388
+            },
+            "storenumber": "3759"
+          },
+          {
+            "address": {
+              "city": "ROXBURY",
+              "country": "US",
+              "line1": "416 WARREN ST",
+              "line2": "",
+              "state": "MA",
+              "zip": "02119"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "09:35 am",
+                  "09:45 am",
+                  "12:15 pm",
+                  "12:45 pm",
+                  "01:05 pm",
+                  "02:55 pm",
+                  "03:45 pm",
+                  "04:25 pm",
+                  "04:55 pm",
+                  "08:35 pm",
+                  "08:45 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 0.96,
+            "fhirLocationId": "65b7492e-71fc-4975-bd78-56d8b00bddd6",
+            "locationId": "65b7492e-71fc-4975-bd78-56d8b00bddd6",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "3016",
+            "phone": [
+              {
+                "number": "617-541-0310",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "617-541-0310",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 42.31682779,
+              "longitude": -71.08226
+            },
+            "storenumber": "3016"
+          },
+          {
+            "address": {
+              "city": "MATTAPAN",
+              "country": "US",
+              "line1": "90 RIVER ST",
+              "line2": "",
+              "state": "MA",
+              "zip": "2126"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "12:15 pm",
+                  "12:25 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 4.17,
+            "fhirLocationId": "bb9450a3-dd91-47bf-8906-0e621b917616",
+            "locationId": "bb9450a3-dd91-47bf-8906-0e621b917616",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "17257",
+            "phone": [
+              {
+                "number": "617-298-6634",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "617-298-4940",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "617-298-6634",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 42.27070847,
+              "longitude": -71.07426361
+            },
+            "storenumber": "17257"
           }
         ]
       }
@@ -21124,13 +24854,264 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T04:44:51.525+00:00",
+    "appointments_last_fetched": "2021-02-27T05:07:04.498+00:00",
     "appointments_raw": {
       "both_doses": {
-        "error": [
+        "locations": [
           {
-            "code": "FC_904_NoData",
-            "message": "Insufficient inventory."
+            "address": {
+              "city": "REVERE",
+              "country": "US",
+              "line1": "430 BROADWAY",
+              "line2": "",
+              "state": "MA",
+              "zip": "02151"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "12:55 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 2.88,
+            "fhirLocationId": "56aef7ce-74ef-44d7-8def-1afd640edc51",
+            "locationId": "56aef7ce-74ef-44d7-8def-1afd640edc51",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "10824",
+            "phone": [
+              {
+                "number": "781-289-3607",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "781-289-3608",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "781-289-3607",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 42.41118485,
+              "longitude": -71.01270887
+            },
+            "storenumber": "10824"
+          },
+          {
+            "address": {
+              "city": "CHELSEA",
+              "country": "US",
+              "line1": "1010 BROADWAY",
+              "line2": "",
+              "state": "MA",
+              "zip": "02150"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "10:05 am",
+                  "10:15 am",
+                  "10:25 am",
+                  "01:05 pm",
+                  "03:05 pm",
+                  "05:25 pm",
+                  "05:35 pm",
+                  "05:55 pm",
+                  "06:35 pm",
+                  "07:05 pm",
+                  "07:15 pm",
+                  "07:55 pm",
+                  "08:05 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 2.21,
+            "fhirLocationId": "252d86ca-5af3-43bd-9b61-054654671165",
+            "locationId": "252d86ca-5af3-43bd-9b61-054654671165",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "3759",
+            "phone": [
+              {
+                "number": "617-884-0917",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "617-884-0919",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "617-884-0917",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 42.40293046,
+              "longitude": -71.019388
+            },
+            "storenumber": "3759"
+          },
+          {
+            "address": {
+              "city": "ROXBURY",
+              "country": "US",
+              "line1": "416 WARREN ST",
+              "line2": "",
+              "state": "MA",
+              "zip": "02119"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "09:35 am",
+                  "09:45 am",
+                  "12:15 pm",
+                  "12:45 pm",
+                  "01:05 pm",
+                  "02:55 pm",
+                  "03:45 pm",
+                  "04:25 pm",
+                  "04:55 pm",
+                  "08:35 pm",
+                  "08:45 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 4.55,
+            "fhirLocationId": "65b7492e-71fc-4975-bd78-56d8b00bddd6",
+            "locationId": "65b7492e-71fc-4975-bd78-56d8b00bddd6",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "3016",
+            "phone": [
+              {
+                "number": "617-541-0310",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "617-541-0310",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 42.31682779,
+              "longitude": -71.08226
+            },
+            "storenumber": "3016"
+          },
+          {
+            "address": {
+              "city": "MATTAPAN",
+              "country": "US",
+              "line1": "90 RIVER ST",
+              "line2": "",
+              "state": "MA",
+              "zip": "2126"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "12:15 pm",
+                  "12:25 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 7.38,
+            "fhirLocationId": "bb9450a3-dd91-47bf-8906-0e621b917616",
+            "locationId": "bb9450a3-dd91-47bf-8906-0e621b917616",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "17257",
+            "phone": [
+              {
+                "number": "617-298-6634",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "617-298-4940",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "617-298-6634",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 42.27070847,
+              "longitude": -71.07426361
+            },
+            "storenumber": "17257"
           }
         ]
       },
@@ -21143,10 +25124,261 @@
         ]
       },
       "second_dose_pfizer": {
-        "error": [
+        "locations": [
           {
-            "code": "FC_904_NoData",
-            "message": "Insufficient inventory."
+            "address": {
+              "city": "REVERE",
+              "country": "US",
+              "line1": "430 BROADWAY",
+              "line2": "",
+              "state": "MA",
+              "zip": "02151"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "12:55 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 6.64,
+            "fhirLocationId": "56aef7ce-74ef-44d7-8def-1afd640edc51",
+            "locationId": "56aef7ce-74ef-44d7-8def-1afd640edc51",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "10824",
+            "phone": [
+              {
+                "number": "781-289-3607",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "781-289-3608",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "781-289-3607",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 42.41118485,
+              "longitude": -71.01270887
+            },
+            "storenumber": "10824"
+          },
+          {
+            "address": {
+              "city": "CHELSEA",
+              "country": "US",
+              "line1": "1010 BROADWAY",
+              "line2": "",
+              "state": "MA",
+              "zip": "02150"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "10:05 am",
+                  "10:15 am",
+                  "10:25 am",
+                  "01:05 pm",
+                  "03:05 pm",
+                  "05:25 pm",
+                  "05:35 pm",
+                  "05:55 pm",
+                  "06:35 pm",
+                  "07:05 pm",
+                  "07:15 pm",
+                  "07:55 pm",
+                  "08:05 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 5.98,
+            "fhirLocationId": "252d86ca-5af3-43bd-9b61-054654671165",
+            "locationId": "252d86ca-5af3-43bd-9b61-054654671165",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "3759",
+            "phone": [
+              {
+                "number": "617-884-0917",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "617-884-0919",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "617-884-0917",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 42.40293046,
+              "longitude": -71.019388
+            },
+            "storenumber": "3759"
+          },
+          {
+            "address": {
+              "city": "ROXBURY",
+              "country": "US",
+              "line1": "416 WARREN ST",
+              "line2": "",
+              "state": "MA",
+              "zip": "02119"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "09:35 am",
+                  "09:45 am",
+                  "12:15 pm",
+                  "12:45 pm",
+                  "01:05 pm",
+                  "02:55 pm",
+                  "03:45 pm",
+                  "04:25 pm",
+                  "04:55 pm",
+                  "08:35 pm",
+                  "08:45 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 0.96,
+            "fhirLocationId": "65b7492e-71fc-4975-bd78-56d8b00bddd6",
+            "locationId": "65b7492e-71fc-4975-bd78-56d8b00bddd6",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "3016",
+            "phone": [
+              {
+                "number": "617-541-0310",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "617-541-0310",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 42.31682779,
+              "longitude": -71.08226
+            },
+            "storenumber": "3016"
+          },
+          {
+            "address": {
+              "city": "MATTAPAN",
+              "country": "US",
+              "line1": "90 RIVER ST",
+              "line2": "",
+              "state": "MA",
+              "zip": "2126"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "12:15 pm",
+                  "12:25 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 4.17,
+            "fhirLocationId": "bb9450a3-dd91-47bf-8906-0e621b917616",
+            "locationId": "bb9450a3-dd91-47bf-8906-0e621b917616",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "17257",
+            "phone": [
+              {
+                "number": "617-298-6634",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "617-298-4940",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "617-298-6634",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 42.27070847,
+              "longitude": -71.07426361
+            },
+            "storenumber": "17257"
           }
         ]
       }
@@ -22641,13 +26873,264 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T04:44:51.525+00:00",
+    "appointments_last_fetched": "2021-02-27T05:07:04.498+00:00",
     "appointments_raw": {
       "both_doses": {
-        "error": [
+        "locations": [
           {
-            "code": "FC_904_NoData",
-            "message": "Insufficient inventory."
+            "address": {
+              "city": "REVERE",
+              "country": "US",
+              "line1": "430 BROADWAY",
+              "line2": "",
+              "state": "MA",
+              "zip": "02151"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "12:55 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 2.88,
+            "fhirLocationId": "56aef7ce-74ef-44d7-8def-1afd640edc51",
+            "locationId": "56aef7ce-74ef-44d7-8def-1afd640edc51",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "10824",
+            "phone": [
+              {
+                "number": "781-289-3607",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "781-289-3608",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "781-289-3607",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 42.41118485,
+              "longitude": -71.01270887
+            },
+            "storenumber": "10824"
+          },
+          {
+            "address": {
+              "city": "CHELSEA",
+              "country": "US",
+              "line1": "1010 BROADWAY",
+              "line2": "",
+              "state": "MA",
+              "zip": "02150"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "10:05 am",
+                  "10:15 am",
+                  "10:25 am",
+                  "01:05 pm",
+                  "03:05 pm",
+                  "05:25 pm",
+                  "05:35 pm",
+                  "05:55 pm",
+                  "06:35 pm",
+                  "07:05 pm",
+                  "07:15 pm",
+                  "07:55 pm",
+                  "08:05 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 2.21,
+            "fhirLocationId": "252d86ca-5af3-43bd-9b61-054654671165",
+            "locationId": "252d86ca-5af3-43bd-9b61-054654671165",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "3759",
+            "phone": [
+              {
+                "number": "617-884-0917",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "617-884-0919",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "617-884-0917",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 42.40293046,
+              "longitude": -71.019388
+            },
+            "storenumber": "3759"
+          },
+          {
+            "address": {
+              "city": "ROXBURY",
+              "country": "US",
+              "line1": "416 WARREN ST",
+              "line2": "",
+              "state": "MA",
+              "zip": "02119"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "09:35 am",
+                  "09:45 am",
+                  "12:15 pm",
+                  "12:45 pm",
+                  "01:05 pm",
+                  "02:55 pm",
+                  "03:45 pm",
+                  "04:25 pm",
+                  "04:55 pm",
+                  "08:35 pm",
+                  "08:45 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 4.55,
+            "fhirLocationId": "65b7492e-71fc-4975-bd78-56d8b00bddd6",
+            "locationId": "65b7492e-71fc-4975-bd78-56d8b00bddd6",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "3016",
+            "phone": [
+              {
+                "number": "617-541-0310",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "617-541-0310",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 42.31682779,
+              "longitude": -71.08226
+            },
+            "storenumber": "3016"
+          },
+          {
+            "address": {
+              "city": "MATTAPAN",
+              "country": "US",
+              "line1": "90 RIVER ST",
+              "line2": "",
+              "state": "MA",
+              "zip": "2126"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "12:15 pm",
+                  "12:25 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 7.38,
+            "fhirLocationId": "bb9450a3-dd91-47bf-8906-0e621b917616",
+            "locationId": "bb9450a3-dd91-47bf-8906-0e621b917616",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "17257",
+            "phone": [
+              {
+                "number": "617-298-6634",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "617-298-4940",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "617-298-6634",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 42.27070847,
+              "longitude": -71.07426361
+            },
+            "storenumber": "17257"
           }
         ]
       },
@@ -22660,10 +27143,261 @@
         ]
       },
       "second_dose_pfizer": {
-        "error": [
+        "locations": [
           {
-            "code": "FC_904_NoData",
-            "message": "Insufficient inventory."
+            "address": {
+              "city": "REVERE",
+              "country": "US",
+              "line1": "430 BROADWAY",
+              "line2": "",
+              "state": "MA",
+              "zip": "02151"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "12:55 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 6.64,
+            "fhirLocationId": "56aef7ce-74ef-44d7-8def-1afd640edc51",
+            "locationId": "56aef7ce-74ef-44d7-8def-1afd640edc51",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "10824",
+            "phone": [
+              {
+                "number": "781-289-3607",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "781-289-3608",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "781-289-3607",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 42.41118485,
+              "longitude": -71.01270887
+            },
+            "storenumber": "10824"
+          },
+          {
+            "address": {
+              "city": "CHELSEA",
+              "country": "US",
+              "line1": "1010 BROADWAY",
+              "line2": "",
+              "state": "MA",
+              "zip": "02150"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "10:05 am",
+                  "10:15 am",
+                  "10:25 am",
+                  "01:05 pm",
+                  "03:05 pm",
+                  "05:25 pm",
+                  "05:35 pm",
+                  "05:55 pm",
+                  "06:35 pm",
+                  "07:05 pm",
+                  "07:15 pm",
+                  "07:55 pm",
+                  "08:05 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 5.98,
+            "fhirLocationId": "252d86ca-5af3-43bd-9b61-054654671165",
+            "locationId": "252d86ca-5af3-43bd-9b61-054654671165",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "3759",
+            "phone": [
+              {
+                "number": "617-884-0917",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "617-884-0919",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "617-884-0917",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 42.40293046,
+              "longitude": -71.019388
+            },
+            "storenumber": "3759"
+          },
+          {
+            "address": {
+              "city": "ROXBURY",
+              "country": "US",
+              "line1": "416 WARREN ST",
+              "line2": "",
+              "state": "MA",
+              "zip": "02119"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "09:35 am",
+                  "09:45 am",
+                  "12:15 pm",
+                  "12:45 pm",
+                  "01:05 pm",
+                  "02:55 pm",
+                  "03:45 pm",
+                  "04:25 pm",
+                  "04:55 pm",
+                  "08:35 pm",
+                  "08:45 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 0.96,
+            "fhirLocationId": "65b7492e-71fc-4975-bd78-56d8b00bddd6",
+            "locationId": "65b7492e-71fc-4975-bd78-56d8b00bddd6",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "3016",
+            "phone": [
+              {
+                "number": "617-541-0310",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "617-541-0310",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 42.31682779,
+              "longitude": -71.08226
+            },
+            "storenumber": "3016"
+          },
+          {
+            "address": {
+              "city": "MATTAPAN",
+              "country": "US",
+              "line1": "90 RIVER ST",
+              "line2": "",
+              "state": "MA",
+              "zip": "2126"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "12:15 pm",
+                  "12:25 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 4.17,
+            "fhirLocationId": "bb9450a3-dd91-47bf-8906-0e621b917616",
+            "locationId": "bb9450a3-dd91-47bf-8906-0e621b917616",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "17257",
+            "phone": [
+              {
+                "number": "617-298-6634",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "617-298-4940",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "617-298-6634",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 42.27070847,
+              "longitude": -71.07426361
+            },
+            "storenumber": "17257"
           }
         ]
       }
@@ -22764,13 +27498,264 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T04:44:51.525+00:00",
+    "appointments_last_fetched": "2021-02-27T05:07:04.498+00:00",
     "appointments_raw": {
       "both_doses": {
-        "error": [
+        "locations": [
           {
-            "code": "FC_904_NoData",
-            "message": "Insufficient inventory."
+            "address": {
+              "city": "REVERE",
+              "country": "US",
+              "line1": "430 BROADWAY",
+              "line2": "",
+              "state": "MA",
+              "zip": "02151"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "12:55 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 2.88,
+            "fhirLocationId": "56aef7ce-74ef-44d7-8def-1afd640edc51",
+            "locationId": "56aef7ce-74ef-44d7-8def-1afd640edc51",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "10824",
+            "phone": [
+              {
+                "number": "781-289-3607",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "781-289-3608",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "781-289-3607",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 42.41118485,
+              "longitude": -71.01270887
+            },
+            "storenumber": "10824"
+          },
+          {
+            "address": {
+              "city": "CHELSEA",
+              "country": "US",
+              "line1": "1010 BROADWAY",
+              "line2": "",
+              "state": "MA",
+              "zip": "02150"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "10:05 am",
+                  "10:15 am",
+                  "10:25 am",
+                  "01:05 pm",
+                  "03:05 pm",
+                  "05:25 pm",
+                  "05:35 pm",
+                  "05:55 pm",
+                  "06:35 pm",
+                  "07:05 pm",
+                  "07:15 pm",
+                  "07:55 pm",
+                  "08:05 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 2.21,
+            "fhirLocationId": "252d86ca-5af3-43bd-9b61-054654671165",
+            "locationId": "252d86ca-5af3-43bd-9b61-054654671165",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "3759",
+            "phone": [
+              {
+                "number": "617-884-0917",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "617-884-0919",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "617-884-0917",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 42.40293046,
+              "longitude": -71.019388
+            },
+            "storenumber": "3759"
+          },
+          {
+            "address": {
+              "city": "ROXBURY",
+              "country": "US",
+              "line1": "416 WARREN ST",
+              "line2": "",
+              "state": "MA",
+              "zip": "02119"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "09:35 am",
+                  "09:45 am",
+                  "12:15 pm",
+                  "12:45 pm",
+                  "01:05 pm",
+                  "02:55 pm",
+                  "03:45 pm",
+                  "04:25 pm",
+                  "04:55 pm",
+                  "08:35 pm",
+                  "08:45 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 4.55,
+            "fhirLocationId": "65b7492e-71fc-4975-bd78-56d8b00bddd6",
+            "locationId": "65b7492e-71fc-4975-bd78-56d8b00bddd6",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "3016",
+            "phone": [
+              {
+                "number": "617-541-0310",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "617-541-0310",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 42.31682779,
+              "longitude": -71.08226
+            },
+            "storenumber": "3016"
+          },
+          {
+            "address": {
+              "city": "MATTAPAN",
+              "country": "US",
+              "line1": "90 RIVER ST",
+              "line2": "",
+              "state": "MA",
+              "zip": "2126"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "12:15 pm",
+                  "12:25 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 7.38,
+            "fhirLocationId": "bb9450a3-dd91-47bf-8906-0e621b917616",
+            "locationId": "bb9450a3-dd91-47bf-8906-0e621b917616",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "17257",
+            "phone": [
+              {
+                "number": "617-298-6634",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "617-298-4940",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "617-298-6634",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 42.27070847,
+              "longitude": -71.07426361
+            },
+            "storenumber": "17257"
           }
         ]
       },
@@ -22783,10 +27768,261 @@
         ]
       },
       "second_dose_pfizer": {
-        "error": [
+        "locations": [
           {
-            "code": "FC_904_NoData",
-            "message": "Insufficient inventory."
+            "address": {
+              "city": "REVERE",
+              "country": "US",
+              "line1": "430 BROADWAY",
+              "line2": "",
+              "state": "MA",
+              "zip": "02151"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "12:55 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 6.64,
+            "fhirLocationId": "56aef7ce-74ef-44d7-8def-1afd640edc51",
+            "locationId": "56aef7ce-74ef-44d7-8def-1afd640edc51",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "10824",
+            "phone": [
+              {
+                "number": "781-289-3607",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "781-289-3608",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "781-289-3607",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 42.41118485,
+              "longitude": -71.01270887
+            },
+            "storenumber": "10824"
+          },
+          {
+            "address": {
+              "city": "CHELSEA",
+              "country": "US",
+              "line1": "1010 BROADWAY",
+              "line2": "",
+              "state": "MA",
+              "zip": "02150"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "10:05 am",
+                  "10:15 am",
+                  "10:25 am",
+                  "01:05 pm",
+                  "03:05 pm",
+                  "05:25 pm",
+                  "05:35 pm",
+                  "05:55 pm",
+                  "06:35 pm",
+                  "07:05 pm",
+                  "07:15 pm",
+                  "07:55 pm",
+                  "08:05 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 5.98,
+            "fhirLocationId": "252d86ca-5af3-43bd-9b61-054654671165",
+            "locationId": "252d86ca-5af3-43bd-9b61-054654671165",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "3759",
+            "phone": [
+              {
+                "number": "617-884-0917",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "617-884-0919",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "617-884-0917",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 42.40293046,
+              "longitude": -71.019388
+            },
+            "storenumber": "3759"
+          },
+          {
+            "address": {
+              "city": "ROXBURY",
+              "country": "US",
+              "line1": "416 WARREN ST",
+              "line2": "",
+              "state": "MA",
+              "zip": "02119"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "09:35 am",
+                  "09:45 am",
+                  "12:15 pm",
+                  "12:45 pm",
+                  "01:05 pm",
+                  "02:55 pm",
+                  "03:45 pm",
+                  "04:25 pm",
+                  "04:55 pm",
+                  "08:35 pm",
+                  "08:45 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 0.96,
+            "fhirLocationId": "65b7492e-71fc-4975-bd78-56d8b00bddd6",
+            "locationId": "65b7492e-71fc-4975-bd78-56d8b00bddd6",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "3016",
+            "phone": [
+              {
+                "number": "617-541-0310",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "617-541-0310",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 42.31682779,
+              "longitude": -71.08226
+            },
+            "storenumber": "3016"
+          },
+          {
+            "address": {
+              "city": "MATTAPAN",
+              "country": "US",
+              "line1": "90 RIVER ST",
+              "line2": "",
+              "state": "MA",
+              "zip": "2126"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "12:15 pm",
+                  "12:25 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 4.17,
+            "fhirLocationId": "bb9450a3-dd91-47bf-8906-0e621b917616",
+            "locationId": "bb9450a3-dd91-47bf-8906-0e621b917616",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "17257",
+            "phone": [
+              {
+                "number": "617-298-6634",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "617-298-4940",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "617-298-6634",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 42.27070847,
+              "longitude": -71.07426361
+            },
+            "storenumber": "17257"
           }
         ]
       }
@@ -22928,13 +28164,264 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T04:44:51.525+00:00",
+    "appointments_last_fetched": "2021-02-27T05:07:04.498+00:00",
     "appointments_raw": {
       "both_doses": {
-        "error": [
+        "locations": [
           {
-            "code": "FC_904_NoData",
-            "message": "Insufficient inventory."
+            "address": {
+              "city": "REVERE",
+              "country": "US",
+              "line1": "430 BROADWAY",
+              "line2": "",
+              "state": "MA",
+              "zip": "02151"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "12:55 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 2.88,
+            "fhirLocationId": "56aef7ce-74ef-44d7-8def-1afd640edc51",
+            "locationId": "56aef7ce-74ef-44d7-8def-1afd640edc51",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "10824",
+            "phone": [
+              {
+                "number": "781-289-3607",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "781-289-3608",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "781-289-3607",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 42.41118485,
+              "longitude": -71.01270887
+            },
+            "storenumber": "10824"
+          },
+          {
+            "address": {
+              "city": "CHELSEA",
+              "country": "US",
+              "line1": "1010 BROADWAY",
+              "line2": "",
+              "state": "MA",
+              "zip": "02150"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "10:05 am",
+                  "10:15 am",
+                  "10:25 am",
+                  "01:05 pm",
+                  "03:05 pm",
+                  "05:25 pm",
+                  "05:35 pm",
+                  "05:55 pm",
+                  "06:35 pm",
+                  "07:05 pm",
+                  "07:15 pm",
+                  "07:55 pm",
+                  "08:05 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 2.21,
+            "fhirLocationId": "252d86ca-5af3-43bd-9b61-054654671165",
+            "locationId": "252d86ca-5af3-43bd-9b61-054654671165",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "3759",
+            "phone": [
+              {
+                "number": "617-884-0917",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "617-884-0919",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "617-884-0917",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 42.40293046,
+              "longitude": -71.019388
+            },
+            "storenumber": "3759"
+          },
+          {
+            "address": {
+              "city": "ROXBURY",
+              "country": "US",
+              "line1": "416 WARREN ST",
+              "line2": "",
+              "state": "MA",
+              "zip": "02119"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "09:35 am",
+                  "09:45 am",
+                  "12:15 pm",
+                  "12:45 pm",
+                  "01:05 pm",
+                  "02:55 pm",
+                  "03:45 pm",
+                  "04:25 pm",
+                  "04:55 pm",
+                  "08:35 pm",
+                  "08:45 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 4.55,
+            "fhirLocationId": "65b7492e-71fc-4975-bd78-56d8b00bddd6",
+            "locationId": "65b7492e-71fc-4975-bd78-56d8b00bddd6",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "3016",
+            "phone": [
+              {
+                "number": "617-541-0310",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "617-541-0310",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 42.31682779,
+              "longitude": -71.08226
+            },
+            "storenumber": "3016"
+          },
+          {
+            "address": {
+              "city": "MATTAPAN",
+              "country": "US",
+              "line1": "90 RIVER ST",
+              "line2": "",
+              "state": "MA",
+              "zip": "2126"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "12:15 pm",
+                  "12:25 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 7.38,
+            "fhirLocationId": "bb9450a3-dd91-47bf-8906-0e621b917616",
+            "locationId": "bb9450a3-dd91-47bf-8906-0e621b917616",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "17257",
+            "phone": [
+              {
+                "number": "617-298-6634",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "617-298-4940",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "617-298-6634",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 42.27070847,
+              "longitude": -71.07426361
+            },
+            "storenumber": "17257"
           }
         ]
       },
@@ -22947,10 +28434,261 @@
         ]
       },
       "second_dose_pfizer": {
-        "error": [
+        "locations": [
           {
-            "code": "FC_904_NoData",
-            "message": "Insufficient inventory."
+            "address": {
+              "city": "REVERE",
+              "country": "US",
+              "line1": "430 BROADWAY",
+              "line2": "",
+              "state": "MA",
+              "zip": "02151"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "12:55 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 6.64,
+            "fhirLocationId": "56aef7ce-74ef-44d7-8def-1afd640edc51",
+            "locationId": "56aef7ce-74ef-44d7-8def-1afd640edc51",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "10824",
+            "phone": [
+              {
+                "number": "781-289-3607",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "781-289-3608",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "781-289-3607",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 42.41118485,
+              "longitude": -71.01270887
+            },
+            "storenumber": "10824"
+          },
+          {
+            "address": {
+              "city": "CHELSEA",
+              "country": "US",
+              "line1": "1010 BROADWAY",
+              "line2": "",
+              "state": "MA",
+              "zip": "02150"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "10:05 am",
+                  "10:15 am",
+                  "10:25 am",
+                  "01:05 pm",
+                  "03:05 pm",
+                  "05:25 pm",
+                  "05:35 pm",
+                  "05:55 pm",
+                  "06:35 pm",
+                  "07:05 pm",
+                  "07:15 pm",
+                  "07:55 pm",
+                  "08:05 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 5.98,
+            "fhirLocationId": "252d86ca-5af3-43bd-9b61-054654671165",
+            "locationId": "252d86ca-5af3-43bd-9b61-054654671165",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "3759",
+            "phone": [
+              {
+                "number": "617-884-0917",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "617-884-0919",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "617-884-0917",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 42.40293046,
+              "longitude": -71.019388
+            },
+            "storenumber": "3759"
+          },
+          {
+            "address": {
+              "city": "ROXBURY",
+              "country": "US",
+              "line1": "416 WARREN ST",
+              "line2": "",
+              "state": "MA",
+              "zip": "02119"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "09:35 am",
+                  "09:45 am",
+                  "12:15 pm",
+                  "12:45 pm",
+                  "01:05 pm",
+                  "02:55 pm",
+                  "03:45 pm",
+                  "04:25 pm",
+                  "04:55 pm",
+                  "08:35 pm",
+                  "08:45 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 0.96,
+            "fhirLocationId": "65b7492e-71fc-4975-bd78-56d8b00bddd6",
+            "locationId": "65b7492e-71fc-4975-bd78-56d8b00bddd6",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "3016",
+            "phone": [
+              {
+                "number": "617-541-0310",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "617-541-0310",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 42.31682779,
+              "longitude": -71.08226
+            },
+            "storenumber": "3016"
+          },
+          {
+            "address": {
+              "city": "MATTAPAN",
+              "country": "US",
+              "line1": "90 RIVER ST",
+              "line2": "",
+              "state": "MA",
+              "zip": "2126"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "12:15 pm",
+                  "12:25 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 4.17,
+            "fhirLocationId": "bb9450a3-dd91-47bf-8906-0e621b917616",
+            "locationId": "bb9450a3-dd91-47bf-8906-0e621b917616",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "17257",
+            "phone": [
+              {
+                "number": "617-298-6634",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "617-298-4940",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "617-298-6634",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 42.27070847,
+              "longitude": -71.07426361
+            },
+            "storenumber": "17257"
           }
         ]
       }
