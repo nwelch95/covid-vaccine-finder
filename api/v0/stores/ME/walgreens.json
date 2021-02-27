@@ -44,7 +44,7 @@
       }
     ],
     "appointments_available": true,
-    "appointments_last_fetched": "2021-02-27T10:02:53.619+00:00",
+    "appointments_last_fetched": "2021-02-27T10:05:34.826+00:00",
     "appointments_raw": {
       "both_doses": {
         "locations": [
@@ -83,7 +83,7 @@
               }
             ],
             "description": "",
-            "distance": 21.35,
+            "distance": 15.37,
             "fhirLocationId": "89822d5e-2298-430c-909d-951a80149f6b",
             "locationId": "89822d5e-2298-430c-909d-951a80149f6b",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -121,89 +121,6 @@
         ]
       },
       "second_dose_pfizer": {
-        "locations": [
-          {
-            "address": {
-              "city": "BETHEL",
-              "country": "US",
-              "line1": "28 MAYVILLE ROAD",
-              "line2": "",
-              "state": "ME",
-              "zip": "04217"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "11:45 am",
-                  "12:00 pm",
-                  "12:15 pm",
-                  "02:15 pm",
-                  "02:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 21.35,
-            "fhirLocationId": "89822d5e-2298-430c-909d-951a80149f6b",
-            "locationId": "89822d5e-2298-430c-909d-951a80149f6b",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "19575",
-            "phone": [
-              {
-                "number": "207-824-8085",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "207-824-8086",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "207-824-8085",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 44.41232916,
-              "longitude": -70.79609161
-            },
-            "storenumber": "19575"
-          }
-        ]
-      }
-    },
-    "brand": "walgreens",
-    "brand_id": "19575",
-    "carries_vaccine": null,
-    "city": "BETHEL",
-    "id": 2711388,
-    "name": "Walgreen Drug Store",
-    "postal_code": "04217",
-    "state": "ME"
-  },
-  {
-    "address": "119 BRIDGTON ROAD",
-    "appointments": [
-    ],
-    "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T09:45:35.481+00:00",
-    "appointments_raw": {
-      "both_doses": {
         "locations": [
           {
             "address": {
@@ -268,6 +185,89 @@
             "storenumber": "19575"
           }
         ]
+      }
+    },
+    "brand": "walgreens",
+    "brand_id": "19575",
+    "carries_vaccine": null,
+    "city": "BETHEL",
+    "id": 2711388,
+    "name": "Walgreen Drug Store",
+    "postal_code": "04217",
+    "state": "ME"
+  },
+  {
+    "address": "119 BRIDGTON ROAD",
+    "appointments": [
+    ],
+    "appointments_available": false,
+    "appointments_last_fetched": "2021-02-27T10:05:34.826+00:00",
+    "appointments_raw": {
+      "both_doses": {
+        "locations": [
+          {
+            "address": {
+              "city": "BETHEL",
+              "country": "US",
+              "line1": "28 MAYVILLE ROAD",
+              "line2": "",
+              "state": "ME",
+              "zip": "04217"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "02:15 pm",
+                  "02:30 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 15.37,
+            "fhirLocationId": "89822d5e-2298-430c-909d-951a80149f6b",
+            "locationId": "89822d5e-2298-430c-909d-951a80149f6b",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "19575",
+            "phone": [
+              {
+                "number": "207-824-8085",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "207-824-8086",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "207-824-8085",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 44.41232916,
+              "longitude": -70.79609161
+            },
+            "storenumber": "19575"
+          }
+        ]
       },
       "second_dose_moderna": {
         "error": [
@@ -314,7 +314,7 @@
               }
             ],
             "description": "",
-            "distance": 18.86,
+            "distance": 20.97,
             "fhirLocationId": "89822d5e-2298-430c-909d-951a80149f6b",
             "locationId": "89822d5e-2298-430c-909d-951a80149f6b",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -15586,7 +15586,7 @@
       }
     ],
     "appointments_available": true,
-    "appointments_last_fetched": "2021-02-27T10:02:08.769+00:00",
+    "appointments_last_fetched": "2021-02-27T10:06:02.706+00:00",
     "appointments_raw": {
       "both_doses": {
         "locations": [
@@ -15747,7 +15747,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T09:42:52.649+00:00",
+    "appointments_last_fetched": "2021-02-27T10:06:02.706+00:00",
     "appointments_raw": {
       "both_doses": {
         "locations": [
@@ -15864,7 +15864,7 @@
               }
             ],
             "description": "",
-            "distance": 14.51,
+            "distance": 15.32,
             "fhirLocationId": "94d87109-1ff5-41fa-8e9a-d4459d512bec",
             "locationId": "94d87109-1ff5-41fa-8e9a-d4459d512bec",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
