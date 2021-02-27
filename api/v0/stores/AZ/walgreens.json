@@ -1360,129 +1360,21 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:30:09.598+00:00",
+    "appointments_last_fetched": "2021-02-27T18:53:31.502+00:00",
     "appointments_raw": {
       "both_doses": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "ORO VALLEY",
-              "country": "US",
-              "line1": "12965 N ORACLE RD",
-              "line2": "",
-              "state": "AZ",
-              "zip": "85739"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "06:00 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 23.41,
-            "fhirLocationId": "228bb2bd-afe6-4ad5-9e01-25289b567fcd",
-            "locationId": "228bb2bd-afe6-4ad5-9e01-25289b567fcd",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "3447",
-            "phone": [
-              {
-                "number": "520-825-7747",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "520-825-4483",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "520-825-7747",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 32.44132264,
-              "longitude": -110.93619329
-            },
-            "storenumber": "3447"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       },
       "second_dose_moderna": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "ORO VALLEY",
-              "country": "US",
-              "line1": "12965 N ORACLE RD",
-              "line2": "",
-              "state": "AZ",
-              "zip": "85739"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "06:00 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 23.41,
-            "fhirLocationId": "228bb2bd-afe6-4ad5-9e01-25289b567fcd",
-            "locationId": "228bb2bd-afe6-4ad5-9e01-25289b567fcd",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "3447",
-            "phone": [
-              {
-                "number": "520-825-7747",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "520-825-4483",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "520-825-7747",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 32.44132264,
-              "longitude": -110.93619329
-            },
-            "storenumber": "3447"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       },
@@ -1658,7 +1550,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:32:12.311+00:00",
+    "appointments_last_fetched": "2021-02-27T18:53:05.091+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -2144,139 +2036,23 @@
   {
     "address": "12965 N ORACLE RD",
     "appointments": [
-      {
-        "time": "2021-03-01T18:00:00.000-07:00",
-        "type": "both_doses"
-      },
-      {
-        "time": "2021-03-01T18:00:00.000-07:00",
-        "type": "second_dose_moderna"
-      }
     ],
-    "appointments_available": true,
-    "appointments_last_fetched": "2021-02-27T18:30:20.121+00:00",
+    "appointments_available": false,
+    "appointments_last_fetched": "2021-02-27T18:53:31.502+00:00",
     "appointments_raw": {
       "both_doses": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "ORO VALLEY",
-              "country": "US",
-              "line1": "12965 N ORACLE RD",
-              "line2": "",
-              "state": "AZ",
-              "zip": "85739"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "06:00 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 16.7,
-            "fhirLocationId": "228bb2bd-afe6-4ad5-9e01-25289b567fcd",
-            "locationId": "228bb2bd-afe6-4ad5-9e01-25289b567fcd",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "3447",
-            "phone": [
-              {
-                "number": "520-825-7747",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "520-825-4483",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "520-825-7747",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 32.44132264,
-              "longitude": -110.93619329
-            },
-            "storenumber": "3447"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       },
       "second_dose_moderna": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "ORO VALLEY",
-              "country": "US",
-              "line1": "12965 N ORACLE RD",
-              "line2": "",
-              "state": "AZ",
-              "zip": "85739"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "06:00 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 2.36,
-            "fhirLocationId": "228bb2bd-afe6-4ad5-9e01-25289b567fcd",
-            "locationId": "228bb2bd-afe6-4ad5-9e01-25289b567fcd",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "3447",
-            "phone": [
-              {
-                "number": "520-825-7747",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "520-825-4483",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "520-825-7747",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 32.44132264,
-              "longitude": -110.93619329
-            },
-            "storenumber": "3447"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       },
@@ -2750,129 +2526,21 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:30:09.598+00:00",
+    "appointments_last_fetched": "2021-02-27T18:53:31.502+00:00",
     "appointments_raw": {
       "both_doses": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "ORO VALLEY",
-              "country": "US",
-              "line1": "12965 N ORACLE RD",
-              "line2": "",
-              "state": "AZ",
-              "zip": "85739"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "06:00 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 23.41,
-            "fhirLocationId": "228bb2bd-afe6-4ad5-9e01-25289b567fcd",
-            "locationId": "228bb2bd-afe6-4ad5-9e01-25289b567fcd",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "3447",
-            "phone": [
-              {
-                "number": "520-825-7747",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "520-825-4483",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "520-825-7747",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 32.44132264,
-              "longitude": -110.93619329
-            },
-            "storenumber": "3447"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       },
       "second_dose_moderna": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "ORO VALLEY",
-              "country": "US",
-              "line1": "12965 N ORACLE RD",
-              "line2": "",
-              "state": "AZ",
-              "zip": "85739"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "06:00 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 23.41,
-            "fhirLocationId": "228bb2bd-afe6-4ad5-9e01-25289b567fcd",
-            "locationId": "228bb2bd-afe6-4ad5-9e01-25289b567fcd",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "3447",
-            "phone": [
-              {
-                "number": "520-825-7747",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "520-825-4483",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "520-825-7747",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 32.44132264,
-              "longitude": -110.93619329
-            },
-            "storenumber": "3447"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       },
@@ -2899,129 +2567,21 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:30:09.598+00:00",
+    "appointments_last_fetched": "2021-02-27T18:53:31.502+00:00",
     "appointments_raw": {
       "both_doses": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "ORO VALLEY",
-              "country": "US",
-              "line1": "12965 N ORACLE RD",
-              "line2": "",
-              "state": "AZ",
-              "zip": "85739"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "06:00 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 23.41,
-            "fhirLocationId": "228bb2bd-afe6-4ad5-9e01-25289b567fcd",
-            "locationId": "228bb2bd-afe6-4ad5-9e01-25289b567fcd",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "3447",
-            "phone": [
-              {
-                "number": "520-825-7747",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "520-825-4483",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "520-825-7747",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 32.44132264,
-              "longitude": -110.93619329
-            },
-            "storenumber": "3447"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       },
       "second_dose_moderna": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "ORO VALLEY",
-              "country": "US",
-              "line1": "12965 N ORACLE RD",
-              "line2": "",
-              "state": "AZ",
-              "zip": "85739"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "06:00 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 23.41,
-            "fhirLocationId": "228bb2bd-afe6-4ad5-9e01-25289b567fcd",
-            "locationId": "228bb2bd-afe6-4ad5-9e01-25289b567fcd",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "3447",
-            "phone": [
-              {
-                "number": "520-825-7747",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "520-825-4483",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "520-825-7747",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 32.44132264,
-              "longitude": -110.93619329
-            },
-            "storenumber": "3447"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       },
@@ -3793,129 +3353,21 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:30:09.598+00:00",
+    "appointments_last_fetched": "2021-02-27T18:53:31.502+00:00",
     "appointments_raw": {
       "both_doses": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "ORO VALLEY",
-              "country": "US",
-              "line1": "12965 N ORACLE RD",
-              "line2": "",
-              "state": "AZ",
-              "zip": "85739"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "06:00 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 23.41,
-            "fhirLocationId": "228bb2bd-afe6-4ad5-9e01-25289b567fcd",
-            "locationId": "228bb2bd-afe6-4ad5-9e01-25289b567fcd",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "3447",
-            "phone": [
-              {
-                "number": "520-825-7747",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "520-825-4483",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "520-825-7747",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 32.44132264,
-              "longitude": -110.93619329
-            },
-            "storenumber": "3447"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       },
       "second_dose_moderna": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "ORO VALLEY",
-              "country": "US",
-              "line1": "12965 N ORACLE RD",
-              "line2": "",
-              "state": "AZ",
-              "zip": "85739"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "06:00 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 23.41,
-            "fhirLocationId": "228bb2bd-afe6-4ad5-9e01-25289b567fcd",
-            "locationId": "228bb2bd-afe6-4ad5-9e01-25289b567fcd",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "3447",
-            "phone": [
-              {
-                "number": "520-825-7747",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "520-825-4483",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "520-825-7747",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 32.44132264,
-              "longitude": -110.93619329
-            },
-            "storenumber": "3447"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       },
@@ -3942,129 +3394,21 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:30:09.598+00:00",
+    "appointments_last_fetched": "2021-02-27T18:53:31.502+00:00",
     "appointments_raw": {
       "both_doses": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "ORO VALLEY",
-              "country": "US",
-              "line1": "12965 N ORACLE RD",
-              "line2": "",
-              "state": "AZ",
-              "zip": "85739"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "06:00 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 23.41,
-            "fhirLocationId": "228bb2bd-afe6-4ad5-9e01-25289b567fcd",
-            "locationId": "228bb2bd-afe6-4ad5-9e01-25289b567fcd",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "3447",
-            "phone": [
-              {
-                "number": "520-825-7747",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "520-825-4483",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "520-825-7747",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 32.44132264,
-              "longitude": -110.93619329
-            },
-            "storenumber": "3447"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       },
       "second_dose_moderna": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "ORO VALLEY",
-              "country": "US",
-              "line1": "12965 N ORACLE RD",
-              "line2": "",
-              "state": "AZ",
-              "zip": "85739"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "06:00 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 23.41,
-            "fhirLocationId": "228bb2bd-afe6-4ad5-9e01-25289b567fcd",
-            "locationId": "228bb2bd-afe6-4ad5-9e01-25289b567fcd",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "3447",
-            "phone": [
-              {
-                "number": "520-825-7747",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "520-825-4483",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "520-825-7747",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 32.44132264,
-              "longitude": -110.93619329
-            },
-            "storenumber": "3447"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       },
@@ -4240,129 +3584,21 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:30:09.598+00:00",
+    "appointments_last_fetched": "2021-02-27T18:53:31.502+00:00",
     "appointments_raw": {
       "both_doses": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "ORO VALLEY",
-              "country": "US",
-              "line1": "12965 N ORACLE RD",
-              "line2": "",
-              "state": "AZ",
-              "zip": "85739"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "06:00 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 23.41,
-            "fhirLocationId": "228bb2bd-afe6-4ad5-9e01-25289b567fcd",
-            "locationId": "228bb2bd-afe6-4ad5-9e01-25289b567fcd",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "3447",
-            "phone": [
-              {
-                "number": "520-825-7747",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "520-825-4483",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "520-825-7747",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 32.44132264,
-              "longitude": -110.93619329
-            },
-            "storenumber": "3447"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       },
       "second_dose_moderna": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "ORO VALLEY",
-              "country": "US",
-              "line1": "12965 N ORACLE RD",
-              "line2": "",
-              "state": "AZ",
-              "zip": "85739"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "06:00 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 23.41,
-            "fhirLocationId": "228bb2bd-afe6-4ad5-9e01-25289b567fcd",
-            "locationId": "228bb2bd-afe6-4ad5-9e01-25289b567fcd",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "3447",
-            "phone": [
-              {
-                "number": "520-825-7747",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "520-825-4483",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "520-825-7747",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 32.44132264,
-              "longitude": -110.93619329
-            },
-            "storenumber": "3447"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       },
@@ -4538,129 +3774,21 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:30:09.598+00:00",
+    "appointments_last_fetched": "2021-02-27T18:53:31.502+00:00",
     "appointments_raw": {
       "both_doses": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "ORO VALLEY",
-              "country": "US",
-              "line1": "12965 N ORACLE RD",
-              "line2": "",
-              "state": "AZ",
-              "zip": "85739"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "06:00 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 23.41,
-            "fhirLocationId": "228bb2bd-afe6-4ad5-9e01-25289b567fcd",
-            "locationId": "228bb2bd-afe6-4ad5-9e01-25289b567fcd",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "3447",
-            "phone": [
-              {
-                "number": "520-825-7747",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "520-825-4483",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "520-825-7747",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 32.44132264,
-              "longitude": -110.93619329
-            },
-            "storenumber": "3447"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       },
       "second_dose_moderna": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "ORO VALLEY",
-              "country": "US",
-              "line1": "12965 N ORACLE RD",
-              "line2": "",
-              "state": "AZ",
-              "zip": "85739"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "06:00 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 23.41,
-            "fhirLocationId": "228bb2bd-afe6-4ad5-9e01-25289b567fcd",
-            "locationId": "228bb2bd-afe6-4ad5-9e01-25289b567fcd",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "3447",
-            "phone": [
-              {
-                "number": "520-825-7747",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "520-825-4483",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "520-825-7747",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 32.44132264,
-              "longitude": -110.93619329
-            },
-            "storenumber": "3447"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       },
@@ -4687,129 +3815,21 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:30:09.598+00:00",
+    "appointments_last_fetched": "2021-02-27T18:53:31.502+00:00",
     "appointments_raw": {
       "both_doses": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "ORO VALLEY",
-              "country": "US",
-              "line1": "12965 N ORACLE RD",
-              "line2": "",
-              "state": "AZ",
-              "zip": "85739"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "06:00 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 23.41,
-            "fhirLocationId": "228bb2bd-afe6-4ad5-9e01-25289b567fcd",
-            "locationId": "228bb2bd-afe6-4ad5-9e01-25289b567fcd",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "3447",
-            "phone": [
-              {
-                "number": "520-825-7747",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "520-825-4483",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "520-825-7747",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 32.44132264,
-              "longitude": -110.93619329
-            },
-            "storenumber": "3447"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       },
       "second_dose_moderna": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "ORO VALLEY",
-              "country": "US",
-              "line1": "12965 N ORACLE RD",
-              "line2": "",
-              "state": "AZ",
-              "zip": "85739"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "06:00 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 23.41,
-            "fhirLocationId": "228bb2bd-afe6-4ad5-9e01-25289b567fcd",
-            "locationId": "228bb2bd-afe6-4ad5-9e01-25289b567fcd",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "3447",
-            "phone": [
-              {
-                "number": "520-825-7747",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "520-825-4483",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "520-825-7747",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 32.44132264,
-              "longitude": -110.93619329
-            },
-            "storenumber": "3447"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       },
@@ -4836,129 +3856,21 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:30:09.598+00:00",
+    "appointments_last_fetched": "2021-02-27T18:53:31.502+00:00",
     "appointments_raw": {
       "both_doses": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "ORO VALLEY",
-              "country": "US",
-              "line1": "12965 N ORACLE RD",
-              "line2": "",
-              "state": "AZ",
-              "zip": "85739"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "06:00 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 23.41,
-            "fhirLocationId": "228bb2bd-afe6-4ad5-9e01-25289b567fcd",
-            "locationId": "228bb2bd-afe6-4ad5-9e01-25289b567fcd",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "3447",
-            "phone": [
-              {
-                "number": "520-825-7747",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "520-825-4483",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "520-825-7747",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 32.44132264,
-              "longitude": -110.93619329
-            },
-            "storenumber": "3447"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       },
       "second_dose_moderna": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "ORO VALLEY",
-              "country": "US",
-              "line1": "12965 N ORACLE RD",
-              "line2": "",
-              "state": "AZ",
-              "zip": "85739"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "06:00 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 23.41,
-            "fhirLocationId": "228bb2bd-afe6-4ad5-9e01-25289b567fcd",
-            "locationId": "228bb2bd-afe6-4ad5-9e01-25289b567fcd",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "3447",
-            "phone": [
-              {
-                "number": "520-825-7747",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "520-825-4483",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "520-825-7747",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 32.44132264,
-              "longitude": -110.93619329
-            },
-            "storenumber": "3447"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       },
@@ -4985,129 +3897,21 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:30:09.598+00:00",
+    "appointments_last_fetched": "2021-02-27T18:53:31.502+00:00",
     "appointments_raw": {
       "both_doses": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "ORO VALLEY",
-              "country": "US",
-              "line1": "12965 N ORACLE RD",
-              "line2": "",
-              "state": "AZ",
-              "zip": "85739"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "06:00 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 23.41,
-            "fhirLocationId": "228bb2bd-afe6-4ad5-9e01-25289b567fcd",
-            "locationId": "228bb2bd-afe6-4ad5-9e01-25289b567fcd",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "3447",
-            "phone": [
-              {
-                "number": "520-825-7747",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "520-825-4483",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "520-825-7747",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 32.44132264,
-              "longitude": -110.93619329
-            },
-            "storenumber": "3447"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       },
       "second_dose_moderna": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "ORO VALLEY",
-              "country": "US",
-              "line1": "12965 N ORACLE RD",
-              "line2": "",
-              "state": "AZ",
-              "zip": "85739"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "06:00 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 23.41,
-            "fhirLocationId": "228bb2bd-afe6-4ad5-9e01-25289b567fcd",
-            "locationId": "228bb2bd-afe6-4ad5-9e01-25289b567fcd",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "3447",
-            "phone": [
-              {
-                "number": "520-825-7747",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "520-825-4483",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "520-825-7747",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 32.44132264,
-              "longitude": -110.93619329
-            },
-            "storenumber": "3447"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       },
@@ -5134,129 +3938,21 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:30:09.598+00:00",
+    "appointments_last_fetched": "2021-02-27T18:53:31.502+00:00",
     "appointments_raw": {
       "both_doses": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "ORO VALLEY",
-              "country": "US",
-              "line1": "12965 N ORACLE RD",
-              "line2": "",
-              "state": "AZ",
-              "zip": "85739"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "06:00 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 23.41,
-            "fhirLocationId": "228bb2bd-afe6-4ad5-9e01-25289b567fcd",
-            "locationId": "228bb2bd-afe6-4ad5-9e01-25289b567fcd",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "3447",
-            "phone": [
-              {
-                "number": "520-825-7747",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "520-825-4483",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "520-825-7747",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 32.44132264,
-              "longitude": -110.93619329
-            },
-            "storenumber": "3447"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       },
       "second_dose_moderna": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "ORO VALLEY",
-              "country": "US",
-              "line1": "12965 N ORACLE RD",
-              "line2": "",
-              "state": "AZ",
-              "zip": "85739"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "06:00 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 23.41,
-            "fhirLocationId": "228bb2bd-afe6-4ad5-9e01-25289b567fcd",
-            "locationId": "228bb2bd-afe6-4ad5-9e01-25289b567fcd",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "3447",
-            "phone": [
-              {
-                "number": "520-825-7747",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "520-825-4483",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "520-825-7747",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 32.44132264,
-              "longitude": -110.93619329
-            },
-            "storenumber": "3447"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       },
@@ -5283,129 +3979,21 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:30:09.598+00:00",
+    "appointments_last_fetched": "2021-02-27T18:53:31.502+00:00",
     "appointments_raw": {
       "both_doses": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "ORO VALLEY",
-              "country": "US",
-              "line1": "12965 N ORACLE RD",
-              "line2": "",
-              "state": "AZ",
-              "zip": "85739"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "06:00 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 23.41,
-            "fhirLocationId": "228bb2bd-afe6-4ad5-9e01-25289b567fcd",
-            "locationId": "228bb2bd-afe6-4ad5-9e01-25289b567fcd",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "3447",
-            "phone": [
-              {
-                "number": "520-825-7747",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "520-825-4483",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "520-825-7747",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 32.44132264,
-              "longitude": -110.93619329
-            },
-            "storenumber": "3447"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       },
       "second_dose_moderna": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "ORO VALLEY",
-              "country": "US",
-              "line1": "12965 N ORACLE RD",
-              "line2": "",
-              "state": "AZ",
-              "zip": "85739"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "06:00 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 23.41,
-            "fhirLocationId": "228bb2bd-afe6-4ad5-9e01-25289b567fcd",
-            "locationId": "228bb2bd-afe6-4ad5-9e01-25289b567fcd",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "3447",
-            "phone": [
-              {
-                "number": "520-825-7747",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "520-825-4483",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "520-825-7747",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 32.44132264,
-              "longitude": -110.93619329
-            },
-            "storenumber": "3447"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       },
@@ -5432,129 +4020,21 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:30:09.598+00:00",
+    "appointments_last_fetched": "2021-02-27T18:53:31.502+00:00",
     "appointments_raw": {
       "both_doses": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "ORO VALLEY",
-              "country": "US",
-              "line1": "12965 N ORACLE RD",
-              "line2": "",
-              "state": "AZ",
-              "zip": "85739"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "06:00 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 23.41,
-            "fhirLocationId": "228bb2bd-afe6-4ad5-9e01-25289b567fcd",
-            "locationId": "228bb2bd-afe6-4ad5-9e01-25289b567fcd",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "3447",
-            "phone": [
-              {
-                "number": "520-825-7747",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "520-825-4483",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "520-825-7747",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 32.44132264,
-              "longitude": -110.93619329
-            },
-            "storenumber": "3447"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       },
       "second_dose_moderna": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "ORO VALLEY",
-              "country": "US",
-              "line1": "12965 N ORACLE RD",
-              "line2": "",
-              "state": "AZ",
-              "zip": "85739"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "06:00 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 23.41,
-            "fhirLocationId": "228bb2bd-afe6-4ad5-9e01-25289b567fcd",
-            "locationId": "228bb2bd-afe6-4ad5-9e01-25289b567fcd",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "3447",
-            "phone": [
-              {
-                "number": "520-825-7747",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "520-825-4483",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "520-825-7747",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 32.44132264,
-              "longitude": -110.93619329
-            },
-            "storenumber": "3447"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       },
@@ -5581,129 +4061,21 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:30:09.598+00:00",
+    "appointments_last_fetched": "2021-02-27T18:53:31.502+00:00",
     "appointments_raw": {
       "both_doses": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "ORO VALLEY",
-              "country": "US",
-              "line1": "12965 N ORACLE RD",
-              "line2": "",
-              "state": "AZ",
-              "zip": "85739"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "06:00 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 23.41,
-            "fhirLocationId": "228bb2bd-afe6-4ad5-9e01-25289b567fcd",
-            "locationId": "228bb2bd-afe6-4ad5-9e01-25289b567fcd",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "3447",
-            "phone": [
-              {
-                "number": "520-825-7747",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "520-825-4483",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "520-825-7747",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 32.44132264,
-              "longitude": -110.93619329
-            },
-            "storenumber": "3447"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       },
       "second_dose_moderna": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "ORO VALLEY",
-              "country": "US",
-              "line1": "12965 N ORACLE RD",
-              "line2": "",
-              "state": "AZ",
-              "zip": "85739"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "06:00 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 23.41,
-            "fhirLocationId": "228bb2bd-afe6-4ad5-9e01-25289b567fcd",
-            "locationId": "228bb2bd-afe6-4ad5-9e01-25289b567fcd",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "3447",
-            "phone": [
-              {
-                "number": "520-825-7747",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "520-825-4483",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "520-825-7747",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 32.44132264,
-              "longitude": -110.93619329
-            },
-            "storenumber": "3447"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       },
@@ -5907,129 +4279,21 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:30:09.598+00:00",
+    "appointments_last_fetched": "2021-02-27T18:53:31.502+00:00",
     "appointments_raw": {
       "both_doses": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "ORO VALLEY",
-              "country": "US",
-              "line1": "12965 N ORACLE RD",
-              "line2": "",
-              "state": "AZ",
-              "zip": "85739"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "06:00 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 23.41,
-            "fhirLocationId": "228bb2bd-afe6-4ad5-9e01-25289b567fcd",
-            "locationId": "228bb2bd-afe6-4ad5-9e01-25289b567fcd",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "3447",
-            "phone": [
-              {
-                "number": "520-825-7747",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "520-825-4483",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "520-825-7747",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 32.44132264,
-              "longitude": -110.93619329
-            },
-            "storenumber": "3447"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       },
       "second_dose_moderna": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "ORO VALLEY",
-              "country": "US",
-              "line1": "12965 N ORACLE RD",
-              "line2": "",
-              "state": "AZ",
-              "zip": "85739"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "06:00 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 23.41,
-            "fhirLocationId": "228bb2bd-afe6-4ad5-9e01-25289b567fcd",
-            "locationId": "228bb2bd-afe6-4ad5-9e01-25289b567fcd",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "3447",
-            "phone": [
-              {
-                "number": "520-825-7747",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "520-825-4483",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "520-825-7747",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 32.44132264,
-              "longitude": -110.93619329
-            },
-            "storenumber": "3447"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       },
@@ -6056,7 +4320,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:32:12.311+00:00",
+    "appointments_last_fetched": "2021-02-27T18:53:05.091+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -6097,129 +4361,21 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:30:09.598+00:00",
+    "appointments_last_fetched": "2021-02-27T18:53:31.502+00:00",
     "appointments_raw": {
       "both_doses": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "ORO VALLEY",
-              "country": "US",
-              "line1": "12965 N ORACLE RD",
-              "line2": "",
-              "state": "AZ",
-              "zip": "85739"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "06:00 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 23.41,
-            "fhirLocationId": "228bb2bd-afe6-4ad5-9e01-25289b567fcd",
-            "locationId": "228bb2bd-afe6-4ad5-9e01-25289b567fcd",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "3447",
-            "phone": [
-              {
-                "number": "520-825-7747",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "520-825-4483",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "520-825-7747",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 32.44132264,
-              "longitude": -110.93619329
-            },
-            "storenumber": "3447"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       },
       "second_dose_moderna": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "ORO VALLEY",
-              "country": "US",
-              "line1": "12965 N ORACLE RD",
-              "line2": "",
-              "state": "AZ",
-              "zip": "85739"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "06:00 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 23.41,
-            "fhirLocationId": "228bb2bd-afe6-4ad5-9e01-25289b567fcd",
-            "locationId": "228bb2bd-afe6-4ad5-9e01-25289b567fcd",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "3447",
-            "phone": [
-              {
-                "number": "520-825-7747",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "520-825-4483",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "520-825-7747",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 32.44132264,
-              "longitude": -110.93619329
-            },
-            "storenumber": "3447"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       },
@@ -6246,129 +4402,21 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:30:09.598+00:00",
+    "appointments_last_fetched": "2021-02-27T18:53:31.502+00:00",
     "appointments_raw": {
       "both_doses": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "ORO VALLEY",
-              "country": "US",
-              "line1": "12965 N ORACLE RD",
-              "line2": "",
-              "state": "AZ",
-              "zip": "85739"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "06:00 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 23.41,
-            "fhirLocationId": "228bb2bd-afe6-4ad5-9e01-25289b567fcd",
-            "locationId": "228bb2bd-afe6-4ad5-9e01-25289b567fcd",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "3447",
-            "phone": [
-              {
-                "number": "520-825-7747",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "520-825-4483",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "520-825-7747",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 32.44132264,
-              "longitude": -110.93619329
-            },
-            "storenumber": "3447"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       },
       "second_dose_moderna": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "ORO VALLEY",
-              "country": "US",
-              "line1": "12965 N ORACLE RD",
-              "line2": "",
-              "state": "AZ",
-              "zip": "85739"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "06:00 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 23.41,
-            "fhirLocationId": "228bb2bd-afe6-4ad5-9e01-25289b567fcd",
-            "locationId": "228bb2bd-afe6-4ad5-9e01-25289b567fcd",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "3447",
-            "phone": [
-              {
-                "number": "520-825-7747",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "520-825-4483",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "520-825-7747",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 32.44132264,
-              "longitude": -110.93619329
-            },
-            "storenumber": "3447"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       },
@@ -6395,129 +4443,21 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:30:09.598+00:00",
+    "appointments_last_fetched": "2021-02-27T18:53:31.502+00:00",
     "appointments_raw": {
       "both_doses": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "ORO VALLEY",
-              "country": "US",
-              "line1": "12965 N ORACLE RD",
-              "line2": "",
-              "state": "AZ",
-              "zip": "85739"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "06:00 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 23.41,
-            "fhirLocationId": "228bb2bd-afe6-4ad5-9e01-25289b567fcd",
-            "locationId": "228bb2bd-afe6-4ad5-9e01-25289b567fcd",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "3447",
-            "phone": [
-              {
-                "number": "520-825-7747",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "520-825-4483",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "520-825-7747",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 32.44132264,
-              "longitude": -110.93619329
-            },
-            "storenumber": "3447"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       },
       "second_dose_moderna": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "ORO VALLEY",
-              "country": "US",
-              "line1": "12965 N ORACLE RD",
-              "line2": "",
-              "state": "AZ",
-              "zip": "85739"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "06:00 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 23.41,
-            "fhirLocationId": "228bb2bd-afe6-4ad5-9e01-25289b567fcd",
-            "locationId": "228bb2bd-afe6-4ad5-9e01-25289b567fcd",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "3447",
-            "phone": [
-              {
-                "number": "520-825-7747",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "520-825-4483",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "520-825-7747",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 32.44132264,
-              "longitude": -110.93619329
-            },
-            "storenumber": "3447"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       },
@@ -6544,7 +4484,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:32:12.311+00:00",
+    "appointments_last_fetched": "2021-02-27T18:53:05.091+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -6585,129 +4525,21 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:30:09.598+00:00",
+    "appointments_last_fetched": "2021-02-27T18:53:31.502+00:00",
     "appointments_raw": {
       "both_doses": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "ORO VALLEY",
-              "country": "US",
-              "line1": "12965 N ORACLE RD",
-              "line2": "",
-              "state": "AZ",
-              "zip": "85739"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "06:00 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 23.41,
-            "fhirLocationId": "228bb2bd-afe6-4ad5-9e01-25289b567fcd",
-            "locationId": "228bb2bd-afe6-4ad5-9e01-25289b567fcd",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "3447",
-            "phone": [
-              {
-                "number": "520-825-7747",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "520-825-4483",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "520-825-7747",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 32.44132264,
-              "longitude": -110.93619329
-            },
-            "storenumber": "3447"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       },
       "second_dose_moderna": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "ORO VALLEY",
-              "country": "US",
-              "line1": "12965 N ORACLE RD",
-              "line2": "",
-              "state": "AZ",
-              "zip": "85739"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "06:00 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 23.41,
-            "fhirLocationId": "228bb2bd-afe6-4ad5-9e01-25289b567fcd",
-            "locationId": "228bb2bd-afe6-4ad5-9e01-25289b567fcd",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "3447",
-            "phone": [
-              {
-                "number": "520-825-7747",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "520-825-4483",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "520-825-7747",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 32.44132264,
-              "longitude": -110.93619329
-            },
-            "storenumber": "3447"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       },
@@ -6734,129 +4566,21 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:30:09.598+00:00",
+    "appointments_last_fetched": "2021-02-27T18:53:31.502+00:00",
     "appointments_raw": {
       "both_doses": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "ORO VALLEY",
-              "country": "US",
-              "line1": "12965 N ORACLE RD",
-              "line2": "",
-              "state": "AZ",
-              "zip": "85739"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "06:00 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 23.41,
-            "fhirLocationId": "228bb2bd-afe6-4ad5-9e01-25289b567fcd",
-            "locationId": "228bb2bd-afe6-4ad5-9e01-25289b567fcd",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "3447",
-            "phone": [
-              {
-                "number": "520-825-7747",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "520-825-4483",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "520-825-7747",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 32.44132264,
-              "longitude": -110.93619329
-            },
-            "storenumber": "3447"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       },
       "second_dose_moderna": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "ORO VALLEY",
-              "country": "US",
-              "line1": "12965 N ORACLE RD",
-              "line2": "",
-              "state": "AZ",
-              "zip": "85739"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "06:00 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 23.41,
-            "fhirLocationId": "228bb2bd-afe6-4ad5-9e01-25289b567fcd",
-            "locationId": "228bb2bd-afe6-4ad5-9e01-25289b567fcd",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "3447",
-            "phone": [
-              {
-                "number": "520-825-7747",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "520-825-4483",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "520-825-7747",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 32.44132264,
-              "longitude": -110.93619329
-            },
-            "storenumber": "3447"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       },
@@ -7060,7 +4784,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:39:48.897+00:00",
+    "appointments_last_fetched": "2021-02-27T18:51:27.198+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -7101,7 +4825,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:32:12.311+00:00",
+    "appointments_last_fetched": "2021-02-27T18:53:05.091+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -7673,7 +5397,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:32:12.311+00:00",
+    "appointments_last_fetched": "2021-02-27T18:53:05.091+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -7891,7 +5615,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:32:12.311+00:00",
+    "appointments_last_fetched": "2021-02-27T18:53:05.091+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -8109,7 +5833,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:32:12.311+00:00",
+    "appointments_last_fetched": "2021-02-27T18:53:05.091+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -8504,7 +6228,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:32:12.311+00:00",
+    "appointments_last_fetched": "2021-02-27T18:53:05.091+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -9076,7 +6800,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:32:12.311+00:00",
+    "appointments_last_fetched": "2021-02-27T18:53:05.091+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -9117,7 +6841,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:32:12.311+00:00",
+    "appointments_last_fetched": "2021-02-27T18:53:05.091+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -9158,7 +6882,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:32:12.311+00:00",
+    "appointments_last_fetched": "2021-02-27T18:53:05.091+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -9730,7 +7454,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:32:12.311+00:00",
+    "appointments_last_fetched": "2021-02-27T18:53:05.091+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -9771,7 +7495,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:32:12.311+00:00",
+    "appointments_last_fetched": "2021-02-27T18:53:05.091+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -23888,7 +21612,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:32:12.311+00:00",
+    "appointments_last_fetched": "2021-02-27T18:53:05.091+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -24283,7 +22007,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:32:12.311+00:00",
+    "appointments_last_fetched": "2021-02-27T18:53:05.091+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -25615,7 +23339,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:32:12.311+00:00",
+    "appointments_last_fetched": "2021-02-27T18:53:05.091+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -114410,129 +112134,21 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:30:09.598+00:00",
+    "appointments_last_fetched": "2021-02-27T18:53:31.502+00:00",
     "appointments_raw": {
       "both_doses": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "ORO VALLEY",
-              "country": "US",
-              "line1": "12965 N ORACLE RD",
-              "line2": "",
-              "state": "AZ",
-              "zip": "85739"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "06:00 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 23.41,
-            "fhirLocationId": "228bb2bd-afe6-4ad5-9e01-25289b567fcd",
-            "locationId": "228bb2bd-afe6-4ad5-9e01-25289b567fcd",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "3447",
-            "phone": [
-              {
-                "number": "520-825-7747",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "520-825-4483",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "520-825-7747",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 32.44132264,
-              "longitude": -110.93619329
-            },
-            "storenumber": "3447"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       },
       "second_dose_moderna": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "ORO VALLEY",
-              "country": "US",
-              "line1": "12965 N ORACLE RD",
-              "line2": "",
-              "state": "AZ",
-              "zip": "85739"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "06:00 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 23.41,
-            "fhirLocationId": "228bb2bd-afe6-4ad5-9e01-25289b567fcd",
-            "locationId": "228bb2bd-afe6-4ad5-9e01-25289b567fcd",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "3447",
-            "phone": [
-              {
-                "number": "520-825-7747",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "520-825-4483",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "520-825-7747",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 32.44132264,
-              "longitude": -110.93619329
-            },
-            "storenumber": "3447"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       },
@@ -114559,67 +112175,13 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T18:39:47.122+00:00",
+    "appointments_last_fetched": "2021-02-27T18:52:43.784+00:00",
     "appointments_raw": {
       "both_doses": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "GREEN VALLEY",
-              "country": "US",
-              "line1": "375 W CONTINENTAL RD",
-              "line2": "",
-              "state": "AZ",
-              "zip": "85622"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-02",
-                "day": "Tuesday",
-                "slots": [
-                  "12:15 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 7.83,
-            "fhirLocationId": "c173df11-f38c-411e-af7d-cdac81d3bcba",
-            "locationId": "c173df11-f38c-411e-af7d-cdac81d3bcba",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "5312",
-            "phone": [
-              {
-                "number": "520-648-2320",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "520-648-2306",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "520-648-2320",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 31.85161645,
-              "longitude": -110.99869517
-            },
-            "storenumber": "5312"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       },
@@ -114632,64 +112194,10 @@
         ]
       },
       "second_dose_pfizer": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "GREEN VALLEY",
-              "country": "US",
-              "line1": "375 W CONTINENTAL RD",
-              "line2": "",
-              "state": "AZ",
-              "zip": "85622"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-02",
-                "day": "Tuesday",
-                "slots": [
-                  "12:15 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 23.41,
-            "fhirLocationId": "c173df11-f38c-411e-af7d-cdac81d3bcba",
-            "locationId": "c173df11-f38c-411e-af7d-cdac81d3bcba",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "5312",
-            "phone": [
-              {
-                "number": "520-648-2320",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "520-648-2306",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "520-648-2320",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 31.85161645,
-              "longitude": -110.99869517
-            },
-            "storenumber": "5312"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       }
