@@ -8465,7 +8465,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T14:47:26.327+00:00",
+    "appointments_last_fetched": "2021-02-27T16:39:28.58+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -8506,7 +8506,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T14:47:26.327+00:00",
+    "appointments_last_fetched": "2021-02-27T16:39:28.58+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -8547,7 +8547,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T14:44:34.133+00:00",
+    "appointments_last_fetched": "2021-02-27T16:42:45.762+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -8588,7 +8588,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T14:44:34.133+00:00",
+    "appointments_last_fetched": "2021-02-27T16:42:45.762+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -8629,82 +8629,13 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T14:39:51.035+00:00",
+    "appointments_last_fetched": "2021-02-27T16:44:03.928+00:00",
     "appointments_raw": {
       "both_doses": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "FRANKLIN",
-              "country": "US",
-              "line1": "224 S MAIN ST",
-              "line2": "",
-              "state": "KY",
-              "zip": "42134"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-02",
-                "day": "Tuesday",
-                "slots": [
-                  "10:15 am",
-                  "10:30 am",
-                  "10:45 am",
-                  "11:15 am",
-                  "11:30 am",
-                  "12:15 pm",
-                  "01:45 pm",
-                  "02:00 pm",
-                  "02:30 pm",
-                  "02:45 pm",
-                  "03:00 pm",
-                  "03:15 pm",
-                  "04:00 pm",
-                  "04:30 pm",
-                  "04:45 pm",
-                  "05:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 1.76,
-            "fhirLocationId": "07e30701-85c4-493a-b7cc-5f5486037fbf",
-            "locationId": "07e30701-85c4-493a-b7cc-5f5486037fbf",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "17392",
-            "phone": [
-              {
-                "number": "270-586-7131",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "270-586-3006",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "270-586-7131",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 36.71916748,
-              "longitude": -86.57895447
-            },
-            "storenumber": "17392"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       },
@@ -8717,79 +8648,10 @@
         ]
       },
       "second_dose_pfizer": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "FRANKLIN",
-              "country": "US",
-              "line1": "224 S MAIN ST",
-              "line2": "",
-              "state": "KY",
-              "zip": "42134"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-02",
-                "day": "Tuesday",
-                "slots": [
-                  "10:15 am",
-                  "10:30 am",
-                  "10:45 am",
-                  "11:15 am",
-                  "11:30 am",
-                  "12:15 pm",
-                  "01:45 pm",
-                  "02:00 pm",
-                  "02:30 pm",
-                  "02:45 pm",
-                  "03:00 pm",
-                  "03:15 pm",
-                  "04:00 pm",
-                  "04:30 pm",
-                  "04:45 pm",
-                  "05:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 1.76,
-            "fhirLocationId": "07e30701-85c4-493a-b7cc-5f5486037fbf",
-            "locationId": "07e30701-85c4-493a-b7cc-5f5486037fbf",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "17392",
-            "phone": [
-              {
-                "number": "270-586-7131",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "270-586-3006",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "270-586-7131",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 36.71916748,
-              "longitude": -86.57895447
-            },
-            "storenumber": "17392"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       }
@@ -8808,82 +8670,13 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T14:39:51.035+00:00",
+    "appointments_last_fetched": "2021-02-27T16:44:03.928+00:00",
     "appointments_raw": {
       "both_doses": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "FRANKLIN",
-              "country": "US",
-              "line1": "224 S MAIN ST",
-              "line2": "",
-              "state": "KY",
-              "zip": "42134"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-02",
-                "day": "Tuesday",
-                "slots": [
-                  "10:15 am",
-                  "10:30 am",
-                  "10:45 am",
-                  "11:15 am",
-                  "11:30 am",
-                  "12:15 pm",
-                  "01:45 pm",
-                  "02:00 pm",
-                  "02:30 pm",
-                  "02:45 pm",
-                  "03:00 pm",
-                  "03:15 pm",
-                  "04:00 pm",
-                  "04:30 pm",
-                  "04:45 pm",
-                  "05:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 1.76,
-            "fhirLocationId": "07e30701-85c4-493a-b7cc-5f5486037fbf",
-            "locationId": "07e30701-85c4-493a-b7cc-5f5486037fbf",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "17392",
-            "phone": [
-              {
-                "number": "270-586-7131",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "270-586-3006",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "270-586-7131",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 36.71916748,
-              "longitude": -86.57895447
-            },
-            "storenumber": "17392"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       },
@@ -8896,79 +8689,10 @@
         ]
       },
       "second_dose_pfizer": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "FRANKLIN",
-              "country": "US",
-              "line1": "224 S MAIN ST",
-              "line2": "",
-              "state": "KY",
-              "zip": "42134"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-02",
-                "day": "Tuesday",
-                "slots": [
-                  "10:15 am",
-                  "10:30 am",
-                  "10:45 am",
-                  "11:15 am",
-                  "11:30 am",
-                  "12:15 pm",
-                  "01:45 pm",
-                  "02:00 pm",
-                  "02:30 pm",
-                  "02:45 pm",
-                  "03:00 pm",
-                  "03:15 pm",
-                  "04:00 pm",
-                  "04:30 pm",
-                  "04:45 pm",
-                  "05:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 1.76,
-            "fhirLocationId": "07e30701-85c4-493a-b7cc-5f5486037fbf",
-            "locationId": "07e30701-85c4-493a-b7cc-5f5486037fbf",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "17392",
-            "phone": [
-              {
-                "number": "270-586-7131",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "270-586-3006",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "270-586-7131",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 36.71916748,
-              "longitude": -86.57895447
-            },
-            "storenumber": "17392"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       }
@@ -8987,82 +8711,13 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T14:39:51.035+00:00",
+    "appointments_last_fetched": "2021-02-27T16:44:03.928+00:00",
     "appointments_raw": {
       "both_doses": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "FRANKLIN",
-              "country": "US",
-              "line1": "224 S MAIN ST",
-              "line2": "",
-              "state": "KY",
-              "zip": "42134"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-02",
-                "day": "Tuesday",
-                "slots": [
-                  "10:15 am",
-                  "10:30 am",
-                  "10:45 am",
-                  "11:15 am",
-                  "11:30 am",
-                  "12:15 pm",
-                  "01:45 pm",
-                  "02:00 pm",
-                  "02:30 pm",
-                  "02:45 pm",
-                  "03:00 pm",
-                  "03:15 pm",
-                  "04:00 pm",
-                  "04:30 pm",
-                  "04:45 pm",
-                  "05:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 1.76,
-            "fhirLocationId": "07e30701-85c4-493a-b7cc-5f5486037fbf",
-            "locationId": "07e30701-85c4-493a-b7cc-5f5486037fbf",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "17392",
-            "phone": [
-              {
-                "number": "270-586-7131",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "270-586-3006",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "270-586-7131",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 36.71916748,
-              "longitude": -86.57895447
-            },
-            "storenumber": "17392"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       },
@@ -9075,79 +8730,10 @@
         ]
       },
       "second_dose_pfizer": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "FRANKLIN",
-              "country": "US",
-              "line1": "224 S MAIN ST",
-              "line2": "",
-              "state": "KY",
-              "zip": "42134"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-02",
-                "day": "Tuesday",
-                "slots": [
-                  "10:15 am",
-                  "10:30 am",
-                  "10:45 am",
-                  "11:15 am",
-                  "11:30 am",
-                  "12:15 pm",
-                  "01:45 pm",
-                  "02:00 pm",
-                  "02:30 pm",
-                  "02:45 pm",
-                  "03:00 pm",
-                  "03:15 pm",
-                  "04:00 pm",
-                  "04:30 pm",
-                  "04:45 pm",
-                  "05:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 1.76,
-            "fhirLocationId": "07e30701-85c4-493a-b7cc-5f5486037fbf",
-            "locationId": "07e30701-85c4-493a-b7cc-5f5486037fbf",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "17392",
-            "phone": [
-              {
-                "number": "270-586-7131",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "270-586-3006",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "270-586-7131",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 36.71916748,
-              "longitude": -86.57895447
-            },
-            "storenumber": "17392"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       }
@@ -9166,7 +8752,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T14:44:34.133+00:00",
+    "appointments_last_fetched": "2021-02-27T16:42:45.762+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -9207,82 +8793,13 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T14:39:51.035+00:00",
+    "appointments_last_fetched": "2021-02-27T16:44:03.928+00:00",
     "appointments_raw": {
       "both_doses": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "FRANKLIN",
-              "country": "US",
-              "line1": "224 S MAIN ST",
-              "line2": "",
-              "state": "KY",
-              "zip": "42134"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-02",
-                "day": "Tuesday",
-                "slots": [
-                  "10:15 am",
-                  "10:30 am",
-                  "10:45 am",
-                  "11:15 am",
-                  "11:30 am",
-                  "12:15 pm",
-                  "01:45 pm",
-                  "02:00 pm",
-                  "02:30 pm",
-                  "02:45 pm",
-                  "03:00 pm",
-                  "03:15 pm",
-                  "04:00 pm",
-                  "04:30 pm",
-                  "04:45 pm",
-                  "05:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 1.76,
-            "fhirLocationId": "07e30701-85c4-493a-b7cc-5f5486037fbf",
-            "locationId": "07e30701-85c4-493a-b7cc-5f5486037fbf",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "17392",
-            "phone": [
-              {
-                "number": "270-586-7131",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "270-586-3006",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "270-586-7131",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 36.71916748,
-              "longitude": -86.57895447
-            },
-            "storenumber": "17392"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       },
@@ -9295,79 +8812,10 @@
         ]
       },
       "second_dose_pfizer": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "FRANKLIN",
-              "country": "US",
-              "line1": "224 S MAIN ST",
-              "line2": "",
-              "state": "KY",
-              "zip": "42134"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-02",
-                "day": "Tuesday",
-                "slots": [
-                  "10:15 am",
-                  "10:30 am",
-                  "10:45 am",
-                  "11:15 am",
-                  "11:30 am",
-                  "12:15 pm",
-                  "01:45 pm",
-                  "02:00 pm",
-                  "02:30 pm",
-                  "02:45 pm",
-                  "03:00 pm",
-                  "03:15 pm",
-                  "04:00 pm",
-                  "04:30 pm",
-                  "04:45 pm",
-                  "05:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 1.76,
-            "fhirLocationId": "07e30701-85c4-493a-b7cc-5f5486037fbf",
-            "locationId": "07e30701-85c4-493a-b7cc-5f5486037fbf",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "17392",
-            "phone": [
-              {
-                "number": "270-586-7131",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "270-586-3006",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "270-586-7131",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 36.71916748,
-              "longitude": -86.57895447
-            },
-            "storenumber": "17392"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       }
@@ -9386,7 +8834,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T14:44:34.133+00:00",
+    "appointments_last_fetched": "2021-02-27T16:42:45.762+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -9468,7 +8916,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T14:44:34.133+00:00",
+    "appointments_last_fetched": "2021-02-27T16:42:45.762+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -9509,82 +8957,13 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T14:39:51.035+00:00",
+    "appointments_last_fetched": "2021-02-27T16:44:03.928+00:00",
     "appointments_raw": {
       "both_doses": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "FRANKLIN",
-              "country": "US",
-              "line1": "224 S MAIN ST",
-              "line2": "",
-              "state": "KY",
-              "zip": "42134"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-02",
-                "day": "Tuesday",
-                "slots": [
-                  "10:15 am",
-                  "10:30 am",
-                  "10:45 am",
-                  "11:15 am",
-                  "11:30 am",
-                  "12:15 pm",
-                  "01:45 pm",
-                  "02:00 pm",
-                  "02:30 pm",
-                  "02:45 pm",
-                  "03:00 pm",
-                  "03:15 pm",
-                  "04:00 pm",
-                  "04:30 pm",
-                  "04:45 pm",
-                  "05:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 1.76,
-            "fhirLocationId": "07e30701-85c4-493a-b7cc-5f5486037fbf",
-            "locationId": "07e30701-85c4-493a-b7cc-5f5486037fbf",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "17392",
-            "phone": [
-              {
-                "number": "270-586-7131",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "270-586-3006",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "270-586-7131",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 36.71916748,
-              "longitude": -86.57895447
-            },
-            "storenumber": "17392"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       },
@@ -9597,79 +8976,10 @@
         ]
       },
       "second_dose_pfizer": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "FRANKLIN",
-              "country": "US",
-              "line1": "224 S MAIN ST",
-              "line2": "",
-              "state": "KY",
-              "zip": "42134"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-02",
-                "day": "Tuesday",
-                "slots": [
-                  "10:15 am",
-                  "10:30 am",
-                  "10:45 am",
-                  "11:15 am",
-                  "11:30 am",
-                  "12:15 pm",
-                  "01:45 pm",
-                  "02:00 pm",
-                  "02:30 pm",
-                  "02:45 pm",
-                  "03:00 pm",
-                  "03:15 pm",
-                  "04:00 pm",
-                  "04:30 pm",
-                  "04:45 pm",
-                  "05:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 1.76,
-            "fhirLocationId": "07e30701-85c4-493a-b7cc-5f5486037fbf",
-            "locationId": "07e30701-85c4-493a-b7cc-5f5486037fbf",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "17392",
-            "phone": [
-              {
-                "number": "270-586-7131",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "270-586-3006",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "270-586-7131",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 36.71916748,
-              "longitude": -86.57895447
-            },
-            "storenumber": "17392"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       }
@@ -9688,82 +8998,13 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T14:39:51.035+00:00",
+    "appointments_last_fetched": "2021-02-27T16:44:03.928+00:00",
     "appointments_raw": {
       "both_doses": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "FRANKLIN",
-              "country": "US",
-              "line1": "224 S MAIN ST",
-              "line2": "",
-              "state": "KY",
-              "zip": "42134"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-02",
-                "day": "Tuesday",
-                "slots": [
-                  "10:15 am",
-                  "10:30 am",
-                  "10:45 am",
-                  "11:15 am",
-                  "11:30 am",
-                  "12:15 pm",
-                  "01:45 pm",
-                  "02:00 pm",
-                  "02:30 pm",
-                  "02:45 pm",
-                  "03:00 pm",
-                  "03:15 pm",
-                  "04:00 pm",
-                  "04:30 pm",
-                  "04:45 pm",
-                  "05:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 1.76,
-            "fhirLocationId": "07e30701-85c4-493a-b7cc-5f5486037fbf",
-            "locationId": "07e30701-85c4-493a-b7cc-5f5486037fbf",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "17392",
-            "phone": [
-              {
-                "number": "270-586-7131",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "270-586-3006",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "270-586-7131",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 36.71916748,
-              "longitude": -86.57895447
-            },
-            "storenumber": "17392"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       },
@@ -9776,79 +9017,10 @@
         ]
       },
       "second_dose_pfizer": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "FRANKLIN",
-              "country": "US",
-              "line1": "224 S MAIN ST",
-              "line2": "",
-              "state": "KY",
-              "zip": "42134"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-02",
-                "day": "Tuesday",
-                "slots": [
-                  "10:15 am",
-                  "10:30 am",
-                  "10:45 am",
-                  "11:15 am",
-                  "11:30 am",
-                  "12:15 pm",
-                  "01:45 pm",
-                  "02:00 pm",
-                  "02:30 pm",
-                  "02:45 pm",
-                  "03:00 pm",
-                  "03:15 pm",
-                  "04:00 pm",
-                  "04:30 pm",
-                  "04:45 pm",
-                  "05:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 1.76,
-            "fhirLocationId": "07e30701-85c4-493a-b7cc-5f5486037fbf",
-            "locationId": "07e30701-85c4-493a-b7cc-5f5486037fbf",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "17392",
-            "phone": [
-              {
-                "number": "270-586-7131",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "270-586-3006",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "270-586-7131",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 36.71916748,
-              "longitude": -86.57895447
-            },
-            "storenumber": "17392"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       }
@@ -9867,7 +9039,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T14:44:34.133+00:00",
+    "appointments_last_fetched": "2021-02-27T16:42:45.762+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -9908,7 +9080,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T14:44:34.133+00:00",
+    "appointments_last_fetched": "2021-02-27T16:42:45.762+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -9949,7 +9121,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T14:44:34.133+00:00",
+    "appointments_last_fetched": "2021-02-27T16:42:45.762+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -9990,7 +9162,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T14:44:34.133+00:00",
+    "appointments_last_fetched": "2021-02-27T16:42:45.762+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -10031,7 +9203,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T14:44:34.133+00:00",
+    "appointments_last_fetched": "2021-02-27T16:42:45.762+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -10072,7 +9244,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T14:44:34.133+00:00",
+    "appointments_last_fetched": "2021-02-27T16:42:45.762+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -10113,7 +9285,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T14:44:34.133+00:00",
+    "appointments_last_fetched": "2021-02-27T16:42:45.762+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -10154,7 +9326,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T14:44:34.133+00:00",
+    "appointments_last_fetched": "2021-02-27T16:42:45.762+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -10195,82 +9367,13 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T14:39:51.035+00:00",
+    "appointments_last_fetched": "2021-02-27T16:44:03.928+00:00",
     "appointments_raw": {
       "both_doses": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "FRANKLIN",
-              "country": "US",
-              "line1": "224 S MAIN ST",
-              "line2": "",
-              "state": "KY",
-              "zip": "42134"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-02",
-                "day": "Tuesday",
-                "slots": [
-                  "10:15 am",
-                  "10:30 am",
-                  "10:45 am",
-                  "11:15 am",
-                  "11:30 am",
-                  "12:15 pm",
-                  "01:45 pm",
-                  "02:00 pm",
-                  "02:30 pm",
-                  "02:45 pm",
-                  "03:00 pm",
-                  "03:15 pm",
-                  "04:00 pm",
-                  "04:30 pm",
-                  "04:45 pm",
-                  "05:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 1.76,
-            "fhirLocationId": "07e30701-85c4-493a-b7cc-5f5486037fbf",
-            "locationId": "07e30701-85c4-493a-b7cc-5f5486037fbf",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "17392",
-            "phone": [
-              {
-                "number": "270-586-7131",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "270-586-3006",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "270-586-7131",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 36.71916748,
-              "longitude": -86.57895447
-            },
-            "storenumber": "17392"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       },
@@ -10283,79 +9386,10 @@
         ]
       },
       "second_dose_pfizer": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "FRANKLIN",
-              "country": "US",
-              "line1": "224 S MAIN ST",
-              "line2": "",
-              "state": "KY",
-              "zip": "42134"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-02",
-                "day": "Tuesday",
-                "slots": [
-                  "10:15 am",
-                  "10:30 am",
-                  "10:45 am",
-                  "11:15 am",
-                  "11:30 am",
-                  "12:15 pm",
-                  "01:45 pm",
-                  "02:00 pm",
-                  "02:30 pm",
-                  "02:45 pm",
-                  "03:00 pm",
-                  "03:15 pm",
-                  "04:00 pm",
-                  "04:30 pm",
-                  "04:45 pm",
-                  "05:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 1.76,
-            "fhirLocationId": "07e30701-85c4-493a-b7cc-5f5486037fbf",
-            "locationId": "07e30701-85c4-493a-b7cc-5f5486037fbf",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "17392",
-            "phone": [
-              {
-                "number": "270-586-7131",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "270-586-3006",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "270-586-7131",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 36.71916748,
-              "longitude": -86.57895447
-            },
-            "storenumber": "17392"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       }
@@ -10374,7 +9408,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T14:44:34.133+00:00",
+    "appointments_last_fetched": "2021-02-27T16:42:45.762+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -10415,7 +9449,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T14:47:26.327+00:00",
+    "appointments_last_fetched": "2021-02-27T16:39:28.58+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -10456,82 +9490,13 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T14:39:51.035+00:00",
+    "appointments_last_fetched": "2021-02-27T16:44:03.928+00:00",
     "appointments_raw": {
       "both_doses": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "FRANKLIN",
-              "country": "US",
-              "line1": "224 S MAIN ST",
-              "line2": "",
-              "state": "KY",
-              "zip": "42134"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-02",
-                "day": "Tuesday",
-                "slots": [
-                  "10:15 am",
-                  "10:30 am",
-                  "10:45 am",
-                  "11:15 am",
-                  "11:30 am",
-                  "12:15 pm",
-                  "01:45 pm",
-                  "02:00 pm",
-                  "02:30 pm",
-                  "02:45 pm",
-                  "03:00 pm",
-                  "03:15 pm",
-                  "04:00 pm",
-                  "04:30 pm",
-                  "04:45 pm",
-                  "05:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 1.76,
-            "fhirLocationId": "07e30701-85c4-493a-b7cc-5f5486037fbf",
-            "locationId": "07e30701-85c4-493a-b7cc-5f5486037fbf",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "17392",
-            "phone": [
-              {
-                "number": "270-586-7131",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "270-586-3006",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "270-586-7131",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 36.71916748,
-              "longitude": -86.57895447
-            },
-            "storenumber": "17392"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       },
@@ -10544,79 +9509,10 @@
         ]
       },
       "second_dose_pfizer": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "FRANKLIN",
-              "country": "US",
-              "line1": "224 S MAIN ST",
-              "line2": "",
-              "state": "KY",
-              "zip": "42134"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-02",
-                "day": "Tuesday",
-                "slots": [
-                  "10:15 am",
-                  "10:30 am",
-                  "10:45 am",
-                  "11:15 am",
-                  "11:30 am",
-                  "12:15 pm",
-                  "01:45 pm",
-                  "02:00 pm",
-                  "02:30 pm",
-                  "02:45 pm",
-                  "03:00 pm",
-                  "03:15 pm",
-                  "04:00 pm",
-                  "04:30 pm",
-                  "04:45 pm",
-                  "05:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 1.76,
-            "fhirLocationId": "07e30701-85c4-493a-b7cc-5f5486037fbf",
-            "locationId": "07e30701-85c4-493a-b7cc-5f5486037fbf",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "17392",
-            "phone": [
-              {
-                "number": "270-586-7131",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "270-586-3006",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "270-586-7131",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 36.71916748,
-              "longitude": -86.57895447
-            },
-            "storenumber": "17392"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       }
@@ -10635,7 +9531,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T14:44:34.133+00:00",
+    "appointments_last_fetched": "2021-02-27T16:42:45.762+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -10676,7 +9572,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T14:44:34.133+00:00",
+    "appointments_last_fetched": "2021-02-27T16:42:45.762+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -10717,7 +9613,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T14:44:34.133+00:00",
+    "appointments_last_fetched": "2021-02-27T16:42:45.762+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -10758,82 +9654,13 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T14:39:51.035+00:00",
+    "appointments_last_fetched": "2021-02-27T16:44:03.928+00:00",
     "appointments_raw": {
       "both_doses": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "FRANKLIN",
-              "country": "US",
-              "line1": "224 S MAIN ST",
-              "line2": "",
-              "state": "KY",
-              "zip": "42134"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-02",
-                "day": "Tuesday",
-                "slots": [
-                  "10:15 am",
-                  "10:30 am",
-                  "10:45 am",
-                  "11:15 am",
-                  "11:30 am",
-                  "12:15 pm",
-                  "01:45 pm",
-                  "02:00 pm",
-                  "02:30 pm",
-                  "02:45 pm",
-                  "03:00 pm",
-                  "03:15 pm",
-                  "04:00 pm",
-                  "04:30 pm",
-                  "04:45 pm",
-                  "05:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 1.76,
-            "fhirLocationId": "07e30701-85c4-493a-b7cc-5f5486037fbf",
-            "locationId": "07e30701-85c4-493a-b7cc-5f5486037fbf",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "17392",
-            "phone": [
-              {
-                "number": "270-586-7131",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "270-586-3006",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "270-586-7131",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 36.71916748,
-              "longitude": -86.57895447
-            },
-            "storenumber": "17392"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       },
@@ -10846,79 +9673,10 @@
         ]
       },
       "second_dose_pfizer": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "FRANKLIN",
-              "country": "US",
-              "line1": "224 S MAIN ST",
-              "line2": "",
-              "state": "KY",
-              "zip": "42134"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-02",
-                "day": "Tuesday",
-                "slots": [
-                  "10:15 am",
-                  "10:30 am",
-                  "10:45 am",
-                  "11:15 am",
-                  "11:30 am",
-                  "12:15 pm",
-                  "01:45 pm",
-                  "02:00 pm",
-                  "02:30 pm",
-                  "02:45 pm",
-                  "03:00 pm",
-                  "03:15 pm",
-                  "04:00 pm",
-                  "04:30 pm",
-                  "04:45 pm",
-                  "05:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 1.76,
-            "fhirLocationId": "07e30701-85c4-493a-b7cc-5f5486037fbf",
-            "locationId": "07e30701-85c4-493a-b7cc-5f5486037fbf",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "17392",
-            "phone": [
-              {
-                "number": "270-586-7131",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "270-586-3006",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "270-586-7131",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 36.71916748,
-              "longitude": -86.57895447
-            },
-            "storenumber": "17392"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       }
@@ -10937,7 +9695,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T14:44:34.133+00:00",
+    "appointments_last_fetched": "2021-02-27T16:42:45.762+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -10978,7 +9736,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T14:44:34.133+00:00",
+    "appointments_last_fetched": "2021-02-27T16:42:45.762+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -11019,7 +9777,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T14:44:34.133+00:00",
+    "appointments_last_fetched": "2021-02-27T16:42:45.762+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -11060,7 +9818,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T14:44:34.133+00:00",
+    "appointments_last_fetched": "2021-02-27T16:42:45.762+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -11101,7 +9859,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T14:44:34.133+00:00",
+    "appointments_last_fetched": "2021-02-27T16:42:45.762+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -11142,7 +9900,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T14:44:34.133+00:00",
+    "appointments_last_fetched": "2021-02-27T16:42:45.762+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -11183,7 +9941,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T14:44:34.133+00:00",
+    "appointments_last_fetched": "2021-02-27T16:42:45.762+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -11224,7 +9982,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T14:44:34.133+00:00",
+    "appointments_last_fetched": "2021-02-27T16:42:45.762+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -11265,7 +10023,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T14:47:26.327+00:00",
+    "appointments_last_fetched": "2021-02-27T16:39:28.58+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -11306,82 +10064,13 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T14:39:51.035+00:00",
+    "appointments_last_fetched": "2021-02-27T16:44:03.928+00:00",
     "appointments_raw": {
       "both_doses": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "FRANKLIN",
-              "country": "US",
-              "line1": "224 S MAIN ST",
-              "line2": "",
-              "state": "KY",
-              "zip": "42134"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-02",
-                "day": "Tuesday",
-                "slots": [
-                  "10:15 am",
-                  "10:30 am",
-                  "10:45 am",
-                  "11:15 am",
-                  "11:30 am",
-                  "12:15 pm",
-                  "01:45 pm",
-                  "02:00 pm",
-                  "02:30 pm",
-                  "02:45 pm",
-                  "03:00 pm",
-                  "03:15 pm",
-                  "04:00 pm",
-                  "04:30 pm",
-                  "04:45 pm",
-                  "05:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 1.76,
-            "fhirLocationId": "07e30701-85c4-493a-b7cc-5f5486037fbf",
-            "locationId": "07e30701-85c4-493a-b7cc-5f5486037fbf",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "17392",
-            "phone": [
-              {
-                "number": "270-586-7131",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "270-586-3006",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "270-586-7131",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 36.71916748,
-              "longitude": -86.57895447
-            },
-            "storenumber": "17392"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       },
@@ -11394,79 +10083,10 @@
         ]
       },
       "second_dose_pfizer": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "FRANKLIN",
-              "country": "US",
-              "line1": "224 S MAIN ST",
-              "line2": "",
-              "state": "KY",
-              "zip": "42134"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-02",
-                "day": "Tuesday",
-                "slots": [
-                  "10:15 am",
-                  "10:30 am",
-                  "10:45 am",
-                  "11:15 am",
-                  "11:30 am",
-                  "12:15 pm",
-                  "01:45 pm",
-                  "02:00 pm",
-                  "02:30 pm",
-                  "02:45 pm",
-                  "03:00 pm",
-                  "03:15 pm",
-                  "04:00 pm",
-                  "04:30 pm",
-                  "04:45 pm",
-                  "05:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 1.76,
-            "fhirLocationId": "07e30701-85c4-493a-b7cc-5f5486037fbf",
-            "locationId": "07e30701-85c4-493a-b7cc-5f5486037fbf",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "17392",
-            "phone": [
-              {
-                "number": "270-586-7131",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "270-586-3006",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "270-586-7131",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 36.71916748,
-              "longitude": -86.57895447
-            },
-            "storenumber": "17392"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       }
@@ -11485,7 +10105,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T14:44:34.133+00:00",
+    "appointments_last_fetched": "2021-02-27T16:42:45.762+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -11526,7 +10146,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T14:44:34.133+00:00",
+    "appointments_last_fetched": "2021-02-27T16:42:45.762+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -11567,7 +10187,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T14:44:34.133+00:00",
+    "appointments_last_fetched": "2021-02-27T16:42:45.762+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -11608,7 +10228,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T14:44:34.133+00:00",
+    "appointments_last_fetched": "2021-02-27T16:42:45.762+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -11649,7 +10269,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T14:44:34.133+00:00",
+    "appointments_last_fetched": "2021-02-27T16:42:45.762+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -11690,7 +10310,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T14:44:34.133+00:00",
+    "appointments_last_fetched": "2021-02-27T16:42:45.762+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -11772,7 +10392,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T14:44:34.133+00:00",
+    "appointments_last_fetched": "2021-02-27T16:42:45.762+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -11813,82 +10433,13 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T14:39:51.035+00:00",
+    "appointments_last_fetched": "2021-02-27T16:44:03.928+00:00",
     "appointments_raw": {
       "both_doses": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "FRANKLIN",
-              "country": "US",
-              "line1": "224 S MAIN ST",
-              "line2": "",
-              "state": "KY",
-              "zip": "42134"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-02",
-                "day": "Tuesday",
-                "slots": [
-                  "10:15 am",
-                  "10:30 am",
-                  "10:45 am",
-                  "11:15 am",
-                  "11:30 am",
-                  "12:15 pm",
-                  "01:45 pm",
-                  "02:00 pm",
-                  "02:30 pm",
-                  "02:45 pm",
-                  "03:00 pm",
-                  "03:15 pm",
-                  "04:00 pm",
-                  "04:30 pm",
-                  "04:45 pm",
-                  "05:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 1.76,
-            "fhirLocationId": "07e30701-85c4-493a-b7cc-5f5486037fbf",
-            "locationId": "07e30701-85c4-493a-b7cc-5f5486037fbf",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "17392",
-            "phone": [
-              {
-                "number": "270-586-7131",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "270-586-3006",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "270-586-7131",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 36.71916748,
-              "longitude": -86.57895447
-            },
-            "storenumber": "17392"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       },
@@ -11901,79 +10452,10 @@
         ]
       },
       "second_dose_pfizer": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "FRANKLIN",
-              "country": "US",
-              "line1": "224 S MAIN ST",
-              "line2": "",
-              "state": "KY",
-              "zip": "42134"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-02",
-                "day": "Tuesday",
-                "slots": [
-                  "10:15 am",
-                  "10:30 am",
-                  "10:45 am",
-                  "11:15 am",
-                  "11:30 am",
-                  "12:15 pm",
-                  "01:45 pm",
-                  "02:00 pm",
-                  "02:30 pm",
-                  "02:45 pm",
-                  "03:00 pm",
-                  "03:15 pm",
-                  "04:00 pm",
-                  "04:30 pm",
-                  "04:45 pm",
-                  "05:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 1.76,
-            "fhirLocationId": "07e30701-85c4-493a-b7cc-5f5486037fbf",
-            "locationId": "07e30701-85c4-493a-b7cc-5f5486037fbf",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "17392",
-            "phone": [
-              {
-                "number": "270-586-7131",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "270-586-3006",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "270-586-7131",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 36.71916748,
-              "longitude": -86.57895447
-            },
-            "storenumber": "17392"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       }
@@ -11992,7 +10474,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T14:44:34.133+00:00",
+    "appointments_last_fetched": "2021-02-27T16:42:45.762+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -12033,7 +10515,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T14:47:26.327+00:00",
+    "appointments_last_fetched": "2021-02-27T16:39:28.58+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -12074,7 +10556,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T14:44:34.133+00:00",
+    "appointments_last_fetched": "2021-02-27T16:42:45.762+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -12115,7 +10597,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T14:44:34.133+00:00",
+    "appointments_last_fetched": "2021-02-27T16:42:45.762+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -12156,7 +10638,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T14:44:34.133+00:00",
+    "appointments_last_fetched": "2021-02-27T16:42:45.762+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -12197,7 +10679,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T14:44:34.133+00:00",
+    "appointments_last_fetched": "2021-02-27T16:42:45.762+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -12238,7 +10720,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T14:44:34.133+00:00",
+    "appointments_last_fetched": "2021-02-27T16:42:45.762+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -12279,7 +10761,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T14:44:34.133+00:00",
+    "appointments_last_fetched": "2021-02-27T16:42:45.762+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -12320,7 +10802,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T14:44:34.133+00:00",
+    "appointments_last_fetched": "2021-02-27T16:42:45.762+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -12361,7 +10843,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T14:44:34.133+00:00",
+    "appointments_last_fetched": "2021-02-27T16:42:45.762+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -12402,7 +10884,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T14:47:26.327+00:00",
+    "appointments_last_fetched": "2021-02-27T16:39:28.58+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -12443,7 +10925,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T14:47:26.327+00:00",
+    "appointments_last_fetched": "2021-02-27T16:39:28.58+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -12484,7 +10966,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T14:44:34.133+00:00",
+    "appointments_last_fetched": "2021-02-27T16:42:45.762+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -12525,7 +11007,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T14:44:34.133+00:00",
+    "appointments_last_fetched": "2021-02-27T16:42:45.762+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -12566,7 +11048,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T14:44:34.133+00:00",
+    "appointments_last_fetched": "2021-02-27T16:42:45.762+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -12607,7 +11089,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T14:44:34.133+00:00",
+    "appointments_last_fetched": "2021-02-27T16:42:45.762+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -12648,7 +11130,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T14:47:26.327+00:00",
+    "appointments_last_fetched": "2021-02-27T16:39:28.58+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -12689,7 +11171,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T14:44:34.133+00:00",
+    "appointments_last_fetched": "2021-02-27T16:42:45.762+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -12730,7 +11212,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T14:44:34.133+00:00",
+    "appointments_last_fetched": "2021-02-27T16:42:45.762+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -12771,7 +11253,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T14:44:34.133+00:00",
+    "appointments_last_fetched": "2021-02-27T16:42:45.762+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -12812,82 +11294,13 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T14:39:51.035+00:00",
+    "appointments_last_fetched": "2021-02-27T16:44:03.928+00:00",
     "appointments_raw": {
       "both_doses": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "FRANKLIN",
-              "country": "US",
-              "line1": "224 S MAIN ST",
-              "line2": "",
-              "state": "KY",
-              "zip": "42134"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-02",
-                "day": "Tuesday",
-                "slots": [
-                  "10:15 am",
-                  "10:30 am",
-                  "10:45 am",
-                  "11:15 am",
-                  "11:30 am",
-                  "12:15 pm",
-                  "01:45 pm",
-                  "02:00 pm",
-                  "02:30 pm",
-                  "02:45 pm",
-                  "03:00 pm",
-                  "03:15 pm",
-                  "04:00 pm",
-                  "04:30 pm",
-                  "04:45 pm",
-                  "05:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 1.76,
-            "fhirLocationId": "07e30701-85c4-493a-b7cc-5f5486037fbf",
-            "locationId": "07e30701-85c4-493a-b7cc-5f5486037fbf",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "17392",
-            "phone": [
-              {
-                "number": "270-586-7131",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "270-586-3006",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "270-586-7131",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 36.71916748,
-              "longitude": -86.57895447
-            },
-            "storenumber": "17392"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       },
@@ -12900,79 +11313,10 @@
         ]
       },
       "second_dose_pfizer": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "FRANKLIN",
-              "country": "US",
-              "line1": "224 S MAIN ST",
-              "line2": "",
-              "state": "KY",
-              "zip": "42134"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-02",
-                "day": "Tuesday",
-                "slots": [
-                  "10:15 am",
-                  "10:30 am",
-                  "10:45 am",
-                  "11:15 am",
-                  "11:30 am",
-                  "12:15 pm",
-                  "01:45 pm",
-                  "02:00 pm",
-                  "02:30 pm",
-                  "02:45 pm",
-                  "03:00 pm",
-                  "03:15 pm",
-                  "04:00 pm",
-                  "04:30 pm",
-                  "04:45 pm",
-                  "05:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 1.76,
-            "fhirLocationId": "07e30701-85c4-493a-b7cc-5f5486037fbf",
-            "locationId": "07e30701-85c4-493a-b7cc-5f5486037fbf",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "17392",
-            "phone": [
-              {
-                "number": "270-586-7131",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "270-586-3006",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "270-586-7131",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 36.71916748,
-              "longitude": -86.57895447
-            },
-            "storenumber": "17392"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       }
@@ -12991,7 +11335,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T14:44:34.133+00:00",
+    "appointments_last_fetched": "2021-02-27T16:42:45.762+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -13032,7 +11376,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T14:44:34.133+00:00",
+    "appointments_last_fetched": "2021-02-27T16:42:45.762+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -13073,7 +11417,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T14:44:34.133+00:00",
+    "appointments_last_fetched": "2021-02-27T16:42:45.762+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -13155,7 +11499,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T14:42:41.248+00:00",
+    "appointments_last_fetched": "2021-02-27T16:39:38.503+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -13196,7 +11540,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T14:42:41.248+00:00",
+    "appointments_last_fetched": "2021-02-27T16:39:38.503+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -13319,7 +11663,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T14:37:08.291+00:00",
+    "appointments_last_fetched": "2021-02-27T16:40:19.407+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -13360,7 +11704,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T14:37:08.291+00:00",
+    "appointments_last_fetched": "2021-02-27T16:40:19.407+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -13401,7 +11745,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T14:45:46.613+00:00",
+    "appointments_last_fetched": "2021-02-27T16:40:16.295+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -13442,7 +11786,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T14:45:46.613+00:00",
+    "appointments_last_fetched": "2021-02-27T16:40:16.295+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -13483,7 +11827,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T14:45:46.613+00:00",
+    "appointments_last_fetched": "2021-02-27T16:40:16.295+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -13524,7 +11868,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T14:45:46.613+00:00",
+    "appointments_last_fetched": "2021-02-27T16:40:16.295+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -13565,7 +11909,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T14:45:46.613+00:00",
+    "appointments_last_fetched": "2021-02-27T16:40:16.295+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -13770,7 +12114,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T14:47:36.456+00:00",
+    "appointments_last_fetched": "2021-02-27T16:41:54.692+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -13811,7 +12155,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T14:47:36.456+00:00",
+    "appointments_last_fetched": "2021-02-27T16:41:54.692+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -13852,7 +12196,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T14:42:41.248+00:00",
+    "appointments_last_fetched": "2021-02-27T16:39:38.503+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -13893,7 +12237,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T14:47:36.456+00:00",
+    "appointments_last_fetched": "2021-02-27T16:41:54.692+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -13934,7 +12278,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T14:47:36.456+00:00",
+    "appointments_last_fetched": "2021-02-27T16:41:54.692+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -14016,7 +12360,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T14:42:41.248+00:00",
+    "appointments_last_fetched": "2021-02-27T16:39:38.503+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -20159,7 +18503,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T14:42:56.879+00:00",
+    "appointments_last_fetched": "2021-02-27T16:42:40.906+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -20241,7 +18585,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T14:35:13.461+00:00",
+    "appointments_last_fetched": "2021-02-27T16:42:00.635+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -20323,7 +18667,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T14:35:13.461+00:00",
+    "appointments_last_fetched": "2021-02-27T16:42:00.635+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -20364,7 +18708,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T14:35:13.461+00:00",
+    "appointments_last_fetched": "2021-02-27T16:42:00.635+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -20405,7 +18749,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T14:35:13.461+00:00",
+    "appointments_last_fetched": "2021-02-27T16:42:00.635+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -20487,7 +18831,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T14:35:13.461+00:00",
+    "appointments_last_fetched": "2021-02-27T16:42:00.635+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -20569,7 +18913,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T14:35:13.461+00:00",
+    "appointments_last_fetched": "2021-02-27T16:42:00.635+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -20733,7 +19077,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T14:35:13.461+00:00",
+    "appointments_last_fetched": "2021-02-27T16:42:00.635+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -20774,7 +19118,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T14:35:13.461+00:00",
+    "appointments_last_fetched": "2021-02-27T16:42:00.635+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -20856,7 +19200,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T14:35:13.461+00:00",
+    "appointments_last_fetched": "2021-02-27T16:42:00.635+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -20938,7 +19282,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T14:35:13.461+00:00",
+    "appointments_last_fetched": "2021-02-27T16:42:00.635+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -21020,7 +19364,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T14:35:13.461+00:00",
+    "appointments_last_fetched": "2021-02-27T16:42:00.635+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -21102,7 +19446,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T14:35:13.461+00:00",
+    "appointments_last_fetched": "2021-02-27T16:42:00.635+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -21143,7 +19487,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T14:35:13.461+00:00",
+    "appointments_last_fetched": "2021-02-27T16:42:00.635+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -21307,7 +19651,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T14:35:13.461+00:00",
+    "appointments_last_fetched": "2021-02-27T16:42:00.635+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -21389,7 +19733,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T14:35:13.461+00:00",
+    "appointments_last_fetched": "2021-02-27T16:42:00.635+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -21430,7 +19774,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T14:35:13.461+00:00",
+    "appointments_last_fetched": "2021-02-27T16:42:00.635+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -21471,7 +19815,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T14:35:13.461+00:00",
+    "appointments_last_fetched": "2021-02-27T16:42:00.635+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -21594,7 +19938,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T14:36:00.662+00:00",
+    "appointments_last_fetched": "2021-02-27T16:42:53.142+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -21635,7 +19979,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T14:35:13.461+00:00",
+    "appointments_last_fetched": "2021-02-27T16:42:00.635+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -21717,7 +20061,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T14:44:26.516+00:00",
+    "appointments_last_fetched": "2021-02-27T16:43:24.867+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -21758,7 +20102,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T14:36:00.662+00:00",
+    "appointments_last_fetched": "2021-02-27T16:42:53.142+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -22045,7 +20389,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T14:37:20.283+00:00",
+    "appointments_last_fetched": "2021-02-27T16:43:21.643+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -22086,7 +20430,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T14:37:20.283+00:00",
+    "appointments_last_fetched": "2021-02-27T16:43:21.643+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -22250,7 +20594,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T14:42:21.791+00:00",
+    "appointments_last_fetched": "2021-02-27T16:40:41.811+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -22291,7 +20635,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T14:43:27.586+00:00",
+    "appointments_last_fetched": "2021-02-27T16:41:45.557+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -22373,7 +20717,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T14:37:20.283+00:00",
+    "appointments_last_fetched": "2021-02-27T16:43:21.643+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -22455,7 +20799,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T14:43:27.586+00:00",
+    "appointments_last_fetched": "2021-02-27T16:41:45.557+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -22496,7 +20840,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T14:36:00.662+00:00",
+    "appointments_last_fetched": "2021-02-27T16:42:53.142+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -22537,7 +20881,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T14:37:08.291+00:00",
+    "appointments_last_fetched": "2021-02-27T16:40:19.407+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -22619,7 +20963,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T14:44:26.516+00:00",
+    "appointments_last_fetched": "2021-02-27T16:43:24.867+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -22896,7 +21240,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T14:47:01.772+00:00",
+    "appointments_last_fetched": "2021-02-27T16:44:02.025+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -22937,7 +21281,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T14:47:01.772+00:00",
+    "appointments_last_fetched": "2021-02-27T16:44:02.025+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -22978,7 +21322,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T14:47:01.772+00:00",
+    "appointments_last_fetched": "2021-02-27T16:44:02.025+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -23019,7 +21363,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T14:47:01.772+00:00",
+    "appointments_last_fetched": "2021-02-27T16:44:02.025+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -23060,7 +21404,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T14:47:01.772+00:00",
+    "appointments_last_fetched": "2021-02-27T16:44:02.025+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -23101,7 +21445,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T14:47:01.772+00:00",
+    "appointments_last_fetched": "2021-02-27T16:44:02.025+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -23142,7 +21486,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T14:47:01.772+00:00",
+    "appointments_last_fetched": "2021-02-27T16:44:02.025+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -23183,7 +21527,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T14:47:01.772+00:00",
+    "appointments_last_fetched": "2021-02-27T16:44:02.025+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -23224,7 +21568,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T14:47:01.772+00:00",
+    "appointments_last_fetched": "2021-02-27T16:44:02.025+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -23265,7 +21609,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T14:47:01.772+00:00",
+    "appointments_last_fetched": "2021-02-27T16:44:02.025+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -23306,7 +21650,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T14:47:01.772+00:00",
+    "appointments_last_fetched": "2021-02-27T16:44:02.025+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -23347,7 +21691,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T14:47:01.772+00:00",
+    "appointments_last_fetched": "2021-02-27T16:44:02.025+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -23388,7 +21732,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T14:47:01.772+00:00",
+    "appointments_last_fetched": "2021-02-27T16:44:02.025+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -23429,7 +21773,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T14:47:01.772+00:00",
+    "appointments_last_fetched": "2021-02-27T16:44:02.025+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -23470,7 +21814,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T14:47:01.772+00:00",
+    "appointments_last_fetched": "2021-02-27T16:44:02.025+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -23511,7 +21855,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T14:47:01.772+00:00",
+    "appointments_last_fetched": "2021-02-27T16:44:02.025+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -23552,7 +21896,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T14:47:01.772+00:00",
+    "appointments_last_fetched": "2021-02-27T16:44:02.025+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -23593,7 +21937,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T14:47:01.772+00:00",
+    "appointments_last_fetched": "2021-02-27T16:44:02.025+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -23634,7 +21978,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T14:47:01.772+00:00",
+    "appointments_last_fetched": "2021-02-27T16:44:02.025+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -23675,7 +22019,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T14:47:01.772+00:00",
+    "appointments_last_fetched": "2021-02-27T16:44:02.025+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -23716,7 +22060,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T14:47:01.772+00:00",
+    "appointments_last_fetched": "2021-02-27T16:44:02.025+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -23757,7 +22101,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T14:47:01.772+00:00",
+    "appointments_last_fetched": "2021-02-27T16:44:02.025+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -23798,7 +22142,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T14:47:01.772+00:00",
+    "appointments_last_fetched": "2021-02-27T16:44:02.025+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -23839,7 +22183,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T14:47:01.772+00:00",
+    "appointments_last_fetched": "2021-02-27T16:44:02.025+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -23880,7 +22224,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T14:47:01.772+00:00",
+    "appointments_last_fetched": "2021-02-27T16:44:02.025+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -23921,7 +22265,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T14:43:27.586+00:00",
+    "appointments_last_fetched": "2021-02-27T16:41:45.557+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -23962,7 +22306,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T14:47:01.772+00:00",
+    "appointments_last_fetched": "2021-02-27T16:44:02.025+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -24003,7 +22347,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T14:43:27.586+00:00",
+    "appointments_last_fetched": "2021-02-27T16:41:45.557+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -24044,7 +22388,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T14:47:01.772+00:00",
+    "appointments_last_fetched": "2021-02-27T16:44:02.025+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -24085,7 +22429,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T14:47:01.772+00:00",
+    "appointments_last_fetched": "2021-02-27T16:44:02.025+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -24126,7 +22470,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T14:47:01.772+00:00",
+    "appointments_last_fetched": "2021-02-27T16:44:02.025+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -24167,7 +22511,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T14:43:27.586+00:00",
+    "appointments_last_fetched": "2021-02-27T16:41:45.557+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -24208,7 +22552,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T14:47:01.772+00:00",
+    "appointments_last_fetched": "2021-02-27T16:44:02.025+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -24249,7 +22593,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T14:43:27.586+00:00",
+    "appointments_last_fetched": "2021-02-27T16:41:45.557+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -24290,7 +22634,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T14:43:27.586+00:00",
+    "appointments_last_fetched": "2021-02-27T16:41:45.557+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -24331,7 +22675,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T14:47:01.772+00:00",
+    "appointments_last_fetched": "2021-02-27T16:44:02.025+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -24372,7 +22716,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T14:43:27.586+00:00",
+    "appointments_last_fetched": "2021-02-27T16:41:45.557+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -24413,7 +22757,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T14:43:27.586+00:00",
+    "appointments_last_fetched": "2021-02-27T16:41:45.557+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -24454,7 +22798,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T14:43:27.586+00:00",
+    "appointments_last_fetched": "2021-02-27T16:41:45.557+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -24495,7 +22839,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T14:43:27.586+00:00",
+    "appointments_last_fetched": "2021-02-27T16:41:45.557+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -24536,7 +22880,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T14:43:27.586+00:00",
+    "appointments_last_fetched": "2021-02-27T16:41:45.557+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -24577,7 +22921,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T14:43:27.586+00:00",
+    "appointments_last_fetched": "2021-02-27T16:41:45.557+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -24618,7 +22962,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T14:43:27.586+00:00",
+    "appointments_last_fetched": "2021-02-27T16:41:45.557+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -24659,7 +23003,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T14:43:27.586+00:00",
+    "appointments_last_fetched": "2021-02-27T16:41:45.557+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -24700,7 +23044,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T14:43:27.586+00:00",
+    "appointments_last_fetched": "2021-02-27T16:41:45.557+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -24741,7 +23085,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T14:43:27.586+00:00",
+    "appointments_last_fetched": "2021-02-27T16:41:45.557+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -24782,7 +23126,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T14:43:27.586+00:00",
+    "appointments_last_fetched": "2021-02-27T16:41:45.557+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -24823,7 +23167,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T14:43:27.586+00:00",
+    "appointments_last_fetched": "2021-02-27T16:41:45.557+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -24905,7 +23249,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T14:36:58.337+00:00",
+    "appointments_last_fetched": "2021-02-27T16:42:03.547+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -24946,7 +23290,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T14:43:27.586+00:00",
+    "appointments_last_fetched": "2021-02-27T16:41:45.557+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
