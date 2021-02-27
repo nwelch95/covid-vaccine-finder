@@ -44,9 +44,83 @@
       }
     ],
     "appointments_available": true,
-    "appointments_last_fetched": "2021-02-27T08:27:49.132+00:00",
+    "appointments_last_fetched": "2021-02-27T08:30:38.253+00:00",
     "appointments_raw": {
       "both_doses": {
+        "locations": [
+          {
+            "address": {
+              "city": "BETHEL",
+              "country": "US",
+              "line1": "28 MAYVILLE ROAD",
+              "line2": "",
+              "state": "ME",
+              "zip": "04217"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-01",
+                "day": "Monday",
+                "slots": [
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "02:15 pm",
+                  "02:30 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 20.97,
+            "fhirLocationId": "89822d5e-2298-430c-909d-951a80149f6b",
+            "locationId": "89822d5e-2298-430c-909d-951a80149f6b",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "19575",
+            "phone": [
+              {
+                "number": "207-824-8085",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "207-824-8086",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "207-824-8085",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 44.41232916,
+              "longitude": -70.79609161
+            },
+            "storenumber": "19575"
+          }
+        ]
+      },
+      "second_dose_moderna": {
+        "error": [
+          {
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
+          }
+        ]
+      },
+      "second_dose_pfizer": {
         "locations": [
           {
             "address": {
@@ -111,80 +185,6 @@
             "storenumber": "19575"
           }
         ]
-      },
-      "second_dose_moderna": {
-        "error": [
-          {
-            "code": "FC_904_NoData",
-            "message": "Insufficient inventory."
-          }
-        ]
-      },
-      "second_dose_pfizer": {
-        "locations": [
-          {
-            "address": {
-              "city": "BETHEL",
-              "country": "US",
-              "line1": "28 MAYVILLE ROAD",
-              "line2": "",
-              "state": "ME",
-              "zip": "04217"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "11:45 am",
-                  "12:00 pm",
-                  "12:15 pm",
-                  "02:15 pm",
-                  "02:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 20.97,
-            "fhirLocationId": "89822d5e-2298-430c-909d-951a80149f6b",
-            "locationId": "89822d5e-2298-430c-909d-951a80149f6b",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "19575",
-            "phone": [
-              {
-                "number": "207-824-8085",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "207-824-8086",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "207-824-8085",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 44.41232916,
-              "longitude": -70.79609161
-            },
-            "storenumber": "19575"
-          }
-        ]
       }
     },
     "brand": "walgreens",
@@ -201,7 +201,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T08:20:01.634+00:00",
+    "appointments_last_fetched": "2021-02-27T08:30:38.253+00:00",
     "appointments_raw": {
       "both_doses": {
         "locations": [
@@ -240,7 +240,7 @@
               }
             ],
             "description": "",
-            "distance": 19.11,
+            "distance": 20.97,
             "fhirLocationId": "89822d5e-2298-430c-909d-951a80149f6b",
             "locationId": "89822d5e-2298-430c-909d-951a80149f6b",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -314,7 +314,7 @@
               }
             ],
             "description": "",
-            "distance": 20.97,
+            "distance": 10.23,
             "fhirLocationId": "89822d5e-2298-430c-909d-951a80149f6b",
             "locationId": "89822d5e-2298-430c-909d-951a80149f6b",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -1793,7 +1793,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T08:17:48.14+00:00",
+    "appointments_last_fetched": "2021-02-27T08:30:10.281+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -1875,7 +1875,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T08:17:48.14+00:00",
+    "appointments_last_fetched": "2021-02-27T08:30:10.281+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -1916,7 +1916,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T08:17:48.14+00:00",
+    "appointments_last_fetched": "2021-02-27T08:30:10.281+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -1957,7 +1957,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T08:17:48.14+00:00",
+    "appointments_last_fetched": "2021-02-27T08:30:10.281+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -2080,7 +2080,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T08:17:48.14+00:00",
+    "appointments_last_fetched": "2021-02-27T08:30:10.281+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -3552,7 +3552,7 @@
       }
     ],
     "appointments_available": true,
-    "appointments_last_fetched": "2021-02-27T08:28:42.284+00:00",
+    "appointments_last_fetched": "2021-02-27T08:30:40.004+00:00",
     "appointments_raw": {
       "both_doses": {
         "locations": [
