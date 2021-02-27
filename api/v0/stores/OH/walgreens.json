@@ -35036,7 +35036,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T05:54:13.921+00:00",
+    "appointments_last_fetched": "2021-02-27T06:18:32.669+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -35815,7 +35815,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T05:56:45.391+00:00",
+    "appointments_last_fetched": "2021-02-27T06:16:53.313+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -36307,7 +36307,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T05:56:45.391+00:00",
+    "appointments_last_fetched": "2021-02-27T06:16:53.313+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -41325,95 +41325,13 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T05:56:58.896+00:00",
+    "appointments_last_fetched": "2021-02-27T06:17:52.941+00:00",
     "appointments_raw": {
       "both_doses": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "SALEM",
-              "country": "US",
-              "line1": "2124 E STATE ST",
-              "line2": "",
-              "state": "OH",
-              "zip": "44460"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-02",
-                "day": "Tuesday",
-                "slots": [
-                  "09:30 am",
-                  "09:45 am",
-                  "10:00 am",
-                  "10:15 am",
-                  "10:30 am",
-                  "10:45 am",
-                  "11:00 am",
-                  "11:15 am",
-                  "11:30 am",
-                  "11:45 am",
-                  "12:00 pm",
-                  "12:15 pm",
-                  "12:30 pm",
-                  "12:45 pm",
-                  "01:00 pm",
-                  "02:15 pm",
-                  "02:30 pm",
-                  "02:45 pm",
-                  "03:00 pm",
-                  "03:15 pm",
-                  "03:30 pm",
-                  "03:45 pm",
-                  "04:00 pm",
-                  "04:15 pm",
-                  "04:30 pm",
-                  "04:45 pm",
-                  "05:00 pm",
-                  "05:15 pm",
-                  "05:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 15.56,
-            "fhirLocationId": "89d56faf-52dd-40b4-a753-92e37f22a6bd",
-            "locationId": "89d56faf-52dd-40b4-a753-92e37f22a6bd",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "9377",
-            "phone": [
-              {
-                "number": "330-337-8001",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "330-337-8003",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "330-337-8001",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 40.9012393,
-              "longitude": -80.83113353
-            },
-            "storenumber": "9377"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       },
@@ -41426,92 +41344,10 @@
         ]
       },
       "second_dose_pfizer": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "SALEM",
-              "country": "US",
-              "line1": "2124 E STATE ST",
-              "line2": "",
-              "state": "OH",
-              "zip": "44460"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-02",
-                "day": "Tuesday",
-                "slots": [
-                  "09:30 am",
-                  "09:45 am",
-                  "10:00 am",
-                  "10:15 am",
-                  "10:30 am",
-                  "10:45 am",
-                  "11:00 am",
-                  "11:15 am",
-                  "11:30 am",
-                  "11:45 am",
-                  "12:00 pm",
-                  "12:15 pm",
-                  "12:30 pm",
-                  "12:45 pm",
-                  "01:00 pm",
-                  "02:15 pm",
-                  "02:30 pm",
-                  "02:45 pm",
-                  "03:00 pm",
-                  "03:15 pm",
-                  "03:30 pm",
-                  "03:45 pm",
-                  "04:00 pm",
-                  "04:15 pm",
-                  "04:30 pm",
-                  "04:45 pm",
-                  "05:00 pm",
-                  "05:15 pm",
-                  "05:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 9.52,
-            "fhirLocationId": "89d56faf-52dd-40b4-a753-92e37f22a6bd",
-            "locationId": "89d56faf-52dd-40b4-a753-92e37f22a6bd",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "9377",
-            "phone": [
-              {
-                "number": "330-337-8001",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "330-337-8003",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "330-337-8001",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 40.9012393,
-              "longitude": -80.83113353
-            },
-            "storenumber": "9377"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       }
@@ -43476,7 +43312,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T06:02:31.753+00:00",
+    "appointments_last_fetched": "2021-02-27T06:18:43.784+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
