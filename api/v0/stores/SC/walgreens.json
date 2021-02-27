@@ -4,7 +4,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T04:24:26.577+00:00",
+    "appointments_last_fetched": "2021-02-27T04:37:29.883+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -1355,24 +1355,25 @@
       }
     ],
     "appointments_available": true,
-    "appointments_last_fetched": "2021-02-27T04:32:52.291+00:00",
+    "appointments_last_fetched": "2021-02-27T04:36:37.043+00:00",
     "appointments_raw": {
       "both_doses": {
         "locations": [
           {
             "address": {
-              "city": "DARLINGTON",
+              "city": "FAIRMONT",
               "country": "US",
-              "line1": "1005 S GOVERNOR WILLIAMS HWY",
+              "line1": "414 N WALNUT ST",
               "line2": "",
-              "state": "SC",
-              "zip": "29532"
+              "state": "NC",
+              "zip": "28340"
             },
             "appointmentAvailability": [
               {
                 "date": "2021-03-01",
                 "day": "Monday",
                 "slots": [
+                  "09:15 am",
                   "09:30 am",
                   "09:45 am",
                   "10:00 am",
@@ -1408,125 +1409,51 @@
               }
             ],
             "description": "",
-            "distance": 13.2,
-            "fhirLocationId": "4e3c8c4c-734a-4b8d-b74e-3e72fe749b29",
-            "locationId": "4e3c8c4c-734a-4b8d-b74e-3e72fe749b29",
+            "distance": 14.91,
+            "fhirLocationId": "3d6acffa-7cb5-4d9d-9e33-8a38ceb53d4e",
+            "locationId": "3d6acffa-7cb5-4d9d-9e33-8a38ceb53d4e",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
             "name": "Walgreen Drug Store",
             "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "9737",
+            "partnerLocationId": "16161",
             "phone": [
               {
-                "number": "843-393-2679",
+                "number": "910-628-6068",
                 "type": "StorePrimary"
               },
               {
-                "number": "843-393-5429",
+                "number": "",
                 "type": "StoreSecondary"
               },
               {
-                "number": "843-393-2679",
+                "number": "910-628-6068",
                 "type": "Pharmacy"
               }
             ],
             "position": {
-              "latitude": 34.28307315,
-              "longitude": -79.85665042
+              "latitude": 34.50284379,
+              "longitude": -79.11172332
             },
-            "storenumber": "9737"
+            "storenumber": "16161"
           },
           {
             "address": {
-              "city": "FLORENCE",
+              "city": "LUMBERTON",
               "country": "US",
-              "line1": "726 S IRBY ST",
+              "line1": "3003 FAYETTEVILLE RD",
               "line2": "",
-              "state": "SC",
-              "zip": "29501"
+              "state": "NC",
+              "zip": "28358"
             },
             "appointmentAvailability": [
               {
                 "date": "2021-03-01",
                 "day": "Monday",
                 "slots": [
-                  "09:15 am",
-                  "09:30 am",
-                  "09:45 am",
-                  "10:00 am",
-                  "10:30 am",
-                  "10:45 am",
-                  "11:15 am",
-                  "11:30 am",
-                  "11:45 am",
-                  "12:00 pm",
-                  "12:15 pm",
-                  "12:30 pm",
-                  "01:00 pm",
-                  "02:15 pm",
-                  "02:30 pm",
-                  "02:45 pm",
-                  "03:00 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 13.55,
-            "fhirLocationId": "57e07879-5b08-4734-ad31-a67304f9a27a",
-            "locationId": "57e07879-5b08-4734-ad31-a67304f9a27a",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "15997",
-            "phone": [
-              {
-                "number": "843-773-3021",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "843-413-1471",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "843-773-3021",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 34.18424197,
-              "longitude": -79.76677026
-            },
-            "storenumber": "15997"
-          },
-          {
-            "address": {
-              "city": "FLORENCE",
-              "country": "US",
-              "line1": "1500 S IRBY ST",
-              "line2": "",
-              "state": "SC",
-              "zip": "29505"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-02-27",
-                "day": "Saturday",
-                "slots": [
-                  "10:00 am",
                   "10:15 am",
                   "10:30 am",
                   "10:45 am",
+                  "11:00 am",
                   "11:15 am",
                   "11:30 am",
                   "11:45 am",
@@ -1534,80 +1461,15 @@
                   "12:15 pm",
                   "12:30 pm",
                   "12:45 pm",
-                  "01:00 pm",
                   "02:15 pm",
                   "02:30 pm",
                   "02:45 pm",
                   "03:00 pm",
                   "03:15 pm",
                   "03:30 pm",
-                  "03:45 pm",
                   "04:00 pm",
                   "04:15 pm",
-                  "04:30 pm",
-                  "04:45 pm",
-                  "05:00 pm",
-                  "05:15 pm",
-                  "05:30 pm"
-                ]
-              },
-              {
-                "date": "2021-02-28",
-                "day": "Sunday",
-                "slots": [
-                  "09:15 am",
-                  "09:30 am",
-                  "09:45 am",
-                  "10:00 am",
-                  "10:15 am",
-                  "10:30 am",
-                  "11:00 am",
-                  "11:15 am",
-                  "11:45 am",
-                  "12:00 pm",
-                  "12:15 pm",
-                  "12:30 pm",
-                  "12:45 pm",
-                  "01:00 pm",
-                  "02:15 pm",
-                  "02:30 pm",
-                  "02:45 pm",
-                  "03:00 pm"
-                ]
-              },
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "09:15 am",
-                  "09:30 am",
-                  "09:45 am",
-                  "10:00 am",
-                  "10:15 am",
-                  "10:30 am",
-                  "10:45 am",
-                  "11:00 am",
-                  "11:15 am",
-                  "11:30 am",
-                  "11:45 am",
-                  "12:00 pm",
-                  "12:15 pm",
-                  "12:30 pm",
-                  "12:45 pm",
-                  "01:00 pm",
-                  "02:15 pm",
-                  "02:45 pm",
-                  "03:00 pm",
-                  "03:15 pm",
-                  "03:30 pm",
-                  "03:45 pm",
-                  "04:00 pm",
-                  "04:15 pm",
-                  "04:30 pm",
-                  "04:45 pm",
-                  "05:00 pm",
-                  "05:15 pm",
-                  "05:30 pm"
+                  "04:30 pm"
                 ]
               }
             ],
@@ -1624,100 +1486,32 @@
               }
             ],
             "description": "",
-            "distance": 14.58,
-            "fhirLocationId": "5f8aa68a-5ccd-45fd-8ae8-b9bc66f4ca1a",
-            "locationId": "5f8aa68a-5ccd-45fd-8ae8-b9bc66f4ca1a",
+            "distance": 20.97,
+            "fhirLocationId": "c9a26510-cbf4-4922-bfdb-971a46c4c364",
+            "locationId": "c9a26510-cbf4-4922-bfdb-971a46c4c364",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
             "name": "Walgreen Drug Store",
             "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "7155",
+            "partnerLocationId": "1056",
             "phone": [
               {
-                "number": "843-629-8427",
+                "number": "910-739-7072",
                 "type": "StorePrimary"
               },
               {
-                "number": "843-629-8471",
+                "number": "910-739-7160",
                 "type": "StoreSecondary"
               },
               {
-                "number": "843-629-8427",
+                "number": "910-739-7072",
                 "type": "Pharmacy"
               }
             ],
             "position": {
-              "latitude": 34.16554649,
-              "longitude": -79.76401673
+              "latitude": 34.639347,
+              "longitude": -79.00024
             },
-            "storenumber": "7155"
-          },
-          {
-            "address": {
-              "city": "FLORENCE",
-              "country": "US",
-              "line1": "2498 2ND LOOP RD",
-              "line2": "",
-              "state": "SC",
-              "zip": "29501"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "09:15 am",
-                  "09:30 am",
-                  "09:45 am",
-                  "10:15 am",
-                  "12:00 pm",
-                  "12:15 pm",
-                  "12:30 pm",
-                  "12:45 pm",
-                  "02:15 pm",
-                  "02:30 pm",
-                  "02:45 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 15.49,
-            "fhirLocationId": "619ee32b-dbf9-4a7e-987b-99bf798acb20",
-            "locationId": "619ee32b-dbf9-4a7e-987b-99bf798acb20",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "7626",
-            "phone": [
-              {
-                "number": "843-317-1233",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "843-317-1237",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "843-317-1233",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 34.17559435,
-              "longitude": -79.81038796
-            },
-            "storenumber": "7626"
+            "storenumber": "1056"
           },
           {
             "address": {
@@ -1760,7 +1554,7 @@
               }
             ],
             "description": "",
-            "distance": 16.73,
+            "distance": 24.81,
             "fhirLocationId": "80e4afc7-b832-4082-a67a-def84d8e4987",
             "locationId": "80e4afc7-b832-4082-a67a-def84d8e4987",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -1786,80 +1580,6 @@
               "longitude": -79.361994
             },
             "storenumber": "10447"
-          },
-          {
-            "address": {
-              "city": "HARTSVILLE",
-              "country": "US",
-              "line1": "901 S 5TH ST",
-              "line2": "",
-              "state": "SC",
-              "zip": "29550"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "09:30 am",
-                  "09:45 am",
-                  "10:15 am",
-                  "10:30 am",
-                  "10:45 am",
-                  "11:15 am",
-                  "11:30 am",
-                  "11:45 am",
-                  "12:00 pm",
-                  "12:15 pm",
-                  "12:30 pm",
-                  "12:45 pm",
-                  "01:00 pm",
-                  "02:15 pm",
-                  "02:30 pm",
-                  "02:45 pm",
-                  "03:00 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 24.36,
-            "fhirLocationId": "caa0ba86-018d-4d49-990d-75e55fd7b13f",
-            "locationId": "caa0ba86-018d-4d49-990d-75e55fd7b13f",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "10329",
-            "phone": [
-              {
-                "number": "843-332-4523",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "843-332-6275",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "843-332-4523",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 34.3624746,
-              "longitude": -80.06687697
-            },
-            "storenumber": "10329"
           }
         ]
       },
@@ -1867,18 +1587,19 @@
         "locations": [
           {
             "address": {
-              "city": "DARLINGTON",
+              "city": "FAIRMONT",
               "country": "US",
-              "line1": "1005 S GOVERNOR WILLIAMS HWY",
+              "line1": "414 N WALNUT ST",
               "line2": "",
-              "state": "SC",
-              "zip": "29532"
+              "state": "NC",
+              "zip": "28340"
             },
             "appointmentAvailability": [
               {
                 "date": "2021-03-01",
                 "day": "Monday",
                 "slots": [
+                  "09:15 am",
                   "09:30 am",
                   "09:45 am",
                   "10:00 am",
@@ -1914,316 +1635,32 @@
               }
             ],
             "description": "",
-            "distance": 13.2,
-            "fhirLocationId": "4e3c8c4c-734a-4b8d-b74e-3e72fe749b29",
-            "locationId": "4e3c8c4c-734a-4b8d-b74e-3e72fe749b29",
+            "distance": 17.99,
+            "fhirLocationId": "3d6acffa-7cb5-4d9d-9e33-8a38ceb53d4e",
+            "locationId": "3d6acffa-7cb5-4d9d-9e33-8a38ceb53d4e",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
             "name": "Walgreen Drug Store",
             "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "9737",
+            "partnerLocationId": "16161",
             "phone": [
               {
-                "number": "843-393-2679",
+                "number": "910-628-6068",
                 "type": "StorePrimary"
               },
               {
-                "number": "843-393-5429",
+                "number": "",
                 "type": "StoreSecondary"
               },
               {
-                "number": "843-393-2679",
+                "number": "910-628-6068",
                 "type": "Pharmacy"
               }
             ],
             "position": {
-              "latitude": 34.28307315,
-              "longitude": -79.85665042
+              "latitude": 34.50284379,
+              "longitude": -79.11172332
             },
-            "storenumber": "9737"
-          },
-          {
-            "address": {
-              "city": "FLORENCE",
-              "country": "US",
-              "line1": "726 S IRBY ST",
-              "line2": "",
-              "state": "SC",
-              "zip": "29501"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "09:15 am",
-                  "09:30 am",
-                  "09:45 am",
-                  "10:00 am",
-                  "10:30 am",
-                  "10:45 am",
-                  "11:15 am",
-                  "11:30 am",
-                  "11:45 am",
-                  "12:00 pm",
-                  "12:15 pm",
-                  "12:30 pm",
-                  "01:00 pm",
-                  "02:15 pm",
-                  "02:30 pm",
-                  "02:45 pm",
-                  "03:00 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 13.55,
-            "fhirLocationId": "57e07879-5b08-4734-ad31-a67304f9a27a",
-            "locationId": "57e07879-5b08-4734-ad31-a67304f9a27a",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "15997",
-            "phone": [
-              {
-                "number": "843-773-3021",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "843-413-1471",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "843-773-3021",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 34.18424197,
-              "longitude": -79.76677026
-            },
-            "storenumber": "15997"
-          },
-          {
-            "address": {
-              "city": "FLORENCE",
-              "country": "US",
-              "line1": "1500 S IRBY ST",
-              "line2": "",
-              "state": "SC",
-              "zip": "29505"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-02-27",
-                "day": "Saturday",
-                "slots": [
-                  "10:00 am",
-                  "10:15 am",
-                  "10:30 am",
-                  "10:45 am",
-                  "11:15 am",
-                  "11:30 am",
-                  "11:45 am",
-                  "12:00 pm",
-                  "12:15 pm",
-                  "12:30 pm",
-                  "12:45 pm",
-                  "01:00 pm",
-                  "02:15 pm",
-                  "02:30 pm",
-                  "02:45 pm",
-                  "03:00 pm",
-                  "03:15 pm",
-                  "03:30 pm",
-                  "03:45 pm",
-                  "04:00 pm",
-                  "04:15 pm",
-                  "04:30 pm",
-                  "04:45 pm",
-                  "05:00 pm",
-                  "05:15 pm",
-                  "05:30 pm"
-                ]
-              },
-              {
-                "date": "2021-02-28",
-                "day": "Sunday",
-                "slots": [
-                  "09:15 am",
-                  "09:30 am",
-                  "09:45 am",
-                  "10:00 am",
-                  "10:15 am",
-                  "10:30 am",
-                  "11:00 am",
-                  "11:15 am",
-                  "11:45 am",
-                  "12:00 pm",
-                  "12:15 pm",
-                  "12:30 pm",
-                  "12:45 pm",
-                  "01:00 pm",
-                  "02:15 pm",
-                  "02:30 pm",
-                  "02:45 pm",
-                  "03:00 pm"
-                ]
-              },
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "09:15 am",
-                  "09:30 am",
-                  "09:45 am",
-                  "10:00 am",
-                  "10:15 am",
-                  "10:30 am",
-                  "10:45 am",
-                  "11:00 am",
-                  "11:15 am",
-                  "11:30 am",
-                  "11:45 am",
-                  "12:00 pm",
-                  "12:15 pm",
-                  "12:30 pm",
-                  "12:45 pm",
-                  "01:00 pm",
-                  "02:15 pm",
-                  "02:45 pm",
-                  "03:00 pm",
-                  "03:15 pm",
-                  "03:30 pm",
-                  "03:45 pm",
-                  "04:00 pm",
-                  "04:15 pm",
-                  "04:30 pm",
-                  "04:45 pm",
-                  "05:00 pm",
-                  "05:15 pm",
-                  "05:30 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 14.58,
-            "fhirLocationId": "5f8aa68a-5ccd-45fd-8ae8-b9bc66f4ca1a",
-            "locationId": "5f8aa68a-5ccd-45fd-8ae8-b9bc66f4ca1a",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "7155",
-            "phone": [
-              {
-                "number": "843-629-8427",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "843-629-8471",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "843-629-8427",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 34.16554649,
-              "longitude": -79.76401673
-            },
-            "storenumber": "7155"
-          },
-          {
-            "address": {
-              "city": "FLORENCE",
-              "country": "US",
-              "line1": "2498 2ND LOOP RD",
-              "line2": "",
-              "state": "SC",
-              "zip": "29501"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "09:15 am",
-                  "09:30 am",
-                  "09:45 am",
-                  "10:15 am",
-                  "12:00 pm",
-                  "12:15 pm",
-                  "12:30 pm",
-                  "12:45 pm",
-                  "02:15 pm",
-                  "02:30 pm",
-                  "02:45 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 15.49,
-            "fhirLocationId": "619ee32b-dbf9-4a7e-987b-99bf798acb20",
-            "locationId": "619ee32b-dbf9-4a7e-987b-99bf798acb20",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "7626",
-            "phone": [
-              {
-                "number": "843-317-1233",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "843-317-1237",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "843-317-1233",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 34.17559435,
-              "longitude": -79.81038796
-            },
-            "storenumber": "7626"
+            "storenumber": "16161"
           },
           {
             "address": {
@@ -2266,7 +1703,7 @@
               }
             ],
             "description": "",
-            "distance": 16.73,
+            "distance": 24.81,
             "fhirLocationId": "80e4afc7-b832-4082-a67a-def84d8e4987",
             "locationId": "80e4afc7-b832-4082-a67a-def84d8e4987",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
@@ -2292,26 +1729,29 @@
               "longitude": -79.361994
             },
             "storenumber": "10447"
-          },
+          }
+        ]
+      },
+      "second_dose_pfizer": {
+        "locations": [
           {
             "address": {
-              "city": "HARTSVILLE",
+              "city": "LUMBERTON",
               "country": "US",
-              "line1": "901 S 5TH ST",
+              "line1": "3003 FAYETTEVILLE RD",
               "line2": "",
-              "state": "SC",
-              "zip": "29550"
+              "state": "NC",
+              "zip": "28358"
             },
             "appointmentAvailability": [
               {
                 "date": "2021-03-01",
                 "day": "Monday",
                 "slots": [
-                  "09:30 am",
-                  "09:45 am",
                   "10:15 am",
                   "10:30 am",
                   "10:45 am",
+                  "11:00 am",
                   "11:15 am",
                   "11:30 am",
                   "11:45 am",
@@ -2319,11 +1759,15 @@
                   "12:15 pm",
                   "12:30 pm",
                   "12:45 pm",
-                  "01:00 pm",
                   "02:15 pm",
                   "02:30 pm",
                   "02:45 pm",
-                  "03:00 pm"
+                  "03:00 pm",
+                  "03:15 pm",
+                  "03:30 pm",
+                  "04:00 pm",
+                  "04:15 pm",
+                  "04:30 pm"
                 ]
               }
             ],
@@ -2340,40 +1784,32 @@
               }
             ],
             "description": "",
-            "distance": 24.36,
-            "fhirLocationId": "caa0ba86-018d-4d49-990d-75e55fd7b13f",
-            "locationId": "caa0ba86-018d-4d49-990d-75e55fd7b13f",
+            "distance": 20.97,
+            "fhirLocationId": "c9a26510-cbf4-4922-bfdb-971a46c4c364",
+            "locationId": "c9a26510-cbf4-4922-bfdb-971a46c4c364",
             "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
             "name": "Walgreen Drug Store",
             "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "10329",
+            "partnerLocationId": "1056",
             "phone": [
               {
-                "number": "843-332-4523",
+                "number": "910-739-7072",
                 "type": "StorePrimary"
               },
               {
-                "number": "843-332-6275",
+                "number": "910-739-7160",
                 "type": "StoreSecondary"
               },
               {
-                "number": "843-332-4523",
+                "number": "910-739-7072",
                 "type": "Pharmacy"
               }
             ],
             "position": {
-              "latitude": 34.3624746,
-              "longitude": -80.06687697
+              "latitude": 34.639347,
+              "longitude": -79.00024
             },
-            "storenumber": "10329"
-          }
-        ]
-      },
-      "second_dose_pfizer": {
-        "error": [
-          {
-            "code": "FC_904_NoData",
-            "message": "Insufficient inventory."
+            "storenumber": "1056"
           }
         ]
       }
@@ -3137,129 +2573,21 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T04:30:01.167+00:00",
+    "appointments_last_fetched": "2021-02-27T04:37:15.5+00:00",
     "appointments_raw": {
       "both_doses": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "CONWAY",
-              "country": "US",
-              "line1": "1601 CHURCH ST",
-              "line2": "",
-              "state": "SC",
-              "zip": "29526"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "02:45 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 23.49,
-            "fhirLocationId": "7109b73c-65df-4365-99f6-3477143a234d",
-            "locationId": "7109b73c-65df-4365-99f6-3477143a234d",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "7154",
-            "phone": [
-              {
-                "number": "843-488-2000",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "843-488-2060",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "843-488-2000",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 33.844954,
-              "longitude": -79.063572
-            },
-            "storenumber": "7154"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       },
       "second_dose_moderna": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "CONWAY",
-              "country": "US",
-              "line1": "1601 CHURCH ST",
-              "line2": "",
-              "state": "SC",
-              "zip": "29526"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "02:45 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 17.1,
-            "fhirLocationId": "7109b73c-65df-4365-99f6-3477143a234d",
-            "locationId": "7109b73c-65df-4365-99f6-3477143a234d",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "7154",
-            "phone": [
-              {
-                "number": "843-488-2000",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "843-488-2060",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "843-488-2000",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 33.844954,
-              "longitude": -79.063572
-            },
-            "storenumber": "7154"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       },
@@ -3286,129 +2614,21 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T04:30:01.167+00:00",
+    "appointments_last_fetched": "2021-02-27T04:37:15.5+00:00",
     "appointments_raw": {
       "both_doses": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "CONWAY",
-              "country": "US",
-              "line1": "1601 CHURCH ST",
-              "line2": "",
-              "state": "SC",
-              "zip": "29526"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "02:45 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 23.49,
-            "fhirLocationId": "7109b73c-65df-4365-99f6-3477143a234d",
-            "locationId": "7109b73c-65df-4365-99f6-3477143a234d",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "7154",
-            "phone": [
-              {
-                "number": "843-488-2000",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "843-488-2060",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "843-488-2000",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 33.844954,
-              "longitude": -79.063572
-            },
-            "storenumber": "7154"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       },
       "second_dose_moderna": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "CONWAY",
-              "country": "US",
-              "line1": "1601 CHURCH ST",
-              "line2": "",
-              "state": "SC",
-              "zip": "29526"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "02:45 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 17.1,
-            "fhirLocationId": "7109b73c-65df-4365-99f6-3477143a234d",
-            "locationId": "7109b73c-65df-4365-99f6-3477143a234d",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "7154",
-            "phone": [
-              {
-                "number": "843-488-2000",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "843-488-2060",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "843-488-2000",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 33.844954,
-              "longitude": -79.063572
-            },
-            "storenumber": "7154"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       },
@@ -3435,129 +2655,21 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T04:30:01.167+00:00",
+    "appointments_last_fetched": "2021-02-27T04:37:15.5+00:00",
     "appointments_raw": {
       "both_doses": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "CONWAY",
-              "country": "US",
-              "line1": "1601 CHURCH ST",
-              "line2": "",
-              "state": "SC",
-              "zip": "29526"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "02:45 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 23.49,
-            "fhirLocationId": "7109b73c-65df-4365-99f6-3477143a234d",
-            "locationId": "7109b73c-65df-4365-99f6-3477143a234d",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "7154",
-            "phone": [
-              {
-                "number": "843-488-2000",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "843-488-2060",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "843-488-2000",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 33.844954,
-              "longitude": -79.063572
-            },
-            "storenumber": "7154"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       },
       "second_dose_moderna": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "CONWAY",
-              "country": "US",
-              "line1": "1601 CHURCH ST",
-              "line2": "",
-              "state": "SC",
-              "zip": "29526"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "02:45 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 17.1,
-            "fhirLocationId": "7109b73c-65df-4365-99f6-3477143a234d",
-            "locationId": "7109b73c-65df-4365-99f6-3477143a234d",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "7154",
-            "phone": [
-              {
-                "number": "843-488-2000",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "843-488-2060",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "843-488-2000",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 33.844954,
-              "longitude": -79.063572
-            },
-            "storenumber": "7154"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       },
@@ -3584,129 +2696,21 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T04:30:01.167+00:00",
+    "appointments_last_fetched": "2021-02-27T04:37:15.5+00:00",
     "appointments_raw": {
       "both_doses": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "CONWAY",
-              "country": "US",
-              "line1": "1601 CHURCH ST",
-              "line2": "",
-              "state": "SC",
-              "zip": "29526"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "02:45 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 23.49,
-            "fhirLocationId": "7109b73c-65df-4365-99f6-3477143a234d",
-            "locationId": "7109b73c-65df-4365-99f6-3477143a234d",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "7154",
-            "phone": [
-              {
-                "number": "843-488-2000",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "843-488-2060",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "843-488-2000",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 33.844954,
-              "longitude": -79.063572
-            },
-            "storenumber": "7154"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       },
       "second_dose_moderna": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "CONWAY",
-              "country": "US",
-              "line1": "1601 CHURCH ST",
-              "line2": "",
-              "state": "SC",
-              "zip": "29526"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "02:45 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 17.1,
-            "fhirLocationId": "7109b73c-65df-4365-99f6-3477143a234d",
-            "locationId": "7109b73c-65df-4365-99f6-3477143a234d",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "7154",
-            "phone": [
-              {
-                "number": "843-488-2000",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "843-488-2060",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "843-488-2000",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 33.844954,
-              "longitude": -79.063572
-            },
-            "storenumber": "7154"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       },
@@ -3733,129 +2737,21 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T04:30:01.167+00:00",
+    "appointments_last_fetched": "2021-02-27T04:37:15.5+00:00",
     "appointments_raw": {
       "both_doses": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "CONWAY",
-              "country": "US",
-              "line1": "1601 CHURCH ST",
-              "line2": "",
-              "state": "SC",
-              "zip": "29526"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "02:45 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 23.49,
-            "fhirLocationId": "7109b73c-65df-4365-99f6-3477143a234d",
-            "locationId": "7109b73c-65df-4365-99f6-3477143a234d",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "7154",
-            "phone": [
-              {
-                "number": "843-488-2000",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "843-488-2060",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "843-488-2000",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 33.844954,
-              "longitude": -79.063572
-            },
-            "storenumber": "7154"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       },
       "second_dose_moderna": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "CONWAY",
-              "country": "US",
-              "line1": "1601 CHURCH ST",
-              "line2": "",
-              "state": "SC",
-              "zip": "29526"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "02:45 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 17.1,
-            "fhirLocationId": "7109b73c-65df-4365-99f6-3477143a234d",
-            "locationId": "7109b73c-65df-4365-99f6-3477143a234d",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "7154",
-            "phone": [
-              {
-                "number": "843-488-2000",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "843-488-2060",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "843-488-2000",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 33.844954,
-              "longitude": -79.063572
-            },
-            "storenumber": "7154"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       },
@@ -3882,129 +2778,21 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T04:30:01.167+00:00",
+    "appointments_last_fetched": "2021-02-27T04:37:15.5+00:00",
     "appointments_raw": {
       "both_doses": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "CONWAY",
-              "country": "US",
-              "line1": "1601 CHURCH ST",
-              "line2": "",
-              "state": "SC",
-              "zip": "29526"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "02:45 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 23.49,
-            "fhirLocationId": "7109b73c-65df-4365-99f6-3477143a234d",
-            "locationId": "7109b73c-65df-4365-99f6-3477143a234d",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "7154",
-            "phone": [
-              {
-                "number": "843-488-2000",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "843-488-2060",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "843-488-2000",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 33.844954,
-              "longitude": -79.063572
-            },
-            "storenumber": "7154"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       },
       "second_dose_moderna": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "CONWAY",
-              "country": "US",
-              "line1": "1601 CHURCH ST",
-              "line2": "",
-              "state": "SC",
-              "zip": "29526"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "02:45 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 17.1,
-            "fhirLocationId": "7109b73c-65df-4365-99f6-3477143a234d",
-            "locationId": "7109b73c-65df-4365-99f6-3477143a234d",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "7154",
-            "phone": [
-              {
-                "number": "843-488-2000",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "843-488-2060",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "843-488-2000",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 33.844954,
-              "longitude": -79.063572
-            },
-            "storenumber": "7154"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       },
@@ -4029,139 +2817,23 @@
   {
     "address": "1601 CHURCH ST",
     "appointments": [
-      {
-        "time": "2021-03-01T14:45:00.000-05:00",
-        "type": "both_doses"
-      },
-      {
-        "time": "2021-03-01T14:45:00.000-05:00",
-        "type": "second_dose_moderna"
-      }
     ],
-    "appointments_available": true,
-    "appointments_last_fetched": "2021-02-27T04:30:01.167+00:00",
+    "appointments_available": false,
+    "appointments_last_fetched": "2021-02-27T04:37:15.5+00:00",
     "appointments_raw": {
       "both_doses": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "CONWAY",
-              "country": "US",
-              "line1": "1601 CHURCH ST",
-              "line2": "",
-              "state": "SC",
-              "zip": "29526"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "02:45 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 23.49,
-            "fhirLocationId": "7109b73c-65df-4365-99f6-3477143a234d",
-            "locationId": "7109b73c-65df-4365-99f6-3477143a234d",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "7154",
-            "phone": [
-              {
-                "number": "843-488-2000",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "843-488-2060",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "843-488-2000",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 33.844954,
-              "longitude": -79.063572
-            },
-            "storenumber": "7154"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       },
       "second_dose_moderna": {
-        "locations": [
+        "error": [
           {
-            "address": {
-              "city": "CONWAY",
-              "country": "US",
-              "line1": "1601 CHURCH ST",
-              "line2": "",
-              "state": "SC",
-              "zip": "29526"
-            },
-            "appointmentAvailability": [
-              {
-                "date": "2021-03-01",
-                "day": "Monday",
-                "slots": [
-                  "02:45 pm"
-                ]
-              }
-            ],
-            "categories": [
-              {
-                "code": "2",
-                "display": "Immunizations",
-                "services": [
-                  {
-                    "code": "99",
-                    "display": "COVID-19 Vaccine"
-                  }
-                ]
-              }
-            ],
-            "description": "",
-            "distance": 17.1,
-            "fhirLocationId": "7109b73c-65df-4365-99f6-3477143a234d",
-            "locationId": "7109b73c-65df-4365-99f6-3477143a234d",
-            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
-            "name": "Walgreen Drug Store",
-            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
-            "partnerLocationId": "7154",
-            "phone": [
-              {
-                "number": "843-488-2000",
-                "type": "StorePrimary"
-              },
-              {
-                "number": "843-488-2060",
-                "type": "StoreSecondary"
-              },
-              {
-                "number": "843-488-2000",
-                "type": "Pharmacy"
-              }
-            ],
-            "position": {
-              "latitude": 33.844954,
-              "longitude": -79.063572
-            },
-            "storenumber": "7154"
+            "code": "FC_904_NoData",
+            "message": "Insufficient inventory."
           }
         ]
       },
