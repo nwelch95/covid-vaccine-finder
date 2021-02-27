@@ -3270,7 +3270,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T04:51:53.65+00:00",
+    "appointments_last_fetched": "2021-02-27T05:08:04.46+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -3311,7 +3311,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T04:51:53.65+00:00",
+    "appointments_last_fetched": "2021-02-27T05:08:04.46+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -3393,21 +3393,167 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T04:50:36.254+00:00",
+    "appointments_last_fetched": "2021-02-27T05:07:43.33+00:00",
     "appointments_raw": {
       "both_doses": {
-        "error": [
+        "locations": [
           {
-            "code": "FC_904_NoData",
-            "message": "Insufficient inventory."
+            "address": {
+              "city": "BRYSON CITY",
+              "country": "US",
+              "line1": "50 HIGHWAY 19",
+              "line2": "",
+              "state": "NC",
+              "zip": "28713"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "09:15 am",
+                  "09:30 am",
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "11:00 am",
+                  "11:15 am",
+                  "11:30 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "02:15 pm",
+                  "02:30 pm",
+                  "02:45 pm",
+                  "03:00 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 22.47,
+            "fhirLocationId": "01aba726-53b2-48a5-8193-00fe87603c97",
+            "locationId": "01aba726-53b2-48a5-8193-00fe87603c97",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "16103",
+            "phone": [
+              {
+                "number": "828-488-6677",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "828-488-6677",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 35.42704929,
+              "longitude": -83.44877214
+            },
+            "storenumber": "16103"
           }
         ]
       },
       "second_dose_moderna": {
-        "error": [
+        "locations": [
           {
-            "code": "FC_904_NoData",
-            "message": "Insufficient inventory."
+            "address": {
+              "city": "BRYSON CITY",
+              "country": "US",
+              "line1": "50 HIGHWAY 19",
+              "line2": "",
+              "state": "NC",
+              "zip": "28713"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "09:15 am",
+                  "09:30 am",
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "11:00 am",
+                  "11:15 am",
+                  "11:30 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "02:15 pm",
+                  "02:30 pm",
+                  "02:45 pm",
+                  "03:00 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 22.47,
+            "fhirLocationId": "01aba726-53b2-48a5-8193-00fe87603c97",
+            "locationId": "01aba726-53b2-48a5-8193-00fe87603c97",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "16103",
+            "phone": [
+              {
+                "number": "828-488-6677",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "828-488-6677",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 35.42704929,
+              "longitude": -83.44877214
+            },
+            "storenumber": "16103"
           }
         ]
       },
@@ -3475,21 +3621,167 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T04:50:36.254+00:00",
+    "appointments_last_fetched": "2021-02-27T05:07:43.33+00:00",
     "appointments_raw": {
       "both_doses": {
-        "error": [
+        "locations": [
           {
-            "code": "FC_904_NoData",
-            "message": "Insufficient inventory."
+            "address": {
+              "city": "BRYSON CITY",
+              "country": "US",
+              "line1": "50 HIGHWAY 19",
+              "line2": "",
+              "state": "NC",
+              "zip": "28713"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "09:15 am",
+                  "09:30 am",
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "11:00 am",
+                  "11:15 am",
+                  "11:30 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "02:15 pm",
+                  "02:30 pm",
+                  "02:45 pm",
+                  "03:00 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 22.47,
+            "fhirLocationId": "01aba726-53b2-48a5-8193-00fe87603c97",
+            "locationId": "01aba726-53b2-48a5-8193-00fe87603c97",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "16103",
+            "phone": [
+              {
+                "number": "828-488-6677",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "828-488-6677",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 35.42704929,
+              "longitude": -83.44877214
+            },
+            "storenumber": "16103"
           }
         ]
       },
       "second_dose_moderna": {
-        "error": [
+        "locations": [
           {
-            "code": "FC_904_NoData",
-            "message": "Insufficient inventory."
+            "address": {
+              "city": "BRYSON CITY",
+              "country": "US",
+              "line1": "50 HIGHWAY 19",
+              "line2": "",
+              "state": "NC",
+              "zip": "28713"
+            },
+            "appointmentAvailability": [
+              {
+                "date": "2021-03-02",
+                "day": "Tuesday",
+                "slots": [
+                  "09:15 am",
+                  "09:30 am",
+                  "09:45 am",
+                  "10:00 am",
+                  "10:15 am",
+                  "10:30 am",
+                  "10:45 am",
+                  "11:00 am",
+                  "11:15 am",
+                  "11:30 am",
+                  "11:45 am",
+                  "12:00 pm",
+                  "12:15 pm",
+                  "12:30 pm",
+                  "12:45 pm",
+                  "01:00 pm",
+                  "02:15 pm",
+                  "02:30 pm",
+                  "02:45 pm",
+                  "03:00 pm"
+                ]
+              }
+            ],
+            "categories": [
+              {
+                "code": "2",
+                "display": "Immunizations",
+                "services": [
+                  {
+                    "code": "99",
+                    "display": "COVID-19 Vaccine"
+                  }
+                ]
+              }
+            ],
+            "description": "",
+            "distance": 22.47,
+            "fhirLocationId": "01aba726-53b2-48a5-8193-00fe87603c97",
+            "locationId": "01aba726-53b2-48a5-8193-00fe87603c97",
+            "logoURL": "/images/adaptive/pharmacy/healthcenter/health-navigator/Walgreens_logo_2X.png",
+            "name": "Walgreen Drug Store",
+            "orgId": "Organization/35860656-84da-43fd-b66f-47e81b483e3b",
+            "partnerLocationId": "16103",
+            "phone": [
+              {
+                "number": "828-488-6677",
+                "type": "StorePrimary"
+              },
+              {
+                "number": "",
+                "type": "StoreSecondary"
+              },
+              {
+                "number": "828-488-6677",
+                "type": "Pharmacy"
+              }
+            ],
+            "position": {
+              "latitude": 35.42704929,
+              "longitude": -83.44877214
+            },
+            "storenumber": "16103"
           }
         ]
       },
@@ -8403,7 +8695,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T04:52:16.168+00:00",
+    "appointments_last_fetched": "2021-02-27T05:07:25.854+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -8444,7 +8736,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T04:52:16.168+00:00",
+    "appointments_last_fetched": "2021-02-27T05:07:25.854+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -9100,7 +9392,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T04:52:16.168+00:00",
+    "appointments_last_fetched": "2021-02-27T05:07:25.854+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -9264,7 +9556,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T04:52:16.168+00:00",
+    "appointments_last_fetched": "2021-02-27T05:07:25.854+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -17155,7 +17447,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T04:51:53.65+00:00",
+    "appointments_last_fetched": "2021-02-27T05:08:04.46+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -17647,7 +17939,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T04:54:56.141+00:00",
+    "appointments_last_fetched": "2021-02-27T05:07:29.461+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -17811,7 +18103,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T04:54:56.141+00:00",
+    "appointments_last_fetched": "2021-02-27T05:07:29.461+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -19123,7 +19415,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T04:54:56.141+00:00",
+    "appointments_last_fetched": "2021-02-27T05:07:29.461+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -19205,7 +19497,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T04:54:56.141+00:00",
+    "appointments_last_fetched": "2021-02-27T05:07:29.461+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -19369,7 +19661,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T04:54:56.141+00:00",
+    "appointments_last_fetched": "2021-02-27T05:07:29.461+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -19451,7 +19743,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T04:54:56.141+00:00",
+    "appointments_last_fetched": "2021-02-27T05:07:29.461+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -19492,7 +19784,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T04:54:56.141+00:00",
+    "appointments_last_fetched": "2021-02-27T05:07:29.461+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -19574,7 +19866,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T04:54:56.141+00:00",
+    "appointments_last_fetched": "2021-02-27T05:07:29.461+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -19615,7 +19907,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T04:54:56.141+00:00",
+    "appointments_last_fetched": "2021-02-27T05:07:29.461+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -19656,7 +19948,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T04:54:56.141+00:00",
+    "appointments_last_fetched": "2021-02-27T05:07:29.461+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -19697,7 +19989,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T04:54:56.141+00:00",
+    "appointments_last_fetched": "2021-02-27T05:07:29.461+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -19738,7 +20030,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T04:54:56.141+00:00",
+    "appointments_last_fetched": "2021-02-27T05:07:29.461+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -19779,7 +20071,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T04:54:56.141+00:00",
+    "appointments_last_fetched": "2021-02-27T05:07:29.461+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -19820,7 +20112,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T04:54:56.141+00:00",
+    "appointments_last_fetched": "2021-02-27T05:07:29.461+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -19861,7 +20153,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T04:54:56.141+00:00",
+    "appointments_last_fetched": "2021-02-27T05:07:29.461+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -19902,7 +20194,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T04:54:56.141+00:00",
+    "appointments_last_fetched": "2021-02-27T05:07:29.461+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -19943,7 +20235,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T04:54:56.141+00:00",
+    "appointments_last_fetched": "2021-02-27T05:07:29.461+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -19984,7 +20276,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T04:54:56.141+00:00",
+    "appointments_last_fetched": "2021-02-27T05:07:29.461+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -20025,7 +20317,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T04:54:56.141+00:00",
+    "appointments_last_fetched": "2021-02-27T05:07:29.461+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
@@ -20148,7 +20440,7 @@
     "appointments": [
     ],
     "appointments_available": false,
-    "appointments_last_fetched": "2021-02-27T04:54:56.141+00:00",
+    "appointments_last_fetched": "2021-02-27T05:07:29.461+00:00",
     "appointments_raw": {
       "both_doses": {
         "error": [
